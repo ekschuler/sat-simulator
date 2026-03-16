@@ -1,0 +1,608 @@
+{
+  "moduleId": "algebra_practice_bank",
+  "timeSeconds": 1,
+  "mode": "practice",
+  "setId": "algebra_practice_bank",
+  "title": "Algebra Practice Bank",
+  "timed": false,
+
+  "sidebar": {
+    "groupBy": ["domain", "topic", "level"]
+  },
+
+  "questions": [
+    {
+      "id": "A-L1-002",
+      "type": "mcq",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Systems of Equations",
+        "skill": "Solving Linear Systems"
+      },
+
+      "level": 1,
+      "set": "Algebra Practice",
+      "tags": ["systems", "linear", "foundation"],
+
+      "stem": "The graphs of the equations \\(y=3x-5\\) and \\(y = \\frac{1}{3}x\\) intersect how many times in the \\(xy\\)-plane?",
+
+      "choices": [
+        "\\(0\\)",
+        "\\(1\\)",
+        "\\(2\\)",
+        "\\(3\\)"
+      ],
+
+      "answerIndex": 1,
+
+      "explanation": "<div class='explanation-step'>Add the two equations to eliminate \\(y\\).</div><div class='explanation-math'>$$\\begin{aligned}(x+y)+(x-y) &= 5+1 \\\\ 2x &= 6 \\\\ x &= 3\\end{aligned}$$</div><div class='explanation-step'>Substitute \\(x=3\\) into \\(x+y=5\\).</div><div class='explanation-math'>$$3+y=5 \\Rightarrow y=2$$</div><div class='explanation-step'>The solution is \\((3,2)\\).</div>"
+    },
+
+    {
+      "id": "A-L1-003",
+      "type": "gridin",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Equations and Inequalities",
+        "skill": "Solving Equations"
+      },
+
+      "level": 1,
+      "set": "Algebra Practice",
+      "tags": ["equations", "solving"],
+
+      "stem": "<div style='text-align:center;'>$$n-25=130$$</div><div style='margin-top:12px;'>What value of \\(n\\) is a solution to the given equation?</div>",
+
+      "answer": "155",
+      "answersAccepted": ["155"],
+
+      "validation": {
+        "allowDecimal": false,
+        "allowFraction": false,
+        "allowNegative": true,
+        "maxChars": 6
+      },
+
+      "explanation": "blah"
+    },
+
+    {
+      "id": "A-L2-001",
+      "type": "mcq",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Functions",
+        "skill": "Modeling"
+      },
+
+      "level": 2,
+      "set": "Algebra Practice",
+      "tags": ["functions", "linear functions", "word problems"],
+
+      "stem": "Lisa studies vocabulary flash cards at a rate of \\(4\\) cards per minute and science flash cards at a rate of \\(6\\) flash cards per minute.  She studies vocabulary for \\(v\\) minutes and science cards for \\(s\\) minutes for a combined total of \\(42\\) flash cards.  Which equation represents this situation?",
+
+      "choices": [
+        "\\(\\frac{1}{4} v+\\frac{1}{6} s=42\\)",
+        "\\(4v+6s=42\\)",
+        "\\(\\frac{1}{4}v+\\frac{1}{6} s=420\\)",
+        "\\(4v+6s=420\\)"
+      ],
+
+      "answerIndex": 1,
+
+      "explanation": "blah"
+    },
+    {
+      "id": "A-L2-004",
+      "type": "gridin",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Systems of Equations",
+        "skill": "Solving Linear Systems"
+      },
+
+      "level": 2,
+      "set": "Algebra Practice",
+      "tags": ["systems", "linear"],
+
+      "stem": "<div class='stem-equation'>$$2y+50=72$$</div><div class='stem-text'>What is the solution to the given equation?</div>",
+
+      "answer": "11",
+      "answersAccepted": ["11"],
+
+      "validation": {
+        "allowDecimal": false,
+        "allowFraction": false,
+        "allowNegative": true,
+        "maxChars": 6
+      },
+      "explanation": "blah"
+    },
+{
+      "id": "A-L3-002",
+      "type": "mcq",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Equations and Inequalities",
+        "skill": "Literal Equations"
+      },
+
+      "level": 3,
+      "set": "Algebra Practice",
+      "tags": ["literal equations"],
+
+      "stem": "<div class='stem-equation'>$$9c+16d=f$$</div><div class='stem-text'>The given equation relates \\(c\\), \\(d\\), and \\(f\\). Which equation correctly expresses \\(c\\) in terms of \\(d\\) and \\(f\\)?</div>",
+
+      "choices": [
+        "\\(c=\\frac{16d-f}{9}\\)",
+        "\\(c=\\frac{1}{9}f-16d\\)",
+        "\\(c=\\frac{f-16d}{9}\\)",
+        "\\(c=9f-16d\\)"
+      ],
+
+      "answerIndex": 0,
+
+      "explanation": "blah"
+    },
+    {
+      "id": "A-L3-003",
+      "type": "mcq",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Systems of Equations",
+        "skill": "Solving Linear Systems"
+      },
+
+      "level": 3,
+      "set": "Algebra Practice",
+      "tags": ["systems", "linear", "foundation"],
+
+      "stem": "<div class='stem-equation'>$$12x-20y=32$$</div><div class='stem-equation'>$$3x-5y=8$$</div><div class='stem-text'>For each real number, \\(k\\), which of the following points lies on the graph of each equation in the \\(xy\\)-plane for the given system?</div>",
+
+      "choices": [
+        "\\((\\frac{k}{4}+8,-\\frac{k}{4}+32)\\)",
+        "\\((\\frac{5k}{3}+\\frac{8}{3},k)\\)",
+        "\\((k,-\\frac{3k}{5}+\\frac{8}{5})\\)",
+        "\\((k, \\frac{5k}{3}+\\frac{8}{3})\\)"
+      ],
+
+      "answerIndex": 2,
+
+      "explanation": "blah"
+    },
+    {
+      "id": "AM-L1-006",
+      "type": "mcq",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Polynomials",
+        "skill": "Factoring"
+      },
+
+      "level": 1,
+      "set": "Advanced Math Practice",
+      "tags": ["polynomials", "quadratics", "factoring"],
+
+      "stem": "<div class='stem-text'>Which expression is equivalent to \\(x^2-36\\)?</div>",
+
+      "choices": [
+        "\\((x-9)(x-4)\\)",
+        "\\((x-6)^2\\)",
+        "\\((x-6)(x+6)\\)",
+        "\\((x-18)(x-2)\\)"
+      ],
+
+      "answerIndex": 2,
+
+      "explanation": "blah"
+    },
+    {
+      "id": "AM-L1-008",
+      "type": "mcq",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Exponents and Radicals",
+        "skill": "Laws of Exponents"
+      },
+
+      "level": 1,
+      "set": "Advanced Math Practice",
+      "tags": ["exponents", "laws of exponents", "simplifying"],
+
+      "stem": "<div class='stem-text'>Which expression is equivalent to \\((a^{-4}b^{}c^{7} )(a^{6} b^{3} c^{2} )\\), where \\(a\\), \\(b\\), and \\(c\\) are positive?</div>",
+
+      "choices": [
+        "\\(a^{-24} b^{3} c^{14}\\)",
+        "\\(a^{2}b^{4}c^{9}\\)",
+        "\\(a^{-10} b^{-2} c^{5}\\)",
+        "\\(a^{-12} b^{6} c^{-5}\\)"
+      ],
+
+      "answerIndex": 1,
+
+      "explanation": "blah"
+    },
+    {
+      "id": "AM-L2-002",
+      "type": "mcq",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Functions",
+        "skill": "Substitute values"
+      },
+
+      "level": 2,
+      "set": "Advanced Math Practice",
+      "tags": ["functions", "evaluating"],
+
+      "stem": "<div class='stem-text'>The function \\(h\\) is defined by \\(h(x)=x^2-8\\). Which can be a value of \\(x\\) when \\(h(x)=24\\)?</div>",
+
+      "choices": [
+        "\\(\\sqrt3\\)",
+        "\\(2\\sqrt2\\)",
+        "\\(4\\)",
+        "\\(4\\sqrt2\\)"
+      ],
+
+      "answerIndex": 3,
+
+      "explanation": "blah"
+    },
+    {
+      "id": "AM-L2-004",
+      "type": "mcq",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Quadratic Functions",
+        "skill": "Modeling"
+      },
+
+      "level": 2,
+      "set": "Advanced Math Practice",
+      "tags": ["functions", "evaluating"],
+
+      "stem": "<div class='stem-text'>A ball is rolled off of a roof.  The equation \\(h=-16t^2-25t+44\\) represents this situation, where \\(h\\) is the height of the ball above the ground, in feet, \\(t\\) seconds after it is rolled off of the roof.  Which number represents the height, in feet, of the roof off which the ball was rolled?",
+
+      "choices": [
+        "\\(0\\)",
+        "\\(16\\)",
+        "\\(25\\)",
+        "\\(44\\)"
+      ],
+
+      "answerIndex": 3,
+
+      "explanation": "blah"
+    },
+    {
+      "id": "AM-L3-001",
+      "type": "mcq",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Rational Expressions",
+        "skill": "Simplify"
+      },
+
+      "level": 3,
+      "set": "Advanced Math Practice",
+      "tags": ["rational expressions", "adding fractions"],
+
+      "stem": "<div class='stem-text'>Which expression is equivalent to \\(\\frac{3}{(5+2k)}-\\frac{1}{(k+2)}\\)?",
+
+      "choices": [
+        "\\(\\frac{(k+1)}{(5+2k)(k+2)}\\)",
+        "\\(\\frac{(5k+1)}{(5+2k)(k+2)}\\)",
+        "\\(\\frac{2}{(k+3)}\\)",
+        "\\(-\\frac{(k+1)}{(k+1)(4k-5)}\\)"
+      ],
+
+      "answerIndex": 0,
+
+      "explanation": "blah"
+    },
+    {
+      "id": "AM-L3-004",
+      "type": "mcq",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Rational Expressions",
+        "skill": "Simplify"
+      },
+
+      "level": 3,
+      "set": "Advanced Math Practice",
+      "tags": ["rational expressions", "adding fractions"],
+
+      "stem": "<div class='stem-equation'>$$g(x)=3x^2+42x-98$$</div><div class='stem-text'>The function \\(h\\) is defined by \\(h(x)=g(x-8)\\). For what value of \\(x\\) does \\(h(x)\\) reach its minimum?</div>",
+
+      "choices": [
+        "\\(8\\)",
+        "\\(1\\)",
+        "\\(-7\\)",
+        "\\(15\\)"
+      ],
+
+      "answerIndex": 1,
+
+      "explanation": "blah"
+    },
+    {
+      "id": "P-L1-003",
+      "type": "mcq",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Problem-solving and Data Analysis",
+        "topic": "Statistics",
+        "skill": "Median"
+      },
+
+      "level": 1,
+      "set": "Problem-solving and Data Analysis Practice",
+      "tags": ["statistics", "median"],
+
+      "stem": "<div class='stem-equation'>$$118,131,150,152,206,208,223,224,271,300,305$$</div><div class='stem-text'>What is the median of the data shown?</div>",
+
+      "choices": [
+        "\\(206\\)",
+        "\\(207\\)",
+        "\\(208\\)",
+        "\\(305\\)"
+      ],
+
+      "answerIndex": 2,
+
+      "explanation": "blah"
+    },
+    {
+      "id": "P-L1-004",
+      "type": "mcq",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Problem-solving and Data Analysis",
+        "topic": "Problem-solving",
+        "skill": "Rates"
+      },
+
+      "level": 1,
+      "set": "Problem-solving and Data Analysis Practice",
+      "tags": ["unit rates", "proportions"],
+
+      "stem": "<div class='stem-text'>A machine at a particular factory labels \\(18\\) products per minute at a constant rate.  At this rate, how long will it take, in minutes, for the machine to label \\(270\\) products?</div>",
+
+      "choices": [
+        "\\(15\\)",
+        "\\(252\\)",
+        "\\(288\\)",
+        "\\(4,050\\)"
+      ],
+
+      "answerIndex": 0,
+
+      "explanation": "blah"
+    },
+    {
+      "id": "P-L2-003",
+      "type": "gridin",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Problem-solving and Data Analysis",
+        "topic": "Statistics",
+        "skill": "Mean"
+      },
+
+      "level": 2,
+      "set": "Problem-solving and Data Analysis Practice",
+      "tags": ["mean", "average"],
+
+      "stem": "<div class='stem-text'>A list of $8$ data values is shown.</div><div class='stem-equation'>$$4,22,19,8,41,5,16,5$$</div><div class='stem-text'>What is the mean of this data set?</div>",
+
+      "answer": "15",
+      "answersAccepted": ["15"],
+
+      "validation": {
+        "allowDecimal": false,
+        "allowFraction": false,
+        "allowNegative": true,
+        "maxChars": 6
+      },
+
+      "explanation": "blah"
+    },
+    {
+      "id": "P-L3-001",
+      "type": "mcq",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Problem-solving and Data Analysis",
+        "topic": "Statistics",
+        "skill": "Mean"
+      },
+
+      "level": 3,
+      "set": "Problem-solving and Data Analysis Practice",
+      "tags": ["mean", "average"],
+
+      "stem": "<div class='stem-text'>The engineering department at a company has $33$ new employees whose mean starting salary is \\(\\$84,000\\). The sales department at this same company has $42$ new employees whose mean starting salary is \\(\\$47,000\\). No other department at this company has new employees. The salaries of the new employees of these two departments are entered into a spreadsheet to calculate the mean salary for new employees at this company.  What is the mean salary for new employees at this company?</div>",
+
+      "choices": [
+        "\\(\\$37,000.00\\)",
+        "\\(\\$63,280.00\\)",
+        "\\(\\$65,500.00\\)",
+        "\\(\\$131,000.00\\)"
+      ],
+
+      "answerIndex": 1,
+
+      "explanation": "blah"
+    },
+    {
+      "id": "G-L1-002",
+      "type": "mcq",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Geometry and Trigonometry",
+        "topic": "Triangles",
+        "skill": "Similarity"
+      },
+
+      "level": 1,
+      "set": "Geometry and Trigonometry Practice",
+      "tags": ["similar triangles", "tangent"],
+
+      "stem": "<div class='stem-text'>Triangles \\(CDE\\) and \\(LMN\\) are similar triangles, where angles \\(D\\) and \\(M\\) are right angles and angle \\(C\\) corresponds to angle \\(L\\).  If \\(\\tan(L)=\\frac{485}{476}\\), what is the value of \\(\\tan(C)\\)?</div>",
+
+      "choices": [
+        "\\(\\frac{476}{93}\\)",
+        "\\(\\frac{308}{317}\\)",
+        "\\(\\frac{485}{476}\\)",
+        "\\(\\frac{93}{476}\\)"
+      ],
+
+      "answerIndex": 2,
+
+      "explanation": "blah"
+    },
+    {
+      "id": "G-L1-004",
+      "type": "gridin",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Geometry and Trigonometry",
+        "topic": "Perimeter, Area, and Volume",
+        "skill": "Area"
+      },
+
+      "level": 1,
+      "set": "Geometry and Trigonometry Practice",
+      "tags": ["area", "rectangles"],
+
+      "stem": "<div class='stem-text'>What is the area, in square feet, of a rectangular garden with a length of $28$ feet (ft) and a width of $61$ ft?</div>",
+
+      "answer": "1,708",
+      "answersAccepted": ["1,708", "1708"],
+
+      "validation": {
+        "allowDecimal": false,
+        "allowFraction": false,
+        "allowNegative": true,
+        "maxChars": 6
+      },
+
+      "explanation": "blah"
+    },
+    {
+      "id": "G-L2-001",
+      "type": "mcq",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Geometry and Trigonometry",
+        "topic": "Perimeter, Area, and Volume",
+        "skill": "Surface Area"
+      },
+
+      "level": 2,
+      "set": "Geometry and Trigonometry Practice",
+      "tags": ["surface area"],
+
+      "stem": "<div class='stem-text'>The edge length of a cube is \\(54\\) centimeters.  What is the surface area, in square centimeters, of the cube?</div>",
+
+      "choices": [
+        "\\(216\\)",
+        "\\(2,916\\)",
+        "\\(17,496\\)",
+        "\\(157,464\\)"
+      ],
+
+      "answerIndex": 2,
+
+      "explanation": "blah"
+    },
+    {
+      "id": "G-L2-002",
+      "type": "mcq",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Geometry and Trigonometry",
+        "topic": "Perimeter, Area, and Volume",
+        "skill": "Surface Area"
+      },
+
+      "level": 2,
+      "set": "Geometry and Trigonometry Practice",
+      "tags": ["surface area"],
+
+      "stem": "<div class='stem-text'>In triangles \\(GHI\\) and \\(JKL\\), sides \\(GH\\) and \\(JK\\) each have lengths of \\(4\\) inches and angles \\(I\\) and \\(L\\) each have measure \\(83°\\). Which additional piece of information is sufficient to determine whether triangle \\(GHI\\) is congruent to triangle \\(JKL\\)?</div>",
+
+      "choices": [
+        "The measures of angles \\(G\\) and \\(J\\)\\)",
+        "The length of side \\(GI\\)",
+        "The lengths of sides \\(HI\\) and \\(KL\\)",
+        "No additional information necessary"
+      ],
+
+      "answerIndex": 0,
+
+      "explanation": "blah"
+    },
+    {
+      "id": "G-L3-001",
+      "type": "mcq",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Geometry and Trigonometry",
+        "topic": "Perimeter, Area, and Volume",
+        "skill": "Area Ratios"
+      },
+
+      "level": 3,
+      "set": "Geometry and Trigonometry Practice",
+      "tags": ["surface area"],
+
+      "stem": "<div class='stem-text'>Square F has a side length of \\(228x\\) and square G has a side length of \\(4x\\), where \\(x\\) is a positive constant.  The area of square F is how many times the area of square G?</div>",
+
+      "choices": [
+        "\\(57\\)",
+        "\\(114\\)",
+        "\\(228\\)",
+        "\\(3,249\\)"
+      ],
+
+      "answerIndex": 3,
+
+      "explanation": "blah"
+    }
+  ]
+}
