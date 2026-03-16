@@ -863,18 +863,21 @@ function startReview(mode) {
 
     if (reviewIndices.length === 0) {
       document.body.innerHTML = `
-        <div class="appPage">
-          <h1>Great work 🎉</h1>
-          <div class="scoreBanner" style="text-align:center;">
-            <div class="scoreMain">No missed questions</div>
-            <div class="scoreSub">You earned points on every question in this module.</div>
-            <div style="margin-top:16px;display:flex;justify-content:center;gap:10px;flex-wrap:wrap;">
-              <button class="reviewMissedBtn" onclick="backToSummary()">Back to Summary</button>
-              <button class="reviewMissedBtn secondary" onclick="startReview('all')">Review all questions</button>
-            </div>
-          </div>
-        </div>
-      `;
+  <div class="appPage">
+    <h1 class="appTitle">Great work 🎉</h1>
+    <p class="appSubtitle">You answered every question correctly in this module.</p>
+
+    <div class="scoreBanner appCard" style="text-align:center;">
+      <div class="scoreMain">No missed questions</div>
+      <div class="scoreSub">You earned points on every question in this module.</div>
+
+      <div class="appActionRow">
+        <button class="reviewMissedBtn" onclick="backToSummary()">Back to Summary</button>
+        <button class="reviewMissedBtn secondary" onclick="startReview('all')">Review all questions</button>
+      </div>
+    </div>
+  </div>
+`;
       return;
     }
   } else {
@@ -944,11 +947,11 @@ answerHTML = q.choices.map((choice, idx) => {
   }
 
   document.body.innerHTML = `
-    <div style="max-width:900px;margin:40px auto;font-family:system-ui;">
-      <div class="appHeaderRow">
-        <button class="reviewMissedBtn secondary" onclick="backToSummary()">Back to Summary</button>
-        <div style="font-weight:800;">${reviewLabel}</div>
-      </div>
+  <div class="appPage">
+    <div class="appHeaderRow">
+      <button class="reviewMissedBtn secondary" onclick="backToSummary()">Back to Summary</button>
+      <div class="appSubtitle" style="margin:0;font-weight:800;color:#111;">${reviewLabel}</div>
+    </div>
 
 <div class="scoreBanner appCard" style="text-align:left;">
         <div class="q-header">
