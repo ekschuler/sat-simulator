@@ -1050,7 +1050,7 @@ function openCalculator() {
 function closeCalculator() {
   const drawer = document.getElementById("calculatorDrawer");
   if (!drawer) return;
-  drawer.style.display = "none";
+  drawer.classList.remove("open");
 }
 function buildPracticeSidebarTree(questions) {
   const tree = {};
