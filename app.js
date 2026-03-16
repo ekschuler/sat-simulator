@@ -1043,8 +1043,7 @@ function renderScoreBanner() {
 function openCalculator() {
   const drawer = document.getElementById("calculatorDrawer");
   if (!drawer) return;
-
-  drawer.classList.toggle("open");
+  drawer.classList.add("open");
 }
 
 function closeCalculator() {
