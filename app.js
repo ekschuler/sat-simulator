@@ -863,7 +863,7 @@ function startReview(mode) {
 
     if (reviewIndices.length === 0) {
       document.body.innerHTML = `
-        <div style="max-width:900px;margin:40px auto;font-family:system-ui;">
+        <div class="appPage">
           <h1>Great work 🎉</h1>
           <div class="scoreBanner" style="text-align:center;">
             <div class="scoreMain">No missed questions</div>
@@ -945,12 +945,12 @@ answerHTML = q.choices.map((choice, idx) => {
 
   document.body.innerHTML = `
     <div style="max-width:900px;margin:40px auto;font-family:system-ui;">
-      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:18px;flex-wrap:wrap;">
+      <div class="appHeaderRow">
         <button class="reviewMissedBtn secondary" onclick="backToSummary()">Back to Summary</button>
         <div style="font-weight:800;">${reviewLabel}</div>
       </div>
 
-      <div class="scoreBanner" style="text-align:left;">
+<div class="scoreBanner appCard" style="text-align:left;">
         <div class="q-header">
           <div class="q-num">Question ${index + 1} of ${data.questions.length}</div>
           <div class="q-skill">${formatSkill(q.skill)}</div>
@@ -1313,14 +1313,15 @@ function submitTest() {
     }
   });
 
-  let reviewHTML = `
-    <div style="max-width:900px;margin:40px auto;font-family:system-ui;">
-      <h1>Test Complete</h1>
-      <div id="scoreSummary" class="scoreBanner"></div>
-  `;
+let reviewHTML = `
+  <div class="appPage">
+    <h1 class="appTitle">Test Complete</h1>
+    <p class="appSubtitle">Here’s your performance summary for this module.</p>
+    <div id="scoreSummary" class="scoreBanner"></div>
+`;
 
   // Skill Breakdown
-  reviewHTML += `<h3 style="margin-top:20px;">Skill Breakdown</h3>`;
+  reviewHTML += `<h3 class="appSectionTitle">Skill Breakdown</h3>`;
   reviewHTML += `<div class="skillBreakdownGrid">`;
 
   Object.entries(tree).forEach(([domain, topics]) => {
