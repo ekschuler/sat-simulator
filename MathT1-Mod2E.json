@@ -1,0 +1,414 @@
+
+{
+  "moduleId": "MathT1_Mod2E",
+  "timeSeconds": 2100,
+  "questions": [
+{
+  "id": "MathT1-2E-001",
+  "type": "gridin",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Linear Functions",
+    "skill": "Evaluating Functions"
+  },
+  "stem": "If \\(y=\\frac{1}{2}x-9\\), what is the value of \\(y\\) when \\(x=22\\)?",
+  "answer": "2",
+      "answersAccepted": ["2"],
+      "validation": {
+        "format": "number",
+        "allowNegative": true,
+        "allowDecimal": true,
+        "allowFraction": false,
+        "maxChars": 8
+      },
+  "explanation": "<div class='explanation-step'>To find the value of \\(y\\), substitute \\(22\\) in for \\(x\\) and evaluate.</div><div class='explanation-math'>$$\\begin{aligned} y&=\\frac{1}{2}x-9\\\\ y&=\\frac{1}{2}(22)-9\\\\ y&=11-9\\\\ y&=2 \\end{aligned}$$</div>"
+
+},
+{
+  "id": "MathT1-2E-002",
+  "type": "mcq",
+  "skill": {
+    "domain": "Geometry and Trigonometry",
+    "topic": "Triangles",
+    "skill": "Finding Angle Measures"
+},
+  "stem": "In triangle \\(JKL\\), the measure of angle \\(J\\) is \\(24\\circ\\) and the measure of angle \\(L\\) is \\(43\\circ\\).  What is the measure of angle \\(K\\)?",
+  "choices": [
+    "\\(113^\\circ\\)",
+    "\\(67^\\circ\\)",
+    "\\(23^\\circ\\)",
+    "\\(19^\\circ\\)"
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>Use the Triangle Sum Property, the sum of the angles of a triangle is \\(180^\\circ\\), to solve for the measure of angle \\(K\\).</div><div class='explanation-math'>$$\\begin{aligned} m\\angle J + m\\angle K + m\\angle L&=180\\\\ 24 + m\\angle K + 43&=180\\\\ \\cancel{67} + m\\angle K - \\cancel{67}&=180-67\\\\ m\\angle K &= 113 \\end{aligned}$$</div>"
+},
+{
+  "id": "MathT1-2E-003",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Systems of Equations",
+    "skill": "Solving Linear Systems"
+},
+  "stem": "<div class='stem-equation'>$$3x-3y=12$$</div><div class='stem-equation'>$$4x+6y=6$$</div><div class='stem-text'>The solution to the given system of equations is \\((x,y)\\).  What is the value of \\(x\\)?</div>",
+  "choices": [
+    "\\(-1\\)",
+    "\\(1\\)",
+    "\\(3\\)",
+    "\\(6\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>Solve this system of equations by elimination method.  Since the coefficients of \\(x\\) or \\(y\\) are not equal or opposites, multiply the first equation by \\(2\\) to eliminate the \\(y\\)s;</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}  2(3x-3y)&=(12)\times2 \\\\6x-6y&=24 \\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}begin{array}{rcl}6x & -6y  & = 24\\\\+ 4x &+6y & =30\\\\ \\hline & 10x & = 30\\\\& x & =3\\end{array} \\end{aligned}$$</div></div></div>"
+},
+{
+  "id": "MathT1-2E-004",
+  "type": "gridin",
+  "skill": {
+    "domain": "Problem-solving and Data Analysis",
+    "topic": "Statistics",
+    "skill": "Finding the Median"
+},
+  "stem": "<div class='stem-equation'>$$7,16,19,21,21,23,24,35,36,40,41$$</div><div class='stem-text'>What is the median of the data shown?</div>",
+  "answer": "23",
+      "answersAccepted": ["23"],
+      "validation": {
+        "format": "number",
+        "allowNegative": true,
+        "allowDecimal": true,
+        "allowFraction": false,
+        "maxChars": 8
+      },
+  "explanation": "<div class='explanation-step'>The median is the middle number of an ordered set.  This set is already ordered. To find the middle number, determine how many number are in the set.  There are \\(11\\), so there will be \\(\\frac{11-1}{2}=5\\) numbers on either side of the median.  Therefore, the median is the sixth value from the left.  Alternatively, cross out pairs of numbers, starting with the smallest and largest, then the second smallest and second largest, continuing in this pattern until you reach the middle, or the median.  This method is pictured below, and the median is \\(23\\).</div><div class='stem-image'><img src='assets/Test1-2A-4A.png'></div>"
+},
+{
+  "id": "MathT1-2E-005",
+  "type": "mcq",
+  "skill": {
+    "domain": "Problem-solving and Data Analysis",
+    "topic": "Percents",
+    "skill": "Calculating Percentages"
+},
+  "stem": "<div class='stem-text'>What is \\(20\\%\\) of \\(\\text{2,340}\\)?</div>",
+  "choices": [
+    "\\(214\\)",
+    "\\(468\\)",
+    "\\(\\text{1,872}\\)",
+    "\\(\\text{2,320}\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='stem-text'>To find \\(20\\%\\) of \\(\\text{2,340}\\), multiply the decimal equivalent of \\(20\\%\\), which is \\(0.2\\) by \\(\\text{2,340}\\).  \\(0.2 \\times \\text{2,340}=468\\).</div>"
+},
+{
+  "id": "MathT1-2E-006",
+  "type": "gridin",
+  "skill": {
+    "domain": "Problem-solving and Data Analysis",
+    "topic": "Percents",
+    "skill": "Calculating Percentages"
+},
+  "stem": "<div class='stem-text'>Out of \\(450\\) paintings owned by an art gallery, \\(30\\%\\) of them were on display in an exhibition. How many paintings were not on display in the exhibition?</div>",
+  "answer": "315",
+      "answersAccepted": ["315"],
+      "validation": {
+        "format": "number",
+        "allowNegative": true,
+        "allowDecimal": true,
+        "allowFraction": false,
+        "maxChars": 8
+      },
+  "explanation": "<div class='explanation-step'>Since this question asks for the number of paintings \\textbf{not} on display, and \\(30\\%\\) are on display, \\(70\\%\\) are not on display.  Find \\(70\\%\\) of \\(450\\). \\(0.7 \\times 450 = 315\\).</div>"
+},
+{
+  "id": "MathT1-2E-007",
+  "type": "mcq",
+  "skill": {
+    "domain": "Geometry and Trigonometry",
+    "topic": "Perimeter, Area, and Volume",
+    "skill": "Calculatin Volume"
+},
+  "stem": "<div class='stem-text'>The radius of a cylinder is \\(6\\) centimeters and its height is \\(10\\) centimeters.  What is the volume, in cubic centimeters, of the cylinder?</div>",
+  "choices": [
+    "\\(36\\pi\\)",
+    "\\(60\\pi\\)",
+    "\\(360\\pi\\)",
+    "\\(\\text{1,440}\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>Use the formula for the volume of a cylinder \\(V=\\pi r^2 h\\) to find the volume of this cylinder.</div><div class='explanation-math'>$$\\begin{aligned}\\ V&=\\pi r^2 h\\\\ V&=\\pi (6)^2 \\times 10\\\\ V&=\\pi 36 \\times 10\\\\ V&=360 \\pi\\end{aligned}$$</div>"
+    },
+    {
+  "id": "MathT1-2E-008",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Linear Functions",
+    "skill": "Evaluating Functions"
+},
+  "stem": "<div class='stem-text'>The function \\(f\\) is defined by \\(h(x)=4x-19\\) where \\(y=h(x)\\).  What is the value of \\(x\\) when \\(y=5\\)?</div>",
+  "choices": [
+    "\\(1\\)",
+    "\\(4\\)",
+    "\\(6\\)",
+    "\\(19\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>To find the value of \\(x\\), substitute \\(5\\) in for \\(h(x)\\) in the equation \\(h(x)=4x-19\\), and solve the equation for \\(x\\).</div><div class='explanation-math'>$$\\begin{aligned} h(x)&=4x-19\\\\ 5+19&=4x-\\cancel{19}+\\cancel{19} \\\\ \\frac{24}{4}&=\\frac{\\cancel{4}x}{\\cancel{4}}\\\\ x&=6\\end{aligned}$$</div>"
+},
+{
+  "id": "MathT1-2E-009",
+  "type": "mcq",
+  "skill": {
+    "domain": "Problem-solving and Data Analysis",
+    "topic": "Graphs and Tables",
+    "skill": "Interpreting Graphs"
+},
+  "stem": "<div class='stem-image'><img src='assets/Test1-2E-9.png'></div><div class='stem-text'>The line graph shows the percent of students at a school with birthdays in a particular month. For what month of the year is the percent of students with birthdays that month the largest?</div>",
+  "choices": [
+    "February",
+    "March",
+    "July",
+    "November"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='stem-image'><img src='assets/Test1-2E-9A.png'></div><div class='explanation-step'>The birth month with the largest percent of students with birthdays is the highest point on the \\(y\\)-axis, which is March.</div>"
+    },
+    {
+  "id": "MathT1-2E-010",
+  "type": "gridin",
+  "skill": {
+    "domain": "Geometry and Trigonometry",
+    "topic": "Radians and Degrees",
+    "skill": "Converting from Radians to Degrees"
+},
+  "stem": "<div class='stem-text'>An angle has a measure of \\(\\frac{16\\pi}{15}\\) radians. What is the measure of the angle, in degrees?</div>",
+ "answer": "192",
+      "answersAccepted": ["192"],
+      "validation": {
+        "format": "number",
+        "allowNegative": true,
+        "allowDecimal": true,
+        "allowFraction": false,
+        "maxChars": 8
+      },
+  "explanation": "<div class='explanation-step'>To convert an angle from radians to degrees, multiply the angle by \\(\\frac{180}{\\pi}\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ &=\\frac{16 \\cancel{\\pi}}{15} \\times \\frac{180}{\\cancel{\\pi}}\\\\ &=\\frac{16 \\times 180}{15}=192\\end{aligned}$$</div><div class='explanation-step'>If you can't remember when to multiply by \\(\\frac{180}{\\pi}\\) as opposed to \\(\\frac{\\pi}{180}\\), think about what you are trying to accomplish in your answer.  Here, to go from radians to degrees, the \\(\\pi\\) must cancel out.  Since it is in the numerator, multiply it such that \\(\\pi\\) is in the denominator to cancel the \\(\\pi\\).</div>"
+},
+{
+  "id": "MathT1-2E-011",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Systems of Equations",
+    "skill": "Solving Linear Systems"
+},
+  "stem": "<div class='stem-text'>A bicycle trip of \\(168\\) miles is completed over two days. The distance completed on the first day is \\(b\\) miles, and the distance completed on the second day is \\(c\\) miles. The distance \\(b\\) is \\(24\\) less than \\(3\\) times the distance \\(c\\). What is the value of \\(b\\)?</div>",
+  "choices": [
+    "\\(48\\)",
+    "\\(64\\)",
+    "\\(96\\)",
+    "\\(120\\)"
+  ],
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>This is a systems of equations problem.  Write two equations relating \\(b\\) and \\(c\\).  The two-day (\\(b\\) and \\(c\\)) bicycle trip was \\(168\\) miles, so \\(b+c=168\\). And since \\(b\\) is \\(24\\) less than \\(3\\) times \\(c\\), \\(b=3c-24\\). Substitute the expression \\(3c-24\\) into the first equation for \\(b\\) and solve.</div><div class='explanation-math'>$$\\begin{aligned} b+c&=168\\\\3c-24+c&=168\\\\4c-\\cancel{24}+\\ancel{24}&=168+24\\\\ \\frac{\\cancel{4}c}{\\cancel{4}}&=\\frac{192}{4}\\\\ c&=48\\end{aligned}$$</div><div class='explanation-step'>The question asks for the value of \\(b\\), so \\(b=168-48=120\\).</div>"
+},
+{
+  "id": "MathT1-2E-012",
+  "type": "mcq",
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Exponential Functions",
+    "skill": "Modeling"
+},
+"stem": "<div class='stem-text'>A population of a particular bird species was \\(800\\) in 2014. The population of birds, \\(b\\), decreased by \\(2\\%\\) each year for the next \\(8\\) years. Which equation best represents this model, where \\(x\\) is the number of years after 2014, for \\(x\\leq8\\)?</div>",
+  "choices": [
+    "\\(b=1.02(800)^x\\)",
+    "\\(b=800(1.02)^x\\)",
+    "\\(b=0.98(800)^x\\)",
+    "\\(b=800(0.98)^x\\)"
+  ],
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>The answer choices all have exponential functions; in the exponential function \\(y=a \\times b^x\\), \\(a\\) is the starting value and \\(b\\) is the growth factor.  In this situation, \\(a=800\\) because \\(800\\) is the starting population of birds, so eliminate A and C. In an exponential decay (decrease) function \\(0<b<1\\), so \\(b=0.98\\), and the correct answer is D.  This can also be shown as a decrease of \\(2\\%\\)because if the population decreases by \\(2\\%\\) each year, \\(1-0.02=0.98\\), or \\(98\\%\\) of the population remains.</div>"
+    },
+    {
+  "id": "MathT1-2E-013",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Line",
+    "skill": "Writing Linear Functions"
+},
+  "stem": "<div class='stem-table-wrap'><table class='stem-table'><tr><th>\\(x\\)</th><th>\\(y\\)</th></tr><tr><td>\\(0\\)</td><td>\\(5\\)</td></tr><tr><td>\\(1\\)</td><td>\\(1\\)</td></tr><tr><td>\\(2\\)</td><td>\\(-3\\)</td></tr></table></div><div class='stem-text'>In the table above, three ordered pairs \\((x,y)\\) are shown and there is a linear relationship between \\(x\\) and \\(y\\). Which of the following equations represents this relationship?</div>",
+  "choices": [
+    "\\(y=5x+1\\)",
+    "\\(y=5x+5\\)",
+    "\\(y=-4x+5\\)",
+    "\\(y=-4x+1\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='stem-image'><img src='assets/Test1-2E-13A.png'></div><div class='explanation-step'>The answers choices are all in slope-intercept form, \\(y=mx+b\\) where \\(m\\) is the slope and \\(b\\) is the \\(y\\)-intercept.  From the table, the \\(y\\)-intercept is \\((0,5)\\).  Eliminate A and D because they have incorrect \\(y\\)-intercepts. From the remaining answers, one slope is positive and one is negative, so you don't need to find the specific slope.  Instead, determine the sign of the slope. In the table, as \\(x\\) increases, \\(y\\) decreases, so the slope is negative, which means C is the correct answer.</div>"
+},
+{
+  "id": "MathT1-2E-014",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Equations and Inequalities",
+    "skill": "Equivalent Equations"
+},
+  "stem": "<div class='stem-equation'>$$15=6n-3$$</div><div class='stem-text'>Which equation is an equivalent equation to the given equation?</div>",
+  "choices": [
+    "\\(45=6n\\)",
+    "\\(12=6n\\)",
+    "\\(18=6n\\)",
+    "\\(5=6n\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>Notice that the answer choices are transformed equations, so there is no need to solve for \\(n\\).  Instead, isolate \\(6n\\) by adding \\(3\\) to both sides, so \\(15+3=6n-\\cancel{3}+\\cancel{3}\\) and \\(18=6n\\).</div>"
+},
+{
+  "id": "MathT1-2E-015",
+  "type": "gridin",
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Quadratic Functions",
+    "skill": "Finding the Vertex (Max/min)"
+},
+  "stem": "<div class='stem-equation'>$$y =x^2+24x-9$$</div><div class='stem-text'>The given equation relates the variables \\(x\\) and \\(y\\). What is the value of \\(x\\) where the value of \\(y\\) reaches its minimum?</div>",
+  "answer": "-12",
+      "answersAccepted": ["-12"],
+      "validation": {
+        "format": "number",
+        "allowNegative": true,
+        "allowDecimal": true,
+        "allowFraction": false,
+        "maxChars": 8
+      },
+  "explanation": "<div class='explanation-step'>The minimum value of \\(x\\) occurs at the vertex of the parabola.  To find the vertex, use \\(x=-\\frac{b}{2a}\\) where \\(y=ax^2+bx+c\\).  In the function \\(y =x^2+24x-9\\), \\(a=1\\) and \\(b=24\\).</div><div class='explanation-math'>$$\\begin{aligned} x&= -\\frac{b}{2a}\\\\ x&= -\\frac{24}{2(1)}=-12\\end{aligned}$$</div>"
+},
+{
+  "id": "MathT1-2E-016",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Equations and Inequalities",
+    "skill": "Modeling"
+},
+  "stem": "<div class='stem-text'>Joanna charges a \\(\\$75\\) flat fee as well as \\(\\$40\\) per hour for her consulting services.  Joanna plans to take a consulting job that will last \\(h\\) hours and she wants to earn a minimum of \\(\\$350\\) for the job.  Which inequality represents this situation?</div>",
+    "choices": [
+      "\\(75+40h\\geq350\\)",
+      "\\(40+75h\\geq350\\)",
+      "\\(75h\\geq350\\)",
+      "\\(40h\\geq350\\)"
+      ],
+    "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>In linear equations and inequalities, flat fees are represented by the constant term (or the \\(y\\)-intercept). Since \\(75\\) is a flat fee, the only possible answer choice is A. Additionally, \\(\\$40\\) per hour is a rate, or the slope of the inequality, so should be multiplied by the variable \\(h\\).  This appears in A and D, but D doesn't have the flat fee of \\(\\$75\\).</div>"
+    },
+  {
+  "id": "MathT1-2E-017",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Algebraic Expressions",
+    "skill": "Simplifying Expressions"
+},
+  "stem": "<div class='stem-text'>Which expression is equivalent to \\((5x^2-5x+2)-(x^2+6x-3)\\)?</div>",
+  "choices": [
+    "\\(5x^2-11x-1\\)",
+    "\\(5x^2+x+5\\)",
+    "\\(4x^2-11x-1\\)",
+    "\\(4x^2-11x+5\\)"
+  ],
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>To simplify this expression, eliminate the parentheses and combine like terms (same variables with same exponents).  First, distribute \\(-1\\) to the second set of parentheses.</div><div class='explanation-math'>$$\\begin{aligned} &=(5x^2-5x+2)-1(x^2+6x-3)\\\\ &=5x^2-5x+2-x^2-6x+3\\end{aligned}$$</div><div class='explanation-step'>Combine like terms, so \\(5x^2-x^2-5x-6x+2+3=4x^2-11x+5\\).  Note that after combining the \\(x^2\\) terms, you can eliminate A and B and then focus on the difference between answer choices C and D, which is the constant term (\\(-1\\) or \\(5\\)) to get to the answer more quickly.</div>"
+},
+{
+  "id": "MathT1-2E-018",
+  "type": "mcq",
+  "skill": {
+    "domain": "Geometry and Trigonometry",
+    "topic": "Circles",
+    "skill": "Finding the Radius of an Inscribed Circle"
+},   
+  "stem": "<div class='stem-text'>A circle is inscribed in a square. The side length of the square is \\(\\frac{5\\sqrt{3}}{2}\\) centimeters. What is the length, in centimeters, of the radius of the circle?</div>",
+  "choices": [
+    "\\(\\frac{5\\sqrt{3}}{4}\\)",
+    "\\(\\frac{5\\sqrt{3}}{2}\\)",
+    "\\(5\\sqrt{3}\\)",
+    "\\(5\\)"
+  ],
+  "answerIndex": 0,
+      "explanation": "<div class='stem-image'><img src='assets/Test1-2E-18A.png'></div><div class='explanation-step'>When a circle is inscribed in a square, the length of the radius is one-half the length of the side of the square.  Divide \\(\\frac{5\\sqrt{3}}{2}\\) by \\(2\\).</div><div class='explanation-math'>$$\\begin{aligned} &=\\frac{5\\sqrt{3}}{2} \\div 2\\\\&=\\frac{5\\sqrt{3}}{2} \\times \\frac{1}{2}\\\\ &=\\frac{5\\sqrt{3}}{4}\\end{aligned}$$</div>"
+    },
+    {
+  "id": "MathT1-2E-019",
+  "type": "mcq",
+  "skill": {
+    "domain": "Problem-solving and Data Analysis",
+    "topic": "Rates and Proportional Reasoning",
+    "skill": "Unit Conversions"
+},
+  "stem": "<div class='stem-text'>What length, in centimeters, is equivalent to a length of \\(96\\) meters? (\\(1\\) meter \\(= 100\\) centimeters)</div>",
+  "choices": [
+    "\\(0.096\\)",
+    "\\(0.96\\)",
+    "\\(\\text{9,600}\\)",
+    "\\(\\text{96,000}\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>To convert meters to centimeters, multiply \\(96\\) by \\(100\\).  This can be seen as a unit conversion.</div><div class='explanation-math'>$$\\begin{aligned} 96\\, \\text{\\cancel{meters}}\\times \\frac{100 \\, \\text{centimeters}}{1\\, \\text{\\cancel{meter}}}=\\text{9,600 centimeters}\\end{aligned}$$</div><div class='explanation-step'>Set the hypotenuse equal to the given length \\(5\\sqrt{n}\\) and solve for \\(n\\), so \\(\\sqrt{3,625}=5\\sqrt{n}\\).  Since \\(5\\) appears as a factor outside the square root, this means it was \\(5^2\\) inside the radical, so \\(\\sqrt{5^2 \\times 145}=5\\sqrt{n}\\), and \\(n=145\\).</div>"
+    },
+    {
+  "id": "MathT1-2E-020",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Linear Functions",
+    "skill": "Evaluating Functions"
+},
+  "stem": "<div class='stem-text'>A train is traveling at a constant speed for four hours. The equation \\(d=4r\\) gives the distance \\(d\\), in miles, that the train will have traveled after \\(4\\) hours while traveling at a speed of \\(r\\) miles per hour. How many miles will the train have traveled at a speed of \\(80\\) miles per hour?</div>",
+  "choices": [
+    "\\(4\\)",
+    "\\(84\\)",
+    "\\(320\\)",
+    "\\(400\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>To find the distance of the train after \\(4\\) hours at \\(80\\) miles per hour, substitute \\(80\\) into \\(d=4r\\) for \\(r\\) and evaluate, so \\(d=4(80)=320\\).</div>"
+},
+{
+  "id": "MathT1-2E-021",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Linear Functions",
+    "skill": "Calculating Slope"
+},
+  "stem": "<div class='stem-text'>In the \\(xy\\)-plane, a line that passes through the origin also contains the points \\((t,3)\\) and \\((27,t)\\).  Which of the following could be the value of \\(t\\)?</div>",
+  "choices": [
+    "\\(0\\)",
+    "\\(3\\)",
+    "\\(9\\)",
+    "\\(18\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>When a line passes through the origin, the slope-intercept form is \\(y=mx\\) because the \\(y\\)-intercept is \\(0\\).  Substitute the two given points into the equation \\(y=mx\\).</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} y &= mx\\\\3&=mt\\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} y&=mx\\\\t&=27m\\end{aligned}$$</div></div></div><div class='explanation-step'>Since the question asks for the value of \\(t\\), get \\(m\\) alone in the equation \\(t=27m\\), so \\(m=\\frac{t}{27}\\). Substitute \\(\\frac{t}{27}\\) into the equation \\(3=mt\\) for \\(m\\) and solve for \\(t\\).</div><div class='explanation-math'>$$\\begin{aligned} 3&=mt\\\\3&=\\frac{t}{27}(t)\\\\3 \\times 27&=\\frac{t^2}{\\cancel{27}} \\times{\\cancel{27}}\\\\ \\sqrt{81} &= \\sqrt{t^2}\\\\ t&=9\\end{aligned}$$</div>"
+},
+{
+  "id": "MathT1-2E-022",
+  "type": "mcq",
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Circle Equations",
+    "skill": "Finding the Radius"
+},
+  "stem": "<div class='stem-text'>Circle T in the \\(xy\\)-plane has the equation \\((x-9)^2+(y+2)^2=16\\). Circle U has a radius that is three more than the radius of Circle T. The two circles have the same center. The equation for Circle U in the \\(xy\\)-plane is \\((x-9)^2+(y+2)^2=n\\), where \\(n\\) is a constant.  What is the value of \\(n\\)?</div>",
+  "choices": [
+    "\\(361\\)",
+    "\\(49\\)",
+    "\\(38\\)",
+    "\\(7\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>The equation of a circle is \\((x-h)^2+(y-k)^2=r^2\\), where \\((h,k)\\) is the center of the circle and \\(r\\) is the radius.  Circle \\(T\\) has \\(r^2=16\\), so the length of the radius of circle \\(T\\) is \\(4\\).  The radius of the circle \\(U\\) is \\(3\\) more than that of circle \\(T\\), so the radius of circle \\(U\\) is \\(7\\). In circle \\(U\\), \\(r^2=n\\) and \\(r=7\\), so \\(r^2=49\\) and \\(n=49\\).</div>"
+}
+  ]
+}

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard | SAT Math Practice</title>
+  <style>
+    body {
+      margin: 0;
+      background: #f7f7f7;
+      color: #222;
+      font-family: system-ui, sans-serif;
+    }
+
+    .nav {
+      position: sticky;
+      top: 0;
+      background: white;
+      border-bottom: 1px solid #e5e5e5;
+      z-index: 100;
+    }
+
+    .navInner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 16px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .navBrand {
+      font-weight: 800;
+      font-size: 18px;
+    }
+
+    .navLinks {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    .navLinks a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+    }
+
+    .navLinks a:hover {
+      color: #4f46e5;
+    }
+
+    .appPage {
+      max-width: 900px;
+      margin: 40px auto;
+      font-family: system-ui;
+      padding: 0 20px;
+    }
+
+    .appTitle {
+      font-size: 32px;
+      font-weight: 800;
+      margin: 0 0 8px;
+    }
+
+    .appSubtitle {
+      color: #666;
+      margin: 0 0 18px;
+    }
+
+    .dashboardGrid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      margin-top: 24px;
+    }
+
+    .appCard {
+      border: 1px solid #e6e6e6;
+      border-radius: 16px;
+      background: white;
+      padding: 24px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+    }
+
+    .cardTitle {
+      font-size: 20px;
+      font-weight: 800;
+      margin: 0 0 8px;
+    }
+
+    .cardText {
+      color: #666;
+      line-height: 1.5;
+      margin-bottom: 18px;
+    }
+
+    .appActionRow {
+      margin-top: 16px;
+      display: flex;
+      justify-content: flex-start;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .primaryBtn,
+    .secondaryBtn {
+      border: none;
+      border-radius: 10px;
+      padding: 12px 16px;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .primaryBtn {
+      background: #4f46e5;
+      color: white;
+    }
+
+    .primaryBtn:hover {
+      background: #4338ca;
+    }
+
+    .secondaryBtn {
+      background: white;
+      color: #2563eb;
+      border: 1px solid #dbe6ff;
+    }
+
+    .secondaryBtn:hover {
+      background: #eef4ff;
+    }
+
+    .comingSoon {
+      opacity: 0.7;
+    }
+
+    @media (max-width: 800px) {
+      .dashboardGrid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+  <nav class="nav">
+    <div class="navInner">
+      <div class="navBrand">SAT Math Practice</div>
+      <div class="navLinks">
+  <a href="#" id="dashboardTestLink" style="display:none;">Full Test</a>
+<a href="#" id="dashboardPracticeLink" style="display:none;">Practice</a>
+  <a href="#" id="dashboardLogoutBtn">Log Out</a>
+</div>
+    </div>
+  </nav>
+
+<div class="appPage" id="dashboardContent" style="display:none;">
+  <h1 class="appTitle">Welcome back</h1>
+  <p class="appSubtitle">Access your SAT math practice, full test mode, and saved work from one place.</p>
+
+  <div
+    id="gatedMessage"
+    style="
+      display:none;
+      margin: 0 0 20px;
+      padding: 16px 18px;
+      border: 1px solid #e9d5ff;
+      background: #faf5ff;
+      border-radius: 14px;
+      color: #581c87;
+      font-weight: 600;
+      line-height: 1.5;
+    "
+  >
+Full SAT practice and tests are locked. Upgrade to unlock full access, or continue using the free demo.
+  </div>
+
+  <div class="dashboardGrid">
+      <div class="appCard">
+        <h2 class="cardTitle">Start Full Test</h2>
+        <p class="cardText">Begin a timed SAT Math module in the realistic testing interface.</p>
+        <div class="appActionRow">
+          <button id="startTestBtn" class="primaryBtn" type="button" style="display:none;">Upgrade to Unlock</button>
+        </div>
+      </div>
+
+      <div class="appCard">
+        <h2 class="cardTitle">Practice by Topic</h2>
+        <p class="cardText">Choose a topic, filter by level, and work through targeted SAT Math practice.</p>
+        <div class="appActionRow">
+<button id="startPracticeBtn" class="primaryBtn" type="button" style="display:none;">Upgrade to Unlock</button>
+        </div>
+      </div>
+
+<div class="appCard" id="practiceHistoryCard">
+  <h2 class="cardTitle">Practice History</h2>
+  <p class="cardText">Resume recent practice sessions or review work you already completed.</p>
+
+  <div id="practiceHistoryList">
+    <p style="margin:0; color:#666;">Loading practice history...</p>
+  </div>
+</div>
+
+      <div class="appCard comingSoon">
+        <h2 class="cardTitle">View Progress</h2>
+        <p class="cardText">Later, this area will show strengths, weaknesses, trends, and progress over time.</p>
+        <div class="appActionRow">
+          <button class="secondaryBtn" disabled>Coming Soon</button>
+        </div>
+      </div>
+    </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase-config.js"></script>
+<script src="dashboard-auth.js"></script>
+<script>
+  async function applyDashboardAccessState() {
+  const { data: authData, error: authError } = await window.supabaseClient.auth.getUser();
+
+  if (authError) {
+    console.error("Failed to get dashboard user:", authError);
+    return;
+  }
+
+  const user = authData.user;
+
+  if (!user) {
+    return;
+  }
+
+  const { data: profile, error: profileError } = await window.supabaseClient
+    .from("profiles")
+    .select("access_status")
+    .eq("id", user.id)
+    .maybeSingle();
+
+  if (profileError) {
+    console.error("Failed to load dashboard access status:", profileError);
+    return;
+  }
+
+  let accessStatus = profile?.access_status || "demo";
+
+const params = new URLSearchParams(window.location.search);
+if (params.get("paid") === "1") {
+  accessStatus = "paid";
+
+  // remove query param after applying it once
+  const cleanUrl = window.location.pathname;
+  window.history.replaceState({}, "", cleanUrl);
+}
+
+console.log("Dashboard access status:", accessStatus);
+
+  const gatedMessage = document.getElementById("gatedMessage");
+  const startTestBtn = document.getElementById("startTestBtn");
+  const startPracticeBtn = document.getElementById("startPracticeBtn");
+  const dashboardTestLink = document.getElementById("dashboardTestLink");
+  const dashboardContent = document.getElementById("dashboardContent");
+
+  if (gatedMessage && accessStatus !== "paid") {
+    gatedMessage.style.display = "block";
+  }
+
+  if (accessStatus === "paid") {
+  if (dashboardTestLink) {
+    dashboardTestLink.href = "simulator.html?mode=test";
+    dashboardTestLink.style.display = "";
+  }
+
+  if (dashboardPracticeLink) {
+    dashboardPracticeLink.href = "simulator.html?mode=practice&fresh=1";
+    dashboardPracticeLink.style.display = "";
+  }
+
+  if (startTestBtn) {
+    startTestBtn.style.display = "";
+    startTestBtn.textContent = "Start Test";
+    startTestBtn.onclick = () => location.href = "simulator.html?mode=test";
+  }
+
+  if (startPracticeBtn) {
+    startPracticeBtn.style.display = "";
+    startPracticeBtn.textContent = "Start Practice";
+    startPracticeBtn.onclick = () => location.href = "simulator.html?mode=practice&fresh=1";
+  }
+  } else {
+    if (startTestBtn) {
+      startTestBtn.textContent = "Upgrade to Unlock";
+      startTestBtn.onclick = async () => {
+  const { data: result, error: functionError } =
+    await window.supabaseClient.functions.invoke("quick-processor", {
+      body: {}
+    });
+
+  if (functionError) {
+    console.error("Checkout function failed:", functionError);
+    alert("Could not start checkout.");
+    return;
+  }
+
+  if (result?.url) {
+    window.location.href = result.url;
+  }
+};
+    }
+
+    if (startPracticeBtn) {
+      startPracticeBtn.textContent = "Upgrade to Unlock";
+      startPracticeBtn.onclick = async () => {
+  const { data: result, error: functionError } =
+    await window.supabaseClient.functions.invoke("quick-processor", {
+      body: {}
+    });
+
+  if (functionError) {
+    console.error("Checkout function failed:", functionError);
+    alert("Could not start checkout.");
+    return;
+  }
+
+  if (result?.url) {
+    window.location.href = result.url;
+  }
+};
+    }
+
+    if (dashboardTestLink) {
+      dashboardTestLink.style.display = "none";
+    }
+
+    if (dashboardPracticeLink) {
+      dashboardPracticeLink.style.display = "none";
+    }
+  }
+  if (dashboardContent) {
+  dashboardContent.style.display = "block";
+}
+}
+
+  applyDashboardAccessState();
+</script>
+<div style="text-align:center;font-size:13px;color:#888;margin:40px 0 20px;">
+  <div style="margin-bottom:6px;">SAT Math Practice</div>
+
+  <div style="margin-bottom:6px;">
+    <a href="terms.html" style="color:#666;text-decoration:none;margin:0 8px;">Terms</a>
+    <a href="privacy.html" style="color:#666;text-decoration:none;margin:0 8px;">Privacy</a>
+  </div>
+</div>
+
+</body>
+</html>

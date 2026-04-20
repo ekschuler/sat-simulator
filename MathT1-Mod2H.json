@@ -1,0 +1,414 @@
+
+{
+  "moduleId": "MathT1_Mod2C",
+  "timeSeconds": 2100,
+  "questions": [
+{
+  "id": "MathT1-2C-001",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Equations and Inequalities",
+    "skill": "Equivalent Equations"
+  },
+  "stem": "<div class='stem-text'>If \\(6m=24\\), what is the value of \\(8m-5\\)?</div>",
+  "choices": [
+    "\\(4\\)",
+    "\\(27\\)",
+    "\\(32\\)",
+    "\\(43\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>To find the value of \\(8m-5\\), first solve for \\(m\\) and substitute that value into the expression to evaluate it.</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} \\frac{\\cancel{6}m}{\\cancel{6}} &= \\frac{24}{6}\\\\m&=4\\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} &=8m-5\\\\ &=8(4)-5\\\\&=32-5\\\\ &=27\\end{aligned}$$</div></div></div>"
+
+},
+{
+  "id": "MathT1-2C-002",
+  "type": "mcq",
+  "skill": {
+    "domain": "Geometry and Trigonometry",
+    "topic": "Similarity",
+    "skill": "Finding Angle Measures in Similar Triangles"
+},
+  "stem": "<div class='stem-text'>Isosceles triangles \\(ABC\\) and \\(DEF\\) are similar, where \\(A\\) and \\(B\\) correspond to \\(D\\) and \\(E\\), respectively.  Angle \\(A\\) has a measure of \\(104^\\circ\\).  What is the measure of angle \\(D\\)?</div>",
+  "choices": [
+    "\\(38^\\circ\\)",
+    "\\(76^\\circ\\)",
+    "\\(104^\\circ\\)",
+    "\\(142^\\circ\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>Similar triangles have corresponding sides that are proportionate and corresponding angles that are congruent.  In this triangle, \\(\\angle{A}\\) corresponds to \\(\\angle{D}\\), so they are congruent.  Since  \\(m\\angle{A}=104^\\circ\\), \\(m\\angle{D}=104^\\circ\\).</div>"
+},
+{
+  "id": "MathT1-2C-003",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Equations and Inequalities",
+    "skill": "Equivalent Equations"
+},
+  "stem": "<div class='stem-text'>If \\(9(n-5)+32=10(n-5)\\), what is the value of \\((n-5)\\)?</div>",
+  "choices": [
+    "\\(37\\)",
+    "\\(32\\)",
+    "\\(27\\)",
+    "\\(5\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>Since the question asks for the value of \\(n-5\\), examine the equation to determine whether there is a way to find \\(n-5\\) directly instead of solving for \\(n\\).  By subtracting \\(9(n-5)\\) from both sides, the transformed equation will have \\(n-5\\) on the right hand side.</div><div class='explanation-math'>$$\\begin{aligned}\\ \\cancel{9(n-5)}+32-\\cancel{9(n-5)}&=10(n-5)-9(n-5)\\\\ 32&=n-5\\end{aligned}$$</div>"
+},
+{
+  "id": "MathT1-2C-004",
+  "type": "gridin",
+  "skill": {
+    "domain": "Polynomial Functions",
+    "topic": "Evaluating Functions",
+    "skill": ""
+},
+  "stem": "<div class='stem-text'>The function \\(g\\) is defined by \\(g(x)=x^3+30\\). What is the value of \\(g(-3)\\)?</div>",
+  "answer": "3",
+      "answersAccepted": ["3"],
+      "validation": {
+        "format": "number",
+        "allowNegative": true,
+        "allowDecimal": true,
+        "allowFraction": false,
+        "maxChars": 8
+      },
+  "explanation": "<div class='explanation-step'>To find the value of \\(g(-3)\\), substitute \\(-3\\) into the equation for \\(x\\) and evaluate; \\(g(-3)=(-3)^3+30\\), so \\(g(-3)=-27+30=3\\).</div>"
+},
+{
+  "id": "MathT1-2C-005",
+  "type": "gridin",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Linear Functions",
+    "skill": "Parallel and Perpendicular Lines"
+},
+  "stem": "<div class='stem-text'>In the \\(xy\\)-plane, line \\(m\\) is parallel to the line represented by the equation \\(y=3x+7\\) and line \\(m\\) also passes through the point \\((0,1)\\). If line \\(m\\) also passes through the point \\((5,f)\\), what is the value of \\(f\\)?</div>",
+  "answer": "16",
+      "answersAccepted": ["16"],
+      "validation": {
+        "format": "number",
+        "allowNegative": true,
+        "allowDecimal": true,
+        "allowFraction": false,
+        "maxChars": 8
+      },
+  "explanation": "<div class='stem-text'>Line \\(m\\) is parallel to the graph of \\(y=3x+7\\), so the two lines have the same slope.  The slope of \\(y=3x+7\\) is \\(3\\).  Additionally, \\((0,1)\\) is the \\(y\\)-intercept of line \\(m\\).  The slope-intercept equation for line \\(m\\) is therefore \\(y=3x+1\\).  Substitute \\((5,f)\\) into the equation to find the value of \\(f\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ y&=3x+1\\\\ f&=3(5)+1\\\\ f&=15+1\\\\ f&=16\\end{aligned}$$</div>"
+},
+{
+  "id": "MathT1-2C-006",
+  "type": "mcq",
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Circle Equations",
+    "skill": "Writing Equations of Circles"
+},
+  "stem": "<div class='stem-text'>Which of the following equations represents a circle in the \\(xy\\)-plane that intersects the \\(x\\)-axis at exactly one point?</div>",
+  "choices": [
+    "\\((x+32)^2+(y-32)^2=64\\)",
+    "\\((x+8)^2+(y-32)^2=64\\)",
+    "\\((x-2)^2+(y+8)^2=64\\)",
+    "\\((x-2)^2+y^2=16\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>The equation of a circle is \\((x-h)^2+(y-k)^2=r^2\\), where \\((h,k)\\) is the center of the circle and \\(r\\) is the radius.  In order for the circle to intersect the \\(x\\)-axis at one point only, the distance from the center of the circle to a point on the circle (which is the radius) must equal the distance from the center to the \\(x\\)-axis. Since the vertical distance from the center to the \\(x\\)-axis is \\(k\\) (the \\(y\\)-value of the center), the radius must equal this distance \\(k\\).</div><div class='stem-image'><img src='assets/Test1-2H-6A.png'></div><div class='explanation-step'>Test answers to determine whether the distance \\(k\\) is equal to the length of the radius.</div><div class='explanation-step'>A) \\((x+32)^2+(y-32)^2=64\\): the \\(y\\)-value of the center is \\(32\\), so the center is \\(32\\) units from the \\(x\\)-axis.  \\(r^2=64\\), so \\(r=8\\), which is not the same as the distance \\(32\\).</div><div class='explanation-step'>B) \\((x+8)^2+(y-32)^2=64\\): this answer choice has the same \\(k\\)-value and same radius as A, so can be eliminated.</div><div class='explanation-step'>C) \\((x-2)^2+(y+8)^2=64\\): the \\(y\\)-value of the center is \\(-8\\), so the center is \\(8\\) units from the \\(x\\)-axis.  \\(r^2=64\\), so \\(r=8\\), which is the same as the distance \\(8\\) of the center to the \\(x\\)-axis, making this the correct answer.</div>"
+},
+{
+  "id": "MathT1-2C-007",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Equations and Inequalities",
+    "skill": "Number of Solutions"
+},
+  "stem": "<div class='stem-text'>How many solutions does the equation \\(9(16-4n)=-12(3n+12)\\) have?</div>",
+  "choices": [
+    "Zero",
+    "Exactly one",
+    "Exactly two",
+    "Infinitely many"
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>To determine how many solutions this equation has, solve it directly.</div><div class='explanation-math'>$$\\begin{aligned}\\ 9(16-4n)&=-12(3n+12)\\\\ 144-\\cancel{36n}+\\cancel{36n}&=-\\cancel{36n}+\\cancel{36n}-144\\\\ 144&=-144\\end{aligned}$$</div><div class='explanation-step'>This is a false equation, so there is no solution to this equation.</div>"
+    },
+    {
+  "id": "MathT1-2C-008",
+  "type": "mcq",
+  "skill": {
+    "domain": "Geometry and Trigonometry",
+    "topic": "Trigonometry",
+    "skill": "Finding Trigonometric Ratios"
+},
+  "stem": "<div class='stem-text'>In triangle \\(DEF\\), angle \\(D\\) is a right angle and \\(\\tan(E)=\\frac{16}{30}\\).  What is the value of \\(\\cos(F)\\)?</div>",
+  "choices": [
+    "\\(\\frac{30}{16}\\)",
+    "\\(\\frac{16}{34}\\)",
+    "\\(\\frac{30}{34}\\)",
+    "\\(1\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>Draw a right triangle and label it with vertices \\(D\\), \\(E\\), and \\(F\\), where \\(D\\) is the right angle. \\(\\tan(E)=\\frac{16}{30}\\) gives information about the sides of this triangle.  Tangent is the opposite side over the adjacent side, so the side opposite angle \\(E\\), or \\(DF\\) is \\(16\\) and the side adjacent to angle \\(E\\) or \\(DE\\) is \\(30\\).</div><div class='stem-image'><img src='assets/Test1-2H-8A.png'></div><div class='explanation-step'>The cosine is the adjacent side over the hypotenuse, or \\(\\cos(F)=\\frac{DF}{EF}=\\frac{30}{EF}\\). Use the Pythagorean Theorem \\(a^2+b^2=c^2\\) where \\(c=\\) the length of the hypotenuse, to solve for \\(EF\\), the hypotenuse.</div><div class='explanation-math'>$$\\begin{aligned} a^2+b^2&=c^2\\\\ 16^2+30^2&={EF}^2 \\\\ 256+900&={EF}^2\\\\ \\sqrt{\\text{1,156}}&=\\sqrt{{EF}^2}\\\\ EF&=34\\end{aligned}$$</div><div class='explanation-step'>Substitute into \\(\\cos(F)=\\frac{30}{EF}\\) to get \\(\\cos(F)=\\frac{30}{34}\\)</div>"
+},
+{
+  "id": "MathT1-2C-009",
+  "type": "gridin",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Algebraic Expressions",
+    "skill": "Factoring"
+},
+  "stem": "<div class='stem-text'>The expression \\(108k^3+45k^5\\) can be written as \\(nk^3 (12+5k^2 )\\), where \\(n\\) is a constant. What is the value of \\(n\\)?</div>",
+  "answer": "9",
+      "answersAccepted": ["9"],
+      "validation": {
+        "format": "number",
+        "allowNegative": true,
+        "allowDecimal": true,
+        "allowFraction": false,
+        "maxChars": 8
+      },
+  "explanation": "<div class='explanation-step'>If \\(108k^3+45k^5=nk^3 (12+5k^2 )\\), it must be the case that \\(n\\) is the greatest common factor of coefficients \\(108\\) and \\(45\\).  Additionally, since \\(12\\) and \\(5\\) remain in the parentheses, \\(180 \\div 12 = n\\) and \\(45 \\div 5 = n\\).  This means \\(n=9\\).</div>"
+    },
+    {
+  "id": "MathT1-2C-010",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Systems of Equations",
+    "skill": "Solving Systems of Inequalities"
+},
+  "stem": "<div class='stem-equation'>$$y>-x+5$$</div><div class='stem-equation'>$$y\\leq3x-8$$</div><div class='stem-text'>Which point \\((x,y)\\) is a solution to the given system of inequalities in the \\(xy\\)-plane?</div>",
+  "choices": [
+    "\\((10,0)\\)",
+    "\\((0,10)\\)",
+    "\\((-10,0)\\)",
+    "\\((0,-10)\\)"
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>To find the ordered pair solution, substitute answers into each inequality.  The correct answer will make form true statements with both inequalities.</div><div class='explanation-step'>A) \\((10,0)\\):</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} y&>-x+5\\\\0&>-10+5\\\\0&>-5\\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} y&\\leq3x-8\\\\0&\\leq3(10)-8\\\\0&\\leq22\\end{aligned}$$</div></div></div><div class='explanation-step'>Since both of these inequalities are true, A is the correct answer.  See below for an example of an incorrect answer.</div><div class='explanation-step'>B) \\((0,10)\\):</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} y&>-x+5\\\\10&>0+5\\\\10&>5\\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} y&\\leq3x-8\\\\10&\\leq3(0)-8\\\\0&\\nleq-8\\end{aligned}$$</div></div></div><div class='explanation-step'>This ordered pair makes one true and one false inequality, so B is incorrect.</div>"
+},
+{
+  "id": "MathT1-2C-011",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Equations and Inequalities",
+    "skill": "Transforming Literal Equations"
+},
+  "stem": "<div class='stem-equation'>$$\\frac{3}{u}-4=t$$</div><div class='stem-text'>The given equation relates the numbers \\(t\\) and \\(u\\), where \\(u\\ne0\\) and \\(t\\) is greater than \\(-4\\). Which equation correctly expresses \\(u\\) in terms of \\(t\\)?</div>",
+  "choices": [
+    "\\(u=\\frac{3}{t+4}\\)",
+    "\\(u=\\frac{t+4}{3}\\)",
+    "\\(u=\\frac{t}{3}-4\\)",
+    "\\(u=\\frac{t}{3}+4\\)"
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>To solve for \\(u\\), add \\(4\\) to both sides and then divide both sides by \\(3\\).</div><div class='explanation-math'>$$\\begin{aligned} \\frac{3}{u}-\\cancel{4}+\\cancel{4}&=t+4\\\\ \\frac{\\cancel{3}u}{\\cancel{3}}&=\\frac{t+4}{3}\\\\u&=\\frac{t+4}{3}\\end{aligned}$$</div>"
+},
+{
+  "id": "MathT1-2C-012",
+  "type": "mcq",
+  "skill": {
+    "domain": "Geometry and Trigonometry",
+    "topic": "Perimeter, Area, and Volume",
+    "skill": "Area Ratios"
+},
+"stem": "<div class='stem-text'>Square M has a side length of \\(10\\) meters. The area of square N is \\(4\\) times the area of square M. What is the length, in meters, of one side of square N?</div>",
+  "choices": [
+    "\\(5\\)",
+    "\\(6\\)",
+    "\\(14\\)",
+    "\\(20\\)"
+  ],
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>Method \\(1\\): Squares M and N both have four right angles (definition of a square) and proportionate side lengths; this means they are similar (all squares are, in fact, similar).  In similar figures, the ratio of the areas of the two figures is the square of the ratio of their corresponding sides; \\(\\frac{\\text{Area of square N}}{\\text{Area of square M}}=\\left( \\frac{\\text{Side length of N}}{\\text{Side length of M}} \\right)^2\\). The \\(\\frac{\\text{Area of square N}}{\\text{Area of square M}}=4\\), so \\(4=\\left( \\frac{\\text{Side length of N}}{\\text{Side length of M}} \\right)^2\\) and \\(2=\\frac{\\text{Side length of N}}{\\text{Side length of M}}\\).  Substitute the side length of square M, \\(10\\) into the equation to solve for the side length of N.</div><div class='explanation-math'>$$\\begin{aligned}\\2 \\times 10&=\\frac{\\text{Side length of N}}{\\cancel{10}} \\times{\\cancel{10}}\\\\ 20&=\\text{Side length of N} \\end{aligned}$$</div><div class='explanation-step'>Method \\(2\\): If you don't know the relationship between the side length and area ratios of similar figures, this problem can still be solved.  The side length of square M is \\(10\\), so the area is \\(A=10^2=100\\).  Since the area of square N is \\(4\\) times the area of square M, its area is \\(400\\).  To find the side length of square N, take the square root of \\(400\\) (\\(400=s^2\\)), so the side length is \\(20\\).</div>"
+    },
+    {
+  "id": "MathT1-2C-013",
+  "type": "mcq",
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Exponential Functions",
+    "skill": "Modeling"
+},
+  "stem": "<div class='stem-text'>A census finds that there are \\(\\text{32,000}\\) residents in a particular town. \\(10\\) years later, a new census finds that there are \\(\\text{16,000}\\) residents. Assuming exponential decay, the formula \\(I=N(\\frac{1}{2})^{rt}\\) gives the number of residents in the town, where \\(r\\) and \\(N\\) are constants and \\(I\\) is the number of residents \\(t\\) years after the first census. What is the value of \\(r\\)?</div>",
+  "choices": [
+    "\\(\\frac{1}{\\text{16,000}}\\)",
+    "\\(\\frac{1}{10}\\)",
+    "\\(10\\)",
+    "\\(\\text{16,000}\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>In the equation \\(I=N(\frac{1}{2})^{rt}\\), \\(N\\) is the starting value, so \\(N=\text{32,000}\\).  \\(I\\) is the number of residents after \\(t\\) years, so substitute \\(\text{16,000}\\) for \\(I\\) and \\(10\\) for \\(t\\).  Solve this equation for \\(r\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ I&=N(\frac{1}{2})^{rt}\\\\ \\text{16,000}&=\\text{32,000}{(\\frac{1}{2})}^{r(10)}\\\\ \\frac{\\text{16,000}}{\\text{32,000}}&=\\cancel{\\text{32,000}}{(\\frac{1}{2})}^{r(10)} \\div \\cancel{\\text{32,000}}\\\\ \\frac{1}{2}&={(\\frac{1}{2})}^{r(10)}\\end{aligned}$$</div><div class='explanation-step'>\\(\\frac{1}{2}\\) on the left hand side of the equation is equivalent to \\((\\frac{1}{2})^1\\), so \\((\\frac{1}{2})^1=(\\frac{1}{2})^{r(10)}\\).  The equal bases on each side of the equation means you can set the exponents equal, so \\(1=10r\\) and \\(r=\frac{1}{10}\\).</div>"
+},
+{
+  "id": "MathT1-2C-014",
+  "type": "mcq",
+  "skill": {
+    "domain": "Problem-solving and Data Analysis",
+    "topic": "Probability",
+    "skill": "Calculating Compound Probability"
+},
+  "stem": "<div class='stem-text'>A bag contains \\(18\\) blocks, labeled with a number from \\(1\\) through \\(18\\), with a different number appearing on each block. If one block is selected from the bag, what is the probability of selecting a \\(5\\) or a \\(9\\)?</div>",
+  "choices": [
+    "\\(\\frac{1}{18}\\)",
+    "\\(\\frac{2}{18}\\)",
+    "\\(\\frac{5}{18}\\)",
+    "\\(\\frac{16}{18}\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>The probability of an event is \\(\\frac{\\text{desired outcome}}{\\text{total outcomes}}\\).  The desired outcomes are a block with the number \\(5\\) or a block with the number \\(9\\).  The probability of either one of two events occurring is the sum of the two individual probabilities, so \\(1+1=2\\).  The total number of outcomes is \\(18\\).  The probability is \\(\\frac{2}{18}\\).</div>"
+},
+{
+  "id": "MathT1-2C-015",
+  "type": "gridin",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Equations and Inequalities",
+    "skill": "Solving Equations"
+},
+  "stem": "<div class='stem-text'>If \\(\\frac{m}{n}=12\\) and \\(\\frac{2xm}{18n}=12\\), What is the value of \\(x\\)?</div>",
+  "answer": "9",
+      "answersAccepted": ["9"],
+      "validation": {
+        "format": "number",
+        "allowNegative": true,
+        "allowDecimal": true,
+        "allowFraction": false,
+        "maxChars": 8
+      },
+  "explanation": "<div class='explanation-step'>The expression \\(\\frac{2xm}{18n}\\) can be written as \\(\\frac{2x}{18} \\times \\frac{m}{n}\\). \\(\\frac{m}{n}=12\\), so substitute \\(12\\) into the equation and solve for \\(x\\).</div><div class='explanation-math'>$$\\begin{aligned} \\frac{2x}{18} \\times \\cancel{12} \\div \\cancel{12}&=\\frac{12}{12}\\\\ \\frac{2x}{\\cancel{18}} \\times \\cancel{18}&=1 \\times 18\\\\ \\frac{\\cancel{2}x}{\\cancel{2}}&=\\frac{18}{2}\\\\ x&=9\\end{aligned}$$</div>"
+},
+{
+  "id": "MathT1-2C-016",
+  "type": "mcq",
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Polynomial Functions",
+    "skill": "Intercepts"
+},
+  "stem": "<div class='stem-image'><img src='assets/Test1-2C-16.png'></div><div class='stem-text'>The graph of \\(y=g(x)\\) is shown, where the function \\(g\\) is defined by \\(g(x)=ax^4+bx^3+cx^2+dx+e\\) and \\(a\\), \\(b\\), \\(c\\), \\(d\\), and \\(e\\) are constants.  For how many values of \\(x\\) does \\(g(x)=0\\)?</div>",
+    "choices": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+      ],
+    "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>\\(g(x)=0\\) at the \\(x\\)-intercepts, or the points where the graph crosses the \\(x\\)-axis.  This graph intersects the \\(x\\)-axis four times, so the correct answer is D.</div><div class='stem-image'><img src='assets/Test1-2C-16A.png'></div>"
+    },
+  {
+  "id": "MathT1-2C-017",
+  "type": "mcq",
+  "skill": {
+    "domain": "Geometry and Trigonometry",
+    "topic": "Similarity",
+    "skill": "Proving Similar Triangles"
+},
+  "stem": "<div class='stem-text'>In triangles \\(ABC\\) and \\(DEF\\), angles \\(B\\) and \\(E\\) each have measure \\(20\\circ\\), \\(AB=20\\), and \\(DE=4\\).  Which additional piece of information is sufficient to prove that triangle \\(ABC\\) is similar to \\(DEF\\)?</div>",
+  "choices": [
+    "\\(BC=3 \\text{and} EF=3\\)",
+    "\\(AC=15 \\text{and} EF=3\\)",
+    "\\(\\text{The measures of angles} A \\text{and} F \\text{are} 60\\circ \\text{and} 100\\circ, \\text{respectively.}\\)",
+    "\\(\\text{The measures of angles} C \\text{and} F \\text{are} 20\\circ \\text{and} 100\\circ, \\text{respectively.}\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>Similar triangles have corresponding sides that are proportional and corresponding angles that are congruent. To find what additional piece of information is necessary to conclude that the two triangles are similar, draw and label a diagram of similar triangles \\(ABC\\) and \\(DEF\\), and then test answers.</div><div class='stem-image'><img src='assets/Test1-2C-17A.png'></div><div class='explanation-step'>A) \\(BC=3\\) and \\(EF=3\\): If both \\(B\\) and \\(EF\\) are \\(3\\), the ratio of the sides of triangle \\(ABC\\) to triangle \\(DEF\\) is \\(1\\).  But from the given information, that \\(AB=20\\) and \\(DE=4\\), the ratio of the sides is \\(\\frac{20}{4}=5\\), so this answer is incorrect.</div><div class='explanation-step'>B) \\(AC=15\\) and \\(EF=3\\): this answer is incorrect because \\(AC\\) and \\(EF\\) are not corresponding sides, so this is not sufficient information to conclude that the triangles are similar.</div><div class='explanation-step'>C) The measures of angles \\(A\\) and \\(F\\) are \\(60^\\circ\\) and \\(100^\\circ\\), respectively: if \\(m \\angle{A}=60^\\circ\\), then  \\(m \\angle{C}=100^\\circ\\).  And angle \\(C\\) corresponds to angle \\(F\\), which is \\(100^\\circ\\). Since corresponding angles \\(B\\) and \\(E\\) are congruent, and a second pair of corresponding angles are congruent, the triangles are similar.</div>"
+},
+{
+  "id": "MathT1-2C-018",
+  "type": "gridin",
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Polynomial Functions",
+    "skill": "Solving Polynomial Equations"
+},   
+  "stem": "<div class='stem-equation'>$$x^3 (x^2-13)=-36x$$</div><div class='stem-text'>If \\(x>0\\), what is one possible solution to the equation above?</div>",
+  "answer": "2",
+      "answersAccepted": ["2", "3"],
+      "validation": {
+        "format": "number",
+        "allowNegative": true,
+        "allowDecimal": true,
+        "allowFraction": false,
+        "maxChars": 8
+      },
+      "explanation": "<div class='explanation-step'>To begin, expand the left hand side and set the equation equal to zero.</div><div class='explanation-math'>$$\\begin{aligned} \\\\x^3 (x^2-13)&=-36x\\\\ x^5 -13x^3+36x&=\\cancel{-36x}+\\cancel{36x}\\\\ x^5 -13x^3+36x&=0 \\end{aligned}$$</div><div class='explanation-step'>Factor out the greatest common factor, \\(x\\), so \\(x(x^4-13x^2+36)\\).  To factor the remaining polynomial, find factors of \\(36\\) that have a sum of \\(-13\\).  The factors are \\(-9\\) and \\(-4\\) because \\(-9 \times (-4) = 36\\) and \\(-9 + (-4) = -13\\)</div><div class='explanation-math'>$$\\begin{aligned} \\\\ x^5 -13x^3+36x&=0\\\\ x(x^4-13x^2+36)&=0\\\\ x(x^2-9)(x^2-4)&=0\\end{aligned}$$</div><div class='explanation-step'>This is a fourth degree polynomial \\(x^4\\), so the factors have \\(x^2\\).  Each of these binomials can be further factored into the difference of two squares, where \\(x^2-9=(x+3)(x-3)\\) and \\(x^2-4=(x-2)(x+2)\\).  The final polynomial is \\(x(x+3)(x-3)(x-2)(x+2)=0\\).  Use the Zero Product Property to solve for positive values of \\(x\\), so solve \\(x-3=0\\) or \\(x-2=0\\) to get \\(x=3\\) or \\(x=2\\).  The other three solutions are either \\(0\\) or negative, so are not correct.</div>"
+    },
+    {
+  "id": "MathT1-2C-019",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Linear Functions",
+    "skill": "Writing Linear Functions"
+},
+  "stem": "<div class='stem-table-wrap'><table class='stem-table'><tr><th>\\(x\\)</th><th>\\(y\\)</th></tr><tr><td>\\(0\\)</td><td>\\(-3\\)</td></tr><tr><td>\\(4\\)</td><td>\\(-5\\)</td></tr><tr><td>\\(8\\)</td><td>\\(-7\\)</td></tr></table></div><div class='stem-text'>In the table above, three ordered pairs \\((x,y)\\) are shown and there is a linear relationship between \\(x\\) and \\(y\\). Which of the following equations represents this relationship?</div>",
+  "choices": [
+    "\\(y=-3x-5\\)",
+    "\\(y=-3x-3\\)",
+    "\\(y=-\\frac{1}{2} x-3\\)",
+    "\\(y=-\\frac{1}{2}x-5\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='stem-image'><img src='assets/Test1-2C-19A.png'></div><div class='explanation-step'>The answers choices are all in slope-intercept form, \\(y=mx+b\\) where \\(m\\) is the slope and \\(b\\) is the \\(y\\)-intercept.  From the table, the \\(y\\)-intercept is \\((0,-3)\\).  Eliminate A and D because they have incorrect \\(y\\)-intercepts. From the remaining answers, determine whether the slope is \\(-3\\) or \\(-\\frac{1}{2}\\). In the table, when \\(x\\) increases by \\(4\\), \\(y\\) decreases by \\(2\\), so the slope is \\(m=\frac{-2}{4}=-\\frac{1}{2}\\), which means C is the correct answer.</div>"
+    },
+    {
+  "id": "MathT1-2C-020",
+  "type": "mcq",
+  "skill": {
+    "domain": "Problem-solving and Data Analysis",
+    "topic": "Proportional Reasoning",
+    "skill": "Solving Proportions"
+},
+  "stem": "<div class='stem-table-wrap'><table class='stem-table'><tr><th>Survey Responses</th><th>Count</th></tr><tr><td>Robotics</td><td>\\(316\\)</td></tr><tr><td>Medical Innovations</td><td>\\(619\\)</td></tr></table></div><div class='stem-text'>The table shows the results of a survey.  A total of \\(935\\) university students selected at random were asked which of two topics they would prefer to learn more about from a guest speaker at their school.  According to the survey, if \\(\\text{11,220}\\) students vote to select a guest speaker topic, by how many votes would robotics be expected to lose?</div>",
+  "choices": [
+    "\\(\\text{7,428}\\)",
+    "\\(\\text{3,792}\\)",
+    "\\(\\text{3,636}\\)",
+    "\\(\\text{303}\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>To solve this problem, subtract to expected number of votes for robotics from the expected number of votes for medical innovations.  To find each expected number, find the percent represented by each in a random survey and multiply that percent by \\(\\text{11,220}\\).</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} \\text{Medical Innovations}&=\\frac{619}{935} \\times \\text{11,220}\\\\ \\text{Medical Innovations}&=\\text{7,428}\\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} \\text{Robotics}&=\\frac{316}{935} \\times \\text{11,220}\\\\ \\text{Robotics}&=\\text{3,792}\\end{aligned}$$</div></div></div><div class='explanation-step'>Subtract Medical Innovations \\(-\\) Robotics, so \\(\\text{7,428} - \\text{3,792}=\\text{3,636}\\).</div>"
+},
+{
+  "id": "MathT1-2C-021",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Linear Functions",
+    "skill": "Modeling"
+},
+  "stem": "<div class='stem-equation'>$$P=\\frac{2}{3}(R-9)$$</div><div class='stem-text'>The equation above shows how a particular company measures \\(P\\), profit in dollars, to \\(R\\), revenue in dollars.  Based on this equation, which of the following must be true?</div><div class='stem-equation'>$$\\mathrm{I}. \\text{A revenue increase of} 1 \\text{dollar is equivalent to a profit increase of} \\frac{2}{3} \\text{dollars.}$$</div><div class='stem-equation'>$$\\mathrm{II}. \\text{A revenue increase of} \\frac{2}{3} \\text{dollars is equivalent to a profit increase of} 1 \\text{dollar.}$$</div><div class='stem-equation'>$$\\mathrm{III}. \\text{A profit increase of} 1 \\text{dollar is equivalent to a revenue increase of} 1.5 \\text{dollars.}$$</div>",
+  "choices": [
+    "\\(\\mathrm{I}  \\text{and} \\mathrm{II} \\text{only}\\)",
+  "\\(\\mathrm{I}  \\text{and} \\mathrm{III} \\text{only}\\)",
+  "\\(\\mathrm{II}  \\text{and} \\mathrm{III} \\text{only}\\)",
+  "\\(\\mathrm{I},  \\mathrm{II}, \\text{and} \\mathrm{III}\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>Transfom equation into slope-intercept form as the answer choices relate to rates of change.  In slope-intercept form, \\(P=\\frac{2}{3}R-6\\), the slope is \\(\\frac{\\text{change in} \\, y}{\\text{change in}\\, x}\\) or \\(\\frac{\\text{change in profit}}{\\text{change in revenue}}=\\frac{2}{3}\\).</div><div class='explanation-step'>Test each statement:</div><div class='explanation-step'>\\(\\mathrm{I}\\).   A revenue increase of \\(1\\) dollar is equivalent to a profit increase of \\(\\frac{2}{3}\\) dollars:</div><div class='explanation-step'>The slope is \\(\\frac{\\text{change in profit}}{\\text{change in revenue}}=\\frac{2}{3}\\), so \\(\\frac{\\frac{2}{3}}{1}=\\frac{2}{3}\\), which is true. Eliminate C.</div><div class='explanation-step'>\\(\\mathrm{II}\\).  A revenue increase of \\(\frac{2}{3}\\) dollars is equivalent to a profit increase of \\(1\\) dollar.</div><div class='explanation-step'>Substitute into the same equation from statement \\(\\mathrm{I}\\), so \\(\\frac{1}{\\frac{2}{3}}=\\frac{2}{3}\\).  This is not a true equation, so the statement is not true.  Eliminate A and D, so B is the correct answer.  There is no need to test the third statement.</div>"
+},
+{
+  "id": "MathT1-2C-022",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Linear Functions",
+    "skill": "Modeling"
+},
+  "stem": "<div class='stem-text'>For purchases of \\(16\\) or more flowers, a flower shop charges \\(\\$7\\) per flower for the first \\(16\\) flowers and \\(\\$5\\) for each additional flower.  Which function \\(g\\) gives the total cost, in dollars, for \\(t\\) flowers, where \\(t\\geq16\\)?</div>",
+  "choices": [
+    "\\(g(t)=5t+32\\)",
+    "\\(g(t)=5t+112\\)",
+    "\\(g(t)=12t-80\\)",
+    "\\(g(t)=5t+7\\)"
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>The first \\(16\\) flowers cost \\(\\$7\\) each, so the total cost of the first \\(16\\) flowers is \\(16 \times 7=112\\).  Each additional flower costs \\(\\$5\\), but since \\(t \\geq 16\\), for flowers \\(17\\) and up, the total cost is \\(5(t-16)\\).  Add these together to write a total cost function, so \\(g(t)=5(t-16)+112\\).  Simplify this function to find the correct answer.</div><div class='explanation-math'>$$\\begin{aligned}\\ g(t)&=5(t-16)+112\\\\ g(t)&=5t-80+112\\\\ g(t)&=5t+32\\end{aligned}$$</div>"
+}
+  ]
+}

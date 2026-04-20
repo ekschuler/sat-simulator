@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SAT Math Simulator</title>
+
+<style>
+body{
+  font-family:system-ui;
+  margin:0;
+  background:#f7f7f7;
+}
+
+.container{
+  text-align:center;
+  background:white;
+  padding:50px;
+  border-radius:12px;
+  box-shadow:0 10px 30px rgba(0,0,0,.08);
+  max-width:600px;
+  margin:40px auto;
+}
+
+h1{
+  margin-top:0;
+}
+
+.buttons{
+  margin-top:30px;
+  display:flex;
+  gap:20px;
+  justify-content:center;
+}
+
+button{
+  padding:14px 24px;
+  font-size:16px;
+  border-radius:8px;
+  border:none;
+  cursor:pointer;
+  background:#4f46e5;
+  color:white;
+}
+
+button:hover{
+  background:#4338ca;
+}
+  .nav{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  height:60px;
+  background:white;
+  border-bottom:1px solid #e5e5e5;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:0 30px;
+  box-sizing:border-box;
+}
+
+.nav a{
+  text-decoration:none;
+  margin-left:20px;
+  font-weight:500;
+  color:#333;
+}
+
+.nav a:hover{
+  color:#4f46e5;
+}
+
+body{
+  padding-top:60px;
+}
+.authBtn {
+  background: #f3f4f6;
+  color: #111;
+  border: 1px solid #e5e7eb;
+}
+
+.authBtn.active {
+  background: #4f46e5;
+  color: white;
+  border: 1px solid #4f46e5;
+}
+</style>
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+
+<body>
+<nav class="nav">
+  <div class="nav-left">
+    <strong>SAT Math Practice</strong>
+  </div>
+
+  <div class="nav-right">
+    <a href="index.html">Home</a>
+<a href="checkout.html">Subscribe</a>
+<a href="simulator.html?mode=practice&demo=1">Demo</a>
+<a href="checkout.html">Log In</a>
+  </div>
+</nav>
+<div style="max-width:860px;margin:60px auto 20px;text-align:center;padding:0 20px;">
+  <h1 style="font-size:40px;line-height:1.15;margin-bottom:16px;color:#111;">
+    Digital SAT Math practice that feels like the real test
+  </h1>
+
+  <p style="font-size:18px;color:#555;line-height:1.6;margin:0 auto 24px;max-width:720px;">
+    Practice timed math modules, get realistic test-day reps, and build confidence with a cleaner SAT-style experience designed for focused prep.
+  </p>
+
+</div>
+<div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;max-width:640px;margin:0 auto;">
+  <div style="background:white;border:1px solid #e5e7eb;border-radius:14px;padding:20px;text-align:left;">
+    <div style="font-size:13px;font-weight:800;color:#4f46e5;margin-bottom:8px;">STEP 1</div>
+    <div style="font-size:18px;font-weight:800;color:#111;margin-bottom:8px;">Try the demo</div>
+    <div style="font-size:15px;line-height:1.6;color:#666;margin-bottom:14px;">
+      See the interface, question flow, and SAT-style experience before you commit.
+    </div>
+
+    <button type="button" onclick="startDemo()" style="background:#e5e7eb;color:#111;">
+      Try Free Demo
+    </button>
+  </div>
+
+  <div style="background:white;border:1px solid #e5e7eb;border-radius:14px;padding:20px;text-align:left;">
+    <div style="font-size:13px;font-weight:800;color:#4f46e5;margin-bottom:8px;">STEP 2</div>
+    <div style="font-size:18px;font-weight:800;color:#111;margin-bottom:8px;">Unlock full access</div>
+    <div style="font-size:15px;line-height:1.6;color:#666;margin-bottom:14px;">
+      Create your account and continue to payment to access full SAT math practice.
+    </div>
+
+    <button type="button" onclick="window.location.href='checkout.html'">
+      Unlock Full Access
+    </button>
+  </div>
+</div>
+
+<div style="max-width:800px;margin:20px auto 40px;padding:0 20px;text-align:left;">
+  <h2 style="margin-bottom:14px;font-size:24px;color:#111;text-align:center;">
+    Why this works
+  </h2>
+
+  <ul style="margin:0;padding-left:20px;color:#555;line-height:1.7;font-size:16px;">
+    <li style="margin-bottom:10px;">
+      Practice in a clean, timed interface that matches the digital SAT format.
+    </li>
+    <li style="margin-bottom:10px;">
+      Get realistic reps with adaptive difficulty across math modules.
+    </li>
+    <li style="margin-bottom:10px;">
+      Focus on actual SAT-style questions without distractions or fluff.
+    </li>
+  </ul>
+</div>
+<div class="container" style="display:none;">
+
+<h2 style="margin-top:0;margin-bottom:12px;font-size:24px;">Log in to your account</h2>
+
+<p style="margin-top:0;color:#666;line-height:1.5;">
+Existing users can log in below. New users should start with the demo or unlock full access.
+</p>
+
+<div class="buttons">
+  <div style="display:flex;flex-direction:column;gap:12px;max-width:320px;width:100%;">
+    <input id="authEmail" type="email" placeholder="Email" style="padding:12px;border:1px solid #ddd;border-radius:8px;font-size:16px;">
+    <input id="authPassword" type="password" placeholder="Password" style="padding:12px;border:1px solid #ddd;border-radius:8px;font-size:16px;">
+
+    <div id="authModeHeader" style="text-align:center;margin-bottom:12px;">
+  <div id="authModeTitle" style="font-size:20px;font-weight:800;color:#111;">Welcome back</div>
+  <div id="authModeText" style="font-size:14px;color:#666;margin-top:4px;">
+    Log in to continue your prep.
+  </div>
+</div>
+
+<div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">
+  <button type="button" id="subscribeBtn" class="authBtn" onclick="window.location.href='checkout.html';">Unlock Full Access</button>
+  <button id="logInBtn" class="authBtn active">Existing User Log In</button>
+</div>
+
+    <p id="authStatus" style="margin:0;color:#444;font-size:14px;"></p>
+  </div>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase-config.js"></script>
+<script src="auth.js"></script>
+<script>
+  function startDemo() {
+      const indexLoginLink = document.getElementById("indexLoginLink");
+
+  if (indexLoginLink) {
+    indexLoginLink.addEventListener("click", (event) => {
+      event.preventDefault();
+
+      const logInBtn = document.getElementById("logInBtn");
+
+      if (logInBtn) {
+        logInBtn.click();
+      }
+    });
+  }
+    window.location.href = "simulator.html?mode=practice&demo=1";
+  }
+
+  window.addEventListener("load", () => {
+    const params = new URLSearchParams(window.location.search);
+
+    if (params.get("auth") === "signup") {
+      const signUpBtn = document.getElementById("signUpBtn");
+
+      if (signUpBtn) {
+        signUpBtn.click();
+      }
+    }
+  });
+</script>
+<div style="text-align:center;font-size:13px;color:#888;margin:40px 0 20px;">
+  <div style="margin-bottom:6px;">SAT Math Practice</div>
+
+  <div style="margin-bottom:6px;">
+    <a href="terms.html" style="color:#666;text-decoration:none;margin:0 8px;">Terms</a>
+    <a href="privacy.html" style="color:#666;text-decoration:none;margin:0 8px;">Privacy</a>
+  </div>
+
+  <div>
+    Built for focused digital SAT prep
+  </div>
+</div>
+
+</body>
+</html>

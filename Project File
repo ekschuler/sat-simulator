@@ -1,0 +1,545 @@
+SAT Simulator Project
+Version: v3
+Features complete:
+- MCQ + Grid-in
+- Timer
+- Progress pills
+- Flagging
+- Review system
+- Skill analytics
+- Calculator drawer
+Date: March 2026
+SAT Simulator Project Context (Current State)
+Goal
+
+
+We are continuing the SAT simulator project.
+Next feature:
+Practice-mode sidebar navigation.
+Build a browser-based SAT Math practice simulator that mimics the College Board Bluebook interface.
+
+
+The simulator runs entirely in the browser using:
+HTML
+CSS
+Vanilla JavaScript
+MathJax (for LaTeX math)
+Questions load dynamically from a JSON file.
+
+The system is designed for:
+SAT module simulation
+longer practice sets
+skill-based question banks
+Current question bank: ~500 questions.
+
+File Structure
+sat-simulator/
+│
+├── index.html
+├── app.js
+├── questions.json
+│
+└── assets/
+     ├── Test1-1-7.png
+     ├── Test1-1-7A.png
+     ├── Test1-1-16.png
+     ├── Test1-1-16A.png
+     ├── Test1-1-19A.png
+
+Images used in stems and explanations live in assets/.
+
+Core Architecture
+
+Questions load via:
+fetch("questions.json")
+
+Global state variables:
+data
+current
+answers
+flagged
+timeLeft
+timerInterval
+isReady
+
+Answer format:
+
+answers[q.id] = { type: "mcq", value: 2 }
+answers[q.id] = { type: "gridin", value: "12" }
+Question Types Supported
+Multiple Choice
+type: "mcq"
+choices: []
+answerIndex
+
+Example:
+
+{
+  "type": "mcq",
+  "choices": ["A","B","C","D"],
+  "answerIndex": 2
+}
+Grid-in
+type: "gridin"
+answer
+answersAccepted
+validation
+
+Example:
+
+{
+  "type": "gridin",
+  "answer": "11",
+  "answersAccepted": ["11"],
+  "validation": {
+    "allowDecimal": true,
+    "allowFraction": false,
+    "allowNegative": true,
+    "maxChars": 8
+  }
+}
+Math Rendering
+
+MathJax v3 is used.
+
+Inline math:
+
+\( ... \)
+
+Display math:
+
+$$ ... $$
+
+Cancel package is enabled for expressions like:
+
+\cancel{x}
+
+Math is rendered via:
+
+MathJax.typesetPromise()
+Test Interface Features
+Navigation
+
+Buttons:
+
+Prev
+Flag
+Next
+Submit
+
+Keyboard shortcuts:
+
+A/B/C/D → select answer
+ArrowLeft → previous question
+ArrowRight → next question
+Enter → next question
+Progress Tracker
+
+Top progress bar shows numbered pills.
+
+States:
+
+current
+answered
+flagged
+unanswered
+
+Flagged pills display a small flag icon badge.
+
+Students can click pills to jump to questions.
+
+Timer
+
+Timer initialized from JSON:
+
+"timeSeconds": 2100
+
+Functions:
+
+startTimer()
+updateTimerDisplay()
+
+When timer reaches zero:
+
+submitTest()
+Grid-in UX Improvements
+
+Grid-in inputs now:
+
+auto-focus when question loads
+
+only focus if no answer entered
+
+allow typing immediately
+
+Calculator
+
+Calculator implemented using embedded Desmos iframe.
+
+Right-side drawer layout:
+
+| Question Area | Calculator |
+
+Calculator opens/closes with:
+
+Calculator button
+
+Embedded via iframe:
+
+https://www.desmos.com/calculator
+
+No API key required.
+
+Stable Question Layout
+
+Question and choices containers have fixed heights with internal scrolling:
+
+#question
+#choices
+
+This prevents page jump when switching between long and short questions.
+
+Scrollbar Styling
+
+Thin modern scrollbars implemented for question and choices containers.
+
+Skill Metadata
+
+Questions contain hierarchical skill tagging:
+
+skill:
+  domain
+  topic
+  skill
+
+Example:
+
+"skill": {
+  "domain": "Algebra",
+  "topic": "Linear Functions",
+  "skill": "Slope"
+}
+Post-Test Results Page
+
+After submission:
+
+Students see:
+
+Score summary
+Skill breakdown
+Question review
+
+Score banner displays:
+
+correct
+incorrect
+unanswered
+percentage
+Skill Breakdown
+
+Hierarchical structure:
+
+Domain
+  Topic
+    Skill
+
+Displayed in two-column layout.
+
+Only skills that appear in the module are shown.
+
+Students can click a skill to filter questions.
+
+Review System
+
+Review mode shows one question at a time.
+
+Navigation:
+
+Prev
+Next
+Back to Summary
+
+Students must click:
+
+Reveal Answer & Explanation
+
+to see explanations.
+
+Correct answers are highlighted in the answer choices.
+
+The redundant text:
+
+Correct answer: B
+
+was removed to avoid duplication.
+
+Question Map
+
+A modal Question Map grid exists for larger question sets.
+
+Displays:
+
+answered
+flagged
+current
+unanswered
+
+Students can jump directly to questions.
+
+For short SAT modules the progress pills already provide navigation.
+
+Future Modes Planned
+SAT Test Mode
+
+Features:
+
+timer
+fixed question order
+flagging
+post-submit explanations
+
+Skill labels hidden during test.
+
+Practice Mode (future)
+
+Will support:
+
+skill-based navigation
+difficulty levels
+large question banks
+sidebar navigation
+untimed sets
+
+Similar to a course-style interface (Udemy-like sidebar).
+
+Next Development Task
+
+Create a new questions.json test set (10–20 questions) to validate:
+
+simulator stability
+
+calculator
+
+review flow
+
+skill breakdown
+
+navigation behavior
+
+before importing the full 500-question bank.
+
+Example JSON Template
+
+Use this as a starting template for new sets:
+
+{
+  "moduleId": "algebra_test_set",
+  "timeSeconds": 1800,
+  "questions": [
+    {
+      "id": "ALG-1",
+      "type": "mcq",
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Linear Equations",
+        "skill": "Solve One Variable"
+      },
+      "stem": "Solve \\(3x+5=20\\).",
+      "choices": [
+        "\\(3\\)",
+        "\\(5\\)",
+        "\\(10\\)",
+        "\\(15\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "Subtract 5 from both sides: $$3x=15$$ then divide by 3: $$x=5$$"
+    },
+
+    {
+      "id": "ALG-2",
+      "type": "gridin",
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Linear Equations",
+        "skill": "Solve One Variable"
+      },
+      "stem": "What is the solution to \\(4x=28\\)?",
+      "answer": "7",
+      "answersAccepted": ["7"],
+      "validation": {
+        "allowDecimal": false,
+        "allowFraction": false,
+        "allowNegative": true,
+        "maxChars": 6
+      },
+      "explanation": "$$x=\\frac{28}{4}=7$$"
+    }
+  ]
+}
+Development Environment
+
+Editor:
+
+VS Code
+
+Server:
+
+Live Server extension
+
+Math rendering:
+
+MathJax CDN
+
+Target devices include Chromebooks.
+
+One additional piece of info for building the question bank (recommende by Chat) - recommended to organize like this:
+questions/
+   algebra.json
+   advanced_math.json
+   geometry.json
+   data_analysis.json
+   🧠 CONTEXT (READ FIRST)
+
+Current product status
+
+I have an SAT prep web app with a working math simulator.
+
+What is already working:
+* in-app Home flow
+* Practice mode
+* Test mode
+* Save & Exit
+* Resume (partially — loads test but does not restore state yet)
+* Restart
+* adaptive math routing
+* summary across both math modules
+
+Math file structure:
+* MathT1-Mod1.json
+* MathT1-Mod2E.json
+* MathT1-Mod2H.json
+
+Adaptive logic is functioning:
+* everyone does Module 1
+* performance routes to Easy or Hard Module 2
+* summary includes both modules
+
+Other important context:
+* I plan to add verbal later
+* I already use Vercel + GitHub
+* currently on free tiers
+* I want to launch as fast as possible
+* I do NOT want to overbuild or get pulled off track
+
+Product structure
+
+There are currently multiple “home” experiences (this is messy and will be fixed later):
+
+* Public landing page (index.html) → login/signup
+* Dashboard (dashboard.html) → start test / practice
+* Simulator (simulator.html) → contains Resume Test
+
+Problems:
+* navigation is confusing
+* resume only exists inside simulator
+* multiple entry points create friction
+
+🚀 GOAL
+
+Get from working simulator → live subscription product
+
+Fastest path to:
+* real accounts
+* saved progress (database not localStorage)
+* payments
+* public website
+* deployed and usable by real users
+
+⚡ STEP-BY-STEP LAUNCH PLAN
+
+Step 1 — Set up Supabase project (1–2 hours) — DONE
+* project created
+* auth enabled
+* keys obtained
+
+Step 2 — Add authentication to app (3–5 hours) — DONE
+* sign up / login / logout working
+* session persists across pages
+* dashboard protected
+* redirect logic working
+
+Step 3 — Create database schema (3–4 hours) — DONE
+
+test_sessions table includes:
+* id
+* user_id
+* test_id
+* module
+* module_file
+* answers (jsonb)
+* flagged (jsonb)
+* current_question
+* time_left
+* status
+* created_at
+
+test_results table includes:
+* id
+* user_id
+* test_id
+* module1_score
+* module2_score
+* total_score
+* created_at
+
+Step 4 — Replace localStorage with database (4–6 hours) — IN PROGRESS
+
+What is already done:
+* Save & Exit now writes to Supabase
+* confirmed working (RLS temporarily disabled)
+* DB read helper added (getLatestSavedTestSessionFromDB)
+* Resume card now pulls from database
+* resume button now fetches DB session
+
+Current issue:
+* Resume loads test but does NOT restore state
+* starts at Question 1 instead of saved position
+
+Step 5 — Connect Module 1 → Module 2 in DB (2–3 hours) — DONE
+
+RLS disabled
+* needed to unblock DB save
+* must be re-enabled later
+
+Step 6 — Build basic student dashboard (3–5 hours) — DONE
+* dashboard exists
+* navigation is messy
+* resume not integrated cleanly
+
+Step 7 — Add Stripe subscriptions (4–6 hours) — DONE
+
+Step 8 — Gate the app (2–3 hours) — DONE
+
+Step 9 — Build public landing page (4–6 hours) — DONE
+
+Step 10 — Add legal pages (2–3 hours) — NOT STARTED
+
+Step 11 — Add basic analytics (1–2 hours) — NOT STARTED
+
+Step 12 — Add error monitoring (1–2 hours) — NOT STARTED
+
+Step 13 — Domain + production deploy (1–2 hours) — NOT STARTED
+
+Step 14 — Private alpha (5–10 users) (3–5 hours) — NOT STARTED
+
+Step 15 — Launch (2–3 hours) — NOT STARTED
+
+⚠️ CURRENT PROBLEMS
+
+Resume not restoring state
+* DB to simulator state hydration not implemented
+
+Mixed storage system
+* DB used for save
+* localStorage still used for restore
+* causing inconsistent behavior

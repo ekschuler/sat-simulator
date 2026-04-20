@@ -1,0 +1,52 @@
+{
+  "mode": "practice",
+  "moduleId": "demo_practice",
+  "timeSeconds": 900,
+  "setId": "demo_practice",
+  "title": "Demo Practice",
+  "timed": false,
+  "sidebar": {
+    "groupBy": ["domain", "topic", "level"]
+  },
+  "questions": [
+    {
+      "id": "d1",
+      "type": "mcq",
+      "stem": "What is 2 + 3?",
+      "choices": ["3", "4", "5", "6"],
+      "answerIndex": 2,
+      "explanation": "2 + 3 = 5.",
+      "skill": {
+        "domain": "Demo",
+        "topic": "Basics",
+        "skill": "Addition"
+      }
+    },
+    {
+      "id": "d2",
+      "type": "mcq",
+      "stem": "What is 7 × 2?",
+      "choices": ["12", "13", "14", "15"],
+      "answerIndex": 2,
+      "explanation": "7 × 2 = 14.",
+      "skill": {
+        "domain": "Demo",
+        "topic": "Basics",
+        "skill": "Multiplication"
+      }
+    },
+    {
+      "id": "d3",
+      "type": "mcq",
+      "stem": "Solve: x + 4 = 9",
+      "choices": ["3", "4", "5", "6"],
+      "answerIndex": 2,
+      "explanation": "x = 5.",
+      "skill": {
+        "domain": "Demo",
+        "topic": "Algebra",
+        "skill": "Linear Equations"
+      }
+    }
+  ]
+}

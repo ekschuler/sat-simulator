@@ -1,0 +1,414 @@
+
+{
+  "moduleId": "MathT1_Mod1",
+  "timeSeconds": 2100,
+  "questions": [
+{
+  "id": "MathT1-1-001",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Simplifying Expressions",
+    "skill": "Combining Like Terms"
+  },
+  "stem": "Which expression is equivalent to \\(4n^3 + 10n^3 + 4n^2\\)?",
+  "choices": [
+    "\\(40n^6 + 4n^2\\)",
+    "\\(14n^3 + 4n^2\\)",
+    "\\(4n^3 + 14n^2\\)",
+    "\\(18n^8\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>Combine like terms.</div><div class='explanation-math'>$$\\begin{aligned}(4n^3+10n^3)+4n^2 &= 14n^3+4n^2\\end{aligned}$$</div>"
+
+},
+{
+  "id": "MathT1-1-002",
+  "type": "mcq",
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Functions",
+    "skill": "Modeling"
+},
+  "stem": "The volume of a tank goes from \\(10{,}000\\) cubic inches to \\(32{,}000\\) cubic inches at a constant rate of \\(900\\) cubic inches per hour. What type of function best models the relationship between the tank's volume and time?",
+  "choices": [
+    "Increasing exponential",
+    "Increasing linear",
+    "Decreasing exponential",
+    "Decreasing linear"
+  ],
+  "answerIndex": 1,
+  "explanation": "The volume is increasing by a constant rate, or adding \\(900\\) cubic inches per hour, which is linear growth, so the function type is increasing linear."
+},
+{
+  "id": "MathT1-1-003",
+  "type": "mcq",
+  "skill": {
+    "domain": "Problem-solving and Data Analysis",
+    "topic": "Rates and Proportional Reasoning",
+    "skill": "Unit Rates"
+},
+  "stem": "Neja must read at least \\(72\\) pages per week to finish a certain book before the end of the summer.  Neja reads at a rate of \\(6\\) pages per hour.  What is the minimum number of hours Neja must read to complete her reading goal for a certain week?",
+  "choices": [
+    "\\(6\\)",
+    "\\(12\\)",
+    "\\(66\\)",
+    "\\(1{,}024\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "Start with \\(\\frac{72\\,\\text{pages}}{1\\,\\text{week}}\\). Use unit conversions to calculate the number of hours Neja must read in one week:<br><br><div style='text-align:center;'>$$\\begin{aligned}\\frac{72\\,\\cancel{\\text{pages}}}{1\\,\\text{week}} \\times \\frac{1\\,\\text{hour}}{6\\,\\cancel{\\text{pages}}} &= \\frac{72}{6}\\,\\text{hours per week} \\\\ &= 12\\,\\text{hours per week}\\end{aligned}$$</div>"
+},
+{
+  "id": "MathT1-1-004",
+  "type": "mcq",
+  "skill": {
+    "domain": "Geometry and Trigonometry",
+    "topic": "Perimeter, Area, and Volume",
+    "skill": "Calculating Area"
+},
+  "stem": "A rectangle has a width of \\(23\\) inches (in) and a length of \\(9\\) in.  What is the area of this rectangle?",
+  "choices": [
+    "\\(32\\) in\\(^2\\)",
+    "\\(64\\) in\\(^2\\)",
+    "\\(207\\) in\\(^2\\)",
+    "\\(1,024\\) in\\(^2\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "Use the formula for the area of a rectangle, \\(A=lw\\) where \\(l=\\) the length of the rectangle and \\(w=\\) the width of the rectangle.<br><br><div style='text-align:center;'>$$\\begin{aligned}A=9(23)=207\\end{aligned}$$."
+},
+{
+  "id": "MathT1-1-005",
+  "type": "gridin",
+  "skill": {
+    "domain": "Problem-solving and Data Analysis",
+    "topic": "Statistics",
+    "skill": "Calculating Mean"
+},
+  "stem": "<div style='margin-top:12px;'>The values in the data set shown represents the time, in minutes, of several employee's commutes to work.</div><div style='text-align:center;'>$$14,1,19,24,3,3,8,16$$</div><div style='margin-top:12px;'>What is the mean time, in minutes, of the commutes?</div>",
+  "answer": "11",
+      "answersAccepted": ["11"],
+      "validation": {
+        "format": "number",
+        "allowNegative": true,
+        "allowDecimal": true,
+        "allowFraction": false,
+        "maxChars": 8
+      },
+      "explanation": "The mean, or average, is found by adding the values of a data set and dividing by the number of values in the data set.  There are \\(8\\) numbers, so divide the sum by \\(8\\).<div style='text-align:center;'>$$\\begin{aligned}\\frac{14+1+19+24+3+3+8+16}{8}=\\frac{88}{8}= 11\\end{aligned}$$</div>"
+},
+{
+  "id": "MathT1-1-006",
+  "type": "mcq",
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Quadratic Functions",
+    "skill": "Solving Quadratic Equations"
+},
+  "stem": "<div style='text-align:center;'>$$x^2+14x=32$$</div><div style='margin-top:12px;'>Which of the following is a solution to the given equation?</div>",
+  "choices": [
+    "\\(16\\)",
+    "\\(8\\)",
+    "\\(4\\)",
+    "\\(2\\)"
+  ],
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>Solve this quadratic equation by setting it equal to zero and factoring.</div><div class='explanation-math'>$$\\begin{aligned}x^2+14x-32&=\\cancel{32}-\\cancel{32}\\\\x^2+14x-32&=0\\end{aligned}$$</div><div class='explanation-step'>Use the Zero Product Property to solve: \\(x-2=0\\) and \\(x+16=0\\), so \\(x=2\\) or \\(x=-16\\).  Of the two solutions, \\(x=2\\) appears in the answer choices, so D is the correct answer.<br><br> This problem can also be solved by substituting answers in for \\(x\\) and determining whether the equation is true or false. For example:<br><br> C) \\(4^2+14(4)\\neq32\\) because \\(16+56\\neq32\\). Incorrect.  <br><br> D) \\(2^2+14(2)=32\\) because \\(4+28=32\\). Correct.</div>"
+},
+{
+  "id": "MathT1-1-007",
+  "type": "mcq",
+  "skill": {
+    "domain": "Geometry and Trigonometry",
+    "topic": "Lines and Angles",
+    "skill": "Parallel Lines"
+},
+  "stem": "<div style='text-align:center;'><img src='assets/Test1-1-7.png' style='max-width:40%;height:auto;'></div><div style='margin-top:16px;'>In the figure, line \\(l\\) is parallel to line \\(m\\). What is the value of \\(y\\)?</div>",
+  "choices": [
+    "\\(41\\)",
+    "\\(49\\)",
+    "\\(131\\)",
+    "\\(229\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "</div><img class='explanation-image' src='assets/Test1-1-7A.png' alt='explanation figure'><div class='explanation-step'>The given angle (\\(49^\\circ\\)) is corresponding angles with the angle indicated in the drawing and corresponding angles are congruent on parallel lines. That angle is supplementary angles with \\(y^\\circ\\).  Supplementary angles have a sum of \\(180^\\circ\\), so \\(y=180-49=131\\).  The correct answer is C."
+    },
+    {
+  "id": "MathT1-1-008",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Exponents and Radicals",
+    "skill": "Laws of Exponents"
+},
+  "stem": "Which expression is equivalent to \\((a^3 d{}n^7 )(a^2 d^6 n^{-4})\\), where \\(m\\), \\(q\\), and \\(z\\) are positive?",
+  "choices": [
+    "\\(a^6 d^6 n^{-28}\\)",
+    "\\(a^5 d^7 n^3\\)",
+    "\\(a^9 d^3 n^7\\)",
+    "\\(a^{18} d^2 n^{-3}\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>Use the laws of exponents to simplify \\((a^3dn^7)(a^2d^6n^{-4})\\). The product rule says that when multiplying powers with the same base, you add the exponents.</div><div class='explanation-math'>$$\\begin{aligned}&=(a^3dn^7)(a^2d^6n^{-4})\\\\ &=a^3a^2d{}d^6n^{7}n^{-4} \\\\ &=a^{5}d^{7}n^{3}\\end{aligned}$$</div>"
+},
+{
+  "id": "MathT1-1-009",
+  "type": "gridin",
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Equations and Inequalities",
+    "skill": "Solving Radical Equations"
+},
+  "stem": "<div style='text-align:center;'>$$\\sqrt{-3x-17}=\\sqrt{(x+5)^2}$$</div><div style='margin-top:12px;'>What is the largest solution to the given equation?</div>",
+  "answer": "-6",
+  "answersAccepted": ["-6", "-6.0"],
+  "validation": {
+  "format": "number",
+    "allowNegative": true,
+    "allowDecimal": true,
+    "allowFraction": false,
+    "maxChars": 8
+    },
+  "explanation": "<div class='explanation-step'>Square both sides, so \\((\\sqrt{-3x-17})^2=(\\sqrt{(x+5)^2})^2\\) simplifies to \\(-3x-17=(x+5)^2\\). This is a quadratic equation; expand the right hand side and set the equation equal to zero.</div><div class='explanation-math'>$$\\begin{aligned}-3x-17&=(x+5)(x+5)\\\\ \\cancel{-3x}-\\cancel{17}+\\cancel{3x}+\\cancel{17}&=x^2+10x+25+3x-17 \\\\0&=x^2+13x+42\\end{aligned}$$</div><div class='explanation-step'>Determine factors of \\(42\\) that have a sum of \\(13\\).  The factors are \\(6\\) and \\(7\\) because \\(6 \\times 7=42\\) and \\(6+7=13\\).</div><div class='explanation-math'>$$\\begin{aligned}0&=x^2+13x+42 \\\\0&=(x+6)(x+7)\\end{aligned}$$</div>.<div class='explanation-step'>Use the Zero Product Property to solve: \\(x+6=0\\) and \\(x+7=0\\), so \\(x=-6\\) or \\(x=-7\\). Since this question asks for the largest solution, \\(-6\\) is the correct answer.</div>"
+    },
+    {
+  "id": "MathT1-1-010",
+  "type": "mcq",
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Equations and Inequalities",
+    "skill": "Solving Rational Equations"
+},
+  "stem": "The expression \\(\\frac{45}{5x+15}\\) is equivalent to \\(\\frac{9}{x+c}\\), where \\(c\\) is a constant and \\(x>0\\).  What is the value of \\(c\\)?",
+  "choices": [
+    "\\(3\\)",
+    "\\(14\\)",
+    "\\(45\\)",
+    "\\(75\\)"
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>If \\(\\frac{45}{5x+15}=\\frac{9}{x+c}\\), it must be the case that the numerator and denominator can be divided by a common factor.  Factor the greatest common factor from the denominator, so \\(5x+15=5(x+3)\\).  It's possible that you can see the value of \\(c\\) from here is \\(3\\), but if not, simplify the given fraction \\(\\frac{45}{5(x+3)}\\) by dividing the numerator and denominator by \\(5\\);  \\(\\frac{\\cancel{45}}{\\cancel{5}(x+3)}=\\frac{9}{x+3}\\). Since \\(\\frac{9}{x+c}=\\frac{9}{x+3}\\), \\(c=3\\).</div>"
+},
+{
+  "id": "MathT1-1-011",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Linear Functions",
+    "skill": "Calculating Slope"
+},
+  "stem": "The line \\(y=kx-8\\), where \\(k\\) is a constant, is graphed in the \\(xy-\\)plane.  If the point \\((a,b)\\), where \\(a\\ne0\\) and \\(b\\ne0\\), falls on the line, what is the slope of the line in terms of \\(a\\) and \\(b\\)?",
+  "choices": [
+    "\\(\\frac{b+8}{a}\\)",
+    "\\(\\frac{a+8}{b}\\)",
+    "\\(\\frac{8-b}{a}\\)",
+    "\\(\\frac{8-a}{b}\\)"
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>In the slope-intercept equation \\(y=kx-8\\), \\(k\\) is the slope of the equation.  Substitute the ordered pair \\((a,b)\\) in for \\((x,y)\\) and solve for \\(k\\):</div><div class='explanation-math'>$$\\begin{aligned}y&=kx-8\\\\b&=ka-8\\\\b+8&=ka-\\cancel{8}+\\cancel{8}\\\\ \\frac{b+8}{a}&=\\frac{k\\cancel{a}}{\\cancel{a}}\\\\ k&=\\frac{b+8}{a}\\end{aligned}$$</div>"
+},
+{
+  "id": "MathT1-1-012",
+  "type": "gridin",
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Equations and Inequalities",
+    "skill": "Solving Absolute Value Equations"
+},
+"stem": "<div style='text-align:center;'>$$|x+18|=30$$</div><div style='margin-top:12px;'>What is one possible solution to the given equation?</div>",
+  "answer": "12",
+  "answersAccepted": ["-48", "12"],
+  "validation": {
+    "format": "number",
+      "allowNegative": true,
+      "allowDecimal": true,
+      "allowFraction": false,
+      "maxChars": 8
+      },
+  "explanation": "<div class='explanation-step'>The absolute value of a number is its distance from zero. This means that inside the absolute value on the left hand side, \\(30\\) or \\(-30\\) will have an absolute value of \\(30\\), the right hand side of the equation. To solve, write and solve one of two equations; one that gives $30$ or one that gives \\(-30\\) inside the absolute value:</div><div class='explanation-columns'><div class='explanation-column'>$$\\begin{aligned}x+18 &= 30 \\\\ x+\\cancel{18}-\\cancel{18} &= 30-18 \\\\ x &= 12\\end{aligned}$$</div><div class='explanation-column'>$$\\begin{aligned}x+18 &= -30 \\\\ x+\\cancel{18}-\\cancel{18} &= -30-18 \\\\ x &= -48\\end{aligned}$$</div></div>"
+    },
+    {
+  "id": "MathT1-1-013",
+  "type": "mcq",
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Systems of Equations",
+    "skill": "Solving Non-linear Systems"
+},
+  "stem": "<div style='text-align:center;'>$$y=15+10x$$</div><div style='text-align:center;'>$$y=(x-1)(2x+3)$$</div><div style='margin-top:12px;'>Which ordered pair \\((x,y)\\) is the solution to the given system of equations?</div>",
+  "choices": [
+    "\\((5,1)\\)",
+    "\\((1,5)\\)",
+    "\\((0,-\\frac{3}{2})\\)",
+    "\\((-\\frac{3}{2},0)\\)"
+  ],
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>This is a non-linear system of equations.  To solve, set the two expressions for \\(y\\) equal, so \\(15+10x=(x-1)(2x+3)\\). Expand the right hand side and set the equation equal to zero.</div><div class='explanation-math'>$$\\begin{aligned}15+10x&=(x-1)(2x+3)\\\\ \\cancel{15}+\\cancel{10x}-\\cancel{15}-\\cancel{10x}&=2x^2+3x-2x+-3-15-10x\\\\0&=2x^2-9x-18\\end{aligned}$$</div><div class='explanation-step'>To factor by grouping, multiply \\(a \\times c\\). In the expression \\(2x^2-9x-18\\), \\(a=2\\) and \\(c=-18\\), so \\(a \\times c = -36\\).  Determine factors of \\(-36\\) that have a sum of \\(-9\\).  These factors are \\(-12\\) and \\(3\\) because \\(-12 \\times 3= -36\\) and \\(-12 +3=9\\).  Re-write the given quadratic expression with these factors.</div><div class='explanation-math'>$$\\begin{aligned}&=2x^2-9x-18\\\\&=2x^2-12x+3x-18\\end{aligned}$$</div><div class='explanation-step'>Factor the greatest common factor from \\(2x^2-12x\\) and \\(3x-18\\):</div><div class='explanation-math'>$$\\begin{aligned}&=2x^2-12x+3x-18\\\\&=2x(x-6)+3(x-6)\\end{aligned}$$</div><div class='explanation-step'>Re-write the expression as the product of two binomials;  \\(2x(x-6)+3(x-6)=(2x+3)(x-6)\\). Use the Zero Product Property to solve: \\(2x+3=0\\) and \\(x+6=0\\), so \\(x=-\\frac{3}{2}\\) or \\(x=-6\\). The answer that appears in the answer choice is \\(-\\frac{3}{2}\\), so D is the correct answer<br><br>The other method that can be used to solve this problem is substituting answers; the challenge with this method in this problem is that you will have to substitute a fraction at some point as there are two fractional answer choices.</div>"
+},
+{
+  "id": "MathT1-1-014",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Algebraic Expressions",
+    "skill": "Factoring"
+},
+  "stem": "Which expression is equivalent to the expression \\(20m^3 n^3+4m^3 n^6\\)?",
+  "choices": [
+    "\\(4m^3 n^3 (5+n^6 )\\)",
+    "\\(4m^3 n^3 (5+n^3)\\)",
+    "\\(4m^3 n^3 (5n^6)\\)",
+    "\\(4m^3 n^3 (n^3)\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>From the answers, notice that this is a factoring problem.  Right away you can eliminate C and D because if the terms cannot be combined before factoring, they also cannot be combined after factoring.  The greatest common factor, \\(4m^3 n^3\\), is the same in answer choices A and B so divide both terms by it to find what is remaining inside the parentheses.</div><div class='explanation-columns'><div class='explanation-column'>$$\\begin{aligned}&=\\frac{20\\cancel{m^3n^3}}{4\\cancel{m^3n^3}}\\\\&= \\frac{20}{4}\\\\&=5\\end{aligned}$$</div><div class='explanation-column'>$$\\begin{aligned}&=\\frac{\\cancel{4m^3}n^6}{\\cancel{4m^3}n^3}\\\\&= \\frac{n^6}{n^3}\\\\&=n^3\\end{aligned}$$</div></div><div class='explanation-step'>The factored form of this expression is \\(4m^3 n^3 (5+n^3 )\\), so the correct answer is B.</div>"
+},
+{
+  "id": "MathT1-1-015",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Linear Functions",
+    "skill": "Evaluating Functions"
+},
+  "stem": "Clare rented \\(12\\) tables that were each the same price. She paid a delivery fee for the tables of \\(\\$124\\). The total cost for the rental including the delivery fee was \\(\\$220\\). What would be the cost, in dollars, to rent one table with no delivery fee?",
+  "choices": [
+    "\\(6\\)",
+    "\\(8\\)",
+    "\\(10\\)",
+    "\\(12\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>Write and solve an equation to find the cost to rent one table.  Let \\(t=\\) the cost of one table.  This means \\(12t\\) is the cost to rent \\(12\\) tables. Add the delivery fee to get the total cost, so \\(12t+124=220\\).</div><div class='explanation-math'>$$\\begin{aligned}12t+\\cancel{124}-\\cancel{124}&=220-124\\\\ \\frac{\\cancel{12}t}{\\cancel{12}}&=\\frac{96}{12}\\\\t&=8\\end{aligned}$$</div>"
+},
+{
+  "id": "MathT1-1-016",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Linear Functions",
+    "skill": "Finding Intercepts"
+},
+  "stem": "<div style='text-align:center;'><img src='assets/Test1-1-16.png' style='max-width:40%;height:auto;'></div><div style='margin-top:16px;'>What is the \\(y-\\)intercept of the graph shown?</div>",
+    "choices": [
+      "\\((-3,0)\\)",
+      "\\((-4,0)\\)",
+      "\\((0,3)\\)",
+      "\\((0,4)\\)"
+      ],
+    "answerIndex": 2,
+  "explanation": "<div class='explanation-columns'><div class='explanation-column'><img class='explanation-image' src='assets/Test1-1-16A.png' alt='explanation figure'></div><div class='explanation-column'>The \\(y\\)-intercept is the point where the graph intersects the \\(y\\)-axis. The \\(x\\)-value at the \\(y\\)-intercept is \\(0\\), so eliminate A and B. In the graph, the \\(y\\)-intercept crosses the \\(y\\)-axis at \\((0,3)\\), so C is the correct answer.</div></div>"
+    },
+  {
+  "id": "MathT1-1-017",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Systems of Equations",
+    "skill": "Number of Solutions"
+},
+  "stem": "How many times do the graphs of the equations \\(y=2x+1\\) and \\(x+2y=4\\) intersect in the \\(xy-\\)plane?",
+  "choices": [
+    "\\(0\\)",
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(4\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>The graphs of linear equations can intersect \\(0\\), \\(1\\), or infinitely many times.  Eliminate C and D. In general, the rules for how many times lines intersect are as follows:</div><ul><li>Graphs of equations with the same slope but different \\(y\\)-intercepts intersect \\(0\\) times because they are parallel lines.</li><li>Graphs of equations with different slopes intersect \\(1\\) time.</li><li>Graphs of equations with the same slope and same \\(y\\)-intercept intersect infinitely many times because they are equivalent equations that produce the same line.</li></ul><div class='explanation-step'>To determine how many times the graphs intersect, write the second equation in slope-intercept form, \\(y=mx+b\\).  The first equation is already in slope-intercept form where the slope is \\(2\\) and the \\(y\\)-intercept is \\(1\\).</div><div class='explanation-math'>$$\\begin{aligned}\\cancel{x}+2y-\\cancel{x}&=4-x\\\\\\frac{\\cancel{2}y}{\\cancel{2}}&=\\frac{4-x}{2}\\\\y&=-\\frac{1}{2}x+2\\end{aligned}$$</div><div class='explanation-step'>The slope of this line is \\(\\frac{1}{2}\\).  Since this is different than the slope of the other line (\\(2\\)), the lines intersect one time.</div>"
+},
+{
+  "id": "MathT1-1-018",
+  "type": "gridin",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Equations and Inequalities",
+    "skill": "Equivalent Equations"
+},   
+  "stem": "<div style='margin-top:12px;'>What is the value of \\(20-4x\\) if \\(5-x=21\\)?</div>",
+  "answer": "84",
+  "answersAccepted": ["84"],
+  "validation": {
+    "format": "number",
+      "allowNegative": true,
+      "allowDecimal": true,
+      "allowFraction": false,
+      "maxChars": 8
+      },
+      "explanation": "<div class='explanation-step'>To find the value of \\(20-4x\\) there is no need to solve directly for \\(x\\).  \\(20-4x\\) is \\(5-x\\) multiplied by \\(4\\), so multiply both sides of the given equation by \\(4\\).</div><div class='explanation-math'>$$\\begin{aligned}4(5-x)&=21 \\times 4\\\\20-4x&=84\\end{aligned}$$</div>"
+    },
+    {
+  "id": "MathT1-1-019",
+  "type": "gridin",
+  "skill": {
+    "domain": "Geometry and Trigonometry",
+    "topic": "Pythagorean Theorem",
+    "skill": "Using Pythagorean Theorem"
+},
+  "stem": "<div style='margin-top:12px;'>The legs of a right triangle have lengths of \\(32\\) inches and \\(51\\) inches. The length of this hypotenuse of the triangle can be written, in inches, can be written in the form \\(5\\sqrt{n}\\), where \\(n\\) is an integer, what is the value of \\(n\\)</div>",
+  "answer": "145",
+  "answersAccepted": ["145"],
+  "validation": { 
+    "format": "number",
+      "allowNegative": true,
+      "allowDecimal": true,
+      "allowFraction": false,
+      "maxChars": 8
+      },
+  "explanation": "</div><img class='explanation-image' src='assets/Test1-1-19A.png' alt='explanation figure'></div><div class='explanation-step'>In order to find the value of \\(n\\), first find the length of the hypotenuse.  Use the Pythagorean Theorem, \\(a^2+b^2=c^2\\) where the hypotenuse is \\(c\\).</div><div class='explanation-math'>$$\\begin{aligned}32^2+51^2&=c^2\\\\\\sqrt{3,625}&=\\sqrt{c^2}\\\\c&=\\sqrt{3,625}\\end{aligned}$$</div><div class='explanation-step'>Set the hypotenuse equal to the given length \\(5\\sqrt{n}\\) and solve for \\(n\\), so \\(\\sqrt{3,625}=5\\sqrt{n}\\).  Since \\(5\\) appears as a factor outside the square root, this means it was \\(5^2\\) inside the radical, so \\(\\sqrt{5^2 \\times 145}=5\\sqrt{n}\\), and \\(n=145\\).</div>"
+    },
+    {
+  "id": "MathT1-1-020",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Systems of Equations",
+    "skill": "Solving Linear Systems"
+},
+  "stem": "<div style='text-align:center;'>$$x=7y$$</div><div style='text-align:center;'>$$-5y+x=28$$</div><div style='margin-top:12px;'>The solution to the given system of equations is \\((x,y)\\).  What is the value of \\(y\\)?</div>",
+  "choices": [
+    "\\(2\\)",
+    "\\(4\\)",
+    "\\(14\\)",
+    "\\(28\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>To solve this system of equations, substitute \\(7y\\) into the second equation for \\(x\\) and solve for \\(y\\).</div><div class='explanation-math'>$$\\begin{aligned}-5y+x&=28\\\\-5y+7y&=28\\\\ \\frac{\\cancel{2}y}{\\cancel{2}}&=\\frac{28}{2}\\\\y&=14\\end{aligned}$$</div>"
+},
+{
+  "id": "MathT1-1-021",
+  "type": "mcq",
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Quadratic Functions",
+    "skill": "Finding the Vertex (Max/min)"
+},
+  "stem": "<div style='text-align:center;'>$$y=a(x+3)(x-5)$$</div><div style='margin-top:12px;'>In the quadratic equation above, \\(a\\) is a nonzero constant.  The graph of the equation in the \\(xy-\\)plane is a parabola with vertex \\((m,n)\\).  Which of the following is equal to \\(n\\)?</div>",
+  "choices": [
+    "\\(-16a\\)",
+    "\\(-15a\\)",
+    "\\(-5a\\)",
+    "\\(-3a\\)"
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>For all parabolas, the \\(x\\)-value of the vertex is on the axis of symmetry.  The axis of symmetry is halfway between pairs of symmetrical points, including the \\(x\\)-intercepts.  In this factored form equation \\(y=a(x+3)(x-5)\\), the \\(x\\)-intercepts are \\((-3,0)\\) and \\((5,0)\\).  To find the axis of symmetry (which is also the \\(x\\)-value of the vertex), find the average, or midpoint of \\(-3\\) and \\(5\\), so \\(\\frac{-3+5}{2}=1\\).  Since \\((m,n)\\) is the vertex, \\(m=1\\). Substitute \\((1,n)\\) into the equation to solve for \\(n\\).</div><div class='explanation-math'>$$\\begin{aligned}y&=a(x+3)(x-5)\\\\n&=a(1+3)(1-5)\\\\n&=a(4)(-4)\\\\n&=-16a\\end{aligned}$$</div>"
+},
+{
+  "id": "MathT1-1-022",
+  "type": "mcq",
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Quadratic Functions",
+    "skill": "Factoring"
+},
+  "stem": "Which expression is equivalent to \\(x^2-3x-10\\)?",
+  "choices": [
+    "\\((x+5)(x-2)\\)",
+    "\\((x+10)(x-1)\\)",
+    "\\((x+1)(x-10)\\)",
+    "\\((x+2)(x-5)\\)"
+  ],
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>Method \\(1\\) Factor.  To factor, determine factors of \\(-10\\) that have a sum of \\(-3\\).  These factors are \\(-5\\) and \\(2\\) because \\(-5 \\times 2= -10\\) and \\(-5 +2=-3\\).  Re-write the given quadratic expression with these factors.</div><div class='explanation-math'>$$\\begin{aligned}&=x^2-3x-10\\\\&=(x-5)(x+2)\\end{aligned}$$</div><div class='explanation-step'>Method \\(2\\): Multiply the answer choices to find \\(x^2-3x-10\\).<br><br>A) \\((x+5)(x-2)=x^2-2x+5x-10=x^2+3x-10\\)Incorrect<br><br>B) \\((x+10)(x-1)=x^2-x+10x-10=x^2+9x-10\\) Incorrect<br><br>C) \\((x+1)(x-10)=x^2-10x+x-10=x^2-9x-10\\) Incorrect<br><br>D) \\((x+2)(x-5)=x^2-5x+2x-10=x^2+3x-10\\) Correct</div>"
+}
+  ]
+}
