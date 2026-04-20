@@ -121,52 +121,85 @@
 <script src="supabase-config.js"></script>
 <script>
   const subscribeBtn = document.getElementById("subscribeBtn");
-  window.addEventListener("load", async () => {
+
+async function getCheckoutAccessStatus() {
   const { data, error } = await window.supabaseClient.auth.getSession();
 
   if (error) {
-    console.error("Failed to load checkout session on page load:", error);
+    console.error("Failed to load checkout session:", error);
+    return { session: null, accessStatus: "anonymous" };
+  }
+
+  if (!data.session) {
+    return { session: null, accessStatus: "anonymous" };
+  }
+
+  const user = data.session.user;
+
+  const { data: profile, error: profileError } = await window.supabaseClient
+    .from("profiles")
+    .select("access_status")
+    .eq("id", user.id)
+    .maybeSingle();
+
+  if (profileError) {
+    console.error("Failed to load checkout access status:", profileError);
+    return { session: data.session, accessStatus: "demo" };
+  }
+
+  return {
+    session: data.session,
+    accessStatus: profile?.access_status || "demo"
+  };
+}
+  window.addEventListener("load", async () => {
+  const { session, accessStatus } = await getCheckoutAccessStatus();
+
+  if (!session) {
     return;
   }
 
-  if (data.session) {
-    subscribeBtn.disabled = false;
-    subscribeBtn.click();
+  if (accessStatus === "paid") {
+    window.location.href = "dashboard.html";
+    return;
   }
+
+  subscribeBtn.disabled = false;
+  subscribeBtn.click();
 });
 
   subscribeBtn.addEventListener("click", async () => {
-    const { data, error } = await window.supabaseClient.auth.getSession();
+  const { session, accessStatus } = await getCheckoutAccessStatus();
 
-    console.log("Checkout session lookup:", { data, error });
+  console.log("Checkout access lookup:", { session, accessStatus });
 
-    if (error) {
-      console.error("Failed to load checkout session:", error);
-      alert("Could not start checkout.");
-      return;
-    }
+  if (!session) {
+    alert("Account setup is required before payment.");
+    return;
+  }
 
-if (!data.session) {
-  alert("Account setup is required before payment. We’ll fix this next.");
-  return;
-}
+  if (accessStatus === "paid") {
+    window.location.href = "dashboard.html";
+    return;
+  }
 
-    const { data: result, error: functionError } =
-  await window.supabaseClient.functions.invoke("quick-processor", {
-    body: {}
-  });
+  const { data: result, error: functionError } =
+    await window.supabaseClient.functions.invoke("quick-processor", {
+      body: {}
+    });
 
-console.log("Checkout function response:", result, functionError);
-if (functionError) {
-  console.error("Checkout function failed:", functionError);
-  alert("Could not start checkout.");
-  return;
-}
+  console.log("Checkout function response:", result, functionError);
 
-if (result?.url) {
-  window.location.href = result.url;
-}
-  });
+  if (functionError) {
+    console.error("Checkout function failed:", functionError);
+    alert("Could not start checkout.");
+    return;
+  }
+
+  if (result?.url) {
+    window.location.href = result.url;
+  }
+});
 </script>
 
 <div style="width:100%;flex-basis:100%;margin-top:40px;text-align:center;font-size:13px;color:#888;">
@@ -176,7 +209,6 @@ if (result?.url) {
     <a href="terms.html" style="color:#666;text-decoration:none;margin:0 8px;">Terms</a>
     <a href="privacy.html" style="color:#666;text-decoration:none;margin:0 8px;">Privacy</a>
   </div>
-</div>
 
 </div>
   </div>
