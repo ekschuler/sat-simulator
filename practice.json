@@ -4790,10 +4790,10 @@
       "stem": "<div class='stem-text'>In working with a one-time donation to a university, a fund manager estimates that, starting from today, the university will spend \\(22\\) percent of this donation every \\(8\\) years.  If the donation is in the amount of \\(\\text{900,000}\\), which of the following expressions represents the fund manager’s estimate of amount of the donation remaining \\(t\\) years from today?</div>",
 
       "choices": [
-        "\\(\text{900,000}(0.78)^{8t}\\)",
-        "\\(\text{900,000}(0.78)^{\\frac{t}{8}}\\)",
-        "\\(\text{900,000}(0.22)^{8t}\\)",
-        "\\(\text{900,000}(0.22)^{\\frac{t}8}\\)"
+        "\\(\\text{900,000}(0.78)^{8t}\\)",
+        "\\(\\text{900,000}(0.78)^{\\frac{t}{8}}\\)",
+        "\\(\\text{900,000}(0.22)^{8t}\\)",
+        "\\(\\text{900,000}(0.22)^{\\frac{t}8}\\)"
       ],
       "answerIndex": 1,
       "explanation": "<div class='explanation-step'>In this problem the bases and the exponents differentiate the answers. Begin with the base; in the exponential function \\(y=a \times b^{\\frac{t}{r}}\\), \\(b\\) is the growth or decay rate.  In an exponential growth problem, \\(b\\) is found by \\(b=100\\% + n\\%\\), and in an exponential decay problem, it is found by \\(b=100\\% - n\\%\\). Since the fund in this problem decreases by \\(22\\%\\) each year, \\(b=\\) \\(100\\%\\) (donation) \\(-\\) \\(22\\%\\)(donation), or \\(b=78\\%\\) of the donation.  Eliminate C and D. The exponent is found by dividing time by the period of time for one increase or decrease to occur, so B is the correct answer.  This can be seen by substituting \\(8\\) in for \\(t\\) to get \\(\text{900,000}(0.78)^{\\frac{8}{8}}=\text{900,000}(0.78)^1\\), so after \\(8\\) years, one decrease of \\(22\\%\\) occurs.</div>"
