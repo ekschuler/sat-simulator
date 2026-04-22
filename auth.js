@@ -25,9 +25,24 @@ async function signUp() {
 statusEl.textContent = "Sign up successful.";
 
 if (window.location.pathname.includes("checkout.html")) {
-  setTimeout(() => {
+  const { data: profile, error: profileError } = await window.supabaseClient
+    .from("profiles")
+    .select("access_status")
+    .eq("id", data.user.id)
+    .maybeSingle();
+
+  if (profileError) {
+    console.error("Failed to load profile after login:", profileError);
     window.location.href = "index.html";
-  }, 300);
+    return;
+  }
+
+  if (profile?.access_status === "paid") {
+    window.location.href = "dashboard.html";
+    return;
+  }
+
+  window.location.href = "index.html";
 } else {
   setTimeout(() => {
     window.location.href = "dashboard.html";
@@ -64,9 +79,24 @@ async function logIn() {
   statusEl.textContent = `Logged in as ${data.user.email}`;
 
 if (window.location.pathname.includes("checkout.html")) {
-  setTimeout(() => {
+  const { data: profile, error: profileError } = await window.supabaseClient
+    .from("profiles")
+    .select("access_status")
+    .eq("id", data.user.id)
+    .maybeSingle();
+
+  if (profileError) {
+    console.error("Failed to load profile after login:", profileError);
     window.location.href = "index.html";
-  }, 300);
+    return;
+  }
+
+  if (profile?.access_status === "paid") {
+    window.location.href = "dashboard.html";
+    return;
+  }
+
+  window.location.href = "index.html";
 } else {
   setTimeout(() => {
     window.location.href = "dashboard.html";
