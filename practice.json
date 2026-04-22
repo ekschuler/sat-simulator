@@ -350,7 +350,7 @@
         "\\((5,15)\\)"
       ],
       "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>This system of equations is best solved by the substitution method.  First, multiply the first equation by \\(3\\) to clear the fraction:</div><div class='explanation-math'>$$\\begin{aligned}\\ 3 \\left(\\frac{1}{3}y \\right)&=x(3) \\\\ y&=3x \\end{aligned}$$</div><div class='explanation-step'>Substitute \\(3x\\) in for \\(y\\) into the equation \\(y-x=8\\), so \\(3x-x=8\\).  Then solve for \\(x\\):</div><div class='explanation-math'>$$\\begin{aligned}\\ 3x - x &= 8 \\\\ \\frac{\\cancel{2}x}{\\cancel{2}} &= \\frac{8}{2} \\\\ x &= 4 \\end{aligned}$$</div><div class='explanation-step'>The problem asks you to solve for \\((x,y)\\), but all of the \\(x\\)-values are distinct in the answers, so you can stop here. The correct answer is \\textbf{A}.</div>"
+      "explanation": "<div class='explanation-step'>This system of equations is best solved by the substitution method.  First, multiply the first equation by \\(3\\) to clear the fraction:</div><div class='explanation-math'>$$\\begin{aligned}\\ 3 \\left(\\frac{1}{3}y \\right)&=x(3) \\\\ y&=3x \\end{aligned}$$</div><div class='explanation-step'>Substitute \\(3x\\) in for \\(y\\) into the equation \\(y-x=8\\), so \\(3x-x=8\\).  Then solve for \\(x\\):</div><div class='explanation-math'>$$\\begin{aligned}\\ 3x - x &= 8 \\\\ \\frac{\\cancel{2}x}{\\cancel{2}} &= \\frac{8}{2} \\\\ x &= 4 \\end{aligned}$$</div><div class='explanation-step'>The problem asks you to solve for \\((x,y)\\), but all of the \\(x\\)-values are distinct in the answers, so you can stop here.</div>"
     },
 {
       "id": "A-L1-014",
@@ -841,7 +841,7 @@
       "set": "Algebra Practice",
       "tags": ["solving equations"],
 
-      "stem": "<div class='stem-table-wrap'><table class='stem-table'><tr><th>\\(x\\)</th><th>\\(h(x)\\)</th></tr><tr><td>\\(0\\)</td><td>\\(9\\)</td></tr><tr><td>\\(1\\)</td><td>\\(-2\\)</td></tr><tr><td>\\(2\\)</td><td>\\(5\\)</td></tr></table></div><div class='stem-text'>For the linear function \\(h\\), the table shows three values of \\(x\\) and their corresponding values of \\(h(x)\\). Which equation defines \\(h(x)\\)?</div>",
+      "stem": "<div class='stem-table-wrap'><table class='stem-table'><tr><th>\\(x\\)</th><th>\\(h(x)\\)</th></tr><tr><td>\\(0\\)</td><td>\\(-9\\)</td></tr><tr><td>\\(1\\)</td><td>\\(-2\\)</td></tr><tr><td>\\(2\\)</td><td>\\(5\\)</td></tr></table></div><div class='stem-text'>For the linear function \\(h\\), the table shows three values of \\(x\\) and their corresponding values of \\(h(x)\\). Which equation defines \\(h(x)\\)?</div>",
 
       "choices": [
         "\\(h(x)=-9x-2\\)",
@@ -1414,7 +1414,7 @@
         "\\(g(x)=5x+6\\)"
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>The point \\((0,6)\\) is the \\(y\\)-intercept, or \\(b\\) in the slope-intercept form \\(y=mx+b\\). Since the equation is \\(g(x)=mx+6\\), eliminate A and B. Next, substitute \\((5,21)\\) into the equation to solve for \\(m\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ g(x) &=mx+6 \\\\ 21&=5m+6\\\\21-6&=5m+\\cancel{6}-\\cancel{6}\\\\ \\frac{15}{5}&=\\frac{\\cancel{5}m}{\\cancel{5}}\\\\m&=3 \\end{aligned}$$</div><div class='explanation-step'>The slope is \\(3\\).</div>"
+      "explanation": "<div class='explanation-step'>The point \\((0,6)\\) is the \\(y\\)-intercept, or \\(b\\) in the slope-intercept form \\(y=mx+b\\). Since the equation is \\(g(x)=mx+6\\), eliminate A and B. Next, substitute \\((5,21)\\) into the equation to solve for \\(m\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ g(x) &=mx+6 \\\\ 21&=5m+6\\\\21-6&=5m+\\cancel{6}-\\cancel{6}\\\\ \\frac{15}{5}&=\\frac{\\cancel{5}m}{\\cancel{5}}\\\\m&=3 \\end{aligned}$$</div>"
     },
 {
       "id": "A-L2-022",
@@ -2821,9 +2821,9 @@
       "set": "Algebra Practice",
       "tags": ["perpendicular", "linear"],
 
-      "stem": "<div class='stem-text'>In the \\(xy\\)-plane, line \\(m\\) is perpendicular to the line represented by the equation \\(y=3x+7\\) and line \\(m\\) also passes through the point \\((0,1)\\). If line \\(m\\) also passes through the point \\((9,f)\\), what is the value of \\(f\\)?</div>",
-      "answer": "4",
-      "answersAccepted": ["4"],
+      "stem": "<div class='stem-text'>In the \\(xy\\)-plane, line \\(m\\) is perpendicular to the line represented by the equation \\(y=3x+7\\) and line \\(m\\) also passes through the point \\((0,1)\\). If line \\(m\\) also passes through the point \\((9,f),\\) what is the value of \\(f\\)?</div>",
+      "answer": "-2",
+      "answersAccepted": ["-2"],
 
       "validation": {
         "allowDecimal": false,
@@ -2832,7 +2832,7 @@
         "maxChars": 6
       },
 
-      "explanation": "<div class='explanation-step'>Line \\(m\\) is perpendicular to the graph of \\(y=3x+7\\), so their slopes are \\textit{negative reciprocals}.  The slope of \\(y=3x+7\\) is \\(3\\), so the slope of line \\(m\\) is \\(-\\frac{1}{3}\\).  Additionally, \\((0,1)\\) is the \\(y\\)-intercept of line \\(m\\).  The slope-intercept equation for line \\(m\\) is therefore \\(y=-\\frac{1}{3}x+1\\).  Substitute \\((9,f)\\) into the equation to find the value of \\(f\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ y&=-\\frac{1}{3}x+1\\\\f&=-\\frac{1}{3}(9)+1\\\\f&=3+1\\\\f&=4 \\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>Line \\(m\\) is perpendicular to the graph of \\(y=3x+7\\), so their slopes are \\textit{negative reciprocals}.  The slope of \\(y=3x+7\\) is \\(3\\), so the slope of line \\(m\\) is \\(-\\frac{1}{3}\\).  Additionally, \\((0,1)\\) is the \\(y\\)-intercept of line \\(m\\).  The slope-intercept equation for line \\(m\\) is therefore \\(y=-\\frac{1}{3}x+1\\).  Substitute \\((9,f)\\) into the equation to find the value of \\(f\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ y&=-\\frac{1}{3}x+1\\\\f&=-\\frac{1}{3}(9)+1\\\\f&=-3+1\\\\f&=-2 \\end{aligned}$$</div>"
     },
 {
       "id": "A-L3-018",
@@ -3370,7 +3370,7 @@
         "maxChars": 6
       },
 
-      "explanation": "<div class='explanation-step'>To find the solutions to this quadratic equation, factor the left hand side.  Find factors of \\(-32\\) that have a sum of \\(-14\\).  Since \\(-16 \times 2 = -32\\) and \\(-16+2=-14\\), the equation can be written as \\((t-16)(t+2)=0\\).  Use the Zero Product Property to solve: \\(t-16=0\\) and \\(t+2=0\\), so \\(t=16\\) or \\(t=-2\\).</div>"
+      "explanation": "<div class='explanation-step'>To find the solutions to this quadratic equation, factor the left hand side.  Find factors of \\(-32\\) that have a sum of \\(-14\\).  Since \\(-16 \\times 2 = -32\\) and \\(-16+2=-14\\), the equation can be written as \\((t-16)(t+2)=0\\).  Use the Zero Product Property to solve: \\(t-16=0\\) and \\(t+2=0\\), so \\(t=16\\) or \\(t=-2\\).</div>"
     },
 
     {
@@ -4035,7 +4035,7 @@
         "\\(C(t)=\\text{8,857.01}(0.92)^t\\)"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>In the exponential function \\(y=a \times b^x\\), \\(a\\) is the starting value and \\(b\\) is the growth or decay factor. In this situation, the initial value of the car is \\(\\$\\)\\text{22,500.00}\\(, so \\)a=\\(\\text{22,500.00}\\). Eliminate C and D.  The car decreases in value, and in an exponential decay (decrease) function \\(0<b<1\\); eliminate A, which makes B the correct answer.</div>"
+      "explanation": "<div class='explanation-step'>In the exponential function \\(y=a \\times b^x\\), \\(a\\) is the starting value and \\(b\\) is the growth or decay factor. In this situation, the initial value of the car is \\$22,500.00, so \\(a=\\text{22,500.00}\\). Eliminate C and D.  The car decreases in value, and in an exponential decay (decrease) function \\(0<b<1\\).</div>"
     },
 {
       "id": "AM-L2-029",
@@ -5252,7 +5252,7 @@
         "Four"
       ],
       "answerIndex": 3,
-      "explanation": "<div class='stem-image'><img src='assets/TesAdv3 - 27A.png'></div><div class='explanation-step'>\\(h(x)=0\\) occurs at the \\(x\\)-intercepts.  Find how many times the graph intersects the \\(x\\)-axis; the graph intersects the \\(x\\)-axis \\(4\\) times.</div>"
+      "explanation": "<div class='stem-image'><img src='assets/TestAdv3 - 27A.png'></div><div class='explanation-step'>\\(h(x)=0\\) occurs at the \\(x\\)-intercepts.  Find how many times the graph intersects the \\(x\\)-axis; the graph intersects the \\(x\\)-axis \\(4\\) times.</div>"
     },
 {
       "id": "AM-L3-028",
@@ -5518,8 +5518,8 @@
         "\\(x^2+(y+8)^2=64\\)",
         "\\((x+8)^2+(y-7)^2=16\\)"
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>The equation of a circle is \\((x-h)^2+(y-k)^2=r^2\\), where \\((h,k)\\) is the center of the circle and \\(r\\) is the radius.  In order for the circle \textit{not} to intersect the \\(y\\)-axis, the distance from the center of the circle to a point on the circle (which is the radius) must be \textit{less} than the horizontal shift of the circle to the right or left. The horizontal shift of the circle is equal to the \\(x-\\)value of the center, or \\(h\\).</div><div class='explanation-step'>Test answers to determine whether the \\(\textit{length of the radius} < k\\). In all four answer choices \\(r^2=49\\), so the radius is \\(7\\).</div><div class='explanation-step'>A) \\((x-3)^2+(y-10)^2=49\\): the \\(x\\)-value of the center is \\(3\\), so the center is \\(3\\) units to the right of the \\(y\\)-axis. Since the radius (\\(7\\)) is greater than the distance to the \\(y-\\)axis, this circle will intersect the \\(y-\\)axis. Eliminate A.</div><div class='explanation-step'>B) \\((x+7)^2+y^2=49\\): the \\(x\\)-value of the center is \\(-7\\), so the center is \\(7\\) units to the left of the \\(y\\)-axis.  Since the radius is equal to the distance to the \\(y-\\)axis, this circle will intersect the \\(y-\\)axis (one time). Eliminate B.</div><div class='explanation-step'>C) \\(x^2+(y+8)^2=49\\): the \\(x\\)-value of the center is \\(0\\), so the center of this circle is \textit{on} the \\(y-\\)axis. Eliminate C.</div><div class='explanation-step'>D) \\((x+8)^2+(y-7)^2=49\\): the \\(x\\)-value of the center is \\(-8\\), so the center is \\(8\\) units to the left of the \\(y\\)-axis. Since this distance is greater than the radius, this circle does not intersect the \\(y-\\)axis.  This means the correct answer is \textbf{D}.</div>"
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>The equation of a circle is \\((x-h)^2+(y-k)^2=r^2\\), where \\((h,k)\\) is the center of the circle and \\(r\\) is the radius.  In order for the circle \\textit{not} to intersect the \\(y\\)-axis, the distance from the center of the circle to a point on the circle (which is the radius) must be \\textit{less} than the horizontal shift of the circle to the right or left. The horizontal shift of the circle is equal to the \\(x-\\)value of the center, or \\(h\\).</div><div class='explanation-step'>Test answers to determine whether the \\(\\textit{length of the radius} < k\\). In all four answer choices \\(r^2=49\\), so the radius is \\(7\\).</div><div class='explanation-step'>A) \\((x-3)^2+(y-10)^2=49\\): the \\(x\\)-value of the center is \\(3\\), so the center is \\(3\\) units to the right of the \\(y\\)-axis. Since the radius (\\(7\\)) is greater than the distance to the \\(y-\\)axis, this circle will intersect the \\(y-\\)axis. Eliminate A.</div><div class='explanation-step'>B) \\((x+7)^2+y^2=49\\): the \\(x\\)-value of the center is \\(-7\\), so the center is \\(7\\) units to the left of the \\(y\\)-axis.  Since the radius is equal to the distance to the \\(y-\\)axis, this circle will intersect the \\(y-\\)axis (one time). Eliminate B.</div><div class='explanation-step'>C) \\(x^2+(y+8)^2=49\\): the \\(x\\)-value of the center is \\(0\\), so the center of this circle is \textit{on} the \\(y-\\)axis. Eliminate C.</div><div class='explanation-step'>D) \\((x+8)^2+(y-7)^2=49\\): the \\(x\\)-value of the center is \\(-8\\), so the center is \\(8\\) units to the left of the \\(y\\)-axis. Since this distance is greater than the radius, this circle does not intersect the \\(y-\\)axis.  This means the correct answer is \\textbf{D}.</div>"
     },
 {
       "id": "P-L1-001",
@@ -5794,7 +5794,7 @@
         "maxChars": 6
       },
 
-      "explanation": "<div class='explanation-step'>Use unit conversions to solve this problem.  Since the answer needs to be in flaps per minute and the given ratio is in flaps per second, multiply by another ratio that will cancel seconds, leaving flaps per minute as the ratio. Since there are \\(60\\) seconds in one minute, multiply by \\(60\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ &=\\frac{64\\, \\text{flaps}}{1 \\, \\text{\\cancel{second}}} \\times \\frac{60 \\, \\text{\\cancel{seconds}}}{1 \\, \\text{minute}}= {\\text{3,840}}\\frac{\\text{flaps}}{\\text{minutes}} \\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>Use unit conversions to solve this problem.  Since the answer needs to be in flaps per minute and the given ratio is in flaps per second, multiply by another ratio that will cancel seconds, leaving flaps per minute as the ratio. Since there are \\(60\\) seconds in one minute, multiply by \\(60\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ &=\\frac{64\\, \\text{flaps}}{1 \\, \\cancel{\\text{second}}} \\times \\frac{60 \\, \\cancel{\\text{seconds}}}{1 \\, \\text{minute}}= {\\text{3,840}}\\frac{\\text{flaps}}{\\text{minutes}} \\end{aligned}$$</div>"
     },
     {
       "id": "P-L1-011",

@@ -288,49 +288,7 @@ async function getPracticeHistory() {
 
   return data || [];
 }
-async function renderPracticeHistory() {
-  const container = document.getElementById("practiceHistoryList");
-  if (!container) return;
 
-  container.innerHTML = `<p style="margin:0; color:#666;">Loading practice history...</p>`;
-
-  const sessions = await getPracticeHistory();
-
-  if (!sessions.length) {
-    container.innerHTML = `<p style="margin:0; color:#666;">No practice history yet.</p>`;
-    return;
-  }
-
-  container.innerHTML = sessions.slice(0, 5).map(session => {
-    const answerMap = session.answers || {};
-    const answeredCount = Object.keys(answerMap).length;
-    const updatedLabel = session.updated_at
-      ? new Date(session.updated_at).toLocaleString()
-      : "Saved session";
-
-    return `
-      <div style="border:1px solid #e5e7eb; border-radius:12px; padding:12px; margin-top:12px;">
-        <div style="font-weight:700; margin-bottom:6px;">
-          ${session.set_id || "Practice Session"}
-        </div>
-        <div style="font-size:14px; color:#666; margin-bottom:10px;">
-          Last worked: ${updatedLabel} • ${answeredCount} answered
-        </div>
-        <div style="display:flex; gap:8px; flex-wrap:wrap;">
-          <button class="secondaryBtn" onclick="resumePracticeSession('${session.set_id || ""}')">
-            Resume
-          </button>
-          <button class="secondaryBtn" onclick="reviewPracticeSession('${session.id}', 'incorrect')" disabled>
-            Review Mistakes
-          </button>
-          <button class="secondaryBtn" onclick="reviewPracticeSession('${session.id}', 'all')" disabled>
-            Review All
-          </button>
-        </div>
-      </div>
-    `;
-  }).join("");
-}
 async function guardSimulatorAccess(params) {
   const isDemo = params.get("demo") === "1";
   const mode = params.get("mode");
@@ -763,6 +721,7 @@ window.__SAT_SIM_LOAD_IN_FLIGHT__ = true;
 const params = new URLSearchParams(window.location.search);
 isDemoMode = params.get("demo") === "1";
 const fresh = params.get("fresh") === "1";
+const resume = params.get("resume") === "1";
 reviewMode = params.get("review");
 const reviewSessionId = params.get("sessionId");
 const mode = forcedMode || params.get("mode") || "home";
@@ -933,11 +892,26 @@ if (reviewMode === "incorrect") {
   } else {
     const existingSession = await getExistingPracticeSession(setId);
 
-    let answeredIds = [];
+if (resume && existingSession) {
+  answers = existingSession.answers || {};
+  current = existingSession.current_index || 0;
 
-    if (existingSession && existingSession.answers) {
-      answeredIds = Object.keys(existingSession.answers);
-    }
+  practiceQuestionPool = fullPracticePool;
+} else {
+  let answeredIds = [];
+
+  if (existingSession && existingSession.answers) {
+    answeredIds = Object.keys(existingSession.answers);
+  }
+
+  const remainingQuestions = fullPracticePool.filter(q => {
+    return !answeredIds.includes(String(q.id));
+  });
+
+  practiceQuestionPool = remainingQuestions.length > 0
+    ? remainingQuestions
+    : fullPracticePool;
+}
 
     const remainingQuestions = fullPracticePool.filter(q => {
       return !answeredIds.includes(String(q.id));
