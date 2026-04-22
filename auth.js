@@ -25,13 +25,9 @@ async function signUp() {
 statusEl.textContent = "Sign up successful.";
 
 if (window.location.pathname.includes("checkout.html")) {
-  const subscribeBtn = document.getElementById("subscribeBtn");
-  if (subscribeBtn) {
-    subscribeBtn.disabled = false;
-    setTimeout(() => {
-      subscribeBtn.click();
-    }, 300);
-  }
+  setTimeout(() => {
+    window.location.href = "index.html";
+  }, 300);
 } else {
   setTimeout(() => {
     window.location.href = "dashboard.html";
@@ -68,13 +64,9 @@ async function logIn() {
   statusEl.textContent = `Logged in as ${data.user.email}`;
 
 if (window.location.pathname.includes("checkout.html")) {
-  const subscribeBtn = document.getElementById("subscribeBtn");
-  if (subscribeBtn) {
-    subscribeBtn.disabled = false;
-    setTimeout(() => {
-      subscribeBtn.click();
-    }, 300);
-  }
+  setTimeout(() => {
+    window.location.href = "index.html";
+  }, 300);
 } else {
   setTimeout(() => {
     window.location.href = "dashboard.html";
@@ -106,11 +98,14 @@ async function checkCurrentUser() {
   if (data?.user) {
   statusEl.textContent = `Already logged in as ${data.user.email}`;
 
-  if (!window.location.pathname.includes("checkout.html")) {
-    setTimeout(() => {
-      window.location.href = "dashboard.html";
-    }, 700);
-  }
+  if (
+  !window.location.pathname.includes("checkout.html") &&
+  !window.location.pathname.includes("index.html")
+) {
+  setTimeout(() => {
+    window.location.href = "dashboard.html";
+  }, 700);
+}
 } else {
   statusEl.textContent = "";
 }

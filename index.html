@@ -102,10 +102,7 @@ body{
   </div>
 
   <div class="nav-right">
-    <a href="index.html">Home</a>
-<a href="checkout.html">Subscribe</a>
-<a href="simulator.html?mode=practice&demo=1">Demo</a>
-<a href="checkout.html">Log In</a>
+<a href="checkout.html" id="indexLogoutLink">Log In</a>
   </div>
 </nav>
 <div style="max-width:860px;margin:60px auto 20px;text-align:center;padding:0 20px;">
@@ -138,9 +135,7 @@ body{
       Create your account and continue to payment to access full SAT math practice.
     </div>
 
-    <button type="button" onclick="window.location.href='checkout.html'">
-      Unlock Full Access
-    </button>
+    <button type="button" id="unlockBtn">Unlock Full Access</button>
   </div>
 </div>
 
@@ -211,6 +206,42 @@ Existing users can log in below. New users should start with the demo or unlock 
   }
     window.location.href = "simulator.html?mode=practice&demo=1";
   }
+  window.addEventListener("load", async () => {
+  const { data } = await window.supabaseClient.auth.getUser();
+  const unlockBtn = document.getElementById("unlockBtn");
+
+  if (!unlockBtn) return;
+
+  if (data?.user) {
+    unlockBtn.textContent = "Proceed to Checkout";
+  } else {
+    unlockBtn.textContent = "Unlock Full Access";
+  }
+});
+  document.getElementById("unlockBtn").addEventListener("click", async () => {
+  const { data } = await window.supabaseClient.auth.getUser();
+
+  if (data?.user) {
+    const { data: result, error: functionError } =
+      await window.supabaseClient.functions.invoke("quick-processor", {
+        body: {}
+      });
+
+    if (functionError) {
+      console.error("Checkout function failed:", functionError);
+      alert("Could not start checkout.");
+      return;
+    }
+
+    if (result?.url) {
+      window.location.href = result.url;
+    }
+
+    return;
+  }
+
+  window.location.href = "checkout.html";
+});
 
   window.addEventListener("load", () => {
     const params = new URLSearchParams(window.location.search);
@@ -223,6 +254,35 @@ Existing users can log in below. New users should start with the demo or unlock 
       }
     }
   });
+  const indexLogoutLink = document.getElementById("indexLogoutLink");
+
+window.addEventListener("load", async () => {
+  if (!indexLogoutLink) return;
+
+  const { data } = await window.supabaseClient.auth.getUser();
+
+  if (data?.user) {
+    indexLogoutLink.textContent = "Log Out";
+    indexLogoutLink.href = "#";
+
+    indexLogoutLink.onclick = async (e) => {
+      e.preventDefault();
+
+      const { error } = await window.supabaseClient.auth.signOut();
+
+      if (error) {
+        console.error("Logout failed:", error);
+        return;
+      }
+
+      window.location.replace("index.html");
+    };
+  } else {
+    indexLogoutLink.textContent = "Log In";
+    indexLogoutLink.href = "checkout.html";
+    indexLogoutLink.onclick = null;
+  }
+});
 </script>
 <div style="text-align:center;font-size:13px;color:#888;margin:40px 0 20px;">
   <div style="margin-bottom:6px;">SAT Math Practice</div>

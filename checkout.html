@@ -77,21 +77,26 @@
 ></script>
 </head>
 <body>
+  <div class="nav" style="width:100%;position:fixed;top:0;left:0;right:0;height:60px;background:white;border-bottom:1px solid #e5e5e5;display:flex;justify-content:space-between;align-items:center;padding:0 30px;box-sizing:border-box;z-index:1000;">
+  <div><strong>SAT Math Practice</strong></div>
+  <div style="display:flex;gap:20px;align-items:center;">
+    <button id="logoutBtn" class="secondaryBtn" type="button" style="display:none;border:none;">Log Out</button>
+  </div>
+</div>
   <div style="display:flex;flex-direction:column;align-items:center;width:100%;">
-  <div class="card">
-    <h1>Unlock Full Access</h1>
-    <p>
-      Full SAT practice and full tests require a paid subscription.
-      Demo mode is still free.
-    </p>
+  <div class="card" style="margin-top:80px;">
+    <h1>Account Access</h1>
+<p>
+  Create an account or log in to continue.
+</p>
 
     <div style="display:flex;flex-direction:column;gap:12px;max-width:320px;width:100%;margin:0 auto 20px;">
   <div id="checkoutAuthHeader" style="text-align:center;margin-bottom:4px;">
-    <div style="font-size:20px;font-weight:800;color:#111;">Create your account</div>
-    <div style="font-size:14px;color:#666;margin-top:4px;">
-      New users create an account first. Existing users can log in below.
-    </div>
+  <div id="authModeTitle" style="font-size:20px;font-weight:800;color:#111;">Create your account</div>
+  <div id="authModeText" style="font-size:14px;color:#666;margin-top:4px;">
+    New users create an account first. Existing users can log in below.
   </div>
+</div>
 
 <input
   id="authEmail"
@@ -108,15 +113,11 @@
   >
 
   <div class="btnRow" style="margin-top:4px;">
-    <button class="secondaryBtn authBtn" id="signUpBtn" type="button">Create Account</button>
-    <button class="secondaryBtn authBtn" id="logInBtn" type="button">Log In</button>
-  </div>
-
-  <p id="authStatus" style="margin:0;color:#444;font-size:14px;"></p>
+  <button class="primaryBtn authBtn active" id="signUpBtn" type="button">Create Account</button>
+  <button class="secondaryBtn authBtn" id="logInBtn" type="button">Log In</button>
 </div>
 
-<div style="display:none;">
-  <button id="subscribeBtn" type="button">Unlock Full Access</button>
+  <p id="authStatus" style="margin:0;color:#444;font-size:14px;"></p>
 </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
@@ -156,6 +157,7 @@ async function getCheckoutAccessStatus() {
   };
 }
   window.addEventListener("load", async () => {
+    console.log("CHECKOUT LOAD BLOCK RUNNING");
   const { session, accessStatus } = await getCheckoutAccessStatus();
 
   if (!session) {
@@ -163,14 +165,18 @@ async function getCheckoutAccessStatus() {
   }
 
   if (accessStatus === "paid") {
-    window.location.href = "dashboard.html";
-    return;
-  }
+  window.location.href = "dashboard.html";
+  return;
+}
 
-  subscribeBtn.disabled = false;
-  subscribeBtn.click();
+const params = new URLSearchParams(window.location.search);
+if (params.get("from") === "index") {
+  return;
+}
+
+window.location.href = "index.html";
+return;
 });
-
   subscribeBtn.addEventListener("click", async () => {
   const { session, accessStatus } = await getCheckoutAccessStatus();
 
@@ -186,10 +192,11 @@ async function getCheckoutAccessStatus() {
     return;
   }
 
-  const { data: result, error: functionError } =
-    await window.supabaseClient.functions.invoke("quick-processor", {
-      body: {}
-    });
+
+const { data: result, error: functionError } =
+  await window.supabaseClient.functions.invoke("quick-processor", {
+    body: {}
+  });
 
   console.log("Checkout function response:", result, functionError);
 
@@ -215,5 +222,20 @@ async function getCheckoutAccessStatus() {
 
 </div>
   </div>
+  
+<script>
+window.addEventListener("load", async () => {
+  const { data: authData } = await window.supabaseClient.auth.getUser();
+
+  if (authData?.user) {
+    document.getElementById("logoutBtn").style.display = "block";
+  }
+
+  document.getElementById("logoutBtn").addEventListener("click", async () => {
+    await window.supabaseClient.auth.signOut();
+    window.location.href = "index.html";
+  });
+});
+</script>
 </body>
 </html>
