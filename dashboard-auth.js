@@ -71,41 +71,24 @@ async function renderPracticeHistory() {
     return;
   }
 
-  container.innerHTML = sessions.slice(0, 5).map((session) => {
-    const answerMap = session.answers || {};
-    const answeredCount = Object.keys(answerMap).length;
+  const session = sessions[0];
+  const answerMap = session.answers || {};
+  const answeredCount = Object.keys(answerMap).length;
+  document.getElementById("practiceHistoryMeta").textContent =
+  `${answeredCount} answered`;
 
-    const setLabel = "Digital SAT Practice";
-
-    return `
-      <div style="border:1px solid #e5e7eb; border-radius:12px; padding:12px; margin-top:12px;">
-        <div style="font-weight:700; margin-bottom:6px;">${setLabel}</div>
-        <div style="font-size:14px; color:#666; margin-bottom:10px;">
-          ${answeredCount} answered
-        </div>
-        <div style="display:flex; gap:8px; flex-wrap:wrap;">
-          <button
-  class="secondaryBtn"
-  onclick="resumePracticeSession('${session.set_id || ""}')"
->
-  Resume
-</button>
-         <button
-  class="secondaryBtn"
-  onclick="reviewPracticeSession('${session.id}', 'incorrect')"
->
-  Review Mistakes
-</button>
-  <button
-  class="secondaryBtn"
-  onclick="reviewPracticeSession('${session.id}', 'all')"
->
-  Review All
-</button>
-        </div>
-      </div>
-    `;
-  }).join("");
+  container.innerHTML = `
+    <div style="padding:0; margin-top:12px;">
+      <div style="display:flex; gap:10px;">
+  <button class="secondaryBtn" style="flex:1;" onclick="reviewPracticeSession('${session.id}', 'incorrect')">
+    Review Mistakes
+  </button>
+  <button class="secondaryBtn" style="flex:1;" onclick="reviewPracticeSession('${session.id}', 'all')">
+    Review All
+  </button>
+</div>
+    </div>
+  `;
 }
 function resumePracticeSession(setId) {
   const safeSetId = encodeURIComponent(setId || "");

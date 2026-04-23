@@ -838,7 +838,7 @@ if (mode === "test" && options.resume) {
 }
 if (isPracticeMode) {
   const fullPracticePool = [...data.questions];
-  const setId = data.setId || data.moduleId || "practice";
+  const setId = "digital_sat_practice";
 
   if (reviewMode && reviewSessionId) {
     const reviewSession = await getPracticeSessionById(reviewSessionId);
@@ -847,29 +847,29 @@ if (isPracticeMode) {
       answers = reviewSession.answers || {};
 
       const answerMap = reviewSession.answers || {};
-const answeredQuestionIds = Object.keys(answerMap);
+      const answeredQuestionIds = Object.keys(answerMap);
 
-let reviewQuestions = fullPracticePool.filter(q =>
-  answeredQuestionIds.includes(String(q.id))
-);
+      let reviewQuestions = fullPracticePool.filter(q =>
+        answeredQuestionIds.includes(String(q.id))
+      );
 
-if (reviewMode === "incorrect") {
-  reviewQuestions = reviewQuestions.filter(q => {
-    const a = answerMap[q.id];
+      if (reviewMode === "incorrect") {
+        reviewQuestions = reviewQuestions.filter(q => {
+          const a = answerMap[q.id];
 
-    if (!a) return false;
+          if (!a) return false;
 
-    if (q.type === "mcq") {
-      return a.value !== q.answerIndex;
-    }
+          if (q.type === "mcq") {
+            return a.value !== q.answerIndex;
+          }
 
-    if (q.type === "gridin") {
-      return !isGridInCorrect(q, a.value);
-    }
+          if (q.type === "gridin") {
+            return !isGridInCorrect(q, a.value);
+          }
 
-    return false;
-  });
-}
+          return false;
+        });
+      }
 
       practiceQuestionPool = reviewQuestions;
       practiceSidebarTree = buildPracticeSidebarTree(practiceQuestionPool);
@@ -892,18 +892,13 @@ if (reviewMode === "incorrect") {
   } else {
     const existingSession = await getExistingPracticeSession(setId);
 
-if (resume && existingSession) {
+    let answeredIds = [];
+
+    if (resume && existingSession) {
   answers = existingSession.answers || {};
   current = existingSession.current_index || 0;
 
-  practiceQuestionPool = fullPracticePool;
-} else {
-  let answeredIds = [];
-
-  if (existingSession && existingSession.answers) {
-    answeredIds = Object.keys(existingSession.answers);
-  }
-
+  const answeredIds = Object.keys(existingSession.answers || {});
   const remainingQuestions = fullPracticePool.filter(q => {
     return !answeredIds.includes(String(q.id));
   });
@@ -911,15 +906,19 @@ if (resume && existingSession) {
   practiceQuestionPool = remainingQuestions.length > 0
     ? remainingQuestions
     : fullPracticePool;
-}
+} else {      
+  if (existingSession && existingSession.answers) {
+        answeredIds = Object.keys(existingSession.answers);
+      }
 
-    const remainingQuestions = fullPracticePool.filter(q => {
-      return !answeredIds.includes(String(q.id));
-    });
+      const remainingQuestions = fullPracticePool.filter(q => {
+        return !answeredIds.includes(String(q.id));
+      });
 
-    practiceQuestionPool = remainingQuestions.length > 0
-      ? remainingQuestions
-      : fullPracticePool;
+      practiceQuestionPool = remainingQuestions.length > 0
+        ? remainingQuestions
+        : fullPracticePool;
+    }
 
     practiceSidebarTree = buildPracticeSidebarTree(practiceQuestionPool);
     collapsedPracticeDomains = {};
@@ -932,7 +931,7 @@ if (resume && existingSession) {
     });
   }
 }
-practiceSession.pool = data.questions;
+practiceSession.pool = practiceQuestionPool;
 practiceSession.currentIndex = 0;
 
 setActiveNav(mode);

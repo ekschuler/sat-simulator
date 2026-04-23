@@ -203,7 +203,8 @@ Full SAT practice and tests are locked. Upgrade to unlock full access, or contin
 
 <div class="appCard" id="practiceHistoryCard">
   <h2 class="cardTitle">Practice History</h2>
-  <p class="cardText">Resume recent practice sessions or review work you already completed.</p>
+  <div id="practiceHistoryMeta" style="font-size:13px; color:#666; margin-top:4px;"></div>
+  <p class="cardText">Review past work, revisit mistakes, or look back through completed practice.</p>
 
   <div id="practiceHistoryList">
     <p style="margin:0; color:#666;">Loading practice history...</p>
@@ -266,6 +267,7 @@ console.log("Dashboard access status:", accessStatus);
   const startTestBtn = document.getElementById("startTestBtn");
   const startPracticeBtn = document.getElementById("startPracticeBtn");
   const dashboardTestLink = document.getElementById("dashboardTestLink");
+  const dashboardPracticeLink = document.getElementById("dashboardPracticeLink");
   const dashboardContent = document.getElementById("dashboardContent");
 
   if (gatedMessage && accessStatus !== "paid") {
@@ -279,7 +281,7 @@ console.log("Dashboard access status:", accessStatus);
   }
 
   if (dashboardPracticeLink) {
-    dashboardPracticeLink.href = "simulator.html?mode=practice&fresh=1";
+    dashboardPracticeLink.href = "simulator.html?mode=practice";
     dashboardPracticeLink.style.display = "";
   }
 
@@ -291,12 +293,13 @@ console.log("Dashboard access status:", accessStatus);
 
   if (startPracticeBtn) {
     startPracticeBtn.style.display = "";
-    startPracticeBtn.textContent = "Start Practice";
-    startPracticeBtn.onclick = () => location.href = "simulator.html?mode=practice&fresh=1";
+    startPracticeBtn.textContent = "Resume Practice";
+    startPracticeBtn.onclick = () => location.href = "simulator.html?mode=practice";
   }
   } else {
     if (startTestBtn) {
-      startTestBtn.textContent = "Upgrade to Unlock";
+  startTestBtn.style.display = "";
+  startTestBtn.textContent = "Upgrade to Unlock";
       startTestBtn.onclick = async () => {
   const { data: result, error: functionError } =
     await window.supabaseClient.functions.invoke("quick-processor", {
