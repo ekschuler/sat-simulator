@@ -845,6 +845,7 @@ if (isPracticeMode) {
 
     if (reviewSession && reviewSession.answers) {
       answers = reviewSession.answers || {};
+      reviewReveal = true;
 
       const answerMap = reviewSession.answers || {};
       const answeredQuestionIds = Object.keys(answerMap);
@@ -972,7 +973,14 @@ if (mode === "test") {
 
   if (practiceSidebarToggleBtn) practiceSidebarToggleBtn.style.display = "inline-block";
 }
-renderQuestion();
+if (reviewMode) {
+  reviewIndices = data.questions.map((_, i) => i);
+  reviewPointer = 0;
+  reviewReveal = false;
+  renderReviewScreen(reviewMode === "incorrect" ? "missed" : "all");
+} else {
+  renderQuestion();
+}
 renderPracticeSidebar();
 renderPracticeFilters();
 requestAnimationFrame(() => {
@@ -1764,6 +1772,16 @@ function renderPracticeSidebar() {
       <button onclick="closePracticeSidebar()" style="font-size:12px;">Close</button>
     </div>
 `;
+html += `
+  <button
+    type="button"
+    class="sidebar-topic-btn ${!practiceCurrentDomain && !practiceCurrentTopic ? "active" : ""}"
+    onclick='setPracticeView(shuffleArray([...practiceQuestionPool]), { domain: "", topic: "", level: "All", label: "All Questions" })'
+    style="margin-bottom:8px;"
+  >
+    All Questions
+  </button>
+`;
   if (practiceSelectionLabel) {
     html += `
       <div class="practice-sidebar-subhead">Now practicing</div>
@@ -1795,7 +1813,7 @@ function renderPracticeSidebar() {
       <button
   type="button"
   class="sidebar-domain-btn ${isDomainActive ? "active" : ""}"
-  onclick='togglePracticeDomain(${JSON.stringify(domain)})'
+  onclick='selectPracticeDomain(${JSON.stringify(domain)})'
 >
         <span class="sidebar-domain-name">
   <span class="sidebar-domain-chevron-inline">
@@ -1915,7 +1933,7 @@ function renderPracticeFilters() {
   const filters = document.getElementById("practiceFilters");
   if (!filters) return;
 
-  if (!isPracticeMode || !practiceCurrentTopic) {
+  if (!isPracticeMode || (!practiceCurrentTopic && !practiceCurrentDomain)) {
     filters.style.display = "none";
     filters.innerHTML = "";
     return;

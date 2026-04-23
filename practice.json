@@ -660,10 +660,10 @@
       "stem": "<div class='stem-text'>If \\(2n-6=22\\), what is the value of \\(8n-24\\)?</div>",
 
       "choices": [
-        "\\(0\\)",
-        "\\(1\\)",
-        "\\(2\\)",
-        "\\(3\\)"
+        "\\(32\\)",
+        "\\(56\\)",
+        "\\(66\\)",
+        "\\(88\\)"
       ],
       "answerIndex": 3,
       "explanation": "<div class='explanation-step'>Instead of solving for \\(n\\) to answer this question, notice that \\(2n-6\\) can be transformed to equal \\(8n-24\\) by multiplying it by \\(4\\).  To do this, multiply both sides of the equation by \\(4\\):</div><div class='explanation-math'>$$\\begin{aligned}\\ 2n-6&=22 \\\\ 4(2n-6)&=22\\times4\\\\ 8n-24&=88\\end{aligned}$$</div>"
@@ -2098,7 +2098,7 @@
       "set": "Algebra Practice",
       "tags": ["table of values", "linear functions"],
 
-      "stem": "<div class='stem-table-wrap'><table class='stem-table'><tr><th>\\(\\boldsymbol{x}\\)</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th></tr><tr><th>\\(\\boldsymbol{g(x)}\\)</th><td>\\(-1\\)</td><td>\\(3\\)</td><td>\\(7\\)</td><td>\\(11\\)</td><td>\\(15\\)</td></tr></table></div><div class='stem-text'>The table above shows some values of the linear function \\(g\\).  Which of the following defines \\(g\\)?</div>",
+      "stem": "<div class='stem-table-wrap'><table class='stem-table'><tr><th>\\(\\boldsymbol{x}\\)</th><th>\\(2\\)</th><th>\\(3\\)</th><th>\\(4\\)</th><th>\\(5\\)</th><th>\\(6\\)</th></tr><tr><th>\\(\\boldsymbol{g(x)}\\)</th><td>\\(-1\\)</td><td>\\(3\\)</td><td>\\(7\\)</td><td>\\(11\\)</td><td>\\(15\\)</td></tr></table></div><div class='stem-text'>The table above shows some values of the linear function \\(g\\).  Which of the following defines \\(g\\)?</div>",
 
       "choices": [
         "\\(g(x)=x-3\\)",
@@ -3477,7 +3477,7 @@
         "\\((0,80)\\)"
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>The \\(y\\)-intercept is the value of \\(y\\) when \\(x=0\\). Substitute \\(0\\) in for \\(x\\) and evaluate.  This expression uses the Zero Exponent Rule; \\(a^0=1\\) for any non-zero value of \\(a\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ h(0)&= 16 \\left(\\frac{1}{5}\right)^0\\\\ h(0)&= 16(1)\\\\ h(0)&= 16\\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>The \\(y\\)-intercept is the value of \\(y\\) when \\(x=0\\). Substitute \\(0\\) in for \\(x\\) and evaluate.  This expression uses the Zero Exponent Rule; \\(a^0=1\\) for any non-zero value of \\(a\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ h(0)&= 16 \\left(\\frac{1}{5}\\right)^0\\\\ h(0)&= 16(1)\\\\ h(0)&= 16\\end{aligned}$$</div>"
     },
 {
       "id": "AM-L2-008",
@@ -4430,7 +4430,7 @@
       "stem": "<div class='stem-equation'>$$p(m)=\\text{12,800}(0.75)^m$$</div><div class='stem-text'>The given function \\(p\\) models the number of people who visited a ski resort each month, where \\(m\\) represents the number of months since the end of January, and \\(0\\leq{m}\\leq4\\). If \\(y=p(m)\\) is graphed in the \\(xy\\)-plane, which of the following it the best interpretation of the \\(y\\)-intercept of the graph in this context?</div>",
 
       "choices": [
-        "The minimum estimated number of people who visited the ski resort during the \\(4\\) months was \\(\\text{5,400}\\).",
+        "The minimum estimated number of people who visited the ski resort during the \\(4\\) months was \\(\\text{5,400}.\\)",
         "The minimum estimated people who visited the ski resort during the \\(4\\) months was \\(\\text{12,800}\\).",
         "The estimated number of people who visited the ski resort in January was \\(\\text{5,400}\\).",
         "The estimated number of people who visited the ski resort in January was \\(\\text{12,800}\\)."
@@ -5841,7 +5841,7 @@
       "set": "Problem-solving and Data Analysis Practice",
       "tags": ["bar graphs"],
 
-      "stem": "<div class='stem-image'><img src='assets/Prob1-12.png'></div><div class='stem-text'>The bar graph shows the distribution of \\(399\\) tickets sold by \\(6\\) different age groups for a town fair. Which best approximates how many more tickets were sold by the 11-12 year olds than by the 17-18 year olds?</div>",
+      "stem": "<div class='stem-image'><img src='assets/Prob1-12.png' style='max-width:50%;'></div><div class='stem-text'>The bar graph shows the distribution of \\(399\\) tickets sold by \\(6\\) different age groups for a town fair. Which best approximates how many more tickets were sold by the 11-12 year olds than by the 17-18 year olds?</div>",
       "choices": [
         "\\(16\\)",
         "\\(27\\)",
@@ -5849,7 +5849,7 @@
         "\\(105\\)"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='stem-image'><img src='assets/Prob1-12A.png'></div><div class='explanation-step'>Approximate from the graph the number of tickets sold by 11 - 12 year olds and 17 - 18 year olds.  Then subtract them. 11 - 12 y.o.: \\(105\\) tickets, 17 - 18 y.o.: \\(78\\) tickets, so the difference is \\(105-78=27\\).</div>"
+      "explanation": "<div class='stem-image'><img src='assets/Prob1-12A.png'></div><div class='explanation-step'>Approximate from the graph the number of tickets sold by 11 - 12 year olds and 17 - 18 year olds, and find the difference between them.  11 - 12 y.o. sold approximately \\(105\\) tickets, and 17 - 18 y.o. sold approximately \\(78\\) tickets, so the difference is \\(105-78=27\\).</div>"
     },
     {
       "id": "P-L1-013",
@@ -6508,7 +6508,7 @@
       "set": "Problem-solving and Data Analysis Practice",
       "tags": ["mean", "average"],
 
-      "stem": "<div class='stem-image'><img src='assets/Prob3-5.png'></div><div class='stem-text'>Two data sets of \\(25\\) whole numbered test scores each are summarized in the histograms shown.  For each of the histograms, the first interval represents the frequency of test scores greater than or equal to \\(0\\), but less than \\(20\\).  The second interval represents the frequency of test scores greater than or equal to \\(20\\), but less than \\(40\\), and so on.  What is the smallest possible difference between the mean of data set K and the mean of data set L?</div>",
+      "stem": "<div class='stem-image'><img src='assets/Prob3-5.png' style='max-width:50%;'></div><div class='stem-text'>Two data sets of \\(25\\) whole numbered test scores each are summarized in the histograms shown.  For each of the histograms, the first interval represents the frequency of test scores greater than or equal to \\(0\\), but less than \\(20\\).  The second interval represents the frequency of test scores greater than or equal to \\(20\\), but less than \\(40\\), and so on.  What is the smallest possible difference between the mean of data set K and the mean of data set L?</div>",
       "choices": [
         "\\(0\\)",
         "\\(3\\)",
