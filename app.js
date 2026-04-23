@@ -1959,23 +1959,49 @@ function renderPracticeFilters() {
 function selectPracticeLevelFilter(level) {
   console.log("LEVEL BUTTON CLICKED:", level);
 
-  if (!practiceCurrentDomain || !practiceCurrentTopic) return;
-  collapsedPracticeDomains[practiceCurrentDomain] = false;
-
-  const topicLevels = practiceSidebarTree?.[practiceCurrentDomain]?.[practiceCurrentTopic];
-  if (!topicLevels) return;
+  if (!practiceCurrentDomain && !practiceCurrentTopic) return;
+  if (practiceCurrentDomain) {
+    collapsedPracticeDomains[practiceCurrentDomain] = false;
+  }
 
   let filteredQuestions = [];
-  let label = `${practiceCurrentDomain} → ${practiceCurrentTopic}`;
+  let label = "";
 
-  if (level === "All") {
-    Object.values(topicLevels).forEach(levelArr => {
-      levelArr.forEach(q => filteredQuestions.push(q.question));
+  if (practiceCurrentDomain && practiceCurrentTopic) {
+    const topicLevels = practiceSidebarTree?.[practiceCurrentDomain]?.[practiceCurrentTopic];
+    if (!topicLevels) return;
+
+    label = `${practiceCurrentDomain} → ${practiceCurrentTopic}`;
+
+    if (level === "All") {
+      Object.values(topicLevels).forEach(levelArr => {
+        levelArr.forEach(q => filteredQuestions.push(q.question));
+      });
+    } else {
+      const levelQuestions = topicLevels[level] || [];
+      filteredQuestions = levelQuestions.map(q => q.question);
+      label = `${practiceCurrentDomain} → ${practiceCurrentTopic} → ${level}`;
+    }
+  } else if (practiceCurrentDomain) {
+    const domainTopics = practiceSidebarTree?.[practiceCurrentDomain];
+    if (!domainTopics) return;
+
+    label = practiceCurrentDomain;
+
+    Object.values(domainTopics).forEach(topicLevels => {
+      if (level === "All") {
+        Object.values(topicLevels).forEach(levelArr => {
+          levelArr.forEach(q => filteredQuestions.push(q.question));
+        });
+      } else {
+        const levelQuestions = topicLevels[level] || [];
+        levelQuestions.forEach(q => filteredQuestions.push(q.question));
+      }
     });
-  } else {
-    const levelQuestions = topicLevels[level] || [];
-    filteredQuestions = levelQuestions.map(q => q.question);
-    label = `${practiceCurrentDomain} → ${practiceCurrentTopic} → ${level}`;
+
+    if (level !== "All") {
+      label = `${practiceCurrentDomain} → ${level}`;
+    }
   }
 
   setPracticeView(filteredQuestions, {
