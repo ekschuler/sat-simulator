@@ -1114,13 +1114,15 @@ if (submitBtn) {
   }
 }
 
-document.getElementById("loadingOverlay").style.display = "none";
+const loadingOverlay = document.getElementById("loadingOverlay");
+if (loadingOverlay) loadingOverlay.style.display = "none";
     })
     .catch(err => {
       console.error("Failed to load questions.json", err);
       appInitialized = false;
       isReady = false;
-      document.getElementById("loadingOverlay").innerHTML =
+      const overlay = document.getElementById("loadingOverlay");
+if (overlay) overlay.innerHTML =
         "<div style='text-align:center;'><div style='font-weight:700;font-size:18px;margin-bottom:8px;'>Could not load questions.</div><div style='color:#666;font-size:14px;'>Check Live Server and questions.json.</div></div>";
     })
     .finally(() => {
@@ -1691,7 +1693,7 @@ function renderReviewScreen(mode) {
               onclick="jumpToReviewQuestion('${mode}')"
             >
               Go
-            </button>
+            </butaton>
           </div>
         </div>
 

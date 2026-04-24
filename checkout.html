@@ -177,6 +177,7 @@ if (params.get("from") === "index") {
 window.location.href = "index.html";
 return;
 });
+  if (subscribeBtn) {
   subscribeBtn.addEventListener("click", async () => {
   const { session, accessStatus } = await getCheckoutAccessStatus();
 
@@ -210,6 +211,7 @@ const { data: result, error: functionError } =
     window.location.href = result.url;
   }
 });
+  }
 </script>
 
 <div style="width:100%;flex-basis:100%;margin-top:40px;text-align:center;font-size:13px;color:#888;">
