@@ -173,7 +173,7 @@
         "\\(19\\)"
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>Substitute \\(2\\( into the equation and simplify:</div><div class='explanation-math'>$$\\begin{aligned}&f(2)=-3(2)+19 \\\\ &f(2)=-6+19=13 \\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>Substitute \\(2\\) into the equation and simplify:</div><div class='explanation-math'>$$\\begin{aligned}&f(2)=-3(2)+19 \\\\ &f(2)=-6+19=13 \\end{aligned}$$</div>"
     },
     {
       "id": "A-L1-007",
@@ -189,7 +189,7 @@
       "set": "Algebra Practice",
       "tags": ["word problems", "writing equations"],
 
-      "stem": "<div class='stem-text'>Katie traveled a total of \\(170\\) miles by driving \\(5\\) miles to a location where she rode for \\(h\\) hours at \\(18\\) miles per hour.  Which of the following equations represents this situation?</div>",
+      "stem": "<div class='stem-text'>Katie traveled a total of \\(170\\) miles by driving \\(65\\) miles to a location where she rode for \\(h\\) hours at \\(18\\) miles per hour.  Which of the following equations represents this situation?</div>",
 
       "choices": [
         "\\(18h-65=170\\)",
@@ -367,7 +367,7 @@
       "set": "Algebra Practice",
       "tags": ["tables", "writing equations"],
 
-      "stem": "<div class='stem-table-wrap'><table class='stem-table'><tr><th>\\(x\\)</th><th>\\(g(x)\\)</th></tr><tr><td>\\(-2\\)</td><td>\\(-34\\)</td></tr><tr><td>\\(-1\\)</td><td>\\(-38\\)</td></tr><tr><td>\\(0\\)</td><td>\\(42\\)</td></tr><tr><td>\\(4\\)</td><td>\\(9\\)</td></tr></table></div><div class='stem-text'>For the linear function \\(g\\), the table shows three values of \\(x\\) and their corresponding values of \\(g(x)\\). Which equation defines \\(g(x)\\)?</div>",
+      "stem": "<div class='stem-table-wrap'><table class='stem-table'><tr><th>\\(x\\)</th><th>\\(g(x)\\)</th></tr><tr><td>\\(-2\\)</td><td>\\(-34\\)</td></tr><tr><td>\\(-1\\)</td><td>\\(-38\\)</td></tr><tr><td>\\(0\\)</td><td>\\(-42\\)</td></tr></table></div><div class='stem-text'>For the linear function \\(g\\), the table shows three values of \\(x\\) and their corresponding values of \\(g(x)\\). Which equation defines \\(g(x)\\)?</div>",
       "choices": [
         "\\(g(x)=-4x-42\\)",
         "\\(g(x)=42x-34\\)",
@@ -427,7 +427,7 @@
         "\\(7n^8\\)"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>In the expression \\(-3n^4+ 10n^4\\), \\(-3n^4\\) and \\(10n^4\\) are considered like terms because they have the same variables with the same exponents.  This means you can combine like terms, so \\(-3+10=7\\), making the correct answer \\(7n^4\\), or \\\textbf{B}.</div>"
+      "explanation": "<div class='explanation-step'>In the expression \\(-3n^4+ 10n^4\\), \\(-3n^4\\) and \\(10n^4\\) are considered like terms because they have the same variables with the same exponents.  This means you can combine like terms, so \\(-3+10=7\\), making the correct answer \\(7n^4\\).</div>"
     },
 {
       "id": "A-L1-017",
@@ -521,7 +521,7 @@
       "set": "Algebra Practice",
       "tags": ["writing equations", "linear functions"],
 
-      "stem": "<div class='stem-text'>An event planner is designing the floral arrangements for a party and has \\(120\\) flowers.  Each vase will have either \\(2\\) flowers or \\(5\\) flowers.  Which of the following equations represents this situation, where a represents the number of \\(2\\)-flower vases and \\(b\\) represents the number of \\(5\\)-flower vases?</div>",
+      "stem": "<div class='stem-text'>An event planner is designing the floral arrangements for a party and has \\(120\\) flowers.  Each vase will have either \\(2\\) flowers or \\(5\\) flowers.  Which of the following equations represents this situation, where \\(a\\) represents the number of \\(2\\)-flower vases and \\(b\\) represents the number of \\(5\\)-flower vases?</div>",
 
       "choices": [
         "\\(2a+5b=120\\)",
@@ -547,7 +547,7 @@
       "set": "Algebra Practice",
       "tags": ["functions", "evaluating"],
 
-      "stem": "<div class='explanation-step'>The equation \\(g(n)=11n-5\\) defines the function \\(g\\).  What is the value of \\(g(n)\\) when \\(n=6\\)?</div>",
+      "stem": "<div class='explanation-step'>The equation \\(g(n)=11n-5\\) defines the function \\(g\\).  What is the value of \\(g(n)\\) when \\(n=6?\\)</div>",
 
       "answer": "61",
       "answersAccepted": ["61"],
@@ -798,7 +798,7 @@
         "\\((0,-9)\\)"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='stem-image'><img src='assets/Alg1-1-30A.png'></div><div class='explanation-step'>To solve a system of equations by graphing, look for the point where the lines intersect.  These lines intersect at \\((2,-5)\\)</div>"
+      "explanation": "<div class='stem-image'><img src='assets/Alg1-1-30A.png'></div><div class='explanation-step'>To solve a system of equations by graphing, look for the point where the lines intersect.  These lines intersect at \\((2,-5).\\)</div>"
     },
 {
       "id": "A-L1-031",

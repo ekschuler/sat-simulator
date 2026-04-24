@@ -45,11 +45,12 @@ async function getPracticeHistory() {
 
   const user = userData.user;
 
-  const { data, error } = await window.supabaseClient
-    .from("practice_sessions")
-    .select("*")
-    .eq("user_id", user.id)
-    .order("updated_at", { ascending: false });
+const { data, error } = await window.supabaseClient
+  .from("practice_sessions")
+  .select("*")
+  .eq("user_id", user.id)
+  .neq("status", "abandoned")
+  .order("updated_at", { ascending: false });
 
   if (error) {
     console.error("Failed to load practice history:", error);
@@ -65,6 +66,8 @@ async function renderPracticeHistory() {
   container.innerHTML = `<p style="margin:0; color:#666;">Loading practice history...</p>`;
 
   const sessions = await getPracticeHistory();
+  console.log("practice sessions for cumulative summary:", sessions);
+  
 
   if (!sessions.length) {
     container.innerHTML = `<p style="margin:0; color:#666;">No practice history yet.</p>`;
@@ -74,17 +77,20 @@ async function renderPracticeHistory() {
   const session = sessions[0];
   const answerMap = session.answers || {};
   const answeredCount = Object.keys(answerMap).length;
+
+  let cumulativeAnswered = 0;
+  sessions.forEach(s => {
+    cumulativeAnswered += Object.keys(s.answers || {}).length;
+  });
+
   document.getElementById("practiceHistoryMeta").textContent =
-  `${answeredCount} answered`;
+    `${cumulativeAnswered} answered`;
 
   container.innerHTML = `
     <div style="padding:0; margin-top:12px;">
       <div style="display:flex; gap:10px;">
-  <button class="secondaryBtn" style="flex:1;" onclick="reviewPracticeSession('${session.id}', 'incorrect')">
-    Review Mistakes
-  </button>
-  <button class="secondaryBtn" style="flex:1;" onclick="reviewPracticeSession('${session.id}', 'all')">
-    Review All
+  <button class="secondaryBtn" style="flex:1;" onclick="viewPracticeSummary()">
+    Practice Summary
   </button>
 </div>
     </div>
@@ -99,4 +105,7 @@ function reviewPracticeSession(sessionId, mode) {
   const safeMode = encodeURIComponent(mode);
 
   window.location.href = `simulator.html?mode=practice&review=${safeMode}&sessionId=${safeSessionId}`;
+}
+function viewPracticeSummary() {
+  window.location.href = `simulator.html?mode=practice&review=summary`;
 }

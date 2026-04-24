@@ -288,7 +288,24 @@ async function getPracticeHistory() {
 
   return data || [];
 }
+async function getAllPracticeSessions() {
+  const user = await getCurrentSupabaseUser();
+  if (!user) return [];
 
+  const { data, error } = await window.supabaseClient
+    .from("practice_sessions")
+    .select("*")
+    .eq("user_id", user.id)
+    .neq("status", "abandoned")
+    .order("updated_at", { ascending: false });
+
+  if (error) {
+    console.error("Failed to load all practice sessions:", error);
+    return [];
+  }
+
+  return data || [];
+}
 async function guardSimulatorAccess(params) {
   const isDemo = params.get("demo") === "1";
   const mode = params.get("mode");
@@ -839,21 +856,115 @@ if (mode === "test" && options.resume) {
 if (isPracticeMode) {
   const fullPracticePool = [...data.questions];
   const setId = "digital_sat_practice";
+  if (reviewMode === "summary") {
+  const sessions = await getAllPracticeSessions();
 
-  if (reviewMode && reviewSessionId) {
+  let answerMap = {};
+  sessions.forEach(s => {
+    Object.assign(answerMap, s.answers || {});
+  });
+
+  const answeredQuestionIds = Object.keys(answerMap);
+
+  practiceQuestionPool = fullPracticePool.filter(q =>
+    answeredQuestionIds.includes(String(q.id))
+  );
+
+  answers = answerMap;
+  data.questions = practiceQuestionPool;
+  current = 0;
+
+  resultsSummaryHTML = `
+    <div class="appPage">
+      <h1 class="appTitle">Practice Summary</h1>
+      <p class="appSubtitle">Your cumulative practice progress.</p>
+
+      <div id="scoreSummary" class="scoreBanner appCard" style="text-align:center;"></div>
+      <div id="cumulativeBreakdown" style="margin-top:16px;"></div>
+
+<div style="margin-top:16px; text-align:center;">
+  <button class="secondaryBtn" onclick="window.location.href='dashboard.html'">
+    Back to Dashboard
+  </button>
+</div>
+    </div>
+  `;
+
+  document.body.innerHTML = resultsSummaryHTML;
+  renderScoreBanner({
+  title: "Cumulative Summary",
+  showMissed: false
+});
+  renderCumulativeBreakdown(fullPracticePool, answerMap);
+  typesetMath();
+
+  const loadingOverlay = document.getElementById("loadingOverlay");
+  if (loadingOverlay) loadingOverlay.style.display = "none";
+
+  return;
+}
+
+  if (reviewMode) {
     const reviewSession = await getPracticeSessionById(reviewSessionId);
 
     if (reviewSession && reviewSession.answers) {
       answers = reviewSession.answers || {};
       reviewReveal = true;
 
-      const answerMap = reviewSession.answers || {};
+      const sessions = await getAllPracticeSessions();
+
+let answerMap = {};
+sessions.forEach(s => {
+  Object.assign(answerMap, s.answers || {});
+});
       const answeredQuestionIds = Object.keys(answerMap);
 
       let reviewQuestions = fullPracticePool.filter(q =>
         answeredQuestionIds.includes(String(q.id))
       );
+if (reviewMode === "summary") {
+  practiceQuestionPool = fullPracticePool.filter(q =>
+    answeredQuestionIds.includes(String(q.id))
+  );
 
+  practiceSidebarTree = buildPracticeSidebarTree(practiceQuestionPool);
+  collapsedPracticeDomains = {};
+
+  data.questions = practiceQuestionPool;
+  current = 0;
+
+  resultsSummaryHTML = `
+    <div class="appPage">
+      <h1 class="appTitle">Practice Summary</h1>
+      <p class="appSubtitle">Review your past session from here.</p>
+
+      <div id="scoreSummary" class="scoreBanner appCard" style="text-align:center;"></div>
+
+      <div class="summaryActionsCard">
+        <div class="summaryActionsTitle">What would you like to do next?</div>
+
+        <div class="summaryActionsList">
+          <button class="summaryAction" onclick="startReview('missed')">
+            Review Mistakes
+          </button>
+
+          <button class="summaryAction" onclick="startReview('all')">
+            Review All
+          </button>
+
+          <button class="summaryAction secondary" onclick="window.location.href='dashboard.html'">
+            Back to Dashboard
+          </button>
+        </div>
+      </div>
+    </div>
+  `;
+
+  document.body.innerHTML = resultsSummaryHTML;
+  renderScoreBanner();
+  typesetMath();
+  return;
+}
       if (reviewMode === "incorrect") {
         reviewQuestions = reviewQuestions.filter(q => {
           const a = answerMap[q.id];
@@ -1684,8 +1795,16 @@ function backToSummary() {
   renderScoreBanner();
   typesetMath();
 }
+window.startReview = startReview;
+window.backToSummary = backToSummary;
+window.revealReviewAnswer = revealReviewAnswer;
+window.reviewPrev = reviewPrev;
+window.reviewNext = reviewNext;
+window.jumpToReviewQuestion = jumpToReviewQuestion;
 
-function renderScoreBanner() {
+function renderScoreBanner(options = {}) {
+  const title = options.title || "Session Summary";
+const showMissed = options.showMissed !== false;
   const answeredQuestions = data.questions.filter(q => answers[q.id]);
   const totalAnswered = answeredQuestions.length;
   const correct = answeredQuestions.filter(q => isQuestionCorrect(q)).length;
@@ -1696,15 +1815,63 @@ function renderScoreBanner() {
 
   el.innerHTML = `
     <div class="scoreTopRow">
-      <div class="scoreMain">Session Summary</div>
+      <div class="scoreMain">${title}</div>
       <div class="scorePercent">${correct}/${totalAnswered}</div>
     </div>
-
-    <div class="scoreSub">${missed} missed</div>
-
     <div class="summaryReviewButtons">
       <button class="reviewMissedBtn" onclick="startReview('missed')">Review missed questions</button>
       <button class="reviewMissedBtn secondary" onclick="startReview('all')">Review answered questions</button>
+    </div>
+  `;
+}
+function renderCumulativeBreakdown(questionPool, answerMap) {
+  const breakdownEl = document.getElementById("cumulativeBreakdown");
+  if (!breakdownEl) return;
+
+  const tree = {};
+
+  Object.entries(answerMap || {}).forEach(([questionId, answer]) => {
+    const q = questionPool.find(item => String(item.id) === String(questionId));
+    if (!q) return;
+
+    const domain = getDomain(q.skill);
+    const topic = getTopic(q.skill);
+
+    if (!tree[domain]) tree[domain] = {};
+    if (!tree[domain][topic]) tree[domain][topic] = { correct: 0, total: 0 };
+
+    tree[domain][topic].total++;
+
+    if (q.type === "mcq" && answer.value === q.answerIndex) {
+      tree[domain][topic].correct++;
+    }
+
+    if (q.type === "gridin" && isGridInCorrect(q, answer.value)) {
+      tree[domain][topic].correct++;
+    }
+  });
+
+  breakdownEl.innerHTML = `
+    <h3 class="appSectionTitle">Skill Breakdown</h3>
+    <div class="skillBreakdownGrid">
+      ${Object.entries(tree).map(([domain, topics]) => `
+        <div class="domainCard">
+          <div class="domainRow">
+            <span class="domainName">${domain}</span>
+          </div>
+
+          ${Object.entries(topics).map(([topic, stats]) => {
+            const percent = Math.round((stats.correct / stats.total) * 100);
+
+            return `
+              <div class="topicRow">
+                <span class="topicName">${topic}</span>
+                <span class="scoreChip">${percent}%</span>
+              </div>
+            `;
+          }).join("")}
+        </div>
+      `).join("")}
     </div>
   `;
 }
@@ -2199,9 +2366,10 @@ function endPracticeSession() {
       <p class="appSubtitle">Here’s your session summary.</p>
 
       <div class="scoreBanner appCard" style="text-align:center;">
-        <div class="scoreMain" style="margin-bottom: 8px;">Session Summary</div>
-        <div class="scorePercent" style="margin-bottom: 6px;">${correct}/${totalAnswered}</div>
-        <div class="scoreSub" style="margin-bottom: 18px;">${missed} missed</div>
+        <div class="scoreTopRow">
+  <div class="scoreMain">Session Summary</div>
+  <div class="scorePercent">${correct}/${totalAnswered}</div>
+</div>
 
 <div class="summaryActionsCard">
   <div class="summaryActionsTitle">What would you like to do next?</div>
