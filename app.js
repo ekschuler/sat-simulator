@@ -817,8 +817,12 @@ fetch(file)
       isPracticeMode = data.mode === "practice" || mode === "practice";
       document.body.classList.toggle("practice-mode", isPracticeMode);
       if (isPracticeMode) {
-  isPracticeSidebarOpen = true;
-  document.body.classList.add("practice-sidebar-open");
+  isPracticeSidebarOpen = window.innerWidth > 600;
+  if (isPracticeSidebarOpen) {
+    document.body.classList.add("practice-sidebar-open");
+  } else {
+    document.body.classList.remove("practice-sidebar-open");
+  }
 } else {
   isPracticeSidebarOpen = false;
   document.body.classList.remove("practice-sidebar-open");
