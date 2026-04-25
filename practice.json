@@ -907,7 +907,7 @@
         "allowNegative": true,
         "maxChars": 6
       },
-      "explanation": "<div class='explanation-step'>The total number of minutes spent packaging toys is \\(\\text{1,050}\\). \\(S\\) represents the number of small toys and \\(L\\) is the number of large toys, so \\(12S\\) and \\(32L\\) represent the number of minutes to package small and large toys, respectively. It takes 12 minutes to package one small toy and \\(32\\) minutes to package one large toy,  so it takes \\(32-12=20\\) minutes longer to package a large toy.  This means the correct answer is \\(\\boldsymbol{20}\\).</div>"
+      "explanation": "<div class='explanation-step'>The total number of minutes spent packaging toys is \\(\\text{1,050}\\). \\(S\\) represents the number of small toys and \\(L\\) is the number of large toys, so \\(12S\\) and \\(32L\\) represent the number of minutes to package small and large toys, respectively. It takes 12 minutes to package one small toy and \\(32\\) minutes to package one large toy,  so it takes \\(32-12=20\\) minutes longer to package a large toy.</div>"
     },
 
     {
@@ -988,7 +988,7 @@
         "\\(n=\\frac{1}{5}m-2\\)"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>Start with twice \\(m\\), which is \\(2m\\). Then \\(5\\) less than \\(2m\\) is \\(2m-5\\). Alternatively, choose a value for \\(m\\) and solve for \\(n\\).  Then substitute into each answer to find the correct value of \\(n\\).  Let \\(m=3\\).  Twice \\(3\\) is \\(6\\) and \\(5\\) less than \\(6\\) is \\(1\\).  Now substitute \\(m=3\\) into each equation to find \\(n=1\\): <div class='explanation-step'> A) \\(5(3)-2\neq1\\)</div><div class='explanation-step'> B) \\(2(3)-5=1\\)</div><div class='explanation-step'> Note: it is important when using this strategy to check all four answers as sometimes a second answer has the correct result.  If this happens, change your initial value (let \\(m=\\) a new number) and re-check the answers that gave the correct result in the first round.</div></div>"
+      "explanation": "<div class='explanation-step'>Start with twice \\(m\\), which is \\(2m\\). Then \\(5\\) less than \\(2m\\) is \\(2m-5\\). Alternatively, choose a value for \\(m\\) and solve for \\(n\\).  Then substitute into each answer to find the correct value of \\(n\\).  Let \\(m=3\\).  Twice \\(3\\) is \\(6\\) and \\(5\\) less than \\(6\\) is \\(1\\).  Now substitute \\(m=3\\) into each equation to find \\(n=1\\): <div class='explanation-step'> A) \\(5(3)-2\\neq1\\)</div><div class='explanation-step'> B) \\(2(3)-5=1\\)</div><div class='explanation-step'> Note: it is important when using this strategy to check all four answers as sometimes a second answer has the correct result.  If this happens, change your initial value (let \\(m=\\) a new number) and re-check the answers that gave the correct result in the first round.</div></div>"
     },
 {
       "id": "A-L2-006",
@@ -1060,7 +1060,7 @@
       "stem": "<div class='stem-text'>Lines \\(m\\) and \\(n\\) are perpendicular lines graphed in the \\(xy\\)-plane. Line \\(n\\) is defined by \\(-4y-16x=15\\).  What is the slope of line \\(m\\)?</div>",
 
       "answer": "0.25",
-      "answersAccepted": ["0.25", "\\frac{1}{4}"],
+      "answersAccepted": ["0.25", "\\frac{1}{4}", "1/4"],
 
       "validation": {
         "allowDecimal": false,
@@ -1298,7 +1298,7 @@
       "stem": "<div class='stem-text'>What is the value of \\(\\frac{n}{28}\\) if  \\(\\frac{28}{n}=-4\\)?</div>",
 
       "answer": "-0.25",
-      "answersAccepted": ["-0.25", "-\\frac{1}{4}", "\\frac{-1}{4}", "\\frac{1}{-4}"],
+      "answersAccepted": ["-0.25", "-\\frac{1}{4}", "\\frac{-1}{4}", "\\frac{1}{-4}", "-1/4", "1/-4"],
 
       "validation": {
         "allowDecimal": false,
@@ -1469,7 +1469,7 @@
         "The total number of red glass beads"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>In the equation \\(6x+8y=\\text{6,381}\\), the total number of glass beads is \\(\\text{6,381}\\), and \\(8y\\) is the total number of red glass beads.  This can be represented as a fraction:</div><div class='explanation-math'>$$\\begin{aligned}\\ \\frac{8y \\, \\text{red beads}}{1 \\text{store}} \\end{aligned}$$</div><div class='explanation-step'>The goal now is to isolate \\(y\\), and to do that, \\(8\\) must be eliminated, or canceled. Since \\(8\\) is the number of bins, write a ratio that contains \\(8\\) bins in the denominator, so \\(\\frac{1 \\text{store}}{8 \\text{bins}}\\). Multiply the two fractions:</div><div class='explanation-math'>$$\\begin{aligned}\\ \\frac{\\cancel{8}y \\, \\text{red beads}}{1 \\, \\cancel {\\text{store}}}\\times \\frac{1 \\, \\cancel{\\text{store}}}{\\cancel{8} \\, \\text{bins}}=\\frac{y \\, \\text{red beads}}{1 \\, \\text{bin}} \\end{aligned}$$</div><div class='explanation-step'>This means \\(y\\) is the (average) number of red beads per bin.</div>"
+      "explanation": "<div class='explanation-step'>In the equation \\(6x+8y=\\text{6,381}\\), the total number of glass beads is \\(\\text{6,381}\\), and \\(8y\\) is the total number of red glass beads.  This can be represented as a fraction:</div><div class='explanation-math'>$$\\begin{aligned}\\ \\frac{8y \\, \\text{red beads}}{1 \\text{store}} \\end{aligned}$$</div><div class='explanation-step'>The goal now is to isolate \\(y\\), and to do that, \\(8\\) must be eliminated, or canceled. Since \\(8\\) is the number of bins, write a ratio that contains \\(8\\) bins in the denominator, so \\(\\frac{1 \\, \\text{store}}{8 \\text{bins}}\\). Multiply the two fractions:</div><div class='explanation-math'>$$\\begin{aligned}\\ \\frac{\\cancel{8}y \\, \\text{red beads}}{1 \\, \\cancel {\\text{store}}}\\times \\frac{1 \\, \\cancel{\\text{store}}}{\\cancel{8} \\, \\text{bins}}=\\frac{y \\, \\text{red beads}}{1 \\, \\text{bin}} \\end{aligned}$$</div><div class='explanation-step'>This means \\(y\\) is the (average) number of red beads per bin.</div>"
     },
 
 {
@@ -1495,7 +1495,7 @@
         "\\(58\\)"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='stem-image'><img src='assets/Alg1-2-24A.png'></div><div class='explanation-step'>Instead of solving for \\(y\\) in the first equation, substitute \\(10\\) into the second equation for \\(6y\\).  Then solve for \\(x\\) in one step by adding \\(10\\) to both sides.</div><<div class='explanation-math'>$$\\begin{aligned}\\ x-10&=-2\\\\ x-\\cancel{10}+\\cancel{10}&=-2+10\\\\x&=8\\end{aligned}$$</div>"
+      "explanation": "<div class='stem-image'><img src='assets/Alg1-2-24A.png' style='max-width:30%;'></div><div class='explanation-step'>Instead of solving for \\(y\\) in the first equation, substitute \\(10\\) into the second equation for \\(6y\\).  Then solve for \\(x\\) in one step by adding \\(10\\) to both sides.</div><div class='explanation-math'>$$\\begin{aligned}\\ x-10&=-2\\\\ x-\\cancel{10}+\\cancel{10}&=-2+10\\\\x&=8\\end{aligned}$$</div>"
     },
 {
       "id": "A-L2-025",
@@ -1618,11 +1618,11 @@
       "set": "Algebra Practice",
       "tags": ["systems", "linear"],
 
-      "stem": "<div class='stem-text'><One teaspoon of chlorine is used to chlorinate \\(1,000\\) liters of pool water.  A water park has a total pool water volume of \\(p\\) liters.  Which equation represents the total amount of chlorine \\(C\\), in teaspoons, needed to chlorinate all of the pools in the water park for \\(4\\) days, given that the pools are chlorinated once per day?/div>",
+      "stem": "<div class='stem-text'><One teaspoon of chlorine is used to chlorinate \\(1,000\\) liters of pool water.  A water park has a total pool water volume of \\(p\\) liters.  Which equation represents the total amount of chlorine \\(C\\), in teaspoons, needed to chlorinate all of the pools in the water park for \\(4\\) days, given that the pools are chlorinated once per day?</div>",
 
       "choices": [
-        "\\(C=1,000p\\)",
-        "\\(C=4000p\\)",
+        "\\(C=\\text{1,000}p\\)",
+        "\\(C=\\text{4,000}p\\)",
         "\\(C=\\frac{p}{\\text{1,000}}\\)",
         "\\(C=\\frac{p}{250}\\)"
       ],
@@ -1891,7 +1891,7 @@
         "\\(4\\)"
       ],
       "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>The slopes of perpendicular lines are negative reciprocals of one another.  Start by transforming \\(12y-3x=16\\) into slope-intercept form to find the slope.</div><div class='explanation-math'>$$\\begin{aligned \\ 12y-\\cancel{3x}+\\cancel{3x}&=3x+16\\\\ \\frac{\\cancel{12}y}{\\cancel{12}}&=\\frac{3x}{12}+\\frac{16}{12}\\\\ y&=\\frac{1}{4}x+\\frac{16}{12} \\end{aligned}$$</div><div class='explanation-step'>The slope of line \\(l\\) is \\(\\frac{1}{4}\\), so the slope of line \\(m\\) is \\(-4\\).</div>"
+      "explanation": "<div class='explanation-step'>The slopes of perpendicular lines are negative reciprocals of one another.  Start by transforming \\(12y-3x=16\\) into slope-intercept form to find the slope.</div><div class='explanation-math'>$$\\begin{aligned} \\ 12y-\\cancel{3x}+\\cancel{3x}&=3x+16\\\\ \\frac{\\cancel{12}y}{\\cancel{12}}&=\\frac{3x}{12}+\\frac{16}{12}\\\\ y&=\\frac{1}{4}x+\\frac{16}{12} \\end{aligned}$$</div><div class='explanation-step'>The slope of line \\(l\\) is \\(\\frac{1}{4}\\), so the slope of line \\(m\\) is \\(-4\\).</div>"
     },
 {
       "id": "A-L2-040",
@@ -1999,7 +1999,7 @@
         "\\(w=0.36(12f)\\)"
       ],
       "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>Convert the cost per inch to cost per feet, and then multiply by \\(f\\) feet to find the total cost.</div><div class='stem-equation'>$$\\begin{aligned}\\ \\frac{0.36\\,\\text{dollars}}{1\\,\\cancel{\\text{{inch}}}\\times \\frac{12\\,\\cancel{\\text{{inches}}}{1\\,\\text{foot}} &= \\frac{0.36\\times12\\,\\text{dollars}}{1\\,\\text{foot}}\\\\ \\frac{0.36\\times12\\,\\text{dollars}}{1\\,\\text{foot}}\\times \\frac{f\\,\\cancel{\\text{{feet}}}{1} &= 0.36\\times12f \\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>Convert the cost per inch to cost per feet, and then multiply by \\(f\\) feet to find the total cost.</div><div class='stem-equation'>$$\\begin{aligned} \\frac{0.36\\,\\text{dollars}}{1\\,\\cancel{\\text{{inch}}}\\times \\frac{12\\,\\cancel{\\text{{inches}}}{1\\,\\text{foot}} &= \\frac{0.36\\times12\\,\\text{dollars}}{1\\,\\text{foot}}\\\\ \\frac{0.36\\times12\\,\\text{dollars}}{1\\,\\text{foot}}\\times \\frac{f\\,\\cancel{\\text{{feet}}}{1} &= 0.36\\times12f \\end{aligned}$$</div>"
     },
 
 {
@@ -2055,7 +2055,7 @@
         "maxChars": 6
       },
 
-      "explanation": "<div class='explanation-math'>$$\\begin{aligned}\\ \\frac{7}{15}n-\\frac{2}{15}n&=\\frac{5}{6}+\\frac{1}{2}\\\\ \\frac{5}{15}n&=\\frac{5}{6}+\\frac{6}{12}\\\\ 3\\times \\frac{1}{3}n&=\\frac{11}{12} \\times 3\\\\ n&=4 \\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-math'>$$\\begin{aligned} \\frac{7}{15}n-\\frac{2}{15}n&=\\frac{5}{6}+\\frac{1}{2}\\\\ \\frac{5}{15}n&=\\frac{5}{6}+\\frac{6}{12}\\\\ 3\\times \\frac{1}{3}n&=\\frac{11}{12} \\times 3\\\\ n&=4 \\end{aligned}$$</div>"
     },
 
 {
@@ -2081,7 +2081,7 @@
         "\\(-\\frac{15}{2}\\)"
       ],
       "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>When a system of equations has no solution, its equations have the same slope.  Find the slope of the first equation and use that to write an equation and solve for \\(n\\).</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}2x+3y &= 9\\\\ \\cancel{2x}+3y-\\cancel{2x} &= -2x+9\\\\ \\frac{\\cancel{3}y}{\\cancel{3}} &= \\frac{-2x}{3} + \\frac{9}{3}\\\\ y &= \\frac{-2}{3}x + 3 \\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}5x+ny &= 10\\\\ \\cancel{5x}+ny-\\cancel{5x} &= -5x+10\\\\ \\frac{\\cancel{n}y}{\\cancel{n}} &= \\frac{-5x}{n} + \\frac{10}{n}\\\\ y &= \\frac{-5}{n}x + \\frac{10}{n} \\end{aligned}$$</div></div></div><div class='explanation-step'>The slope of the first equation is \\(\\frac{-2}{3}\\) and the slope of the second is \\(\\frac{-5}{n}\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ \\frac{-2}{3}&=\\frac{-5}{n}\\\\ \\frac{\\cancel{-2}n}{\\cancel{-2}}&=\\frac{-15}{-2}\\\\ n&=\\frac{15}{2} \\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>When a system of equations has no solution, its equations have the same slope.  Find the slope of the first equation and use that to write an equation and solve for \\(n\\).</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} 2x+3y &= 9\\\\ \\cancel{2x}+3y-\\cancel{2x} &= -2x+9\\\\ \\frac{\\cancel{3}y}{\\cancel{3}} &= \\frac{-2x}{3} + \\frac{9}{3}\\\\ y &= \\frac{-2}{3}x + 3 \\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}5x+ny &= 10\\\\ \\cancel{5x}+ny-\\cancel{5x} &= -5x+10\\\\ \\frac{\\cancel{n}y}{\\cancel{n}} &= \\frac{-5x}{n} + \\frac{10}{n}\\\\ y &= \\frac{-5}{n}x + \\frac{10}{n} \\end{aligned}$$</div></div></div><div class='explanation-step'>The slope of the first equation is \\(\\frac{-2}{3}\\) and the slope of the second is \\(\\frac{-5}{n}\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ \\frac{-2}{3}&=\\frac{-5}{n}\\\\ \\frac{\\cancel{-2}n}{\\cancel{-2}}&=\\frac{-15}{-2}\\\\ n&=\\frac{15}{2} \\end{aligned}$$</div>"
     },
 {
       "id": "A-L2-047",
@@ -2210,7 +2210,7 @@
         "\\(\\frac{25}{12}\\)"
       ],
       "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>To solve for \\(f\\), divide both sides by \\(\\frac{2}{5}\\), which is the equivalent to multiplying both sides by the reciprocal:</div><div class='explanation-math'>$$\\begin{aligned}\\ \\frac{2}{5}f&=\\frac{5}{6}\\ \\frac {\\cancel{5}}{\\cancel{2}}\\times \\frac{\\cancel{2}}{\\cancel{5}}f&=\\frac{5}{6} \\times \\frac{5}{2}\\\\ f&=\\frac{25}{12} \\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>To solve for \\(f\\), divide both sides by \\(\\frac{2}{5}\\), which is the equivalent to multiplying both sides by the reciprocal:</div><div class='explanation-math'>$$\\begin{aligned}\\ \\frac{2}{5}f&=\\frac{5}{6}\\ \\frac {\\cancel{5}}{\\cancel{2}}\\times \\frac{\\cancel{2}}{\\cancel{5}}f=\\frac{5}{6} \\times \\frac{5}{2}\\\\ f&=\\frac{25}{12} \\end{aligned}$$</div>"
     },
 {
       "id": "A-L2-052",

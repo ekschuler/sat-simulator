@@ -1277,6 +1277,7 @@ if (q.type === "mcq") {
     choicesDiv.innerHTML = `<div style="margin-top:16px;color:#b00;">Unknown question type: ${q.type}</div>`;
   }
     typesetMath();
+    updateFlaggedCount();
 }
 
 function renderMCQ(q, container) {
@@ -1406,19 +1407,81 @@ function toggleFlag() {
   else flagged[q.id] = true;
 
   renderQuestion(); // updates button + pills
+  updateFlaggedCount();
+}
+function goToNextFlagged() {
+  const flaggedIndices = Object.keys(flagged)
+    .map(id => data.questions.findIndex(q => String(q.id) === String(id)))
+    .filter(i => i !== -1)
+    .sort((a, b) => a - b);
+
+  if (!flaggedIndices.length) return;
+
+  const next = flaggedIndices.find(i => i > current);
+
+  if (next !== undefined) {
+    current = next;
+  } else {
+    current = flaggedIndices[0]; // wrap to first
+  }
+
+  renderQuestion();
+}
+function updateFlaggedCount() {
+  const btn = document.getElementById("nextFlaggedBtn");
+  if (!btn) return;
+
+  const count = Object.keys(flagged || {}).length;
+  btn.textContent = `Flagged (${count})`;
 }
 function normalizeGridIn(s) {
   // Basic normalization: trim spaces
   return (s ?? "").toString().trim();
 }
 
-function isGridInCorrect(q, userValue) {
-  const uv = normalizeGridIn(userValue);
-  if (!uv) return false;
+function normalizeGridInValue(value) {
+  const raw = String(value ?? "").trim();
 
-  // Accept exact matches against answer or answersAccepted
-  const accepted = new Set([q.answer, ...(q.answersAccepted || [])].map(normalizeGridIn));
-  return accepted.has(uv);
+  if (!raw) return null;
+
+  if (raw.includes("/")) {
+    const parts = raw.split("/");
+    if (parts.length === 2) {
+      const numerator = Number(parts[0]);
+      const denominator = Number(parts[1]);
+
+      if (
+        Number.isFinite(numerator) &&
+        Number.isFinite(denominator) &&
+        denominator !== 0
+      ) {
+        return numerator / denominator;
+      }
+    }
+  }
+
+  const numericValue = Number(raw);
+  return Number.isFinite(numericValue) ? numericValue : raw;
+}
+
+function isGridInCorrect(q, userValue) {
+  const userNormalized = normalizeGridInValue(userValue);
+  if (userNormalized === null) return false;
+
+  const accepted = [q.answer, ...(q.answersAccepted || [])]
+    .map(normalizeGridInValue)
+    .filter(v => v !== null);
+
+  return accepted.some(correctValue => {
+    if (
+      typeof userNormalized === "number" &&
+      typeof correctValue === "number"
+    ) {
+      return Math.abs(userNormalized - correctValue) < 1e-9;
+    }
+
+    return String(userNormalized) === String(correctValue);
+  });
 }
 function buildPostSubmitIndex() {
   const items = data.questions.map((q, index) => {
