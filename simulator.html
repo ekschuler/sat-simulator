@@ -1400,6 +1400,87 @@ body.practice-sidebar-ready .practice-sidebar {
   background: transparent;
   color: #6b7280;
 }
+/* ── MOBILE RESPONSIVE ─────────────────────────────── */
+@media (max-width: 600px) {
+
+  /* Layout: remove huge side padding */
+  .practice-layout,
+  body.practice-mode .practice-layout {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    grid-template-columns: 1fr;
+  }
+
+  /* Topbar: let the button row wrap */
+  .topbar {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .topbar > div {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  /* Nav buttons: wrap and fill width */
+  .nav-buttons {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .nav-buttons button {
+    flex: 1 1 auto;
+    min-width: 80px;
+    padding: 12px 10px;
+    font-size: 13px;
+  }
+
+  /* Side-by-side stems: allow stacking */
+  .stem-side-by-side {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .side-box {
+    width: 100%;
+    min-width: 0;
+  }
+
+  /* Images: full width */
+  .question-image {
+    max-width: 100%;
+  }
+
+  .stem-image img {
+    max-width: 100%;
+  }
+
+  /* Sidebar: full width overlay on mobile */
+  .practice-sidebar {
+    width: 100%;
+  }
+
+  /* Home title: smaller on phone */
+  .home-title {
+    font-size: 24px;
+  }
+
+  /* Explanation columns: stack vertically */
+  .explanation-columns {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .explanation-column {
+    max-width: 100%;
+  }
+
+  /* App home padding */
+  .app-home {
+    padding: 0 16px 40px;
+  }
+}
   </style>
   <script>
   window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
