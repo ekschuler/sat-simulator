@@ -44,7 +44,7 @@ let practiceSession = {
   mode: "general"
 };
 let collapsedPracticeDomains = {};
-let isPracticeSidebarOpen = true;
+let isPracticeSidebarOpen = window.innerWidth > 600;
 let currentMode = "home";
 let currentView = "home";
 function getSavedTestSession() {
