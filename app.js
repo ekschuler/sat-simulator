@@ -2500,7 +2500,7 @@ function endPracticeSession() {
       ${breakdownHTML}
     </div>
   `;
-data.questions = allSessionQuestions;
+data.questions = answeredQuestions;
 answers = { ...sessionAnswers };
   document.body.innerHTML = resultsSummaryHTML;
 }
