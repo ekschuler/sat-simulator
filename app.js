@@ -45,6 +45,7 @@ let practiceSession = {
 };
 let collapsedPracticeDomains = {};
 let isPracticeSidebarOpen = window.innerWidth > 600;
+let currentReviewMode = null;
 let currentMode = "home";
 let currentView = "home";
 function getSavedTestSession() {
@@ -1633,6 +1634,7 @@ function stripHTML(html) {
 }
 
 function startReview(mode) {
+  currentReviewMode = mode;
     const answeredQuestions = data.questions
     .map((q, i) => ({ q, i }))
     .filter(({ q }) => answers[q.id]);
@@ -1671,8 +1673,16 @@ function startReview(mode) {
   reviewPointer = 0;
   reviewReveal = false;
   renderReviewScreen(mode);
+  document.addEventListener("keydown", handleReviewKeydown);
 }
-
+function handleReviewKeydown(e) {
+  if (e.key === "ArrowRight") reviewNext(currentReviewMode);
+  if (e.key === "ArrowLeft") reviewPrev(currentReviewMode);
+  if (e.key === " ") {
+    e.preventDefault();
+    revealReviewAnswer();
+  }
+}
 function renderReviewScreen(mode) {
   const index = reviewIndices[reviewPointer];
   const q = data.questions[index];
@@ -1860,6 +1870,7 @@ function jumpToReviewQuestion(mode) {
   renderReviewScreen(mode);
 }
 function backToSummary() {
+  document.removeEventListener("keydown", handleReviewKeydown);
   document.body.innerHTML = resultsSummaryHTML;
   renderScoreBanner();
   typesetMath();
