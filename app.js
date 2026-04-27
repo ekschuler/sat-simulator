@@ -2267,10 +2267,13 @@ function selectPracticeLevelFilter(level) {
 }
 async function submitTest() {
   if (isPracticeMode) {
-    await savePracticeSessionToDB();
-    endPracticeSession();
-    return;
-  }
+  Object.assign(sessionAnswers, answers);
+  answers = { ...sessionAnswers };
+  data.questions = practiceQuestionPool.filter(q => answers[q.id]);
+  await savePracticeSessionToDB();
+  endPracticeSession();
+  return;
+}
   if (!isReady) return;
 
 if (window.__SAT_SIM_TIMER_INTERVAL__) {
