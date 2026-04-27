@@ -45,6 +45,7 @@ let practiceSession = {
 };
 let collapsedPracticeDomains = {};
 let isPracticeSidebarOpen = window.innerWidth > 600;
+let sessionAnswers = {}; // tracks ALL answers for this session regardless of filter
 let currentReviewMode = null;
 let currentMode = "home";
 let currentView = "home";
@@ -845,18 +846,21 @@ if (mode === "test" && options.resume) {
       answers = {};
       flagged = {};
       timeLeft = Math.floor((data.timeSeconds || 0) * timeMultiplier);
+      sessionAnswers = {};
     }
   } else {
     current = 0;
     answers = {};
     flagged = {};
     timeLeft = Math.floor((data.timeSeconds || 0) * timeMultiplier);
+    sessionAnswers = {};
   }
 } else {
   current = 0;
   answers = {};
   flagged = {};
   timeLeft = Math.floor((data.timeSeconds || 0) * timeMultiplier);
+  sessionAnswers = {};
 }
 if (isPracticeMode) {
   const fullPracticePool = [...data.questions];
@@ -1885,7 +1889,9 @@ window.jumpToReviewQuestion = jumpToReviewQuestion;
 function renderScoreBanner(options = {}) {
   const title = options.title || "Session Summary";
 const showMissed = options.showMissed !== false;
-  const answeredQuestions = data.questions.filter(q => answers[q.id]);
+  Object.assign(sessionAnswers, answers);
+const allSessionQuestions = practiceQuestionPool.filter(q => sessionAnswers[q.id]);
+const answeredQuestions = allSessionQuestions;
   const totalAnswered = answeredQuestions.length;
   const correct = answeredQuestions.filter(q => isQuestionCorrect(q)).length;
   const missed = totalAnswered - correct;
@@ -2117,6 +2123,9 @@ function setPracticeView(questions, {
   label = ""
 } = {}) {
   if (!Array.isArray(questions) || questions.length === 0) return;
+
+  // Merge current answers into session tracker before switching views
+  Object.assign(sessionAnswers, answers);
 
   data.questions = questions;
   current = 0;
@@ -2493,7 +2502,8 @@ function endPracticeSession() {
       ${breakdownHTML}
     </div>
   `;
-
+data.questions = allSessionQuestions;
+answers = { ...sessionAnswers };
   document.body.innerHTML = resultsSummaryHTML;
 }
 function restartPractice() {
