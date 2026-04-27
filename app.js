@@ -1889,9 +1889,7 @@ window.jumpToReviewQuestion = jumpToReviewQuestion;
 function renderScoreBanner(options = {}) {
   const title = options.title || "Session Summary";
 const showMissed = options.showMissed !== false;
-  Object.assign(sessionAnswers, answers);
-const allSessionQuestions = practiceQuestionPool.filter(q => sessionAnswers[q.id]);
-const answeredQuestions = allSessionQuestions;
+  const answeredQuestions = data.questions.filter(q => answers[q.id]);
   const totalAnswered = answeredQuestions.length;
   const correct = answeredQuestions.filter(q => isQuestionCorrect(q)).length;
   const missed = totalAnswered - correct;
