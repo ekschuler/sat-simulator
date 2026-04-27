@@ -163,6 +163,9 @@
     </div>
   </nav>
 
+<div id="dashboardLoading" style="text-align:center;padding:80px 20px;color:#666;font-family:system-ui;">
+  Loading...
+</div>
 <div class="appPage" id="dashboardContent" style="display:none;">
   <h1 class="appTitle">Welcome back</h1>
   <p class="appSubtitle">Access your SAT math practice, full test mode, and saved work from one place.</p>
@@ -379,9 +382,9 @@ if (startOverPracticeBtn) {
       dashboardPracticeLink.style.display = "none";
     }
   }
-  if (dashboardContent) {
-  dashboardContent.style.display = "block";
-}
+  const loading = document.getElementById("dashboardLoading");
+if (loading) loading.style.display = "none";
+if (dashboardContent) dashboardContent.style.display = "block";
 }
 
   applyDashboardAccessState();
