@@ -2957,7 +2957,7 @@
       "set": "Advanced Math Practice",
       "tags": ["intercepts", "quadratic"],
 
-      "stem": "<div class='stem-image'><img src='assets/Adv1-2.png' style='max-width:30%></div><div class='stem-text'>The \\(x\\)-intercept of the graph shown is \\((x,0)\\).  What is the value of \\(x\\)?</div>",
+      "stem": "<div class='stem-image'><img src='assets/Adv1-2.png' style='max-width:30%'></div><div class='stem-text'>The \\(x\\)-intercept of the graph shown is \\((x,0)\\).  What is the value of \\(x\\)?</div>",
       "answer": "14",
       "answersAccepted": ["14"],
 
@@ -2967,7 +2967,7 @@
         "allowNegative": true,
         "maxChars": 6
       },
-      "explanation": "<div class='stem-image'><img src='assets/Adv1-2A.png' style='max-width:20%></div><div class='explanation-step'>The \\(x\\)-intercept is the point or points where the graph intersects the \\(x\\)-axis.  The graph shows this happens at \\((14,0)\\), so \\(x=14\\).</div>"
+      "explanation": "<div class='stem-image'><img src='assets/Adv1-2A.png' style='max-width:20%'></div><div class='explanation-step'>The \\(x\\)-intercept is the point or points where the graph intersects the \\(x\\)-axis.  The graph shows this happens at \\((14,0)\\), so \\(x=14\\).</div>"
     },
 
 {
@@ -3011,7 +3011,7 @@
       "set": "Advanced Math Practice",
       "tags": ["intercepts", "exponential functions"],
 
-      "stem": "<div class='stem-image'><img src='assets/Adv1-4.png' style='max-width:20%></div><div class='stem-text'>What is the \\(y\\)-intercept of the graph shown?</div>",
+      "stem": "<div class='stem-image'><img src='assets/Adv1-4.png' style='max-width:20%'></div><div class='stem-text'>What is the \\(y\\)-intercept of the graph shown?</div>",
       "choices": [
         "\\((0,0)\\)",
         "\\((4,0)\\)",
@@ -3019,7 +3019,7 @@
         "\\((0,4)\\)"
       ],
       "answerIndex": 3,
-      "explanation": "<div class='stem-image'><img src='assets/Adv1-4A.png' style='max-width:20%></div><div class='explanation-step'>The \\(y\\)-intercept is the point where the graph intersects the \\(y\\)-axis. The graph shows this happens at \\((0,4)\\).</div>"
+      "explanation": "<div class='stem-image'><img src='assets/Adv1-4A.png' style='max-width:20%'></div><div class='explanation-step'>The \\(y\\)-intercept is the point where the graph intersects the \\(y\\)-axis. The graph shows this happens at \\((0,4)\\).</div>"
     },
 {
       "id": "AM-L1-005",
@@ -3036,7 +3036,7 @@
       "set": "Advanced Math Practice",
       "tags": ["functions"],
 
-      "stem": "<div class='stem-image'><img src='assets/Adv1-5.png' style='max-width:20%></div><div class='stem-text'>The graph of \\(y=g(x)\\) is shown in the \\(xy\\)-plane.  What is the value of \\(g(0)\\)?</div>",
+      "stem": "<div class='stem-image'><img src='assets/Adv1-5.png' style='max-width:20%'></div><div class='stem-text'>The graph of \\(y=g(x)\\) is shown in the \\(xy\\)-plane.  What is the value of \\(g(0)\\)?</div>",
       "choices": [
         "\\(6\\)",
         "\\(\\frac{1}{2}\\)",
@@ -3044,7 +3044,7 @@
         "\\(-6\\)"
       ],
       "answerIndex": 3,
-      "explanation": "<div class='stem-image'><img src='assets/Adv1-5A.png' style='max-width:20%></div><div class='explanation-step'>The \\(y\\)-value at \\(g(0)\\) is the \\(y\\)-intercept, or the point where the graph intersects the \\(y\\)-axis. The graph shows this happens at \\((0,-6)\\), so the \\(y\\)-value is \\(-6\\).</div>"
+      "explanation": "<div class='stem-image'><img src='assets/Adv1-5A.png' style='max-width:20%'></div><div class='explanation-step'>The \\(y\\)-value at \\(g(0)\\) is the \\(y\\)-intercept, or the point where the graph intersects the \\(y\\)-axis. The graph shows this happens at \\((0,-6)\\), so the \\(y\\)-value is \\(-6\\).</div>"
     },
     {
       "id": "AM-L1-006",
@@ -3425,7 +3425,7 @@
         "\\(105\\)"
       ],
       "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>Use the area formula to write and solve an equation for the value of \\(n\\).  The formula for the area of a rectangle is \\(A=l \times w\\).  Substitute the given values, so \\(105=n(n+16)\\).  Distribute the right hand side and move \\(105\\) to the right to set the equation equal to \\(0\\):</div><div class='explanation-math'>$$\\begin{aligned}\\ 105&=n(n+16)\\\\105&=n^2+16n\\\\0&=n^2+16n-105 \\end{aligned}$$</div><div class='explanation-step'>Factor by finding factors of \\(-105\\) that have a sum of \\(16\\); since \\(-5 \times 21=-105\\) and \\(-5+21=16\\):</div><div class='explanation-math'>$$\\begin{aligned}\\ 0&=n^2+16n-105\\\\0&=(n+21)(n-5) \\end{aligned}$$</div><div class='explanation-step'>Use the Zero Product Property to solve: \\(n+21=0\\) and \\(n-5=0\\), so \\(n=-21\\) or \\(n=5\\).  Since \\(n\\) is a dimension of a rectangle, it must be positive, so \\(n=5\\). </div>"
+      "explanation": "<div class='explanation-step'>Use the area formula to write and solve an equation for the value of \\(n\\).  The formula for the area of a rectangle is \\(A=l \times w\\).  Substitute the given values, so \\(105=n(n+16)\\).  Distribute the right hand side and move \\(105\\) to the right to set the equation equal to \\(0\\):</div><div class='explanation-math'>$$\\begin{aligned}\\ 105&=n(n+16)\\\\105&=n^2+16n\\\\0&=n^2+16n-105 \\end{aligned}$$</div><div class='explanation-step'>Factor by finding factors of \\(-105\\) that have a sum of \\(16\\); since \\(-5 \\times 21=-105\\) and \\(-5+21=16\\):</div><div class='explanation-math'>$$\\begin{aligned}\\ 0&=n^2+16n-105\\\\0&=(n+21)(n-5) \\end{aligned}$$</div><div class='explanation-step'>Use the Zero Product Property to solve: \\(n+21=0\\) and \\(n-5=0\\), so \\(n=-21\\) or \\(n=5\\).  Since \\(n\\) is a dimension of a rectangle, it must be positive, so \\(n=5\\). </div>"
     },
 {
       "id": "AM-L2-006",
@@ -3503,7 +3503,7 @@
         "\\(\\begin{array}{c|ccc} x & 1 & 2 & 3 \\\\ \\hline f(x) & -3 & -2 & -1 \\end{array}\\)"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>Substitute values of \\(x\\) from the tables to determine which table is the table for the given function.</div><div class='stem-image'><img src='assets/Adv2-8A.png' style='max-width:20%></div><div class='explanation-math'>$$\\begin{aligned}\\ \\text{Substitute} \\,x=1:\\\\ f(1)=1^2-5 = -4\\\\ \\text{Don't test} \\, x=2 \\text{because answers A and B have the same} \\, y-\\text{values.}\\\\\\text{Substitute} \\, x=3:\\\\f(3)=3^2-5 =9-5=4  \\text{Answer B has the correct corresponding} \\, y-\\text{value for} \\, x=3. \\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>Substitute values of \\(x\\) from the tables to determine which table is the table for the given function.</div><div class='stem-image'><img src='assets/Adv2-8A.png' style='max-width:20%'></div><div class='explanation-math'>$$\\begin{aligned}\\ \\text{Substitute} \\,x=1:\\\\ f(1)=1^2-5 = -4\\\\ \\text{Don't test} \\, x=2 \\, \\text{because answers A and B have the same} \\, y-\\text{values.}\\\\ \\text{Substitute} \\, x=3:\\\\f(3)=3^2-5 =9-5=4  \\text{Answer B has the correct corresponding} \\, y-\\text{value for} \\, x=3. \\end{aligned}$$</div>"
     },
 {
       "id": "AM-L2-009",
@@ -3953,7 +3953,7 @@
         "\\(\\text{144,000}\\)"
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>Method \\(1\\): Write an equation that models the situation.  In the exponential function \\(y=a\\times b^{x}\\) \\(a\\) is the starting population, \\(b\\) is the growth or decay multiplier, \\(x\\) is the number of halving periods, and \\(y\\) is the population of bees.  The equation is \\(y=\\text{9,000,000} \\times \\left(\\frac{1}{2}\\right)^x\\).  \\(b=\\frac{1}{2}\\) because the population halves each period of time.  This occurs every \\(6\\) hours, so after \\(24\\) hours, there are \\(\\frac{24}{6}=4\\) halving periods. Substitute \\(x=4\\) into the equation to find the bee population.</div><div class='explanation-math'>$$\\begin{aligned}\\ y&=\\text{9,000,000} \\times \\left(\\frac{1}{2}\\right)^4\\\\ y&=\\text{9,000,000} \\times \\left(\\frac{1}{16}\right)\\\\ y&=\\text{562,500}\\end{aligned}$$</div><div class='explanation-step'>Method \\(2\\): Since the halving occurs every \\(6\\) hours and you are asked to find the population after \\(24\\) hours, use \\(\\frac{24}{6}=4\\) as the number of halving periods. Cut the population in half (divide by \\(2\\)) \\(4\\) times.</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}\\frac{\\text{9,000,000}}{2}=\\text{4,500,000}\\\\ \\frac{\\text{4,500,000}}{2}=\\text{2,250,000}\\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}\\frac{\\text{2,250,000}}{2}=\\text{1,125,000}\\\\ \\frac{\\text{1,125,000}}{2}=\\text{562,500}\\end{aligned}$$</div></div></div>"
+      "explanation": "<div class='explanation-step'>Method \\(1\\): Write an equation that models the situation.  In the exponential function \\(y=a\\times b^{x}\\) \\(a\\) is the starting population, \\(b\\) is the growth or decay multiplier, \\(x\\) is the number of halving periods, and \\(y\\) is the population of bees.  The equation is \\(y=\\text{9,000,000} \\times \\left(\\frac{1}{2}\\right)^x\\).  \\(b=\\frac{1}{2}\\) because the population halves each period of time.  This occurs every \\(6\\) hours, so after \\(24\\) hours, there are \\(\\frac{24}{6}=4\\) halving periods. Substitute \\(x=4\\) into the equation to find the bee population.</div><div class='explanation-math'>$$\\begin{aligned}\\ y&=\\text{9,000,000} \\times \\left(\\frac{1}{2}\\right)^4\\\\ y&=\\text{9,000,000} \\times \\left(\\frac{1}{16}\\right)\\\\ y&=\\text{562,500}\\end{aligned}$$</div><div class='explanation-step'>Method \\(2\\): Since the halving occurs every \\(6\\) hours and you are asked to find the population after \\(24\\) hours, use \\(\\frac{24}{6}=4\\) as the number of halving periods. Cut the population in half (divide by \\(2\\)) \\(4\\) times.</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}\\frac{\\text{9,000,000}}{2}=\\text{4,500,000}\\\\ \\frac{\\text{4,500,000}}{2}=\\text{2,250,000}\\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}\\frac{\\text{2,250,000}}{2}=\\text{1,125,000}\\\\ \\frac{\\text{1,125,000}}{2}=\\text{562,500}\\end{aligned}$$</div></div></div>"
     },
 {
       "id": "AM-L2-026",
@@ -4519,7 +4519,7 @@
         "\\(\\frac{c^3 d }{f^3}\\)"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>Use the laws of exponents to simplify this expression.  But first, cross out \\(\\frac{d^2}{d^2}\\) since anything divided by itself is \\(1\\).  This means there is no power of \\(d\\) in the answer, so eliminate C and D. Next, use the Quotient Rule; subtract the exponents of powers with the same bases.</div><div class='explanation-math'>$$\\begin{aligned}\\ &=\\frac{c^6 f }{c^2 f^3}\\\\ &=c^{6-2} f^{1-3} \\\\ &=c^{4} f^{-2}\\end{aligned}$$</div><div class='explanation-step'></div><div class='explanation-step'>Since the only remaining answer with \\(c^4\\) is B, it must be the correct answer.  But to finish simplifying, use the Negative Exponent Rule, so \\(f^{-2}=\\frac{1}{f^2}\\).  Then \\(c^4 \times \\frac{1}{f^2} = \\frac{c^4  }{f^2}\\).</div>"
+      "explanation": "<div class='explanation-step'>Use the laws of exponents to simplify this expression.  But first, cross out \\(\\frac{d^2}{d^2}\\) since anything divided by itself is \\(1\\).  This means there is no power of \\(d\\) in the answer, so eliminate C and D. Next, use the Quotient Rule; subtract the exponents of powers with the same bases.</div><div class='explanation-math'>$$\\begin{aligned}\\ &=\\frac{c^6 f }{c^2 f^3}\\\\ &=c^{6-2} f^{1-3} \\\\ &=c^{4} f^{-2}\\end{aligned}$$</div><div class='explanation-step'></div><div class='explanation-step'>Since the only remaining answer with \\(c^4\\) is B, it must be the correct answer.  But to finish simplifying, use the Negative Exponent Rule, so \\(f^{-2}=\\frac{1}{f^2}\\).  Then \\(c^4 \\times \\frac{1}{f^2} = \\frac{c^4  }{f^2}\\).</div>"
     },
 
     {
@@ -4606,7 +4606,7 @@
         "maxChars": 6
       },
 
-      "explanation": "<div class='explanation-step'>Since you only need to solve for the positive value of \\(2n+28\\), drop the absolute value sign and multiply the entire equation by \\(4\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ \\frac{1}{2} n+7&=91\\\\ 4 \\times \\left(\\frac{1}{2} n+7 \right)&=91 \\times 4\\\\ 2n+28&=364\\end{aligned}$$</div><div class='explanation-step'>Note: solving for the positive value doesn't always mean you set the equation equal to the positive value (\\(91\\) instead of \\(-91\\).  For example, in the equation \\(|\\frac{-1}{2}n+7|=91\\), you would need to solve the equation \\(\\frac{-1}{2}n+7=-91\\) in order to find the positive value of \\(2n+28\\).</div>"
+      "explanation": "<div class='explanation-step'>Since you only need to solve for the positive value of \\(2n+28\\), drop the absolute value sign and multiply the entire equation by \\(4\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ \\frac{1}{2} n+7&=91\\\\ 4 \\times \\left(\\frac{1}{2} n+7 \\right)&=91 \\times 4\\\\ 2n+28&=364\\end{aligned}$$</div><div class='explanation-step'>Note: solving for the positive value doesn't always mean you set the equation equal to the positive value (\\(91\\) instead of \\(-91\\).  For example, in the equation \\(|\\frac{-1}{2}n+7|=91\\), you would need to solve the equation \\(\\frac{-1}{2}n+7=-91\\) in order to find the positive value of \\(2n+28\\).</div>"
     },
 
     {
@@ -4905,7 +4905,7 @@
         "maxChars": 6
       },
 
-      "explanation": "<div class='explanation-step'>When a problem states that there are a specific number of solutions or that the graphs intersect a specific number of times, this is a clue that you need to use the discriminant \\(b^2-4ac\\) where \\(y=ax^2+bx+c\\) to solve.  Since this problem states that the equation has no real solutions, use \\(b^2-4ac<0\\).  From the equation, the values for the discriminant are \\(a=a\\), \\(b=-24\\) and \\(c=2\\).  Use the discriminant equation to solve for \\(a\\), which you can then use to determine the minimum value of \\(q\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ b^2-4ac&<0\\\\ (-24)^2-4(a)(2)&<0\\\\ 576-8a&<0\\\\ 576-\\cancel{8a}+\\cancel{8a}&<8a\\\\ \\frac{576}{8}&<\\frac{\\cancel{8}a}{\\cancel{8}}\\\\ 72&<a\\\\ a&>72\\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>When a problem states that there are a specific number of solutions or that the graphs intersect a specific number of times, this is a clue that you need to use the discriminant \\(b^2-4ac\\) where \\(y=ax^2+bx+c\\) to solve.  Since this problem states that the equation has no real solutions, use \\(b^2-4ac<0\\).  From the equation, the values for the discriminant are \\(a=a\\), \\(b=-24\\) and \\(c=2\\).  Use the discriminant equation to solve for \\(a\\), which you can then use to determine the minimum value of \\(q\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ b^2-4ac&\\lt 0\\\\ (-24)^2-4(a)(2)&\\lt0\\\\ 576-8a&\\lt 0\\\\ 576-\\cancel{8a}+\\cancel{8a}&\\lt 8a\\\\ \\frac{576}{8}&<\\frac{\\cancel{8}a}{\\cancel{8}}\\\\ 72&\\lt a\\\\ a&\\gt72\\end{aligned}$$</div>"
     },
 {
       "id": "AM-L3-015",
@@ -4934,7 +4934,7 @@
         "maxChars": 6
       },
 
-      "explanation": "<div class='explanation-step'>To find the value of \\(h(5)\\), first solve for \\(b\\) by substituting \\((4, \text{1,888})\\) into the equation \\(h(x)=118b^x\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ \text{1,888}&=118b^4\\\\ \\frac{\text{1,888}}{118}&=\\frac{\\cancel{118}b^4}{\\cancel{118}}\\\\ \\sqrt[4]{16}&=\\sqrt[4]{b^4}\\\\ b&=2\\end{aligned}$$</div><div class='explanation-step'>Now replace \\(b\\) with \\(2\\) and substitute \\(5\\) in for \\(x\\) to evaluate the function.</div><div class='explanation-math'>$$\\begin{aligned}\\ h(x)&=118(2)^x\\\\ h(5)&=118(2)^5\\\\ h(5)&=118(32)\\\\ h(5)&=\\text{3,776}\\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>To find the value of \\(h(5)\\), first solve for \\(b\\) by substituting \\((4, \\text{1,888})\\) into the equation \\(h(x)=118b^x\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ \\text{1,888}&=118b^4\\\\ \\frac{\\text{1,888}}{118}&=\\frac{\\cancel{118}b^4}{\\cancel{118}}\\\\ \\sqrt[4]{16}&=\\sqrt[4]{b^4}\\\\ b&=2\\end{aligned}$$</div><div class='explanation-step'>Now replace \\(b\\) with \\(2\\) and substitute \\(5\\) in for \\(x\\) to evaluate the function.</div><div class='explanation-math'>$$\\begin{aligned}\\ h(x)&=118(2)^x\\\\ h(5)&=118(2)^5\\\\ h(5)&=118(32)\\\\ h(5)&=\\text{3,776}\\end{aligned}$$</div>"
     },
 {
       "id": "AM-L3-016",
@@ -4959,7 +4959,7 @@
         "\\(y=\\frac{1}{20}(x-5) (x+3)^2 (x+6)\\)"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='stem-image'><img src='assets/Adv3 - 16A.png'></div><div class='explanation-step'>Since all of the answer choices have the same \\(a\\)-value (\\(\\frac{1}{20}\\)), focus entirely on the \\(x\\)-intercepts. From the graph the \\(x\\)-intercepts are \\((-5,0)\\) \\((3,0)\\), and \\((6,0)\\).  Write an equation using these intercepts; \\(y=\\frac{1}{20}(x+5)(x-3)(x-6)\\).  Eliminate C and D. Examine the multiplicity of the intercepts, or the exponent on the factors. A: \\((x-6)^2\\), and B: \\((x-3)^2\\). A multiplicity of \\(2\\) shows on the graph as touching or ''bouncing'' off of the \\(x\\)-axis, and this can be seen at \\((3,0)\\), so B is the correct answer.</div>"
+      "explanation": "<div class='stem-image'><img src='assets/Adv3 - 16A.png'></div><div class='explanation-step'>Since all of the answer choices have the same \\(a\\)-value (\\(\\frac{1}{20}\\)), focus entirely on the \\(x\\)-intercepts. From the graph the \\(x\\)-intercepts are \\((-5,0)\\) \\((3,0)\\), and \\((6,0)\\).  Write an equation using these intercepts; \\(y=\\frac{1}{20}(x+5)(x-3)(x-6)\\).  Eliminate C and D. Examine the multiplicity of the intercepts, or the exponent on the factors. A: \\((x-6)^2\\), and B: \\((x-3)^2\\). A multiplicity of \\(2\\) shows on the graph as touching or &ldquo;bouncing&rdquo; off of the \\(x\\)-axis, and this can be seen at \\((3,0)\\), so B is the correct answer.</div>"
     },
 {
       "id": "AM-L3-017",
@@ -5202,7 +5202,7 @@
         "The first term is \\(3\\) and each term after the first term is \\(15\\) more than the preceding term."
       ],
       "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>The given equation is exponential, which means that the sequence grows by a common multiplier.  Eliminate B and D.  Since the answers begin with ``The first term...'', substitute \\(n=1\\) to find the first term. In the exponential function \\(y=a \\times b^x\\), \\(a\\) is the starting value and \\(b\\) is the growth factor.  In this equation, \\(a=15\\), so that is the first term and \\(b=3\\), so each term is multiplied by \\(3\\) to find the next term.  This means A is the correct answer.</div><div class='explanation-step'>Alternatively, substitute \\(n=1\\) and \\(n=2\\) to find the first term and the growth factor.</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}s_1&=15(3^{1-1})\\\\&=15(3^{0})\\\\&=15(1)\\\\&=15\\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}s_2&=15(3^{2-1})\\\\&=15(3^{1})\\\\ &=15(3)\\\\ &=45\\end{aligned}$$</div></div></div><div class='explanation-step'>This shows that the first term is \\(15\\) and each term is multiplied by \\(3\\) to find the next term (\\(15 \\times 3=45\\)).</div>"
+      "explanation": "<div class='explanation-step'>The given equation is exponential, which means that the sequence grows by a common multiplier.  Eliminate B and D.  Since the answers begin with &ldquo;The first term...&rdquo;, substitute \\(n=1\\) to find the first term. In the exponential function \\(y=a \\times b^x\\), \\(a\\) is the starting value and \\(b\\) is the growth factor.  In this equation, \\(a=15\\), so that is the first term and \\(b=3\\), so each term is multiplied by \\(3\\) to find the next term.  This means A is the correct answer.</div><div class='explanation-step'>Alternatively, substitute \\(n=1\\) and \\(n=2\\) to find the first term and the growth factor.</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}s_1&=15(3^{1-1})\\\\&=15(3^{0})\\\\&=15(1)\\\\&=15\\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}s_2&=15(3^{2-1})\\\\&=15(3^{1})\\\\ &=15(3)\\\\ &=45\\end{aligned}$$</div></div></div><div class='explanation-step'>This shows that the first term is \\(15\\) and each term is multiplied by \\(3\\) to find the next term (\\(15 \\times 3=45\\)).</div>"
     },
 {
       "id": "AM-L3-026",
@@ -5493,7 +5493,7 @@
         "\\(5ax+6\\)"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>Use factoring and the process of elimination to answer this question.  Find the factor pair for each and check whether the middle term can be produced with a positive integer value of \\(a\\).</div><div class='explanation-step'>A)  \\(5ax^2+36x+12=(ax+2)( \\quad )\\). To find the factor pair, find the factor such that \\(ax \times (          )=5ax^2\\), so \\(5x\\).  Likewise, find the factor such that \\(2 \times (          )=12\\), so \\(6\\).  The factorization is \\((ax+2)(5x+6)\\).  Multiply the outer and inner terms, so \\(6ax+10x\\).  The sum of these must be \\(36x\\).  Set them equal and solve for \\(a\\) to see whether it is a positive integer.</div><div class='explanation-math'>$$\\begin{aligned}\\ 6ax+10x&=36x\\\\ 6ax&=26x\\\\ a&=\\frac{26}{6}\\end{aligned}$$</div><div class='explanation-step'>Since \\(a\\) is not an integer, \\(ax+2\\) is not a factor, and A is incorrect.</div><div class='explanation-step'>B)  \\(5ax^2+36x+12=(ax+1)( \\quad )\\). Using the same method from answer A, the factorization is \\((ax+1)(5x+12)\\).  The sum of the outer and inner terms is \\(12ax+5x\\).  Set this expression equal to \\(36x\\) and solve for \\(a\\) to see whether it is a positive integer. </div><div class='explanation-math'>$$\\begin{aligned}\\ 12ax+5x&=36x\\\\ 12ax&=31x\\\\ a&=\\frac{31}{12}\\end{aligned}$$</div><div class='explanation-step'>Since \\(a\\) is not an integer, B is incorrect.</div><div class='explanation-step'>C)  \\(5ax^2+36x+12=(5ax+2)( \\quad )\\). Using the same method from answer A, the factorization is \\((5ax+2)(x+6)\\).  The sum of the outer and inner terms is \\(30ax+2x\\).  Set this expression equal to \\(36x\\) and solve for \\(a\\) to see whether it is a positive integer. </div><div class='explanation-math'>$$\\begin{aligned}\\ 30ax+2x&=36x\\\\ 30ax&=34x\\\\ a&=\\frac{34}{30}\\end{aligned}$$</div><div class='explanation-step'>Since \\(a\\) is not an integer, C is incorrect.</div><div class='explanation-step'>D)  \\(5ax^2+36x+12=(5ax+6)( \\quad )\\). Using the same method from answer A, the factorization is \\((5ax+6)(x+2)\\).  The sum of the outer and inner terms is \\(10ax+6x\\).  Set this expression equal to \\(36x\\) and solve for \\(a\\) to see whether it is a positive integer.</div><div class='explanation-math'>$$\\begin{aligned}\\ 10ax+6x&=36x\\\\ 10ax&=30x\\\\ a&=\\frac{30}{10}=3\\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>Use factoring and the process of elimination to answer this question.  Find the factor pair for each and check whether the middle term can be produced with a positive integer value of \\(a\\).</div><div class='explanation-step'>A)  \\(5ax^2+36x+12=(ax+2)( \\quad )\\). To find the factor pair, find the factor such that \\(ax \\times (          )=5ax^2\\), so \\(5x\\).  Likewise, find the factor such that \\(2 \times (          )=12\\), so \\(6\\).  The factorization is \\((ax+2)(5x+6)\\).  Multiply the outer and inner terms, so \\(6ax+10x\\).  The sum of these must be \\(36x\\).  Set them equal and solve for \\(a\\) to see whether it is a positive integer.</div><div class='explanation-math'>$$\\begin{aligned}\\ 6ax+10x&=36x\\\\ 6ax&=26x\\\\ a&=\\frac{26}{6}\\end{aligned}$$</div><div class='explanation-step'>Since \\(a\\) is not an integer, \\(ax+2\\) is not a factor, and A is incorrect.</div><div class='explanation-step'>B)  \\(5ax^2+36x+12=(ax+1)( \\quad )\\). Using the same method from answer A, the factorization is \\((ax+1)(5x+12)\\).  The sum of the outer and inner terms is \\(12ax+5x\\).  Set this expression equal to \\(36x\\) and solve for \\(a\\) to see whether it is a positive integer. </div><div class='explanation-math'>$$\\begin{aligned}\\ 12ax+5x&=36x\\\\ 12ax&=31x\\\\ a&=\\frac{31}{12}\\end{aligned}$$</div><div class='explanation-step'>Since \\(a\\) is not an integer, B is incorrect.</div><div class='explanation-step'>C)  \\(5ax^2+36x+12=(5ax+2)( \\quad )\\). Using the same method from answer A, the factorization is \\((5ax+2)(x+6)\\).  The sum of the outer and inner terms is \\(30ax+2x\\).  Set this expression equal to \\(36x\\) and solve for \\(a\\) to see whether it is a positive integer. </div><div class='explanation-math'>$$\\begin{aligned}\\ 30ax+2x&=36x\\\\ 30ax&=34x\\\\ a&=\\frac{34}{30}\\end{aligned}$$</div><div class='explanation-step'>Since \\(a\\) is not an integer, C is incorrect.</div><div class='explanation-step'>D)  \\(5ax^2+36x+12=(5ax+6)( \\quad )\\). Using the same method from answer A, the factorization is \\((5ax+6)(x+2)\\).  The sum of the outer and inner terms is \\(10ax+6x\\).  Set this expression equal to \\(36x\\) and solve for \\(a\\) to see whether it is a positive integer.</div><div class='explanation-math'>$$\\begin{aligned}\\ 10ax+6x&=36x\\\\ 10ax&=30x\\\\ a&=\\frac{30}{10}=3\\end{aligned}$$</div>"
     },
 {
       "id": "AM-L3-037",
@@ -5519,7 +5519,7 @@
         "\\((x+8)^2+(y-7)^2=16\\)"
       ],
       "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>The equation of a circle is \\((x-h)^2+(y-k)^2=r^2\\), where \\((h,k)\\) is the center of the circle and \\(r\\) is the radius.  In order for the circle <em>not</em> to intersect the \\(y\\)-axis, the distance from the center of the circle to a point on the circle (which is the radius) must be <em>less</em> than the horizontal shift of the circle to the right or left. The horizontal shift of the circle is equal to the \\(x-\\)value of the center, or \\(h\\).</div><div class='explanation-step'>Test answers to determine whether the \\(\\textit{length of the radius} < k\\). In all four answer choices \\(r^2=49\\), so the radius is \\(7\\).</div><div class='explanation-step'>A) \\((x-3)^2+(y-10)^2=49\\): the \\(x\\)-value of the center is \\(3\\), so the center is \\(3\\) units to the right of the \\(y\\)-axis. Since the radius (\\(7\\)) is greater than the distance to the \\(y-\\)axis, this circle will intersect the \\(y-\\)axis. Eliminate A.</div><div class='explanation-step'>B) \\((x+7)^2+y^2=49\\): the \\(x\\)-value of the center is \\(-7\\), so the center is \\(7\\) units to the left of the \\(y\\)-axis.  Since the radius is equal to the distance to the \\(y-\\)axis, this circle will intersect the \\(y-\\)axis (one time). Eliminate B.</div><div class='explanation-step'>C) \\(x^2+(y+8)^2=49\\): the \\(x\\)-value of the center is \\(0\\), so the center of this circle is <em>on</em> the \\(y-\\)axis. Eliminate C.</div><div class='explanation-step'>D) \\((x+8)^2+(y-7)^2=49\\): the \\(x\\)-value of the center is \\(-8\\), so the center is \\(8\\) units to the left of the \\(y\\)-axis. Since this distance is greater than the radius, this circle does not intersect the \\(y-\\)axis.  This means the correct answer is \\textbf{D}.</div>"
+      "explanation": "<div class='explanation-step'>The equation of a circle is \\((x-h)^2+(y-k)^2=r^2\\), where \\((h,k)\\) is the center of the circle and \\(r\\) is the radius.  In order for the circle <em>not</em> to intersect the \\(y\\)-axis, the distance from the center of the circle to a point on the circle (which is the radius) must be <em>less</em> than the horizontal shift of the circle to the right or left. The horizontal shift of the circle is equal to the \\(x-\\)value of the center, or \\(h\\).</div><div class='explanation-step'>Test answers to determine whether the \\(\\textit{length of the radius} < k\\). In all four answer choices \\(r^2=49\\), so the radius is \\(7\\).</div><div class='explanation-step'>A) \\((x-3)^2+(y-10)^2=49\\): the \\(x\\)-value of the center is \\(3\\), so the center is \\(3\\) units to the right of the \\(y\\)-axis. Since the radius (\\(7\\)) is greater than the distance to the \\(y-\\)axis, this circle will intersect the \\(y-\\)axis. Eliminate A.</div><div class='explanation-step'>B) \\((x+7)^2+y^2=49\\): the \\(x\\)-value of the center is \\(-7\\), so the center is \\(7\\) units to the left of the \\(y\\)-axis.  Since the radius is equal to the distance to the \\(y-\\)axis, this circle will intersect the \\(y-\\)axis (one time). Eliminate B.</div><div class='explanation-step'>C) \\(x^2+(y+8)^2=49\\): the \\(x\\)-value of the center is \\(0\\), so the center of this circle is <em>on</em> the \\(y-\\)axis. Eliminate C.</div><div class='explanation-step'>D) \\((x+8)^2+(y-7)^2=49\\): the \\(x\\)-value of the center is \\(-8\\), so the center is \\(8\\) units to the left of the \\(y\\)-axis. Since this distance is greater than the radius, this circle does not intersect the \\(y-\\)axis.</div>"
     },
 {
       "id": "P-L1-001",
@@ -5573,7 +5573,7 @@
         "allowNegative": true,
         "maxChars": 6
       },
-      "explanation": "<div class='stem-image'><img src='assets/Prob1-2A.png'><div class='explanation-step'>The probability of an event is \\(\\frac{\\text{desired outcome}}{\\text{total outcomes}}\\).  The desired outcome is ''large shirts'', so \\(20\\) and the total outcomes is \\(100\\).  The probability is \\(\\frac{20}{100}\\) or \\(\\frac{1}{5}\\).</div>"
+      "explanation": "<div class='stem-image'><img src='assets/Prob1-2A.png'><div class='explanation-step'>The probability of an event is \\(\\frac{\\text{desired outcome}}{\\text{total outcomes}}\\).  The desired outcome is &ldquo;large shirts&rdquo;, so \\(20\\) and the total outcomes is \\(100\\).  The probability is \\(\\frac{20}{100}\\) or \\(\\frac{1}{5}\\).</div>"
     },
     {
       "id": "P-L1-003",
@@ -5707,7 +5707,7 @@
         "\\(\\frac{61}{100}\\)"
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>In a certain supermarket, \\(61\\) out of every \\(\\text{1,000}\\) products have passed their sell by date.  If a product is selected at random, what is the probability of selecting a product that is past its sell by date?</div><div class='explanation-step'>The probability of an event is \\(\\frac{\\text{desired outcome}}{\\text{total outcomes}}\\).  The desired outcome is ``products passed sell by date'', so \\(61\\) and the total outcomes is \\(\\text{1,000}\\).  The probability is \\(\\frac{61}{\\text{1,000}}\\).</div>"
+      "explanation": "<div class='explanation-step'>In a certain supermarket, \\(61\\) out of every \\(\\text{1,000}\\) products have passed their sell by date.  If a product is selected at random, what is the probability of selecting a product that is past its sell by date?</div><div class='explanation-step'>The probability of an event is \\(\\frac{\\text{desired outcome}}{\\text{total outcomes}}\\).  The desired outcome is &ldquo;products passed sell by date&rdquo;, so \\(61\\) and the total outcomes is \\(\\text{1,000}\\).  The probability is \\(\\frac{61}{\\text{1,000}}\\).</div>"
     },
 
     {
@@ -5794,7 +5794,7 @@
         "maxChars": 6
       },
 
-      "explanation": "<div class='explanation-step'>Use unit conversions to solve this problem.  Since the answer needs to be in flaps per minute and the given ratio is in flaps per second, multiply by another ratio that will cancel seconds, leaving flaps per minute as the ratio. Since there are \\(60\\) seconds in one minute, multiply by \\(60\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ &=\\frac{64\\, \\text{flaps}}{1 \\, \\cancel{\\text{second}}} \\times \\frac{60 \\, \\cancel{\\text{seconds}}}{1 \\, \\text{minute}}= {\\text{3,840}}\\frac{\\text{flaps}}{\\text{minute}} \\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>Use unit conversions to solve this problem.  Since the answer needs to be in flaps per minute and the given ratio is in flaps per second, multiply by another ratio that will cancel seconds, leaving flaps per minute as the ratio. Since there are \\(60\\) seconds in one minute, multiply by \\(60\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ \\frac{64\\, \\text{flaps}}{1 \\, \\cancel{\\text{second}}} \\times \\frac{60 \\, \\cancel{\\text{seconds}}}{1 \\, \\text{minute}}= {\\text{3,840}}\\frac{\\text{flaps}}{\\text{minute}} \\end{aligned}$$</div>"
     },
     {
       "id": "P-L1-011",
@@ -5905,7 +5905,7 @@
         "allowNegative": true,
         "maxChars": 6
       },
-      "explanation": "<div class='explanation-step'>The probability of an event is \\(\\frac{\\text{desired outcome}}{\\text{total outcomes}}\\).  The desired outcome is ``hardcover biography'', so look to the cell at the intersection of hardcovers and biographies; the desired outcome is \\(34\\). The total outcomes is \\(200\\).  The probability is \\(\\frac{34}{200}\\) or \\(\\frac{17}{100}\\), or \\(0.17\\).</div><div class='stem-image'><img src='assets/Prob2-1A.png'></div>"
+      "explanation": "<div class='explanation-step'>The probability of an event is \\(\\frac{\\text{desired outcome}}{\\text{total outcomes}}\\).  The desired outcome is &ldquo;hardcover biography&rdquo;, so look to the cell at the intersection of hardcovers and biographies; the desired outcome is \\(34\\). The total outcomes is \\(200\\).  The probability is \\(\\frac{34}{200}\\) or \\(\\frac{17}{100}\\), or \\(0.17\\).</div><div class='stem-image'><img src='assets/Prob2-1A.png'></div>"
     },
 {
       "id": "P-L2-002",
@@ -6011,7 +6011,7 @@
         "\\(\\text{14,486.94}\\)"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>This problem deals with area, so the given conversion between miles and feet needs to be changed to reflect square miles and square feet.  Square both sides of the unit conversion equation \\(1\\) mile \\(= \\text{5,280}\\) feet.  \\(1^2\\) square miles \\(= \\text{5,280}^2\\) square feet, so \\(1\\) square mile \\(= \\text{27,878,400}\\) square feet.  The answer is in square feet, so use unit conversions to cancel square feet so that square miles remains in the numerator.</div><div class='explanation-math'>$$\\begin{aligned}\\&=\\frac{1 \\text{square mile}}{\\text{27,878,400 \\, \\cancel{square feet}}} \\times \\text{76,491,035} \\, \\cancel{\\text{square feet}}\\\\ &=\\frac{\\text{76,491,035}}{\\text{27,878,400}} \\, \\text{square miles}= 2.74 \\, \\text{square miles} \\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>This problem deals with area, so the given conversion between miles and feet needs to be changed to reflect square miles and square feet.  Square both sides of the unit conversion equation \\(1\\) mile \\(= \\text{5,280}\\) feet.  \\(1^2\\) square miles \\(= \\text{5,280}^2\\) square feet, so \\(1\\) square mile \\(= \\text{27,878,400}\\) square feet.  The answer is in square feet, so use unit conversions to cancel square feet so that square miles remains in the numerator.</div><div class='explanation-math'>$$\\begin{aligned}\\ &=\\frac{1 \\, \\text{square mile}}{\\text{27,878,400} \\, \\cancel{square feet}} \\times \\text{76,491,035} \\, \\cancel{\\text{square feet}}\\\\ &=\\frac{\\text{76,491,035}}{\\text{27,878,400}} \\, \\text{square miles}= 2.74 \\, \\text{square miles} \\end{aligned}$$</div>"
     },
 {
       "id": "P-L2-006",
@@ -6063,7 +6063,7 @@
         "\\(720\\)"
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>The given information in this question is the number of holes covered per pound of grass seed and the answer is in hectares. There are two conversions necessary to get to hectares from holes per pound of grass seed.  First multiply by the number of hectares per hole to cancel the unit of ``golf holes''.</div><div class='explanation-math'>$$\\begin{aligned}\\&=\\frac{3\\, \\cancel{\\text{holes}}}{1 \\, \\text{{pound}}} \\times \\frac{1.25 \\, \\text{hectares}}{1 \\, \\cancel{\\text{hole}}}\\\\ = \\frac{3.75 \\, \\text{hectares}}{1 \\,  \\text{pound}} \\end{aligned}$$</div><div class='explanation-step'>You have the number of hectares covered per pound, so multiply by \\(64\\) pounds to find out how many hectares can be covered by that amount.</div><div class='explanation-math'>$$\\begin{aligned}\\ &= \\frac{3.75 \\, \\text{hectares}}{1 \\,  \\cancel{\\text{pound}}} \\times 64 \\, \\cancel{\\text{pounds}} = 240 \\, \\text{hectares}\\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>The given information in this question is the number of holes covered per pound of grass seed and the answer is in hectares. There are two conversions necessary to get to hectares from holes per pound of grass seed.  First multiply by the number of hectares per hole to cancel the unit of &ldquo;golf holes&rdquo;.</div><div class='explanation-math'>$$\\begin{aligned}\\ &=\\frac{3\\, \\cancel{\\text{holes}}}{1 \\, \\text{pound}} \\times \\frac{1.25 \\, \\text{hectares}}{1 \\, \\cancel{\\text{hole}}}\\\\ &= \\frac{3.75 \\, \\text{hectares}}{1 \\,  \\text{pound}} \\end{aligned}$$</div><div class='explanation-step'>You have the number of hectares covered per pound, so multiply by \\(64\\) pounds to find out how many hectares can be covered by that amount.</div><div class='explanation-math'>$$\\begin{aligned}\\ &= \\frac{3.75 \\, \\text{hectares}}{1 \\,  \\cancel{\\text{pound}}} \\times 64 \\, \\cancel{\\text{pounds}} = 240 \\, \\text{hectares}\\end{aligned}$$</div>"
     },
     {
       "id": "P-L2-008",
@@ -6089,7 +6089,7 @@
         "\\(\\text{1,200}\\, \\text{pages}\\)"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>Use unit conversions to solve this problem. The given rate is given in pages per \\(17.2\\) minutes.  The unit for the answer is pages, so to find out how many pages can be edited in \\(3\\) hours, multiply the rate by \\(180\\) minutes to cancel minutes and give the answer in pages.</div><div class='explanation-math'>$$\\begin{aligned}\\&\\frac{15\\, \\text{pages}}{17.2 \\, \\cancel{\\text{minutes}}} \\times 180 \\, \\cancel{\\text{minutes}}= 157 \\, \\text{pages} \\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>Use unit conversions to solve this problem. The given rate is given in pages per \\(17.2\\) minutes.  The unit for the answer is pages, so to find out how many pages can be edited in \\(3\\) hours, multiply the rate by \\(180\\) minutes to cancel minutes and give the answer in pages.</div><div class='explanation-math'>$$\\begin{aligned}\\ &=\\frac{15\\, \\text{pages}}{17.2 \\, \\cancel{\\text{minutes}}} \\times 180 \\, \\cancel{\\text{minutes}}= 157 \\, \\text{pages} \\end{aligned}$$</div>"
     },
     {
       "id": "P-L2-009",
@@ -6218,7 +6218,7 @@
         "\\(\\frac{28}{50}\\)"
       ],
       "answerIndex": 2,
-      "explanation": "<div class='stem-image'><img src='assets/Prob2-13A.png'></div><div class='explanation-step'>The probability of an event is \\(\\frac{\\text{desired outcome}}{\\text{total outcomes}}\\).  The desired outcomes are ``antique baseball'' or ``new basketball''.  The probability of either one of two events occurring is the sum of the two individual probabilities, so \\(7+4=11\\).  The total number of outcomes is \\(50\\).  The probability is \\(\\frac{11}{50}\\).</div>"
+      "explanation": "<div class='stem-image'><img src='assets/Prob2-13A.png'></div><div class='explanation-step'>The probability of an event is \\(\\frac{\\text{desired outcome}}{\\text{total outcomes}}\\).  The desired outcomes are &ldquo;antique baseball&rdquo; or &ldquo;new basketball&rdquo;.  The probability of either one of two events occurring is the sum of the two individual probabilities, so \\(7+4=11\\).  The total number of outcomes is \\(50\\).  The probability is \\(\\frac{11}{50}\\).</div>"
     },
     
 {
@@ -6271,7 +6271,7 @@
         "Phonics Program A will cause a significant improvement in decoding skills."
       ],
       "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>This problem is about the strength of conclusions that can be drawn from a research study.  In general (not always), the correct answer uses the least strong language.  B, C, and D have language that draws too strong of a conclusion for the type of study done.  B says the program improves skills better than ``all'' other programs, which is too strong of a conclusion.  C uses the phrase ``will improve'' and for ``any child'', which again is too strong.  And D says ``will cause a significant improvement'', which is too strong.  There is not enough evidence from this study to prove causation or to use certainty language.</div>"
+      "explanation": "<div class='explanation-step'>This problem is about the strength of conclusions that can be drawn from a research study.  In general (not always), the correct answer uses the least strong language.  B, C, and D have language that draws too strong of a conclusion for the type of study done.  B says the program improves skills better than &ldquo;all&rdquo; other programs, which is too strong of a conclusion.  C uses the phrase &ldquo;will improve&rdquo; and for &ldquo;any child&rdquo;, which again is too strong.  And D says &ldquo;will cause a significant improvement&rdquo;, which is too strong.  There is not enough evidence from this study to prove causation or to use certainty language.</div>"
     },
      {
       "id": "P-L2-016",
@@ -6300,7 +6300,7 @@
         "maxChars": 6
       },
 
-      "explanation": "<div class='explanation-step'>This percent problem can be directly translated into a math equation; \\(n\\%\\) is \\(\\frac{n}{100}\\) ``and of'' means multiply, so ``\\(n\\%\\) of \\(40\\)'' is \\(\\frac{n}{100} \\times 40\\). Finally, ``is \\(19\\)'' means equals \\(19\\), so the final equation to solve is \\(\\frac{n}{100} \\times 40 = 19\\), or \\(\\frac{40}{100} \\times n = 19\\), which equals \\(0.4n = 19\\).  Divide both sides by \\(0.4\\), so \\(\\frac{19}{0.4}=247.5\\).</div>"
+      "explanation": "<div class='explanation-step'>This percent problem can be directly translated into a math equation; \\(n\\%\\) is \\(\\frac{n}{100}\\) &ldquo;and of&rdquo; means multiply, so &ldquo;\\(n\\%\\) of \\(40\\)&rdquo; is \\(\\frac{n}{100} \\times 40\\). Finally, &ldquo;is \\(19\\)&rdquo; means equals \\(19\\), so the final equation to solve is \\(\\frac{n}{100} \\times 40 = 19\\), or \\(\\frac{40}{100} \\times n = 19\\), which equals \\(0.4n = 19\\).  Divide both sides by \\(0.4\\), so \\(\\frac{19}{0.4}=247.5\\).</div>"
     },
     {
       "id": "P-L2-017",
@@ -6317,7 +6317,7 @@
       "set": "Problem-solving and Data Analysis Practice",
       "tags": ["dot plot", "standard deviation"],
 
-      "stem": "<div class='stem-image'><img src='assets/Prob2-17.png'></div><div class='stem-text'>Each of the dot plots shown represents the number of goals scored by each player of two soccer teams, the Tigers and the Falcons. Which statement best describes the standard deviations of the numbers of goals scored by each player of these two teams?</div>",
+      "stem": "<div class='stem-image'><img src='assets/Prob2-17.png' style='max-width:50%;'></div><div class='stem-text'>Each of the dot plots shown represents the number of goals scored by each player of two soccer teams, the Tigers and the Falcons. Which statement best describes the standard deviations of the numbers of goals scored by each player of these two teams?</div>",
       "choices": [
         "The standard deviation of the number of goals scored by each player on the Tigers team is less than the standard deviation of the number of goals scored by each player on the Falcons team.",
         "The standard deviation of the number of goals scored by each player on the Tigers team is equal to the standard deviation of the number of goals scored by each player on the Falcons team.",
@@ -6352,7 +6352,7 @@
         "\\(\\frac{29}{100}\\)"
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>The probability of an event is \\(\\frac{\\text{desired outcome}}{\\text{total outcomes}}\\).  The desired outcome is ``did <em>not</em> participate in a sport'', but the given information is the number of students who <em>did</em> participate in a sport.  Subtract this number, \\(21\\), from the total number of students, \\(50\\), so \\(50-21=29\\) students did not participate in a sport.  The total outcomes is \\(50\\) because the given information is out of every \\(50\\) students. The probability of that a randomly selected student did not participate in a sport is therefore, \\(\\frac{29}{50}\\), so C is the correct answer.</div>"
+      "explanation": "<div class='explanation-step'>The probability of an event is \\(\\frac{\\text{desired outcome}}{\\text{total outcomes}}\\).  The desired outcome is &ldquo;did <em>not</em> participate in a sport&rdquo;, but the given information is the number of students who <em>did</em> participate in a sport.  Subtract this number, \\(21\\), from the total number of students, \\(50\\), so \\(50-21=29\\) students did not participate in a sport.  The total outcomes is \\(50\\) because the given information is out of every \\(50\\) students. The probability of that a randomly selected student did not participate in a sport is therefore, \\(\\frac{29}{50}\\), so C is the correct answer.</div>"
     },
 {
       "id": "P-L2-019",
@@ -6378,7 +6378,7 @@
         "\\(76\\%\\)"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>To find the percentage of monthly ticket holders out of all commuters, divide the number of monthly ticket holders by the total number of commuters, and multiply that result by \\(100\\).</div><div class='explanation-math'>$$\\begin{aligned} \\&=\\frac{\\text{part}}{\\text{total}} \\times 100\\\\ =\\frac{\\text{2,160,000}}{\\text{9,000,000}} \\times 100\\\\= 24\\% \\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>To find the percentage of monthly ticket holders out of all commuters, divide the number of monthly ticket holders by the total number of commuters, and multiply that result by \\(100\\).</div><div class='explanation-math'>$$\\begin{aligned} \\&=\\frac{\\text{part}}{\\text{total}} \\times 100\\\\ &=\\frac{\\text{2,160,000}}{\\text{9,000,000}} \\times 100\\\\ &= 24\\% \\end{aligned}$$</div>"
     },
 
     {
@@ -6437,7 +6437,7 @@
         "maxChars": 6
       },
 
-      "explanation": "<div class='stem-image'><img src='assets/Prob3-2A.png'></div><div class='explanation-step'>The probability of an event is \\(\\frac{\\text{desired outcome}}{\\text{total outcomes}}\\).  The desired outcome is ``basketball'', but the total number of outcomes is not the entire set.  The problem says that it is ``given that one of the varsity teams is selected'', which means that the total number of varsity teams is the total outcomes or the denominator.   The probability of basketball being selected from all varsity teams is \\(\\frac{20}{50}\\) or \\(\\frac{2}{5}\\) or \\(0.4\\).</div>"
+      "explanation": "<div class='stem-image'><img src='assets/Prob3-2A.png'></div><div class='explanation-step'>The probability of an event is \\(\\frac{\\text{desired outcome}}{\\text{total outcomes}}\\).  The desired outcome is &ldquo;basketball&rdquo;, but the total number of outcomes is not the entire set.  The problem says that it is &ldquo;given that one of the varsity teams is selected&rdquo;, which means that the total number of varsity teams is the total outcomes or the denominator.   The probability of basketball being selected from all varsity teams is \\(\\frac{20}{50}\\) or \\(\\frac{2}{5}\\) or \\(0.4\\).</div>"
     },
     {
       "id": "P-L3-003",
@@ -6465,7 +6465,7 @@
         "allowNegative": true,
         "maxChars": 6
       },
-      "explanation": "<div class='explanation-step'>Find the mean (average) by adding the values of a data set and dividing by the number of values in the data set.  There is a missing number from the given data set F.  Let \\(n=\\) the missing number from data set F, so the average is \\(\\frac{20+27+19+31+29+20+21+17+n}{9}=\\frac{184+n}{9}\\).  This average must an \\textbf{integer} less than \\(23\\), and \\(n\\) must be an integer greater than \\(10\\).  Write and solve an inequality for the missing integer.</div><div class='explanation-math'>$$\\begin{aligned}\\ \\frac{184+n}{\\cancel{9}} \\times \\cancel{9}&<23 \\times 9\\\\ 184+n&<207 \\end{aligned}$$</div><div class='explanation-step'>Since the average is an integer, the sum must be divisible by \\(9\\), so find multiples of \\(9\\) between \\(184\\) and \\(207\\).  \\(9 \\times 20 = 180\\), so \\(189\\) and \\(198\\) are the only options.  Discard \\(189\\) because \\(n\\neq5\\) (\\(n>10\\)), so the answer is \\(n=198-184=14\\).</div>"
+      "explanation": "<div class='explanation-step'>Find the mean (average) by adding the values of a data set and dividing by the number of values in the data set.  There is a missing number from the given data set F.  Let \\(n=\\) the missing number from data set F, so the average is \\(\\frac{20+27+19+31+29+20+21+17+n}{9}=\\frac{184+n}{9}\\).  This average must be an \\boldsymbol{integer} less than \\(23\\), and \\(n\\) must be an integer greater than \\(10\\).  Write and solve an inequality for the missing integer.</div><div class='explanation-math'>$$\\begin{aligned}\\ \\frac{184+n}{\\cancel{9}} \\times \\cancel{9}&<23 \\times 9\\\\ 184+n&<207 \\end{aligned}$$</div><div class='explanation-step'>Since the average is an integer, the sum must be divisible by \\(9\\), so find multiples of \\(9\\) between \\(184\\) and \\(207\\).  \\(9 \\times 20 = 180\\), so \\(189\\) and \\(198\\) are the only options.  Discard \\(189\\) because \\(n\\neq5\\) (\\(n>10\\)), so the answer is \\(n=198-184=14\\).</div>"
     },
 {
       "id": "P-L3-004",
@@ -6508,7 +6508,7 @@
       "set": "Problem-solving and Data Analysis Practice",
       "tags": ["mean", "average"],
 
-      "stem": "<div class='stem-image'><img src='assets/Prob3-5.png' style='max-width:50%;'></div><div class='stem-text'>Two data sets of \\(25\\) whole numbered test scores each are summarized in the histograms shown.  For each of the histograms, the first interval represents the frequency of test scores greater than or equal to \\(0\\), but less than \\(20\\).  The second interval represents the frequency of test scores greater than or equal to \\(20\\), but less than \\(40\\), and so on.  What is the smallest possible difference between the mean of data set K and the mean of data set L?</div>",
+      "stem": "<div class='stem-image'><img src='assets/Prob3-5.png' style='max-width:60%;'></div><div class='stem-text'>Two data sets of \\(25\\) whole numbered test scores each are summarized in the histograms shown.  For each of the histograms, the first interval represents the frequency of test scores greater than or equal to \\(0\\), but less than \\(20\\).  The second interval represents the frequency of test scores greater than or equal to \\(20\\), but less than \\(40\\), and so on.  What is the smallest possible difference between the mean of data set K and the mean of data set L?</div>",
       "choices": [
         "\\(0\\)",
         "\\(3\\)",
@@ -7066,7 +7066,7 @@
         "maxChars": 6
       },
 
-      "explanation": "<div class='explanation-step'>Similar triangles have corresponding sides that are proportionate and corresponding angles that are congruent.  Draw one right triangle and label it with vertices \\(F\\), \\(G\\), and \\(H\\).  Label the corresponding angles, \\(I\\), \\(J\\), in \\(K\\) in their corresponding vertices.</div><div class='stem-image'><img src='assets/Geo2-9A.png'></div><div class='explanation-step'>The trigonometric ratio for tangent relates the opposite side over the adjacent side, and is equivalent in similar triangles for corresponding (congruent) angles.  In other words, \\(\\tan{H}=\\tan{K}\\). This means you can use the given side lengths to solve for \\(\\tan{K}\\), so \\(\\tan(K)=\\frac{18}{GH}\\).  Use the Pythagorean Theorem \\(a^2+b^2=c^2\\) where \\(c=\\) the length of the hypotenuse, to solve for \\(GH\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ a^2+b^2&=c^2\\\\ 18^2+{GH}^2&=30^2\\\\ \\cancel{324}+{GH}^2-\\cancel{324}&=900-324\\\\ \\sqrt{{GH}^2}&=\\sqrt{576}\\\\ GH&=24\\end{aligned}$$</div><div class='explanation-step'>Substitute \\(24\\) into the tangent ratio equation to evaluate the tangent; \\(\tan(K)=\\frac{18}{24}=\\frac{3}{4}\\)</div>"
+      "explanation": "<div class='explanation-step'>Similar triangles have corresponding sides that are proportionate and corresponding angles that are congruent.  Draw one right triangle and label it with vertices \\(F\\), \\(G\\), and \\(H\\).  Label the corresponding angles, \\(I\\), \\(J\\), in \\(K\\) in their corresponding vertices.</div><div class='stem-image'><img src='assets/Geo2-9A.png' style='max-width:30%;'></div><div class='explanation-step'>The trigonometric ratio for tangent relates the opposite side over the adjacent side, and is equivalent in similar triangles for corresponding (congruent) angles.  In other words, \\(\\tan{H}=\\tan{K}\\). This means you can use the given side lengths to solve for \\(\\tan{K}\\), so \\(\\tan(K)=\\frac{18}{GH}\\).  Use the Pythagorean Theorem \\(a^2+b^2=c^2\\) where \\(c=\\) the length of the hypotenuse, to solve for \\(GH\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ a^2+b^2&=c^2\\\\ 18^2+{GH}^2&=30^2\\\\ \\cancel{324}+{GH}^2-\\cancel{324}&=900-324\\\\ \\sqrt{{GH}^2}&=\\sqrt{576}\\\\ GH&=24\\end{aligned}$$</div><div class='explanation-step'>Substitute \\(24\\) into the tangent ratio equation to evaluate the tangent; \\(\\tan(K)=\\frac{18}{24}=\\frac{3}{4}\\)</div>"
     },
     {
       "id": "G-L2-010",
@@ -7092,7 +7092,7 @@
         "\\(21^\\circ\\)"
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>Since angle \\(Q\\) is obtuse \\( (90^\\circ\\lt m\\angle{D}\\lt 180^\\circ) \\), it must be the vertex angle.  In other words, it cannot be one of the two congruent (base) angles in the isosceles triangle because \\(96 \times 2 >180\\), the sum of the \\textbf{three} angles of a triangle.  This means \\(m\\angle{E}=m\\angle{F}\\). Use the Triangle Sum Property to write and solve an equation for \\(x\\) where \\(x=\\) the measure of angle \\(F\\) (and therefore angle \\(E\\)).</div><div class='explanation-math'>$$\\begin{aligned}\\ m\\angle{D}+m\\angle{E}+m\\angle{F}&=180\\\\ 96+x+x&=180\\\\ \\cancel{96}+2x-\\cancel{96}&=180-96\\\\ \\frac{\\cancel{2}x}{\\cancel{2}}&=\\frac{84}{2}\\\\ x&=42\\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>Since angle \\(Q\\) is obtuse \\( (90^\\circ\\lt m\\angle{D}\\lt 180^\\circ) \\), it must be the vertex angle.  In other words, it cannot be one of the two congruent (base) angles in the isosceles triangle because \\(96 \\times 2 >180\\), the sum of the \\boldsymbol{three} angles of a triangle.  This means \\(m\\angle{E}=m\\angle{F}\\). Use the Triangle Sum Property to write and solve an equation for \\(x\\) where \\(x=\\) the measure of angle \\(F\\) (and therefore angle \\(E\\)).</div><div class='explanation-math'>$$\\begin{aligned}\\ m\\angle{D}+m\\angle{E}+m\\angle{F}&=180\\\\ 96+x+x&=180\\\\ \\cancel{96}+2x-\\cancel{96}&=180-96\\\\ \\frac{\\cancel{2}x}{\\cancel{2}}&=\\frac{84}{2}\\\\ x&=42\\end{aligned}$$</div>"
     },
 {
       "id": "G-L2-011",
@@ -7173,7 +7173,7 @@
         "maxChars": 6
       },
 
-      "explanation": "<div class='explanation-step'>To convert an angle from radians to degrees, multiply the angle by \\(\\frac{180}{\\pi}\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ &=\\frac{17 \\cancel{\\pi}}{36} \\times \\frac{180}{\\cancel{\\pi}}\\\\ &=\\frac{17 \times 180}{36}=42\\end{aligned}$$</div><div class='explanation-step'>If you can't remember when to multiply by \\(\\frac{180}{\\pi}\\) as opposed to \\(\\frac{\\pi}{180}\\), think about what you are trying to accomplish in your answer.  Here, to go from radians to degrees, the \\(\\pi\\) must cancel out.  Since it is in the numerator, multiply it such that \\(\\pi\\) is in the denominator to cancel the \\(\\pi\\).</div>"
+      "explanation": "<div class='explanation-step'>To convert an angle from radians to degrees, multiply the angle by \\(\\frac{180}{\\pi}\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ &=\\frac{17 \\cancel{\\pi}}{36} \\times \\frac{180}{\\cancel{\\pi}}\\\\ &=\\frac{17 \\times 180}{36}=42\\end{aligned}$$</div><div class='explanation-step'>If you can't remember when to multiply by \\(\\frac{180}{\\pi}\\) as opposed to \\(\\frac{\\pi}{180}\\), think about what you are trying to accomplish in your answer.  Here, to go from radians to degrees, the \\(\\pi\\) must cancel out.  Since it is in the numerator, multiply it such that \\(\\pi\\) is in the denominator to cancel the \\(\\pi\\).</div>"
     },
     {
       "id": "G-L2-014",
@@ -7900,7 +7900,7 @@
         "\\(32\\)"
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>An equilateral triangle has three congruent sides and three congruent angles, each of which measures \\(60^\\circ\\).  To find the length of each side of the triangle, use special right triangles and the triangle area formula.  The area of a triangle is \\(A=\\frac{bh}{2}\\) where \\(b\\) is the length of the base and \\(h\\) is the length of the height.  Begin by drawing a diagram of an equilateral triangle and label one of the angles \\(60^\\circ\\). Draw in a height (the segment from one vertex that is perpendicular to the opposite side).  The height divides the triangle into two congruent \\(30-60-90\\) triangles, the sides of which have a special relationship to one another.  Label the side length across from the \\(30^\\circ\\) angle \\(n\\). This means the height is \\(n \\sqrt{3}\\), and the hypotenuse, and therefore, base of the triangle is \\(2n\\). Substitute the base, height, and area into the triangle area formula, and solve for \\(n\\).</div><div class='stem-image'><img src='assets/GeoChallenge-13A.png'></div><div class='explanation-math'>$$\\begin{aligned}\\ A&=\\frac{bh}{2}\\\\ 196 \\sqrt{3}&=\\frac{2n \\times n\\sqrt{3}}{2}\\end{aligned}$$</div><div class='explanation-step'>Divide both sides by \\(\\sqrt{3}\\), essentially canceling them on either side of the equation.  Additionally, simplify the right hand side by canceling \\(\\frac{2}{2}\\).  Now the equation is \\(196=n^2\\).  This means \\(n=\\sqrt{196}=14\\).  The length of one side of the triangle is the same as the base \\(2n\\), so each side of the triangle is \\(28\\).  This means the correct answer is \\textbf{C}.</div>"
+      "explanation": "<div class='explanation-step'>An equilateral triangle has three congruent sides and three congruent angles, each of which measures \\(60^\\circ\\).  To find the length of each side of the triangle, use special right triangles and the triangle area formula.  The area of a triangle is \\(A=\\frac{bh}{2}\\) where \\(b\\) is the length of the base and \\(h\\) is the length of the height.  Begin by drawing a diagram of an equilateral triangle and label one of the angles \\(60^\\circ\\). Draw in a height (the segment from one vertex that is perpendicular to the opposite side).  The height divides the triangle into two congruent \\(30-60-90\\) triangles, the sides of which have a special relationship to one another.  Label the side length across from the \\(30^\\circ\\) angle \\(n\\). This means the height is \\(n \\sqrt{3}\\), and the hypotenuse, and therefore, base of the triangle is \\(2n\\). Substitute the base, height, and area into the triangle area formula, and solve for \\(n\\).</div><div class='stem-image'><img src='assets/GeoChallenge-13A.png'></div><div class='explanation-math'>$$\\begin{aligned}\\ A&=\\frac{bh}{2}\\\\ 196 \\sqrt{3}&=\\frac{2n \\times n\\sqrt{3}}{2}\\end{aligned}$$</div><div class='explanation-step'>Divide both sides by \\(\\sqrt{3}\\), essentially canceling them on either side of the equation.  Additionally, simplify the right hand side by canceling \\(\\frac{2}{2}\\).  Now the equation is \\(196=n^2\\).  This means \\(n=\\sqrt{196}=14\\).  The length of one side of the triangle is the same as the base \\(2n\\), so each side of the triangle is \\(28\\).</div>"
     }
 
   ]
