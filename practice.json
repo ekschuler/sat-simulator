@@ -147,7 +147,7 @@
         "\\(n=k+13\\)"
       ],
       "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>Translate words to symbols working left to right.  “\\(n\\) is” translates to “\\(n=\\)” , “\\(13\\) more than the number \\(k\\)” is “\\(13+k\\)”.</div>"
+      "explanation": "<div class='explanation-step'>Translate words to symbols working left to right.  \"\\(n\\) is\" translates to \"\\(n=\\)\" , \"\\(13\\) more than the number \\(k\\)\" is \"\\(13+k\\)\".</div>"
     },
 {
       "id": "A-L1-006",
@@ -790,7 +790,7 @@
       "set": "Algebra Practice",
       "tags": ["graphing", "systems", "solving systems"],
 
-      "stem": "<div class='stem-image'><img src='assets/Alg1-1-30.png'></div><div class='stem-text'>The graph above shows a system of equations.  What is the solution \\((x,y)\\) to the system?</div>",
+      "stem": "<div class='stem-image'><img src='assets/Alg1-1-30.png' style='max-width:30%;'></div><div class='stem-text'>The graph above shows a system of equations.  What is the solution \\((x,y)\\) to the system?</div>",
       "choices": [
         "\\((2,0)\\)",
         "\\((2,-5)\\)",
@@ -1173,7 +1173,7 @@
         "\\((128,0)\\)"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>The definition of an \\(x\\)-intercept is the \\(x\\)-value when \\(y=0\\). But even if you don't know that, all of the answers have a \\(y\\)-value of \\(0\\).  Substitute \\(0\\) in for \\(g(x)\\) and solve for \\(x\\). To solve, subtract \\(128\\) from both sides and then divide both sides by \\(4\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ 0-128&=4x+\\cancel{128}-\\cancel{128}\\\\ \\frac{-128}{4}&=\\frac{\\cancel{4}x}{\\cancel{4}}\\\\ x=-32\\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>The definition of an \\(x\\)-intercept is the \\(x\\)-value when \\(y=0\\). But even if you don't know that, all of the answers have a \\(y\\)-value of \\(0\\).  Substitute \\(0\\) in for \\(g(x)\\) and solve for \\(x\\). To solve, subtract \\(128\\) from both sides and then divide both sides by \\(4\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ 0-128&=4x+\\cancel{128}-\\cancel{128}\\\\ \\frac{-128}{4}&=\\frac{\\cancel{4}x}{\\cancel{4}}\\\\ x&=-32\\end{aligned}$$</div>"
     },
 {
       "id": "A-L2-013",
@@ -1324,7 +1324,7 @@
       "set": "Algebra Practice",
       "tags": ["graphing", "transformations"],
 
-      "stem": "<div class='stem-image'><img src='assets/Alg1-2-18.png'></div><div class='stem-text'>The graph of \\(y=h(x)-18\\) is shown.  Which equation defines function \\(h\\)?</div>",
+      "stem": "<div class='stem-image'><img src='assets/Alg1-2-18.png' style='max-width:30%;'></div><div class='stem-text'>The graph of \\(y=h(x)-18\\) is shown.  Which equation defines function \\(h\\)?</div>",
       "choices": [
         "\\(h(x)=\\frac{1}{5}x+10\\)",
         "\\(h(x)=\\frac{1}{5}x-26\\)",
@@ -1999,7 +1999,7 @@
         "\\(w=0.36(12f)\\)"
       ],
       "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>Convert the cost per inch to cost per feet, and then multiply by \\(f\\) feet to find the total cost.</div><div class='explanation-math'>$$\\begin{aligned} \\frac{0.36\\,\\text{dollars}}{1\\,\\cancel{\\text{{inch}}}\\times \\frac{12\\,\\cancel{\\text{{inches}}}{1\\,\\text{foot}} &= \\frac{0.36\\times12\\,\\text{dollars}}{1\\,\\text{foot}}\\\\ \\frac{0.36\\times12\\,\\text{dollars}}{1\\,\\text{foot}}\\times \\frac{f\\,\\cancel{\\text{{feet}}}{1} &= 0.36\\times12f \\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>Convert the cost per inch to cost per feet, and then multiply by \\(f\\) feet to find the total cost.</div><div class='explanation-math'>$$\\begin{aligned}\\ \\frac{0.36\\,\\text{dollars}}{1\\,\\cancel{\\text{{inch}}}\\times \\frac{12\\,\\cancel{\\text{inches}}}{1\\,\\text{foot}} &= \\frac{0.36\\times12\\,\\text{dollars}}{1\\,\\text{foot}}\\\\ \\frac{0.36\\times12\\,\\text{dollars}}{1\\,\\text{foot}}\\times \\frac{f\\,\\cancel{\\text{feet}}}{1} &= 0.36\\times12f \\end{aligned}$$</div>"
     },
 
 {
@@ -2748,7 +2748,7 @@
         "\\(C=60f\\)"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>Method \\(1\\): Choose a value for \\(f\\).  Let \\(f=180\\).  If one liter is used for \\(60\\) square meters, \\(3\\) liters are needed for \\(180\\) square meters.  To wash the \\(180\\) square meters \\(3\\) times, \\(3\\times3=9\\) liters are needed.  Test the answers by substituting \\(f=180\\) to find the answer that gives \\(C=9\\):</div><div class='explanation-step'>A) \\(C=\\frac{180}{20}=9\\)</div><div class='explanation-step'>Test the other answers in case the value you chose for \\(f\\) gives a false positive answer.</div><div class='explanation-step'>B) \\(C=20(180)\\neq9\\)</div><div class='explanation-step'>C) \\(C=\\frac{180}{60}\\neq9\\)</div><div class='explanation-step'>D) \\(C=60(180)\\neq9\\)</div><div class='explanation-step'>Method \\(2\\): Start with \\(\\frac{1\\, \\text{liter}}{60\\, \\text{square meters}}\\).  Use unit conversions to calculate the number of liters needed to wash the floors \\(3\\) times: </div><div class='explanation-math'>$$\\begin{aligned}\\ \\frac{1\\, \\text{liter}}{60\\, \\cancel{\\text{square meters}}}\times \\frac{f \\, \\cancel{\\text{square meters}}}{1\\, \\text{wash}}&=\\frac{\\frac{f}{60}\\text{liters}}{1\\, \\text{wash}} \\\\ frac{\\frac{f}{60}\\text{liters}}{1\\, \\cancel{\\text{wash}}}\times3 \\, \\cancel{\\text{washes}}&=\\frac{3f}{60}=\\frac{f}{20}\\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>Method \\(1\\): Choose a value for \\(f\\).  Let \\(f=180\\).  If one liter is used for \\(60\\) square meters, \\(3\\) liters are needed for \\(180\\) square meters.  To wash the \\(180\\) square meters \\(3\\) times, \\(3\\times3=9\\) liters are needed.  Test the answers by substituting \\(f=180\\) to find the answer that gives \\(C=9\\):</div><div class='explanation-step'>A) \\(C=\\frac{180}{20}=9\\)</div><div class='explanation-step'>Test the other answers in case the value you chose for \\(f\\) gives a false positive answer.</div><div class='explanation-step'>B) \\(C=20(180)\\neq9\\)</div><div class='explanation-step'>C) \\(C=\\frac{180}{60}\\neq9\\)</div><div class='explanation-step'>D) \\(C=60(180)\\neq9\\)</div><div class='explanation-step'>Method \\(2\\): Start with \\(\\frac{1\\, \\text{liter}}{60\\, \\text{square meters}}\\).  Use unit conversions to calculate the number of liters needed to wash the floors \\(3\\) times: </div><div class='explanation-math'>$$\\begin{aligned}\\ \\frac{1\\, \\text{liter}}{60\\, \\cancel{\\text{square meters}}}\\times \\frac{f \\, \\cancel{\\text{square meters}}}{1\\, \\text{wash}}&=\\frac{\\frac{f}{60}\\text{liters}}{1\\, \\text{wash}} \\\\ \\frac{\\frac{f}{60}\\text{liters}}{1\\, \\cancel{\\text{wash}}}\\times3 \\, \\cancel{\\text{washes}}&=\\frac{3f}{60}=\\frac{f}{20}\\end{aligned}$$</div>"
     },
 {
       "id": "A-L3-015",
@@ -3011,7 +3011,7 @@
       "set": "Advanced Math Practice",
       "tags": ["intercepts", "exponential functions"],
 
-      "stem": "<div class='stem-image'><img src='assets/Adv1-4.png' style='max-width:20%'></div><div class='stem-text'>What is the \\(y\\)-intercept of the graph shown?</div>",
+      "stem": "<div class='stem-image'><img src='assets/Adv1-4.png' style='max-width:25%'></div><div class='stem-text'>What is the \\(y\\)-intercept of the graph shown?</div>",
       "choices": [
         "\\((0,0)\\)",
         "\\((4,0)\\)",
@@ -3036,7 +3036,7 @@
       "set": "Advanced Math Practice",
       "tags": ["functions"],
 
-      "stem": "<div class='stem-image'><img src='assets/Adv1-5.png' style='max-width:20%'></div><div class='stem-text'>The graph of \\(y=g(x)\\) is shown in the \\(xy\\)-plane.  What is the value of \\(g(0)\\)?</div>",
+      "stem": "<div class='stem-image'><img src='assets/Adv1-5.png' style='max-width:25%'></div><div class='stem-text'>The graph of \\(y=g(x)\\) is shown in the \\(xy\\)-plane.  What is the value of \\(g(0)\\)?</div>",
       "choices": [
         "\\(6\\)",
         "\\(\\frac{1}{2}\\)",
