@@ -2393,7 +2393,6 @@ function endPracticeSession() {
   const answeredQuestions = data.questions.filter(q => answers[q.id]);
   const totalAnswered = answeredQuestions.length;
   const correct = answeredQuestions.filter(q => isQuestionCorrect(q)).length;
-  const missed = totalAnswered - correct;
 
   const tree = {};
 
@@ -2453,58 +2452,45 @@ function endPracticeSession() {
   resultsSummaryHTML = `
     <div class="appPage">
       <h1 class="appTitle">Practice Session Complete</h1>
-      <p class="appSubtitle">Here’s your session summary.</p>
+      <p class="appSubtitle">Here's your session summary.</p>
 
       <div class="scoreBanner appCard" style="text-align:center;">
         <div class="scoreTopRow">
-  <div class="scoreMain">Session Summary</div>
-  <div class="scorePercent">${correct}/${totalAnswered}</div>
-</div>
+          <div class="scoreMain">Session Summary</div>
+          <div class="scorePercent">${correct}/${totalAnswered}</div>
+        </div>
 
-<div class="summaryActionsCard">
-  <div class="summaryActionsTitle">What would you like to do next?</div>
+        <div class="summaryActionsCard">
+          <div class="summaryActionsTitle">What would you like to do next?</div>
 
-<div class="summaryActionsList">
+          <div class="summaryActionsList">
+            ${isDemoMode ? "" : `
+            <button class="summaryAction primary" onclick="restartPractice()">
+              Continue practice
+            </button>
+            `}
 
-  ${isDemoMode ? "" : `
-  <button class="summaryAction primary" onclick="restartPractice()">
-    Continue practice
-  </button>
-  `}
+            <button class="summaryAction" onclick="startReview('missed')">
+              Review mistakes
+            </button>
 
-  <button class="summaryAction" onclick="startReview('missed')">
-    Review mistakes
-  </button>
+            <button class="summaryAction" onclick="startReview('all')">
+              Review all answers
+            </button>
 
-  <button class="summaryAction" onclick="startReview('all')">
-    Review all answers
-  </button>
-
-  ${isDemoMode
-    ? `
-    <button
-  class="summaryAction primary"
-  style="font-size:16px;padding:14px 18px;margin-top:8px;"
-  onclick="window.location.href='checkout.html'"
->
-  Unlock Full Access
-</button>
-    `
-    : `
-    <button class="summaryAction secondary" onclick="window.location.href='dashboard.html'">
-      Back to dashboard
-    </button>
-    `
-  }
-</div>
-</div>
+            ${isDemoMode
+              ? `<button class="summaryAction primary" style="font-size:16px;padding:14px 18px;margin-top:8px;" onclick="window.location.href='checkout.html'">Unlock Full Access</button>`
+              : `<button class="summaryAction secondary" onclick="window.location.href='dashboard.html'">Back to dashboard</button>`
+            }
+          </div>
+        </div>
+      </div>
 
       <h3 class="appSectionTitle">Topics Practiced</h3>
       ${breakdownHTML}
     </div>
   `;
-data.questions = answeredQuestions;
-answers = { ...sessionAnswers };
+
   document.body.innerHTML = resultsSummaryHTML;
 }
 function restartPractice() {
