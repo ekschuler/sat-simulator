@@ -9,6 +9,7 @@ body{
   font-family:system-ui;
   margin:0;
   background:#f7f7f7;
+  visibility: hidden;
 }
 
 .container{
@@ -93,6 +94,8 @@ body{
     const { data } = await window.supabaseClient.auth.getSession();
     if (data?.session?.user) {
       window.location.replace("dashboard.html");
+    } else {
+      document.body.style.visibility = "visible";
     }
   })();
 </script>
