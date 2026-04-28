@@ -1293,7 +1293,7 @@ if (q.type === "mcq") {
     if (input) {
       input.focus();
     } else {
-      document.documentElement.focus();
+      document.body.focus();
     }
   });
 }
