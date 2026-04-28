@@ -1618,7 +1618,7 @@
       "set": "Algebra Practice",
       "tags": ["systems", "linear"],
 
-      "stem": "<div class='stem-text'>One teaspoon of chlorine is used to chlorinate \\(1,000\\) liters of pool water.  A water park has a total pool water volume of \\(p\\) liters.  Which equation represents the total amount of chlorine \\(C\\), in teaspoons, needed to chlorinate all of the pools in the water park for \\(4\\) days, given that the pools are chlorinated once per day?</div>",
+      "stem": "<div class='stem-text'>One teaspoon of chlorine is used to chlorinate \\(\\text{1,000}\\) liters of pool water.  A water park has a total pool water volume of \\(p\\) liters.  Which equation represents the total amount of chlorine \\(C\\), in teaspoons, needed to chlorinate all of the pools in the water park for \\(4\\) days, given that the pools are chlorinated once per day?</div>",
 
       "choices": [
         "\\(C=\\text{1,000}p\\)",

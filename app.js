@@ -2493,26 +2493,32 @@ function endPracticeSession() {
 
 // Save session snapshot
   (async () => {
-    const { data: userData } = await window.supabaseClient.auth.getUser();
-    const user = userData?.user;
-    if (!user) return;
+    try {
+      const { data: userData } = await window.supabaseClient.auth.getUser();
+      const user = userData?.user;
+      if (!user) return;
 
-    const topicSet = new Set();
-    answeredQuestions.forEach(q => {
-      const t = getTopic(q.skill);
-      if (t) topicSet.add(t);
-    });
+      const topicSet = new Set();
+      answeredQuestions.forEach(q => {
+        const t = getTopic(q.skill);
+        if (t) topicSet.add(t);
+      });
 
-    await window.supabaseClient.from("practice_sessions").insert({
-      user_id: user.id,
-      set_id: "session_snapshot",
-      status: "completed",
-      answers: answers,
-      correct_count: correct,
-      total_count: totalAnswered,
-      topics: [...topicSet].join(", ")
-    });
+      await window.supabaseClient.from("practice_sessions").insert({
+        user_id: user.id,
+        set_id: "session_snapshot",
+        status: "completed",
+        answers: answers,
+        correct_count: correct,
+        total_count: totalAnswered,
+        topics: [...topicSet].join(", ")
+      });
+    } catch (err) {
+      console.error("Failed to save session snapshot:", err);
+    }
   })();
+
+  document.body.innerHTML = resultsSummaryHTML;
 }
 function restartPractice() {
   window.location.href = "simulator.html?mode=practice&fresh=1";
