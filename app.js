@@ -2418,7 +2418,7 @@ function buildBreakdownHTML(tree, questionPool, answerMap) {
   });
   return html;
 }
-function showTopicMiniSummary(topicJSON, domainJSON, correct, total) {
+function showTopicMiniSummary(topic, domain, correct, total) {
   const pct = Math.round((correct / total) * 100);
   const barColor = pct >= 80 ? "#22c55e" : pct >= 50 ? "#f59e0b" : "#ef4444";
 
