@@ -1287,6 +1287,15 @@ if (q.type === "mcq") {
   }
     typesetMath();
     updateFlaggedCount();
+    // auto-focus input for gridin, otherwise focus body for MCQ keyboard shortcuts
+  requestAnimationFrame(() => {
+    const input = document.querySelector("#choices input");
+    if (input) {
+      input.focus();
+    } else {
+      document.documentElement.focus();
+    }
+  });
 }
 
 function renderMCQ(q, container) {
