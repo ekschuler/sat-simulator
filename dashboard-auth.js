@@ -66,35 +66,74 @@ async function renderPracticeHistory() {
   container.innerHTML = `<p style="margin:0; color:#666;">Loading practice history...</p>`;
 
   const sessions = await getPracticeHistory();
-  console.log("practice sessions for cumulative summary:", sessions);
-  
 
   if (!sessions.length) {
     container.innerHTML = `<p style="margin:0; color:#666;">No practice history yet.</p>`;
     return;
   }
 
-  const session = sessions[0];
+  // cumulative count
+  let cumulativeAnswered = 0;
+  sessions.forEach(session => {
   const answerMap = session.answers || {};
   const answeredCount = Object.keys(answerMap).length;
 
-  let cumulativeAnswered = 0;
-  sessions.forEach(s => {
-    cumulativeAnswered += Object.keys(s.answers || {}).length;
-  });
+  const date = new Date(session.updated_at);
+  const now = new Date();
+  const yesterday = new Date(now);
+  yesterday.setDate(now.getDate() - 1);
+  const timeStr = date.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
 
-  document.getElementById("practiceHistoryMeta").textContent =
-    `${cumulativeAnswered} answered`;
+  let dateStr;
+  if (date.toDateString() === now.toDateString()) {
+    dateStr = `Today at ${timeStr}`;
+  } else if (date.toDateString() === yesterday.toDateString()) {
+    dateStr = `Yesterday at ${timeStr}`;
+  } else {
+    dateStr = date.toLocaleDateString([], { month: "short", day: "numeric" }) + ` at ${timeStr}`;
+  }
 
-  container.innerHTML = `
-    <div style="padding:0; margin-top:12px;">
-      <div style="display:flex; gap:10px;">
-  <button class="secondaryBtn" style="flex:1;" onclick="viewPracticeSummary()">
-    Practice Summary
-  </button>
-</div>
+  rowsHTML += `
+    <div style="
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 14px 16px;
+      background: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    ">
+      <div style="flex:1; min-width:0;">
+        <div style="font-weight:700; font-size:14px; color:#111; margin-bottom:3px;">${dateStr}</div>
+        <div style="font-size:13px; color:#666;">
+          ${answeredCount} question${answeredCount !== 1 ? "s" : ""} answered
+        </div>
+      </div>
+      <button
+        class="secondaryBtn"
+        style="font-size:13px; padding:8px 14px; white-space:nowrap;"
+        onclick="reviewPracticeSession('${session.id}', 'all')"
+      >
+        Review
+      </button>
     </div>
   `;
+});
+
+  rowsHTML += `</div>`;
+
+  // keep the summary button at the bottom
+  rowsHTML += `
+    <div style="margin-top:14px;">
+      <button class="secondaryBtn" style="width:100%;" onclick="viewPracticeSummary()">
+        View Cumulative Summary
+      </button>
+    </div>
+  `;
+
+  container.innerHTML = rowsHTML;
 }
 function resumePracticeSession(setId) {
   const safeSetId = encodeURIComponent(setId || "");
