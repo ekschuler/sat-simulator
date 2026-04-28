@@ -1946,26 +1946,7 @@ function renderCumulativeBreakdown(questionPool, answerMap) {
 
   breakdownEl.innerHTML = `
     <h3 class="appSectionTitle">Skill Breakdown</h3>
-    <div class="skillBreakdownGrid">
-      ${Object.entries(tree).map(([domain, topics]) => `
-        <div class="domainCard">
-          <div class="domainRow">
-            <span class="domainName">${domain}</span>
-          </div>
-
-          ${Object.entries(topics).map(([topic, stats]) => {
-            const percent = Math.round((stats.correct / stats.total) * 100);
-
-            return `
-              <div class="topicRow">
-                <span class="topicName">${topic}</span>
-                <span class="scoreChip">${percent}%</span>
-              </div>
-            `;
-          }).join("")}
-        </div>
-      `).join("")}
-    </div>
+    ${buildBreakdownHTML(tree, questionPool, answerMap)}
   `;
 }
 function openCalculator() {
@@ -2398,6 +2379,96 @@ let reviewHTML = `
   renderScoreBanner();
   typesetMath();
 }
+function buildBreakdownHTML(tree, questionPool, answerMap) {
+  let html = `<div class="skillBreakdownGrid">`;
+
+  Object.entries(tree).forEach(([domain, topics]) => {
+    html += `<div class="domainCard"><span class="domainName">${domain}</span>`;
+
+    Object.entries(topics).forEach(([topic, stats]) => {
+      const pct = Math.round((stats.correct / stats.total) * 100);
+      const barColor = pct >= 80 ? "#22c55e" : pct >= 50 ? "#f59e0b" : "#ef4444";
+
+      // get question ids for this topic
+      const topicQIds = questionPool
+        .filter(q => getTopic(q.skill) === topic)
+        .map(q => String(q.id));
+
+      const encodedIds = encodeURIComponent(JSON.stringify(topicQIds));
+      const encodedTopic = encodeURIComponent(topic);
+      const encodedAnswers = encodeURIComponent(JSON.stringify(answerMap));
+
+      html += `
+        <div class="topicRow" onclick="showTopicMiniSummary(${JSON.stringify(topic)}, ${JSON.stringify(domain)}, ${stats.correct}, ${stats.total})">
+          <span class="topicName">${topic}</span>
+          <div class="topicBarWrap">
+            <div class="topicBar" style="width:${pct}%; background:${barColor};"></div>
+          </div>
+          <span class="topicPct">${pct}%</span>
+          <span class="topicFraction">${stats.correct}/${stats.total}</span>
+        </div>
+      `;
+    });
+
+    html += `</div>`;
+  });
+
+  html += `</div>`;
+  return html;
+}
+function showTopicMiniSummary(topic, domain, correct, total) {
+  const pct = Math.round((correct / total) * 100);
+  const barColor = pct >= 80 ? "#22c55e" : pct >= 50 ? "#f59e0b" : "#ef4444";
+
+  // filter data.questions to just this topic
+  const topicQuestions = data.questions.filter(q => getTopic(q.skill) === topic);
+
+  const prev = document.body.innerHTML;
+
+  document.body.innerHTML = `
+    <div class="appPage">
+      <button class="summaryAction secondary" onclick="document.body.innerHTML = window.__prevSummaryHTML" style="margin-bottom:24px;">
+        ← Back to Summary
+      </button>
+
+      <h1 class="appTitle">${topic}</h1>
+      <p class="appSubtitle" style="color:#4f46e5; font-weight:700; font-size:13px; text-transform:uppercase; letter-spacing:0.06em;">${domain}</p>
+
+      <div class="appCard" style="margin-bottom:24px; padding:24px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+          <div style="font-size:28px; font-weight:800; color:#111;">${pct}%</div>
+          <div style="font-size:14px; color:#666;">${correct} of ${total} correct</div>
+        </div>
+        <div style="height:8px; background:#f0f0f0; border-radius:99px; overflow:hidden;">
+          <div style="width:${pct}%; height:100%; background:${barColor}; border-radius:99px; transition:width 0.4s ease;"></div>
+        </div>
+      </div>
+
+      <div class="summaryActionsCard">
+        <div class="summaryActionsTitle">What would you like to do?</div>
+        <div class="summaryActionsList">
+          <button class="summaryAction" onclick="reviewTopicQuestions('missed')">
+            Review mistakes
+          </button>
+          <button class="summaryAction" onclick="reviewTopicQuestions('all')">
+            Review all questions
+          </button>
+        </div>
+      </div>
+    </div>
+  `;
+
+  window.__prevSummaryHTML = prev;
+  window.__topicReviewQuestions = topicQuestions;
+}
+
+function reviewTopicQuestions(mode) {
+  const topicQs = window.__topicReviewQuestions;
+  if (!topicQs || !topicQs.length) return;
+
+  data.questions = topicQs;
+  startReview(mode);
+}
 function endPracticeSession() {
   const answeredQuestions = data.questions.filter(q => answers[q.id]);
   const totalAnswered = answeredQuestions.length;
@@ -2421,42 +2492,7 @@ function endPracticeSession() {
     }
   });
 
-  let breakdownHTML = `<div class="skillBreakdownGrid">`;
-
-  Object.entries(tree).forEach(([domain, topics]) => {
-    breakdownHTML += `
-      <div class="domainCard">
-        <div class="domainRow">
-          <span class="domainName">${domain}</span>
-        </div>
-    `;
-
-    Object.entries(topics).forEach(([topic, stats]) => {
-      breakdownHTML += `
-        <div class="topicRow">
-          <span class="topicName">${topic}</span>
-         <span class="scoreChip" style="
-  background: ${
-    stats.correct / stats.total >= 0.8 ? '#dcfce7' :
-    stats.correct / stats.total >= 0.5 ? '#fef9c3' :
-    '#fee2e2'
-  };
-  color: ${
-    stats.correct / stats.total >= 0.8 ? '#166534' :
-    stats.correct / stats.total >= 0.5 ? '#854d0e' :
-    '#991b1b'
-  };
-">
-  ${Math.round((stats.correct / stats.total) * 100)}%
-</span>
-        </div>
-      `;
-    });
-
-    breakdownHTML += `</div>`;
-  });
-
-  breakdownHTML += `</div>`;
+  const breakdownHTML = buildBreakdownHTML(tree, data.questions, answers);
 
   resultsSummaryHTML = `
     <div class="appPage">

@@ -423,37 +423,74 @@ button {
 }
 /* Results: Skill breakdown tidy layout */
 .skillBreakdownGrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 14px;
-}
-
-@media (max-width: 820px) {
-  .skillBreakdownGrid {
-    grid-template-columns: 1fr;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 8px;
 }
 
 .domainCard {
   border: 1px solid #e6e6e6;
   border-radius: 12px;
-  padding: 12px 14px;
+  padding: 14px 16px;
   background: #fff;
 }
+
 .domainName {
+  font-size: 11px;
   font-weight: 800;
-  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #4f46e5;
+  margin-bottom: 10px;
+  display: block;
 }
 
 .topicName {
-  font-weight: 700;
-  text-align: left;
+  flex: 1;
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+  min-width: 0;
 }
-
+.topicBarWrap {
+  width: 80px;
+  height: 6px;
+  background: #f0f0f0;
+  border-radius: 99px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.topicBar {
+  height: 100%;
+  border-radius: 99px;
+  transition: width 0.4s ease;
+}
+.topicPct {
+  font-size: 13px;
+  font-weight: 700;
+  color: #444;
+  width: 36px;
+  text-align: right;
+  flex-shrink: 0;
+}
+.topicFraction {
+  font-size: 11px;
+  color: #999;
+  width: 36px;
+  text-align: right;
+  flex-shrink: 0;
+}
 .scoreChip {
   font-weight: 700;
   color: #333;
   white-space: nowrap;
+}
+
+@media (max-width: 820px) {
+  .topicBarWrap {
+    width: 50px;
+  }
 }
 .skillRow {
   margin-left: 32px;
@@ -482,14 +519,16 @@ button {
 
 .topicRow {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   gap: 12px;
-  margin-left: 16px;
-  margin-top: 6px;
-  font-weight: 700;
-  padding: 6px 10px;
-  border-radius: 10px;
-  cursor: default;
+  margin-top: 8px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+.topicRow:hover {
+  background: #f5f5ff;
 }
 
 .skillRow:hover {
