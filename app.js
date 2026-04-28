@@ -2399,15 +2399,15 @@ function buildBreakdownHTML(tree, questionPool, answerMap) {
       const encodedAnswers = encodeURIComponent(JSON.stringify(answerMap));
 
       html += `
-        <div class="topicRow" onclick="showTopicMiniSummary(${JSON.stringify(topic)}, ${JSON.stringify(domain)}, ${stats.correct}, ${stats.total})">
-          <span class="topicName">${topic}</span>
-          <div class="topicBarWrap">
-            <div class="topicBar" style="width:${pct}%; background:${barColor};"></div>
-          </div>
-          <span class="topicPct">${pct}%</span>
-          <span class="topicFraction">${stats.correct}/${stats.total}</span>
-        </div>
-      `;
+  <div class="topicRow" onclick="showTopicMiniSummary(${JSON.stringify(JSON.stringify(topic))}, ${JSON.stringify(JSON.stringify(domain))}, ${stats.correct}, ${stats.total})">
+    <span class="topicName">${topic}</span>
+    <div class="topicBarWrap">
+      <div class="topicBar" style="width:${pct}%; background:${barColor};"></div>
+    </div>
+    <span class="topicPct">${pct}%</span>
+    <span class="topicFraction">${stats.correct}/${stats.total}</span>
+  </div>
+`;
     });
 
     html += `</div>`;
@@ -2416,7 +2416,9 @@ function buildBreakdownHTML(tree, questionPool, answerMap) {
   html += `</div>`;
   return html;
 }
-function showTopicMiniSummary(topic, domain, correct, total) {
+function showTopicMiniSummary(topicJSON, domainJSON, correct, total) {
+  const topic = JSON.parse(topicJSON);
+  const domain = JSON.parse(domainJSON);
   const pct = Math.round((correct / total) * 100);
   const barColor = pct >= 80 ? "#22c55e" : pct >= 50 ? "#f59e0b" : "#ef4444";
 
