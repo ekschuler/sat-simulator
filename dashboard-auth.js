@@ -72,70 +72,16 @@ async function renderPracticeHistory() {
     return;
   }
 
-  // cumulative count
-  let cumulativeAnswered = 0;
-  let rowsHTML = `<div style="display:flex; flex-direction:column; gap:10px; margin-top:12px;">`;
-
-sessions.forEach(session => {
-  const answerMap = session.answers || {};
-  const answeredCount = Object.keys(answerMap).length;
-
-  const date = new Date(session.updated_at);
-  const now = new Date();
-  const yesterday = new Date(now);
-  yesterday.setDate(now.getDate() - 1);
-  const timeStr = date.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
-
-  let dateStr;
-  if (date.toDateString() === now.toDateString()) {
-    dateStr = `Today at ${timeStr}`;
-  } else if (date.toDateString() === yesterday.toDateString()) {
-    dateStr = `Yesterday at ${timeStr}`;
-  } else {
-    dateStr = date.toLocaleDateString([], { month: "short", day: "numeric" }) + ` at ${timeStr}`;
-  }
-
-  rowsHTML += `
-    <div style="
-      border: 1px solid #e5e7eb;
-      border-radius: 12px;
-      padding: 14px 16px;
-      background: white;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 12px;
-      flex-wrap: wrap;
-    ">
-      <div style="flex:1; min-width:0;">
-        <div style="font-weight:700; font-size:14px; color:#111; margin-bottom:3px;">${dateStr}</div>
-        <div style="font-size:13px; color:#666;">
-          ${answeredCount} question${answeredCount !== 1 ? "s" : ""} answered
-        </div>
-      </div>
-      <button
-        class="secondaryBtn"
-        style="font-size:13px; padding:8px 14px; white-space:nowrap;"
-        onclick="reviewPracticeSession('${session.id}', 'all')"
-      >
-        Review
+  container.innerHTML = `
+    <div style="margin-top:12px; display:flex; flex-direction:column; gap:10px;">
+      <button class="secondaryBtn" style="width:100%;" onclick="window.location.href='history.html'">
+        Session History
       </button>
-    </div>
-  `;
-});
-
-  rowsHTML += `</div>`;
-
-  // keep the summary button at the bottom
-  rowsHTML += `
-    <div style="margin-top:14px;">
       <button class="secondaryBtn" style="width:100%;" onclick="viewPracticeSummary()">
-        View Cumulative Summary
+        Cumulative Summary
       </button>
     </div>
   `;
-
-  container.innerHTML = rowsHTML;
 }
 function resumePracticeSession(setId) {
   const safeSetId = encodeURIComponent(setId || "");
