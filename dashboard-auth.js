@@ -74,7 +74,9 @@ async function renderPracticeHistory() {
 
   // cumulative count
   let cumulativeAnswered = 0;
-  sessions.forEach(session => {
+  let rowsHTML = `<div style="display:flex; flex-direction:column; gap:10px; margin-top:12px;">`;
+
+sessions.forEach(session => {
   const answerMap = session.answers || {};
   const answeredCount = Object.keys(answerMap).length;
 
