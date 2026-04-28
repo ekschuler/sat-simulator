@@ -2399,7 +2399,11 @@ function buildBreakdownHTML(tree, questionPool, answerMap) {
       const encodedAnswers = encodeURIComponent(JSON.stringify(answerMap));
 
       html += `
-  <div class="topicRow" onclick="showTopicMiniSummary(${JSON.stringify(JSON.stringify(topic))}, ${JSON.stringify(JSON.stringify(domain))}, ${stats.correct}, ${stats.total})">
+  <div class="topicRow" 
+    data-topic="${topic.replace(/"/g, '&quot;')}" 
+    data-domain="${domain.replace(/"/g, '&quot;')}"
+    data-correct="${stats.correct}"
+    data-total="${stats.total}">
     <span class="topicName">${topic}</span>
     <div class="topicBarWrap">
       <div class="topicBar" style="width:${pct}%; background:${barColor};"></div>
@@ -2412,13 +2416,9 @@ function buildBreakdownHTML(tree, questionPool, answerMap) {
 
     html += `</div>`;
   });
-
-  html += `</div>`;
   return html;
 }
 function showTopicMiniSummary(topicJSON, domainJSON, correct, total) {
-  const topic = JSON.parse(topicJSON);
-  const domain = JSON.parse(domainJSON);
   const pct = Math.round((correct / total) * 100);
   const barColor = pct >= 80 ? "#22c55e" : pct >= 50 ? "#f59e0b" : "#ef4444";
 
@@ -2991,4 +2991,15 @@ if (!initialMode) {
   window.location.href = "dashboard.html";
 } else {
   loadData(initialMode);
+  document.addEventListener("click", (e) => {
+  const row = e.target.closest(".topicRow");
+  if (!row) return;
+
+  const topic = row.dataset.topic;
+  const domain = row.dataset.domain;
+  const correct = parseInt(row.dataset.correct);
+  const total = parseInt(row.dataset.total);
+
+  showTopicMiniSummary(topic, domain, correct, total);
+});
 }
