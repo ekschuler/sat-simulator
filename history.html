@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Session History | SAT Math Practice</title>
+  <style>
+    body {
+      margin: 0;
+      background: #f7f7f7;
+      color: #222;
+      font-family: system-ui, sans-serif;
+      visibility: hidden;
+    }
+
+    .nav {
+      position: sticky;
+      top: 0;
+      background: white;
+      border-bottom: 1px solid #e5e5e5;
+      z-index: 100;
+    }
+
+    .navInner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 16px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .navBrand {
+      font-weight: 800;
+      font-size: 18px;
+      text-decoration: none;
+      color: #111;
+    }
+
+    .navLinks {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .navLinks a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+    }
+
+    .navLinks a:hover {
+      color: #4f46e5;
+    }
+
+    .appPage {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px 60px;
+    }
+
+    .appTitle {
+      font-size: 32px;
+      font-weight: 800;
+      margin: 0 0 8px;
+    }
+
+    .appSubtitle {
+      color: #666;
+      margin: 0 0 28px;
+    }
+
+    .topActions {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+
+    .primaryBtn,
+    .secondaryBtn {
+      border: none;
+      border-radius: 10px;
+      padding: 12px 18px;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .primaryBtn {
+      background: #4f46e5;
+      color: white;
+    }
+
+    .primaryBtn:hover {
+      background: #4338ca;
+    }
+
+    .secondaryBtn {
+      background: white;
+      color: #2563eb;
+      border: 1px solid #dbe6ff;
+    }
+
+    .secondaryBtn:hover {
+      background: #eef4ff;
+    }
+
+    .sessionList {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .sessionRow {
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 14px;
+      padding: 16px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+      transition: border-color 0.15s ease;
+    }
+
+    .sessionRow:hover {
+      border-color: #c7d2fe;
+    }
+
+    .sessionInfo {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .sessionDate {
+      font-weight: 700;
+      font-size: 15px;
+      color: #111;
+      margin-bottom: 4px;
+    }
+
+    .sessionMeta {
+      font-size: 13px;
+      color: #666;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+    }
+
+    .sessionMeta .dot {
+      color: #d1d5db;
+    }
+
+    .scorePill {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .scorePill.high {
+      background: #dcfce7;
+      color: #166534;
+    }
+
+    .scorePill.mid {
+      background: #fef9c3;
+      color: #854d0e;
+    }
+
+    .scorePill.low {
+      background: #fee2e2;
+      color: #991b1b;
+    }
+
+    .sessionActions {
+      display: flex;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+
+    .reviewBtn {
+      background: white;
+      color: #2563eb;
+      border: 1px solid #dbe6ff;
+      border-radius: 8px;
+      padding: 8px 14px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .reviewBtn:hover {
+      background: #eef4ff;
+    }
+
+    .emptyState {
+      text-align: center;
+      padding: 60px 20px;
+      color: #666;
+    }
+
+    .emptyState h2 {
+      font-size: 20px;
+      margin-bottom: 8px;
+      color: #333;
+    }
+
+    #loadingState {
+      text-align: center;
+      padding: 60px 20px;
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      .appTitle {
+        font-size: 24px;
+      }
+
+      .sessionRow {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .sessionActions {
+        width: 100%;
+      }
+
+      .reviewBtn {
+        flex: 1;
+        text-align: center;
+      }
+    }
+  </style>
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script
+    src="https://js.sentry-cdn.com/c281c8f423740b517681ff8bb058fe4d.min.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="navInner">
+      <a class="navBrand" href="dashboard.html">SAT Math Practice</a>
+      <div class="navLinks">
+        <a href="dashboard.html">Dashboard</a>
+        <a href="#" id="logoutBtn">Log Out</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="appPage">
+    <h1 class="appTitle">Session History</h1>
+    <p class="appSubtitle">Every practice session, with scores and topics.</p>
+
+    <div class="topActions">
+      <button class="primaryBtn" onclick="window.location.href='simulator.html?mode=practice&review=summary'">
+        Cumulative Summary
+      </button>
+      <button class="secondaryBtn" onclick="window.location.href='dashboard.html'">
+        ← Back to Dashboard
+      </button>
+    </div>
+
+    <div id="loadingState">Loading sessions...</div>
+    <div class="sessionList" id="sessionList" style="display:none;"></div>
+    <div class="emptyState" id="emptyState" style="display:none;">
+      <h2>No sessions yet</h2>
+      <p>Complete a practice session to see it here.</p>
+      <button class="primaryBtn" onclick="window.location.href='simulator.html?mode=practice'">
+        Start Practicing
+      </button>
+    </div>
+  </div>
+
+  <div style="text-align:center;font-size:13px;color:#888;margin:40px 0 20px;">
+    <div style="margin-bottom:6px;">SAT Math Practice</div>
+    <div>
+      <a href="terms.html" style="color:#666;text-decoration:none;margin:0 8px;">Terms</a>
+      <a href="privacy.html" style="color:#666;text-decoration:none;margin:0 8px;">Privacy</a>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase-config.js"></script>
+  <script>
+    // Auth gate — redirect to index if not logged in
+    (async () => {
+      const { data } = await window.supabaseClient.auth.getSession();
+      if (!data?.session?.user) {
+        window.location.replace("index.html");
+        return;
+      }
+      document.body.style.visibility = "visible";
+      init();
+    })();
+
+    // Logout
+    document.getElementById("logoutBtn").addEventListener("click", async (e) => {
+      e.preventDefault();
+      await window.supabaseClient.auth.signOut();
+      window.location.href = "index.html";
+    });
+
+    function formatDate(dateStr) {
+      const date = new Date(dateStr);
+      const now = new Date();
+      const yesterday = new Date(now);
+      yesterday.setDate(now.getDate() - 1);
+
+      const timeStr = date.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
+
+      if (date.toDateString() === now.toDateString()) {
+        return `Today at ${timeStr}`;
+      } else if (date.toDateString() === yesterday.toDateString()) {
+        return `Yesterday at ${timeStr}`;
+      } else {
+        return date.toLocaleDateString([], { month: "short", day: "numeric", year: "numeric" }) + ` at ${timeStr}`;
+      }
+    }
+
+    function getScoreClass(correct, total) {
+      if (!total) return "";
+      const pct = correct / total;
+      if (pct >= 0.8) return "high";
+      if (pct >= 0.5) return "mid";
+      return "low";
+    }
+
+    async function init() {
+      const { data: userData } = await window.supabaseClient.auth.getUser();
+      const user = userData?.user;
+      if (!user) return;
+
+      const { data: sessions, error } = await window.supabaseClient
+        .from("practice_sessions")
+        .select("*")
+        .eq("user_id", user.id)
+        .eq("set_id", "session_snapshot")
+        .eq("status", "completed")
+        .order("created_at", { ascending: false });
+
+      document.getElementById("loadingState").style.display = "none";
+
+      if (error || !sessions || sessions.length === 0) {
+        document.getElementById("emptyState").style.display = "block";
+        return;
+      }
+
+      const list = document.getElementById("sessionList");
+      list.style.display = "flex";
+
+      sessions.forEach(session => {
+        const correct = session.correct_count ?? null;
+        const total = session.total_count ?? Object.keys(session.answers || {}).length;
+        const topics = session.topics || "";
+        const dateStr = formatDate(session.created_at);
+
+        const scoreHTML = (correct !== null && total)
+          ? `<span class="scorePill ${getScoreClass(correct, total)}">${correct}/${total} correct</span>`
+          : `<span>${total} question${total !== 1 ? "s" : ""}</span>`;
+
+        const row = document.createElement("div");
+        row.className = "sessionRow";
+        row.innerHTML = `
+          <div class="sessionInfo">
+            <div class="sessionDate">${dateStr}</div>
+            <div class="sessionMeta">
+              ${scoreHTML}
+              ${topics ? `<span class="dot">·</span><span>${topics}</span>` : ""}
+            </div>
+          </div>
+          <div class="sessionActions">
+            <button class="reviewBtn" onclick="reviewSession('${session.id}', 'missed')">
+              Mistakes
+            </button>
+            <button class="reviewBtn" onclick="reviewSession('${session.id}', 'all')">
+              Review All
+            </button>
+          </div>
+        `;
+        list.appendChild(row);
+      });
+    }
+
+    function reviewSession(sessionId, mode) {
+      const safeId = encodeURIComponent(sessionId);
+      const safeMode = encodeURIComponent(mode);
+      window.location.href = `simulator.html?mode=practice&review=${safeMode}&sessionId=${safeId}`;
+    }
+  </script>
+
+</body>
+</html>
