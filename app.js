@@ -784,7 +784,9 @@ const file = options.forceFile
   ? options.forceFile
   : (isDemo
       ? "demo.json"
-      : (mode === "practice" ? "practice.json" : "MathT1-Mod1.json"));
+      : (mode === "practice"
+    ? (params.get("subject") === "verbal" ? "verbal-practice.json" : "practice.json")
+    : "MathT1-Mod1.json"));
 
 console.log("Mode:", mode, "File:", file);
 currentModuleFile = file;
@@ -1254,6 +1256,14 @@ if (flagBtn) {
   renderProgress();
   const levelBadgeHTML = buildPracticeLevelBadgeHTML(q);
 
+const stemHTML = q.stemSegments
+  ? q.stemSegments.map(seg => {
+      const alignClass = seg.align === "center" ? "stem-seg-center" : "stem-seg-left";
+      const styleClass = `stem-seg-${seg.style || "default"}`;
+      return `<div class="stem-segment ${alignClass} ${styleClass}">${seg.text}</div>`;
+    }).join("")
+  : q.stem;
+
 document.getElementById("question").innerHTML =
   `<div class="q-header">
      <div class="q-header-left">
@@ -1266,7 +1276,7 @@ document.getElementById("question").innerHTML =
        ${levelBadgeHTML}
      </div>
    </div>
-   <div class="q-stem">${q.stem}</div>`;
+   <div class="q-stem">${stemHTML}</div>`;
 
   const choicesDiv = document.getElementById("choices");
 choicesDiv.innerHTML = "";

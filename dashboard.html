@@ -154,7 +154,7 @@
 <body>
   <nav class="nav">
     <div class="navInner">
-      <div class="navBrand">SAT Math Practice</div>
+      <div class="navBrand">SAT Practice</div>
       <div class="navLinks">
   <a href="#" id="dashboardTestLink" style="display:none;">Full Test</a>
 <a href="#" id="dashboardPracticeLink" style="display:none;">Practice</a>
@@ -198,12 +198,14 @@ Full SAT practice and tests are locked. Upgrade to unlock full access, or contin
 
       <div class="appCard">
         <h2 class="cardTitle">Practice by Topic</h2>
-        <p class="cardText">Choose a topic, filter by level, and work through targeted SAT Math practice.</p>
-        <div class="appActionRow">
-  <button id="startPracticeBtn" class="primaryBtn" type="button" style="display:none;">
+<p class="cardText">Choose a topic, filter by level, and work through targeted SAT practice.</p>
+<div class="appActionRow" style="flex-direction:column; gap:8px;">
+  <button id="startMathPracticeBtn" class="primaryBtn" type="button" style="display:none;">
     Upgrade to Unlock
   </button>
-
+  <button id="startVerbalPracticeBtn" class="primaryBtn" type="button" style="display:none;">
+    Upgrade to Unlock
+  </button>
   <button id="startOverPracticeBtn" class="secondaryBtn" type="button" style="display:none;">
     Start Over
   </button>
@@ -318,6 +320,7 @@ console.log("Dashboard access status:", accessStatus);
     newTestBtn.className = "secondaryBtn";
     newTestBtn.textContent = "Start New Test";
     newTestBtn.style.marginTop = "8px";
+    newTestBtn.style.padding = "12px 16px";
     newTestBtn.onclick = () => location.href = "simulator.html?mode=test";
     startTestBtn.parentNode.appendChild(newTestBtn);
   } else {
@@ -326,10 +329,19 @@ console.log("Dashboard access status:", accessStatus);
   }
 }
 
-  if (startPracticeBtn) {
-  startPracticeBtn.style.display = "";
-  startPracticeBtn.textContent = "Resume Practice";
-  startPracticeBtn.onclick = () => location.href = "simulator.html?mode=practice";
+  const startMathPracticeBtn = document.getElementById("startMathPracticeBtn");
+const startVerbalPracticeBtn = document.getElementById("startVerbalPracticeBtn");
+
+if (startMathPracticeBtn) {
+  startMathPracticeBtn.style.display = "";
+  startMathPracticeBtn.textContent = "Math Practice";
+  startMathPracticeBtn.onclick = () => location.href = "simulator.html?mode=practice&subject=math";
+}
+
+if (startVerbalPracticeBtn) {
+  startVerbalPracticeBtn.style.display = "";
+  startVerbalPracticeBtn.textContent = "Verbal Practice";
+  startVerbalPracticeBtn.onclick = () => location.href = "simulator.html?mode=practice&subject=verbal";
 }
 
 const startOverPracticeBtn = document.getElementById("startOverPracticeBtn");
@@ -357,45 +369,40 @@ if (startOverPracticeBtn) {
   };
 }
   } else {
+    const upgradeHandler = async () => {
+      const { data: result, error: functionError } =
+        await window.supabaseClient.functions.invoke("quick-processor", {
+          body: {}
+        });
+      if (functionError) {
+        console.error("Checkout function failed:", functionError);
+        alert("Could not start checkout.");
+        return;
+      }
+      if (result?.url) {
+        window.location.href = result.url;
+      }
+    };
+
     if (startTestBtn) {
-  startTestBtn.style.display = "";
-  startTestBtn.textContent = "Upgrade to Unlock";
-      startTestBtn.onclick = async () => {
-  const { data: result, error: functionError } =
-    await window.supabaseClient.functions.invoke("quick-processor", {
-      body: {}
-    });
-
-  if (functionError) {
-    console.error("Checkout function failed:", functionError);
-    alert("Could not start checkout.");
-    return;
-  }
-
-  if (result?.url) {
-    window.location.href = result.url;
-  }
-};
+      startTestBtn.style.display = "";
+      startTestBtn.textContent = "Upgrade to Unlock";
+      startTestBtn.onclick = upgradeHandler;
     }
 
-    if (startPracticeBtn) {
-      startPracticeBtn.textContent = "Upgrade to Unlock";
-      startPracticeBtn.onclick = async () => {
-  const { data: result, error: functionError } =
-    await window.supabaseClient.functions.invoke("quick-processor", {
-      body: {}
-    });
+    const startMathPracticeBtn = document.getElementById("startMathPracticeBtn");
+    const startVerbalPracticeBtn = document.getElementById("startVerbalPracticeBtn");
 
-  if (functionError) {
-    console.error("Checkout function failed:", functionError);
-    alert("Could not start checkout.");
-    return;
-  }
+    if (startMathPracticeBtn) {
+      startMathPracticeBtn.style.display = "";
+      startMathPracticeBtn.textContent = "Upgrade to Unlock";
+      startMathPracticeBtn.onclick = upgradeHandler;
+    }
 
-  if (result?.url) {
-    window.location.href = result.url;
-  }
-};
+    if (startVerbalPracticeBtn) {
+      startVerbalPracticeBtn.style.display = "";
+      startVerbalPracticeBtn.textContent = "Upgrade to Unlock";
+      startVerbalPracticeBtn.onclick = upgradeHandler;
     }
 
     if (dashboardTestLink) {
@@ -406,9 +413,10 @@ if (startOverPracticeBtn) {
       dashboardPracticeLink.style.display = "none";
     }
   }
+
   const loading = document.getElementById("dashboardLoading");
-if (loading) loading.style.display = "none";
-if (dashboardContent) dashboardContent.style.display = "block";
+  if (loading) loading.style.display = "none";
+  if (dashboardContent) dashboardContent.style.display = "block";
 }
 
   applyDashboardAccessState();
