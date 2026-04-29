@@ -580,10 +580,11 @@ function validateQuestionBank(bank) {
       errors.push(`${label} (${q.id || "no id"}): unsupported type "${type}". Allowed types: mcq, gridin.`);
     }
 
-    if (typeof q.stem !== "string" || !q.stem.trim()) {
-      errors.push(`${label} (${q.id || "no id"}): missing or invalid stem.`);
-    }
-
+const hasStem = (typeof q.stem === "string" && q.stem.trim()) ||
+  (Array.isArray(q.stemSegments) && q.stemSegments.length > 0);
+if (!hasStem) {
+  errors.push(`${label} (${q.id || "no id"}): missing or invalid stem.`);
+}
     if (typeof q.explanation !== "string" || !q.explanation.trim()) {
       errors.push(`${label} (${q.id || "no id"}): missing or invalid explanation.`);
     }
