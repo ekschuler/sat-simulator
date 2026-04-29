@@ -297,10 +297,34 @@ console.log("Dashboard access status:", accessStatus);
   }
 
   if (startTestBtn) {
-    startTestBtn.style.display = "";
+  startTestBtn.style.display = "";
+
+  // check for in-progress test
+  const { data: savedTest } = await window.supabaseClient
+    .from("test_sessions")
+    .select("*")
+    .eq("user_id", user.id)
+    .eq("status", "in_progress")
+    .order("created_at", { ascending: false })
+    .limit(1)
+    .maybeSingle();
+
+  if (savedTest) {
+    startTestBtn.textContent = "Resume Test";
+    startTestBtn.onclick = () => location.href = "simulator.html?mode=test&resume=1";
+
+    // add a "Start New Test" secondary button
+    const newTestBtn = document.createElement("button");
+    newTestBtn.className = "secondaryBtn";
+    newTestBtn.textContent = "Start New Test";
+    newTestBtn.style.marginTop = "8px";
+    newTestBtn.onclick = () => location.href = "simulator.html?mode=test";
+    startTestBtn.parentNode.appendChild(newTestBtn);
+  } else {
     startTestBtn.textContent = "Start Test";
     startTestBtn.onclick = () => location.href = "simulator.html?mode=test";
   }
+}
 
   if (startPracticeBtn) {
   startPracticeBtn.style.display = "";
