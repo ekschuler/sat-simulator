@@ -1,0 +1,245 @@
+{
+  "mode": "practice",
+  "moduleId": "verbal_practice_bank",
+  "timeSeconds": 1,
+  "setId": "verbal_practice_bank",
+  "title": "Verbal Practice Bank",
+  "subject": "verbal",
+  "timed": false,
+  "sidebar": {
+    "groupBy": ["domain", "topic", "level"]
+  },
+  "questions": [
+
+    {
+      "id": "V-L1-001",
+      "type": "mcq",
+      "mode": "practice",
+      "subject": "verbal",
+
+      "skill": {
+        "domain": "Information and Ideas",
+        "topic": "Command of Evidence",
+        "skill": "Textual Evidence"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["evidence", "reading", "foundation"],
+
+      "stemSegments": [
+        {
+          "text": "The following text is adapted from a 2021 article on urban green spaces.",
+          "align": "left",
+          "style": "intro"
+        },
+        {
+          "text": "Researchers studying cities across Europe found that residents living within 300 meters of a park reported significantly lower stress levels than those living farther away. The effect was most pronounced in densely populated neighborhoods, where access to green space was otherwise limited.",
+          "align": "left",
+          "style": "passage"
+        },
+        {
+          "text": "Which finding, if true, would most directly support the researchers' conclusion?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+
+      "choices": [
+        "Residents near parks exercised more frequently than those farther away.",
+        "Stress levels were lower in cities with more total park acreage.",
+        "The stress reduction effect was stronger in areas with fewer parks per resident.",
+        "Park proximity had no measurable effect in low-density neighborhoods."
+      ],
+
+      "answerIndex": 2,
+
+      "explanation": "<div class='explanation-step'>The passage states the effect was most pronounced in densely populated neighborhoods where green space was limited. Answer C directly supports this by noting the effect was stronger where parks were scarce relative to residents.</div>"
+    },
+
+    {
+      "id": "V-L1-002",
+      "type": "mcq",
+      "mode": "practice",
+      "subject": "verbal",
+
+      "skill": {
+        "domain": "Information and Ideas",
+        "topic": "Central Ideas and Details",
+        "skill": "Main Idea"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["main idea", "reading", "foundation"],
+
+      "stemSegments": [
+        {
+          "text": "The following text is adapted from a 2019 essay on the history of public libraries.",
+          "align": "left",
+          "style": "intro"
+        },
+        {
+          "text": "Public libraries, once considered mere repositories of books, have evolved into community hubs offering everything from job training programs to early childhood literacy classes. Far from becoming obsolete in the digital age, they have reinvented themselves as essential institutions that serve populations with limited access to technology and other resources.",
+          "align": "left",
+          "style": "passage"
+        },
+        {
+          "text": "What is the main idea of the text?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+
+      "choices": [
+        "Public libraries are no longer primarily focused on lending books.",
+        "Digital technology has made public libraries less important to communities.",
+        "Public libraries have adapted and remain vital to communities, especially underserved ones.",
+        "Job training programs are the most important service offered by modern libraries."
+      ],
+
+      "answerIndex": 2,
+
+      "explanation": "<div class='explanation-step'>The passage emphasizes that libraries have evolved and reinvented themselves as essential institutions — particularly for those with limited resources. This matches answer C. Answer A is too narrow (it ignores the broader point about community value). Answer B is directly contradicted. Answer D focuses on one detail, not the main idea.</div>"
+    },
+
+    {
+      "id": "V-L1-003",
+      "type": "mcq",
+      "mode": "practice",
+      "subject": "verbal",
+
+      "skill": {
+        "domain": "Craft and Structure",
+        "topic": "Words in Context",
+        "skill": "Vocabulary in Context"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["vocabulary", "context", "foundation"],
+
+      "stemSegments": [
+        {
+          "text": "The following text is adapted from a 2020 science article.",
+          "align": "left",
+          "style": "intro"
+        },
+        {
+          "text": "The newly discovered species of deep-sea fish has a remarkably <em>tenacious</em> grip on its environment, surviving in conditions that would kill most other organisms — extreme pressure, near-freezing temperatures, and total darkness.",
+          "align": "left",
+          "style": "passage"
+        },
+        {
+          "text": "As used in the text, what does the word <em>tenacious</em> most nearly mean?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+
+      "choices": [
+        "Fragile",
+        "Persistent",
+        "Aggressive",
+        "Unpredictable"
+      ],
+
+      "answerIndex": 1,
+
+      "explanation": "<div class='explanation-step'>In context, <em>tenacious</em> describes the fish's ability to survive extreme conditions — suggesting a strong, persistent hold on its environment. <em>Persistent</em> best captures this meaning. <em>Aggressive</em> and <em>unpredictable</em> are unrelated to the context. <em>Fragile</em> is the opposite of what is described.</div>"
+    },
+
+    {
+      "id": "V-L1-004",
+      "type": "mcq",
+      "mode": "practice",
+      "subject": "verbal",
+
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Rhetorical Synthesis",
+        "skill": "Using Notes"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["synthesis", "writing", "foundation"],
+
+      "stemSegments": [
+        {
+          "text": "A student is writing a report about the decline of monarch butterflies and has taken the following notes:",
+          "align": "left",
+          "style": "intro"
+        },
+        {
+          "text": "• Monarch butterfly populations have declined by over 80% in the past two decades.\n• Habitat loss, pesticide use, and climate change are cited as primary causes.\n• Milkweed, the only plant monarch caterpillars can eat, has been drastically reduced by herbicide use.\n• Conservation efforts include planting milkweed in gardens and along roadsides.",
+          "align": "left",
+          "style": "notes"
+        },
+        {
+          "text": "The student wants to emphasize the role of a specific plant in monarch butterfly conservation. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+
+      "choices": [
+        "Monarch butterfly populations have declined by over 80% due to habitat loss, pesticide use, and climate change.",
+        "Because monarch caterpillars depend exclusively on milkweed, conservation efforts often focus on restoring milkweed populations.",
+        "Conservation groups are working to reverse the decline of monarch butterflies through a variety of strategies.",
+        "Herbicide use is one of several factors contributing to the decline of monarch butterfly populations."
+      ],
+
+      "answerIndex": 1,
+
+      "explanation": "<div class='explanation-step'>The student's goal is to emphasize the role of a <em>specific plant</em> — milkweed — in conservation. Answer B directly connects milkweed's biological importance to conservation efforts, making it the best choice. Answer A focuses on population decline, not the plant. Answers C and D are too general or focus on other causes.</div>"
+    },
+
+    {
+      "id": "V-L2-001",
+      "type": "mcq",
+      "mode": "practice",
+      "subject": "verbal",
+
+      "skill": {
+        "domain": "Craft and Structure",
+        "topic": "Text Structure and Purpose",
+        "skill": "Author's Purpose"
+      },
+
+      "level": 2,
+      "set": "Verbal Practice",
+      "tags": ["structure", "purpose", "intermediate"],
+
+      "stemSegments": [
+        {
+          "text": "The following text is adapted from a 2022 essay by a historian.",
+          "align": "left",
+          "style": "intro"
+        },
+        {
+          "text": "Many historians treat the Industrial Revolution as an unambiguous triumph of human ingenuity — a period when technology liberated workers from the drudgery of agricultural labor. Yet for those who lived through it, the transition was often brutal. Factory conditions were dangerous, hours were long, and child labor was common. The narrative of progress, it seems, depends entirely on whose progress we are measuring.",
+          "align": "left",
+          "style": "passage"
+        },
+        {
+          "text": "What is the primary purpose of the text?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+
+      "choices": [
+        "To argue that the Industrial Revolution caused more harm than good",
+        "To complicate a commonly held positive view of the Industrial Revolution",
+        "To explain why historians disagree about the significance of the Industrial Revolution",
+        "To describe the working conditions experienced by factory workers"
+      ],
+
+      "answerIndex": 1,
+
+      "explanation": "<div class='explanation-step'>The author doesn't argue the Industrial Revolution was purely bad (ruling out A), nor do they focus on historians' disagreements (ruling out C) or purely describe conditions (ruling out D). Instead, the author questions the dominant positive narrative by pointing out whose experience it ignores. Answer B — complicating a commonly held view — best captures this purpose.</div>"
+    }
+
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "moduleId": "VerbalT1_Mod1",
+  "subject": "verbal",
+  "timeSeconds": 1920,
+  "title": "SAT Reading and Writing — Module 1",
+  "questions": [
+
+    {
+      "id": "VerbalT1-1-001",
+      "type": "mcq",
+      "subject": "verbal",
+      "skill": {
+        "domain": "Craft and Structure",
+        "topic": "Words in Context",
+        "skill": "Vocabulary in Context"
+      },
+
+      "stemSegments": [
+        {
+          "text": "The following text is adapted from a 2018 article on deep-sea exploration.",
+          "align": "left",
+          "style": "intro"
+        },
+        {
+          "text": "Deep-sea explorers have long been fascinated by hydrothermal vents — underwater fissures that release superheated water and support thriving ecosystems. These communities of organisms are <em>sustained</em> not by sunlight, as most life on Earth is, but by chemical energy produced through a process called chemosynthesis.",
+          "align": "left",
+          "style": "passage"
+        },
+        {
+          "text": "As used in the text, what does the word <em>sustained</em> most nearly mean?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+
+      "choices": [
+        "Threatened",
+        "Supported",
+        "Created",
+        "Isolated"
+      ],
+
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>In context, <em>sustained</em> describes how these organisms are kept alive — not by sunlight but by chemical energy. <em>Supported</em> best captures this meaning. <em>Created</em> is too strong (chemosynthesis supports life, not creates the organisms). <em>Threatened</em> and <em>isolated</em> don't fit the context.</div>"
+    },
+
+    {
+      "id": "VerbalT1-1-002",
+      "type": "mcq",
+      "subject": "verbal",
+      "skill": {
+        "domain": "Information and Ideas",
+        "topic": "Central Ideas and Details",
+        "skill": "Main Idea"
+      },
+
+      "stemSegments": [
+        {
+          "text": "The following text is adapted from a 2020 article on migratory birds.",
+          "align": "left",
+          "style": "intro"
+        },
+        {
+          "text": "Every autumn, billions of birds undertake journeys of thousands of miles, navigating by stars, magnetic fields, and landmarks to reach their wintering grounds. Scientists have long marveled at the precision of these migrations, but recent research suggests that light pollution is disrupting the birds' internal compasses, causing disorientation and dangerous collisions with illuminated buildings.",
+          "align": "left",
+          "style": "passage"
+        },
+        {
+          "text": "What is the main idea of the text?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+
+      "choices": [
+        "Migratory birds use several methods to navigate during their seasonal journeys.",
+        "Scientists have recently begun studying the migration patterns of birds.",
+        "Light pollution poses a significant threat to the navigation abilities of migratory birds.",
+        "Collisions with buildings are the leading cause of death among migratory birds."
+      ],
+
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>While the passage mentions navigation methods (A) and scientific interest (B), the main point is the threat that light pollution poses to migration. Answer C captures both the problem and its significance. Answer D focuses on one detail mentioned at the end, not the overall main idea.</div>"
+    },
+
+    {
+      "id": "VerbalT1-1-003",
+      "type": "mcq",
+      "subject": "verbal",
+      "skill": {
+        "domain": "Information and Ideas",
+        "topic": "Command of Evidence",
+        "skill": "Textual Evidence"
+      },
+
+      "stemSegments": [
+        {
+          "text": "The following text is adapted from a 2021 study on sleep and academic performance.",
+          "align": "left",
+          "style": "intro"
+        },
+        {
+          "text": "A research team tracked the sleep habits and academic performance of 500 high school students over one semester. Students who slept fewer than seven hours per night had significantly lower GPAs than those who slept eight or more hours. Interestingly, the relationship held even when controlling for study time — students who studied longer but slept less still underperformed compared to well-rested peers who studied less.",
+          "align": "left",
+          "style": "passage"
+        },
+        {
+          "text": "Which claim is most directly supported by the findings described in the text?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+
+      "choices": [
+        "High school students should be required to start school later in the morning.",
+        "Sleep duration is a more important factor in academic performance than study time.",
+        "Students who study more tend to sleep less than their peers.",
+        "Academic performance is determined primarily by how many hours a student studies."
+      ],
+
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>The passage explicitly states that well-rested students outperformed those who studied more but slept less — directly supporting Answer B. Answer A is a policy conclusion not supported by the data. Answer C is not stated in the passage. Answer D contradicts the findings.</div>"
+    },
+
+    {
+      "id": "VerbalT1-1-004",
+      "type": "mcq",
+      "subject": "verbal",
+      "skill": {
+        "domain": "Craft and Structure",
+        "topic": "Text Structure and Purpose",
+        "skill": "Author's Purpose"
+      },
+
+      "stemSegments": [
+        {
+          "text": "The following text is from a 2019 essay by an environmental journalist.",
+          "align": "left",
+          "style": "intro"
+        },
+        {
+          "text": "For decades, the standard advice was simple: recycle everything you can. But the economics of recycling have shifted dramatically. Many municipalities now send recyclable materials directly to landfills because the cost of processing them exceeds their market value. Rather than placing the burden on individual consumers, perhaps it is time for manufacturers to take responsibility for the waste their products generate.",
+          "align": "left",
+          "style": "passage"
+        },
+        {
+          "text": "What is the primary purpose of the final sentence?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+
+      "choices": [
+        "To summarize the economic challenges facing municipal recycling programs",
+        "To propose an alternative approach to addressing the recycling problem",
+        "To criticize consumers for not recycling responsibly",
+        "To explain why recyclable materials are sent to landfills"
+      ],
+
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>The final sentence shifts from describing the problem (failed recycling economics) to suggesting a solution — holding manufacturers responsible. This is a proposal, making Answer B correct. Answer A describes what the earlier sentences do. Answer C is incorrect — the author explicitly moves responsibility <em>away</em> from consumers. Answer D is addressed earlier in the passage.</div>"
+    },
+
+    {
+      "id": "VerbalT1-1-005",
+      "type": "mcq",
+      "subject": "verbal",
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Rhetorical Synthesis",
+        "skill": "Using Notes"
+      },
+
+      "stemSegments": [
+        {
+          "text": "A student is writing a report about the benefits of urban farming and has taken the following notes:",
+          "align": "left",
+          "style": "intro"
+        },
+        {
+          "text": "• Urban farms produce fresh food in areas where grocery stores are scarce (known as food deserts).\n• Studies show urban farming reduces residents' stress and improves mental health.\n• Community gardens create social bonds among neighbors.\n• Urban farming can reduce a city's carbon footprint by decreasing food transportation distances.",
+          "align": "left",
+          "style": "notes"
+        },
+        {
+          "text": "The student wants to highlight the environmental benefit of urban farming. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+
+      "choices": [
+        "Urban farming provides fresh food to communities that lack access to grocery stores.",
+        "Community gardens not only grow food but also strengthen social connections among neighbors.",
+        "By shortening the distance food travels from farm to table, urban farming can lower a city's carbon emissions.",
+        "Research suggests that participating in urban farming activities can reduce stress and improve mental health."
+      ],
+
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>The goal is to highlight the <em>environmental</em> benefit. Only Answer C addresses the environment — specifically the reduction in carbon emissions from shorter food transportation distances. Answers A and D address food access and mental health respectively. Answer B focuses on social benefits.</div>"
+    }
+
+  ]
+}
