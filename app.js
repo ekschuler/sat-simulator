@@ -2725,9 +2725,7 @@ async function saveAndExitTest() {
     })
   );
 
-  setAppView("home");
-  updateUrlForMode("home");
-  renderHomeView();
+  window.location.href = "dashboard.html";
 }
 function restoreSavedTestSession() {
   const raw = localStorage.getItem("satLastTestSession");
