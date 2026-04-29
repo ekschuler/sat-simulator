@@ -893,7 +893,7 @@ if (isPracticeMode) {
 
 <div style="margin-top:16px; text-align:center;">
   <button class="secondaryBtn" onclick="window.location.href='dashboard.html'">
-    Back to Dashboard
+    Home
   </button>
 </div>
     </div>
@@ -962,7 +962,7 @@ if (reviewMode === "summary") {
           </button>
 
           <button class="summaryAction secondary" onclick="window.location.href='dashboard.html'">
-            Back to Dashboard
+            Home
           </button>
         </div>
       </div>
@@ -1896,24 +1896,34 @@ window.reviewNext = reviewNext;
 window.jumpToReviewQuestion = jumpToReviewQuestion;
 
 function renderScoreBanner(options = {}) {
-  const title = options.title || "Session Summary";
-const showMissed = options.showMissed !== false;
+  const title = options.title || "Test Complete";
   const answeredQuestions = data.questions.filter(q => answers[q.id]);
   const totalAnswered = answeredQuestions.length;
   const correct = answeredQuestions.filter(q => isQuestionCorrect(q)).length;
-  const missed = totalAnswered - correct;
+  const pct = totalAnswered ? Math.round((correct / totalAnswered) * 100) : 0;
+  const barColor = pct >= 80 ? "#22c55e" : pct >= 50 ? "#f59e0b" : "#ef4444";
 
   const el = document.getElementById("scoreSummary");
   if (!el) return;
 
   el.innerHTML = `
-    <div class="scoreTopRow">
-      <div class="scoreMain">${title}</div>
-      <div class="scorePercent">${correct}/${totalAnswered}</div>
+    <div style="margin-bottom:20px;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+        <div style="font-size:28px; font-weight:800; color:#111;">${pct}%</div>
+        <div style="font-size:15px; color:#666;">${correct} of ${totalAnswered} correct</div>
+      </div>
+      <div style="height:8px; background:#f0f0f0; border-radius:99px; overflow:hidden;">
+        <div style="width:${pct}%; height:100%; background:${barColor}; border-radius:99px;"></div>
+      </div>
     </div>
-    <div class="summaryReviewButtons">
-      <button class="reviewMissedBtn" onclick="startReview('missed')">Review missed questions</button>
-      <button class="reviewMissedBtn secondary" onclick="startReview('all')">Review answered questions</button>
+
+    <div class="summaryActionsCard">
+      <div class="summaryActionsTitle">What would you like to do next?</div>
+      <div class="summaryActionsList">
+        <button class="summaryAction" onclick="startReview('missed')">Review mistakes</button>
+        <button class="summaryAction" onclick="startReview('all')">Review all answers</button>
+        <button class="summaryAction secondary" onclick="window.location.href='dashboard.html'">Home</button>
+      </div>
     </div>
   `;
 }
@@ -2276,10 +2286,24 @@ isPaused = true;
 console.log("submitTest moduleId:", data?.moduleId);
 
 if ((data?.moduleId || "").trim().includes("Mod1")) {
+  // save module 1 questions and answers before loading module 2
+  window.__testModule1Questions = data.questions;
+  window.__testModule1Answers = { ...answers };
   const nextFile = getModule2FileFromModule1();
   loadNextModule(nextFile);
   return;
 }
+// combine module 1 + module 2 questions and answers
+const allTestQuestions = [
+  ...(window.__testModule1Questions || []),
+  ...data.questions
+];
+const allTestAnswers = {
+  ...(window.__testModule1Answers || {}),
+  ...answers
+};
+data.questions = allTestQuestions;
+answers = allTestAnswers;
 localStorage.setItem("satLastTestSession", JSON.stringify({
   savedAt: new Date().toISOString(),
   mode: "test",
@@ -2311,67 +2335,32 @@ localStorage.setItem("satLastTestSession", JSON.stringify({
     }
   });
 
-let reviewHTML = `
-  <div class="appPage">
-    <h1 class="appTitle">Test Complete</h1>
-    <p class="appSubtitle">Here’s your performance summary for this module.</p>
-    <div id="scoreSummary" class="scoreBanner"></div>
-`;
-
-  // Skill Breakdown
-  reviewHTML += `<h3 class="appSectionTitle">Skill Breakdown</h3>`;
-  reviewHTML += `<div class="skillBreakdownGrid">`;
-
+// flatten tree to domain->topic for buildBreakdownHTML
+  const flatTree = {};
   Object.entries(tree).forEach(([domain, topics]) => {
-    let dCorrect = 0, dTotal = 0;
-    Object.values(topics).forEach(skillsObj => {
-      Object.values(skillsObj).forEach(st => {
-        dCorrect += st.correct;
-        dTotal += st.total;
-      });
-    });
-
-    reviewHTML += `
-      <div class="domainCard">
-        <div class="domainRow">
-          <span class="domainName">${domain}</span>
-          <span class="scoreChip">${dCorrect} / ${dTotal}</span>
-        </div>
-    `;
-
+    flatTree[domain] = {};
     Object.entries(topics).forEach(([topic, skills]) => {
       if (!topic || !topic.trim()) return;
-
       let tCorrect = 0, tTotal = 0;
       Object.values(skills).forEach(st => {
         tCorrect += st.correct;
         tTotal += st.total;
       });
-
-      reviewHTML += `
-        <div class="topicRow">
-          <span class="topicName">${topic}</span>
-          <span class="scoreChip">${tCorrect} / ${tTotal}</span>
-        </div>
-      `;
-
-      Object.entries(skills).forEach(([skillName, st]) => {
-        if (!skillName || !skillName.trim()) return;
-
-        reviewHTML += `
-          <div class="skillRow">
-            <span>${skillName}</span>
-            <span class="scoreChip">${st.correct} / ${st.total}</span>
-          </div>
-        `;
-      });
+      flatTree[domain][topic] = { correct: tCorrect, total: tTotal };
     });
-
-    reviewHTML += `</div>`;
   });
 
-  reviewHTML += `</div>`;
-  reviewHTML += `</div>`;
+  const breakdownHTML = buildBreakdownHTML(flatTree, data.questions, answers);
+
+  let reviewHTML = `
+    <div class="appPage">
+      <h1 class="appTitle">Test Complete</h1>
+      <p class="appSubtitle">Here's your performance summary.</p>
+      <div id="scoreSummary" class="scoreBanner appCard" style="margin-bottom:24px;"></div>
+      <h3 class="appSectionTitle">Topics Practiced</h3>
+      ${breakdownHTML}
+    </div>
+  `;
 
   resultsSummaryHTML = reviewHTML;
 
@@ -2527,7 +2516,7 @@ function endPracticeSession() {
 
             ${isDemoMode
               ? `<button class="summaryAction primary" style="font-size:16px;padding:14px 18px;margin-top:8px;" onclick="window.location.href='checkout.html'">Unlock Full Access</button>`
-              : `<button class="summaryAction secondary" onclick="window.location.href='dashboard.html'">Back to dashboard</button>`
+              : `<button class="summaryAction secondary" onclick="window.location.href='dashboard.html'">Home</button>`
             }
           </div>
         </div>

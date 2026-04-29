@@ -58,7 +58,7 @@
     "\\(6\\)"
   ],
   "answerIndex": 2,
-  "explanation": "<div class='explanation-step'>Solve this system of equations by elimination method.  Since the coefficients of \\(x\\) or \\(y\\) are not equal or opposites, multiply the first equation by \\(2\\) to eliminate the \\(y\\)s;</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}  2(3x-3y)&=(12)\times2 \\\\6x-6y&=24 \\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}begin{array}{rcl}6x & -6y  & = 24\\\\+ 4x &+6y & =30\\\\ \\hline & 10x & = 30\\\\& x & =3\\end{array} \\end{aligned}$$</div></div></div>"
+  "explanation": "<div class='explanation-step'>Solve this system of equations by elimination method.  Since the coefficients of \\(x\\) or \\(y\\) are not equal or opposites, multiply the first equation by \\(2\\) to eliminate the \\(y\\)s;</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}\\  2(3x-3y)&=(12)\\times2 \\\\6x-6y&=24 \\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}begin{array}{rcl}6x & -6y  & = 24\\\\+ 4x &+6y & =30\\\\ \\hline & 10x & = 30\\\\& x & =3\\end{array}\\end{aligned}$$</div></div></div>"
 },
 {
   "id": "MathT1-2E-004",
@@ -208,7 +208,7 @@
     "\\(120\\)"
   ],
   "answerIndex": 3,
-  "explanation": "<div class='explanation-step'>This is a systems of equations problem.  Write two equations relating \\(b\\) and \\(c\\).  The two-day (\\(b\\) and \\(c\\)) bicycle trip was \\(168\\) miles, so \\(b+c=168\\). And since \\(b\\) is \\(24\\) less than \\(3\\) times \\(c\\), \\(b=3c-24\\). Substitute the expression \\(3c-24\\) into the first equation for \\(b\\) and solve.</div><div class='explanation-math'>$$\\begin{aligned} b+c&=168\\\\3c-24+c&=168\\\\4c-\\cancel{24}+\\ancel{24}&=168+24\\\\ \\frac{\\cancel{4}c}{\\cancel{4}}&=\\frac{192}{4}\\\\ c&=48\\end{aligned}$$</div><div class='explanation-step'>The question asks for the value of \\(b\\), so \\(b=168-48=120\\).</div>"
+  "explanation": "<div class='explanation-step'>This is a systems of equations problem.  Write two equations relating \\(b\\) and \\(c\\).  The two-day (\\(b\\) and \\(c\\)) bicycle trip was \\(168\\) miles, so \\(b+c=168\\). And since \\(b\\) is \\(24\\) less than \\(3\\) times \\(c\\), \\(b=3c-24\\). Substitute the expression \\(3c-24\\) into the first equation for \\(b\\) and solve.</div><div class='explanation-math'>$$\\begin{aligned} b+c&=168\\\\3c-24+c&=168\\\\4c-\\cancel{24}+\\cancel{24}&=168+24\\\\ \\frac{\\cancel{4}c}{\\cancel{4}}&=\\frac{192}{4}\\\\ c&=48\\end{aligned}$$</div><div class='explanation-step'>The question asks for the value of \\(b\\), so \\(b=168-48=120\\).</div>"
 },
 {
   "id": "MathT1-2E-012",
@@ -226,7 +226,7 @@
     "\\(b=800(0.98)^x\\)"
   ],
   "answerIndex": 3,
-  "explanation": "<div class='explanation-step'>The answer choices all have exponential functions; in the exponential function \\(y=a \\times b^x\\), \\(a\\) is the starting value and \\(b\\) is the growth factor.  In this situation, \\(a=800\\) because \\(800\\) is the starting population of birds, so eliminate A and C. In an exponential decay (decrease) function \\(0<b<1\\), so \\(b=0.98\\), and the correct answer is D.  This can also be shown as a decrease of \\(2\\%\\)because if the population decreases by \\(2\\%\\) each year, \\(1-0.02=0.98\\), or \\(98\\%\\) of the population remains.</div>"
+  "explanation": "<div class='explanation-step'>The answer choices all have exponential functions; in the exponential function \\(y=a \\times b^x\\), \\(a\\) is the starting value and \\(b\\) is the growth factor.  In this situation, \\(a=800\\) because \\(800\\) is the starting population of birds, so eliminate A and C. In an exponential decay (decrease) function \\(0\\ltb\\lt1\\), so \\(b=0.98\\), and the correct answer is D.  This can also be shown as a decrease of \\(2\\%\\)because if the population decreases by \\(2\\%\\) each year, \\(1-0.02=0.98\\), or \\(98\\%\\) of the population remains.</div>"
     },
     {
   "id": "MathT1-2E-013",
@@ -354,7 +354,7 @@
     "\\(\\text{96,000}\\)"
   ],
   "answerIndex": 2,
-  "explanation": "<div class='explanation-step'>To convert meters to centimeters, multiply \\(96\\) by \\(100\\).  This can be seen as a unit conversion.</div><div class='explanation-math'>$$\\begin{aligned} 96\\, \\text{\\cancel{meters}}\\times \\frac{100 \\, \\text{centimeters}}{1\\, \\text{\\cancel{meter}}}=\\text{9,600 centimeters}\\end{aligned}$$</div><div class='explanation-step'>Set the hypotenuse equal to the given length \\(5\\sqrt{n}\\) and solve for \\(n\\), so \\(\\sqrt{3,625}=5\\sqrt{n}\\).  Since \\(5\\) appears as a factor outside the square root, this means it was \\(5^2\\) inside the radical, so \\(\\sqrt{5^2 \\times 145}=5\\sqrt{n}\\), and \\(n=145\\).</div>"
+  "explanation": "<div class='explanation-step'>To convert meters to centimeters, multiply \\(96\\) by \\(100\\).  This can be seen as a unit conversion.</div><div class='explanation-math'>$$\\begin{aligned}\\ 96\\, \\cancel{\\text{meters}}\\times \\frac{100 \\, \\text{centimeters}}{1\\, \\cancel{\\text{meter}}}=\\text{9,600 centimeters}\\end{aligned}$$</div><div class='explanation-step'>Set the hypotenuse equal to the given length \\(5\\sqrt{n}\\) and solve for \\(n\\), so \\(\\sqrt{3,625}=5\\sqrt{n}\\).  Since \\(5\\) appears as a factor outside the square root, this means it was \\(5^2\\) inside the radical, so \\(\\sqrt{5^2 \\times 145}=5\\sqrt{n}\\), and \\(n=145\\).</div>"
     },
     {
   "id": "MathT1-2E-020",
