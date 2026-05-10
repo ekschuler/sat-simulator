@@ -8,197 +8,758 @@
     {
       "id": "VerbalT1-1-001",
       "type": "mcq",
-      "subject": "verbal",
       "skill": {
         "domain": "Craft and Structure",
         "topic": "Words in Context",
         "skill": "Vocabulary in Context"
       },
 
-      "stemSegments": [
-        {
-          "text": "The following text is adapted from a 2018 article on deep-sea exploration.",
-          "align": "left",
-          "style": "intro"
-        },
-        {
-          "text": "Deep-sea explorers have long been fascinated by hydrothermal vents — underwater fissures that release superheated water and support thriving ecosystems. These communities of organisms are <em>sustained</em> not by sunlight, as most life on Earth is, but by chemical energy produced through a process called chemosynthesis.",
-          "align": "left",
-          "style": "passage"
-        },
-        {
-          "text": "As used in the text, what does the word <em>sustained</em> most nearly mean?",
-          "align": "left",
-          "style": "question"
-        }
-      ],
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["vocabulary", "sentence completion"],
 
-      "choices": [
-        "Threatened",
-        "Supported",
-        "Created",
-        "Isolated"
-      ],
+      "stem": "The <span class='blank'>_______</span> between the two opposing candidates overshadowed the actual content of the debate.  Additionally, the lack of interest the candidates showed in hiding their animosity towards each other made the tone of the debate unprofessional and immature.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "esteem",
+    "antipathy",
+    "indifference",
+    "affinity"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word or phrase fits in the blank. Look for signal words that show whether the blank should be a synonym, an antonym, or a cause-and-effect relationship to another part of the sentence.</div><div class='explanation-step'>Here, the word that goes in the blank describes the feeling between the candidates. The clue for this word comes in the second sentence: the candidates did not hide their &ldquo;animosity&rdquo; toward one another, and this made the debate seem &ldquo;unprofessional&rdquo; and &ldquo;immature.&rdquo; The word for the blank should relate to animosity—a feeling of dislike or even hatred.</div><div class='explanation-step'><strong>A)</strong> &ldquo;esteem&rdquo; means respect, so this is the opposite of what you’re seeking; eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;antipathy&rdquo; means strong dislike, so this is a good fit. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;indifference&rdquo; means they don’t have strong feelings either way, so eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;affinity&rdquo; means a liking for something, which is closer to the opposite of dislike. Eliminate D.</div><br><br>This means <strong>B</strong> is the correct answer.</div>"
+},
 
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>In context, <em>sustained</em> describes how these organisms are kept alive — not by sunlight but by chemical energy. <em>Supported</em> best captures this meaning. <em>Created</em> is too strong (chemosynthesis supports life, not creates the organisms). <em>Threatened</em> and <em>isolated</em> don't fit the context.</div>"
-    },
-
-    {
+{
       "id": "VerbalT1-1-002",
       "type": "mcq",
-      "subject": "verbal",
-      "skill": {
-        "domain": "Information and Ideas",
-        "topic": "Central Ideas and Details",
-        "skill": "Main Idea"
-      },
-
-      "stemSegments": [
-        {
-          "text": "The following text is adapted from a 2020 article on migratory birds.",
-          "align": "left",
-          "style": "intro"
-        },
-        {
-          "text": "Every autumn, billions of birds undertake journeys of thousands of miles, navigating by stars, magnetic fields, and landmarks to reach their wintering grounds. Scientists have long marveled at the precision of these migrations, but recent research suggests that light pollution is disrupting the birds' internal compasses, causing disorientation and dangerous collisions with illuminated buildings.",
-          "align": "left",
-          "style": "passage"
-        },
-        {
-          "text": "What is the main idea of the text?",
-          "align": "left",
-          "style": "question"
-        }
-      ],
-
-      "choices": [
-        "Migratory birds use several methods to navigate during their seasonal journeys.",
-        "Scientists have recently begun studying the migration patterns of birds.",
-        "Light pollution poses a significant threat to the navigation abilities of migratory birds.",
-        "Collisions with buildings are the leading cause of death among migratory birds."
-      ],
-
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>While the passage mentions navigation methods (A) and scientific interest (B), the main point is the threat that light pollution poses to migration. Answer C captures both the problem and its significance. Answer D focuses on one detail mentioned at the end, not the overall main idea.</div>"
-    },
-
-    {
-      "id": "VerbalT1-1-003",
-      "type": "mcq",
-      "subject": "verbal",
-      "skill": {
-        "domain": "Information and Ideas",
-        "topic": "Command of Evidence",
-        "skill": "Textual Evidence"
-      },
-
-      "stemSegments": [
-        {
-          "text": "The following text is adapted from a 2021 study on sleep and academic performance.",
-          "align": "left",
-          "style": "intro"
-        },
-        {
-          "text": "A research team tracked the sleep habits and academic performance of 500 high school students over one semester. Students who slept fewer than seven hours per night had significantly lower GPAs than those who slept eight or more hours. Interestingly, the relationship held even when controlling for study time — students who studied longer but slept less still underperformed compared to well-rested peers who studied less.",
-          "align": "left",
-          "style": "passage"
-        },
-        {
-          "text": "Which claim is most directly supported by the findings described in the text?",
-          "align": "left",
-          "style": "question"
-        }
-      ],
-
-      "choices": [
-        "High school students should be required to start school later in the morning.",
-        "Sleep duration is a more important factor in academic performance than study time.",
-        "Students who study more tend to sleep less than their peers.",
-        "Academic performance is determined primarily by how many hours a student studies."
-      ],
-
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>The passage explicitly states that well-rested students outperformed those who studied more but slept less — directly supporting Answer B. Answer A is a policy conclusion not supported by the data. Answer C is not stated in the passage. Answer D contradicts the findings.</div>"
-    },
-
-    {
-      "id": "VerbalT1-1-004",
-      "type": "mcq",
-      "subject": "verbal",
       "skill": {
         "domain": "Craft and Structure",
-        "topic": "Text Structure and Purpose",
-        "skill": "Author's Purpose"
+        "topic": "Words in Context",
+        "skill": "Vocabulary in Context"
       },
 
-      "stemSegments": [
-        {
-          "text": "The following text is from a 2019 essay by an environmental journalist.",
-          "align": "left",
-          "style": "intro"
-        },
-        {
-          "text": "For decades, the standard advice was simple: recycle everything you can. But the economics of recycling have shifted dramatically. Many municipalities now send recyclable materials directly to landfills because the cost of processing them exceeds their market value. Rather than placing the burden on individual consumers, perhaps it is time for manufacturers to take responsibility for the waste their products generate.",
-          "align": "left",
-          "style": "passage"
-        },
-        {
-          "text": "What is the primary purpose of the final sentence?",
-          "align": "left",
-          "style": "question"
-        }
-      ],
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["vocabulary", "sentence completion"],
 
-      "choices": [
-        "To summarize the economic challenges facing municipal recycling programs",
-        "To propose an alternative approach to addressing the recycling problem",
-        "To criticize consumers for not recycling responsibly",
-        "To explain why recyclable materials are sent to landfills"
-      ],
+      "stem": "In the mid-1900s, urbanization caused a slew of health care problems due to unsanitary living practices and increasing areas of dense population that meant an increase in the spread of disease. But these problems <span class='blank'>_______</span> the spread of public health care initiatives and the creation of city hospitals. Prior to this period, public health care initiatives were scarcely present; families relied more on traditional methods and family care than on hospitals.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "neglected",
+    "goaded",
+    "undermined",
+    "fostered"
+  ],
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word or phrase fits in the blank. Look for signal words that show whether the blank should be a synonym, an antonym, or a cause-and-effect relationship to another part of the sentence.</div><div class='explanation-step'>Here, the word in the blank is one that describes the impact of the health care problems caused by urbanization on the &ldquo;spread of public health care initiatives&rdquo; and the &ldquo;creation of city hospitals.&rdquo; In the final sentence, we learn that before, there were not many health care initiatives, so the problems must have <em>helped</em> or <em>brought on</em> health care initiatives.</div><div class='explanation-step'><strong>A)</strong> &ldquo;neglected&rdquo; means ignored, and is closer to the opposite of helped. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;goaded&rdquo; does mean provoke, but in an annoying way, so this is not a god fit.  Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;undermined&rdquo; , like answer A, is closer to the opposite; it means to take away the effectiveness of something. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;fostered&rdquo; means supported; additionally, by process of elimination, this is the only remaining answer.This means <strong>D</strong> is the correct answer.</div>"
+},
+{
+      "id": "VerbalT1-1-003",
+      "type": "mcq",
+      "skill": {
+        "domain": "Craft and Structure",
+        "topic": "Words in Context",
+        "skill": "Vocabulary in Context"
+      },
 
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>The final sentence shifts from describing the problem (failed recycling economics) to suggesting a solution — holding manufacturers responsible. This is a proposal, making Answer B correct. Answer A describes what the earlier sentences do. Answer C is incorrect — the author explicitly moves responsibility <em>away</em> from consumers. Answer D is addressed earlier in the passage.</div>"
-    },
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["vocabulary", "sentence completion"],
 
-    {
+      "stem": "Many wildlife biologists argue that limits to the number of people who can enter public parks significantly supports the growth of indigenous animal species in those parks. However, a few believe that the impact entrance quotas have is <span class='blank'>_______</span> they argue that spaces that introduce entrance quotas are more likely to have many other initiatives that directly impact population growth of animal species.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "nominal",
+    "scathing",
+    "notable",
+    "abridged"
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word or phrase fits in the blank. Look for signal words that show whether the blank should be a synonym, an antonym, or a cause-and-effect relationship to another part of the sentence.</div><div class='explanation-step'>Here, the first sentence suggests that by limiting the number of people who can enter public parks, the number of animal species can increase. The use of the word <em>However</em> at the beginning of the sentence implies that there is a change in direction from the first sentence. When it says  &ldquo;a few believe&rdquo; that must mean they believe something in opposition to the &ldquo;many wildlife biologists&rdquo; in the first sentence.  They believe that limiting park entrances does <em>not</em> support the growth of animal species.  There is supporting evidence of this change in direction later in the second sentence; these parks with entrance quotas, it is believed by a few, probably &ldquo;have many other initiatives that&rdquo; support the growth of animal species. The word in the blank, thus, should be a word that means <em>small</em> or <em>insignificant</em>.</div><div class='explanation-step'><strong>A)</strong> &ldquo;nominal&rdquo; means small or not real.  Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;scathing&rdquo; means very critical, so is not related to the correct answer.  Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;notable&rdquo; means remarkable or significant, so this is the opposite of the correct word. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;abridged&rdquo; means shortened; this is similar in meaning to small and insignificant, but it relates more to something that is shortened in length.  Additionally, <em>nominal</em> is a better choice.  Eliminate D.</div><br><br>This means <strong>A</strong> is the correct answer."
+},
+{
+      "id": "VerbalT1-1-004",
+      "type": "mcq",
+      "skill": {
+        "domain": "Craft and Structure",
+        "topic": "Words in Context",
+        "skill": "Vocabulary in Context"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["vocabulary", "sentence completion"],
+
+      "stem": "Many authors use descriptions of landscapes to reenforce the themes of their books.  One such author, John Steinbeck, lays out <span class='blank'>_______</span> settings to embody the bleakness and despair of the characters that inhabit them.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "germane",
+    "immutable",
+    "incisive",
+    "desolate"
+  ],
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word or phrase fits in the blank. Look for signal words that show whether the blank should be a synonym, an antonym, or a cause-and-effect relationship to another part of the sentence.</div><div class='explanation-step'>Here, the second sentence (the one with the blank) provides an example of what is stated in the first sentence, that authors use physical settings to strengthen their book themes. The blank is a word that describes Steinbeck's settings, which should reenforce the &ldquo;bleakness&rdquo; and &ldquo;despair&rdquo; described in his books.  Good word choices for the blank are, therefore, <em>bleak</em> and <em>despairing</em>.</div><div class='explanation-step'><strong>A)</strong> &ldquo;germane&rdquo; means relevant. Although the settings are relevant to the themes, here we are specifically seeking a word that describes the bleakness of Steinbeck's settings. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;immutable&rdquo; means unchanging or not able to be changed, which is different than bleak. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;incisive&rdquo; means clear or direct, so this is not correct.  Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;desolate&rdquo; means bleak or uninhabited or empty in a bleak manner, which is synonymous with bleak and despairing. This means the correct answer is <strong>D</strong>.</div>"
+},
+{
       "id": "VerbalT1-1-005",
       "type": "mcq",
-      "subject": "verbal",
       "skill": {
+        "domain": "Craft and Structure",
+"topic": "Text Structure and Purpose",
+"skill": "Function of a Sentence"
+      },
+
+      "level": 3,
+      "set": "Verbal Practice",
+      "tags": ["vocabulary", "sentence completion"],
+
+     "stemSegments": [
+  {
+    "text": "The following text is from <em>Frederick Douglass' Narrative of the Life of Frederick Douglass, an American Slave.</em>",
+    "align": "left",
+    "style": "default"
+  },
+  {
+    "text": "I look upon my departure from Colonel Lloyd’s plantation as one of the most interesting events of my life. It is possible, and even quite probable, that but for the mere circumstance of being removed from that plantation to Baltimore, I should have to-day, instead of being here seated by my own table, in the enjoyment of freedom and the happiness of home, writing this Narrative, been confined in the galling chains of slavery. <u>Going to live at Baltimore laid the foundation, and opened the gateway, to all my subsequent prosperity.</u> I have ever regarded it as the first plain manifestation of that kind providence which has ever since attended me, and marked my life with so many favors.",
+    "align": "center",
+    "style": "passage"
+  },
+  {
+    "text": "Which choice best states the function of the underlined sentence in the overall structure of the text?",
+    "align": "left",
+    "style": "question"
+  }
+],
+  "choices": [
+    "It makes a claim that is dispelled in the next sentence.",
+    "It describes the speaker's trip from the plantation to Baltimore.",
+    "It highlights a fortunate turning point in the speaker's life.",
+    "It contradicts an idea introduced by the speaker in the previous sentence."
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>For <em>Sentence Function</em> questions, it helps to read the sentence before and after the underlined sentence. Identify what the underlined sentence does in relation to the previous sentence (i.e. introduces a new idea, supports a claim, contrasts with earlier information, etc.).</div><div class='explanation-step'>In this text selection, Douglass describes his departure from Colonel Lloyd's plantation. In the sentence prior to the underlined sentence, he claims that if he had not been removed from the plantation and taken to Baltimore, he would likely still be enslaved instead of enjoying the freedoms he had in his own home. The underlined sentence states that going to Baltimore was the fundamental event that led to all of his future <em>prosperity</em>, or success.  This is stated again in the final sentence; Douglas has always thought of this event, going to Baltimore, as the first event of good fortune that then led to so many other good events in his life.  The underlined sentence, therefore, <em>puts emphasis on this point</em> that moving to Baltimore was a pivotal event, an idea that is introduced in the previous sentence.</div><div class='explanation-step'><strong>A)</strong> states that the underlined sentence claims something that is then contradicted or dispelled, which is the opposite of what the text suggests. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> states that the underlined sentence describes the actual journey to Baltimore.  This journey is not described anywhere in the passage, and is not the function of the underlined sentence.  Eliminate B.</div><div class='explanation-step'><strong>C)</strong> states that the underlined sentence &ldquo;highlights a fortunate turning point&rdquo; in Douglas's life; this is similar to <em>emphasizing</em> the turning point when Douglas went to Baltimore.  Keep C.</div><div class='explanation-step'><strong>D)</strong> starts off with &ldquo;contradicts&rdquo;; since there are no contradictory ideas in the passage, D can immediately be eliminated.</div><br><br>This means <strong>C</strong> is the correct answer."
+},
+{
+      "id": "VerbalT1-1-006",
+      "type": "mcq",
+      "skill": {
+        "domain": "Craft and Structure",
+"topic": "Text Structure and Purpose",
+"skill": "Function of a Sentence"
+      },
+
+      "level": 3,
+      "set": "Verbal Practice",
+      "tags": ["vocabulary", "sentence completion"],
+
+     "stemSegments": [
+  {
+    "text": "The following is adapted from John Rollin Ridge's <em>The Life and Adventures of Joaquín Murieta</em>. The Mexican-born protagonist, Joaquín Murieta, has just been the subject of a racist attack in his home by a &ldquo;lawless band&rdquo; of American men.",
+    "align": "left",
+    "style": "default"
+  },
+  {
+    "text": "He departed with his weeping and almost heart-broken mistress for a more northern portion of the mines; and the next we hear of him, he is cultivating a little farm on the banks of a beautiful stream. Here he might hope for peace—here he might forget the past, and again be happy. But his dream was not destined to last. A company of unprincipled Americans—shame that there should be such bearing the name!—saw his retreat, coveted his little home, and drove him from it, with no other excuse than that he was &ldquo;an infernal Mexican intruder!&rdquo; Joaquíns blood boiled in his veins, but his spirit was still unbroken, nor had the iron so far entered his soul as to sear up the innate sensitiveness to honor and right which reigned in his bosom.",
+    "align": "center",
+    "style": "passage"
+  },
+  {
+    "text": "Which choice best describes the overall structure of the text?",
+    "align": "left",
+    "style": "question"
+  }
+],
+  "choices": [
+    "Seeking a new beginning, a young man moves north but struggles when his efforts to rebuild do not bring prosperity.",
+    "A young man’s early successes give way to loss and disappointment as others covet his property.",
+    "An individual’s search for stability is contrasted with the hostility of the society surrounding him.",
+    "The protagonist’s brief return to peace is undone by renewed mistreatment, and then the narrator comments on the protagonist's inner resilience."
+  ],
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>For <em>Overall Structure</em> questions, it can be helpful to come up with your own answer before looking at the answer choices.  The correct answer will capture the composition of the text <em>in its entirety</em>.  Here, you might say something like <em>A man leaves a bad life behind to start a better life in a new place, and even when some men take this new, better life from him, he still remains hopeful and does not allow these men to break him.</em>  Use the process of elimination to find the best answer.</div><div class='explanation-step'><strong>A)</strong> states that he seeks a new beginning, and this part is true. But then this choice states that he &ldquo;struggles when his efforts to rebuild do not bring prosperity,&rdquo; and this is not true.  Additionally, this choice is missing some of the key details of the passage. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> states that he is successful and then has to deal with &ldquo;loss and disappointment&rdquo; when these other men take his property.  This is true, tut this choice misses the end of the passage.  Although true, it doesn't encompass the entire text.  Eliminate B.</div><div class='explanation-step'><strong>C)</strong> states that his &ldquo;search for stability&rdquo; contrasts with the &ldquo;hostility&rdquo; he faces.  This choice sounds plausible because the protagonist faces hostility from society. This choice describes an ongoing conflict between an individual and society. But the passage tells a short sequence of events. The narrator isn’t emphasizing a general social contrast; instead, they’re showing how one specific event affects Joaquín. This choice is too broad and abstract. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> states that he returns to peace (when he goes north), is mistreated again (by the &ldquo;unprincipled American&rdquo;), but has &ldquo;inner resilience.&rdquo; This choice accurately reflects the shift from peace to mistreatment followed by the narrator’s reflection on Joaquín’s unbroken spirit. It also matches the pre-generated answer. This means <strong>D</strong> is the correct answer."
+},
+{
+      "id": "VerbalT1-1-007",
+      "type": "mcq",
+           "skill": {
+        "domain": "Craft and Structure",
+"topic": "Text Structure and Purpose",
+"skill": "Main Purpose"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["main idea", "main purpose"],
+
+      "stem": "Until the \\(1960\\)s, the European blackcap, and small, prolific warbler found in Europe, Asia, and Africa, reliably migrated from central Europe to southern Europe and northern Africa. However, in the \\(1960\\)s, in a strange reversal, many of these blackcaps began migrating north instead.  Scientists concluded that this was due, in large part, to changing weather conditions, namely warmer winters, and northern Europeans providing sustenance for birds in the form of bird feed. As a result, the birds that flew north evolved in several ways; they became larger and started breeding earlier.<br><br>According to the text, why did the European blackcaps begin to migrate north?",
+  "choices": [
+    "They did not have to compete as much for food sources in northern Europe.",
+    "They grew in size and they bred earlier.",
+    "The winters became warmer and humans in the north began feeding them.",
+    "The southern Europe and northern African winters were too cold and food in those areas became scarce."
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>For <em>According to the Text</em> questions, the correct answer will be directly stated in the passage, but might be in different words. Use the process of elimination to answer this question.</div><div class='explanation-step'><strong>A)</strong> states that the birds migrated north because there was less food competition there. This is not stated in the passage.  It <em>does</em> say that Europeans in the north provided &ldquo;sustenance&rdquo; for them, but this is not the same as less competition.  Eliminate A.</div><div class='explanation-step'><strong>B)</strong> states that the birds grew and bred earlier. This is stated in the passage, but it is a <em>result</em> of the new migration pattern, not a <em>cause</em>.  Eliminate B.</div><div class='explanation-step'><strong>C)</strong> states that their migration patterns changed due to warmer winters and Europeans feeding them. These are stated in the passage as the main reasons for why they began to fly north.  The passage states that they flew north due to &ldquo;changing weather conditions, namely warmer winters, and northern Europeans providing sustenance for birds in the form of bird feed.&rdquo; Keep C.</div><div class='explanation-step'><strong>D)</strong> focuses on the conditions in southern Europe and northern Africa, where they previously migrated to, and these conditions are not mentioned in the passage. Eliminate D.</div><br><br>This means <strong>C</strong> is the correct answer."
+},
+{
+      "id": "VerbalT1-1-008",
+      "type": "mcq",
+      "skill": {
+        "domain": "Craft and Structure",
+"topic": "Text Structure and Purpose",
+"skill": "Main Purpose"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["main idea", "main purpose"],
+
+      "stem": "In the late \\(1800\\)s, Sir Sanford Fleming, a Scottish engineer who was instrumental in the design and planning of several long distance railways in the United States and Canada, saw an increasing need for standardized time zones. Historically, times had been set at the local level, varying from town to town, which fostered chaos in long distance train travel. Fleming's idea to standardize time was born out of personal experience; he missed a train and realized that local time setting was a hindrance in the massive expansion of train travel that was occurring at that time. In response, Fleming created \\(4\\) time zones across North America and was instrumental in standardizing time zones around the world.<br><br>Which choice best states the main idea of the text?",
+  "choices": [
+    "Standardized time zones were an important innovation around the world that have made communication between nations easier.",
+    "Fleming developed standardized time zones to solve the problems caused by local time settings that hampered the growth of train travel in North America.",
+    "Fleming was opposed to standardizing time zones and thought decisions should be made at the local level.",
+    "Fleming's work on designing long distance railways was the most important of his career."
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>For <em>Main Idea</em>  questions, the correct answer will capture the <strong>central concept</strong> that connects all parts of the passage, not just one example or detail. </div><div class='explanation-step'>Here, <em>Fleming, an engineer working on the expansion of long distance railways, created standardized time zones. When he himself missed a train due to local time setting, he realized how important they were for long distance railways.</em>  Use the process of elimination to find the best answer.</div><div class='explanation-step'><strong>A)</strong> states that standardized time zones were important for the world and eased communications between countries. This choice doesn't mention Fleming at all, and he is central to the main idea of the passage.  Eliminate A.</div><div class='explanation-step'><strong>B)</strong> states that Fleming created time zones to deal with the problems of local time settings, which &ldquo;hampered the growth of train travel.&rdquo; This choice matches the pre-generated answer and touches all the important aspects of the main idea; Fleming created time zones in an effort to fix the issues arising from local time settings, and these issues had to be addressed to help the expansion of train travel.  Keep B.</div><div class='explanation-step'><strong>C)</strong> states that Fleming opposed standardized time zones, and this is false. Stating that Fleming was opposed to time zones is the opposite of what the passage states; he created them.  Eliminate C.</div><div class='explanation-step'><strong>D)</strong> states that his work on long distance railways was the &ldquo;most important of his career.&rdquo; This <em>could</em> be true, but is not stated in the passage and is also not the main idea of the passage. Eliminate D.</div><br><br>This means <strong>B</strong> is the correct answer."
+},
+{
+      "id": "VerbalT1-1-009",
+      "type": "mcq",
+         "skill": {
+        "domain": "Craft and Structure",
+"topic": "Text Structure and Purpose",
+"skill": "Function of a Sentence"
+      },
+
+      "level": 3,
+      "set": "Verbal Practice",
+      "tags": ["vocabulary", "sentence completion"],
+
+     "stemSegments": [
+  {
+    "text": "The following text is translated from Baron de Montesquieu's <em>The Spirit of Laws</em>. The author writes about the three branches of government; legislative, executive, and judicial.",
+    "align": "left",
+    "style": "default"
+  },
+  {
+    "text": "When the legislative and executive powers are united in the same person, or in the same body of magistrates, there can be no liberty; because apprehensions may arise, lest the same monarch or senate should enact tyrannical laws, to execute them in a tyrannical manner.<br><br>Again, there is no liberty, if the judiciary power be not separated from the legislative and executive. Were it joined with the legislative, the life and liberty of the subject would be exposed to arbitrary control; for the judge would be then the legislator. Were it joined to the executive power, the judge might behave with violence and oppression.",
+    "align": "center",
+    "style": "passage"
+  },
+  {
+    "text": "Which choice best states the main purpose of the text?",
+    "align": "left",
+    "style": "question"
+  }
+],
+  "choices": [
+    "To argue for an argument for the separation of powers amongst the legislative, executive, and judicial branches.",
+    "To compare the legislative, executive, and judicial branches of government.",
+    "To explain how a judge might abuse their power if tied to the executive branch.",
+    "To argue the importance of united branches of government."
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>For <em>Main Purpose</em> questions, it can be helpful to come up with your own answer before looking at the choices. The correct answer should capture both the <strong>tone</strong> of the passage (often revealed by the verb at the start of the answer choice) and its <strong>central idea or purpose</strong>.</div><div class='explanation-step'>Here, the passage is about the separation of the legislative, executive, and judicial branches. The passage gives examples of the problems that arise when any two of the branches work together.  The correct answer, therefore, might say something like <em>to argue in support of the separation of powers in the government branches.</em>  Use the process of elimination to find the best answer.</div><div class='explanation-step'><strong>A)</strong> states that the purpose is to argue for the separation of powers. This matches the pre-generated answer in tone (argue) and the purpose (for the separation of powers).  Keep A.</div><div class='explanation-step'><strong>B)</strong> starts with the verb &ldquo;compare,&rdquo; which does not match the tone of the passage; the branches are not compared in this text.  Eliminate B.</div><div class='explanation-step'><strong>C)</strong> states that the purpose is to &ldquo;explain&rdquo; the ways a judge might abuse power.  While mentioned in the passage, this part of the passage is not the main purpose of the passage, but rather an example in support of the argument for the separation of powers.  Additionally, the verb in answer choice C, &ldquo;explain,&rdquo; suggests a neutral tone and is accurate for more factual passages. In this passage the author is taking a stance on a topic.  Eliminate C.</div><div class='explanation-step'><strong>D)</strong> states that the purpose is to &ldquo;argue&rdquo; for uniting the branches of government. Though the tone is a match (argue), the stated purpose is the <em>opposite</em> of what the author argues for; he does not argue for &ldquo;united branches,&rdquo; but rather separate branches of government.  Eliminate D.</div><br><br>This means <strong>A</strong> is the correct answer."
+},
+{
+      "id": "VerbalT1-1-010",
+      "type": "mcq",
+      "skill": {
+        "domain": "Craft and Structure",
+        "topic": "Words in Context",
+        "skill": "Text Completion"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["text completion"],
+
+      "stem": "Elizabeth Cady Stanton, an author and activist in the mid-1800s,  is thought of as one of the leading founders of the women’s rights movement in the United States. While Stanton’s speeches and writings are often treated as original contributions, many historians of feminist history contend that they were influenced by the earlier activist Margaret Fuller. These historians argue that Stanton not only read Fuller’s works but also actively engaged with Fuller’s ideas in her own publications and advocacy.<br><br>Which finding, if true, would most directly support the historians' claim?",
+  "choices": [
+    "The Revolution, the women’s rights newspaper co-edited by Stanton and Anthony, published at least 45 articles referencing Fuller during a four-year span.",
+    "Stanton once noted in her diary that she and Fuller attended the same lecture series in Boston, though no record exists of them speaking directly to each other.",
+    "Records of Stanton’s speeches reveal that she delivered more than 100 addresses on women’s suffrage between 1850 and 1880.",
+    "While Fuller’s writings often centered on women’s intellectual and spiritual development, Stanton’s early writings focused instead on political equality."
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>For <em>Supporting or Weakening Claim</em> questions, first identify the <em>claim</em>. In this case, the historians' claim is that Stanton's speeches &ldquo;were influenced by the earlier activist Margaret Fuller,&rdquo; and that Stanton &ldquo;actively engaged with Fuller's ideas in her own writings.&rdquo;  Use the process of elimination to eliminate answers that do not do enough to support this claim, and eliminate answers that undermine or weaken the claim.</div><div class='explanation-step'><strong>A)</strong> states that Stanton's newspaper frequently referenced Fuller in their articles. If true, this would suggest that Stanton was influenced by Fuller and used Fuller's ideas in her own writing. Keep A.</div><div class='explanation-step'><strong>B)</strong> states that there is one reference of Fuller in Stanton's diary. This choice does not do enough to support the historians' claim; while a mention of Fuller in Stanton's diary means that Stanton was aware of Fuller, it doesn't mean that she was influenced by her.  Eliminate B.</div><div class='explanation-step'><strong>C)</strong> states that Stanton gave over 100 speeches during a 30-year period of time. This choice doesn't even mention Fuller, and she is a critical part of any correct answer. The fact that Stanton delivered a lot of speeches on women's suffrage does nothing to support the idea that she was influenced by Fuller. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> states a contrast between Fuller and Stanton's writing; if true, this answer choice would actually weaken the historians' claim, not strengthen it.  Eliminate D.</div><br><br>This means <strong>A</strong> is the correct answer."
+},
+{
+      "id": "VerbalT1-1-011",
+      "type": "mcq",
+      "skill": {
+        "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["grammar", "possessive pronouns"],
+
+        "stem": "<div style='text-align:center;'><img src='assets/VerbalTest1-1-11.png.png' style='max-width:40%;height:auto;'></div><div style='margin-top:16px;'>A nutrition team analyzed the calorie content of various popular snacks to determine whether flavoring consistently increases calorie content. They collected data on five types of snacks, comparing flavored and unflavored versions. Based on their findings, the team claims that flavored snacks always have more calories per serving than unflavored snacks.</div><br><br>Which choice provides data from the graph that most directly weakens the nutrition team’s claim?",
+  "choices": [
+    "Chips are higher in calories when flavored.",
+    "Granola bars are higher in calories when unflavored.",
+    "Flavored crackers are higher in calories than unflavored.",
+    "Popcorn is slightly higher in calories when flavored."
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>For <em>Supporting or Weakening Claim</em> questions, first identify the <em>claim</em>. In this case, the nutrition team claims that &ldquo;flavored snacks always have more calories per serving than unflavored snacks.&rdquo; To weaken this claim, find the answer that states that one of the unflavored snacks has more calories than one of the flavored snacks.  From the table, granola bars are only example of where the calorie count for unflavored granola bars is higher than the calorie count for flavored granola bars.  The answer that matches that is answer choice B.</div><div class='explanation-step'>Answer choices A, C, and D <em>strengthen</em> the claim of the nutrition team in that they all reference snacks with higher calorie counts for flavored versions of the snack, which is what the nutrition team claims. This means <strong>B</strong> is the correct answer.</div>"
+},
+{
+      "id": "VerbalT1-1-012",
+      "type": "mcq",
+      "skill": {
+        "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["grammar", "sentence structure", "run-ons and fragments"],
+
+      "stemSegments": [
+    {
+      "text": "Olympic Performance and Female Sports Participation Growth (2012&ndash;2024)",
+      "align": "center",
+      "style": "intro"
+    },
+    {
+      "text": "<table class='stem-table'><tr><th>Country</th><th>Women's Olympic Medals Change</th><th>Female Sports Participation Change (%)</th></tr><tr><td>USA</td><td>+10</td><td>+12</td></tr><tr><td>China</td><td>+5</td><td>+8</td></tr><tr><td>Norway</td><td>+2</td><td>+15</td></tr><tr><td>Japan</td><td>+7</td><td>+10</td></tr><tr><td>New Zealand</td><td>+1</td><td>+3</td></tr></table>",
+      "align": "center",
+      "style": "table"
+    },
+    {
+      "text": "A team of analysts working across multiple continents examined the relationship between countries' Olympic performance in women's sports and the participation levels of young women in sports. They compiled data on Olympic medal counts in women's sports over a twelve-year period and tracked the percentage change in female participation in high school and university sports. The team found that although the magnitude of Olympic improvements varies, countries with greater increases in medals tend to experience higher growth in young women's sports participation. Consequently, the analysts suggest that improvements at the elite level may be associated with increased engagement in sports among younger female populations.",
+      "align": "left",
+      "style": "passage"
+    },
+    {
+      "text": "Which statement about the data best supports the analysts' claim?",
+      "align": "left",
+      "style": "question"
+    }
+  ],
+  "choices": [
+    "Some countries with small increases in Olympic medals, such as New Zealand, also had relatively modest increases in female sports participation.",
+    "Countries that saw the greatest increases in Olympic medals, such as the USA and Japan, also experienced some of the largest increases in female sports participation.",
+    "Norway’s large increase in female sports participation despite only a small medal gain suggests the relationship between the two variables is not absolute.",
+    "Countries with large increases in female sports participation did not always have equally large increases in Olympic medals."
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>For <em>Supporting or Weakening Claim</em> questions, first identify the <em>claim</em>.In this case, the analysts' claim that &ldquo;improvements at the elite level&rdquo; as defined by an increase in the number of Olympic medals won by a country's team, maybe be associated with increases in participation in sports of &ldquo;younger female populations&rdquo; as defined by percentage increases in high school and university sports. To support this claim, find the answer that countries with large increases in the number of medals won by women's Olympic teams also saw increases in the percentage of high school and university participation in female sports.</div></div><div class='explanation-step'><strong>A)</strong>states that it says that small increases in medals see large increases in sports participation and references the smallest gains in both columns. This does not support the analysts' claim.  Eliminate A.</div><div class='explanation-step'><strong>B)</strong>states that countries where the greatest increases in medals won are seen also saw the largest increases in female sports participation.  This choice supports the analysts' claim. In the table, the United States and Japan, had the largest increases in both columns. Keep B.</div><div class='explanation-step'><strong>C)</strong>states that the relationship between medals won and participation in sports is &ldquo;not absolute,&rdquo; contradicting or <em>undermining</em>. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>states that large increases in female sports participation in some countries are not always matched by large increases in Olympic medals. This also undermines the analysts' claim.  Eliminate D.</div><br><br>This means the correct answer is <strong>B</strong>."
+},
+{
+      "id": "VerbalT1-1-013",
+      "type": "mcq",
+      "skill": {
+                "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["grammar", "verb form", "verb tense"],
+
+      "stem": "The methods for designing measurement systems have historically varied across cultures. Some societies based their units on physical objects, such as rods, weights, or containers, while others looked to natural phenomena, like the length of a day or the volume of water, as a basis for measurement. As scientific collaboration has expanded globally, there has been a growing push to standardize these systems. For example, <span class='blank'>_______</span><br><br>Which choice most logically completes the text?",
+  "choices": [
+    "many countries have abandoned the metric system in favor of traditional measurement units.",
+    "scientists in more than 60 countries unanimously agreed in 2018 to redefine the International System of Units (SI) based on fundamental constants of nature rather than physical artifacts.",
+    "different measurement systems continue to develop independently without international coordination.",
+    "global scientific research has shown that physical artifacts are more reliable than universal constants for defining units."
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>For <em>Text Completion</em> questions, first read and summarize the passage to anticipate its logical direction. This passage contrasts different methods of measurement and points to a growing need for standardization as scientific collaboration expands globally. Because the final sentence begins with &ldquo;For example,&rdquo; the correct answer should provide a specific instance of a global standardization effort. Then, use the process of elimination to confirm your choice.</div><div class='explanation-step'><strong>A)</strong>&ldquo;states that many countries are reverting to &ldquo;traditional&rdquo; systems, which contradicts the passage’s emphasis on international standardization. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>aligns directly with the passage’s focus on collaboration and standardization; the international redefinition of SI units provides the kind of example the final sentence calls for. This is the best fit, but check the remaining options to confirm.</div><div class='explanation-step'><strong>C)</strong>contradicts the passage’s central idea by implying continued fragmentation rather than standardization. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>is only tangentially related—it shifts focus from collaboration to a debate over reliability—and thus does not logically complete the text. Eliminate D.</div><br><br>This means the correct answer is <strong>B</strong>."
+},
+{
+      "id": "VerbalT1-1-014",
+      "type": "mcq",
+      "skill": {
+                "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["grammar", "verb tense", "noun-verb agreement"],
+
+      "stem": "The prolific onslaught of AI usage has sparked debate across many industries.  One of the conflicts, reminiscent of past arguments regarding cell phone usage, <span class='blank'>_______</span> in the public education system where many see the need for adapting teaching methods to incorporate AI while others want to keep it out of the classroom entirely.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "having emerged",
+    "were emerging",
+    "has emerged",
+    "have emerged"
+  ],
+  "answerIndex": 2,
+"explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices here are different verb forms, so this question tests <strong>verb tense and agreement</strong>.</div><div class='explanation-step'>In the sentence, the subject is &ldquo;one of the conflicts&rdquo; — a singular noun. It’s followed by a long interrupting phrase (&ldquo;reminiscent of past arguments regarding cell phone usage&rdquo;) before the blank, which can make it harder to match the subject with the correct verb. Because the subject is singular, the verb must also be singular.</div><div class='explanation-step'><strong>A)</strong>&ldquo;having emerged&rdquo; is grammatically possible but changes the structure; it creates a modifying phrase (&ldquo;One of the conflicts, having emerged…&rdquo;) that makes the sentence awkward and incomplete. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;were emerging&rdquo; is plural, which disagrees with the singular subject <em>one conflict</em>. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;has emerged&rdquo; is singular and agrees with <em>one conflict</em>.  Additionally, this answer maintains the present perfect tense consistent with &ldquo;has sparked&rdquo; in the previous sentence. Keep C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;have emerged&rdquo; is plural and disagrees with <em>one conflict</em>. Eliminate D.</div><br><br>This means <strong>C</strong> is the correct answer.</div>"
+},
+{
+      "id": "VerbalT1-1-015",
+      "type": "mcq",
+      "skill": {
+               "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["grammar", "sentence structure", "run-ons and fragments"],
+
+      "stem": "The concept of crediting texts to one author is a modern one, bolstered by copyright laws and ideas of intellectual property.  Certainly, many ancient texts were not anonymous, but many were, such as <span class='blank'>_______</span> in the late tenth century as a collection of poems, this book is widely agreed to have been written by at least two authors, exemplifying the more collective approach to authorship in ancient writing.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "<em>Beowulf</em> written",
+    "<em>Beowulf</em>, written",
+    "<em>Beowulf</em>. Written",
+    "<em>Beowulf</em> and written"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested.</strong>. Here, the answer choices offer different ways of joining two clauses, so this question focuses on <strong>Sentence Structure (Run-ons and Fragments)</strong>.</div><div class='explanation-step'>To answer, determine whether the clauses before and after the blank are independent or dependent. The first clause (&ldquo;many were, such as…&rdquo;) has a subject (<em>texts</em>) and a verb (<em>were</em>), so it’s independent. The clause after the blank (&ldquo;this book is widely agreed…&rdquo;) also has both a subject and a verb, making it another independent clause. Two independent clauses can be joined correctly with a semicolon, a comma + conjunction (for, and, nor, but, or, yet, so), or by dividing them into two sentences.</div><div class='explanation-step'><strong>A)</strong>&ldquo;<em>Beowulf</em> written&rdquo; lacks any punctuation or conjunction to connect the clauses, creating a run-on. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;<em>Beowulf</em>, written&rdquo; includes a comma but no conjunction, so it also results in a run-on. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;<em>Beowulf</em>. Written&rdquo; correctly separates the two independent clauses into two complete sentences.  Keep C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;<em>Beowulf</em> and written&rdquo; uses a conjunction but no comma, again creating a run-on. Eliminate D.</div><br><br>This means the correct answer is <strong>C</strong>."
+},
+{
+      "id": "VerbalT1-1-016",
+      "type": "mcq",
+      "skill": {
+                "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["grammar", "sentence structure", "verb form"],
+
+      "stem": "Used in spiritual ceremonies and cooked in traditional dishes by the local tribe, <span class='blank'>_______</span> only in the colder, mountainous climates of the Chilean Andes.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "the Chilean rhubarb, which holds spiritual and cultural importance for the indigenous Mapuche, grows",
+    "which the indigenous Mapuche use in ceremonies and traditional dishes and grows",
+    "the indigenous Mapuche value the Chilean rhubarb for its spiritual and cultural role, which grows",
+    "the Chilean rhubarb, valued by the indigenous Mapuche, is growing"
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested.The phrase leading up to the blank is a modifying phrase that needs a clear subject to describe. This is a clue that this question is <strong>Sentence Structure (Modifier Placement and Sentence Clarity)</strong>.</div><div class='explanation-step'>When a sentence begins with a modifying phrase, the noun immediately following the comma must logically be the thing that the phrase is describing. Here, the modifier describes something &ldquo;used in spiritual ceremonies and traditional dishes,&rdquo; so the correct answer will begin with the ingredient itself.</div><div class='explanation-step'><strong>A)</strong>begins with &ldquo;the Chilean rhubarb,&rdquo; which is a correct response to the modifying phrase. The sentence is clear and grammatically correct. Keep A.</div><div class='explanation-step'><strong>B)</strong>begins with &ldquo;which the indigenous people use,&rdquo; but &ldquo;which&rdquo; cannot be the subject of the sentence, as it leaves the sentence with no main clause. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>begins with &ldquo;the indigenous Mapuche,&rdquo; making the people, not the ingredient, the subject. This creates a logical mismatch with the introductory modifier. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>begins correctly with &ldquo;the Chilean rhubarb,&rdquo; but here the verb is &ldquo;is growing,&rdquo; which incorrectly shifts the tense and meaning. The sentence does not describe an ongoing action, so this tense is incorrect. Eliminate D.</div><br><br>This means the correct answer is <strong>A</strong>."
+},
+{
+      "id": "VerbalT1-1-017",
+      "type": "mcq",
+           "skill": {
+                "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["grammar", "verb tense", "noun-verb agreement"],
+
+      "stem": "Education experts have found that early childhood classroom experiences often shape lifelong learning, and they argue that a <span class='blank'>_______</span> can provide valuable insight into how that individual approaches new challenges.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "childs memory’s",
+    "children’s memories",
+    "childrens memory’s",
+    "child’s memories"
+  ],
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices here vary in both number (singular vs. plural) and possession (use of apostrophes), so answering this question correctly depends on knowing how to form and punctuate possessive nouns correctly. This question tests <strong>Possession and Number Agreement</strong>.</div><div class='explanation-step'><strong>A)</strong>&ldquo;childs memory's&rdquo; correctly uses the singular <em>child</em>, which matches the article <em>a</em> before the blank.  However, it incorrectly makes <em>memory's</em> the possessive noun, and it should be <em>child's</em> that shows possession. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;children’s memories&rdquo; correctly places the possessive apostrophe but incorrectly uses the plural <em>children</em>. The sentence refers to an individual, so the noun must be singular. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;childrens memory’s&rdquo; contains two errors: it uses the plural <em>children</em> and incorrectly makes <em>memory’s</em> the possessive noun. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;child’s memories&rdquo; correctly uses the singular <em>child</em> and properly shows possession with the apostrophe. It also uses the plural memories to agree with the context.This means the correct answer is <strong>D</strong>.</div>"
+},
+{
+      "id": "VerbalT1-1-018",
+      "type": "mcq",
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Transitions",
+        "skill": "Logical Transition"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["logical transition"],
+
+      "stem": "From a distance, coral reefs appear static and unchanging, but closer observation shows them to be <span class='blank'>_______</span> vibrant colors and patterns shaped by countless tiny organisms working together.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "alive and their",
+    "alive, their",
+    "alive; their",
+    "alive. Their"
+  ],
+  "answerIndex": 1,
+"explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices here show different ways of connecting ideas, so this question tests <strong>Sentence Structure (Modifiers and Phrasal Construction)</strong>.</div><div class='explanation-step'>To answer, analyze the clauses before and after the blank. The first part of the sentence (&ldquo;From a distance, coral reefs…&rdquo;) has a subject (<em>coral reefs</em>) and a verb (<em>appear</em>), so it is independent (it can stand alone as a complete sentence). After the blank (&ldquo;vibrant colors and patterns…&rdquo;), the phrase describes what closer observation reveals, so the correct answer must join the two ideas clearly without creating a fragment or a run-on.</div><div class='explanation-step'><strong>A)</strong>&ldquo;alive and their&rdquo; incorrectly tries to join &ldquo;alive&rdquo; (a description) with &ldquo;their vibrant colors…&rdquo; (a noun phrase). The two parts don’t match. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;alive, their&rdquo; makes the sentence grammatically correct. The phrase after the comma, &ldquo;their vibrant colors and patterns shaped by countless tiny organisms working together,&rdquo;  describes <em>how</em> coral reefs appear alive when seen up close. It does not create any sentence structure issues such as fragments or run-ons.  Keep B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;alive; their&rdquo; uses a semi-colon, which must be followed by an independent clause (something with its own subject and verb). &ldquo;their vibrant colors and patterns shaped by…&rdquo; creates a fragment. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;alive. Their&rdquo; separates before and after the blank into two sentences, creating a fragment after the period. Eliminate D.</div><br><br>This means the correct answer is <strong>B</strong>."
+},
+{
+      "id": "VerbalT1-1-019",
+      "type": "mcq",
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Transitions",
+        "skill": "Logical Transition"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["logical transition"],
+
+      "stem": "The International Boundary and Water Commission, acting in consultation with the International Joint Commission and other relevant stakeholders, <span class='blank'>_______</span> reviewing historical treaties and agreements regarding the distribution of Colorado River water, particularly in regions affected by prolonged drought conditions.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "is",
+    "are",
+    "is being",
+    "have been"
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices here are different verb forms, so this question tests <strong>verb tense and agreement</strong>.</div><div class='explanation-step'>In the sentence, the subject is the &ldquo;International Boundary and Water Commission&rdquo; — a singular noun. It’s followed by a long interrupting phrase (&ldquo;acting in consultation with...&rdquo;) before the blank, which can make it harder to match the subject with the correct verb. Because the subject is singular, the verb must also be singular.</div><div class='explanation-step'><strong>A)</strong>&ldquo;is&rdquo; correctly matches the singular <em>Commission</em> in number, and the present tense of the verb matches the present action &ldquo;acting.&rdquo;  Keep A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;are&rdquo; is plural, and this does not agree with the singular subject. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;is being&rdquo; doesn’t work in this sentence. The words &ldquo;being reviewing&rdquo; can’t appear together — &ldquo;being&rdquo; would require a form of reviewed (as in &ldquo;is being reviewed&rdquo;), not reviewing. The tense combination is incorrect and makes the sentence ungrammatical. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;has been&rdquo; is a plural conjugation, and this does not agree with the singular subject. Eliminate D.</div><br><br>This means the correct answer is <strong>A</strong>."
+},
+{
+      "id": "VerbalT1-1-020",
+      "type": "mcq",
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Transitions",
+        "skill": "Logical Transition"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["logical transition"],
+
+      "stem": "There is an increasing emphasis on the necessity of computer literacy for college applicants, with many universities highlighting technology requirements in admissions materials. \rule{1.5cm}{0.4pt} more parents are enrolling their high school–aged children in summer courses offered by local school districts to strengthen their technology skills. <span class='blank'>_______</span> more parents are enrolling their high school–aged children in summer courses offered by local school districts to strengthen their technology skills.<br><br>Which choice completes the text with the most logical transition?",
+  "choices": [
+    "Consequently,",
+    "Alternatively,",
+    "More importantly,",
+    "Conversely,"
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas, either between sentences or within a single sentence. To find the correct answer, find how the ideas connect; the second idea is usually a cause, result, contrast, or example of the first.</div><div class='explanation-step'>Here, the first sentence emphasizes the growing importance of computer literacy among college applicants. The second sentence describes a related effect in that parents are responding by enrolling their children in technology courses. Because the second sentence presents a <em>result</em> of the first, the correct transition should show <em>cause and effect</em>.</div><div class='explanation-step'><strong>A)</strong>&ldquo;Consequently&rdquo; means as a result and correctly links the two ideas, showing that parents’ actions stem from the growing emphasis on computer literacy. Keep A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;Alternatively&rdquo; introduces a different option or another possibility, but the second sentence is not an alternative. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;More importantly&rdquo; places emphasis on the second idea, but the passage doesn’t suggest that one idea outweighs the other. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;Conversely&rdquo; signals contrast or opposition, which doesn’t fit the cause-and-effect relationship here. Eliminate D.</div><br><br>This means the correct answer is <strong>A</strong>."
+},
+{
+      "id": "VerbalT1-1-021",
+      "type": "mcq",
+      "skill": {
+       "domain": "Expression of Ideas",
+        "topic": "Transitions",
+        "skill": "Logical Transition"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["logical transition"],
+
+      "stem": "As a young artist, Picasso conveyed deeply emotional themes through paintings and sculptures that displayed subjects in their everyday, recognizable form. These works were admired by critics for their expressiveness, and many assumed Picasso would continue exploring this style. <span class='blank'>_______</span> Picasso abandoned this traditional perspective, inventing <em>Cubism</em>, in which he used shapes and abstract forms to depict his subjects.<br><br>Which choice completes the text with the most logical transition?",
+  "choices": [
+    "Finally,",
+    "Similarly,",
+    "Therefore,",
+    "Instead,"
+  ],
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas, either between sentences or within a single sentence. To find the correct answer, find how the ideas connect; the second idea is usually a cause, result, contrast, or example of the first.</div><div class='explanation-step'>Here, the first two sentences describe Picasso’s early, realistic style that critics expected him to maintain. The next sentence reverses that expectation by saying that he abandoned this traditional approach. Because the passage shifts in direction, the best transition word should signal contrast—something like <em>However</em>.</div><div class='explanation-step'><strong>A)</strong>&ldquo;Finally,&rdquo; introduces the last idea in a sequence, usually following transitions such as <em>First</em> or <em>Next</em>. This context doesn’t involve a sequence. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;Similarly,&rdquo; indicates a parallel or continuing idea, but the third sentence contrasts with the earlier ones. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;Therefore,&rdquo; signals cause and effect, which isn’t the relationship between these ideas. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;Instead,&rdquo; correctly signals contrast, showing that Picasso moved in a new and unexpected artistic direction.This means the correct answer is <strong>D</strong>.</div>"
+},
+{
+      "id": "VerbalT1-1-022",
+      "type": "mcq",
+          "skill": {
         "domain": "Expression of Ideas",
         "topic": "Rhetorical Synthesis",
         "skill": "Using Notes"
       },
 
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["student research", "summarizing ideas"],
+
       "stemSegments": [
-        {
-          "text": "A student is writing a report about the benefits of urban farming and has taken the following notes:",
-          "align": "left",
-          "style": "intro"
-        },
-        {
-          "text": "• Urban farms produce fresh food in areas where grocery stores are scarce (known as food deserts).\n• Studies show urban farming reduces residents' stress and improves mental health.\n• Community gardens create social bonds among neighbors.\n• Urban farming can reduce a city's carbon footprint by decreasing food transportation distances.",
-          "align": "left",
-          "style": "notes"
-        },
-        {
-          "text": "The student wants to highlight the environmental benefit of urban farming. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
-          "align": "left",
-          "style": "question"
-        }
-      ],
-
-      "choices": [
-        "Urban farming provides fresh food to communities that lack access to grocery stores.",
-        "Community gardens not only grow food but also strengthen social connections among neighbors.",
-        "By shortening the distance food travels from farm to table, urban farming can lower a city's carbon emissions.",
-        "Research suggests that participating in urban farming activities can reduce stress and improve mental health."
-      ],
-
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>The goal is to highlight the <em>environmental</em> benefit. Only Answer C addresses the environment — specifically the reduction in carbon emissions from shorter food transportation distances. Answers A and D address food access and mental health respectively. Answer B focuses on social benefits.</div>"
+    {
+      "text": "While researching a topic, a student has taken the following notes:",
+      "align": "left",
+      "style": "default"
+    },
+    {
+      "text": "• The New Deal, initiated by President Roosevelt in response to the Great Depression, aimed to restore economic security and stability for Americans.\n• Implemented in the 1930s, the New Deal introduced regulatory reforms and social welfare programs to stabilize the economy.\n• The major initiatives of the New Deal also sought to rebuild public trust in financial institutions and strengthen the nation’s banking system.\n• The Great Society, launched in the 1960s, sought to reduce poverty and address social inequalities across the United States.\n• Under President Johnson, the Great Society introduced programs to enhance education, protect civil rights, and expand access to healthcare.",
+      "align": "left",
+      "style": "notes"
+    },
+    {
+      "text": "The student wants to highlight how the New Deal and the Great Society focused on different social and economic goals. Which choice most effectively uses relevant information from the notes to show this difference?",
+      "align": "left",
+      "style": "question"
     }
+  ],
+  "choices": [
+    "The New Deal, initiated by President Roosevelt in response to the Great Depression, aimed to restore economic security and stability for Americans, and the Great Society, launched in the 1960s, sought to reduce poverty and address social inequalities across the United States.",
+    "The major initiatives of the New Deal targeted unemployment, financial instability, and the erosion of public confidence in the banking system, and the Great Society introduced programs to enhance education, protect civil rights, and expand access to healthcare.",
+    "While the New Deal primarily addressed economic recovery, regulatory reforms, and banking stability, the Great Society focused on reducing poverty, expanding access to education, and promoting civil rights.",
+    "The New Deal was implemented in the 1930s, and the Great Society was launched in the 1960s."
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>For <em>Student Research</em> questions, focus on what the student wants to highlight or accomplish. In this case, the student wants to <em>contrast</em> the New Deal and the Great Society and their <em>different social and economic goals</em>. The correct answer must therefore mention both programs and make the contrast in their goals clear.  Looking at the list of bulleted notes, the following state those goals:<ul style='margin-top:8px; margin-bottom:8px; padding-left:20px; line-height:1.8;'><li>The New Deal, initiated by President Roosevelt in response to the Great Depression, aimed to restore economic security and stability for Americans.</li><li>The Great Society, launched in the 1960s, sought to reduce poverty and address social inequalities across the United States.</li></ul></div><div class='explanation-step'>The correct answer should paraphrase these stated goals and should indicate a contrast between them.</div><div class='explanation-step'><strong>A)</strong>This answer is accurate and mentions both programs with their goals. It might seem correct at first glance, so keep A for now.</div><div class='explanation-step'><strong>B)</strong>This choice gives detailed examples of the programs rather than a broad contrast of goals, which makes it less aligned with the task. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>This choice uses the word &ldquo;while,&rdquo; which signals contrast and clearly distinguishes the focus of each program. It directly fulfills the prompt’s goal of contrasting their different aims. Keep C.</div><div class='explanation-step'><strong>D)</strong>This is purely chronological and doesn’t mention the programs’ goals. Eliminate D.</div><div class='explanation-step'>Now compare A and C: although A accurately describes both programs, it lists them side by side rather than contrasting them. The lack of a transition like &ldquo;while&rdquo; or &ldquo;whereas&rdquo; means it doesn’t fulfill the rhetorical goal, and makes C the <em>best</em> answer. Eliminate A and this means <strong>C</strong> is the correct answer.</div>"
+},
+{
+      "id": "VerbalT1-1-023",
+      "type": "mcq",
+      
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Rhetorical Synthesis",
+        "skill": "Using Notes"
+      },
+      "stemSegments": [
+    {
+      "text": "While researching a topic, a student has taken the following notes:",
+      "align": "left",
+      "style": "default"
+    },
+    {
+      "text": "• Marie Curie was a pioneering research scientist who studied and conducted her research at the University of Paris during the late 1800s and early 1900s.\n• Curie discovered polonium and radium, two new elements.\n• She was the first woman to win a Nobel Prize and the only individual ever to win the prize in two different sciences.\n• Curie's discoveries aided in advancing cancer treatment and deepened the scientific community's understanding of atomic structure.",
+      "align": "left",
+      "style": "notes"
+    },
+    {
+      "text": "The student wants to highlight Marie Curie’s unique accomplishments compared to other scientists. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "align": "left",
+      "style": "question"
+    }
+  ],
+  "choices": [
+    "Marie Curie conducted pioneering research on radioactivity and discovered the elements polonium and radium.",
+    "Marie Curie advanced cancer treatment and contributed to knowledge of atomic structure.",
+    "Marie Curie carried out her research in the late 19th and early 20th centuries.",
+    "Marie Curie was the first woman to win a Nobel Prize and the only person ever to be awarded Nobel Prizes in two different sciences."
+  ],
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>For <em>Student Research</em> questions, focus on what the student wants to highlight or accomplish. In this case, the student wants to <em>highlight Marie Curie’s unique accomplishments compared to other scientists</em>. The correct answer must therefore mention something that Curie accomplished that others did not.  Looking at the list of bulleted notes, the following highlights those accomplishments:<ul style='margin-top:8px; margin-bottom:8px; padding-left:20px; line-height:1.8;'><li>She was the first woman to win a Nobel Prize and the only individual ever to win the prize in two different sciences.</li></ul></div><div class='explanation-step'>Although the others list her accomplishments, this one also highlights an accomplishment that is unique to her. The correct answer will paraphrase this bullet.</div><div class='explanation-step'><strong>A)</strong>Although this answer names something that she did, it isn't a <em>unique accomplishment</em> and it doesn't mention that others did not do the same. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>Similar to A, this answer does not speak to the uniqueness of this accomplishment. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>This choice states a fact about when she did her work, and does not mention any accomplishments. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>This answer correctly identifies the accomplishment and states that she was the only one to achieve this, making it unique to her.  This means <strong>D</strong> is the correct answer.</div>"
+},
+{
+      "id": "VerbalT1-1-024",
+      "type": "mcq",
+      
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Rhetorical Synthesis",
+        "skill": "Using Notes"
+      },
+      "stemSegments": [
+    {
+      "text": "While researching a topic, a student has taken the following notes:",
+      "align": "left",
+      "style": "default"
+    },
+    {
+      "text": "•Sea otters are mammals that live in the shallow waters of the Pacific Ocean.\n• They use rocks to get through the hard exterior shells of shellfish, an important food source.\n• Lacking blubber, sea otters rely on dense fur to maintain body heat in cold ocean waters.\n• Beavers are mammals found in freshwater habitats, such as rivers and ponds, across North America, Europe, and Asia.\n•Beavers construct dams and lodges both to protect themselves from predators and to store food.\n•Beavers maintain body temperature through a combination of body fat and the insulation provided by their lodges.",
+      "align": "left",
+      "style": "notes"
+    },
+    {
+      "text": "The student wants to emphasize a similarity between sea otters and beavers in how they survive in aquatic environments. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "align": "left",
+      "style": "question"
+    }
+  ],
+  "choices": [
+    "Sea otters use rocks to break open shellfish, while beavers construct dams and lodges to protect themselves and store food.",
+    "Both sea otters and beavers have adaptations that help them survive in aquatic habitats: sea otters use rocks and dense fur, while beavers build lodges and rely on body fat.",
+    "Sea otters inhabit the shallow waters of the Pacific Ocean, and beavers are found in rivers and ponds across North America, Europe, and Asia.",
+    "Lacking blubber, sea otters rely on their fur, and beavers maintain body temperature with body fat and lodges."
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>For <em>Student Research</em> questions, focus on what the student wants to highlight or accomplish. In this case, the student wants to highlight a <em>similarity between sea otters and beavers in how they survive in aquatic environments</em>. The correct answer must therefore mention both sea otters and beavers and make the similarity in how they survive in water.  Looking at the list of bulleted notes, the following highlights how each survives in aquatic environments: <ul style='margin-top:8px; margin-bottom:8px; padding-left:20px; line-height:1.8;'><li>Lacking blubber, sea otters rely on dense fur to maintain body heat in cold ocean waters.</li><li>Beavers maintain body temperature through a combination of body fat and the insulation provided by their lodges.</li></ul></div><div class='explanation-step'>The correct answer must paraphrase these notes.</div><div class='explanation-step'><strong>A)</strong>This choice <em>contrasts</em> the way sea otters and beavers use their environment to eat and store food, so it is incorrect both in that it does not highlight a <em>similarity</em> and it makes the wrong comparison (not about survival in water). Eliminate A.</div><div class='explanation-step'><strong>B)</strong>Beginning with the word &ldquo;both,&rdquo; this answer is set up to highlight a <em>similarity</em> and that comparison is about how both sea otters and beavers survive the cold waters, the comparison required for this question. Keep B.</div><div class='explanation-step'><strong>C)</strong>This answer simply states where sea otters and beavers live and does not highlight a similarity about how they survive the waters. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>This answer, although tempting, does not contain any comparison words like <em>both</em>.  Additionally, it does not mention <em>why</em> they have these biological tools to maintain body temperature, a critical part of what the student wants to highlight. Eliminate D.</div><br><br>This means the correct answer is <strong>B</strong>."
+},
+{
+      "id": "VerbalT1-1-025",
+      "type": "mcq",
+      
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Rhetorical Synthesis",
+        "skill": "Using Notes"
+      },
+      "stemSegments": [
+    {
+      "text": "While researching a topic, a student has taken the following notes:",
+      "align": "left",
+      "style": "default"
+    },
+    {
+      "text": "•Langston Hughes (1901-1967) was an African American poet, novelist, playwright, and journalist.\n• Hughes often wrote about the everyday lives and struggles of Black people with honesty and pride.\n• He worked as a journalist, including reporting during the Spanish Civil War.\n• The Harlem Renaissance was a period of prolific African-American artistic and cultural expression in New York, and Hughes is often thought of as the most prominent figure of the movement.\n•Hughes' prominence in the Harlem Renaissance is thought to be due to his innovative integration of jazz rhythms into his poetry as well as his focus on  the experiences of Black Americans.",
+      "align": "left",
+      "style": "notes"
+    },
+    {
+      "text": "The student wants to emphasize the significance of Langston Hughes’s role in the Harlem Renaissance. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "align": "left",
+      "style": "question"
+    }
+  ],
+  "choices": [
+    "Langston Hughes worked as a journalist during the Spanish Civil War.",
+    "Hughes wrote about the everyday lives of Black Americans during the Harlem Renaissance, reflecting honesty and pride in his poems, novels, and plays.",
+    "The Harlem Renaissance was a period of African American cultural and artistic expression in New York, and Hughes is often considered its most prominent figure because of his innovative use of jazz rhythms in poetry and his focus on Black experiences.",
+    "Hughes's real and dignified depiction of the lived experiences of Black Americans earned him a place as one of the most influential American writers of the 20th century."
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>For <em>Student Research</em> questions, focus on what the student wants to highlight or accomplish. In this case, the student wants to emphasize the <em>significance of Langston Hughes’s role in the Harlem Renaissance</em>. Therefore, the correct answer must mention Hughes's role in the Harlem Renaissance and why it was important.  Looking at the list of bulleted notes, the following emphasizes this significance:<ul style='margin-top:8px; margin-bottom:8px; padding-left:20px; line-height:1.8;'><li>Hughes' prominence in the Harlem Renaissance is thought to be due to his innovative integration of jazz rhythms into his poetry as well as his focus on  the experiences of Black Americans.</li></ul></div><div class='explanation-step'>The correct answer must paraphrase this note.</div><div class='explanation-step'><strong>A)</strong>This answer is merely factual and does not mention the Harlem Renaissance. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>Although this choice mentions the work he did during the Harlem Renaissance, it does not mention <em>why</em> Hughes's work was significant. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>This answer not only states his role in the Harlem Renaissance but also why it was significant to the movement. Keep C.</div><div class='explanation-step'><strong>D)</strong>This answer, although it mentions the overall importance of Hughes's work, it does not specifically reference the Harlem Renaissance. Eliminate D.</div><br><br>This means the correct answer is <strong>C</strong>."
+},
+{
+      "id": "VerbalT1-1-026",
+      "type": "mcq",
+      
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Rhetorical Synthesis",
+        "skill": "Using Notes"
+      },
+      "stemSegments": [
+    {
+      "text": "While researching a topic, a student has taken the following notes:",
+      "align": "left",
+      "style": "default"
+    },
+    {
+      "text": "•Pluto was discovered in 1930 and classified as a planet, making it the ninth in the category of planets.\n• Pluto orbits in a region beyond Neptune.\n• In the early 2000s, astronomers discovered other bodies beyond Neptune, some similar in size and composition to Pluto, raising questions about whether Pluto was correctly classified as a planet.\n• Due to the debate over Pluto, in 2006 the International Astronomical Union (IAU) defined a planet as an object that orbits the Sun, is spherical, and has cleared its orbit of other debris.\n•Pluto failed the the new definition because its orbit is not clear of other debris.  Pluto was reclassified as a dwarf planet.",
+      "align": "left",
+      "style": "notes"
+    },
+    {
+      "text": "The student wants to introduce how changes in astronomical definitions can affect the way celestial bodies are classified to an audience that is not familiar with how planets are classified . Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "align": "left",
+      "style": "question"
+    }
+  ],
+  "choices": [
+    "In 2006, the International Astronomical Union established a definition of &ldquo;planet,&rdquo; requiring an object to orbit the Sun, be spherical, and clear its orbit of debris, a decision that led to Pluto’s reclassification.",
+    "Pluto orbits in a region beyond Neptune and is now considered a dwarf planet rather than a planet.",
+    "Pluto was discovered in 1930 and classified as the ninth planet in the solar system.",
+    "In the early 2000s, astronomers discovered other bodies beyond Neptune, some similar to Pluto, raising questions about Pluto’s classification."
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>For <em>Student Research</em> questions, focus on what the student wants to highlight or accomplish. In this case, the student wants to <em>how changes in astronomical definitions can affect the way celestial bodies are classified</em>. The correct answer must therefore why astronomical definitions are important in classifying planets.  Looking at the list of bulleted notes, the following emphasizes this significance: <ul style='margin-top:8px; margin-bottom:8px; padding-left:20px; line-height:1.8;'><li>Due to the debate over Pluto, in 2006 the International Astronomical Union (IAU) defined a planet as an object that orbits the Sun, is spherical, and has cleared its orbit of other debris.</li><li>Pluto failed the the new definition because its orbit is not clear of other debris.  Pluto was reclassified as a dwarf planet.</li></ul></div><div class='explanation-step'>The correct answer must paraphrase these notes.</div><div class='explanation-step'><strong>A)</strong>This answer both mentions a change in the astronomical definition of <em>planet</em> and how it led to a reclassification of Pluto.  It introduces <em>how</em> astronomical definition changes <em>affect</em> the classification of celestial bodies. Keep A.</div><div class='explanation-step'><strong>B)</strong>This choice states the fact that Pluto has been reclassified, but does not discuss how astronomical definitions led to this change.  Eliminate B.</div><div class='explanation-step'><strong>C)</strong>This choice states a fact about Pluto and its discovery, but does not mention any details about astronomical definitions or even the reclassification of Pluto. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>This choice <em>does</em> mention what led to questioning Pluto's classification, but does not mention astronomical definitions or that Pluto was ultimately reclassified. Eliminate D.</div><br><br>This means the correct answer is <strong>A</strong>."
+},
+{
+      "id": "VerbalT1-1-027",
+      "type": "mcq",
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Transitions",
+        "skill": "Logical Transition"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["logical transition"],
+
+      "stem": "&ldquo;She Walks in Beauty&rdquo; is a poem written by Lord Byron in 1814. In the poem, Byron suggests that true beauty arises from harmony between qualities of outer appearance and inner character.<br><br>Which quotation from &ldquo;She Walks in Beauty&rdquo; most effectively illustrates the claim?",
+  "choices": [
+    "&ldquo;One shade the more, one ray the less, Had half impaired the nameless grace&rdquo;",
+    "&ldquo;And all that’s best of dark and bright, meet in her aspect and her eyes&rdquo;",
+    "&ldquo;Where thoughts serenely sweet express, How pure, how dear their dwelling place&rdquo;",
+    "&ldquo;She walks in beauty, like the night Of cloudless climes and starry skies&rdquo;"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>For <em>Illustrating Claims</em> questions, where you are asked to find a supporting quotation, the correct answer will directly and completely support or illustrate a claim about the text. In this question, the correct answer needs to show both the woman's <em>outer appearance</em> and her <em>inner character</em>.</div><div class='explanation-step'><strong>A)</strong>This choice focuses only on outer beauty. It emphasizes balance of features, not the connection between her physical appearance and inner character. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>This choice seems to show a contrast (&ldquo;dark and bright&rdquo;), which <em>could</em> highlight harmony, but both &ldquo;her aspect&rdquo; and &ldquo;her eyes&rdquo; are references to her physical features only.  Eliminate B.</div><div class='explanation-step'><strong>C)</strong>This choice mentions both her inner character in &ldquo;thoughts serenely sweet express&rdquo; and her outer appearance in &ldquo;their dwelling place.&rdquo; This line illustrates the harmony between inner character and outer appearance. Keep C.</div><div class='explanation-step'><strong>D)</strong>This choice compares her beauty to the surrounding environment, rather than connecting it to her inner character.  Eliminate D.</div><br><br>This means the correct answer is <strong>C</strong>."
+}
 
   ]
 }

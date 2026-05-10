@@ -32,6 +32,7 @@ let reviewReveal = false;
 let missedIndexes = [];
 let missedPointer = -1;
 let isPracticeMode = false;
+let currentSubject = "math";
 let practiceQuestionPool = [];
 let practiceSidebarTree = {};
 let practiceSelectionLabel = "";
@@ -157,7 +158,9 @@ async function savePracticeSessionToDB() {
     return null;
   }
 
-  const setId = "digital_sat_practice";
+const subject = params.get("subject") || "math";
+currentSubject = subject;
+const setId = subject === "verbal" ? "verbal_practice_bank" : "digital_sat_practice";
 
 let mergedAnswers = { ...answers };
 
@@ -780,14 +783,14 @@ currentMode = mode;
 setAppView("session");
 document.body.classList.remove("practice-sidebar-ready");
 const isDemo = params.get("demo") === "1";
-
+currentSubject = params.get("subject") || "math";
 const file = options.forceFile
   ? options.forceFile
   : (isDemo
       ? "demo.json"
       : (mode === "practice"
     ? (params.get("subject") === "verbal" ? "verbal-practice.json" : "practice.json")
-    : "MathT1-Mod1.json"));
+    : (params.get("subject") === "verbal" ? "VerbalT1-Mod1.json" : "MathT1-Mod1.json")));
 
 console.log("Mode:", mode, "File:", file);
 currentModuleFile = file;
@@ -819,6 +822,20 @@ fetch(file)
       window.__SAT_SIM_DATA_LOADED__ = true;
 
       data = json;
+      const titleEl = document.getElementById("moduleTitle");
+if (titleEl) {
+  if (data.title) {
+    titleEl.textContent = data.title;
+  } else {
+    const subj = currentSubject === "verbal" ? "Verbal" : "Math";
+    const modNum = (data.moduleId || "").includes("Mod2") ? "Module 2" : "Module 1";
+    titleEl.textContent = `SAT ${subj} — ${modNum}`;
+  }
+}
+const calculatorBtn = document.getElementById("calculatorBtn");
+if (calculatorBtn) {
+  calculatorBtn.style.display = currentSubject === "verbal" ? "none" : "";
+}
       isPracticeMode = data.mode === "practice" || mode === "practice";
       document.body.classList.toggle("practice-mode", isPracticeMode);
       if (isPracticeMode) {
@@ -832,7 +849,7 @@ fetch(file)
   isPracticeSidebarOpen = false;
   document.body.classList.remove("practice-sidebar-open");
 }
-if (mode === "test" && options.resume) {
+if (mode === "test" && (options.resume || resume)) {
   const rawSaved = localStorage.getItem("satLastTestSession");
 
   if (rawSaved) {
@@ -865,9 +882,45 @@ if (mode === "test" && options.resume) {
   timeLeft = Math.floor((data.timeSeconds || 0) * timeMultiplier);
   sessionAnswers = {};
 }
+// handle test review from test-history
+if (!isPracticeMode && reviewMode && reviewSessionId) {
+  const reviewSession = await getPracticeSessionById(reviewSessionId);
+
+  if (reviewSession && reviewSession.answers) {
+    answers = reviewSession.answers || {};
+    reviewReveal = true;
+
+    const sessionSubject = reviewSession.subject || currentSubject || "math";
+    const mod1File = sessionSubject === "verbal" ? "VerbalT1-Mod1.json" : "MathT1-Mod1.json";
+    const mod2File = sessionSubject === "verbal" ? "VerbalT1-Mod2E.json" : "MathT1-Mod2E.json";
+
+    const [mod1Res, mod2Res] = await Promise.all([fetch(mod1File), fetch(mod2File)]);
+    const [mod1Json, mod2Json] = await Promise.all([mod1Res.json(), mod2Res.json()]);
+
+    const testPool = [
+      ...(mod1Json.questions || []),
+      ...(mod2Json.questions || [])
+    ];
+
+    const answeredIds = Object.keys(answers);
+    const reviewQuestions = testPool.filter(q => answeredIds.includes(String(q.id)));
+
+    data.questions = reviewQuestions;
+    current = 0;
+
+    currentReviewMode = reviewMode === "incorrect" ? "missed" : "all";
+
+    const loadingOverlay = document.getElementById("loadingOverlay");
+    if (loadingOverlay) loadingOverlay.style.display = "none";
+
+    renderReviewScreen(currentReviewMode);
+    document.addEventListener("keydown", handleReviewKeydown);
+    return;
+  }
+}
 if (isPracticeMode) {
   const fullPracticePool = [...data.questions];
-  const setId = "digital_sat_practice";
+  const setId = currentSubject === "verbal" ? "verbal_practice_bank" : "digital_sat_practice";
   if (reviewMode === "summary") {
   const sessions = await getAllPracticeSessions();
 
@@ -901,7 +954,6 @@ if (isPracticeMode) {
 </div>
     </div>
   `;
-
   document.body.innerHTML = resultsSummaryHTML;
   renderScoreBanner({
   title: "Cumulative Summary",
@@ -917,23 +969,34 @@ if (isPracticeMode) {
 }
 
   if (reviewMode) {
-    const reviewSession = await getPracticeSessionById(reviewSessionId);
+  const reviewSession = await getPracticeSessionById(reviewSessionId);
 
-    if (reviewSession && reviewSession.answers) {
-      answers = reviewSession.answers || {};
-      reviewReveal = true;
+  if (reviewSession && reviewSession.answers) {
+    answers = reviewSession.answers || {};
+    reviewReveal = true;
 
-      const sessions = await getAllPracticeSessions();
+    // load the correct question pool based on session subject
+    const sessionSubject = reviewSession.subject || params.get("subject") || "math";
+    const poolFile = sessionSubject === "verbal" ? "verbal-practice.json" : "practice.json";
 
-let answerMap = {};
-sessions.forEach(s => {
-  Object.assign(answerMap, s.answers || {});
-});
-      const answeredQuestionIds = Object.keys(answerMap);
+    let sessionPool = fullPracticePool;
+    if (poolFile !== "practice.json") {
+      const poolRes = await fetch(poolFile);
+      const poolJson = await poolRes.json();
+      sessionPool = poolJson.questions || [];
+    }
 
-      let reviewQuestions = fullPracticePool.filter(q =>
-        answeredQuestionIds.includes(String(q.id))
-      );
+    const sessions = await getAllPracticeSessions();
+
+    let answerMap = {};
+    sessions.forEach(s => {
+      Object.assign(answerMap, s.answers || {});
+    });
+    const answeredQuestionIds = Object.keys(answers); // use this session's answers only
+
+    let reviewQuestions = sessionPool.filter(q =>
+      answeredQuestionIds.includes(String(q.id))
+    );
 if (reviewMode === "summary") {
   practiceQuestionPool = fullPracticePool.filter(q =>
     answeredQuestionIds.includes(String(q.id))
@@ -1015,7 +1078,7 @@ if (reviewMode === "summary") {
     }
   } else {
     const existingSession = await getExistingPracticeSession(setId);
-
+    console.log("setId:", setId, "existingSession:", existingSession);
     let answeredIds = [];
 
     if (resume && existingSession) {
@@ -1100,7 +1163,9 @@ if (reviewMode) {
   reviewIndices = data.questions.map((_, i) => i);
   reviewPointer = 0;
   reviewReveal = false;
-  renderReviewScreen(reviewMode === "incorrect" ? "missed" : "all");
+  currentReviewMode = reviewMode === "incorrect" ? "missed" : "all";
+renderReviewScreen(currentReviewMode);
+document.addEventListener("keydown", handleReviewKeydown);
 } else {
   renderQuestion();
 }
@@ -1112,8 +1177,10 @@ requestAnimationFrame(() => {
       appInitialized = true;
       isReady = true;
 
-      document.getElementById("prevBtn").disabled = false;
-document.getElementById("nextBtn").disabled = false;
+      const prevBtn = document.getElementById("prevBtn");
+const nextBtn = document.getElementById("nextBtn");
+if (prevBtn) prevBtn.disabled = false;
+if (nextBtn) nextBtn.disabled = false;
 
 const submitBtn = document.getElementById("submitBtn");
 if (submitBtn) {
@@ -1757,7 +1824,9 @@ function renderReviewScreen(mode) {
   document.body.innerHTML = `
     <div class="appPage">
       <div class="appHeaderRow">
-        <button class="reviewMissedBtn secondary" onclick="backToSummary()">Back to Summary</button>
+        <button class="reviewMissedBtn secondary" onclick="backToSummary()">
+  ${new URLSearchParams(window.location.search).get("sessionId") ? "← Session History" : "Back to Summary"}
+</button>
         <div class="appSubtitle" style="margin:0;font-weight:800;color:#111;">${reviewLabel}</div>
       </div>
 
@@ -1802,7 +1871,13 @@ function renderReviewScreen(mode) {
           ${correct ? "✅ Correct" : "❌ Incorrect"}
         </div>
 
-        <div class="q-stem">${q.stem}</div>
+        <div class="q-stem">${q.stemSegments
+  ? q.stemSegments.map(seg => {
+      const alignClass = seg.align === "center" ? "stem-seg-center" : "stem-seg-left";
+      const styleClass = `stem-seg-${seg.style || "default"}`;
+      return `<div class="stem-segment ${alignClass} ${styleClass}">${seg.text}</div>`;
+    }).join("")
+  : q.stem}</div>
 
         <div id="reviewAnswerArea" class="reviewAnswerArea" style="margin-top:18px;">
           ${answerHTML}
@@ -1895,6 +1970,14 @@ function jumpToReviewQuestion(mode) {
 }
 function backToSummary() {
   document.removeEventListener("keydown", handleReviewKeydown);
+  
+  const params = new URLSearchParams(window.location.search);
+  if (params.get("sessionId")) {
+    const mode = params.get("mode");
+    window.location.href = mode === "test" ? "test-history.html" : "history.html";
+    return;
+  }
+
   document.body.innerHTML = resultsSummaryHTML;
   renderScoreBanner();
   typesetMath();
@@ -1906,6 +1989,14 @@ window.reviewPrev = reviewPrev;
 window.reviewNext = reviewNext;
 window.jumpToReviewQuestion = jumpToReviewQuestion;
 
+function goBackFromTopicSummary() {
+  console.log("prevSummaryHTML:", window.__prevSummaryHTML ? "exists" : "null");
+  if (window.__prevSummaryHTML) {
+    document.body.innerHTML = window.__prevSummaryHTML;
+  } else {
+    window.location.href = "history.html";
+  }
+}
 function renderScoreBanner(options = {}) {
   const title = options.title || "Test Complete";
   const answeredQuestions = data.questions.filter(q => answers[q.id]);
@@ -2297,10 +2388,11 @@ isPaused = true;
 console.log("submitTest moduleId:", data?.moduleId);
 
 if ((data?.moduleId || "").trim().includes("Mod1")) {
-  // save module 1 questions and answers before loading module 2
   window.__testModule1Questions = data.questions;
   window.__testModule1Answers = { ...answers };
-  const nextFile = getModule2FileFromModule1();
+  const nextFile = data.subject === "verbal"
+    ? "VerbalT1-Mod2E.json"
+    : getModule2FileFromModule1();
   loadNextModule(nextFile);
   return;
 }
@@ -2375,6 +2467,40 @@ localStorage.setItem("satLastTestSession", JSON.stringify({
 
   resultsSummaryHTML = reviewHTML;
 
+  // Save completed test snapshot
+  (async () => {
+    try {
+      const { data: userData } = await window.supabaseClient.auth.getUser();
+      const user = userData?.user;
+      if (!user) return;
+
+      const answeredQuestions = data.questions.filter(q => answers[q.id]);
+      const totalAnswered = answeredQuestions.length;
+      const correct = answeredQuestions.filter(q => isQuestionCorrect(q)).length;
+
+      const topicSet = new Set();
+      answeredQuestions.forEach(q => {
+        const t = getTopic(q.skill);
+        if (t) topicSet.add(t);
+      });
+
+      await window.supabaseClient.from("test_sessions").insert({
+        user_id: user.id,
+        test_id: currentSubject === "verbal" ? "VerbalT1" : "MathT1",
+        module: 2,
+        module_file: "completed",
+        status: "completed",
+        answers: answers,
+        correct_count: correct,
+        total_count: totalAnswered,
+        topics: [...topicSet].join(", "),
+        subject: currentSubject
+      });
+    } catch (err) {
+      console.error("Failed to save test snapshot:", err);
+    }
+  })();
+
   document.body.innerHTML = resultsSummaryHTML;
   renderScoreBanner();
   typesetMath();
@@ -2426,12 +2552,12 @@ function showTopicMiniSummary(topic, domain, correct, total) {
   const topicQuestions = data.questions.filter(q => getTopic(q.skill) === topic);
 
   const prev = document.body.innerHTML;
-
+  const cameFromHistory = !!new URLSearchParams(window.location.search).get("sessionId");
   document.body.innerHTML = `
     <div class="appPage">
-      <button class="summaryAction secondary" onclick="document.body.innerHTML = window.__prevSummaryHTML" style="margin-bottom:24px;">
-        ← Back to Summary
-      </button>
+      <button class="summaryAction secondary" id="backFromTopicBtn" style="margin-bottom:24px;">
+  ← Back
+</button>
 
       <h1 class="appTitle">${topic}</h1>
       <p class="appSubtitle" style="color:#4f46e5; font-weight:700; font-size:13px; text-transform:uppercase; letter-spacing:0.06em;">${domain}</p>
@@ -2459,8 +2585,14 @@ function showTopicMiniSummary(topic, domain, correct, total) {
       </div>
     </div>
   `;
-
-  window.__prevSummaryHTML = prev;
+document.getElementById("backFromTopicBtn").addEventListener("click", () => {
+  if (window.__prevSummaryHTML) {
+    document.body.innerHTML = window.__prevSummaryHTML;
+  } else {
+    window.location.href = "history.html";
+  }
+});
+  window.__prevSummaryHTML = cameFromHistory ? null : prev;
   window.__topicReviewQuestions = topicQuestions;
 }
 
@@ -2552,23 +2684,25 @@ function endPracticeSession() {
       });
 
       await window.supabaseClient.from("practice_sessions").insert({
-        user_id: user.id,
-        set_id: "session_snapshot",
-        status: "completed",
-        answers: answers,
-        correct_count: correct,
-        total_count: totalAnswered,
-        topics: [...topicSet].join(", ")
-      });
+  user_id: user.id,
+  set_id: "session_snapshot",
+  status: "completed",
+  answers: answers,
+  correct_count: correct,
+  total_count: totalAnswered,
+  topics: [...topicSet].join(", "),
+  subject: currentSubject
+});
     } catch (err) {
       console.error("Failed to save session snapshot:", err);
     }
   })();
 
   document.body.innerHTML = resultsSummaryHTML;
+  
 }
 function restartPractice() {
-  window.location.href = "simulator.html?mode=practice&fresh=1";
+  window.location.href = `simulator.html?mode=practice&subject=${currentSubject}&fresh=1`;
 }
 function toggleExplanation(index) {
   const el = document.getElementById(`exp-${index}`);
@@ -2686,10 +2820,10 @@ async function saveAndExitTest() {
     window.location.href = "index.html";
     return;
   }
-
+console.log("saving module_file:", currentModuleFile, "subject:", currentSubject);
   const sessionPayload = {
     user_id: user.id,
-    test_id: "MathT1",
+    test_id: currentSubject === "verbal" ? "VerbalT1" : "MathT1",
     module: data?.moduleId?.includes("Mod2") ? 2 : 1,
     module_file: currentModuleFile,
     attempt_id: currentAttemptId,

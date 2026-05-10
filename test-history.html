@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Session History | SAT Math Practice</title>
+  <title>Test History | SAT Practice</title>
   <style>
     body {
       margin: 0;
@@ -157,6 +157,16 @@
       color: #d1d5db;
     }
 
+    .subjectPill {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+      background: #ede9fe;
+      color: #4f46e5;
+    }
+
     .scorePill {
       display: inline-block;
       padding: 2px 10px;
@@ -252,7 +262,7 @@
 
   <nav class="nav">
     <div class="navInner">
-      <a class="navBrand" href="dashboard.html">SAT Math Practice</a>
+      <a class="navBrand" href="dashboard.html">SAT Practice</a>
       <div class="navLinks">
         <a href="dashboard.html">Home</a>
         <a href="#" id="logoutBtn">Log Out</a>
@@ -261,31 +271,28 @@
   </nav>
 
   <div class="appPage">
-    <h1 class="appTitle">Session History</h1>
-    <p class="appSubtitle">Every practice session, with scores and topics.</p>
+    <h1 class="appTitle">Test History</h1>
+    <p class="appSubtitle">All completed tests, with scores and topics.</p>
 
     <div class="topActions">
-      <button class="primaryBtn" onclick="window.location.href='simulator.html?mode=practice&review=summary'">
-        Cumulative Summary
-      </button>
       <button class="secondaryBtn" onclick="window.location.href='dashboard.html'">
         ← Home
       </button>
     </div>
 
-    <div id="loadingState">Loading sessions...</div>
+    <div id="loadingState">Loading tests...</div>
     <div class="sessionList" id="sessionList" style="display:none;"></div>
     <div class="emptyState" id="emptyState" style="display:none;">
-      <h2>No sessions yet</h2>
-      <p>Complete a practice session to see it here.</p>
-      <button class="primaryBtn" onclick="window.location.href='simulator.html?mode=practice'">
-        Start Practicing
+      <h2>No completed tests yet</h2>
+      <p>Complete a full test to see it here.</p>
+      <button class="primaryBtn" onclick="window.location.href='dashboard.html'">
+        Go to Home
       </button>
     </div>
   </div>
 
   <div style="text-align:center;font-size:13px;color:#888;margin:40px 0 20px;">
-    <div style="margin-bottom:6px;">SAT Math Practice</div>
+    <div style="margin-bottom:6px;">SAT Practice</div>
     <div>
       <a href="terms.html" style="color:#666;text-decoration:none;margin:0 8px;">Terms</a>
       <a href="privacy.html" style="color:#666;text-decoration:none;margin:0 8px;">Privacy</a>
@@ -295,7 +302,6 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="supabase-config.js"></script>
   <script>
-    // Auth gate — redirect to index if not logged in
     (async () => {
       const { data } = await window.supabaseClient.auth.getSession();
       if (!data?.session?.user) {
@@ -306,7 +312,6 @@
       init();
     })();
 
-    // Logout
     document.getElementById("logoutBtn").addEventListener("click", async (e) => {
       e.preventDefault();
       await window.supabaseClient.auth.signOut();
@@ -344,10 +349,9 @@
       if (!user) return;
 
       const { data: sessions, error } = await window.supabaseClient
-        .from("practice_sessions")
+        .from("test_sessions")
         .select("*")
         .eq("user_id", user.id)
-        .eq("set_id", "session_snapshot")
         .eq("status", "completed")
         .order("created_at", { ascending: false });
 
@@ -366,6 +370,8 @@
         const total = session.total_count ?? Object.keys(session.answers || {}).length;
         const topics = session.topics || "";
         const dateStr = formatDate(session.created_at);
+        const subject = session.subject || "math";
+        const subjectLabel = subject === "verbal" ? "Verbal" : "Math";
 
         const scoreHTML = (correct !== null && total)
           ? `<span class="scorePill ${getScoreClass(correct, total)}">${correct}/${total} correct</span>`
@@ -377,29 +383,31 @@
           <div class="sessionInfo">
             <div class="sessionDate">${dateStr}</div>
             <div class="sessionMeta">
+              <span class="subjectPill">${subjectLabel}</span>
+              <span class="dot">·</span>
               ${scoreHTML}
               ${topics ? `<span class="dot">·</span><span>${topics}</span>` : ""}
             </div>
           </div>
           <div class="sessionActions">
-            <button class="reviewBtn" onclick="reviewSession('${session.id}', 'missed', '${session.subject || "math"}')">
-  Mistakes
-</button>
-<button class="reviewBtn" onclick="reviewSession('${session.id}', 'all', '${session.subject || "math"}')">
-  Review All
-</button>
+            <button class="reviewBtn" onclick="reviewTest('${session.id}', 'missed', '${subject}')">
+              Mistakes
+            </button>
+            <button class="reviewBtn" onclick="reviewTest('${session.id}', 'all', '${subject}')">
+              Review All
+            </button>
           </div>
         `;
         list.appendChild(row);
       });
     }
 
-function reviewSession(sessionId, mode, subject) {
-  const safeId = encodeURIComponent(sessionId);
-  const safeMode = encodeURIComponent(mode);
-  const safeSubject = encodeURIComponent(subject || "math");
-  window.location.href = `simulator.html?mode=practice&review=${safeMode}&sessionId=${safeId}&subject=${safeSubject}`;
-}
+    function reviewTest(sessionId, mode, subject) {
+      const safeId = encodeURIComponent(sessionId);
+      const safeMode = encodeURIComponent(mode);
+      const safeSubject = encodeURIComponent(subject || "math");
+      window.location.href = `simulator.html?mode=test&review=${safeMode}&sessionId=${safeId}&subject=${safeSubject}`;
+    }
   </script>
 
 </body>

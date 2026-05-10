@@ -73,15 +73,18 @@ async function renderPracticeHistory() {
   }
 
   container.innerHTML = `
-    <div style="margin-top:12px; display:flex; flex-direction:column; gap:10px;">
-      <button class="secondaryBtn" style="width:100%;" onclick="window.location.href='history.html'">
-        Session History
-      </button>
-      <button class="secondaryBtn" style="width:100%;" onclick="viewPracticeSummary()">
-        Cumulative Summary
-      </button>
-    </div>
-  `;
+  <div style="margin-top:12px; display:flex; flex-direction:column; gap:10px;">
+    <button class="secondaryBtn" style="width:100%;" onclick="window.location.href='history.html'">
+      Practice Session History
+    </button>
+    <button class="secondaryBtn" style="width:100%;" onclick="window.location.href='test-history.html'">
+      Test History
+    </button>
+    <button class="secondaryBtn" style="width:100%;" onclick="viewPracticeSummary()">
+      Cumulative Practice Summary
+    </button>
+  </div>
+`;
 }
 function resumePracticeSession(setId) {
   const safeSetId = encodeURIComponent(setId || "");
