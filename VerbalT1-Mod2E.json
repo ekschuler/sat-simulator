@@ -126,13 +126,13 @@
       "type": "mcq",
            "skill": {
         "domain": "Craft and Structure",
-"topic": "Text Structure and Purpose",
-"skill": "Main Purpose"
+        "topic": "Text Structure and Purpose",
+        "skill": "Function of a Sentence"
       },
 
       "level": 1,
       "set": "Verbal Practice",
-      "tags": ["main idea", "main purpose"],
+      "tags": ["passage structure", "sentence function"],
 
       "stem": "Noam Chomsky is first and foremost a professor of linguistics, but much of his published body of work is dedicated to political analysis and activism. It raises the question of how his background in linguistics informs his analysis of political climates and events. <u>The definitive answer lies in <em>Manufacturing Consent</em>, his book about media and propaganda and how the language used in media is crafted to manipulate the opinions, behaviors, and docility of its consumers.</u><br><br>Which choice best describes the function of the underlined sentence in the text as a whole?",
   "choices": [
@@ -233,9 +233,9 @@
       "id": "VerbalT1-2E-010",
       "type": "mcq",
       "skill": {
-        "domain": "Craft and Structure",
-        "topic": "Words in Context",
-        "skill": "Text Completion"
+        "domain": "Information and Ideas",
+        "topic": "Central Ideas and Details",
+        "skill": "Main Idea"
       },
 
       "level": 1,
@@ -256,9 +256,9 @@
       "id": "VerbalT1-2E-011",
       "type": "mcq",
       "skill": {
-        "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "domain": "Information and Ideas",
+"topic": "Command of Evidence",
+"skill": "Textual Evidence"
       },
 
       "level": 1,
@@ -279,9 +279,9 @@
       "id": "VerbalT1-2E-012",
       "type": "mcq",
       "skill": {
-        "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "domain": "Information and Ideas",
+"topic": "Command of Evidence",
+"skill": "Textual Evidence"
       },
 
       "level": 1,
@@ -302,9 +302,9 @@
       "id": "VerbalT1-2E-013",
       "type": "mcq",
       "skill": {
-        "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "domain": "Information and Ideas",
+"topic": "Command of Evidence",
+"skill": "Textual Evidence"
       },
 
       "level": 1,
@@ -325,9 +325,9 @@
       "id": "VerbalT1-2E-014",
       "type": "mcq",
       "skill": {
-                "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "domain": "Information and Ideas",
+"topic": "Command of Evidence",
+"skill": "Quantitative Evidence"
       },
 
       "level": 1,
@@ -368,9 +368,9 @@
       "id": "VerbalT1-2E-015",
       "type": "mcq",
       "skill": {
-                "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "domain": "Information and Ideas",
+"topic": "Command of Evidence",
+"skill": "Textual Evidence"
       },
 
       "level": 1,
@@ -391,9 +391,9 @@
       "id": "VerbalT1-2E-016",
       "type": "mcq",
       "skill": {
-                "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "domain": "Information and Ideas",
+"topic": "Command of Evidence",
+"skill": "Textual Evidence"
       },
 
       "level": 1,
@@ -483,7 +483,7 @@
       "id": "VerbalT1-2E-020",
       "type": "mcq",
            "skill": {
-                "domain": "Standard English Conventions",
+        "domain": "Standard English Conventions",
         "topic": "Form, Structure, and Sense",
         "skill": "Standard English Conventions"
       },
@@ -506,9 +506,9 @@
       "id": "VerbalT1-2E-021",
       "type": "mcq",
       "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Transitions",
-        "skill": "Logical Transition"
+       "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
       },
 
       "level": 1,
@@ -529,9 +529,9 @@
       "id": "VerbalT1-2E-022",
       "type": "mcq",
       "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Transitions",
-        "skill": "Logical Transition"
+       "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
       },
 
       "level": 1,

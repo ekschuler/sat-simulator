@@ -651,8 +651,8 @@
 
       "skill": {
         "domain": "Craft and Structure",
-"topic": "Text Structure and Purpose",
-"skill": "Function of a Sentence"
+        "topic": "Text Structure and Purpose",
+        "skill": "Function of a Sentence"
       },
 
       "level": 2,
@@ -744,9 +744,9 @@
       "subject": "verbal",
 
       "skill": {
-       "domain": "Craft and Structure",
-      "topic": "Text Structure and Purpose",
-      "skill": "Main Purpose"
+       "domain": "Information and Ideas",
+"topic": "Central Ideas and Details",
+"skill": "Main Idea"
       },
 
       "level": 2,
@@ -1226,8 +1226,8 @@
 
       "skill": {
         "domain": "Craft and Structure",
-"topic": "Text Structure and Purpose",
-"skill": "Function of a Sentence"
+      "topic": "Text Structure and Purpose",
+      "skill": "Function of a Sentence"
       },
 
       "level": 3,
@@ -1309,9 +1309,9 @@
       "subject": "verbal",
 
       "skill": {
-        "domain": "Craft and Structure",
-        "topic": "Words in Context",
-        "skill": "Vocabulary in Context"
+        "domain": "Information and Ideas",
+"topic": "Command of Evidence",
+"skill": "Textual Evidence"
       },
 
       "level": 3,
@@ -1344,7 +1344,7 @@
       "set": "Verbal Practice",
       "tags": ["grammar", "possessive pronouns"],
 
-      "stem": "In 1944, Black singer and electric guitarist Sister Rosetta Tharpe, who pioneered pop gospel and greatly influenced early rock and roll, recorded and released what became a mainstream hit &ldquo;Strange Things Happening Everyday,&rdquo; a song that <span class='blank'>_______</span> &ldquo;is considered by most musicologists to be the first rock and roll song ever recorded.&rdquo; <br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "stem": "In 1944, Black singer and electric guitarist Sister Rosetta Tharpe, who pioneered pop gospel and greatly influenced early rock and roll, recorded and released what became a mainstream hit &ldquo;Strange Things Happening Everyday,&rdquo; a song that <span class='blank'>_______</span> &ldquo; is considered by most musicologists to be the first rock and roll song ever recorded.&rdquo; <br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
   "choices": [
     "blogger, Dawn Boyer, writes",
     "blogger, Dawn Boyer, writes,",
@@ -1465,9 +1465,9 @@
       "subject": "verbal",
 
       "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Transitions",
-        "skill": "Logical Transition"
+        "domain": "Information and Ideas",
+"topic": "Command of Evidence",
+"skill": "Textual Evidence"
       },
 
       "level": 3,

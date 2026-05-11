@@ -103,13 +103,13 @@
       "type": "mcq",
       "skill": {
         "domain": "Craft and Structure",
-"topic": "Text Structure and Purpose",
-"skill": "Function of a Sentence"
+        "topic": "Text Structure and Purpose",
+        "skill": "Function of a Sentence"
       },
 
       "level": 3,
       "set": "Verbal Practice",
-      "tags": ["vocabulary", "sentence completion"],
+      "tags": ["passage structure", "sentence function"],
 
      "stemSegments": [
   {
@@ -142,13 +142,13 @@
       "type": "mcq",
       "skill": {
         "domain": "Craft and Structure",
-"topic": "Text Structure and Purpose",
-"skill": "Function of a Sentence"
+        "topic": "Text Structure and Purpose",
+        "skill": "Overall Structure"
       },
 
       "level": 3,
       "set": "Verbal Practice",
-      "tags": ["vocabulary", "sentence completion"],
+      "tags": ["passage structure", "overall structure"],
 
      "stemSegments": [
   {
@@ -181,8 +181,8 @@
       "type": "mcq",
            "skill": {
         "domain": "Craft and Structure",
-"topic": "Text Structure and Purpose",
-"skill": "Main Purpose"
+        "topic": "Text Structure and Purpose",
+        "skill": "Main Purpose"
       },
 
       "level": 1,
@@ -203,9 +203,9 @@
       "id": "VerbalT1-1-008",
       "type": "mcq",
       "skill": {
-        "domain": "Craft and Structure",
-"topic": "Text Structure and Purpose",
-"skill": "Main Purpose"
+        "domain": "Information and Ideas",
+"topic": "Central Ideas and Details",
+"skill": "Main Idea"
       },
 
       "level": 1,
@@ -226,9 +226,9 @@
       "id": "VerbalT1-1-009",
       "type": "mcq",
          "skill": {
-        "domain": "Craft and Structure",
-"topic": "Text Structure and Purpose",
-"skill": "Function of a Sentence"
+       "domain": "Craft and Structure",
+        "topic": "Text Structure and Purpose",
+        "skill": "Main Purpose"
       },
 
       "level": 3,
@@ -265,9 +265,9 @@
       "id": "VerbalT1-1-010",
       "type": "mcq",
       "skill": {
-        "domain": "Craft and Structure",
-        "topic": "Words in Context",
-        "skill": "Text Completion"
+        "domain": "Information and Ideas",
+"topic": "Command of Evidence",
+"skill": "Textual Evidence"
       },
 
       "level": 1,
@@ -288,9 +288,9 @@
       "id": "VerbalT1-1-011",
       "type": "mcq",
       "skill": {
-        "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "domain": "Information and Ideas",
+"topic": "Command of Evidence",
+"skill": "Textual Evidence"
       },
 
       "level": 1,
@@ -311,9 +311,9 @@
       "id": "VerbalT1-1-012",
       "type": "mcq",
       "skill": {
-        "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "domain": "Information and Ideas",
+"topic": "Command of Evidence",
+"skill": "Textual Evidence"
       },
 
       "level": 1,
@@ -355,9 +355,9 @@
       "id": "VerbalT1-1-013",
       "type": "mcq",
       "skill": {
-                "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "domain": "Information and Ideas",
+"topic": "Command of Evidence",
+"skill": "Textual Evidence"
       },
 
       "level": 1,
@@ -378,7 +378,7 @@
       "id": "VerbalT1-1-014",
       "type": "mcq",
       "skill": {
-                "domain": "Standard English Conventions",
+        "domain": "Standard English Conventions",
         "topic": "Form, Structure, and Sense",
         "skill": "Standard English Conventions"
       },
@@ -447,7 +447,7 @@
       "id": "VerbalT1-1-017",
       "type": "mcq",
            "skill": {
-                "domain": "Standard English Conventions",
+        "domain": "Standard English Conventions",
         "topic": "Form, Structure, and Sense",
         "skill": "Standard English Conventions"
       },
@@ -470,9 +470,9 @@
       "id": "VerbalT1-1-018",
       "type": "mcq",
       "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Transitions",
-        "skill": "Logical Transition"
+        "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
       },
 
       "level": 1,
@@ -493,9 +493,9 @@
       "id": "VerbalT1-1-019",
       "type": "mcq",
       "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Transitions",
-        "skill": "Logical Transition"
+        "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
       },
 
       "level": 1,
@@ -741,14 +741,14 @@
       "id": "VerbalT1-1-027",
       "type": "mcq",
       "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Transitions",
-        "skill": "Logical Transition"
+        "domain": "Information and Ideas",
+"topic": "Command of Evidence",
+"skill": "Textual Evidence"
       },
 
       "level": 1,
       "set": "Verbal Practice",
-      "tags": ["logical transition"],
+      "tags": ["illustrating a claim", "using evidence"],
 
       "stem": "&ldquo;She Walks in Beauty&rdquo; is a poem written by Lord Byron in 1814. In the poem, Byron suggests that true beauty arises from harmony between qualities of outer appearance and inner character.<br><br>Which quotation from &ldquo;She Walks in Beauty&rdquo; most effectively illustrates the claim?",
   "choices": [
