@@ -9,44 +9,217 @@
     "groupBy": ["domain", "topic", "level"]
   },
   "questions": [
-    {
-      "id": "d1",
+{
+  "id": "Demo-1",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Simplifying Expressions",
+    "skill": "Combining Like Terms"
+  },
+        "level": 1,
+      "set": "Algegbra Practice",
+      "tags": ["combining like terms"],
+
+  "stem": "Which expression is equivalent to \\(2x^2 - x + 7)-(x^2-1)\\)?",
+  "choices": [
+    "\\(x^2-x+8\\)",
+    "\\(x^2-x+6\\)",
+    "\\(3x^2+x+8\\)",
+    "\\(3x^2+x+6\\)"
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>Distribute \\(-1\\) to the second set of parentheses.</div><div class='explanation-math'>$$\\begin{aligned} (2x^2 - x + 7)-(x^2-1) & = (2x^2 - x + 7)-x^2+1\\end{aligned}$$</div><div class='explanation-step'>Combine like terms.</div><div class='explanation-math'>$$\\begin{aligned} (2x^2 - x + 7)-x^2+1 & = (2x^2-x^2)-x+(7+1) &= x^2-x+8\\end{aligned}$$</div>"
+
+},
+{
+  "id": "Demo-2",
       "type": "mcq",
-      "stem": "What is 2 + 3?",
-      "choices": ["3", "4", "5", "6"],
-      "answerIndex": 2,
-      "explanation": "2 + 3 = 5.",
+      "mode": "practice",
+
       "skill": {
-        "domain": "Demo",
-        "topic": "Basics",
-        "skill": "Addition"
-      }
+        "domain": "Geometry and Trigonometry",
+        "topic": "Perimeter, Area, and Volume",
+        "skill": "Area Ratio"
+      },
+
+      "level": 2,
+      "set": "Geometry and Trigonometry Practice",
+      "tags": ["area"],
+
+      "stem": "<div class='stem-text'>Square A has an area that is \\(\\frac{1}{9}\\) the area of square B. Square A has a side length of \\(2\\) inches.  What is the length, in inches, of one side length of square B?</div>",
+
+      "choices": [
+        "\\(4\\)",
+        "\\(6\\)",
+        "\\(18\\)",
+        "\\(36\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>Method \\(1\\): Squares A and B both have four right angles (definition of a square) and proportionate side lengths; this means they are similar.  In similar figures, the ratio of their areas is equal to the <strong>square</strong> of the ratio of their sides; since the area of square A is \\(\\frac{1}{9}\\) the area of square B, it can also be said that side length of \\(A=\\sqrt{\\frac{1}{9}}=\\frac{1}{3}\\) side length of \\(B\\).  Substitute \\(2\\) for the side length of square A and solve.</div><div class='explanation-math'>$$\\begin{aligned}\\ 2&=\\frac{1}{3}\\times \\text{side length of B}\\\\ 3 \\times 2&=\\frac{1}{\\cancel{3}}\\times \\text{side length of B} \\times \\cancel{3}\\\\ \\text{side length of B}&=6\\end{aligned}$$</div><div class='explanation-step'>Method \\(2\\): Find the area of square A; since square A has side lengths of \\(2\\), \\(A=2^2=4\\).  This is \\(\\frac{1}{9}\\) the area of Square B, so the area of square B is \\(9\\) times the area of square A, or \\(9 \\times 4=36\\).  To find a side length of square B, take the square root of the area of square B, so \\(\\sqrt{\\frac{36}}=6\\).</div>"
+},
+{
+  "id": "Demo-3",
+  "type": "gridin",
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Quadratic Functions",
+    "skill": "Using the Discriminant"
+},
+
+      "level": 3,
+      "set": "Advanced Math Practice",
+      "tags": ["discriminant", "intercepts"],
+
+  "stem": "In the \\(xy\\)-plane, a parabola with equation \\(y=4x^2+bx\\)where \\(b\\) is a positive constant is intersected at exactly one point by a line. If the line has equation \\(y=-4\\), what is the value of \\(b\\)?",
+ "answer": "16",
+      "answersAccepted": ["16"],
+      "validation": {
+        "format": "number",
+        "allowNegative": true,
+        "allowDecimal": true,
+        "allowFraction": false,
+        "maxChars": 8
+      },
+  "explanation": "<div class='explanation-step'>This is a non-linear system of equations. Since \\(y\\) has a constant value of \\(-4\\), substitute \\(-4\\) into the second equation for \\(y\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ -4&=4x^2+bx\\end{aligned}$$</div><div class='explanation-step'>Since this is a system in which the graphs intersect once, treat the equation above like a quadratic equation with one solution. If a quadratic equation has one real solution, the discriminant, \\(b^2-4ac\\) must equal \\(0\\).  Put the equation into \\(y=ax^2+bx+c\\) form in order to determine the values of \\(a\\), \\(b\\), and \\(c\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ \\cancel{-4}+\\cancel{4}&=4x^2+bx+4\\\\ 0&=4x^2+bx+4 \\end{aligned}$$</div>div class='explanation-step'>In this equation, \\(a=4\\), \\(b=b\\) and \\(c=4\\).  Use the discriminant to solve for \\(b\\):</div><div class='explanation-math'>$$\\begin{aligned}\\ b^2-4ac&=0\\\\ b^2-4(4)(4)&=0\\\\ b^-256=0\\\\ b^2-\\cancel{256}+\\cancel{256}&=0+256\\\\ b^&=256\\\\ \\sqrt{b}&=\\sqrt{256}=16\\end{aligned}$$</div>"
+},
+{
+      "id": "Demo-4",
+      "type": "mcq",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Problem-solving and Data Analysis",
+        "topic": "Statistics",
+        "skill": "Calculating Mean"
+      },
+
+      "level": 2,
+      "set": "Problem-solving and Data Analysis Practice",
+      "tags": ["average", "mean", "statistics"],
+
+      "stem": "<div class='stem-text'>A shoe store sold \\(38\\) pairs of shoes on one day with a mean price of \\(\\$157\\). On a second day they sold\\(24\\) pairs of shoes with a mean price of \\(\\$219\\). What is the mean price of shoes sold over the two days?</div>",
+
+      "choices": [
+        "\\(\\$31\\)",
+        "\\(\\$181\\)",
+        "\\(\\$188\\)",
+        "\\(\\$\\text{6,480}\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>To find a combined mean, first find the sum of the individual data sets.  Since the \\(\\text{mean}=\\frac{\\text{sum of values}}{\\text{number of values in the set}}\\), the sum of the values \\(=\\) the mean \\(\\times\\) the number of values in the set.  Find the sum of the total dollars earned each day in shoe sales.</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} 38 \\times 157=\\text{5,966}\\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} 24 \\times 219=\\text{5,256}\\end{aligned}$$</div></div></div><div class='explanation-step'>Find the combined mean by dividing the sum of these total sales by the total number of pairs of shoes sold, so \\(38+24=62\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ &= \\frac{\\text{5,966}+\\text{5,256}}{62}= 181\\end{aligned}$$</div>"
     },
     {
-      "id": "d2",
+      "id": "Demo-5",
       "type": "mcq",
-      "stem": "What is 7 × 2?",
-      "choices": ["12", "13", "14", "15"],
-      "answerIndex": 2,
-      "explanation": "7 × 2 = 14.",
       "skill": {
-        "domain": "Demo",
-        "topic": "Basics",
-        "skill": "Multiplication"
-      }
-    },
-    {
-      "id": "d3",
+        "domain": "Craft and Structure",
+        "topic": "Words in Context",
+        "skill": "Vocabulary in Context"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["vocabulary", "sentence completion"],
+
+      "stem": "While some financial analysts downplay daily fluctuations in the market, few would dispute that the impact of price swings on public trust has been <span class='blank'>_______</span>, fundamentally changing how many investors view the long-term reliability of financial markets.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "magnified",
+    "mundane",
+    "impervious",
+    "indelible"
+  ],
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word or phrase fits in the blank. Look for signal words that show whether the blank should be a synonym, an antonym, or a cause-and-effect relationship to another part of the sentence.</div><div class='explanation-step'>Here, the sentence begins with <strong>while</strong>, signaling a change in direction from &ldquo;some financial analysts downplay daily fluctuations in the market&rdquo;.  The blank should contradict that sentiment; &ldquo;the impact of price swings on public trust&rdquo; is not downplayed, and <em>is</em> impactful.  Additionally, after the blank we learn that these price swings are so impactful that they have &ldquo;fundamentally changed&rdquo; investor perspectives on financial markets. The word in the blank should be something akin to <strong>impactful</strong>.</div><div class='explanation-step'><strong>A)</strong> &ldquo;magnified&rdquo; means made to appear larger than it is; although the impact on public trust is larger than how analysts typically view them, it is not necessarily larger than it <em>appears</em>.  Since A is not outright wrong, keep it for now.</div><div class='explanation-step'><strong>B)</strong> &ldquo;mundane&rdquo; means boring or ordinary, which does not correctly describe the impact of price swings on public trust. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;impervious&rdquo; means something that cannot be passed through or impacted. This is not relevant to the sentence, and if anything, is closer to the opposite of what the blank requires. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;indelible&rdquo; means something that is permanent and leaves a lasting mark. This matches the meaning of the sentence in that the price swings are so impactful they have changed the way investors view the financial markets. This means  D is the correct answer.</div>"
+},
+{
+      "id": "Demo-6",
       "type": "mcq",
-      "stem": "Solve: x + 4 = 9",
-      "choices": ["3", "4", "5", "6"],
-      "answerIndex": 2,
-      "explanation": "x = 5.",
       "skill": {
-        "domain": "Demo",
-        "topic": "Algebra",
-        "skill": "Linear Equations"
-      }
-    }
+       "domain": "Craft and Structure",
+"topic": "Text Structure and Purpose",
+"skill": "Overall Structure"
+      },
+
+      "level": 3,
+      "set": "Verbal Practice",
+      "tags": ["passage structure", "overall structure"],
+
+     "stemSegments": [
+  {
+    "text": "The following text is from Willa Cather's 1918 book <em>My Antonia</em>.  Jim, the narrator, is traveling by wagon across the Nebraska prairie as a young boy, on his way to begin a new life with his grandparents.",
+    "align": "left",
+    "style": "default"
+  },
+  {
+    "text": "I tried to go to sleep, but the jolting made me bite my tongue, and I soon began to ache all over. When the straw settled down I had a hard bed. Cautiously I slipped from under the buffalo hide, got up on my knees and peered over the side of the wagon. There seemed to be nothing to see; no fences, no creeks or trees, no hills or fields. If there was a road, I could not make it out in the faint starlight. <u>There was nothing but land: not a country at all, but the material out of which countries are made.</u> No, there was nothing but land—slightly undulating, I knew, because often our wheels ground against the brake as we went down into a hollow and lurched up again on the other side. I had the feeling that the world was left behind, that we had got over the edge of it, and were outside man's jurisdiction.",
+    "align": "center",
+    "style": "passage"
+  },
+  {
+    "text": "Which choice best states the function of the underlined sentence in the overall structure of the text?",
+    "align": "left",
+    "style": "question"
+  }
+],
+  "choices": [
+  "It contrasts the barrenness of the prairie with the civilization Jim left behind.",
+  "It shifts from describing what Jim observes to offering a philosophical interpretation of the landscape.",
+  "It provides a factual description of the Nebraska terrain to ground the reader in the setting.",
+  "It foreshadows Jim's eventual sense of belonging in his new home."
+],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>For <em>Sentence Function</em> questions, it helps to read the sentence before and after the underlined sentence. Identify what the underlined sentence does in relation to the previous sentence (i.e. introduces a new idea, supports a claim, contrasts with earlier information, etc.).</div><div class='explanation-step'>In this text, a narrator describes his trip across Nebraska and what he sees around him as he looks out of the wagon. Leading up to the underlined sentence, he describes an empty scenery (no trees, creeks, roads etc.). The underlined sentence, &ldquo;There was nothing but land: not a country at all, but the material out of which countries are made.&rdquo; puts a finer point on how empty the land is, but it also interprets the empty land as being not settled by humans (and goes on later to say that this part of the country is &ldquooutside man's jurisdiction.&rdquo Therefore, its function is to describe what he sees, and interpret what the physical land means in an analytical sense.</div><div class='explanation-step'><strong>A)</strong> This choice says the sentence &ldquo;contrasts the barrenness of the prairie with the civilization Jim left behind.&rdquo; The sentence does not <em>contrast</em> the prairie with civilization; there is no mention of civilization in this sentence. Although this contrast is alluded to later in the passage, it is not the function of the <em>underlined</em> sentence. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This choice says the sentence &ldquo;shifts from describing what Jim observes to offering a philosophical interpretation of the landscape.&rdquo; The sentence does serve as a transition from the physical description in the previous sentences to an interpretation of the emptiness of the land. Keep B.</div><div class='explanation-step'><strong>C)</strong> This choice says the sentence &ldquo;provides a factual description of the Nebraska terrain to ground the reader in the setting.&rdquo; This sentence does not describe the Nebraska terrain. The previous sentences do, but they are more observational than factual and also are not contained in the underlined sentence. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> This choice says the sentence &ldquo;foreshadows Jim's eventual sense of belonging in his new home.&rdquo; There is no suggestion of foreshadowing here, and there is also no personal nature of Jim's observations. Eliminate D.</div><br><br>This means <strong>B</strong> is the correct answer."
+},
+{
+      "id": "Demo-7",
+      "type": "mcq",
+      "skill": {
+        "domain": "Information and Ideas",
+"topic": "Command of Evidence",
+"skill": "Textual Evidence"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["grammar", "possessive pronouns"],
+
+        "stem": "Economists argue that a significant rise in gig work—where workers are hired as independent contractors to complete projects or tasks—has increased economic productivity. They claim that gig work offers individuals autonomy over projects and enables them to choose work that utilizes their strengths—characteristics often absent in traditional work models. Furthermore, these economists assert that by setting their own schedules, gig workers can opt for projects that are sustainable for their lifestyles. However, a recent longitudinal study tracking gig workers over several years found that many participants reported declining productivity and job satisfaction, often citing inconsistent pay and burnout as key factors.<br><br>Which finding, if true, would most directly undermine the economists' claim?",
+  "choices": [
+    "Gig workers report higher overall satisfaction with flexible schedules than traditional employees.",
+    "The total number of gig workers has continued to increase each year since 2015.",
+    "Many gig workers experience financial instability that negatively affects their ability to sustain productivity over time.",
+    "Gig work has become more common in industries requiring short-term contracts."
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>For <em>Argument-Based Reasoning</em> questions—particularly those asking which choice would weaken a claim—the key is to identify the central claim first. In this passage, economists assert that the <em>rise of gig work has increased economic productivity</em>. To undermine this argument, look for evidence that gig work reduces or fails to improve productivity.</div><div class='explanation-step'><strong>A)</strong> This choice strengthens the economists’ claim rather than weakens it, reinforcing that gig workers benefit from flexible schedules and autonomy. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This choice also supports the economists’ position: if the number of gig workers is increasing, it suggests the system is working effectively. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This choice directly challenges the economists’ claim by showing that financial instability among gig workers reduces productivity over time. This contradicts the idea that gig work boosts productivity. Keep C.</div><div class='explanation-step'><strong>D)</strong> This choice merely describes where gig work is becoming more common; it does not address productivity or job satisfaction. Eliminate D.</div><br><br>This means <strong>C</strong> is the correct answer."
+},
+{
+      "id": "Demo-8",
+      "type": "mcq",
+      "mode": "practice",
+      "subject": "verbal",
+
+      "skill": {
+        "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
+      },
+
+      "level": 2,
+      "set": "Verbal Practice",
+      "tags": ["grammar", "possessive pronouns"],
+
+      "stem": "Written in 1215 to help solve the problems between King John of England and the barons, the Magna Carta was a peace agreement that set out to establish rights for free men. <span class='blank'>_______</span> influence since then has been seen in other civil liberties documents, including the US Bill of Rights written almost 600 years later.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "They’re",
+    "It’s",
+    "Their",
+    "Its"
+  ],
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. Here, the answer choices are different types of pronouns, so this question tests <strong>Possessive Pronoun Reference</strong>. Pronoun reference requires that the pronoun correctly matches the noun it refers to in both number (singular or plural) and clarity (what the pronoun refers back to)</strong>.</div><div class='explanation-step'>The blank followed by &ldquo;influence&rdquo; begs the question &ldquo;whose influence,&rdquo; and since the answers include possessive pronouns, one of them must go in the blank.  Eliminate A and B because they are <em>not</em> possessive pronouns (they are contractions of &ldquo;they are&rdquo; and &ldquo;it is&rdquo;, respectively).  The first sentence is about the Magna Carta and what it was designed to do.  The sentence then ends with &ldquo;free men,&rdquo; so it can seem unclear whether the possessive pronoun should replace Magna Carta (singular) or free men (plural).  The second sentence talks about the &ldquo;influence&rdquo; on other documents, so it must be in reference to the Magna Carta, which is also a document.  The sentence could read &ldquo;The Magna Carta's influence,&rdquo; but it would not make sense for the sentence to read &ldquo;The free men's influence&rdquo; because the men did not influence the other documents.<div class='explanation-step'><strong>C)</strong>&ldquo;Their&rdquo; is plural, but the noun it refers to (<em>the Magna Carta</em>) is singular. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;Its&rdquo; is singular and possessive, and correctly refers to the Magna Carta. This means the correct answer is <strong>D</strong>.</div>"
+}
+
   ]
 }

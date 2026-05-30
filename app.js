@@ -2157,7 +2157,7 @@ html += `
       <button
   type="button"
   class="sidebar-domain-toggle"
-  onclick='togglePracticeDomain(${JSON.stringify(domain)}); selectPracticeDomain(${JSON.stringify(domain)})'
+  onclick='togglePracticeDomain(${JSON.stringify(domain)})'
   aria-label="Toggle ${domain}"
 >
         <span class="sidebar-domain-chevron">${isCollapsed ? "▸" : "▾"}</span>
