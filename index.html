@@ -510,8 +510,14 @@ body {
     if (data?.session?.user) {
       window.location.replace("dashboard.html");
     } else {
+    if (document.body) {
       document.body.style.visibility = "visible";
+    } else {
+      document.addEventListener("DOMContentLoaded", () => {
+        document.body.style.visibility = "visible";
+      });
     }
+  }
   })();
 </script>
 <script>
