@@ -2,91 +2,506 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>SAT Math Simulator</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2xMath — Digital SAT Practice That Means Business</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
-body{
-  font-family:system-ui;
-  margin:0;
-  background:#f7f7f7;
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --ink: #0f0f0f;
+  --ink2: #3a3a3a;
+  --ink3: #888;
+  --bg: #fafaf8;
+  --white: #ffffff;
+  --accent: #2d5be3;
+  --accent-dark: #1e3fb0;
+  --accent-light: #eef2fd;
+  --border: #e8e8e4;
+  --serif: 'Instrument Serif', Georgia, serif;
+  --sans: 'DM Sans', system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--ink);
   visibility: hidden;
+  overflow-x: hidden;
 }
 
-.container{
-  text-align:center;
-  background:white;
-  padding:50px;
-  border-radius:12px;
-  box-shadow:0 10px 30px rgba(0,0,0,.08);
-  max-width:600px;
-  margin:40px auto;
+/* NAV */
+.nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 64px;
+  background: rgba(250,250,248,0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+  z-index: 100;
 }
 
-h1{
-  margin-top:0;
+.nav-brand {
+  font-family: var(--serif);
+  font-size: 22px;
+  color: var(--ink);
+  text-decoration: none;
+  letter-spacing: -0.02em;
 }
 
-.buttons{
-  margin-top:30px;
-  display:flex;
-  gap:20px;
-  justify-content:center;
+.nav-brand span {
+  color: var(--accent);
 }
 
-button{
-  padding:14px 24px;
-  font-size:16px;
-  border-radius:8px;
-  border:none;
-  cursor:pointer;
-  background:#4f46e5;
-  color:white;
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-button:hover{
-  background:#4338ca;
-}
-  .nav{
-  position:fixed;
-  top:0;
-  left:0;
-  right:0;
-  height:60px;
-  background:white;
-  border-bottom:1px solid #e5e5e5;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  padding:0 30px;
-  box-sizing:border-box;
+.nav-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--ink2);
+  text-decoration: none;
 }
 
-.nav a{
-  text-decoration:none;
-  margin-left:20px;
-  font-weight:500;
-  color:#333;
-}
+.nav-link:hover { color: var(--accent); }
 
-.nav a:hover{
-  color:#4f46e5;
-}
-
-body{
-  padding-top:60px;
-}
-.authBtn {
-  background: #f3f4f6;
-  color: #111;
-  border: 1px solid #e5e7eb;
-}
-
-.authBtn.active {
-  background: #4f46e5;
+.nav-cta {
+  background: var(--accent);
   color: white;
-  border: 1px solid #4f46e5;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: var(--sans);
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav-cta:hover { background: var(--accent-dark); }
+
+/* HERO */
+.hero {
+  padding: 140px 24px 80px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin-bottom: 28px;
+}
+
+.hero h1 {
+  font-family: var(--serif);
+  font-size: clamp(40px, 7vw, 72px);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  margin-bottom: 24px;
+}
+
+.hero h1 em {
+  font-style: italic;
+  color: var(--accent);
+}
+
+.hero-sub {
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--ink2);
+  max-width: 580px;
+  margin: 0 auto 40px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 56px;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: var(--sans);
+  transition: background 0.15s, transform 0.1s;
+}
+
+.btn-primary:hover {
+  background: var(--accent-dark);
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background: white;
+  color: var(--ink);
+  border: 1.5px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: var(--sans);
+  transition: border-color 0.15s, transform 0.1s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-secondary:hover {
+  border-color: var(--ink2);
+  transform: translateY(-1px);
+}
+
+.hero-price {
+  font-size: 14px;
+  color: var(--ink3);
+}
+
+.hero-price strong {
+  color: var(--ink);
+}
+
+/* STATS BAR */
+.stats-bar {
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: white;
+  padding: 28px 24px;
+}
+
+.stats-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-num {
+  font-family: var(--serif);
+  font-size: 36px;
+  color: var(--ink);
+  letter-spacing: -0.03em;
+  display: block;
+}
+
+.stat-label {
+  font-size: 13px;
+  color: var(--ink3);
+  margin-top: 2px;
+}
+
+/* SECTION */
+.section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 80px 24px;
+}
+
+.section-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 14px;
+}
+
+.section-title {
+  font-family: var(--serif);
+  font-size: clamp(28px, 4vw, 42px);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin-bottom: 16px;
+}
+
+.section-sub {
+  font-size: 17px;
+  color: var(--ink2);
+  line-height: 1.6;
+  max-width: 760px;
+}
+
+/* FEATURES GRID */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 48px;
+}
+
+.feature-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 28px 24px;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.feature-icon {
+  font-size: 28px;
+  margin-bottom: 14px;
+  display: block;
+}
+
+.feature-title {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--ink);
+  margin-bottom: 8px;
+}
+
+.feature-text {
+  font-size: 14px;
+  color: var(--ink2);
+  line-height: 1.6;
+}
+
+/* HOW IT WORKS */
+.how-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  margin-top: 48px;
+  position: relative;
+}
+
+.how-grid::before {
+  content: '';
+  position: absolute;
+  top: 28px;
+  left: calc(16.67% + 16px);
+  right: calc(16.67% + 16px);
+  height: 1px;
+  background: var(--border);
+  z-index: 0;
+}
+
+.how-step {
+  text-align: center;
+  padding: 0 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.how-num {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+  font-family: var(--serif);
+}
+
+.how-title {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--ink);
+  margin-bottom: 8px;
+}
+
+.how-text {
+  font-size: 14px;
+  color: var(--ink2);
+  line-height: 1.6;
+}
+
+/* PRICING */
+.pricing-wrap {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-card {
+  background: white;
+  border: 2px solid var(--accent);
+  border-radius: 20px;
+  padding: 40px 48px;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 8px 40px rgba(45,91,227,0.12);
+}
+
+.pricing-badge {
+  display: inline-block;
+  background: var(--accent);
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.pricing-price {
+  font-family: var(--serif);
+  font-size: 64px;
+  color: var(--ink);
+  letter-spacing: -0.04em;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.pricing-price sup {
+  font-size: 28px;
+  vertical-align: super;
+  font-family: var(--sans);
+  font-weight: 700;
+}
+
+.pricing-period {
+  font-size: 15px;
+  color: var(--ink3);
+  margin-bottom: 28px;
+}
+
+.pricing-features {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.pricing-features li {
+  font-size: 15px;
+  color: var(--ink2);
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pricing-features li:last-child { border-bottom: none; }
+
+.check {
+  color: var(--accent);
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+/* CTA BANNER */
+.cta-banner {
+  background: var(--ink);
+  color: white;
+  padding: 80px 24px;
+  text-align: center;
+}
+
+.cta-banner h2 {
+  font-family: var(--serif);
+  font-size: clamp(28px, 4vw, 48px);
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
+  line-height: 1.15;
+}
+
+.cta-banner h2 em {
+  font-style: italic;
+  color: #7da4f5;
+}
+
+.cta-banner p {
+  font-size: 17px;
+  color: #aaa;
+  margin-bottom: 32px;
+}
+
+.btn-white {
+  background: white;
+  color: var(--ink);
+  border: none;
+  border-radius: 10px;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: var(--sans);
+  transition: opacity 0.15s;
+}
+
+.btn-white:hover { opacity: 0.9; }
+
+/* FOOTER */
+.footer {
+  padding: 32px 24px;
+  text-align: center;
+  border-top: 1px solid var(--border);
+  font-size: 13px;
+  color: var(--ink3);
+}
+
+.footer a {
+  color: var(--ink3);
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover { color: var(--ink); }
+
+/* DIVIDER */
+.divider {
+  height: 1px;
+  background: var(--border);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* RESPONSIVE */
+@media (max-width: 700px) {
+  .nav { padding: 0 20px; }
+  .features-grid { grid-template-columns: 1fr; }
+  .how-grid { grid-template-columns: 1fr; gap: 32px; }
+  .how-grid::before { display: none; }
+  .pricing-card { padding: 32px 24px; }
+  .hero-actions { flex-direction: column; align-items: center; }
+  .stats-inner { gap: 32px; }
 }
 </style>
+
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="supabase-config.js"></script>
 <script>
@@ -109,94 +524,171 @@ body{
 </head>
 
 <body>
-<nav class="nav">
-  <div class="nav-left">
-    <strong>SAT Math Practice</strong>
-  </div>
 
+<!-- NAV -->
+<nav class="nav">
+  <a class="nav-brand" href="index.html">2x<span>Math</span></a>
   <div class="nav-right">
-<a href="checkout.html" id="indexLogoutLink">Log In</a>
+    <a class="nav-link" href="#" id="indexLogoutLink">Log In</a>
+    <button class="nav-cta" onclick="startDemo()">Try Free Demo</button>
   </div>
 </nav>
-<div style="max-width:860px;margin:60px auto 20px;text-align:center;padding:0 20px;">
-  <h1 style="font-size:40px;line-height:1.15;margin-bottom:16px;color:#111;">
-    Digital SAT Math practice that feels like the real test
-  </h1>
 
-  <p style="font-size:18px;color:#555;line-height:1.6;margin:0 auto 24px;max-width:720px;">
-    Practice timed math modules, get realistic test-day reps, and build confidence with a cleaner SAT-style experience designed for focused prep.
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-eyebrow">Digital SAT Practice</div>
+  <h1>More SAT reps.<br><em>Real test feel.</em><br>No fluff.</h1>
+  <p class="hero-sub">
+    2xMath gives you realistic SAT Math and Reading &amp; Writing practice that mirrors the actual test — timed, adaptive, and focused on the skills that matter.
   </p>
+  <div class="hero-actions">
+    <button class="btn-primary" onclick="startDemo()">Try Free Demo</button>
+    <button class="btn-primary" id="unlockBtn" style="background:var(--ink);">Unlock Full Access — $9/mo</button>
+  </div>
+  <p class="hero-price">No commitment. Cancel anytime. <strong>$9.00/month.</strong></p>
+</section>
 
-</div>
-<div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;max-width:640px;margin:0 auto;">
-  <div style="background:white;border:1px solid #e5e7eb;border-radius:14px;padding:20px;text-align:left;">
-    <div style="font-size:13px;font-weight:800;color:#4f46e5;margin-bottom:8px;">STEP 1</div>
-    <div style="font-size:18px;font-weight:800;color:#111;margin-bottom:8px;">Try the demo</div>
-    <div style="font-size:15px;line-height:1.6;color:#666;margin-bottom:14px;">
-      See the interface, question flow, and SAT-style experience before you commit.
+<!-- STATS BAR -->
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat">
+      <span class="stat-num">400+</span>
+      <span class="stat-label">SAT-style questions</span>
     </div>
-
-    <button type="button" onclick="startDemo()" style="background:#e5e7eb;color:#111;">
-      Try Free Demo
-    </button>
-  </div>
-
-  <div style="background:white;border:1px solid #e5e7eb;border-radius:14px;padding:20px;text-align:left;">
-    <div style="font-size:13px;font-weight:800;color:#4f46e5;margin-bottom:8px;">STEP 2</div>
-    <div style="font-size:18px;font-weight:800;color:#111;margin-bottom:8px;">Unlock full access</div>
-    <div style="font-size:15px;line-height:1.6;color:#666;margin-bottom:14px;">
-      Create your account and continue to payment to access full SAT math practice.
+    <div class="stat">
+      <span class="stat-num">2</span>
+      <span class="stat-label">Full test modules (Math + Reading & Writing)</span>
     </div>
-
-    <button type="button" id="unlockBtn">Unlock Full Access</button>
+    <div class="stat">
+      <span class="stat-num">Adaptive</span>
+      <span class="stat-label">Difficulty routing like the real test</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">$9</span>
+      <span class="stat-label">Per month, no hidden fees</span>
+    </div>
   </div>
 </div>
 
-<div style="max-width:800px;margin:20px auto 40px;padding:0 20px;text-align:left;">
-  <h2 style="margin-bottom:14px;font-size:24px;color:#111;text-align:center;">
-    Why this works
-  </h2>
+<!-- FEATURES -->
+<section class="section">
+  <div class="section-label">Why 2xMath</div>
+  <h2 class="section-title">Built for students who want<br>reps, not fluff.</h2>
+  <p class="section-sub">Every feature exists for one reason: to help you feel ready when you sit down for the real thing.</p>
 
-  <ul style="margin:0;padding-left:20px;color:#555;line-height:1.7;font-size:16px;">
-    <li style="margin-bottom:10px;">
-      Practice in a clean, timed interface that matches the digital SAT format.
-    </li>
-    <li style="margin-bottom:10px;">
-      Get realistic reps with adaptive difficulty across math modules.
-    </li>
-    <li style="margin-bottom:10px;">
-      Focus on actual SAT-style questions without distractions or fluff.
-    </li>
-  </ul>
-</div>
-<div class="container" style="display:none;">
-
-<h2 style="margin-top:0;margin-bottom:12px;font-size:24px;">Log in to your account</h2>
-
-<p style="margin-top:0;color:#666;line-height:1.5;">
-Existing users can log in below. New users should start with the demo or unlock full access.
-</p>
-
-<div class="buttons">
-  <div style="display:flex;flex-direction:column;gap:12px;max-width:320px;width:100%;">
-    <input id="authEmail" type="email" placeholder="Email" style="padding:12px;border:1px solid #ddd;border-radius:8px;font-size:16px;">
-    <input id="authPassword" type="password" placeholder="Password" style="padding:12px;border:1px solid #ddd;border-radius:8px;font-size:16px;">
-
-    <div id="authModeHeader" style="text-align:center;margin-bottom:12px;">
-  <div id="authModeTitle" style="font-size:20px;font-weight:800;color:#111;">Welcome back</div>
-  <div id="authModeText" style="font-size:14px;color:#666;margin-top:4px;">
-    Log in to continue your prep.
+  <div class="features-grid">
+    <div class="feature-card">
+      <span class="feature-icon">🔍</span>
+      <div class="feature-title">Questions that mirror the real test</div>
+      <p class="feature-text">Every question is written in the style and format of the actual Digital SAT — no outdated paper-style questions.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">📐</span>
+      <div class="feature-title">Practice by topic and skill</div>
+      <p class="feature-text">Drill exactly what you need — filter by domain, topic, and difficulty level so you're never practicing things you already know.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">⏱️</span>
+      <div class="feature-title">Timed full test modules</div>
+      <p class="feature-text">Simulate real test conditions with timed Math and Reading &amp; Writing modules, including adaptive Module 2 routing.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🔁</span>
+      <div class="feature-title">Review every answer</div>
+      <p class="feature-text">After every session, review your answers with detailed explanations. See exactly where you went wrong and why.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">📊</span>
+      <div class="feature-title">Track your progress</div>
+      <p class="feature-text">Session history, topic breakdowns, and score tracking so you always know where you stand and what to work on next.</p>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🧮</span>
+      <div class="feature-title">Built-in Desmos calculator</div>
+      <p class="feature-text">Practice with the same calculator available on the real Digital SAT — no switching between tabs or apps.</p>
+    </div>
   </div>
-</div>
+</section>
 
-<div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">
-  <button type="button" id="subscribeBtn" class="authBtn" onclick="window.location.href='checkout.html';">Unlock Full Access</button>
-  <button id="logInBtn" class="authBtn active">Existing User Log In</button>
-</div>
+<div class="divider"></div>
 
-    <p id="authStatus" style="margin:0;color:#444;font-size:14px;"></p>
+<!-- HOW IT WORKS -->
+<section class="section">
+  <div class="section-label">How it works</div>
+  <h2 class="section-title">Start practicing in minutes.</h2>
+
+  <div class="how-grid">
+    <div class="how-step">
+      <div class="how-num">1</div>
+      <div class="how-title">Try the free demo</div>
+      <p class="how-text">No account needed. See the interface and try real SAT-style questions before you commit to anything.</p>
+    </div>
+    <div class="how-step">
+      <div class="how-num">2</div>
+      <div class="how-title">Create your account</div>
+      <p class="how-text">Sign up and subscribe for $9/month. Cancel anytime — no contracts, no annual commitments.</p>
+    </div>
+    <div class="how-step">
+      <div class="how-num">3</div>
+      <div class="how-title">Start scoring higher</div>
+      <p class="how-text">Practice by topic, take full timed tests, review your mistakes, and build real test-day confidence.</p>
+    </div>
   </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PRICING -->
+<section class="section" style="text-align:center;">
+  <div class="section-label">Pricing</div>
+  <h2 class="section-title">Simple, affordable, no surprises.</h2>
+  <p class="section-sub" style="margin: 0 auto 0;">Most students only need 1–2 months of focused prep. We keep it affordable on purpose.</p>
+
+  <div class="pricing-wrap">
+    <div class="pricing-card">
+      <div class="pricing-badge">Full Access</div>
+      <div class="pricing-price"><sup>$</sup>9</div>
+      <div class="pricing-period">per month &nbsp;·&nbsp; cancel anytime</div>
+      <ul class="pricing-features">
+        <li><span class="check">✓</span> Full Math practice bank</li>
+        <li><span class="check">✓</span> Full Reading &amp; Writing practice bank</li>
+        <li><span class="check">✓</span> Timed full test modules</li>
+        <li><span class="check">✓</span> Adaptive difficulty routing</li>
+        <li><span class="check">✓</span> Detailed answer explanations</li>
+        <li><span class="check">✓</span> Session history &amp; progress tracking</li>
+        <li><span class="check">✓</span> Works on all devices</li>
+      </ul>
+      <button class="btn-primary" id="pricingUnlockBtn" style="width:100%;padding:16px;font-size:17px;">
+        Get Started — $9/month
+      </button>
+      <p style="margin-top:12px;font-size:13px;color:var(--ink3);">Try the free demo first — no account required.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<div class="cta-banner">
+  <h2>The test is coming.<br><em>Are you ready?</em></h2>
+  <p>Start with the free demo. No account, no commitment.</p>
+  <button class="btn-white" onclick="startDemo()">Try Free Demo →</button>
 </div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div style="margin-bottom:8px;">
+    <a href="terms.html">Terms</a>
+    <a href="privacy.html">Privacy</a>
+  </div>
+  <div>© 2026 2xMath. Built for focused Digital SAT prep.</div>
+</footer>
+
+<!-- Hidden login container (kept for auth.js compatibility) -->
+<div style="display:none;">
+  <input id="authEmail" type="email">
+  <input id="authPassword" type="password">
+  <button id="logInBtn"></button>
+  <button id="signUpBtn"></button>
+  <p id="authStatus"></p>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
@@ -204,111 +696,44 @@ Existing users can log in below. New users should start with the demo or unlock 
 <script src="auth.js"></script>
 <script>
   function startDemo() {
-      const indexLoginLink = document.getElementById("indexLoginLink");
-
-  if (indexLoginLink) {
-    indexLoginLink.addEventListener("click", (event) => {
-      event.preventDefault();
-
-      const logInBtn = document.getElementById("logInBtn");
-
-      if (logInBtn) {
-        logInBtn.click();
-      }
-    });
-  }
     window.location.href = "simulator.html?mode=practice&demo=1";
   }
-  window.addEventListener("load", async () => {
-  const { data } = await window.supabaseClient.auth.getUser();
-  const unlockBtn = document.getElementById("unlockBtn");
 
-  if (!unlockBtn) return;
-
-  if (data?.user) {
-    unlockBtn.textContent = "Proceed to Checkout";
-  } else {
-    unlockBtn.textContent = "Unlock Full Access";
-  }
-});
-  document.getElementById("unlockBtn").addEventListener("click", async () => {
-  const { data } = await window.supabaseClient.auth.getUser();
-
-  if (data?.user) {
-    const { data: result, error: functionError } =
-      await window.supabaseClient.functions.invoke("quick-processor", {
-        body: {}
-      });
-
-    if (functionError) {
-      console.error("Checkout function failed:", functionError);
-      alert("Could not start checkout.");
+  // Unlock button logic
+  async function handleUnlock() {
+    const { data } = await window.supabaseClient.auth.getUser();
+    if (data?.user) {
+      const { data: result, error } = await window.supabaseClient.functions.invoke("quick-processor", { body: {} });
+      if (error) { alert("Could not start checkout."); return; }
+      if (result?.url) window.location.href = result.url;
       return;
     }
-
-    if (result?.url) {
-      window.location.href = result.url;
-    }
-
-    return;
+    window.location.href = "checkout.html";
   }
 
-  window.location.href = "checkout.html";
-});
+  document.getElementById("unlockBtn").addEventListener("click", handleUnlock);
+  document.getElementById("pricingUnlockBtn").addEventListener("click", handleUnlock);
 
-  window.addEventListener("load", () => {
-    const params = new URLSearchParams(window.location.search);
-
-    if (params.get("auth") === "signup") {
-      const signUpBtn = document.getElementById("signUpBtn");
-
-      if (signUpBtn) {
-        signUpBtn.click();
-      }
+  // Nav login/logout
+  const indexLogoutLink = document.getElementById("indexLogoutLink");
+  window.addEventListener("load", async () => {
+    if (!indexLogoutLink) return;
+    const { data } = await window.supabaseClient.auth.getUser();
+    if (data?.user) {
+      indexLogoutLink.textContent = "Log Out";
+      indexLogoutLink.href = "#";
+      indexLogoutLink.onclick = async (e) => {
+        e.preventDefault();
+        await window.supabaseClient.auth.signOut();
+        window.location.replace("index.html");
+      };
+    } else {
+      indexLogoutLink.textContent = "Log In";
+      indexLogoutLink.href = "checkout.html";
+      indexLogoutLink.onclick = null;
     }
   });
-  const indexLogoutLink = document.getElementById("indexLogoutLink");
-
-window.addEventListener("load", async () => {
-  if (!indexLogoutLink) return;
-
-  const { data } = await window.supabaseClient.auth.getUser();
-
-  if (data?.user) {
-    indexLogoutLink.textContent = "Log Out";
-    indexLogoutLink.href = "#";
-
-    indexLogoutLink.onclick = async (e) => {
-      e.preventDefault();
-
-      const { error } = await window.supabaseClient.auth.signOut();
-
-      if (error) {
-        console.error("Logout failed:", error);
-        return;
-      }
-
-      window.location.replace("index.html");
-    };
-  } else {
-    indexLogoutLink.textContent = "Log In";
-    indexLogoutLink.href = "checkout.html";
-    indexLogoutLink.onclick = null;
-  }
-});
 </script>
-<div style="text-align:center;font-size:13px;color:#888;margin:40px 0 20px;">
-  <div style="margin-bottom:6px;">SAT Math Practice</div>
-
-  <div style="margin-bottom:6px;">
-    <a href="terms.html" style="color:#666;text-decoration:none;margin:0 8px;">Terms</a>
-    <a href="privacy.html" style="color:#666;text-decoration:none;margin:0 8px;">Privacy</a>
-  </div>
-
-  <div>
-    Built for focused digital SAT prep
-  </div>
-</div>
 
 </body>
 </html>

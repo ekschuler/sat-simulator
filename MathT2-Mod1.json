@@ -97,10 +97,10 @@
       "explanation": "The mean, or average, is found by adding the values of a data set and dividing by the number of values in the data set.  There are \\(8\\) numbers, so divide the sum by \\(8\\).<div style='text-align:center;'>$$\\begin{aligned}\\frac{14+1+19+24+3+3+8+16}{8}=\\frac{88}{8}= 11\\end{aligned}$$</div>"
 },
 {
-  "id": "MathT1-1-006",
+  "id": "MathT2-1-006",
   "type": "mcq",
   "skill": {
-    "domain": "Problem-solving and Data Analysis",
+    "domain": "Algebra",
     "topic": "Statistics",
     "skill": "Calculating Mean"
 },
@@ -115,7 +115,7 @@
   "explanation": "<div class='explanation-step'>Solve this quadratic equation by setting it equal to zero and factoring.</div><div class='explanation-math'>$$\\begin{aligned}x^2+14x-32&=\\cancel{32}-\\cancel{32}\\\\x^2+14x-32&=0\\end{aligned}$$</div><div class='explanation-step'>Use the Zero Product Property to solve: \\(x-2=0\\) and \\(x+16=0\\), so \\(x=2\\) or \\(x=-16\\).  Of the two solutions, \\(x=2\\) appears in the answer choices, so D is the correct answer.<br><br> This problem can also be solved by substituting answers in for \\(x\\) and determining whether the equation is true or false. For example:<br><br> C) \\(4^2+14(4)\\neq32\\) because \\(16+56\\neq32\\). Incorrect.  <br><br> D) \\(2^2+14(2)=32\\) because \\(4+28=32\\). Correct.</div>"
 },
 {
-  "id": "MathT1-1-007",
+  "id": "MathT2-1-007",
   "type": "mcq",
   "skill": {
     "domain": "Algebra",
@@ -133,7 +133,7 @@
   "explanation": "</div><img class='explanation-image' src='assets/Test1-1-7A.png' alt='explanation figure'><div class='explanation-step'>The given angle (\\(49^\\circ\\)) is corresponding angles with the angle indicated in the drawing and corresponding angles are congruent on parallel lines. That angle is supplementary angles with \\(y^\\circ\\).  Supplementary angles have a sum of \\(180^\\circ\\), so \\(y=180-49=131\\).  The correct answer is C."
     },
     {
-  "id": "MathT1-1-008",
+  "id": "MathT2-1-008",
   "type": "mcq",
   "skill": {
     "domain": "Algebra",
@@ -151,7 +151,7 @@
   "explanation": "<div class='explanation-step'>Use the laws of exponents to simplify \\((a^3dn^7)(a^2d^6n^{-4})\\). The product rule says that when multiplying powers with the same base, you add the exponents.</div><div class='explanation-math'>$$\\begin{aligned}&=(a^3dn^7)(a^2d^6n^{-4})\\\\ &=a^3a^2d{}d^6n^{7}n^{-4} \\\\ &=a^{5}d^{7}n^{3}\\end{aligned}$$</div>"
 },
 {
-  "id": "MathT1-1-009",
+  "id": "MathT2-1-009",
   "type": "mcq",
   "skill": {
     "domain": "Advanced Math",
@@ -187,7 +187,7 @@
   "explanation": "<div class='explanation-step'>If \\(\\frac{45}{5x+15}=\\frac{9}{x+c}\\), it must be the case that the numerator and denominator can be divided by a common factor.  Factor the greatest common factor from the denominator, so \\(5x+15=5(x+3)\\).  It's possible that you can see the value of \\(c\\) from here is \\(3\\), but if not, simplify the given fraction \\(\\frac{45}{5(x+3)}\\) by dividing the numerator and denominator by \\(5\\);  \\(\\frac{\\cancel{45}}{\\cancel{5}(x+3)}=\\frac{9}{x+3}\\). Since \\(\\frac{9}{x+c}=\\frac{9}{x+3}\\), \\(c=3\\).</div>"
 },
 {
-  "id": "MathT1-1-011",
+  "id": "MathT2-1-011",
   "type": "mcq",
   "skill": {
     "domain": "Problem-solving and Data Analysis",
@@ -205,7 +205,7 @@
   "explanation": "<div class='explanation-step'>In the slope-intercept equation \\(y=kx-8\\), \\(k\\) is the slope of the equation.  Substitute the ordered pair \\((a,b)\\) in for \\((x,y)\\) and solve for \\(k\\):</div><div class='explanation-math'>$$\\begin{aligned}y&=kx-8\\\\b&=ka-8\\\\b+8&=ka-\\cancel{8}+\\cancel{8}\\\\ \\frac{b+8}{a}&=\\frac{k\\cancel{a}}{\\cancel{a}}\\\\ k&=\\frac{b+8}{a}\\end{aligned}$$</div>"
 },
 {
-  "id": "MathT1-1-012",
+  "id": "MathT2-1-012",
   "type": "mcq",
   "skill": {
      "domain": "Advanced Math",
@@ -223,7 +223,7 @@
   "explanation": "<div class='explanation-columns'><div class='explanation-column'><img class='explanation-image' src='assets/Test1-1-16A.png' alt='explanation figure'></div><div class='explanation-column'>The \\(y\\)-intercept is the point where the graph intersects the \\(y\\)-axis. The \\(x\\)-value at the \\(y\\)-intercept is \\(0\\), so eliminate A and B. In the graph, the \\(y\\)-intercept crosses the \\(y\\)-axis at \\((0,3)\\), so C is the correct answer.</div></div>"
     },
 {
-  "id": "MathT1-1-013",
+  "id": "MathT2-1-013",
   "type": "mcq",
   "skill": {
     "domain": "Algebra",
@@ -241,7 +241,7 @@
   "explanation": "<div class='explanation-step'>The absolute value of a number is its distance from zero. This means that inside the absolute value on the left hand side, \\(30\\) or \\(-30\\) will have an absolute value of \\(30\\), the right hand side of the equation. To solve, write and solve one of two equations; one that gives $30$ or one that gives \\(-30\\) inside the absolute value:</div><div class='explanation-columns'><div class='explanation-column'>$$\\begin{aligned}x+18 &= 30 \\\\ x+\\cancel{18}-\\cancel{18} &= 30-18 \\\\ x &= 12\\end{aligned}$$</div><div class='explanation-column'>$$\\begin{aligned}x+18 &= -30 \\\\ x+\\cancel{18}-\\cancel{18} &= -30-18 \\\\ x &= -48\\end{aligned}$$</div></div>"
     },
     {
-  "id": "MathT1-1-014",
+  "id": "MathT2-1-014",
   "type": "gridin",
   "skill": {
     "domain": "Advanced Math",
@@ -261,37 +261,37 @@
   "explanation": "<div class='explanation-step'>This is a non-linear system of equations.  To solve, set the two expressions for \\(y\\) equal, so \\(15+10x=(x-1)(2x+3)\\). Expand the right hand side and set the equation equal to zero.</div><div class='explanation-math'>$$\\begin{aligned}15+10x&=(x-1)(2x+3)\\\\ \\cancel{15}+\\cancel{10x}-\\cancel{15}-\\cancel{10x}&=2x^2+3x-2x+-3-15-10x\\\\0&=2x^2-9x-18\\end{aligned}$$</div><div class='explanation-step'>To factor by grouping, multiply \\(a \\times c\\). In the expression \\(2x^2-9x-18\\), \\(a=2\\) and \\(c=-18\\), so \\(a \\times c = -36\\).  Determine factors of \\(-36\\) that have a sum of \\(-9\\).  These factors are \\(-12\\) and \\(3\\) because \\(-12 \\times 3= -36\\) and \\(-12 +3=9\\).  Re-write the given quadratic expression with these factors.</div><div class='explanation-math'>$$\\begin{aligned}&=2x^2-9x-18\\\\&=2x^2-12x+3x-18\\end{aligned}$$</div><div class='explanation-step'>Factor the greatest common factor from \\(2x^2-12x\\) and \\(3x-18\\):</div><div class='explanation-math'>$$\\begin{aligned}&=2x^2-12x+3x-18\\\\&=2x(x-6)+3(x-6)\\end{aligned}$$</div><div class='explanation-step'>Re-write the expression as the product of two binomials;  \\(2x(x-6)+3(x-6)=(2x+3)(x-6)\\). Use the Zero Product Property to solve: \\(2x+3=0\\) and \\(x+6=0\\), so \\(x=-\\frac{3}{2}\\) or \\(x=-6\\). The answer that appears in the answer choice is \\(-\\frac{3}{2}\\), so D is the correct answer<br><br>The other method that can be used to solve this problem is substituting answers; the challenge with this method in this problem is that you will have to substitute a fraction at some point as there are two fractional answer choices.</div>"
 },
 {
-  "id": "MathT1-1-014",
+  "id": "MathT2-1-015",
   "type": "mcq",
   "skill": {
     "domain": "Algebra",
-    "topic": "Algebraic Expressions",
-    "skill": "Factoring"
+    "topic": "Systems of Equations",
+    "skill": "Solving Linear Systems"
 },
-  "stem": "Which expression is equivalent to the expression \\(20m^3 n^3+4m^3 n^6\\)?",
+  "stem": "<div style='text-align:center;'>$$x-3y=8$$</div><div style='text-align:center;'>$$-4y=40$$</div><div style='margin-top:12px;'>The solution to the given system of equations is \\((x,y)\\).  What is the value of \\(x+y\\)?</div>",
   "choices": [
-    "\\(4m^3 n^3 (5+n^6 )\\)",
-    "\\(4m^3 n^3 (5+n^3)\\)",
-    "\\(4m^3 n^3 (5n^6)\\)",
-    "\\(4m^3 n^3 (n^3)\\)"
+    "\\(48\\)",
+    "\\(32\\)",
+    "\\(-32\\)",
+    "\\(-48\\)"
   ],
   "answerIndex": 1,
   "explanation": "<div class='explanation-step'>From the answers, notice that this is a factoring problem.  Right away you can eliminate C and D because if the terms cannot be combined before factoring, they also cannot be combined after factoring.  The greatest common factor, \\(4m^3 n^3\\), is the same in answer choices A and B so divide both terms by it to find what is remaining inside the parentheses.</div><div class='explanation-columns'><div class='explanation-column'>$$\\begin{aligned}&=\\frac{20\\cancel{m^3n^3}}{4\\cancel{m^3n^3}}\\\\&= \\frac{20}{4}\\\\&=5\\end{aligned}$$</div><div class='explanation-column'>$$\\begin{aligned}&=\\frac{\\cancel{4m^3}n^6}{\\cancel{4m^3}n^3}\\\\&= \\frac{n^6}{n^3}\\\\&=n^3\\end{aligned}$$</div></div><div class='explanation-step'>The factored form of this expression is \\(4m^3 n^3 (5+n^3 )\\), so the correct answer is B.</div>"
 },
 {
-  "id": "MathT2-1-015",
+  "id": "MathT2-1-016",
   "type": "mcq",
   "skill": {
-    "domain": "Advanced Math",
-    "topic": "Non-linear Systems",
-    "skill": "Solving Non-linear Systems"
+    "domain": "Geometry and Trigonometry",
+    "topic": "Perimeter, Area, and Volume",
+    "skill": "Volume"
 },
-  "stem": "Clare rented \\(12\\) tables that were each the same price. She paid a delivery fee for the tables of \\(\\$124\\). The total cost for the rental including the delivery fee was \\(\\$220\\). What would be the cost, in dollars, to rent one table with no delivery fee?",
+  "stem": "A cylindrical barrel has a diameter of 12 feet and a volume of 252\\pi cubic feet. What is the height, in feet, of the barrel?",
   "choices": [
     "\\(6\\)",
-    "\\(8\\)",
-    "\\(10\\)",
-    "\\(12\\)"
+    "\\(7\\)",
+    "\\(12\\)",
+    "\\(21\\)"
   ],
   "answerIndex": 1,
   "explanation": "<div class='explanation-step'>Write and solve an equation to find the cost to rent one table.  Let \\(t=\\) the cost of one table.  This means \\(12t\\) is the cost to rent \\(12\\) tables. Add the delivery fee to get the total cost, so \\(12t+124=220\\).</div><div class='explanation-math'>$$\\begin{aligned}12t+\\cancel{124}-\\cancel{124}&=220-124\\\\ \\frac{\\cancel{12}t}{\\cancel{12}}&=\\frac{96}{12}\\\\t&=8\\end{aligned}$$</div>"

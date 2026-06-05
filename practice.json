@@ -1,9 +1,9 @@
 {
   "mode": "practice",
-  "moduleId": "algebra_practice_bank",
+  "moduleId": "math_practice_bank",
   "timeSeconds": 1,
-  "setId": "algebra_practice_bank",
-  "title": "Algebra Practice Bank",
+  "setId": "math_practice_bank",
+  "title": "Math Practice Bank",
   "timed": false,
   "sidebar": {
     "groupBy": ["domain", "topic", "level"]
@@ -2915,6 +2915,114 @@
 
       "explanation": "<div class='explanation-step'>Instead of solving the equation for \\(x\\), do a series of operations to solve for \\(\\frac{9x}{2}\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ 8(2x-1)+4x&=2x+16\\\\16x\\cancel{-8}+4x-2x\\cancel{+8}&=\\cancel{2x} \\cancel{-2x}+16+8\\\\ 18x&=24 \\end{aligned}$$</div><div class='explanation-step'>To solve for \\(9x\\), divide both sides by \\(2\\), so \\(9x=12\\).  Finally, to solve for \\(\\frac{9x}{2}\\), divide both sides again by \\(2\\), so \\(\\frac{9x}{2}=6\\).</div>"
     },
+    {
+      "id": "A-L3-021",
+      "type": "mcq",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Equations and Inequalities",
+        "skill": "Equivalent Equations"
+      },
+
+      "level": 3,
+      "set": "Algebra Practice",
+      "tags": ["equations", "solving"],
+
+      "stem": "<div class='stem-equation'>$$6x-\\frac{2}{3}y=10$$</div><div class='stem-equation'>$$10x+\\frac{8}{3}y=31$$</div><div class='stem-text'>If the solution to the given system of equations is \\((x,y)\\), what is the value of \\(48x+6y\\)?</div>",
+
+      "choices": [
+        "16",
+        "21",
+        "41",
+        "123"
+      ],
+      "answerIndex": 3,
+
+      "explanation": "<div class='explanation-step'>Instead of solving the this system of equations, look for ways to compose \\(48x+6y\\) from the left hand sides of the two given equations. Start with the \\(x\\) terms since they do not contain fractions. \\(48= 3 \\times 6 + 3 \\times 10\\). To verify that this expression works for the \\(y\\) terms, multiply  \\(x\\), do a series of operations to solve for \\(\\frac{9x}{2}\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ 8(2x-1)+4x&=2x+16\\\\16x\\cancel{-8}+4x-2x\\cancel{+8}&=\\cancel{2x} \\cancel{-2x}+16+8\\\\ 18x&=24 \\end{aligned}$$</div><div class='explanation-step'>To solve for \\(9x\\), divide both sides by \\(2\\), so \\(9x=12\\).  Finally, to solve for \\(\\frac{9x}{2}\\), divide both sides again by \\(2\\), so \\(\\frac{9x}{2}=6\\).</div>"
+    },
+    {
+      "id": "A-L3-022",
+      "type": "gridin",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Linear Functions",
+        "skill": "Writing Linear Functions"
+      },
+
+      "level": 1,
+      "set": "Algebra Practice",
+      "tags": ["tables", "writing equations"],
+
+      "stem": "<div class='stem-table-wrap'><table class='stem-table'><tr><th>\\(x\\)</th><th>\\(g(x)\\)</th></tr><tr><td>\\(20\\)</td><td>\\(21\\)</td></tr><tr><td>\\(-10\\)</td><td>\\(-39\\)</td></tr></table></div><div class='stem-text'>The table shows values of the linear function \\(g\\). The graph of \\(y=g(x)\\) also passes through the point \\((\\frac{1}{5}, c)\\). What is the value of \\c\\)</div>",
+      "answer": "-18.6",
+      "answersAccepted": ["-18.6", "-\\frac{93}{5}", "\\frac{-93}{5}", "\\frac{93}{-5}"],
+
+      "validation": {
+        "allowDecimal": false,
+        "allowFraction": false,
+        "allowNegative": true,
+        "maxChars": 6
+      },
+      "explanation": "<div class='explanation-step'>In order to find the value of \\(c\\), or the corresponding \\(y\\)-value when \\(x=\\frac{1}{5}\\), first use the given table values to determine the equation for \\(g(x))\\. First find the slope:</div><div class='explanation-math'>$$\\begin{aligned}\\ m&=\\frac{y_2 - y_1}{x_2 - x_1} \\\\ m&=\\frac{21 - (-39)}{20-(-10)}\\\\ m  &= \\frac{60}{3} \\\\ &=2\\end{aligned}$$</div><div class='explanation-step'>The slope is \\(2\\), so the equation is now \\(g(x)=2x+b\\). Substitute in one ordered pair from the table to find the \\(y\\)-intercept:</div><div class='explanation-math'>$$\\begin{aligned}\\ g(x)&=2x+b \\\\ 21&=2(20)+b\\\\ 21  &= 40+b \\\\ -19&=b\\end{aligned}$$</div><div class='explanation-step'>The final equation is \\(g(x)=2x-19\\). Substitute \\(x=\\frac{1}{5}\\) in order to find the value of \\(y\\), which is\\(c\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ g(x)&=2\\frac{1}{5}-19 \\\\ g(x)&=\\frac{2}{5}-19\\\\  &= -18.6 \\end{aligned}$$</div><div class='explanation-step'>Another correct way to enter the answer is \\(-\\frac{93}{5}\\).</div>"
+    },
+    {
+      "id": "A-L3-023",
+      "type": "gridin",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Equations and Inequalities",
+        "skill": "Solving Equations"
+      },
+
+      "level": 1,
+      "set": "Algebra Practice",
+      "tags": ["tables", "writing equations"],
+
+      "stem": "<div class='stem-text'>A sporting goods store sells tennis balls in \\(3\\)-packs, \\(8\\)-packs, and \\(12\\)-packs. During one particular week, the store sells \\(149\\) packs of tennis balls.  If the number of \\(8\\)-packs sold was \\(\\frac{1}{4}\\) the number of \\(3\\)-packs sold, and \\(24\\) \\(12\\)-packs were sold, how many \\(8\\)-packs were sold during this particular week?</div>",
+      "answer": "25",
+      "answersAccepted": ["25", "25", "25", "25"],
+
+      "validation": {
+        "allowDecimal": false,
+        "allowFraction": false,
+        "allowNegative": true,
+        "maxChars": 6
+      },
+      "explanation": "<div class='explanation-step'>An equation that models this situation is (number of \\(3\\)-packs sold) + (number of \\(8\\)-packs sold) + 24 + = \\(149\\). If \\(n=\\) the number of \\(8\\)-packs sold, \\(4n=\\) the number of \\(3\\)-packs sold, so \\(4n+n+24=149\\). Solve for \\(n\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ 4n+n+24&=149 \\\\ 5n+24-24=149-24\\\\ 5n&= 125 \\\\ n&=25\\end{aligned}$$</div>"
+    },
+{
+      "id": "A-L3-024",
+      "type": "gridin",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Equations and Inequalities",
+        "skill": "Modeling"
+      },
+
+      "level": 1,
+      "set": "Algebra Practice",
+      "tags": ["unit conversions", "dimensional analysis"],
+
+      "stem": "<div class='stem-text'>A farmer uses \\(\\text{20,000}\\) gallons of water per week to irrigate his farm. He uses an average of \\(20\\) gallons per square yard of land. If water costs \\(\\$0.10\\) per square yard, which equation can be used to determine how many fewer gallons of water, \\(w\\), the farmer must use to decrease his water bill by \\(\\$10\\)?</div>",
+      
+      "choices": [
+        "\\frac{1}{200}w=10",
+        "\\frac{1}{200}w=15",
+        "200w=10",
+        "200w=15"
+      ],
+      "answerIndex": 0,
+
+      "explanation": "<div class='explanation-step'>This problem can be solved using unit conversions (dimensional analysis). To determine how much water the farmer must cut per week to save \\(\\$10\\), he will need to know the cost per gallon.  Begin with the cost per square yard, and use unit conversions to find the cost per gallon.</div><div class='explanation-math'>$$\\begin{aligned}\\ \\frac{0.1\\, \\text{dollars}}{1\\, \\cancel{\\text{square yard}}}\\times \\frac{1 \\, \\cancel{\\text{square yard}}}{20\\, \\text{gallons}}&=\\frac{0.1 \\, \\text{dollars}}{20 \\, \\text{gallons}} \\end{aligned}$$</div><div class='explanation-step'>Since this fraction does not match any in the answer choices, multiply the numerator and denominator by \\(10\\) to eliminate the decimal in the numerator. The cost per gallon fraction is then \\(\\frac{1}{200}\\). The farmer wants to save \\(\\$10\\), so the correct equation is the cost per gallon multiplied by the number of gallons of water, \\(w\\) equals \\(\\$10\\), or \\frac{1}{200}w=10</div>"
+    },
 
     {
       "id": "AM-L1-001",
@@ -5521,6 +5629,114 @@
       "answerIndex": 3,
       "explanation": "<div class='explanation-step'>The equation of a circle is \\((x-h)^2+(y-k)^2=r^2\\), where \\((h,k)\\) is the center of the circle and \\(r\\) is the radius.  In order for the circle <em>not</em> to intersect the \\(y\\)-axis, the distance from the center of the circle to a point on the circle (which is the radius) must be <em>less</em> than the horizontal shift of the circle to the right or left. The horizontal shift of the circle is equal to the \\(x-\\)value of the center, or \\(h\\).</div><div class='explanation-step'>Test answers to determine whether the \\(\\textit{length of the radius} < k\\). In all four answer choices \\(r^2=49\\), so the radius is \\(7\\).</div><div class='explanation-step'>A) \\((x-3)^2+(y-10)^2=49\\): the \\(x\\)-value of the center is \\(3\\), so the center is \\(3\\) units to the right of the \\(y\\)-axis. Since the radius (\\(7\\)) is greater than the distance to the \\(y-\\)axis, this circle will intersect the \\(y-\\)axis. Eliminate A.</div><div class='explanation-step'>B) \\((x+7)^2+y^2=49\\): the \\(x\\)-value of the center is \\(-7\\), so the center is \\(7\\) units to the left of the \\(y\\)-axis.  Since the radius is equal to the distance to the \\(y-\\)axis, this circle will intersect the \\(y-\\)axis (one time). Eliminate B.</div><div class='explanation-step'>C) \\(x^2+(y+8)^2=49\\): the \\(x\\)-value of the center is \\(0\\), so the center of this circle is <em>on</em> the \\(y-\\)axis. Eliminate C.</div><div class='explanation-step'>D) \\((x+8)^2+(y-7)^2=49\\): the \\(x\\)-value of the center is \\(-8\\), so the center is \\(8\\) units to the left of the \\(y\\)-axis. Since this distance is greater than the radius, this circle does not intersect the \\(y-\\)axis.</div>"
     },
+    {
+      "id": "AM-L3-038",
+      "type": "gridin",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Quadratic Functions",
+        "skill": "Solving Quadratic Equations"
+      },
+
+      "level": 3,
+      "set": "Advanced Math Practice",
+      "tags": ["solutions", "quadratics"],
+
+      "stem": "<div class='stem-equation'>$$x(x+6)-60=3x(3x-4)-65$$</div><div class='stem-text'>What is the product of the solutions to the given equation?</div>",
+      "answer": "-\\frac{5}{8}",
+      "answersAccepted": ["-\\frac{5}{8}", "\\frac{-5}{8}", "\\frac{5}{-8}", "-0.625", "-.625"],
+
+      "validation": {
+        "allowDecimal": false,
+        "allowFraction": false,
+        "allowNegative": true,
+        "maxChars": 6
+      },
+
+      "explanation": "<div class='explanation-step'>Begin by distributing on both sides</div><div class='explanation-math'>$$\\begin{aligned}\\ x(x+6)-60&=3x(3x-4)-65\\\\ x^2+6x-60&=9x^2-12x-65 \\end{aligned}$$</div><div class='explanation-step'>This is a quadratic equation, so to find the solutions, set the equation equal to \\(0\\) and factor.</div><div class='explanation-math'>$$\\begin{aligned}\\ x^2+6x-60&=9x^2-12x-65 \\\\x^2-x^2+6x-6x-60+60&=9x^2-12x-65-x^2-6x+60\\\\0&=8x^2-18x-5\\end{aligned}$$</div>Use factoring by grouping to factor (since \\(a=8\\). To begin factoring by gropuing, multiply \\(a \\times c\\), so \\(8 \\times -5=-40\\). Next, determine factors of \\(-40\\) that have a sum of \\(-18\\).  The factors are \\(-20\\) and \\(2\\) because \\(-20 \\times 2= -40\\) and \\(-20 +2=-18\\).  Re-write the given quadratic expression with these factors.</div><div class='explanation-math'>$$\\begin{aligned}\\ 0&=8x^2-18x-5\\\\ &=8x^2-20x+2x-5\\end{aligned}$$</div><div class='explanation-step'>Factor the greatest common factor from \\(8x^2-20x\\) and \\(2x-5\\):</div><div class='explanation-math'>$$\\begin{aligned}\\ 0&=4x(2x-5)+1(2x-5)\\end{aligned}$$</div><div class='explanation-step'>Re-write the expression as the product of two binomials, so \\4x(2x-5)+1(2x-5)=(4x+1)(2x-5)\\).</div><div class='explanation-step'>Use the Zero Product Property to solve: \\(4x+1=0\\) and \\(2x-5=0\\), so \\(x=-\\frac{1}{4}\\) or \\(x=\\frac{5}{2}\\).  The answer is the product of these solutions, so \\(-\\frac{1}{4} \\times \\frac{5}{2} = -\\frac{5}{8}.</div>"
+    },
+    {
+      "id": "AM-L3-039",
+      "type": "mcq",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Functions",
+        "skill": "Evaluating Functions"
+      },
+
+      "level": 3,
+      "set": "Advanced Math Practice",
+      "tags": ["functions", "evaluating"],
+
+      "stem": "<div class='stem-text'>The function \\(f\\) is defined by \\(f(x)=\\frac{3m}{|x^2|}\\), where \\(m\\lt 0\\). What is the product of \\(f(2m)\\) and \\(f(3)\\)?</div>",
+
+      "choices": [
+        "\\(\\frac{3}{4}\\)",
+        "\\(\\frac{1}{4}\\)",
+        "\\(-\\frac{1}{9}\\)",
+        "\\(-\\frac{1}{36}\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>To find the product of \\f(2m)\\) and \\f(3)\\), first evaluate each by substituting them into the function for \\(x\\).</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} f(x)&=\\frac{3m}{|x^2|}\\\\  &= \\frac{3m}{|(2m)^2|}\\\\  &= \\frac{3m}{4m^2}\\\\  &= \\frac{3}{4m} \\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} f(x)&=\\frac{3m}{|x^2|}\\\\  &= \\frac{3m}{|(3)^2|}\\\\  &= \\frac{3m}{9}\\\\  &= \\frac{m}{3}\\end{aligned}$$</div></div></div><div class='explanation-step'>Since \\(m \\lt 0\\), each fraction will be negative and their product will be positive.  Multiply the resulting fractions.</div><div class='stem-equation'>$$\\begin{aligned} \\frac{3}{4m} \\times \\frac{m}{3} = \\frac{3m}{12m} = \\frac{1}{4}\\end{aligned}$$</div>"
+        },
+        {
+      "id": "AM-L3-040",
+      "type": "gridin",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Quadratic Functions",
+        "skill": "Solving Quadratic Equations"
+      },
+
+      "level": 3,
+      "set": "Advanced Math Practice",
+      "tags": ["solutions", "quadratics"],
+
+      "stem": "<div class='stem-equation'>$$x(x+6)-60=3x(3x-4)-65$$</div><div class='stem-text'>The function \\(f\\) is defined by \\(f(x)=-3(x+1)^2+12\\). In the \\(xy\\)-plane, the graph of \\(y=f(x)\\)intersects the \\(x\\)-axis at the points \\((n,0)\\), where \\(n\\) is a constant, and \\((1,0)\\). What is the value of \\(n\\)?</div>",
+      "answer": "-3",
+      "answersAccepted": ["-3"],
+
+      "validation": {
+        "allowDecimal": false,
+        "allowFraction": false,
+        "allowNegative": true,
+        "maxChars": 6
+      },
+
+      "explanation": "<div class='explanation-step'>The points where the graph intersects the \\(x\\)-axis are the \\(x\\)-intercepts (one of which is \\(3\\). To find the other one, or the value of \\(n\\), set the function equal to \\(0\\) and solve for \\(x\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ 0&=-3(x+1)^2+12\\\\ -12&=-3(x+1)^2 \\\\ 4 &= (x+1)^2 \\\\ \\pm \\sqrt{4} &= \\sqrt{(x+1)^2} \\\\ \\pm 2 &=x+1 \\end{aligned}$$</div><div class='explanation-step'>Write and solve two equations, one for \\(2\\) and one for \\(-2\\). Subtract \\(1\\) from both sides to get the two soulutions; \\(x=2-1=1\\), which is already given, and \\(x=-2-1=-3\\).</div>"
+    },
+    {
+      "id": "AM-L3-039",
+      "type": "mcq",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Functions",
+        "skill": "Evaluating Functions"
+      },
+
+      "level": 3,
+      "set": "Advanced Math Practice",
+      "tags": ["functions", "evaluating"],
+
+      "stem": "<div class='stem-text'>A quadratic function passes through the point \\((-n,0)\\), has a factor of \\(x-8.6), and a vertex at \\((3.4, 8)\\), where \\(n\\) is a positive constant. What is the value of \\(n\\)?</div>",
+
+      "choices": [
+        "\\(8.6\\)",
+        "\\(3.4\\)",
+        "\\(1.8\\)",
+        "\\(0\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>The point \\((-n,0)\\)is one of the \\(x\\)-intercepts. The other \\(x\\)-intercept is given in the factor \\(x-8.6\\), so it is \\((8.6,0)\\). \\(x\\)-intercepts are symmetrical about the vertex, so their \\(x\\)-values are equidistant from the \\(x\\)-value of the vertex.</div><div class='explanation-step'>Find the distance between the \\(x\\)-intercept \\(8.6\\) and the \\(x\\)-value of the vertex, \\(3.4\\), so \\(8.6-3.4=5.2\\). Subtract \\(5.2\\) from \\(3.4\\) to find the other \\(x\\)-intercept; \\(3.4-5.2=-1.8\\). Since \\(n\\) is a positive constant, \\(n=1.8\\).</div>"
+        },
 {
       "id": "P-L1-001",
       "type": "mcq",
@@ -6407,7 +6623,7 @@
 
       "answerIndex": 1,
 
-      "explanation": "<div class='explanation-step'>To find a combined mean, you must first find the sum of the individual data sets.  Since the \\(\\text{mean}=\\frac{\\text{sum of values}}{\\text{number of values in the set}}\\), the sum of the values \\(=\\) the mean \\(\\times\\) the number of values in the set.  Find the sum of the salaries for each group.</div><div class='explanation-step'>To find a combined mean, you must first find the sum of the individual data sets.  Since the \\(\\text{mean}=\\frac{\\text{sum of values}}{\\text{number of values in the set}}\\), the sum of the values \\(=\\) the mean \\(\\times\\) the number of values in the set.  Find the sum of the salaries for each group.</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} 33 \\times \\text{84,000}=\\text{2,772,000}\\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} 42 \\times \\text{47,000}=\\text{1,974,000}\\end{aligned}$$</div></div></div><div class='explanation-step'>Find the combined mean by dividing the sum of these two salary totals by the total number of employees in both departments, so \\(33+42=75\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ &= \\frac{\\text{2,772,000}+\\text{1,974,000}}{75}= \\text{63,280}\\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>To find a combined mean, you must first find the sum of the individual data sets.  Since the \\(\\text{mean}=\\frac{\\text{sum of values}}{\\text{number of values in the set}}\\), the sum of the values \\(=\\) the mean \\(\\times\\) the number of values in the set.  Find the sum of the salaries for each group.</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} 33 \\times \\text{84,000}=\\text{2,772,000}\\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} 42 \\times \\text{47,000}=\\text{1,974,000}\\end{aligned}$$</div></div></div><div class='explanation-step'>Find the combined mean by dividing the sum of these two salary totals by the total number of employees in both departments, so \\(33+42=75\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ &= \\frac{\\text{2,772,000}+\\text{1,974,000}}{75}= \\text{63,280}\\end{aligned}$$</div>"
     },
 
     {
@@ -6565,6 +6781,35 @@
 
       "answer": "5",
       "answersAccepted": ["5"],
+
+      "validation": {
+        "allowDecimal": false,
+        "allowFraction": false,
+        "allowNegative": true,
+        "maxChars": 6
+      },
+
+      "explanation": "<div class='explanation-step'>The mean is given, so use the mean formula to solve for the missing value \\(n\\).  The mean (or average) is \\(\\text{mean}= \\frac{\\text{sum of values}}{\\text{number of values}}\\). A frequency table summarizes the number of times a value occurs in a data set.  This frequency table indicates that there are three 1s, an unknown number of 2s, five 4s, etc.  To find the sum of the values, therefore, multiply the value (number) by the frequency, and add those products.  Then divide the number of values in the data set.</div><div class='explanation-step'>The sum of the values: \\((1 \\times 3) + 2n + (5 \\times 4) + (8 \\times 5) + (9 \\times 3)= 2n+90\\).</div><div class='explanation-step'>The number of values in the set: \\(3+n+4+5+3=n+15\\)</div><div class='explanation-step'>Substitute the expressions into the mean formula and solve for \\(n\\):</div><div class='explanation-math'>$$\\begin{aligned}\\ 5&= \\frac{2n+90}{n+15} \\end{aligned}$$</div><div class='explanation-step'>To solve, multiply both sides by \\(n+15\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ 5(n+15)&= 2n+90\\\\ 5n\\cancel{+75}-2n\\cancel{-75}&=\\cancel{2n}-\\cancel{2n}+90-75\\\\ 3n&=15\\\\ n&=5 \\end{aligned}$$</div><div class='explanation-step'>The frequency of  \\(2\\) is \\(5\\).</div>"
+    },
+    {
+      "id": "P-L3-008",
+      "type": "gridin",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Problem-solving and Data Analysis",
+        "topic": "Statistics",
+        "skill": "Calculating Mean"
+      },
+
+      "level": 3,
+      "set": "Problem-solving and Data Analysis Practice",
+      "tags": ["mean", "average"],
+
+      "stem": "<div class='stem-text'>A consultant has submitted a marketing budget proposal for one of her clients. The consultant recommends \\(22\\%\\) of the budget for events, \\(38\\%\\) for advertising, \\(16\\%\\) for analytics, and the remaining \\(\\$\\text{6,000\\) be used for branding. How much more of the proposed budget, in dollars, is allocated to advertising than events?</div>",
+
+      "answer": "4,000",
+      "answersAccepted": ["\\text{4,000}", "4000", "4,000"],
 
       "validation": {
         "allowDecimal": false,
@@ -7901,6 +8146,32 @@
       ],
       "answerIndex": 2,
       "explanation": "<div class='explanation-step'>An equilateral triangle has three congruent sides and three congruent angles, each of which measures \\(60^\\circ\\).  To find the length of each side of the triangle, use special right triangles and the triangle area formula.  The area of a triangle is \\(A=\\frac{bh}{2}\\) where \\(b\\) is the length of the base and \\(h\\) is the length of the height.  Begin by drawing a diagram of an equilateral triangle and label one of the angles \\(60^\\circ\\). Draw in a height (the segment from one vertex that is perpendicular to the opposite side).  The height divides the triangle into two congruent \\(30-60-90\\) triangles, the sides of which have a special relationship to one another.  Label the side length across from the \\(30^\\circ\\) angle \\(n\\). This means the height is \\(n \\sqrt{3}\\), and the hypotenuse, and therefore, base of the triangle is \\(2n\\). Substitute the base, height, and area into the triangle area formula, and solve for \\(n\\).</div><div class='stem-image'><img src='assets/GeoChallenge-13A.png'></div><div class='explanation-math'>$$\\begin{aligned}\\ A&=\\frac{bh}{2}\\\\ 196 \\sqrt{3}&=\\frac{2n \\times n\\sqrt{3}}{2}\\end{aligned}$$</div><div class='explanation-step'>Divide both sides by \\(\\sqrt{3}\\), essentially canceling them on either side of the equation.  Additionally, simplify the right hand side by canceling \\(\\frac{2}{2}\\).  Now the equation is \\(196=n^2\\).  This means \\(n=\\sqrt{196}=14\\).  The length of one side of the triangle is the same as the base \\(2n\\), so each side of the triangle is \\(28\\).</div>"
+    },
+    {
+      "id": "G-L3-021",
+      "type": "mcq",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Geometry and Trigonometry",
+        "topic": "Circles",
+        "skill": "Arcs and Sectors"
+      },
+
+      "level": 3,
+      "set": "Geometry and Trigonometry Practice",
+      "tags": ["central angle", "inscribed angels", "sector area"],
+
+      "stem": "<div class='stem-text'>A circle with a center at point \\(T\\) has inscribed angle \\(QRS\\) with a measure of \\(54^circ\\). If the length of arc \\(QS\\) is \\(6\\pi\\) inches, what is the area, in square inches, of sector \\(QTS\\)?</div>",
+
+      "choices": [
+        "\\(20\\pi\\)",
+        "\\(30\\pi\\)",
+        "\\(40\\pi\\)",
+        "\\(50\\pi\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Draw and label the circle. If the inscribed angle is \\(54^\\circ\\), the measure of central angle \\(QTS=108^\\circ\\). This is the central angle that forms the sector in question.</div><div class='stem-image'><img src='assets/Geo3-21A.png.png'><div class='explanation-step'>The area of a sector of a circle \\(=\\frac{\\text{central angle}}{360} \\times \\text{area of the circle}\\). In order to find the area of the circle, you need to find the radius.  Use the arc length formula and the given arc length to solve for the circumference. <div class='explanation-math'>$$\\begin{aligned}\\ \\text{Arc length}&=\\frac{\\text{central angle}{360} \\times \\text{circumference} \\\\ 6\\pi &=\\frac{108}{360} \\times C \\\\6\\pi &=.3C \\\\ C&=20\\pi \\end{aligned}$$</div><div class='explanation-step'>The circumference is found by \\(C=2\\pi r\\), so \\(20\\pi=2\\pi r\\). Divide both sides by \\(2 \\pi\\) to get \\(r=10\\). Next, use the sector area formula to find the area of sector \\(QTS\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ \\text{Sector Area}&=.3 \\times \\pi r^2 \\\\ 6&=.3 \\times \\pi \\times 10^2 \\\\ &=.3 \\times 100 \\pi \\\\ &= 30 \\pi \\end{aligned}$$</div>"
     }
 
   ]
