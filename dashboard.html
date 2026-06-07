@@ -158,14 +158,14 @@
   <nav class="nav">
     <div class="navInner">
       <div class="navBrand">SAT Practice</div>
-      <div class="navLinks">
+     <div class="navLinks">
   <a href="#" id="dashboardTestLink" style="display:none;">Full Test</a>
-<a href="#" id="dashboardPracticeLink" style="display:none;">Practice</a>
+  <a href="#" id="dashboardPracticeLink" style="display:none;">Practice</a>
+  <a href="#" id="manageSubBtn" style="display:none;">Manage Subscription</a>
   <a href="#" id="dashboardLogoutBtn">Log Out</a>
 </div>
     </div>
   </nav>
-
 <div id="dashboardLoading" style="text-align:center;padding:80px 20px;color:#666;font-family:system-ui;">
   Loading...
 </div>
@@ -456,7 +456,21 @@ if (startVerbalPracticeBtn) {
 }
 
 const startOverPracticeBtn = document.getElementById("startOverPracticeBtn");
-
+const manageSubBtn = document.getElementById("manageSubBtn");
+if (manageSubBtn) {
+  manageSubBtn.style.display = "";
+  manageSubBtn.onclick = async (e) => {
+    e.preventDefault();
+    const { data: result, error } = await window.supabaseClient.functions.invoke("customer-portal", {
+      body: {}
+    });
+    if (error) {
+      alert("Could not open subscription management. Please try again.");
+      return;
+    }
+    if (result?.url) window.location.href = result.url;
+  };
+}
 const startOverMathBtn = document.getElementById("startOverMathBtn");
 const startOverVerbalBtn = document.getElementById("startOverVerbalBtn");
 
