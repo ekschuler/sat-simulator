@@ -3013,7 +3013,7 @@
       "modeling",
       "linear"
     ],
-    "stem": "<div class='stem-text'>A moving company charges a flat fee of \\$50 plus \\$60 per hour. A second company charges \\$110 plus \\$50 per hour. If both companies charge the same total amount for a job lasting \\(t\\) hours, what is the value of \\(6t\\)?</div>",
+    "stem": "<div class='stem-text'>A moving company charges a flat fee of \\(\\$50\\) plus \\(\\$60\\) per hour. A second company charges \\(\\$110\\) plus \\(\\$50\\) per hour. If both companies charge the same total amount for a job lasting \\(t\\) hours, what is the value of \\(6t\\)?</div>",
     "choices": [
       "\\(6\\)",
       "\\(12\\)",
@@ -3065,7 +3065,7 @@
       "modeling",
       "systems"
     ],
-    "stem": "<div class='stem-text'>A gym charges members a one-time registration fee and a fixed monthly fee. After 4 months, a member has paid a total of $230. After 10 months, the same member has paid a total of $500. What is the registration fee, in dollars?</div>",
+    "stem": "<div class='stem-text'>A gym charges members a one-time registration fee and a fixed monthly fee. After \\(4\\) months, a member has paid a total of \\(\\$230\\). After \\(10\\) months, the same member has paid a total of \\(\\$500\\). What is the registration fee, in dollars?</div>",
     "answer": "50",
       "answersAccepted": ["50"],
 
@@ -3149,7 +3149,7 @@
       "\\(y = 9x - 6\\)"
     ],
     "answerIndex": 3,
-    "explanation": "<div class='explanation-step'>The runner jogs at 6 mph for the first 2 hours, covering \\(6 \\times 2 = 12\\) miles. For the remaining \\(x - 2\\) hours, she runs at 9 mph, covering \\(9(x-2)\\) miles. The total distance is:</div><div class='explanation-math'>$$\\begin{aligned}y &= 6(2) + 9(x-2) \\\\ y &= 12 + 9x - 18 \\\\ y &= 9x - 6\\end{aligned}$$</div><div class='explanation-step'>The correct equation is \\(y = 9x - 6\\). A common error is writing \\(9x\\) instead of \\(9(x-2)\\) for the second segment, which incorrectly applies the 9 mph rate to all \\(x\\) hours instead of only the hours after the first 2.</div>"
+    "explanation": "<div class='explanation-step'>The runner jogs at 6 mph for the first 2 hours, covering \\(6 \\times 2 = 12\\) miles. The remaining hours after the first two hours are \\(x - 2\\) hours. And she runs at 9 mph, so she runs \\(9(x-2)\\) miles. The total distance is:</div><div class='explanation-math'>$$\\begin{aligned}y &= 6(2) + 9(x-2) \\\\ y &= 12 + 9x - 18 \\\\ y &= 9x - 6\\end{aligned}$$</div><div class='explanation-step'>The correct equation is \\(y = 9x - 6\\). A common error is writing \\(9x\\) instead of \\(9(x-2)\\) for the second segment, which incorrectly applies the 9 mph rate to all \\(x\\) hours instead of only the hours after the first 2.</div>"
   },
     {
       "id": "AM-L1-001",

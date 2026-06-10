@@ -3,78 +3,72 @@
   "subject": "verbal",
   "timeSeconds": 1920,
   "title": "SAT Reading and Writing — Module 2",
-  "questions": [
+  "questions": 
 
-    {
-      "id": "VerbalT1-2H-001",
-      "type": "mcq",
-      "skill": {
-        "domain": "Craft and Structure",
-        "topic": "Words in Context",
-        "skill": "Vocabulary in Context"
-      },
-
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["vocabulary", "sentence completion"],
-
-      "stem": "While some financial analysts downplay daily fluctuations in the market, few would dispute that the impact of price swings on public trust has been <span class='blank'>_______</span>, fundamentally changing how many investors view the long-term reliability of financial markets.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
-  "choices": [
-    "magnified",
-    "mundane",
-    "impervious",
-    "indelible"
-  ],
-  "answerIndex": 3,
-  "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word or phrase fits in the blank. Look for signal words that show whether the blank should be a synonym, an antonym, or a cause-and-effect relationship to another part of the sentence.</div><div class='explanation-step'>Here, the sentence begins with <strong>while</strong>, signaling a change in direction from &ldquo;some financial analysts downplay daily fluctuations in the market&rdquo;.  The blank should contradict that sentiment; &ldquo;the impact of price swings on public trust&rdquo; is not downplayed, and <em>is</em> impactful.  Additionally, after the blank we learn that these price swings are so impactful that they have &ldquo;fundamentally changed&rdquo; investor perspectives on financial markets. The word in the blank should be something akin to <strong>impactful</strong>.</div><div class='explanation-step'><strong>A)</strong> &ldquo;magnified&rdquo; means made to appear larger than it is; although the impact on public trust is larger than how analysts typically view them, it is not necessarily larger than it <em>appears</em>.  Since A is not outright wrong, keep it for now.</div><div class='explanation-step'><strong>B)</strong> &ldquo;mundane&rdquo; means boring or ordinary, which does not correctly describe the impact of price swings on public trust. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;impervious&rdquo; means something that cannot be passed through or impacted. This is not relevant to the sentence, and if anything, is closer to the opposite of what the blank requires. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;indelible&rdquo; means something that is permanent and leaves a lasting mark. This matches the meaning of the sentence in that the price swings are so impactful they have changed the way investors view the financial markets. This means  D is the correct answer.</div>"
-},
-
-{
-      "id": "VerbalT1-2H-002",
-      "type": "mcq",
-      "skill": {
-        "domain": "Craft and Structure",
-        "topic": "Words in Context",
-        "skill": "Vocabulary in Context"
-      },
-
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["vocabulary", "sentence completion"],
-
-      "stem": "Accounts of Arctic explorations are often written to strike a balance between the bravery and the <span class='blank'>_______</span> exhibited by their explorers, seeking to honor the intrepid voyagers while also capturing the recklessness that often led to perilous endings.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
-  "choices": [
-    "foolhardiness",
-    "frugality",
-    "cowardice",
-    "modesty"
-  ],
-  "answerIndex": 0,
-  "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word or phrase fits in the blank. Look for signal words that show whether the blank should be a synonym, an antonym, or a cause-and-effect relationship to another part of the sentence.</div><div class='explanation-step'>The sentence begins with the signal word &ldquo;Although,&rdquo; which indicates a contrast between Wegener’s early proposal and what followed. Even though he &ldquo;first proposed his conjecture&rdquo; in the &ldquo;early 1900s,&rdquo; the theory was not &ldquo;accepted or substantiated&rdquo; for 50 years. Therefore, the blank should describe something like ignored or inactive.</div><div class='explanation-step'><strong>A)</strong> &ldquo;insignificant&rdquo; means not important. While this might sound close, it describes importance rather than activity or acceptance. The phrase &ldquo;the theory was insignificant for 50 years&rdquo; is awkward and doesn’t clearly convey that the theory was overlooked rather than considered unimportant. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;enduring&rdquo; means lasting or continuing over time, which is the opposite of the intended meaning—the theory was not active or sustained. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;dormant&rdquo; means inactive or temporarily unused, which fits perfectly with a theory that existed but was not actively explored or accepted. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;vital&rdquo; means essential or crucial. This suggests importance or centrality, which directly contradicts the idea that the theory was neglected for decades. Eliminate D.</div><br><br>This means <strong>C</strong> is the correct answer.</div>"
-},
-{
-      "id": "VerbalT1-2H-003",
-      "type": "mcq",
-      "skill": {
-        "domain": "Craft and Structure",
-        "topic": "Words in Context",
-        "skill": "Vocabulary in Context"
-      },
-
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["vocabulary", "sentence completion"],
-
-      "stem": "Naturalist Donald Culross Peattie called his essay on the near extermination of the American chestnut tree an elegy; the fungal disease that spread through North American forests in the early twentieth century, killing an estimated four billion trees within decades, was to Peattie not only an ecological _______, but also a profound cultural loss that he felt compelled to mourn in prose.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
-  "choices": [
-    "plight",
-    "scourge",
-    "blight",
-    "anomaly"
-  ],
-  "answerIndex": 2,
-  "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word or phrase fits in the blank. Look for signal words that show whether the blank should be a synonym, an antonym, or a cause-and-effect relationship to another part of the sentence.</div><div class='explanation-step'>Here, Galileo was previously &ldquo;censured,&rdquo; which means condemned or deeply criticized. But later something happened because of &ldquo;widespread recognition of his indisputable contributions to astronomy,&rdquo; in contrast to censure. The word in the blank is something close to <em>respected</em> or maybe even <em>celebrated</em>.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Revered&rdquo; means <em>respected</em> or <em>admired</em>.  This is the opposite of censured and in line with being widely recognized. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Discredited&rdquo; means <em>losing respect</em>, which is the opposite of what is expected with wide recognition of Galileo's accomplishments. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Overlooked&rdquo; means <em>not noticed</em>. Galileo was widely recognized, so this is the opposite of overlooked. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Condemned&rdquo; is synonymous with <em>censured</em>. Since this sentence has a reversal, the opposite is of condemned is needed. Eliminate D.</div><br><br>This means <strong>A</strong> is the correct answer."
-},
+    [
+  {
+    "id": "VerbalT1-2H-001",
+    "type": "mcq",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Words in Context",
+      "skill": "Vocabulary in Context"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["vocabulary", "sentence completion"],
+    "stem": "While some financial analysts argue that daily market fluctuations are a normal and even necessary feature of healthy economies, few would dispute that the cumulative impact of sustained price volatility on public trust has been <span class='blank'>_______</span>, leaving investors with a fundamentally altered view of long-term market reliability that even periods of recovery have failed to reverse.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "magnified",
+      "mundane",
+      "impervious",
+      "indelible"
+    ],
+    "answerIndex": 3,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word or phrase fits in the blank. Look for signal words that show whether the blank should be a synonym, an antonym, or a cause-and-effect relationship to another part of the sentence.</div><div class='explanation-step'>This sentence contains two turns to track. First, the word <strong>while</strong> sets up a contrast: analysts call volatility <em>normal and necessary</em>, but the blank pushes back against that. Second, the phrase &ldquo;even periods of recovery have failed to reverse&rdquo; tells us that whatever the blank describes, it is <em>permanent</em> — not just large or widespread, but lasting. The word in the blank must capture something <em>permanent and irreversible</em>.</div><div class='explanation-step'><strong>A)</strong> &ldquo;magnified&rdquo; means made to appear larger than it is. While the impact on trust is significant, this word suggests distortion rather than permanence. The sentence doesn't say the impact is exaggerated — it says it can't be undone. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;mundane&rdquo; means boring or ordinary, which contradicts both the contrast set up by &ldquo;while&rdquo; and the severity implied by the rest of the sentence. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;impervious&rdquo; means unable to be affected or penetrated. This describes something that resists impact, not something that has been impacted. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;indelible&rdquo; means permanent and impossible to erase or reverse. This directly matches both turns in the sentence: the impact contradicts what analysts say, and it has lasted even through periods of recovery. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+  },
+  {
+    "id": "VerbalT1-2H-002",
+    "type": "mcq",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Words in Context",
+      "skill": "Vocabulary in Context"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["vocabulary", "sentence completion"],
+    "stem": "Accounts of Arctic exploration have long grappled with how to portray their subjects honestly — honoring the genuine courage that drove explorers into uncharted and hostile territory while also reckoning with the <span class='blank'>_______</span> that, just as often, propelled them past the point of reasonable judgment and into peril.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "audacity",
+      "foolhardiness",
+      "tenacity",
+      "hubris"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word or phrase fits in the blank. Look for signal words that show whether the blank should be a synonym, an antonym, or a cause-and-effect relationship to another part of the sentence.</div><div class='explanation-step'>The sentence draws a contrast between two qualities: &ldquo;genuine courage&rdquo; on one side, and the blank on the other. The blank describes something that <em>looks like</em> courage — it also drove explorers forward — but pushed them &ldquo;past the point of reasonable judgment and into peril.&rdquo; The blank is not simply the opposite of courage; it is a quality that resembles courage but crosses into recklessness. All four choices describe bold or driven behavior, so the distinction comes down to which word most precisely captures <em>recklessness that leads to danger</em>.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Audacity&rdquo; means bold daring or fearlessness. It can be admirable or excessive depending on context, but it does not inherently suggest poor judgment or self-destruction. It is too neutral here. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Foolhardiness&rdquo; means reckless boldness that ignores danger and overrides good judgment. This precisely describes what &ldquo;propelled them past the point of reasonable judgment and into peril.&rdquo; Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Tenacity&rdquo; means persistent determination. This is generally a positive trait and does not imply poor judgment or danger. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Hubris&rdquo; means excessive pride or arrogance, often leading to downfall. While hubris can lead to poor judgment, it emphasizes ego rather than the reckless, impulsive boldness the sentence describes. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "VerbalT1-2H-003",
+    "type": "mcq",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Words in Context",
+      "skill": "Vocabulary in Context"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["vocabulary", "sentence completion"],
+    "stem": "Donald Culross Peattie's elegy for the American chestnut tree, nearly wiped out by a fungal pathogen that spread through North American forests in the early twentieth century, resists easy categorization: though Peattie mourns the loss as a profound cultural wound, he is equally insistent that it first be understood as an ecological <span class='blank'>_______</span>, one whose devastation was so complete and so swift that it permanently altered the composition of eastern forests.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "catastrophe",
+      "blight",
+      "affliction",
+      "scourge"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word or phrase fits in the blank. Look for signal words that show whether the blank should be a synonym, an antonym, or a cause-and-effect relationship to another part of the sentence.</div><div class='explanation-step'>The sentence establishes two requirements for the blank: the word must be <em>ecological</em> in register (scientific rather than emotional or figurative) and it must describe a <em>disease or pathogen</em> specifically, since the sentence attributes the destruction to &ldquo;a fungal pathogen.&rdquo; All four choices describe devastating events, so the distinction is precision: which word carries both the scientific register and the specific meaning of plant or ecological disease?</div><div class='explanation-step'><strong>A)</strong> &ldquo;Catastrophe&rdquo; means a large-scale disaster. It is accurate but too general — it describes any kind of devastation without specifying disease or ecological harm. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Blight&rdquo; means something that destroys or ruins, and in ecological and botanical contexts refers specifically to a disease that kills plants or crops. This is both scientifically precise and exactly fitting for a fungal pathogen. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Affliction&rdquo; means suffering or hardship, but it is primarily used to describe human suffering. Applied to forests, it sounds figurative rather than scientific. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Scourge&rdquo; means a cause of great suffering or destruction. Like &ldquo;catastrophe,&rdquo; it is dramatic but figurative — it does not carry the scientific or botanical precision of &ldquo;blight.&rdquo; Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
 {
       "id": "VerbalT1-2H-004",
       "type": "mcq",
@@ -112,7 +106,7 @@
   "It opens with a provocative claim, acknowledges a counterargument, and ultimately concedes the opposing view."
   ],
   "answerIndex": 0,
-  "explanation": "<div class='explanation-step'>For <em>Sentence Function</em> questions, it helps to read the sentence before and after the underlined sentence. Identify what the underlined sentence does in relation to the previous sentence (i.e. introduces a new idea, supports a claim, contrasts with earlier information, etc.).</div><div class='explanation-step'>In this text selection, Douglass describes his departure from Colonel Lloyd's plantation. In the sentence prior to the underlined sentence, he claims that if he had not been removed from the plantation and taken to Baltimore, he would likely still be enslaved instead of enjoying the freedoms he had in his own home. The underlined sentence states that going to Baltimore was the fundamental event that led to all of his future <em>prosperity</em>, or success.  This is stated again in the final sentence; Douglas has always thought of this event, going to Baltimore, as the first event of good fortune that then led to so many other good events in his life.  The underlined sentence, therefore, <em>puts emphasis on this point</em> that moving to Baltimore was a pivotal event, an idea that is introduced in the previous sentence.</div><div class='explanation-step'><strong>A)</strong> states that the underlined sentence claims something that is then contradicted or dispelled, which is the opposite of what the text suggests. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> states that the underlined sentence describes the actual journey to Baltimore.  This journey is not described anywhere in the passage, and is not the function of the underlined sentence.  Eliminate B.</div><div class='explanation-step'><strong>C)</strong> states that the underlined sentence &ldquo;highlights a fortunate turning point&rdquo; in Douglas's life; this is similar to <em>emphasizing</em> the turning point when Douglas went to Baltimore.  Keep C.</div><div class='explanation-step'><strong>D)</strong> starts off with &ldquo;contradicts&rdquo;; since there are no contradictory ideas in the passage, D can immediately be eliminated.</div><br><br>This means <strong>C</strong> is the correct answer."
+  "explanation": "<div class='explanation-step'>For <em>Overall Structure</em> questions, read the passage as a whole and identify what each part is doing before looking at the choices. The correct answer will describe the full arc of the passage accurately.</div><div class='explanation-step'>This passage opens with a historical condition — the social divide between classes described in the old saying. It then explains the attitude that allowed it to persist: the upper half &ldquo;cared little&rdquo; for those below as long as it could maintain control. Finally, it describes what forced a reckoning: the crowding and upheaval from below became so severe that the upper class was forced to take notice and seek answers.</div><div class='explanation-step'><strong>A)</strong> States that the text introduces a historical condition, explains the attitude that allowed it to persist, and describes what forced a reckoning. This maps precisely onto the three-part structure of the passage. Keep A.</div><div class='explanation-step'><strong>B)</strong> States that the text presents a social problem, proposes solutions, and ends with a call to action. The passage does not propose any solutions or issue a call to action — it describes events historically. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> States that the text describes the living conditions of the poor, contrasts them with the wealthy, and argues for policy reform. The passage does not describe specific living conditions or argue for any policy. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> States that the text opens with a provocative claim, acknowledges a counterargument, and concedes the opposing view. There is no counterargument or concession in the passage. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
 },
 {
       "id": "VerbalT1-2H-005",
@@ -135,7 +129,7 @@
   },
   {
     "text": "I tried to go to sleep, but the jolting made me bite my tongue, and I soon began to ache all over. When the straw settled down I had a hard bed. Cautiously I slipped from under the buffalo hide, got up on my knees and peered over the side of the wagon. There seemed to be nothing to see; no fences, no creeks or trees, no hills or fields. If there was a road, I could not make it out in the faint starlight. <u>There was nothing but land: not a country at all, but the material out of which countries are made.</u> No, there was nothing but land—slightly undulating, I knew, because often our wheels ground against the brake as we went down into a hollow and lurched up again on the other side. I had the feeling that the world was left behind, that we had got over the edge of it, and were outside man's jurisdiction.",
-    "align": "center",
+    "align": "left",
     "style": "passage"
   },
   {
@@ -151,7 +145,7 @@
   "It foreshadows Jim's eventual sense of belonging in his new home."
 ],
   "answerIndex": 1,
-  "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, read before and after the underlined word and look for clues that reveal its meaning.</div><div class='explanation-step'>This passage describes the harm chemicals inflict on the natural environment. It says the use of insecticides assumes that soil can &ldquo;sustain any amount of <u>insult</u> via the introduction of poisons,&rdquo; so insult must mean something like damage or harm—a metaphorical &ldquo;attack&rdquo; on the soil that the soil endures &ldquo;without striking back.&rdquo;</div><div class='explanation-step'><strong>A)</strong>&ldquo;Injury&rdquo; means physical harm or damage, which fits the metaphorical sense of the soil being harmed by poisons. Keep A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;Offense&rdquo; refers to emotional insult (hurting feelings), not physical or environmental harm. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Disturbance&rdquo; means an interruption of a normal state or function. While poisons might &ldquo;disturb&rdquo; the soil’s balance, the tone and context suggest something more severe, as captured by injury. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Criticism&rdquo; refers to verbal disapproval, not physical harm. Eliminate D.</div><br><br>This means <strong>A</strong> is the correct answer."
+  "explanation": "<div class='explanation-step'>For <em>Function of a Sentence</em> questions, read the sentences before and after the underlined sentence and ask: what is this sentence doing in relation to what came before it? Is it introducing a new idea, continuing the previous one, shifting direction, or interpreting something?</div><div class='explanation-step'>The sentences before the underlined one describe what Jim observes — or rather fails to observe: no fences, no trees, no hills, no road. The passage has been cataloguing the absence of familiar landmarks. The underlined sentence — &ldquo;There was nothing but land: not a country at all, but the material out of which countries are made&rdquo; — moves away from observation and into interpretation. Jim is no longer just describing what he sees; he is reflecting philosophically on what the land means.</div><div class='explanation-step'><strong>A)</strong> States that the sentence contrasts the barrenness of the prairie with the civilization Jim left behind. While the prairie is bare, the sentence does not reference civilization or make a comparison to what Jim left. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> States that the sentence shifts from describing what Jim observes to offering a philosophical interpretation of the landscape. This precisely captures the function of the sentence — it moves from sensory description to abstract reflection. Keep B.</div><div class='explanation-step'><strong>C)</strong> States that the sentence provides a factual description of the Nebraska terrain. The sentence is explicitly not factual — &ldquo;not a country at all, but the material out of which countries are made&rdquo; is a philosophical claim, not a geographical one. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> States that the sentence foreshadows Jim&rsquo;s eventual sense of belonging. There is nothing in the sentence that points toward belonging — the overall tone is one of disorientation and vastness. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
 },
 {
       "id": "VerbalT1-2H-006",
@@ -175,7 +169,7 @@
   "Their capacity to survive without water for decades makes them a model for developing drought-resistant crops."
 ],
   "answerIndex": 0,
-  "explanation": "<div class='explanation-step'>For <em>According to the Text</em> questions, the correct answer will be directly stated in the passage, but might be in different words. Use the process of elimination to answer this question.</div><div class='explanation-step'><strong>A)</strong> says that the novel became the most popular genre in the 1800s because authors rejected idealized storytelling. While the passage notes that <em>readers</em> began favoring realism over idealized themes, there’s no evidence that <em>writers</em> themselves &ldquo;rejected&rdquo; those older styles. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> says that readers were drawn to the novel’s realistic style and relatable subject matter. The passage directly supports this idea, stating that &ldquo;readers sought works that reflected the realities of their daily lives.&rdquo; Keep B.</div><div class='explanation-step'><strong>C)</strong> says that a growing middle class encouraged the publication of more poetry and drama. The text specifies that the <em>literate</em> middle class contributed to the <em>rise of the novel</em>, not poetry or drama. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> says that epic poetry lost popularity because many people lacked access to formal education. The passage does not mention education access and actually describes an <em>increase</em> in literacy. Eliminate D.</div><br><br>This means <strong>B</strong> is the correct answer."
+  "explanation": "<div class='explanation-step'>For <em>According to the Text</em> questions, the correct answer will be directly stated in the passage, but might be in different words. Use the process of elimination to answer this question.</div><div class='explanation-step'><strong>A)</strong> States that tardigrades&rsquo; ability to survive conditions such as radiation and extreme temperatures makes them useful for studying the boundaries of life outside Earth. The passage directly states that these survival traits have made tardigrades &ldquo;a subject of particular interest to astrobiologists seeking to understand the limits of life beyond Earth.&rdquo; Keep A.</div><div class='explanation-step'><strong>B)</strong> States that the glass-like protein tardigrades produce has potential applications for preserving human cells during space voyages. The passage does not mention any such application — it describes the protein as a mechanism for the tardigrade&rsquo;s own survival, not as a tool for human use. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> States that tardigrades&rsquo; small size makes them practical for spacecraft experiments. The passage mentions their small size as a characteristic but does not connect it to their usefulness in space research. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> States that their ability to survive without water makes them a model for developing drought-resistant crops. The passage does not mention agriculture or crop development anywhere. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
 },
 {
       "id": "VerbalT1-2H-007",
@@ -190,7 +184,7 @@
       "set": "Verbal Practice",
       "tags": ["main idea", "main purpose"],
 
-      "stem": "The true identity of who authored Shakespeare’s plays is still debated in academic circles. Scholars generally fall into two main camps: the traditionalists, who attribute the works to William Shakespeare of Stratford-upon-Avon, and the anti-Stratfordians, who argue that another writer must have been responsible. The existence of these opposing camps stems largely from Shakespeare’s modest background, which some anti-Stratfodians believe contrasts too sharply with the extensive knowledge of aristocratic life and distant settings reflected in the plays.<br><br>Which finding, if true, would most directly weaken the anti-Stratfordian claim presented in the text?",
+      "stem": "The true identity of who authored Shakespeare’s plays is still debated in academic circles. Scholars generally fall into two main camps: the traditionalists, who attribute the works to William Shakespeare of Stratford-upon-Avon, and the anti-Stratfordians, who argue that another writer must have been responsible. The existence of these opposing camps stems largely from Shakespeare’s modest background, which anti-Stratfordians believe contrasts too sharply with the extensive knowledge of aristocratic life and distant settings reflected in the plays.<br><br>Which finding, if true, would most directly undermine the anti-Stratfordians' claim?",
   "choices": [
   "Scholars have identified a number of factual errors in Shakespeare's depictions of Italian geography in plays set in cities such as Venice and Verona.",
   "Several of Shakespeare's contemporaries who came from similarly modest backgrounds produced works that also depicted aristocratic life with considerable accuracy.",
@@ -198,7 +192,7 @@
   "Documents recovered from Stratford-upon-Avon confirm that Shakespeare owned property and accumulated significant wealth over the course of his lifetime."
 ],
   "answerIndex": 2,
-  "explanation": "<div class='explanation-step'>For <em>According to the Text</em> questions, the correct answer will be directly stated in the passage, but might be in different words. Use the process of elimination to answer this question.</div><div class='explanation-step'><strong>A)</strong> says that the novel became the most popular genre in the 1800s because authors rejected idealized storytelling. While the passage notes that <em>readers</em> began favoring realism over idealized themes, there’s no evidence that <em>writers</em> themselves &ldquo;rejected&rdquo; those older styles. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> says that readers were drawn to the novel’s realistic style and relatable subject matter. The passage directly supports this idea, stating that &ldquo;readers sought works that reflected the realities of their daily lives.&rdquo; Keep B.</div><div class='explanation-step'><strong>C)</strong> says that a growing middle class encouraged the publication of more poetry and drama. The text specifies that the <em>literate</em> middle class contributed to the <em>rise of the novel</em>, not poetry or drama. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> says that epic poetry lost popularity because many people lacked access to formal education. The passage does not mention education access and actually describes an <em>increase</em> in literacy. Eliminate D.</div><br><br>This means <strong>B</strong> is the correct answer."
+  "explanation": "<div class='explanation-step'>For <em>Weakening a Claim</em> questions, identify the claim precisely before evaluating the choices. The anti-Stratfordians&rsquo; claim is that Shakespeare could not have written the plays because his modest background would not have given him the extensive knowledge of aristocratic life and distant settings that the plays reflect. To undermine this claim, the correct answer must show that a person with a modest background could plausibly have acquired that knowledge.</div><div class='explanation-step'><strong>A)</strong> States that scholars have found factual errors in Shakespeare&rsquo;s depictions of Italian geography. This would actually support the anti-Stratfordians&rsquo; position by suggesting the author lacked firsthand knowledge. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> States that other writers from modest backgrounds also depicted aristocratic life accurately. This weakens the claim by showing that modest origins do not prevent accurate portrayals of elite life. Keep B as a possibility, but read on.</div><div class='explanation-step'><strong>C)</strong> States that theatrical troupes, including those Shakespeare performed with, frequently toured aristocratic estates, giving performers direct exposure to upper-class customs. This directly undermines the anti-Stratfordians&rsquo; premise — it provides a specific, plausible mechanism by which Shakespeare could have acquired knowledge of aristocratic life despite his modest background. Keep C.</div><div class='explanation-step'><strong>D)</strong> States that documents confirm Shakespeare owned property and accumulated wealth. This addresses his financial success but not his knowledge of aristocratic life or distant settings, which is the basis of the anti-Stratfordian argument. Eliminate D.</div><div class='explanation-step'>Both B and C weaken the claim, but C is stronger because it provides a direct, specific explanation for how Shakespeare could have acquired the knowledge in question, rather than just noting that others also managed it. Keep C.</div><br><br>The correct answer is <strong>C</strong>."
 },
 {
       "id": "VerbalT1-2H-008",
@@ -242,167 +236,181 @@
   "West Oaks, which had the highest tree coverage at 42%, recorded the lowest average summer temperature, while Woodland, with only 8% tree coverage, recorded the highest."
 ],
   "answerIndex": 3,
-  "explanation": "<div class='explanation-step'>For <em>Main Idea</em> questions, the correct answer will capture the <strong>central concept</strong> that connects all parts of the passage, not just one example or detail. Here, the passage explains Karl Popper’s idea that a claim must be testable and able to be proven false in order to count as scientific.</div><div class='explanation-step'><strong>A)</strong> This choice accurately summarizes the entire passage. The example of conspiracy theories is a case of &ldquo;claims that cannot be empirically tested,&rdquo; so it fits within this broader idea. Keep A.</div><div class='explanation-step'><strong>B)</strong> This choice says that Popper's theory relied on the ability to prove something true, or the &ldquo;need for verifiable evidence,&rdquo; when it actually is the ability to prove something <em>false</em>. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This choice, that &ldquo;conspiracy theories violate Popper's standard,&rdquo; while true, describes only an <em>example</em> in the passage. The inclusion of conspiracy theories in the passage is a detail, not the main idea. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> This choice says that Popper's theory uses the &ldquo;limits of observation&rdquo; in evaluating scientific validity. The text doesn’t discuss observation or its limits to observation at all. Eliminate D.</div><br><br>This means <strong>A</strong> is the correct answer."
+ "explanation": "<div class='explanation-step'>For <em>Passage + Graph</em> questions, the correct answer must use specific data from the visual to support the passage&rsquo;s conclusion. The research team concluded that greater tree coverage is associated with measurably lower average summer temperatures. The correct answer must accurately reflect the data and directly support that conclusion.</div><div class='explanation-step'><strong>A)</strong> States that tree coverage percentages varied significantly across neighborhoods. While true, this only establishes that variation exists — it does not show any relationship between tree coverage and temperature. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> States that Camden Plains and Riverside had similar tree coverage and therefore nearly identical temperatures. Whether or not this is true, it addresses only two neighborhoods and does not demonstrate the broader pattern the team concluded. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> States that the highest-temperature neighborhoods were in the eastern part of the municipality regardless of tree coverage. If true, this would actually undermine the team&rsquo;s conclusion by suggesting geography, not tree coverage, drives temperatures. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> States that West Oaks, with the highest tree coverage (42%), recorded the lowest average temperature, while Woodland, with the lowest tree coverage (8%), recorded the highest. This directly supports the team&rsquo;s conclusion by showing the clearest example of the inverse relationship between tree coverage and temperature. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
 },
 {
-      "id": "VerbalT1-2E-009",
-      "type": "mcq",
-           "skill": {
-        "domain": "Craft and Structure",
-"topic": "Text Structure and Purpose",
-"skill": "Main Purpose"
+    "id": "VerbalT1-2H-009",
+    "type": "mcq",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Textual Evidence"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["support weaken", "history", "linguistics"],
+    "stemSegments": [
+      {
+        "text": "Historian Dr. Lena Marsh argues that the widespread adoption of the printing press in 15th-century Europe did not democratize access to information as is commonly assumed. She claims that because early printed texts were produced almost exclusively in Latin, literacy rates among common people remained largely unchanged in the decades immediately following Gutenberg's invention, and that the press primarily served the already-educated elite.",
+        "align": "left",
+        "style": "passage"
       },
-
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["main idea", "main purpose"],
-
-      "stem": "In the 1800s, literary trends shifted, making the novel the most popular genre. Epic poetry and idealized, romantic themes had dominated the 1700s, but a number of factors—such as a growing literate middle class and an increasing preference for realism in art and literature—contributed to the novel’s rise in popularity. As readers sought works that reflected the realities of their daily lives, the novel emerged as the form best suited to capture those experiences.<br><br>According to the text, why did the novel become the most popular genre of the 1800s?",
-  "choices": [
-    "Writers in the 1800s began to reject romantic and idealized storytelling.",
-    "Readers were drawn to the novel’s realistic style and relatable subject matter.",
-    "The growing middle class encouraged the publication of more poetry and drama.",
-    "Epic poetry lost popularity due to limited access to formal education."
-  ],
-  "answerIndex": 1,
-  "explanation": "<div class='explanation-step'>For <em>According to the Text</em> questions, the correct answer will be directly stated in the passage, but might be in different words. Use the process of elimination to answer this question.</div><div class='explanation-step'><strong>A)</strong> says that the novel became the most popular genre in the 1800s because authors rejected idealized storytelling. While the passage notes that <em>readers</em> began favoring realism over idealized themes, there’s no evidence that <em>writers</em> themselves &ldquo;rejected&rdquo; those older styles. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> says that readers were drawn to the novel’s realistic style and relatable subject matter. The passage directly supports this idea, stating that &ldquo;readers sought works that reflected the realities of their daily lives.&rdquo; Keep B.</div><div class='explanation-step'><strong>C)</strong> says that a growing middle class encouraged the publication of more poetry and drama. The text specifies that the <em>literate</em> middle class contributed to the <em>rise of the novel</em>, not poetry or drama. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> says that epic poetry lost popularity because many people lacked access to formal education. The passage does not mention education access and actually describes an <em>increase</em> in literacy. Eliminate D.</div><br><br>This means <strong>B</strong> is the correct answer."
-},
-{
-  "id": "VerbalT1-2E-010",
-  "type": "mcq",
-  "mode": "practice",
-  "subject": "verbal",
-  "skill": {
-    "domain": "Information and Ideas",
-    "topic": "Command of Evidence",
-    "skill": "Textual Evidence"
-  },
-  "level": 2,
-  "stem": "&ldquo;Ozymandias&rdquo; is an 1818 sonnet by Percy Bysshe Shelley. In the poem, a traveler describes encountering the ruins of a once-great statue in a vast desert, leading the speaker to reflect on the inevitable decline of those who believed their power and legacy would endure forever.<br><br>A literary critic argues that Shelley uses the poem to suggest that a ruler&rsquo;s demand for admiration becomes deeply ironic when set against the emptiness that surrounds his crumbling monument. Which quotation from &ldquo;Ozymandias&rdquo; most effectively illustrates the critic&rsquo;s claim?",
-
+      {
+        "text": "Which finding, if true, would most directly undermine Dr. Marsh's claim?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
     "choices": [
-  "Round the decay/Of that colossal Wreck, boundless and bare",
-  "Tell that its sculptor well those passions read/Which yet survive, stamped on these lifeless things,/The hand that mocked them, and the heart that fed",
-  "My name is Ozymandias, King of Kings; / Look on my Works, ye Mighty, and despair! / Nothing beside remains.",
-  "Half sunk a shattered visage lies, whose frown/And wrinkled lip, and sneer of cold command"
-  ],
-  "answerIndex": 2,
-  "explanation": ""
-},
+      "Records from German towns in the 1470s show that the most frequently printed texts were religious manuscripts intended for monastery libraries.",
+      "Surveys of book ownership from the late 1400s indicate that vernacular texts — printed in German, French, and Italian — outsold Latin texts by a ratio of nearly three to one within two decades of Gutenberg's invention.",
+      "The cost of printed books in the 15th century, though lower than hand-copied manuscripts, remained prohibitively expensive for most common laborers.",
+      "Several prominent humanist scholars of the period praised the printing press for accelerating the spread of classical knowledge across European universities."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Supporting or Weakening a Claim</em> questions, identify the claim precisely before evaluating the choices. Dr. Marsh's claim has two parts: (1) early printed texts were almost exclusively in Latin, and (2) therefore the press served the educated elite rather than common people. To undermine her claim, the correct answer must challenge the premise that texts were primarily in Latin, or show that common people did benefit.</div><div class='explanation-step'><strong>A)</strong> States that the most frequently printed texts were religious manuscripts for monastery libraries. This actually supports Dr. Marsh's claim — monasteries housed educated clergy, not common people. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> States that vernacular texts outsold Latin texts three to one within two decades. If printed books were primarily in German, French, and Italian — languages common people could read — then Dr. Marsh's premise that texts were &ldquo;almost exclusively in Latin&rdquo; is directly contradicted. This undermines her claim. Keep B.</div><div class='explanation-step'><strong>C)</strong> States that printed books were too expensive for common laborers. This supports Dr. Marsh's conclusion through a different mechanism — cost rather than language. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> States that scholars praised the press for spreading classical knowledge through universities. Universities were institutions of the educated elite, which supports rather than undermines Dr. Marsh's claim. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "VerbalT1-2H-010",
+    "type": "mcq",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Textual Evidence"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["quotation", "literature", "Gilman"],
+    "stemSegments": [
+      {
+        "text": "&ldquo;The Yellow Wallpaper&rdquo; is an 1892 short story by Charlotte Perkins Gilman. In the story, Gilman uses the narrator&rsquo;s increasingly obsessive relationship with the wallpaper to illustrate how enforced idleness intensifies rather than relieves her psychological distress, writing <span class='blank'>_______</span>.",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "Which quotation from &ldquo;The Yellow Wallpaper&rdquo; most effectively illustrates the claim?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "&ldquo;I lie here on this great immovable bed &mdash; it is nailed down, I believe &mdash; and follow that pattern about by the hour. It is as good as gymnastics, I assure you.&rdquo;",
+      "&ldquo;I determined for the thousandth time that I would follow that pointless pattern to some sort of a conclusion.&rdquo;",
+      "&ldquo;The color is repellent, almost revolting; a smouldering unclean yellow, strangely faded by the slow-turning sunlight.&rdquo;",
+      "&ldquo;John says if I don&rsquo;t pick up faster he shall send me to Weir Mitchell in the fall.&rdquo;"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Illustrating Claims with Quotations</em> questions, identify the precise claim before evaluating the choices. The claim has two parts: (1) the narrator&rsquo;s relationship with the wallpaper becomes obsessive, and (2) this obsession shows that enforced rest <em>intensifies</em> her distress rather than relieving it. The correct quotation must show both — obsession with the wallpaper and a sense of worsening distress.</div><div class='explanation-step'><strong>A)</strong> Describes the narrator lying in bed and following the wallpaper pattern &ldquo;by the hour,&rdquo; suggesting obsessive focus. However, the tone is sardonic — &ldquo;as good as gymnastics&rdquo; — which frames the behavior as harmless or even beneficial. This doesn&rsquo;t illustrate intensifying distress. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> States that the narrator has tried &ldquo;for the thousandth time&rdquo; to follow the pattern to a conclusion — showing obsessive repetition — and calls it &ldquo;pointless,&rdquo; which conveys frustration and worsening psychological strain. Together, these details directly illustrate the claim. Keep B.</div><div class='explanation-step'><strong>C)</strong> Describes the narrator&rsquo;s initial reaction to the wallpaper&rsquo;s color. This is an early sensory impression, not evidence of obsession or intensifying distress. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> References the narrator&rsquo;s husband threatening to send her to a rest-cure physician. This relates to her treatment and confinement but does not show her obsessive relationship with the wallpaper. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "VerbalT1-2H-011",
+    "type": "mcq",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Quantitative Evidence"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["table", "data", "agriculture", "evaluate claim"],
+    "stemSegments": [
+      {
+        "text": "Average Daily Sunlight and Crop Yield by Agricultural Region",
+        "align": "center",
+        "style": "intro"
+      },
+      {
+        "text": "<table class='stem-table'><tr><th>Region</th><th>Avg Daily Sunlight (hrs)</th><th>Crop Yield (tons/acre)</th></tr><tr><td>Region A</td><td>4.2</td><td>1.8</td></tr><tr><td>Region B</td><td>5.8</td><td>2.4</td></tr><tr><td>Region C</td><td>7.1</td><td>3.2</td></tr><tr><td>Region D</td><td>8.4</td><td>4.1</td></tr><tr><td>Region E</td><td>9.6</td><td>4.8</td></tr><tr><td>Region F</td><td>10.3</td><td>3.9</td></tr></table>",
+        "align": "center",
+        "style": "table"
+      },
+      {
+        "text": "An agricultural researcher argues that among the regions studied, greater daily sunlight exposure is consistently associated with higher crop yields, and that this relationship holds across all six regions surveyed. Which choice most accurately uses data from the table to evaluate the researcher's claim?",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "Which choice most accurately uses data from the table to evaluate the researcher's claim?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "Region F, which receives the most daily sunlight of any region in the table, also produces the highest crop yield, supporting the researcher's claim.",
+      "Five of the six regions show a positive relationship between sunlight and yield; however, Region F receives more daily sunlight than Region E but produces a lower yield, which contradicts the researcher's claim that the relationship holds across all six regions.",
+      "Region D receives exactly twice as much daily sunlight as Region A and produces more than twice the crop yield, supporting the researcher's claim.",
+      "The three regions with the highest sunlight exposure all produce more than 3.5 tons per acre, which is consistent with the researcher's claim."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Quantitative Evidence</em> questions, carefully verify each claim against the table before selecting an answer. The researcher claims the relationship between sunlight and yield holds <em>across all six regions</em>. The correct answer must accurately represent what the data actually show.</div><div class='explanation-step'><strong>A)</strong> States that Region F has the most sunlight and the highest yield. The table shows Region F has 10.3 hours of sunlight but only 3.9 tons per acre — less than Region E&rsquo;s 4.8 tons. This is factually incorrect. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Correctly identifies that five regions follow the pattern but Region F (10.3 hrs, 3.9 tons) has more sunlight than Region E (9.6 hrs, 4.8 tons) yet produces a lower yield. This directly challenges the researcher&rsquo;s claim that the relationship holds across all six regions. Keep B.</div><div class='explanation-step'><strong>C)</strong> Checks out mathematically — Region D (8.4 hrs) is exactly double Region A (4.2 hrs), and 4.1 tons is more than double 1.8 tons. However, this only compares two regions and does not address the full claim or the exception in Region F. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Checks out — Regions D, E, and F all produce above 3.5 tons. However, this framing avoids the critical exception: Region F has more sunlight than Region E but lower yield, which directly contradicts the claim. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "VerbalT1-2H-012",
+    "type": "mcq",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Quantitative Evidence"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["table", "passage", "education", "reading proficiency"],
+    "stemSegments": [
+      {
+        "text": "Reading Proficiency Rates by Instructional Method and Grade Level",
+        "align": "center",
+        "style": "intro"
+      },
+      {
+        "text": "<table class='stem-table'><tr><th>Grade</th><th>Traditional Instruction (%)</th><th>Structured Literacy (%)</th><th>Difference (percentage points)</th></tr><tr><td>2</td><td>54</td><td>61</td><td>+7</td></tr><tr><td>3</td><td>51</td><td>67</td><td>+16</td></tr><tr><td>4</td><td>49</td><td>72</td><td>+23</td></tr><tr><td>5</td><td>47</td><td>74</td><td>+27</td></tr><tr><td>6</td><td>45</td><td>73</td><td>+28</td></tr></table>",
+        "align": "center",
+        "style": "table"
+      },
+      {
+        "text": "Education researcher Dr. Priya Anand argues that structured literacy instruction produces meaningfully greater reading proficiency than traditional instruction across all grade levels studied, and that this advantage becomes more pronounced as students progress through elementary school.",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "Which choice best uses data from the table to support Dr. Anand's claim?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "Structured literacy produced higher proficiency rates than traditional instruction at every grade level in the table.",
+      "Students receiving structured literacy instruction in grade 6 outperformed those receiving traditional instruction by 28 percentage points, the largest gap recorded in the table.",
+      "While proficiency rates under traditional instruction declined steadily from 54% in grade 2 to 45% in grade 6, proficiency rates under structured literacy increased from 61% to 73% over the same grades, with the gap between the two methods widening at every grade level.",
+      "The average proficiency rate across all grades was higher for structured literacy than for traditional instruction."
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Passage + Table</em> questions, the correct answer must use specific data to support the precise claim. Dr. Anand makes two claims: (1) structured literacy outperforms traditional instruction at all grade levels, and (2) the advantage grows more pronounced as students advance. The correct answer must support both parts.</div><div class='explanation-step'><strong>A)</strong> Supports the first part of Dr. Anand&rsquo;s claim — structured literacy outperforms at every grade — but says nothing about whether the gap widens over time. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Highlights the grade 6 gap (28 points) as the largest in the table, which hints at the widening trend. However, it focuses on a single grade and doesn&rsquo;t demonstrate the full pattern of increasing advantage across all grades. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Shows that traditional instruction rates fell from 54% to 45% while structured literacy rates rose from 61% to 73%, with the gap widening at every grade level. This directly supports both parts of Dr. Anand&rsquo;s claim with specific data across the full range of grades. Keep C.</div><div class='explanation-step'><strong>D)</strong> States only that the overall average was higher for structured literacy. This is too vague and does not address the claim about the advantage growing more pronounced over time. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
 {
-      "id": "VerbalT1-2E-011",
+      "id": "VerbalT1-2H-013",
       "type": "mcq",
       "skill": {
-        "domain": "Information and Ideas",
+       "domain": "Information and Ideas",
 "topic": "Command of Evidence",
 "skill": "Textual Evidence"
       },
 
       "level": 1,
       "set": "Verbal Practice",
-      "tags": ["grammar", "possessive pronouns"],
+      "tags": ["text completion"],
 
-        "stem": "Economists argue that a significant rise in gig work—where workers are hired as independent contractors to complete projects or tasks—has increased economic productivity. They claim that gig work offers individuals autonomy over projects and enables them to choose work that utilizes their strengths—characteristics often absent in traditional work models. Furthermore, these economists assert that by setting their own schedules, gig workers can opt for projects that are sustainable for their lifestyles. However, a recent longitudinal study tracking gig workers over several years found that many participants reported declining productivity and job satisfaction, often citing inconsistent pay and burnout as key factors.<br><br>Which finding, if true, would most directly undermine the economists' claim?",
+      "stem": "Karl Popper's theory of falsifiability implicitly rules out the inclusion of conspiracy theories in scientific discourse. Popper's criteria for whether or not a claim is actually scientific rests on its ability to be proved false. If a claim cannot be subjected to falsification trials, then it cannot be deemed scientific. For example, a proponent of a theory claiming that a historical artifact is of extraterrestrial origin might interpret the lack of physical evidence as proof that authorities have concealed it, rather than as grounds to reconsider the theory. Conspiracy theories, which tend to treat any counterevidence as further proof of their claims, prevent themselves from being tested and therefore _______.<br><br>Which choice most logically completes the text?",
   "choices": [
-    "Gig workers report higher overall satisfaction with flexible schedules than traditional employees.",
-    "The total number of gig workers has continued to increase each year since 2015.",
-    "Many gig workers experience financial instability that negatively affects their ability to sustain productivity over time.",
-    "Gig work has become more common in industries requiring short-term contracts."
-  ],
-  "answerIndex": 2,
-  "explanation": "<div class='explanation-step'>For <em>Argument-Based Reasoning</em> questions—particularly those asking which choice would weaken a claim—the key is to identify the central claim first. In this passage, economists assert that the <em>rise of gig work has increased economic productivity</em>. To undermine this argument, look for evidence that gig work reduces or fails to improve productivity.</div><div class='explanation-step'><strong>A)</strong> This choice strengthens the economists’ claim rather than weakens it, reinforcing that gig workers benefit from flexible schedules and autonomy. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This choice also supports the economists’ position: if the number of gig workers is increasing, it suggests the system is working effectively. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This choice directly challenges the economists’ claim by showing that financial instability among gig workers reduces productivity over time. This contradicts the idea that gig work boosts productivity. Keep C.</div><div class='explanation-step'><strong>D)</strong> This choice merely describes where gig work is becoming more common; it does not address productivity or job satisfaction. Eliminate D.</div><br><br>This means <strong>C</strong> is the correct answer."
-},
-{
-      "id": "VerbalT1-2E-012",
-      "type": "mcq",
-      "skill": {
-        "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
-      },
-
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["grammar", "possessive pronouns"],
-
-        "stem": "&ldquo;I Sit and Sew&rdquo; is a poem by Alice Moore Dunbar-Nelson. In the poem, the speaker describes the emotional frustration caused by confining domestic expectations that limit her ability to pursue her ambitions.<br><br>Which quotation from &ldquo;I Sit and Sew&rdquo; most effectively illustrates the claim?",
-  "choices": [
-    "&ldquo;I sit and sew—my heart aches with desire— /That pageant terrible, that fiercely pouring fire&rdquo;",
-    "&ldquo;The little useless seam, the idle patch; / Why dream I here beneath my homely thatch&rdquo;",
-    "&ldquo;My soul in pity flings /Appealing cries, yearning only to go / There in that holocaust of hell, those fields of woe&rdquo;",
-    "&ldquo;I sit and sew—a useless task it seems, / My hands grown tired, my head weighed down with dreams&rdquo;"
-  ],
-  "answerIndex": 3,
-  "explanation": "<div class='explanation-step'>For <em>Illustrating Claims</em> questions, where you are asked to find a supporting quotation, the correct answer will directly and completely support or illustrate a claim about the text. In this question, the correct answer needs to show both the speaker's &ldquo;frustration caused by confining domestic expectations&rdquo; and her resulting inability &ldquo;to pursue her ambitions.&rdquo;</div><div class='explanation-step'><strong>A)</strong> This quotation mentions a domestic task (&ldquo;I sit and sew&rdquo;) and conveys emotional longing (&ldquo;my heart aches with desire&rdquo;), suggesting ambition or yearning. However, it doesn’t clearly show frustration with domestic confinement itself. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This quotation describes her domestic tasks with &ldquo;the little useless seam,&rdquo; &ldquo;the idle patch,&rdquo; and &ldquo;my homely thatch&rdquo;; these suggest confinement to household tasks. However, it lacks the emotional frustration or ambition for something else described in the claim. The tone is more neutral, not frustrated or yearning for something different. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This quotation describes the speaker’s feelings about suffering happening in the &ldquo;fields of woe&rdquo;, but the tone is one of compassion (&ldquo;My soul in pity flings&rdquo;), and is not about her domestic confinement and inability to pursue her own ambitions. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> This choice captures both confining domestic tasks with &ldquo;I sit and sew—a useless task it seems&rdquo; and just truly how frustrating that is with &ldquo;hands grown tired.&rdquo; Additionally, it draws the direct link between these useless tasks and how they limit her ability to pursue her ambitions; with these useless tasks, the speaker's head is &ldquo;weighed down with dreams&rdquo;. This means <strong>D</strong> is the correct answer."
-},
-{
-      "id": "VerbalT1-2E-013",
-      "type": "mcq",
-      "skill": {
-        "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
-      },
-
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["grammar", "possessive pronouns"],
-
-        "stem": "&ldquo;The Lady with the Dog&rdquo; is a story by Anton Chekhov. In the story, Checkhov uses setting to mirror a character’s emotional state.<br><br>Which quotation from &ldquo;The Lady with the Dog&rdquo; most effectively illustrates the claim?",
-  "choices": [
-    "&ldquo;The sea was calm, and the town seemed half asleep in the heat of the afternoon.&rdquo;",
-    "&ldquo;The streets were bright and crowded, and the sound of the orchestra drifted through the open windows.&rdquo;",
-    "&ldquo;It was winter in Moscow, and the gray days stretched endlessly; everything felt foreign and oppressive to him.&rdquo;",
-    "&ldquo;He walked quickly, eager to reach the familiar street where she had once walked beside him.&rdquo;"
-  ],
-  "answerIndex": 2,
-  "explanation": "<div class='explanation-step'>For <em>Illustrating Claims</em> questions, where you are asked to find a supporting quotation, the correct answer will directly and completely support or illustrate a claim about the text. In this question, the correct answer needs to show both the speaker's &ldquo;frustration caused by confining domestic expectations&rdquo; and her resulting inability &ldquo;to pursue her ambitions.&rdquo;</div><div class='explanation-step'><strong>A)</strong> This quotation focuses entirely on the physical setting but does not connect it to the character’s emotions or perspective. It illustrates only half of the claim. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This quotation also describes the setting, but does not reveal anything about the character’s internal state. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This quotation links the setting (&ldquo;gray days&rdquo;) to the character's feelings (&ldquo;felt foreign and oppressive&rdquo;).  The bleak environment <em>mirrors</em> the character's despair, demonstrating Checkov's use of setting to mirror the character's emotional state. Keep C.</div><div class='explanation-step'><strong>D)</strong> This quotation focuses on the character's actions and memories, but not the setting.  Although it mentions a &ldquo;familiar street,&rdquo; it does not link the character's emotional state to the physical environment. Eliminate D.</div><br><br>This means <strong>C</strong> is the correct answer."
-},
-{
-      "id": "VerbalT1-2E-014",
-      "type": "mcq",
-      "skill": {
-                "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
-      },
-
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["grammar", "verb form", "verb tense"],
-  "stemSegments": [
-    {
-      "text": "<table class='stem-table'><tr><th>Age Group</th><th>Rate of EV Ownership</th></tr><tr><td>20&ndash;34</td><td>7%</td></tr><tr><td>35&ndash;49</td><td>11%</td></tr><tr><td>50&ndash;64</td><td>9%</td></tr><tr><td>65+</td><td>2%</td></tr></table>",
-      "align": "center",
-      "style": "table"
-    },
-    {
-      "text": "The rate of electric vehicle ownership is defined as the percentage of electric vehicles out of all vehicles owned.",
-      "align": "left",
-      "style": "intro"
-    },
-    {
-      "text": "According to the table, the age group with the highest rate of electric vehicle ownership in 2023 was <span class='blank'>_______</span>.",
-      "align": "left",
-      "style": "passage"
-    },
-    {
-      "text": "Which choice most effectively uses data from the table to complete the statement?",
-      "align": "left",
-      "style": "question"
-    }
-  ],
-  "choices": [
-    "20–34",
-    "35–49",
-    "50–64",
-    "65+"
-  ],
+  "should be rejected by the public as products of flawed or irrational reasoning",
+  "fall outside the boundaries of scientific inquiry, regardless of how internally consistent their logic may appear",
+  "grow stronger over time as proponents accumulate interpretations that appear to confirm their claims",
+  "represent a distinct category of belief that demands entirely new frameworks for evaluation"
+],
   "answerIndex": 1,
-  "explanation": "<div class='explanation-step'>To answer a <em>Quantitative Information</em> question, identify what the statement says and find the corresponding data in the table that either matches, or completes the statement. Here, the data needed to complete the statement is &ldquo;the age group with the highest rate of electric vehicle ownership in 2023.&rdquo; The table shows the age groups in the first column, and the rate of EV ownership in the second column.  The highest rate, \\(11\\%\\), belongs to the \\(35–49\\) age group, so the correct answer is <strong>B</strong>.</div>"
+  "explanation": "<div class='explanation-step'>For <em>Text Completion</em> questions, first read and summarize the passage to anticipate its logical direction. This passage introduces Karl Popper&rsquo;s theory of falsifiability and applies it specifically to conspiracy theories. The key logic is: Popper says a claim must be testable (falsifiable) to be scientific. Conspiracy theories treat counterevidence as confirmation, which means they cannot be falsified. The blank must complete the logical conclusion of that chain of reasoning.</div><div class='explanation-step'><strong>A)</strong> States that conspiracy theories &ldquo;should be rejected by the public as products of flawed reasoning.&rdquo; While this may be true in a general sense, the passage is making a specific philosophical argument about scientific classification, not a social argument about public opinion. This goes beyond what the passage supports. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> States that conspiracy theories &ldquo;fall outside the boundaries of scientific inquiry, regardless of how internally consistent their logic may appear.&rdquo; This follows directly from Popper&rsquo;s criteria: if a claim cannot be falsified, it is not scientific. The qualifier &ldquo;regardless of how internally consistent their logic may appear&rdquo; also matches the passage&rsquo;s acknowledgment that conspiracy theories can appear internally logical. Keep B.</div><div class='explanation-step'><strong>C)</strong> States that conspiracy theories &ldquo;grow stronger over time as proponents accumulate interpretations that appear to confirm their claims.&rdquo; While the passage implies this dynamic, it is not the conclusion the passage is building toward — the passage is about scientific classification, not the growth of conspiracy theories. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> States that conspiracy theories &ldquo;represent a distinct category of belief that demands entirely new frameworks for evaluation.&rdquo; The passage does not suggest new frameworks are needed — it uses Popper&rsquo;s existing framework to classify them. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
 },
 {
-      "id": "VerbalT1-2E-015",
+      "id": "VerbalT1-2H-014",
       "type": "mcq",
       "skill": {
                 "domain": "Standard English Conventions",
@@ -414,41 +422,18 @@
       "set": "Verbal Practice",
       "tags": ["grammar", "verb form", "verb tense"],
 
-      "stem": "Most cities regularly consider new technologies that will enhance civic life, promote economic growth, and positively contribute to the overall infrastructure of the city.  Citywide broadband access is one such technology that, several studies show, has grown the local economy by as much as \\(3\\%\\), and has contributed significantly to a reduction in traffic congestion and crime rates. Notwithstanding the wealth of evidence in support of citywide broadband, <span class='blank'>_______</span>.<br><br>Which choice most logically completes the text?",
+      "stem": "The following text is from a 2022 article on bacterial communication in clinical microbiology.<br><br>Quorum sensing, the mechanism by which bacterial populations coordinate collective behavior through the release and detection of chemical signaling molecules known as autoinducers, allows individual cells to effectively assess the magnitude of their population and regulate gene expression accordingly. As autoinducer concentrations accumulate in the surrounding environment and surpass a critical threshold, coordinated responses are engaged across the bacteria population — including the formation of protective biofilms, the production of toxins or of spores. Since quorum sensing is necessary to the survival and perpetuation of bacteria, researchers are particularly interested in how it functions to better understand how it can be intercepted. Specifically, researchers studying <em>Pseudomonas aeruginosa</em>, a bacterium responsible for persistent infections in immunocompromised patients, have found that disrupting the quorum sensing threshold prevents the population from mounting a unified defense, leaving individual cells vulnerable to antimicrobial agents that would otherwise be ineffective against the colony as a whole. These findings suggest that _______.<br><br>Which choice most logically completes the text?",
   "choices": [
-    "many cities continue to reject proposals to implement citywide broadband access.",
-    "some cities have begun offering free broadband service in select public spaces.",
-    "the high cost of implementation has made widespread broadband access unrealistic for many municipalities.",
-    "a few cities have reported temporary increases in crime after launching their broadband initiatives."
+    "targeting quorum sensing pathways may offer a promising strategy for treating infections that have proven resistant to conventional antimicrobial therapies",
+    "bacterial populations are fundamentally altruistic organisms that sacrifice individual cells for the survival of the colony",
+    "autoinducer molecules could be synthetically replicated and used to enhance immune responses in healthy patients",
+    "the virulence of Pseudomonas aeruginosa is determined primarily by the size of the bacterial population rather than by the strength of individual cells"
   ],
   "answerIndex": 0,
-  "explanation": "<div class='explanation-step'>For <em>Text Completion</em> questions, first read and summarize the passage to anticipate its logical direction. This passage explains that cities are exploring technologies to improve urban life. It presents citywide broadband as a proven success, citing benefits to the economy, traffic, and safety. The final sentence begins with &ldquo;Notwithstanding,&rdquo; which means <em>in spite of</em>. Therefore, the correct completion must contrast the positive evidence, showing that, despite the data, some cities still resist or fail to act. Use the process of elimination to confirm your choice.</div><div class='explanation-step'><strong>A)</strong>This choice states that many cities continue to reject proposals to implement citywide broadband. This creates the logical contrast expected by &ldquo;Notwithstanding,&rdquo; showing that cities ignore evidence of broadband’s benefits. Keep A.</div><div class='explanation-step'><strong>B)</strong>This choice states that some cities have begun offering free broadband service. This supports the benefits discussed earlier rather than contradicting them, so it doesn’t fit with the contrast implied by &ldquo;Notwithstanding.&rdquo; Eliminate B.</div><div class='explanation-step'><strong>C)</strong>This choice says that the high cost of implementation has made broadband unrealistic for many cities. While it presents a challenge, it explains <em>why</em> implementation is difficult rather than contrasting the evidence itself. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>This choice mentions temporary increases in crime, contradicting one of the listed benefits. However, it contrasts the data (broadband reduces crime), not the behavior of cities in response to that data. Eliminate D.</div><br><br>This means the correct answer is <strong>A</strong>."
+  "explanation": "<div class='explanation-step'>For <em>Text Completion</em> questions, first read and summarize the passage to anticipate its logical direction. This passage explains quorum sensing — the mechanism by which bacteria coordinate collective behavior — and describes research showing that disrupting quorum sensing in <em>Pseudomonas aeruginosa</em> leaves individual cells vulnerable to antimicrobial agents. The final sentence begins with &ldquo;These findings suggest that,&rdquo; so the blank must state the logical conclusion drawn from the disruption research.</div><div class='explanation-step'><strong>A)</strong> States that targeting quorum sensing pathways may offer a promising strategy for treating resistant infections. This follows directly from the finding that disrupting quorum sensing leaves bacteria vulnerable to antimicrobial agents that would otherwise be ineffective. Keep A.</div><div class='explanation-step'><strong>B)</strong> States that bacterial populations are fundamentally altruistic organisms. The passage describes coordinated defense behavior but never characterizes bacteria as altruistic, and this conclusion is not supported by the research described. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> States that autoinducer molecules could be used to enhance immune responses in healthy patients. The passage describes disrupting quorum sensing, not replicating or deploying autoinducers therapeutically. This goes beyond what the findings support. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> States that the virulence of <em>Pseudomonas aeruginosa</em> is determined primarily by population size. The passage emphasizes the role of quorum sensing thresholds and coordinated behavior, not raw population size, as the key factor. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
 },
 {
-      "id": "VerbalT1-2E-016",
-      "type": "mcq",
-      "skill": {
-                "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
-      },
-
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["grammar", "verb form", "verb tense"],
-
-      "stem": "The ghost fungus, or <em>Omphalotus nidiformis</em>, is a bioluminescent fungus, which is a category of fungi that glows at night. Scientists have long concluded that this trait is useful to fungi in spore dispersal; insects are drawn to the light and then transfer spores of the fungi to new locations. However, in 2016, a team of scientists led by Dr. David P. T. Edwards found no distinction between the number of insects attracted to glowing versus non-glowing environments, and that the glow occurs during metabolic processes that break down various nutrients as the fungus absorbs them. The evidence indicates that <span class='blank'>_______</span>.<br><br>Which choice most logically completes the text?",
-  "choices": [
-    "the glow of the ghost fungus likely evolved to warn potential predators to stay away.",
-    "the bioluminescence of the ghost fungus likely plays no role in attracting insects for spore dispersal.",
-    "glowing fungi in general rely primarily on heat to spread their spores to nearby trees.",
-    "the brightness of the ghost fungus varies according to the number of insects nearby."
-  ],
-  "answerIndex": 1,
-  "explanation": "<div class='explanation-step'>For <em>Text Completion</em> questions, first read and summarize the passage to anticipate its logical direction. This passage begins by explaining that the glow of the ghost fungus attracts insects in order to spread spores. A 2016 study, however, contradicts this idea, showing that the number of insects drawn to fungi is not different for glowing and non-glowing fungi, and that the glowing actually happens during metabolic processes.  Therefore, the correct completion must present a conclusion consistent with this new finding; the fungi do not glow in order to attract insects.  Use the process of elimination to answer this question.</div><div class='explanation-step'><strong>A)</strong>&ldquo;This choice suggests an alternative reason for why the fungi glow, but not one that is supported by the 2016 study. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>This choice states that the glow does not play a role in attracting insects. This is a logical conclusion to the evidence found during the new study. Keep B.</div><div class='explanation-step'><strong>C)</strong>This choice states an alternative hypothesis for how the glowing fungi spread their spores, but it is not what can be concluded based on the evidence found in this particular study. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>This choice suggests a reason as to <em>why</em> the ghost fungus doesn't attract more insects than other non-glowing fungi, but it was not observed in the study. Eliminate D.</div><br><br>This means the correct answer is <strong>B</strong>."
-},
-{
-      "id": "VerbalT1-2E-017",
+      "id": "VerbalT1-2H-015",
       "type": "mcq",
       "skill": {
                 "domain": "Standard English Conventions",
@@ -460,261 +445,315 @@
       "set": "Verbal Practice",
       "tags": ["grammar", "verb tense", "noun-verb agreement"],
 
-      "stem": "<em>Hemostasis</em>, or blood clotting, is a multi-step process that a body initiates in response to an injury. The circulatory system responds by constricting blood vessels, forming platelets, and <span class='blank'>_______</span> through the formation of fibrin, the essence of the clot.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "stem": "When the population of a top predator is either reintroduced to or diminished in an ecosystem, the effects on the rest of the environment can be drastic. This <em>trophic cascade</em> was demonstrated when wolves were reintroduced to Yellowstone National Park; the wolves helped control the elk population, _______ proliferation of plants necessary to animals further down the food chain.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
   "choices": [
-    "has coagulated",
-    "coagulates",
-    "coagulating",
-    "coagulation"
-  ],
+  "they allowed",
+  "allowed",
+  "allowing",
+  "which allowed for the"
+],
   "answerIndex": 2,
-"explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. Here, the answer choices offer different forms of the verb coagulate, and sentence containing the blank lists three circulatory system responses. These clues indicate that this question focuses on <strong>Parallelism</strong>.</div><div class='explanation-step'>With parallelism, items in a list must be share the same grammatical form. Here, the first two items are <em>constricting</em> and <em>forming</em>. The blank must match that form, so it must be coagulat<em>ing</em>.  This means the correct answer is <strong>C</strong>.</div>"
+"explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. Here,"
 },
 {
-      "id": "VerbalT1-2E-018",
-      "type": "mcq",
-      "skill": {
-               "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
-      },
-
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["grammar", "sentence structure", "run-ons and fragments"],
-
-      "stem": "The rise of digital journalism, coupled with shorter attention spans, has changed the way articles are written. While the media world once revered long-form, heavily researched writing—the average length of a print article was up to \\(\\text{5,000}\\) words— <span class='blank'>_______</span> a significant decrease in the average article length.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
-  "choices": [
-    "they have since seen",
-    "it has since seen",
-    "having since seen",
-    "this has since seen"
-  ],
-  "answerIndex": 1,
-  "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested.</strong>. Here, the answer choices differ in pronoun reference (they, it, this) and verb tense (have seen, has seen, having seen), so this question focuses on <strong>Pronoun Reference and Verb Consistency</strong>. Pronoun Reference requires a correct pronoun in terms of both number and clarity (in what the pronoun refers back to).</div><div class='explanation-step'>The sentence’s subjects is &ldquo;the rise&rdquo; (of digital journalism). This subject is singular, so any pronoun that replaces it must also be singular. Do not be tricked into thinking the interrupting phrase &ldquo;coupled with shorter attention spans&rdquo; makes the subject plural. Notice that the verb immediately after this interruptor is also singular. The verb should stay consistent with this singular, present verb &ldquo;has changed.&rdquo;</div><div class='explanation-step'><strong>A)</strong>&ldquo;they have since seen&rdquo; uses the plural pronoun <em>they</em> to refer to a singular idea (the rise of digital journalism). Eliminate A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;it has since seen&rdquo; correctly uses the singular <em>it</em> to refer to <em>the rise of digital journalism</em> and keeps the present perfect tense consistent. Keep B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;having since seen&rdquo; changes the structure, and a missing pronoun or noun creates a dangling modifier. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;this has since seen&rdquo; uses this without a clear reference; it could refer to multiple prior ideas, making the sentence unclear. Eliminate D.</div><br><br>This means the correct answer is <strong>B</strong>."
-},
-{
-      "id": "VerbalT1-2E-019",
-      "type": "mcq",
-      "skill": {
-                "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
-      },
-
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["grammar", "sentence structure", "verb form"],
-
-      "stem": "Though a few examples existed prior to the 1800s, public green spaces became more prominent in 19th-century European architecture when, through health initiatives and <span class='blank'>_______</span> public parks began to appear in and around urban centers.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
-  "choices": [
-    "philanthropy",
-    "philanthropy;",
-    "philanthropy and",
-    "philanthropy,"
-  ],
-  "answerIndex": 3,
-  "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. Here, the answer choices offer different ways of using punctuation after the modifying phrase &ldquo;through health initiatives and philanthropy.&rdquo; This modifying phrase is nonessential to the sentence so this question focuses on <strong>Sentence Structure (Punctuation and Interrupting Phrases)</strong>.</div><div class='explanation-step'><strong>A)</strong>&ldquo;philanthropy&rdquo; makes the sentence grammatically incorrect and confusing. Here, philanthropy seems to modify public parks directly (&ldquo;philanthropy public parks&rdquo;), which is nonsensical. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;philanthropy;&rdquo; with a semi-colon means that the surrounding phrases must be independent clauses.  The use of &ldquo;Though...when&rdquo; makes what comes before the blank dependent. Even though after the semi-colon is independent (&ldquo;public parks began&rdquo; is the subject-verb combo), <em>both</em> before and after the semi-colon must contain independent clauses. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;philanthropy and&rdquo; adds an unnecessary conjunction that distorts the structure. It makes it sound like public parks is the third item in a list (&ldquo;through health initiatives and philanthropy and public parks&rdquo;), rather than the subject of the main clause. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;philanthropy,&rdquo; correctly closes the interrupting phrase with a comma.  To test this, eliminate what comes between the commas to test whether it can stand alone as a complete sentence; &ldquo;public green spaces became more prominent when public parks began to appear...&rdquo; is still an independent clause.  The use of a nonessential phrase requires commas on both sides of it.This means the correct answer is <strong>D</strong>.</div>"
-},
-{
-      "id": "VerbalT1-2E-020",
-      "type": "mcq",
-           "skill": {
-                "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
-      },
-
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["grammar", "verb tense", "noun-verb agreement"],
-
-      "stem": "Equipped with collection scoops, heating mechanisms, and x-ray devices, <span class='blank'>_______</span> helping scientists search for evidence of past microbial life and understand the planet’s geological history.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
-  "choices": [
-    "scientists use space rovers to collect, heat, and perform on-site analysis of soil samples on Mars,",
-    "they collect, heat, and perform on-site analysis of soils samples on Mars, these space rovers are",
-    "which scientists use to collect, heat, and perform on-site analysis of soil samples on Mars and",
-    "space rovers have the ability to collect, heat, and perform on-site analysis of soil samples on Mars,"
-  ],
-  "answerIndex": 3,
-  "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The phrase leading up to the blank is a modifying phrase that needs a clear subject to describe. This is a clue that this question is <strong>Sentence Structure (Modifier Placement and Sentence Clarity)</strong>.</div><div class='explanation-step'>When a sentence begins with a modifying phrase, the noun immediately following the comma must logically be the thing that the phrase is describing. Here, the modifier describes something that is &ldquo;Equipped with collection scoops, heating mechanism, and x-ray devices,&rdquo; so the correct answer will begin with the object that has those components.</div><div class='explanation-step'><strong>A)</strong>begins with &ldquo;scientists,&rdquo; making the scientists, not the object described by the modifier (we learn in this answer choice that this object is the <em>space rover</em>) so it is not the correct subject. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>begins with &ldquo;they collect,&rdquo; but &ldquo;they&rdquo; cannot be the subject of the sentence if the noun it refers to hasn't been used yet. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>begins with &ldquo;which scientists,&rdquo;  but &ldquo;which&rdquo; cannot be the subject of the sentence. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>begins correctly with &ldquo;space rovers,&rdquo; and the rest of the sentence is grammatically correct. This means the correct answer is <strong>D</strong>.</div>"
-},
-{
-      "id": "VerbalT1-2E-021",
-      "type": "mcq",
-      "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Transitions",
-        "skill": "Logical Transition"
-      },
-
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["logical transition"],
-
-      "stem": "Independent art galleries, established by French Impressionist painters in response to rejection from government-sponsored exhibitions, were not widely accepted at first by the <span class='blank'>_______</span> they have nevertheless influenced how modern art is celebrated and exhibited to this day.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
-  "choices": [
-    "public, but",
-    "public and",
-    "public, so",
-    "public,"
-  ],
-  "answerIndex": 0,
-"explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. Here, the answer choices offer different ways of joining two clauses, so this question focuses on <strong>Sentence Structure (Run-ons and Fragments)</strong>.</div><div class='explanation-step'>To answer, determine whether the clauses before and after the blank are independent or dependent. The first clause (&ldquo;Independent art galleries…were not accepted at first&rdquo;) has a subject (<em>galleries</em>) and a verb (<em>were</em>), so it’s independent. The clause after the blank (&ldquo;they have nevertheless…&rdquo;) also has both a subject and a verb (<em>they have</em>), making it another independent clause. Two independent clauses can be joined correctly with a semicolon, a comma + conjunction (for, and, nor, but, or, yet, so), or by dividing them into two sentences.</div><div class='explanation-step'><strong>A)</strong>&ldquo;public, but&rdquo; correctly joins the two independent clauses with the use of the comma followed by &ldquo;but.&rdquo; It also uses the correct conjunction for the meaning of the sentence; the galleries were not accepted at first, <em>but</em> regardless influenced modern art. Keep A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;public and&rdquo; includes a conjunction but no conjunction, so it results in a run-on. Additionally, &ldquo;and&rdquo; is not the correct conjunction for the sentence meaning. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;public, so&rdquo; correctly joins the two independent clauses with the use of the comma followed by a conjunction. However, &ldquo;so&rdquo; implies a cause-and-effect relationship between two ideas, and the ideas expressed here are contradictory. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;public&rdquo; has a comma but no joining conjunction words, again creating a run-on. Eliminate D.</div><br><br>This means the correct answer is <strong>A</strong>."
-},
-{
-      "id": "VerbalT1-2E-022",
-      "type": "mcq",
-      "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Transitions",
-        "skill": "Logical Transition"
-      },
-
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["logical transition"],
-
-      "stem": "Quantum dots, or nanocrystals that respond to light, were first discovered in the early 1980s by two scientists working independently in different media. Their practical application, however, was not realized until the mid-1990s, after chemist Moungi Bawendi <span class='blank'>_______</span> a method for the mass production of the crystals.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
-  "choices": [
-    "had been developed",
-    "was developing",
-    "developed",
-    "develops"
-  ],
-  "answerIndex": 2,
-  "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices here are different verb tenses, so this question tests <strong>verb tense</strong>.</div><div class='explanation-step'>In this text, the verbs are in the past tense: &ldquo;were first discovered&rdquo; and &ldquo;was not realized.&rdquo; The verb in the blank must also be in the simple past to keep the timeline consistent.</div><div class='explanation-step'><strong>A)</strong>&ldquo;had been developed&rdquo; is past perfect, which describes an action completed before another past event. However, the sentence shows that Bawendi’s development caused the later realization of the application, not that it happened earlier. The past perfect tense makes the timing illogical. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;was developing&rdquo; is past progressive, which suggests an action in progress over time, not a completed action. Because Bawendi successfully created a method, the verb must reflect a finished event. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;developed&rdquo; is simple past, correctly showing a completed action that fits the time frame and agrees with the subject Moungi Bawendi. Keep C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;develops&rdquo; is present tense, which breaks the sequence of past events. Eliminate D.</div><br><br>This means the correct answer is <strong>C</strong>."
-},
-{
-      "id": "VerbalT1-2E-023",
-      "type": "mcq",
-      "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Transitions",
-        "skill": "Logical Transition"
-      },
-
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["logical transition"],
-
-      "stem": "Under the Tokugawa shogunate, the Japanese military government from the 1600s until the mid-1800s, Japan experienced a long period of isolation from the rest of the world, which limited scientific and cultural progress. <span class='blank'>_______</span> the late 1800s marked a time of swift and extensive modernization in all areas of Japanese life.<br><br>Which choice completes the text with the most logical transition?",
-  "choices": [
-    "Next,",
-    "Subsequently,",
-    "Therefore,",
-    "Finally,"
-  ],
-  "answerIndex": 1,
-  "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas, either between sentences or within a single sentence. To find the correct answer, find how the ideas connect; the second idea is usually a cause, result, contrast, or example of the first.</div><div class='explanation-step'>The first sentence describes Japan’s isolation during the Tokugawa period and notes its restrictive effects on cultural development. The second sentence shifts to the period after that era when Japan experience rapid modernization. Because the second event follows the first historically, the correct transition should indicate chronological progression or result.</div><div class='explanation-step'><strong>A)</strong>&ldquo;Next,&rdquo; implies steps in a process or instructions, which is too informal for this historical context. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;Subsequently,&rdquo; means afterward, and clearly conveys that modernization occurred after Japan’s period of isolation ended. Keep B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;Therefore,&rdquo; implies direct causation and that modernization was caused by isolation. But the passage doesn’t explicitly state that. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;Finally,&rdquo; suggests a concluding point or the last item in a sequence. There’s no list here. Eliminate D.</div><br><br>This means the correct answer is <strong>B</strong>."
-},
-{
-      "id": "VerbalT1-2E-024",
-      "type": "mcq",
-      "skill": {
-       "domain": "Expression of Ideas",
-        "topic": "Transitions",
-        "skill": "Logical Transition"
-      },
-
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["logical transition"],
-
-      "stem": "Though the primary purpose of biodegradable electronic textiles was to reduce the environmental impact of non-degrading electronic devices, their ability to decompose has also proven useful in medical implants, which dissolve harmlessly in the body after surgery, lowering costs and the risk of infection. <span class='blank'>_______</span> researchers have explored their potential in espionage technology, where self-degrading circuits prevent the recovery of sensitive information.<br><br>Which choice completes the text with the most logical transition?",
-  "choices": [
-    "However,",
-    "Likewise,",
-    "Primarily,",
-    "Therefore,"
-  ],
-  "answerIndex": 3,
-  "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas, either between sentences or within a single sentence. To find the correct answer, find how the ideas connect; the second idea is usually a cause, result, contrast, or example of the first.</div><div class='explanation-step'>In this passage, the first sentence discusses the environmental and medical uses of biodegradable electronics. The second sentence introduces an additional application in espionage. Because the second idea expands on the first rather than contrasting or resulting from it, the correct transition should signal \textbf{addition} or \textbf{continuation}.</div><div class='explanation-step'><strong>A)</strong>&ldquo;However&rdquo; signals contrast, but the second sentence isn’t opposing the first. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;Likewise&rdquo; means \textit{in a similar way} and correctly links the new example (espionage) as another application of the same property described earlier. Keep B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;Primarily&rdquo; suggests a main purpose, which doesn’t fit the second idea. The second sentence introduces an additional use, not the primary one. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;Therefore&rdquo; shows a cause-and-effect relationship, which doesn’t fit since espionage use isn’t caused by the medical one. Eliminate D.</div><br><br>This means the correct answer is <strong>D</strong>."
-},
-{
-      "id": "VerbalT1-2E-025",
-      "type": "mcq",
-      "skill": {
-       "domain": "Expression of Ideas",
-        "topic": "Transitions",
-        "skill": "Logical Transition"
-      },
-
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["logical transition"],
-
-      "stem": "In the 1970s, young Māori activists launched a nationwide initiative to revitalize <em>Te Reo Māori</em>, the Indigenous Māori language that had declined after generations of government policies discouraging its use and banning it from schools. The cornerstone of this movement, <span class='blank'>_______</span> was the <em>Kohanga Reo</em> program—a network of early childhood centers where instruction was conducted entirely in Te Reo Māori and cultural education was emphasized.<br><br>Which choice completes the text with the most logical transition?",
-  "choices": [
-    "however,",
-    "in particular,",
-    "as a result,",
-    "instead,"
-  ],
-  "answerIndex": 1,
-  "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas, either between sentences or within a single sentence. To find the correct answer, find how the ideas connect; the second idea is usually a cause, result, contrast, or example of the first.</div><div class='explanation-step'>In this passage, the first sentence describes a movement to bring a fading Indigenous language back to life. The second sentence more specifically describes the movement. Because the second idea gives specifics to a more general idea expressed in the first sentence, the correct transition should signal <strong>specificity</strong>.</div><div class='explanation-step'><strong>A)</strong>&ldquo;however&rdquo; signals contrast, but the second idea isn’t opposing the first. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;in particular&rdquo; means <em>specifically</em> and correctly links introduces the <em>Kohanga Reo</em> program as a specific detail about the more general initiative to revive the language. Keep B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;as a result&rdquo; shows a cause-and-effect relationship, which doesn't fit since the program was not really a <em>result</em> of the movement, but rather it was a <em>part</em> of it Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;instead&rdquo; signals a contradiction, which doesn't fit because program does not contradict the initiative. Eliminate D.</div><br><br>This means the correct answer is <strong>B</strong>.</div>"
-},
-{
-      "id": "VerbalT1-2E-026",
-      "type": "mcq",
-      "skill": {
-       "domain": "Expression of Ideas",
-        "topic": "Transitions",
-        "skill": "Logical Transition"
-      },
-
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["logical transition"],
-
-      "stem": "Initially, the German Bauhaus movement was rejected in Germany for its experimental and forward-thinking style. <span class='blank'>_______</span> after many Bauhaus architects emigrated to the United States, the movement was celebrated and flourished for the very qualities that had once led to its repudiation in Germany.<br><br>Which choice completes the text with the most logical transition?",
-  "choices": [
-    "However,",
-    "Secondly,",
-    "For instance,",
-    "Therefore,"
-  ],
-  "answerIndex": 0,
-  "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas, either between sentences or within a single sentence. To find the correct answer, find how the ideas connect; the second idea is usually a cause, result, contrast, or example of the first.</div><div class='explanation-step'>Here, the first sentence explains that the German Bahaus movement was rejected at first. The next sentence reverses this idea, stating that the movement was later &ldquo;celebrated.&rdquo; Because the passage shifts in direction, the best transition word should signal contrast—something like <em>However</em>.</div><div class='explanation-step'><strong>A)</strong>&ldquo;However,&rdquo; correctly signals contrast, showing that reception of the Bauhaus movement changed from rejection to celebration. Keep A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;Secondly,&rdquo; indicates a parallel or continuing idea, but the third sentence contrasts with the earlier ones. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;For instance,&rdquo; indicates that the second idea is an example of the first, which isn’t the relationship between these ideas. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;Therefore,&rdquo; suggests a cause-and-effect relationship, and this text does not state that the earlier <em>rejection</em> of the movement <em>caused</em> its celebration later.  Eliminate D.</div><br><br>This means the correct answer is <strong>A</strong>."
-},
-{
-      "id": "VerbalT1-2E-027",
-      "type": "mcq",
-          "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Rhetorical Synthesis",
-        "skill": "Using Notes"
-      },
-
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["student research", "summarizing ideas"],
-
-      "stemSegments": [
-    {
-      "text": "While researching a topic, a student has taken the following notes:",
-      "align": "left",
-      "style": "default"
+    "id": "VerbalT1-2H-016",
+    "type": "mcq",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Form, Structure, and Sense",
+      "skill": "Standard English Conventions"
     },
-    {
-      "text": "• Alan Turing is known for his contributions to computer science and early ideas on artificial intelligence.\n• The Turing machine was a model of a machine that could &ldquo;think&rdquo; and complete processes broken down into steps, and was a foundational invention in the development of modern artificial intelligence.\n• Turing's research at the National Physical Laboratory focused on automatic computing and continued to influence future scientists.\n• Turing gave a lecture that proposed how machines could simulate human thought, anticipating later developments in artificial intelligence.",
-      "align": "left",
-      "style": "notes"
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["grammar", "punctuation", "nonrestrictive clause"],
+    "stem": "The James Webb Space Telescope, <span class='blank'>_______</span> was launched in December 2021 and has since allowed astronomers to observe galaxies formed only a few hundred million years after the Big Bang.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "the successor to the Hubble Space Telescope",
+      "the successor to the Hubble Space Telescope,",
+      "being the successor to the Hubble Space Telescope,",
+      "which is the successor to the Hubble Space Telescope,"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices offer different ways of inserting a phrase between two commas, so this question tests <strong>Punctuation with Nonrestrictive Phrases</strong>.</div><div class='explanation-step'>The sentence already has a comma after &ldquo;Telescope&rdquo; at the start. A nonrestrictive phrase interrupting a sentence must be enclosed by commas on both sides. The phrase &ldquo;the successor to the Hubble Space Telescope&rdquo; is additional information about the Webb telescope — not essential to identifying the subject — so it must be set off with a closing comma.</div><div class='explanation-step'><strong>A)</strong> &ldquo;the successor to the Hubble Space Telescope&rdquo; has no closing comma, leaving the interrupting phrase open and creating a run-on. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;the successor to the Hubble Space Telescope,&rdquo; correctly closes the nonrestrictive phrase with a comma, balancing the opening comma already in the sentence. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;being the successor to the Hubble Space Telescope,&rdquo; adds &ldquo;being,&rdquo; which creates an awkward and unnecessary participial phrase. &ldquo;Being&rdquo; is rarely correct on the SAT. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;which is the successor to the Hubble Space Telescope,&rdquo; uses a relative clause, which would require a comma before &ldquo;which&rdquo; — but that comma is already the opening comma of the interrupting phrase, making the structure read as though &ldquo;which&rdquo; begins a new clause after &ldquo;Telescope.&rdquo; This distorts the sentence structure. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "VerbalT1-2H-017",
+    "type": "mcq",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Form, Structure, and Sense",
+      "skill": "Standard English Conventions"
     },
-    {
-      "text": "The student wants to emphasize the impact of Alan Turing’s work on modern artificial intelligence. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
-      "align": "left",
-      "style": "question"
-    }
-  ],
-  "choices": [
-    "During World War II, Alan Turing developed codebreaking systems that helped the Allies intercept enemy messages.",
-    "In his famous lecture on machine intelligence, Turing outlined how a computer might simulate human reasoning.",
-    "Turing’s research at the National Physical Laboratory led to improvements in automatic computing systems used after World War II.",
-    "Turing’s invention of the Turing machine and his theories about machine thought provided the foundation for the development of modern artificial intelligence."
-  ],
-  "answerIndex": 3,
-  "explanation": "<div class='explanation-step'>For <em>Student Research</em> questions, focus on what the student wants to highlight or accomplish. In this case, the student wants to emphasize the <em>impact of Alan Turing’s work on modern artificial intelligence</em>. Therefore, the correct answer must mention Turing's work and explain its effect on AI today.  Looking at the list of bulleted notes, the following emphasizes this significance:<ul style='margin-top:8px; margin-bottom:8px; padding-left:20px; line-height:1.8;'><li>The Turing machine was a model of a machine that could &ldquo;think&rdquo; and complete processes broken down into steps, and was a foundational invention in the development of modern artificial intelligence.</li></ul></div><div class='explanation-step'>The correct answer must paraphrase this note.</div><div class='explanation-step'><strong>A)</strong>This choice states a fact about work Turing did during World War II, but it is unrelated to modern AI. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>Although this choice is vaguely about artificial intelligence (&ldquo;how a computer might simulate human reasoning&rdquo;), it is about one speech, not a bigger body of Turing's work.  Additionally, it doesn't explicitly state that it had an impact on modern AI. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>This choice is about Turing's research and how it impacted automatic computing systems after World War II. Although this could be inferred as contributing to <em>modern</em> AI, this choice focuses more on research and just after World War II, not Turing's work and its impact today. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>This choice directly refers to specific work of Turing's: the Turing machine. It also directly states that this machine &ldquo;provided the foundation for the development of modern artificial intelligence,&rdquo; an explicit statement of how his work impacted modern AI. This means the correct answer is <strong>D</strong>.</div>"
-}
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["grammar", "subject-verb agreement", "intervening phrase"],
+    "stem": "The migration of monarch butterflies, spanning thousands of miles across North America and involving multiple generations of insects that will never complete the full journey themselves, <span class='blank'>_______</span> one of the most studied phenomena in animal biology.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "remain",
+      "have remained",
+      "remains",
+      "are remaining"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices offer different verb forms, so this question tests <strong>Subject-Verb Agreement</strong>.</div><div class='explanation-step'>To find the true subject, identify the noun the verb must agree with. The sentence begins with &ldquo;The migration,&rdquo; which is the subject. Everything between the commas — &ldquo;spanning thousands of miles...themselves&rdquo; — is a long interrupting phrase that does not change the subject. &ldquo;Migration&rdquo; is singular, so the verb must also be singular.</div><div class='explanation-step'><strong>A)</strong> &ldquo;remain&rdquo; is plural, agreeing with a plural subject. The true subject &ldquo;migration&rdquo; is singular. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;have remained&rdquo; is plural past perfect, which does not agree with the singular subject and introduces an unnecessary tense shift. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;remains&rdquo; is singular present tense, correctly agreeing with &ldquo;migration.&rdquo; Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;are remaining&rdquo; is plural present progressive and does not agree with the singular subject. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "VerbalT1-2H-018",
+    "type": "mcq",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Form, Structure, and Sense",
+      "skill": "Standard English Conventions"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["grammar", "colon", "semicolon", "punctuation"],
+    "stem": "By the early twentieth century, the Art Nouveau movement had influenced nearly every decorative art form of its era <span class='blank'>_______</span> architecture, jewelry, glasswork, and textile design all bore its characteristic organic curves and intricate natural motifs.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "and",
+      ", and",
+      ";",
+      ":"
+    ],
+    "answerIndex": 3,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices offer different ways to join two clauses, so this question tests <strong>Colon and Semicolon Usage</strong>.</div><div class='explanation-step'>The first clause makes a general claim: Art Nouveau influenced nearly every decorative art form. The second clause lists specific examples that illustrate that claim. When an independent clause introduces a list or explanation that directly follows from it, a colon is the correct punctuation.</div><div class='explanation-step'><strong>A)</strong> &ldquo;and&rdquo; joins the clauses as equals, suggesting the second idea is simply added to the first rather than illustrating it. This also creates a run-on since no comma precedes &ldquo;and.&rdquo; Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;, and&rdquo; uses a comma and coordinating conjunction, correctly avoiding a run-on but implying the two ideas are parallel additions rather than a claim followed by its evidence. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> A semicolon joins two independent clauses of equal weight. While grammatically correct here, it does not signal that the second clause is an elaboration or illustration of the first. The colon is more precise. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> A colon correctly signals that what follows directly explains or illustrates the preceding claim. The second clause lists specific art forms that support the general statement. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+  },
+  {
+    "id": "VerbalT1-2H-019",
+    "type": "mcq",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Form, Structure, and Sense",
+      "skill": "Standard English Conventions"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["grammar", "possessive", "its", "pronoun"],
+    "stem": "The Venus flytrap is unusual among flowering plants in that <span class='blank'>_______</span> primary source of nutrients comes not from the soil but from the insects and small animals it captures and digests.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "it's",
+      "their",
+      "its",
+      "they're"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices are different pronoun forms, so this question tests <strong>Possessive Pronouns</strong>.</div><div class='explanation-step'>The blank refers to the Venus flytrap's &ldquo;primary source of nutrients.&rdquo; The pronoun must be possessive (showing ownership) and must agree in number with its antecedent, &ldquo;the Venus flytrap,&rdquo; which is singular.</div><div class='explanation-step'><strong>A)</strong> &ldquo;it's&rdquo; is a contraction of &ldquo;it is,&rdquo; not a possessive. Substituting &ldquo;it is&rdquo; into the sentence — &ldquo;it is primary source of nutrients&rdquo; — produces a grammatically incorrect phrase. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;their&rdquo; is a plural possessive pronoun. The antecedent &ldquo;the Venus flytrap&rdquo; is singular, so a plural pronoun creates a number agreement error. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;its&rdquo; is the singular possessive pronoun, correctly showing that the primary source of nutrients belongs to the Venus flytrap. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;they're&rdquo; is a contraction of &ldquo;they are,&rdquo; which is both plural and not possessive. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "VerbalT1-2H-020",
+    "type": "mcq",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Form, Structure, and Sense",
+      "skill": "Standard English Conventions"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["grammar", "verb tense", "past perfect", "timeline"],
+    "stem": "By the time Marie Curie received her second Nobel Prize in 1911, she already <span class='blank'>_______</span> the first woman to win the award and the only person ever to receive it in two different scientific disciplines.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "becomes",
+      "has become",
+      "had become",
+      "was becoming"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices are different verb tenses, so this question tests <strong>Verb Tense in a Complex Timeline</strong>.</div><div class='explanation-step'>The sentence describes two past events: receiving the second Nobel Prize (1911) and becoming the first woman to win. The word &ldquo;already&rdquo; signals that the second event — becoming the first woman to win — happened <em>before</em> the first event (the 1911 prize). When one past event precedes another, the earlier event uses the past perfect tense (had + past participle).</div><div class='explanation-step'><strong>A)</strong> &ldquo;becomes&rdquo; is present tense, which breaks the past timeline entirely. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;has become&rdquo; is present perfect, which describes an action with relevance to the present. The sentence describes a completed historical sequence, not something ongoing. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;had become&rdquo; is past perfect, correctly indicating that becoming the first woman to win the Nobel Prize occurred before the 1911 second prize. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;was becoming&rdquo; is past progressive, suggesting an ongoing process rather than a completed event. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "VerbalT1-2H-021",
+    "type": "mcq",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Form, Structure, and Sense",
+      "skill": "Standard English Conventions"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["grammar", "modifier placement", "participial phrase"],
+    "stem": "Having spent nearly a decade studying the social hierarchies of chimpanzee communities in Tanzania, <span class='blank'>_______</span> challenged long-held assumptions about the uniqueness of human social behavior.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "Jane Goodall's research",
+      "the research of Jane Goodall",
+      "Jane Goodall",
+      "it was Jane Goodall who"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The sentence begins with a participial phrase, so this question tests <strong>Modifier Placement</strong>.</div><div class='explanation-step'>When a sentence opens with a participial phrase (&ldquo;Having spent nearly a decade...&rdquo;), the noun immediately following the comma must be the person or thing performing the action described. Only a person can &ldquo;spend time studying,&rdquo; so the subject after the comma must be Jane Goodall herself — not her research.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Jane Goodall&rsquo;s research&rdquo; makes research the subject of the modifier, implying the research spent a decade studying. Research cannot study anything. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;the research of Jane Goodall&rdquo; has the same problem — research is the subject, creating a dangling modifier. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Jane Goodall&rdquo; correctly places the person who did the studying immediately after the comma, resolving the modifier. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;it was Jane Goodall who&rdquo; introduces an expletive construction that disrupts the sentence structure and creates an awkward, grammatically incorrect clause. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "VerbalT1-2H-022",
+    "type": "mcq",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Transitions",
+      "skill": "Logical Transition"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["logical transition", "contrast", "addition"],
+    "stem": "Researchers have long believed that sleep primarily serves a restorative function, allowing the body to repair tissue, regulate hormones, and recover from physical exertion. <span class='blank'>_______</span> recent studies suggest that sleep plays an equally critical role in memory consolidation and cognitive processing, functions that operate independently of physical restoration.<br><br>Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Moreover,",
+      "However,",
+      "Therefore,",
+      "Similarly,"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas. To find the correct answer, determine how the ideas connect.</div><div class='explanation-step'>The first sentence describes the traditional view that sleep is <em>primarily</em> restorative. The second sentence introduces a different function — cognitive processing — that challenges the idea that restoration is sleep's primary role. The second idea doesn't simply add to the first; it subtly corrects it by suggesting the first view was incomplete. The transition must signal a shift or correction.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Moreover&rdquo; signals pure addition — &ldquo;here is another thing that is also true.&rdquo; This would work if the second sentence simply added a new benefit of sleep, but the sentence is pushing back on the word &ldquo;primarily.&rdquo; Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;However&rdquo; signals a shift or correction, indicating that the second idea complicates or qualifies the first. This fits the relationship between the traditional view and the newer findings. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Therefore&rdquo; signals that the second idea is caused by the first. The cognitive findings are not caused by the restorative view — they challenge it. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Similarly&rdquo; signals that the two ideas are alike or parallel. The second sentence introduces a distinct and somewhat contrasting function, not a similar one. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "VerbalT1-2H-023",
+    "type": "mcq",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Transitions",
+      "skill": "Logical Transition"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["logical transition", "causation", "sequence"],
+    "stem": "The introduction of invasive zebra mussels into the Great Lakes in the late 1980s rapidly depleted phytoplankton populations by filtering vast quantities of water and consuming microscopic algae at an unsustainable rate. <span class='blank'>_______</span> native fish species that depended on phytoplankton as a foundational food source experienced dramatic population declines throughout the region.<br><br>Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Subsequently,",
+      "Nonetheless,",
+      "As a result,",
+      "In addition,"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas. To find the correct answer, determine how the ideas connect.</div><div class='explanation-step'>The first sentence describes the cause: zebra mussels depleted phytoplankton. The second sentence describes what happened to fish populations that depended on phytoplankton. The fish declines are a direct consequence of the phytoplankton depletion — this is a cause-and-effect relationship, not merely a sequence of events.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Subsequently&rdquo; means <em>afterward</em> and signals chronological sequence. While the fish declines did occur after the phytoplankton depletion, &ldquo;subsequently&rdquo; only describes timing, not causation. The relationship here is causal, so a stronger transition is needed. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Nonetheless&rdquo; signals contrast or concession — the second idea persists despite the first. This does not fit, since the fish declines are caused by, not contrary to, the phytoplankton depletion. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;As a result&rdquo; directly signals causation, indicating that the fish population declines were caused by the phytoplankton depletion. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;In addition&rdquo; signals that the second idea is an unrelated additional point. The fish declines are not independent of the phytoplankton depletion — they are caused by it. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "VerbalT1-2H-024",
+    "type": "mcq",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Transitions",
+      "skill": "Logical Transition"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["logical transition", "concession", "contrast"],
+    "stem": "Mandatory minimum sentencing laws, introduced widely in the United States during the 1980s, were designed to deter violent crime by guaranteeing severe and consistent penalties regardless of individual circumstances. <span class='blank'>_______</span> studies examining crime rates in states that adopted these laws found no statistically significant reduction in violent crime compared to states that did not.<br><br>Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Consequently,",
+      "Nonetheless,",
+      "However,",
+      "Indeed,"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas. To find the correct answer, determine how the ideas connect.</div><div class='explanation-step'>The first sentence describes the intention behind mandatory minimum sentencing laws — they were designed to reduce violent crime. The second sentence presents evidence that the laws did not achieve that goal. The second idea directly challenges the premise of the first, making this a contrast relationship where evidence contradicts intent.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Consequently&rdquo; signals that the second idea is a result of the first — that the lack of crime reduction was caused by the laws themselves. But the sentence is not presenting a consequence; it is presenting evidence that undermines the original claim. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Nonetheless&rdquo; signals that something is true <em>in spite of</em> the preceding idea — it implies the first idea still holds and the second is an obstacle that doesn&rsquo;t change it. Here, the evidence does challenge the first idea, so &ldquo;nonetheless&rdquo; misrepresents the relationship. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;However&rdquo; signals a direct contrast or contradiction between two ideas. The first sentence presents an intended outcome; the second presents evidence that the outcome was not achieved. This is precisely what &ldquo;however&rdquo; conveys. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Indeed&rdquo; signals confirmation or emphasis — it would suggest the second sentence reinforces the first. The second sentence contradicts the first. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "VerbalT1-2H-025",
+    "type": "mcq",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Rhetorical Synthesis",
+      "skill": "Using Notes"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["student research", "rhetorical synthesis", "introduction"],
+    "stemSegments": [
+      {
+        "text": "While researching a topic, a student has taken the following notes:",
+        "align": "left",
+        "style": "default"
+      },
+      {
+        "text": "• Sonar (Sound Navigation and Ranging) was developed during World War I to detect submarines.\n• Sonar works by emitting sound waves that travel through water and bounce back when they strike an object.\n• The time it takes for the sound to return allows operators to calculate the distance and location of the object.\n• Modern sonar is used in navigation, fishing, oceanographic research, and medical imaging (ultrasound).\n• Two main types exist: active sonar emits pulses and listens for echoes; passive sonar only listens without emitting sound.",
+        "align": "left",
+        "style": "notes"
+      },
+      {
+        "text": "The student wants to introduce sonar technology to an audience unfamiliar with it by explaining how it works. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "Developed during World War I, sonar was originally used to detect enemy submarines lurking beneath the ocean's surface.",
+      "Sonar technology has a wide range of modern applications, including navigation, fishing, oceanographic research, and medical imaging.",
+      "There are two main types of sonar: active sonar, which emits pulses and listens for returning echoes, and passive sonar, which only listens without emitting any sound.",
+      "Sonar works by sending sound waves through water; when those waves bounce back after striking an object, the time it takes for them to return allows operators to determine the object's distance and location."
+    ],
+    "answerIndex": 3,
+    "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal stated in the question determines the correct answer. Here, the student wants to <em>introduce sonar to an unfamiliar audience by explaining how it works</em>. The correct answer must both introduce the concept and explain the mechanism — not just mention its history, applications, or categories.</div><div class='explanation-step'><strong>A)</strong> Provides historical background — sonar was developed in World War I to detect submarines. This introduces the origin of sonar but does not explain how it works. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Lists modern applications of sonar. This is relevant context but tells an unfamiliar audience nothing about the mechanism behind the technology. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Distinguishes between active and passive sonar. This is too technical for an introductory explanation to an unfamiliar audience and does not explain the basic principle of how sonar operates. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Explains the core mechanism — sound waves travel through water, bounce back when they hit an object, and the return time allows operators to determine distance and location. This directly addresses both parts of the goal: it introduces sonar and explains how it works. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+  },
+  {
+    "id": "VerbalT1-2H-026",
+    "type": "mcq",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Rhetorical Synthesis",
+      "skill": "Using Notes"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["student research", "rhetorical synthesis", "same conclusion different methods"],
+    "stemSegments": [
+      {
+        "text": "While researching a topic, a student has taken the following notes:",
+        "align": "left",
+        "style": "default"
+      },
+      {
+        "text": "• Dr. Yuki Tanaka studied migratory patterns of Arctic terns using GPS tracking devices over three consecutive breeding seasons.\n• Dr. Amelia Voss analyzed forty years of banding records from wildlife stations across the North Atlantic.\n• Both researchers concluded that Arctic tern migration routes have shifted measurably northward over the past four decades.\n• Tanaka attributed the shift to changes in prey availability linked to ocean warming.\n• Voss attributed the shift to altered wind patterns caused by broader climate change.\n• Both studies were published independently in the same year.",
+        "align": "left",
+        "style": "notes"
+      },
+      {
+        "text": "The student wants to emphasize that the two researchers arrived at the same conclusion despite using different methods. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "Both Dr. Tanaka and Dr. Voss concluded that Arctic tern migration routes have shifted northward over the past four decades, and both published their findings independently in the same year.",
+      "While Dr. Tanaka used GPS tracking over three breeding seasons and Dr. Voss drew on forty years of banding records, both researchers reached the same conclusion: that Arctic tern migration routes have shifted measurably northward.",
+      "Dr. Tanaka attributed the northward shift in Arctic tern migration to changes in prey availability, while Dr. Voss linked the same shift to altered wind patterns caused by climate change.",
+      "Dr. Tanaka and Dr. Voss both studied Arctic tern migration and connected their findings to the effects of climate change on the species."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal stated in the question determines the correct answer. Here, the student wants to emphasize two things: (1) the researchers used <em>different methods</em>, and (2) they arrived at the <em>same conclusion</em>. The correct answer must include both elements.</div><div class='explanation-step'><strong>A)</strong> States that both researchers reached the same conclusion and published independently in the same year. It addresses the same conclusion but says nothing about their different methods. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Explicitly contrasts the two methods — GPS tracking versus banding records — and states that both led to the same conclusion about northward migration. This directly accomplishes the goal. Keep B.</div><div class='explanation-step'><strong>C)</strong> Contrasts the two researchers&rsquo; explanations for the shift — prey availability versus wind patterns. This highlights different <em>interpretations</em>, not different <em>methods</em>, and the shared conclusion is absent. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> States that both researchers studied Arctic tern migration and connected their findings to climate change. This is vague and does not specify the different methods or state the shared conclusion precisely. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "VerbalT1-2H-027",
+    "type": "mcq",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Rhetorical Synthesis",
+      "skill": "Using Notes"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["student research", "rhetorical synthesis", "counterargument"],
+    "stemSegments": [
+      {
+        "text": "While researching a topic, a student has taken the following notes:",
+        "align": "left",
+        "style": "default"
+      },
+      {
+        "text": "• A 2022 Pew Research survey found that 80% of teenagers say social media helps them feel more connected to friends.\n• Critics argue that online interactions lack the depth and emotional resonance of in-person relationships.\n• A longitudinal study found that teens who used social media heavily reported feeling lonelier than those who used it moderately.\n• The same longitudinal study found that teens who used social media to supplement in-person friendships — rather than replace them — reported higher relationship satisfaction than teens who communicated exclusively in person.\n• Researchers distinguish between passive social media use (scrolling without interacting) and active use (direct messaging, sharing content); passive use correlates with increased loneliness while active use correlates with stronger friendships.",
+        "align": "left",
+        "style": "notes"
+      },
+      {
+        "text": "The student wants to present a counterargument to the claim that social media reduces teenagers' ability to maintain deep friendships. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "A 2022 Pew Research survey found that 80% of teenagers report that social media helps them feel more connected to their friends.",
+      "Critics argue that online interactions lack the depth of in-person relationships, and a longitudinal study supports this view, finding that heavy social media use correlates with increased loneliness among teens.",
+      "Research distinguishes between passive and active social media use: while passive scrolling correlates with loneliness, active use such as direct messaging correlates with stronger friendships, suggesting that social media's effect on friendship depends on how it is used.",
+      "Teens who used social media to supplement rather than replace in-person friendships reported higher relationship satisfaction than those who communicated exclusively in person, suggesting that social media can deepen rather than diminish close friendships."
+    ],
+    "answerIndex": 3,
+    "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal stated in the question determines the correct answer. Here, the student wants to present a <em>counterargument</em> to the claim that social media reduces teens&rsquo; ability to maintain deep friendships. The correct answer must directly challenge that claim — not just show that teens feel connected, but that social media can actually support or deepen friendship quality.</div><div class='explanation-step'><strong>A)</strong> States that 80% of teens feel more connected via social media. Feeling connected addresses the perception of connection but does not directly counter the claim about the depth or quality of friendships. This is the strongest trap but stops short of the goal. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Presents the critics&rsquo; view and the finding about heavy use correlating with loneliness. This supports the original claim rather than countering it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Draws the distinction between passive and active use and notes that active use correlates with stronger friendships. This partially counters the claim, but it frames the conclusion as conditional (&ldquo;depends on how it is used&rdquo;) rather than directly challenging the claim that social media diminishes deep friendships. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> States that teens who used social media to supplement in-person friendships reported <em>higher relationship satisfaction</em> than those who communicated exclusively in person. This directly counters the claim that social media diminishes deep friendships by showing it can actually enhance them. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+  }
   ]
 }

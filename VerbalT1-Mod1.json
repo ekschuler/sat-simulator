@@ -297,7 +297,7 @@
       "set": "Verbal Practice",
       "tags": ["grammar", "possessive pronouns"],
 
-        "stem": "<div style='text-align:center;'><img src='assets/VerbalTest1-1-11.png.png' style='max-width:40%;height:auto;'></div><div style='margin-top:16px;'>A nutrition team analyzed the calorie content of various popular snacks to determine whether flavoring consistently increases calorie content. They collected data on five types of snacks, comparing flavored and unflavored versions. Based on their findings, the team claims that flavored snacks always have more calories per serving than unflavored snacks.</div><br><br>Which choice provides data from the graph that most directly weakens the nutrition team’s claim?",
+        "stem": "<div style='text-align:center;'><img src='assets/VerbalTest1-1-11.png' style='max-width:40%;height:auto;'></div><div style='margin-top:16px;'>A nutrition team analyzed the calorie content of various popular snacks to determine whether flavoring consistently increases calorie content. They collected data on five types of snacks, comparing flavored and unflavored versions. Based on their findings, the team claims that flavored snacks always have more calories per serving than unflavored snacks.</div><br><br>Which choice provides data from the graph that most directly weakens the nutrition team’s claim?",
   "choices": [
     "Chips are higher in calories when flavored.",
     "Granola bars are higher in calories when unflavored.",

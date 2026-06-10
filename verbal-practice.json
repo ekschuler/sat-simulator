@@ -1113,6 +1113,169 @@
   "answerIndex": 3,
   "explanation": "<div class='explanation-step'>For <em>Student Research</em> questions, focus on what the student wants to highlight or accomplish. In this case, the student wants to identify the <em>turning point when aircraft went from being used for reconnaissance to being used as weapons</em>. The correct answer should highlight the specific moment this transition occurred.</div><div class='explanation-step'>Looking at the list of bulleted notes, one stands out: <ul style='margin-top:8px; margin-bottom:8px; padding-left:20px; line-height:1.8;'><li>Airplanes started to be used for more than just reconnaissance, and in 1915, the Germans made a plane that was purposely designed with machine guns to fight air battles to take down enemy planes.</li></ul></div><div class='explanation-step'>This note clearly marks the shift from aircraft being used to gather information to being used as weapons.</div><div class='explanation-step'><strong>A)</strong>describes a successful reconnaissance mission, which shows aircraft being used for information-gathering, not the shift away from it. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>states that by the end of WWI, aircraft were used to bomb ground forces. Although this shows aircraft as weapons, it does not pinpoint the <em>turning point</em> when this change began. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>describes the exact moment when airplanes began to be used as weapons—when the Germans created a plane with machine guns for air battles. This best matches the student’s goal. Keep C.</div><div class='explanation-step'><strong>D)</strong>discusses a law that restricted aircraft use to reconnaissance. This describes an earlier stage before the turning point, so eliminate D.</div><br><br>This means the correct answer is <strong>C</strong>."
 },
+ {
+    "id": "V-L2-019",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Central Ideas and Details",
+      "skill": "Main Idea"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["main idea", "science", "ecology"],
+    "stem": "Mycorrhizal fungi form symbiotic relationships with the roots of most plant species, exchanging nutrients for sugars. Recent research has shown that these fungal networks can transfer carbon, water, and even chemical distress signals between trees, leading some scientists to describe forests as having a kind of underground communication system. However, critics argue that describing this as &ldquo;communication&rdquo; anthropomorphizes a purely chemical process with no intentional signaling involved.<br><br>Which choice best states the main idea of the text?",
+    "choices": [
+      "Mycorrhizal fungi are primarily beneficial to individual trees rather than to forest ecosystems as a whole.",
+      "While fungal networks enable resource and signal transfer between trees, whether this constitutes communication is debated.",
+      "Scientists have conclusively demonstrated that trees communicate intentionally through underground fungal networks.",
+      "Critics of the mycorrhizal network theory argue that fungi harm rather than help trees."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Main Idea</em> questions, the correct answer must capture both the central finding and the overall point of the passage, not just one detail. Before looking at the choices, summarize the passage: researchers found that fungal networks transfer resources and signals between trees, but critics dispute whether this counts as communication.</div><div class='explanation-step'><strong>A)</strong> The passage never distinguishes between benefits to individual trees vs. forest ecosystems — this is not discussed. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This captures both parts of the passage: the finding (resource and signal transfer) and the debate (whether it constitutes communication). Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage does not say communication has been conclusively demonstrated, and the word &ldquo;intentionally&rdquo; is precisely what critics dispute. This overstates the claim. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Critics question the word &ldquo;communication,&rdquo; not whether fungi help trees — this misrepresents their position. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L2-020",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Central Ideas and Details",
+      "skill": "Details and Evidence"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["according to the text", "social science", "urban planning"],
+    "stem": "In the mid-twentieth century, urban planners in the United States prioritized highway construction through city centers, a policy that displaced hundreds of thousands of residents, disproportionately from low-income and minority communities. Planners at the time argued that highways would stimulate economic growth and reduce traffic congestion. Decades later, many cities have begun removing urban highways, citing studies showing that their removal often revitalizes surrounding neighborhoods and reduces rather than increases traffic through a phenomenon known as induced demand reversal.<br><br>According to the text, why have some cities begun removing urban highways?",
+    "choices": [
+      "Highway removal has been shown to increase property values in wealthy neighborhoods.",
+      "Studies suggest that removing urban highways can revitalize neighborhoods and reduce traffic.",
+      "Urban planners now believe that highways were never effective at reducing congestion.",
+      "Federal funding for highway maintenance has been significantly reduced."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>According to the Text</em> questions, the correct answer will be directly stated in the passage. The passage says cities have begun removing highways &ldquo;citing studies showing that their removal often revitalizes surrounding neighborhoods and reduces rather than increases traffic.&rdquo;</div><div class='explanation-step'><strong>A)</strong> The passage does not mention property values or limit the benefits to wealthy neighborhoods. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This directly paraphrases the passage's explanation. Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage says planners argued highways would reduce congestion — it does not say this was proven wrong or that planners now believe highways never worked. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Federal funding is never mentioned in the passage. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L2-021",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Rhetorical Synthesis",
+      "skill": "Using Notes"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["student research", "rhetorical synthesis", "science"],
+    "stemSegments": [
+      {
+        "text": "While researching a topic, a student has taken the following notes:",
+        "align": "left",
+        "style": "default"
+      },
+      {
+        "text": "• The James Webb Space Telescope was launched in December 2021.\n• It observes in infrared light, allowing it to see through dust clouds that block visible light.\n• Its primary mirror is 6.5 meters wide, nearly three times larger than the Hubble Space Telescope&rsquo;s.\n• It has detected galaxies that formed only 300 million years after the Big Bang.\n• It orbits at the second Lagrange point, approximately 1.5 million kilometers from Earth.",
+        "align": "left",
+        "style": "notes"
+      },
+      {
+        "text": "The student wants to explain why the James Webb Space Telescope can observe objects that the Hubble Space Telescope could not. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "The James Webb telescope orbits farther from Earth than the Hubble telescope, giving it a clearer view of deep space.",
+      "Because the James Webb telescope observes in infrared light and has a mirror nearly three times larger than Hubble&rsquo;s, it can see through dust clouds and detect extremely distant, faint objects.",
+      "The James Webb telescope has detected galaxies that formed only 300 million years after the Big Bang.",
+      "The James Webb telescope was launched more recently than the Hubble telescope and incorporates newer technology."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal stated in the question determines the correct answer. The student wants to explain <em>why</em> Webb can observe objects Hubble could not — the answer must identify specific capabilities that give Webb an advantage.</div><div class='explanation-step'><strong>A)</strong> The orbit distance is a fact from the notes, but the passage does not establish that orbiting farther from Earth improves observational capability. This does not explain the advantage. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Combines the two most relevant notes — infrared observation (seeing through dust) and larger mirror (detecting faint objects) — and directly links them to Webb&rsquo;s observational advantage over Hubble. Keep B.</div><div class='explanation-step'><strong>C)</strong> This is a finding, not an explanation of why Webb can see what Hubble cannot. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Newer technology&rdquo; is too vague to explain Webb&rsquo;s specific observational advantages. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L2-022",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Text Structure and Purpose",
+      "skill": "Overall Structure"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["overall structure", "science prose", "Darwin"],
+    "stemSegments": [
+      {
+        "text": "The following text is from Charles Darwin&rsquo;s <em>On the Origin of Species</em>, first published in 1859.",
+        "align": "left",
+        "style": "default"
+      },
+      {
+        "text": "It is interesting to contemplate an entangled bank, clothed with many plants of many kinds, with birds singing on the bushes, with various insects flitting about, and with worms crawling through the damp earth, and to reflect that these elaborately constructed forms, so different from each other, and dependent on each other in so complex a manner, have all been produced by laws acting around us.",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "Which choice best describes the overall structure of the text?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "It presents a scientific hypothesis and then provides experimental evidence to support it.",
+      "It describes a vivid natural scene and uses it as a foundation for a broader philosophical reflection.",
+      "It contrasts the complexity of animal life with the relative simplicity of plant life.",
+      "It argues that the laws governing nature remain undiscovered and require further scientific investigation."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Overall Structure</em> questions, identify what each part of the passage is doing. This passage begins with a detailed sensory description of a natural scene (the entangled bank), then shifts to a reflection on what that scene implies — that all its complexity has been produced by natural laws.</div><div class='explanation-step'><strong>A)</strong> The passage does not present a hypothesis or offer experimental evidence — it observes and reflects. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This accurately describes the two-part structure: vivid description of nature, followed by a philosophical observation about natural laws. Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage does not contrast animals and plants — both are presented as equally complex products of natural laws. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Darwin says the laws are &ldquo;acting around us,&rdquo; suggesting they are observable and known, not undiscovered. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L2-023",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Words in Context",
+      "skill": "Vocabulary in Context"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["vocabulary", "words in context", "science prose"],
+    "stemSegments": [
+      {
+        "text": "The following text is from Thomas Huxley&rsquo;s <em>Evolution and Ethics</em>, published in 1893.",
+        "align": "left",
+        "style": "default"
+      },
+      {
+        "text": "The propounders of what are called the &ldquo;ethics of evolution,&rdquo; when the &ldquo;evolution of ethics&rdquo; would usually better express the object of their speculations, <u>adduce</u> a number of more or less interesting facts and more or less sound arguments, in favor of the origin of the moral sentiments, in the way of natural selection.",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "As used in the text, &ldquo;adduce&rdquo; most nearly means",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "dismiss",
+      "exaggerate",
+      "cite",
+      "contradict"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use the surrounding text to determine what the word means in context. Here, the propounders (people putting forward a theory) are doing something with &ldquo;facts and arguments in favor of&rdquo; their position. The word in the blank must mean something like &ldquo;present&rdquo; or &ldquo;bring forward.&rdquo;</div><div class='explanation-step'><strong>A)</strong> &ldquo;Dismiss&rdquo; means to reject or disregard. The propounders are supporting their position, not rejecting evidence. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Exaggerate&rdquo; implies distortion. While Huxley is somewhat skeptical (&ldquo;more or less sound&rdquo;), the word in the blank describes the act of presenting arguments, not inflating them. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Cite&rdquo; means to bring forward as evidence or reference. &ldquo;Adduce&rdquo; means precisely this — to cite facts or arguments in support of a claim. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Contradict&rdquo; means to oppose. The propounders are supporting their theory, not contradicting it. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
 {
       "id": "V-L3-001",
       "type": "mcq",
@@ -1459,7 +1622,7 @@
   "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. Here, the sentence begins with an introductory modifying phrase, so this question tests <strong>Sentence Structure (Modifier Placement and Sentence Clarity).</strong>.</div><div class='explanation-step'>This sentence begins with the introductory modifying clause &ldquo;In addition to being lethal to trees and hard to prevent.&rdquo; It introduces a subject (noun), but doesn't say what that noun is.  When a sentence begins with a modifying phrase, the noun immediately following the comma must logically be the thing that the phrase describes. Here, the noun will answer the question <em>what is lethal to trees and hard to prevent?</em>  The correct answer must begin with the thing that answers this question, &ldquo;the emerald ash insects.&rdquo;</div><div class='explanation-step'><strong>A)</strong>begins with &ldquo;there is an additional hazard with emerald ash insects,&rdquo; but the true subject of the introductory phrase (what is lethal and hard to prevent) comes too late in the sentence, creating a misplaced modifier. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>begins with &ldquo;an additional hazard is present with emerald ash insects,&rdquo; which again fails to make the insects the subject immediately after the comma. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>begins with &ldquo;emerald ash insects’ additional hazard is that,&rdquo; which introduces an unnecessary possessive form that makes the subject <em>hazard</em> instead of <em>insects</em>. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>begins correctly with &ldquo;emerald ash insects,&rdquo; making them the subject that matches the introductory modifier and keeping the sentence clear and logical. This means the correct answer is <strong>D</strong>.</div>."
 },
 {
-      "id": "V-L3-013",
+      "id": "V-L2-019",
       "type": "mcq",
       "mode": "practice",
       "subject": "verbal",
@@ -1470,7 +1633,7 @@
 "skill": "Textual Evidence"
       },
 
-      "level": 3,
+      "level": 2,
       "set": "Verbal Practice",
       "tags": ["logical transition"],
 
@@ -1483,6 +1646,499 @@
   ],
   "answerIndex": 1,
   "explanation": "<div class='explanation-step'>For <em>Illustrating Claims</em> questions, where you are asked to find a supporting quotation, the correct answer will directly and completely illustrate the claim made in the question. Here, the claim is that Longfellow’s poem reflects on the <em>urbanization of natural landscapes</em> and its impact on the Native American chief. The correct line should contrast the natural beauty of the past with the man-made urban world of the present.</div><div class='explanation-step'><strong>A)</strong>This line focuses on the chief himself, comparing him to a &ldquo;driving cloud,&rdquo; but it does not mention anything about the changing landscape or urbanization. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>This line contrasts the &ldquo;streets&rdquo; the chief now walks with the &ldquo;green turf of the prairies&rdquo; he once knew, and the of the city with the &ldquo;sweet air of the mountains.&rdquo; These images directly show the loss of nature and the rise of urban settings. Keep B.</div><div class='explanation-step'><strong>C)</strong>This line describes the beauty of nature with &ldquo;the maple leaves,&rdquo; and &ldquo;pine trees,&rdquo; but doesn’t contrast the natural <em>past</em> with the urbanized <em>present</em>. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>This line describes European expansion westward but focuses on colonization, not on the transformation of the landscape itself. Eliminate D.</div><br><br>This means the correct answer is <strong>B</strong>.</div>"
-}
+},
+[
+  {
+    "id": "V-L3-013",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Textual Evidence"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["support weaken", "science", "ecology"],
+    "stemSegments": [
+      {
+        "text": "Researchers studying coral reef ecosystems in the Indo-Pacific region argue that water temperature alone does not determine coral bleaching events. Rather, they claim that the combination of elevated temperature and reduced water flow is the primary driver of bleaching, and that reef systems with strong tidal currents are more resilient to bleaching even in warmer waters.",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "Which finding, if true, would most directly support the researchers' claim?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "Coral reefs in areas with weak tidal currents showed no bleaching during a period of record-high water temperatures.",
+      "Reefs with strong tidal currents in the Indo-Pacific showed significantly lower bleaching rates than nearby reefs with weaker currents during the same high-temperature event.",
+      "Elevated water temperatures were recorded across all reef sites studied, regardless of tidal current strength.",
+      "Coral species in the Indo-Pacific are more temperature-resistant than those found in Atlantic reef systems."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Supporting a Claim</em> questions, first identify the claim precisely. The researchers claim that bleaching is caused by <em>elevated temperature combined with reduced water flow</em>, and that strong tidal currents protect reefs even in warm water. The correct answer must provide evidence that directly supports this two-factor explanation.</div><div class='explanation-step'><strong>A)</strong> states that reefs with weak tidal currents showed no bleaching during high temperatures. This <em>weakens</em> the claim by suggesting that tidal current strength doesn't matter if temperatures are high enough. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> states that reefs with strong tidal currents had lower bleaching rates than nearby reefs with weaker currents during the same high-temperature event. Since temperature was the same across sites, the only variable is current strength — directly supporting the claim that strong currents protect reefs. Keep B.</div><div class='explanation-step'><strong>C)</strong> states that temperatures were uniform across all sites. This is background context, not evidence for or against the claim about tidal currents. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> introduces Atlantic coral species, which are outside the scope of the researchers' study. This is irrelevant to the claim. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-014",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Textual Evidence"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["support weaken", "economics", "social science"],
+    "stemSegments": [
+      {
+        "text": "Economist Dr. Priya Nair argues that raising the minimum wage in urban areas does not lead to significant job losses in the restaurant industry, contrary to conventional economic theory. She claims that restaurant owners in cities that have raised the minimum wage absorb the increased labor costs primarily through modest menu price increases rather than by reducing staff.",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "Which finding, if true, would most directly support Dr. Nair's claim?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "A survey of restaurant owners in urban areas that raised the minimum wage found that 78% reported raising menu prices by an average of 4%, while total employment at those restaurants remained stable.",
+      "Several large restaurant chains in rural areas reduced staff following a statewide minimum wage increase.",
+      "Restaurant owners in urban areas reported that labor costs account for approximately 30% of their total operating expenses.",
+      "Cities that raised the minimum wage saw an overall increase in consumer spending in the year following the increase."
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Supporting a Claim</em> questions, identify the claim precisely. Dr. Nair claims two things: (1) raising the minimum wage in urban areas does not cause significant restaurant job losses, and (2) owners absorb costs through price increases rather than layoffs. The correct answer must support both parts of this claim.</div><div class='explanation-step'><strong>A)</strong> states that urban restaurant owners raised menu prices by about 4% while employment remained stable. This directly supports both parts of Dr. Nair's claim — prices went up, jobs did not go down. Keep A.</div><div class='explanation-step'><strong>B)</strong> describes rural restaurant chains reducing staff. Dr. Nair's claim is specifically about <em>urban</em> areas; this evidence comes from a different context and could actually be used to argue against her claim. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> provides background data about labor costs as a share of expenses. This does not address how owners responded to a wage increase or whether jobs were lost. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> states that consumer spending increased after minimum wage increases. While this is somewhat consistent with Dr. Nair's view, it does not directly address the mechanism she describes — price increases instead of layoffs. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+  },
+  {
+    "id": "V-L3-015",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Textual Evidence"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["quotation", "poetry", "Dickinson"],
+    "stemSegments": [
+      {
+        "text": "&ldquo;Because I could not stop for Death&rdquo; is an Emily Dickinson poem first published in 1890. In the poem, Dickinson portrays death not as a terrifying force but as a courteous, unhurried companion who gently guides the speaker toward eternity, writing <span class='blank'>_______</span>.",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "Which quotation from &ldquo;Because I could not stop for Death&rdquo; most effectively illustrates the claim?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "&ldquo;Because I could not stop for Death &ndash; / He kindly stopped for me &ndash; / The Carriage held but just Ourselves &ndash; / And Immortality.&rdquo;",
+      "&ldquo;We passed the School, where Children strove / At Recess &ndash; in the Ring &ndash; / We passed the Fields of Gazing Grain &ndash; / We passed the Setting Sun.&rdquo;",
+      "&ldquo;We paused before a House that seemed / A Swelling of the Ground &ndash; / The Roof was scarcely visible &ndash; / The Cornice &ndash; in the Ground.&rdquo;",
+      "&ldquo;Since then &ndash; &lsquo;tis Centuries &ndash; and yet / Feels shorter than the Day / I first surmised the Horses&rsquo; Heads / Were toward Eternity.&rdquo;"
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Illustrating Claims with Quotations</em> questions, identify the precise claim in the stem and find the quotation that directly and completely illustrates it. The claim here is that Dickinson portrays death as a <em>courteous, unhurried companion</em> who <em>gently guides</em> the speaker toward eternity.</div><div class='explanation-step'><strong>A)</strong> states that Death &ldquo;kindly stopped&rdquo; for the speaker and that the carriage holds Death, the speaker, and Immortality. The word &ldquo;kindly&rdquo; directly supports &ldquo;courteous,&rdquo; and Death stopping for the speaker — rather than forcing her — supports &ldquo;unhurried companion.&rdquo; Keep A.</div><div class='explanation-step'><strong>B)</strong> describes scenes the speaker and Death pass during their carriage ride — a school, fields, the setting sun. This establishes the journey but says nothing about Death's character or demeanor. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> describes what appears to be a grave, focusing on the destination rather than on Death as a companion. It does not address Death's courteous or gentle qualities. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> reflects on the passage of time after death and the sense of moving toward eternity, but it does not portray Death as a companion or describe his demeanor. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+  },
+  {
+    "id": "V-L3-016",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Textual Evidence"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["quotation", "science prose", "Darwin"],
+    "stemSegments": [
+      {
+        "text": "Charles Darwin's <em>On the Origin of Species</em>, first published in 1859, is the foundational text of evolutionary biology. In the work, Darwin argues that natural selection operates gradually and incrementally, accumulating small advantageous variations over vast stretches of time rather than producing sudden or dramatic leaps, writing <span class='blank'>_______</span>.",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "Which quotation from <em>On the Origin of Species</em> most effectively illustrates the claim?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "&ldquo;Natural selection acts only by taking advantage of slight successive variations; she can never take a great and sudden leap, but must advance by short and sure, though slow steps.&rdquo;",
+      "&ldquo;I look at the geological record as a history of the world imperfectly kept, and written in a changing dialect; of this history we possess the last volume alone.&rdquo;",
+      "&ldquo;It is not the most intellectual of the species that survives; it is not the strongest that survives; but the species that survives is the one that is able best to adapt and adjust to the changing environment in which it finds itself.&rdquo;",
+      "&ldquo;A grain in the balance will determine which individual shall live and which shall die &ndash; which variety or species shall increase in number, and which shall decrease, or finally become extinct.&rdquo;"
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Illustrating Claims with Quotations</em> questions, identify the precise claim. Here, the claim is that Darwin argues natural selection operates <em>gradually and incrementally</em>, accumulating <em>small</em> variations over time rather than producing <em>sudden or dramatic leaps</em>.</div><div class='explanation-step'><strong>A)</strong> states that natural selection &ldquo;can never take a great and sudden leap, but must advance by short and sure, though slow steps.&rdquo; This directly mirrors the claim's language about gradual accumulation and the absence of sudden change. Keep A.</div><div class='explanation-step'><strong>B)</strong> compares the geological record to an imperfectly kept history. While this relates to Darwin's broader argument about deep time, it does not address the pace or mechanism of natural selection itself. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> is a statement about adaptability and survival, but it is commonly misattributed to Darwin and does not appear in <em>On the Origin of Species</em>. It also does not address the gradual nature of natural selection. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> describes how small advantages determine survival but focuses on the competitive outcome rather than the gradual, step-by-step pace of natural selection. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+  },
+  {
+    "id": "V-L3-017",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Quantitative Evidence"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["table", "data", "health", "screen time"],
+    "stemSegments": [
+      {
+        "text": "Average Daily Screen Time and Sleep Duration by Age Group",
+        "align": "center",
+        "style": "intro"
+      },
+      {
+        "text": "<table class='stem-table'><tr><th>Age Group</th><th>Avg Daily Screen Time (hrs)</th><th>Avg Sleep Duration (hrs)</th></tr><tr><td>13&ndash;17</td><td>7.2</td><td>6.8</td></tr><tr><td>18&ndash;24</td><td>6.5</td><td>6.9</td></tr><tr><td>25&ndash;34</td><td>5.1</td><td>7.2</td></tr><tr><td>35&ndash;44</td><td>4.3</td><td>7.5</td></tr></table>",
+        "align": "center",
+        "style": "table"
+      },
+      {
+        "text": "A researcher analyzing national health survey data argues that among the age groups surveyed, higher screen time is associated with shorter sleep duration, and that this relationship is most pronounced in the youngest age group. The researcher notes that this pattern suggests screen time may be disrupting sleep habits, and that it is plausible, for example, that <span class='blank'>_______</span>",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "Which choice most effectively uses data from the table to complete the example?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "the 35&ndash;44 age group sleeps more than twice as long as the 13&ndash;17 age group each night.",
+      "the 13&ndash;17 age group has both the highest average daily screen time and the lowest average sleep duration of any group surveyed.",
+      "the 18&ndash;24 age group has lower screen time than the 13&ndash;17 group but similar sleep duration, suggesting screen time has little effect on sleep.",
+      "adults aged 25&ndash;34 sleep approximately the same number of hours per night as teenagers aged 13&ndash;17."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Quantitative Evidence</em> questions, identify what the passage claims and find data from the table that directly and accurately completes the example. The researcher argues that higher screen time is associated with shorter sleep, most pronounced in the youngest group.</div><div class='explanation-step'><strong>A)</strong> states that the 35&ndash;44 group sleeps more than twice as long as the 13&ndash;17 group. The table shows 7.5 hours vs. 6.8 hours — nowhere near double. This is factually incorrect. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> states that the 13&ndash;17 group has the highest screen time (7.2 hrs) and lowest sleep duration (6.8 hrs) of any group. Both facts are confirmed by the table, and together they directly illustrate the researcher's claim. Keep B.</div><div class='explanation-step'><strong>C)</strong> states that similar sleep durations between the 13&ndash;17 and 18&ndash;24 groups suggest screen time has little effect. This <em>weakens</em> the researcher's claim rather than supporting it. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> states that 25&ndash;34 year-olds sleep approximately the same as 13&ndash;17 year-olds. The table shows 7.2 vs. 6.8 hours — a difference of 0.4 hours, which is not approximately the same in the context of sleep research. This is also factually misleading. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-018",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Quantitative Evidence"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["table", "data", "economics", "education"],
+    "stemSegments": [
+      {
+        "text": "Median Household Income and College Degree Attainment for Five Cities",
+        "align": "center",
+        "style": "intro"
+      },
+      {
+        "text": "<table class='stem-table'><tr><th>City</th><th>Median Household Income</th><th>% of Residents with a College Degree</th></tr><tr><td>City A</td><td>$82,000</td><td>48%</td></tr><tr><td>City B</td><td>$54,000</td><td>29%</td></tr><tr><td>City C</td><td>$97,000</td><td>61%</td></tr><tr><td>City D</td><td>$61,000</td><td>34%</td></tr><tr><td>City E</td><td>$45,000</td><td>22%</td></tr></table>",
+        "align": "center",
+        "style": "table"
+      },
+      {
+        "text": "A sociologist studying the relationship between educational attainment and income argues that among these five cities, higher rates of college degree attainment are consistently associated with higher median household incomes. Supporting this pattern, the data show that <span class='blank'>_______</span>",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "Which choice most effectively uses data from the table to complete the statement?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "City C has both the highest percentage of college graduates and the highest median household income of any city in the table.",
+      "City A has a higher median income than City B and also has a higher percentage of college graduates.",
+      "Cities with median incomes above $70,000 all have college degree rates above 50%.",
+      "City E has the lowest median income of any city surveyed and also has fewer college graduates than any other city in the table."
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Quantitative Evidence</em> questions, identify the claim and find the answer that most completely and accurately supports it using the table. The sociologist claims that higher college attainment is <em>consistently</em> associated with higher income, and that the city with the highest attainment also has the highest income.</div><div class='explanation-step'><strong>A)</strong> states that City C has both the highest college degree rate (61%) and the highest median income ($97,000). Both facts are confirmed by the table, and together they directly support the sociologist's specific claim. Keep A.</div><div class='explanation-step'><strong>B)</strong> compares only City A and City B. While accurate, this only supports the pattern for two cities and does not address the broader claim or its strongest example. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> states that cities with incomes above $70,000 all have degree rates above 50%. The table shows City A has a median income of $82,000 but only a 48% degree rate — making this factually incorrect. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> notes that City E has both the lowest income and lowest degree rate. While consistent with the pattern, it only illustrates one end of the data and is a weaker, less complete example than A. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+  },
+  {
+    "id": "V-L3-019",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Quantitative Evidence"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["table", "passage", "remote work", "social science"],
+    "stemSegments": [
+      {
+        "text": "Percentage of Remote Workers by Industry Sector, 2019 and 2023",
+        "align": "center",
+        "style": "intro"
+      },
+      {
+        "text": "<table class='stem-table'><tr><th>Sector</th><th>% Remote Workers (2019)</th><th>% Remote Workers (2023)</th></tr><tr><td>Technology</td><td>18%</td><td>67%</td></tr><tr><td>Finance</td><td>12%</td><td>54%</td></tr><tr><td>Education</td><td>8%</td><td>41%</td></tr><tr><td>Healthcare</td><td>3%</td><td>19%</td></tr><tr><td>Retail</td><td>2%</td><td>8%</td></tr></table>",
+        "align": "center",
+        "style": "table"
+      },
+      {
+        "text": "Sociologist Dr. Marcus Webb argues that the shift to remote work following 2020 was not uniform across industries. Sectors requiring physical presence saw far smaller increases in remote work adoption than those where tasks could be fully digitized. Webb further claims that among digitizable sectors, the technology industry experienced the most dramatic transformation of any sector studied.",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "Which choice best uses data from the table to support Dr. Webb's claim?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "The technology sector had the highest percentage of remote workers in both 2019 and 2023.",
+      "The technology sector's remote work rate increased by 49 percentage points — the largest increase of any sector in the table — while healthcare and retail, sectors requiring physical presence, saw increases of only 16 and 6 percentage points respectively.",
+      "Every sector in the table saw an increase in remote work rates between 2019 and 2023.",
+      "The finance sector had a higher remote work rate in 2023 than the education sector had in the same year."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Passage + Table</em> questions, the correct answer must use specific data from the table to support the precise claim in the passage. Dr. Webb makes two claims: (1) the shift to remote work was uneven across sectors, with physical-presence sectors lagging behind, and (2) technology experienced the most dramatic transformation.</div><div class='explanation-step'><strong>A)</strong> states that technology had the highest remote work rate in both years. While true, this does not address the &ldquo;most dramatic transformation&rdquo; claim or the comparison with physical-presence sectors. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> states that technology's remote work rate increased by 49 percentage points (18% to 67%), the largest increase of any sector, while healthcare rose only 16 points and retail only 6 points. This directly supports both parts of Webb's claim using specific data. Keep B.</div><div class='explanation-step'><strong>C)</strong> states that all sectors saw increases. While true, this is too vague and does not address the claim about the <em>size</em> of the increases or which sectors transformed most dramatically. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> compares finance and education in 2023 only. This comparison is irrelevant to Webb's claims about the technology sector or physical-presence sectors. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-020",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Quantitative Evidence"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["table", "passage", "ecology", "biodiversity"],
+    "stemSegments": [
+      {
+        "text": "Average Annual Temperature and Species Richness for Five Forest Ecosystems",
+        "align": "center",
+        "style": "intro"
+      },
+      {
+        "text": "<table class='stem-table'><tr><th>Forest</th><th>Avg Annual Temp (&deg;C)</th><th>Species Richness</th></tr><tr><td>Forest A</td><td>3</td><td>112</td></tr><tr><td>Forest B</td><td>8</td><td>187</td></tr><tr><td>Forest C</td><td>15</td><td>304</td></tr><tr><td>Forest D</td><td>22</td><td>498</td></tr><tr><td>Forest E</td><td>27</td><td>612</td></tr></table>",
+        "align": "center",
+        "style": "table"
+      },
+      {
+        "text": "Ecologist Dr. Amara Osei argues that temperature is a primary driver of biodiversity in forest ecosystems, with warmer forests consistently supporting greater species richness. She further claims that this relationship holds across a wide range of temperatures, from subarctic to tropical conditions.",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "Which choice best uses data from the table to support Dr. Osei's claim?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "Forest E has more than five times the species richness of Forest A, though both are classified as forest ecosystems.",
+      "Each forest in the table with a higher average temperature than another forest also has greater species richness, and this pattern holds consistently across all five ecosystems from 3&deg;C to 27&deg;C.",
+      "Forest C, with an average temperature of 15&deg;C, has approximately 2.7 times the species richness of Forest A.",
+      "The two warmest forests in the table together account for more than half of the total species richness across all five forests."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Passage + Table</em> questions, the correct answer must use specific data from the table to support the precise claim in the passage. Dr. Osei claims that (1) warmer forests <em>consistently</em> support greater species richness, and (2) this pattern holds <em>across the full range</em> of temperatures studied.</div><div class='explanation-step'><strong>A)</strong> compares only Forest E and Forest A. While the comparison is accurate, it addresses only two data points and does not demonstrate the consistent pattern across all five forests that Dr. Osei claims. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> states that every forest with a higher temperature also has greater species richness, and that this holds across all five ecosystems from 3&deg;C to 27&deg;C. This directly supports both parts of Dr. Osei's claim — the consistent relationship and its broad range. Keep B.</div><div class='explanation-step'><strong>C)</strong> compares only Forest C and Forest A, demonstrating the pattern for just two data points. This provides weak support for a claim about consistency across all five ecosystems. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> states that the two warmest forests account for more than half the total species richness. While consistent with the data, this does not directly address the temperature-drives-biodiversity relationship or its consistency across the full range. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-021",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Central Ideas and Details",
+      "skill": "Main Idea"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["main idea", "literary criticism", "humanities"],
+    "stem": "The literary critic Roland Barthes argued in his 1967 essay that the birth of the reader must come at the cost of the death of the author &mdash; that once a text is released, the author&rsquo;s intentions become irrelevant to its meaning. This position challenged the dominant critical practice of biographical interpretation, in which understanding a work required understanding its creator&rsquo;s life and intentions. Barthes&rsquo; argument was not that authors are unimportant as people, but that authorial intent cannot and should not constrain the meanings a text generates for its readers.<br><br>Which choice best states the main idea of the text?",
+    "choices": [
+      "Barthes argued that literary criticism should focus on authors&rsquo; biographies rather than readers&rsquo; interpretations.",
+      "Barthes believed that authors intentionally write texts with multiple meanings in order to engage readers.",
+      "Barthes contended that a text&rsquo;s meaning is generated by its readers rather than determined by its author&rsquo;s intentions.",
+      "Barthes&rsquo; 1967 essay marked the end of biographical interpretation as a critical practice."
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Main Idea</em> questions at level 3, two choices often seem plausible — the correct answer must be precise, not just vaguely related to the passage. Before looking at choices, summarize: Barthes argued that authorial intent is irrelevant to meaning, and that readers generate meaning instead.</div><div class='explanation-step'><strong>A)</strong> This is the opposite of Barthes&rsquo; position — he argued against biographical interpretation, not for it. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This attributes intentionality to authors, which is precisely what Barthes rejected. He argued authorial intent doesn&rsquo;t constrain meaning — not that authors plant multiple meanings deliberately. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This accurately captures the central claim: readers generate meaning, and authorial intent does not determine it. Keep C.</div><div class='explanation-step'><strong>D)</strong> The passage says Barthes challenged biographical interpretation but does not say the practice ended. This overstates. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L3-022",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Rhetorical Synthesis",
+      "skill": "Using Notes"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["student research", "rhetorical synthesis", "social science"],
+    "stemSegments": [
+      {
+        "text": "While researching a topic, a student has taken the following notes:",
+        "align": "left",
+        "style": "default"
+      },
+      {
+        "text": "• Sociologist Dr. Priya Mehta found that teenagers who reported high levels of parental monitoring also reported lower academic motivation.\n• A separate study by Dr. James Okafor found that teenagers with highly involved parents had higher GPAs than those with less involved parents.\n• Dr. Mehta distinguished between monitoring (tracking and controlling behavior) and involvement (participating in a child&rsquo;s activities and conversations).\n• Dr. Okafor&rsquo;s study measured parental involvement through frequency of parent-child conversations about school.\n• Both researchers agreed that the quality of parental engagement matters more than the quantity.",
+        "align": "left",
+        "style": "notes"
+      },
+      {
+        "text": "The student wants to explain why Mehta&rsquo;s and Okafor&rsquo;s findings are not necessarily contradictory. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "Both Mehta and Okafor studied teenagers, so their findings describe the same population and should be interpreted together.",
+      "Mehta found that monitoring reduces motivation while Okafor found that involvement raises GPA; since both researchers distinguished monitoring from involvement, the two studies measure different types of parental engagement.",
+      "Both researchers agreed that the quality of parental engagement matters more than the quantity, confirming that parents should spend more time with their children.",
+      "Because Okafor measured GPA while Mehta measured self-reported motivation, the two studies cannot be directly compared."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal requires combining specific information from multiple notes. The student wants to explain why the findings are <em>not contradictory</em> — the correct answer must show how both can be true simultaneously.</div><div class='explanation-step'><strong>A)</strong> The fact that both studied teenagers does not explain why the findings are compatible — studying the same population doesn&rsquo;t resolve an apparent contradiction. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Correctly identifies that Mehta studied monitoring and Okafor studied involvement, and that both researchers explicitly distinguished these as different things. Since the studies measure different types of parental engagement, their different findings are not contradictory. Keep B.</div><div class='explanation-step'><strong>C)</strong> Misreads the &ldquo;quality over quantity&rdquo; finding as a recommendation to spend more time — the notes say quality matters more than quantity, not that more time is better. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Saying the studies &ldquo;cannot be directly compared&rdquo; suggests incompatibility rather than explaining compatibility. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-023",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Rhetorical Synthesis",
+      "skill": "Using Notes"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["student research", "rhetorical synthesis", "history"],
+    "stemSegments": [
+      {
+        "text": "While researching a topic, a student has taken the following notes:",
+        "align": "left",
+        "style": "default"
+      },
+      {
+        "text": "• The Inca Empire built over 40,000 kilometers of roads across South America.\n• These roads were constructed without wheeled vehicles or horses &mdash; goods were carried by llamas and human porters.\n• The road system included rope suspension bridges, some spanning over 60 meters.\n• Chasqui runners used the roads to relay messages across the empire within days.\n• Spanish conquistadors used the same road network to facilitate their conquest of the Inca Empire in the 1530s.",
+        "align": "left",
+        "style": "notes"
+      },
+      {
+        "text": "The student wants to present a claim that illustrates an irony in the history of the Inca road network. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "The Inca road system was one of the most extensive in the ancient world, spanning over 40,000 kilometers across South America.",
+      "Although the Inca built their road network to unify and administer their empire, Spanish conquistadors later used those same roads to facilitate its conquest.",
+      "The Inca road system was remarkable for having been built without wheeled vehicles or horses, relying instead on llamas and human porters.",
+      "Inca chasqui runners could relay messages across the empire within days by using the road network."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal determines the correct answer. Here the student wants to illustrate an <em>irony</em> — something that turned out contrary to its original purpose or that has an unexpected twist.</div><div class='explanation-step'><strong>A)</strong> States a fact about the road system&rsquo;s scale but presents no irony. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Directly captures the irony: the roads were built to hold the empire together, but were then used to destroy it. This is the unexpected, contradictory outcome that defines irony. Keep B.</div><div class='explanation-step'><strong>C)</strong> States a remarkable fact about construction methods but presents no irony. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> States a fact about the roads&rsquo; use for communication but presents no irony. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-024",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Text Structure and Purpose",
+      "skill": "Function of a Sentence"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["sentence function", "humanities", "Tocqueville"],
+    "stemSegments": [
+      {
+        "text": "The following text is from Alexis de Tocqueville&rsquo;s <em>Democracy in America</em>, first published in 1835.",
+        "align": "left",
+        "style": "default"
+      },
+      {
+        "text": "I know of no country in which there is so little independence of mind and real freedom of discussion as in America. In America the majority raises formidable barriers around the liberty of opinion; within these barriers an author may write what he pleases, but woe to him if he goes beyond them. <u>Not that he is in danger of an auto-da-f&eacute;, but he is exposed to continued obloquy and persecution.</u>",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "Which choice best describes the function of the underlined sentence in the text?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "It introduces a counterargument that Tocqueville will go on to refute.",
+      "It clarifies the nature of the consequences faced by dissenters, distinguishing social censure from physical violence.",
+      "It provides a historical example of censorship in order to support the preceding claim.",
+      "It suggests that American society has grown more tolerant than European societies of the period."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Function of a Sentence</em> questions, read the sentence before and after the underlined sentence to understand what it does in context. The preceding sentence warns that an author faces consequences for crossing the majority&rsquo;s barriers. The underlined sentence then specifies what kind of consequences: not physical violence (auto-da-f&eacute; refers to execution by burning) but social persecution (obloquy means public disgrace).</div><div class='explanation-step'><strong>A)</strong> The sentence does not introduce a counterargument — it elaborates on the previous claim by specifying the type of punishment. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This precisely describes the sentence&rsquo;s function: it distinguishes what the danger is not (physical violence) from what it is (social censure and persecution). Keep B.</div><div class='explanation-step'><strong>C)</strong> The sentence does not cite a historical example — an auto-da-f&eacute; is mentioned only as a contrast to clarify what kind of danger is not present. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Tocqueville is criticizing American society, not praising its tolerance relative to Europe. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-025",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Words in Context",
+      "skill": "Vocabulary in Context"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["vocabulary", "words in context", "Thoreau"],
+    "stemSegments": [
+      {
+        "text": "The following text is from Henry David Thoreau&rsquo;s <em>Walden</em>, published in 1854.",
+        "align": "left",
+        "style": "default"
+      },
+      {
+        "text": "I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived. I did not wish to live what was not life, living is so <u>dear</u>; nor did I wish to practise resignation, unless it was quite necessary.",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "As used in the text, &ldquo;dear&rdquo; most nearly means",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "costly",
+      "beloved",
+      "precious and worth protecting",
+      "scarce"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, two or more choices may seem plausible — the correct answer requires careful attention to what the word is doing in the sentence. Here, Thoreau says &ldquo;living is so dear&rdquo; immediately after expressing his fear of dying without having truly lived. The word must capture why life is too valuable to be wasted on &ldquo;what was not life.&rdquo;</div><div class='explanation-step'><strong>A)</strong> &ldquo;Costly&rdquo; is a surface reading of &ldquo;dear,&rdquo; which can mean expensive. But Thoreau is not discussing the financial cost of living — he is expressing the value of life as something not to be squandered. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Beloved&rdquo; captures warmth and affection but misses the sense of value that drives Thoreau&rsquo;s argument — the point is that life is too valuable to waste, not merely that he loves it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Precious and worth protecting&rdquo; captures both the high value Thoreau places on life and the implication that it must not be wasted. This fits the context precisely: because living is so precious, he refuses to live inauthentically. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Scarce&rdquo; suggests limited quantity, not high value. Thoreau&rsquo;s concern is about quality of life, not its duration. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  }
+]
   ]
 }

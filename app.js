@@ -17,6 +17,7 @@ let timeLeft = 0;
 let activeTestSessionId = null;
 let currentModuleFile = "MathT1-Mod1.json";
 let currentAttemptId = null;
+let fullSATMode = false;
 let activePracticeSessionId = null;
 let timerInterval;
 let isPaused = false;
@@ -747,6 +748,7 @@ const fresh = params.get("fresh") === "1";
 const resume = params.get("resume") === "1";
 reviewMode = params.get("review");
 const reviewSessionId = params.get("sessionId");
+const reviewAttemptId = params.get("attemptId");
 const mode = forcedMode || params.get("mode") || "home";
 const accessAllowed = await guardSimulatorAccess(params);
 if (!accessAllowed) return;
@@ -755,6 +757,41 @@ if (!params.get("mode") && !forcedMode) {
   window.location.href = "dashboard.html";
   return;
 }
+// Early exit for full SAT review by attemptId — load all modules and show summary page
+if (!options.forceFile && reviewAttemptId && !options.resume) {
+  const { data: attemptSessions } = await window.supabaseClient
+    .from("test_sessions")
+    .select("*")
+    .eq("attempt_id", reviewAttemptId)
+    .eq("status", "completed")
+    .order("created_at", { ascending: true });
+
+  if (attemptSessions && attemptSessions.length > 0) {
+    const combinedAnswers = {};
+    attemptSessions.forEach(s => Object.assign(combinedAnswers, s.answers || {}));
+    answers = combinedAnswers;
+    reviewReveal = true;
+
+    const moduleFiles = [...new Set(attemptSessions.map(s => s.module_file).filter(f => f && f !== "completed"))];
+    const jsons = await Promise.all(moduleFiles.map(f => fetch(f).then(r => r.json())));
+    const allQuestions = jsons.flatMap(j => j.questions || []);
+
+    const answeredIds = Object.keys(answers);
+    data = { questions: allQuestions.filter(q => answeredIds.includes(String(q.id))) };
+    current = 0;
+    fullSATMode = true;
+
+    const loadingOverlay = document.getElementById("loadingOverlay");
+    if (loadingOverlay) loadingOverlay.style.display = "none";
+
+    resultsSummaryHTML = buildTestSummaryHTML();
+    document.body.innerHTML = resultsSummaryHTML;
+    renderScoreBanner();
+    typesetMath();
+    return;
+  }
+}
+
 console.log("LOAD DATA CALLED WITH MODE:", mode);
 
 if (mode === "home") {
@@ -783,14 +820,17 @@ currentMode = mode;
 setAppView("session");
 document.body.classList.remove("practice-sidebar-ready");
 const isDemo = params.get("demo") === "1";
-currentSubject = params.get("subject") || "math";
+if (!options.forceFile) {
+  const rawSubject = params.get("subject") || "math";
+  currentSubject = rawSubject === "full" ? "verbal" : rawSubject;
+}
 const file = options.forceFile
   ? options.forceFile
   : (isDemo
       ? "demo.json"
       : (mode === "practice"
-    ? (params.get("subject") === "verbal" ? "verbal-practice.json" : "practice.json")
-    : (params.get("subject") === "verbal" ? "VerbalT1-Mod1.json" : "MathT1-Mod1.json")));
+    ? (currentSubject === "verbal" ? "verbal-practice.json" : "practice.json")
+    : (currentSubject === "verbal" ? "VerbalT1-Mod1.json" : "MathT1-Mod1.json")));
 
 console.log("Mode:", mode, "File:", file);
 currentModuleFile = file;
@@ -1189,7 +1229,8 @@ if (submitBtn) {
   } else {
     submitBtn.disabled = false;
     submitBtn.style.display = "inline-block";
-    submitBtn.innerText = isPracticeMode ? "End Session" : "Submit";
+    const isLastModule = fullSATMode && currentSubject === "math" && (data?.moduleId || "").includes("Mod2");
+    submitBtn.innerText = isPracticeMode ? "End Session" : (fullSATMode && !isLastModule ? "Finish Section" : "Submit Test");
   }
 }
 
@@ -1422,7 +1463,7 @@ function renderGridIn(q, container) {
   if (e.key === "Enter" || e.key === "ArrowRight") {
     e.preventDefault();
     e.stopPropagation();
-    nextQuestion();
+    if (current < data.questions.length - 1) nextQuestion();
     return;
   }
 
@@ -2367,6 +2408,64 @@ function selectPracticeLevelFilter(level) {
     label
   });
 }
+function buildTestSummaryHTML() {
+  const verbalDomains = ["Craft and Structure", "Information and Ideas", "Standard English Conventions", "Expression of Ideas"];
+  const verbalQs = data.questions.filter(q => {
+    const domain = getDomain(q.skill);
+    return verbalDomains.includes(domain);
+  });
+  const mathQs = data.questions.filter(q => !verbalQs.includes(q));
+
+  const verbalTree = {};
+  verbalQs.forEach(q => {
+    const domain = getDomain(q.skill);
+    const topic = getTopic(q.skill);
+    if (!verbalTree[domain]) verbalTree[domain] = {};
+    if (!verbalTree[domain][topic]) verbalTree[domain][topic] = { correct: 0, total: 0 };
+    verbalTree[domain][topic].total++;
+    if (isQuestionCorrect(q)) verbalTree[domain][topic].correct++;
+  });
+
+  const mathTree = {};
+  mathQs.forEach(q => {
+    const domain = getDomain(q.skill);
+    const topic = getTopic(q.skill);
+    if (!mathTree[domain]) mathTree[domain] = {};
+    if (!mathTree[domain][topic]) mathTree[domain][topic] = { correct: 0, total: 0 };
+    mathTree[domain][topic].total++;
+    if (isQuestionCorrect(q)) mathTree[domain][topic].correct++;
+  });
+
+  const verbalBreakdown = buildBreakdownHTML(verbalTree, verbalQs, answers);
+  const mathBreakdown = buildBreakdownHTML(mathTree, mathQs, answers);
+  const verbalCorrect = verbalQs.filter(q => isQuestionCorrect(q)).length;
+  const mathCorrect = mathQs.filter(q => isQuestionCorrect(q)).length;
+
+  return `
+    <div class="appPage">
+      <h1 class="appTitle">Full SAT Complete</h1>
+      <p class="appSubtitle">Here's your performance summary.</p>
+      <div id="scoreSummary" class="scoreBanner appCard" style="margin-bottom:24px;"></div>
+      <h3 class="appSectionTitle">Reading &amp; Writing — ${verbalCorrect} / ${verbalQs.length} correct</h3>
+      ${verbalBreakdown}
+      <div style="margin-top:16px; display:flex; gap:12px;">
+        <button class="secondaryBtn" onclick="reviewMistakesBySubject('verbal')">Review R&amp;W Mistakes</button>
+        <button class="secondaryBtn" onclick="reviewAllBySubject('verbal')">Review All R&amp;W</button>
+      </div>
+      <h3 class="appSectionTitle" style="margin-top:32px;">Math — ${mathCorrect} / ${mathQs.length} correct</h3>
+      ${mathBreakdown}
+      <div style="margin-top:16px; display:flex; gap:12px;">
+        <button class="secondaryBtn" onclick="reviewMistakesBySubject('math')">Review Math Mistakes</button>
+        <button class="secondaryBtn" onclick="reviewAllBySubject('math')">Review All Math</button>
+      </div>
+      <div style="margin-top:24px; display:flex; gap:12px; justify-content:center;">
+        <button class="secondaryBtn" onclick="window.location.href='dashboard.html'">Home</button>
+        <button class="secondaryBtn" onclick="window.location.href='test-history.html'">Test History</button>
+      </div>
+    </div>
+  `;
+}
+
 async function submitTest() {
   if (isPracticeMode) {
   Object.assign(sessionAnswers, answers);
@@ -2390,23 +2489,65 @@ console.log("submitTest moduleId:", data?.moduleId);
 if ((data?.moduleId || "").trim().includes("Mod1")) {
   window.__testModule1Questions = data.questions;
   window.__testModule1Answers = { ...answers };
-  const nextFile = data.subject === "verbal"
-    ? "VerbalT1-Mod2E.json"
-    : getModule2FileFromModule1();
+  const nextFile = getModule2FileFromModule1();
   loadNextModule(nextFile);
   return;
 }
-// combine module 1 + module 2 questions and answers
+
+console.log("FULL SAT CHECK:", fullSATMode, currentSubject, data?.moduleId);
+if (fullSATMode && currentSubject === "verbal" && (data?.moduleId || "").trim().includes("Mod2")) {
+  window.__verbalQuestions = [
+    ...(window.__testModule1Questions || []),
+    ...data.questions
+  ];
+  window.__verbalAnswers = {
+    ...(window.__testModule1Answers || {}),
+    ...answers
+  };
+  window.__testModule1Questions = null;
+  window.__testModule1Answers = null;
+
+  // Mark verbal mod2 session as completed before switching to math
+  if (activeTestSessionId) {
+    await window.supabaseClient.from("test_sessions")
+      .update({ status: "completed", answers, subject: "verbal" })
+      .eq("id", activeTestSessionId);
+  }
+
+  current = 0;
+  answers = {};
+  flagged = {};
+  currentSubject = "math";
+  activeTestSessionId = null;
+
+  window.__SAT_SIM_DATA_LOADED__ = false;
+  window.__SAT_SIM_LOAD_IN_FLIGHT__ = false;
+
+  appInitialized = false;
+  isReady = false;
+  isPaused = false;
+  currentMode = "test";
+
+  setAppView("session");
+  loadData("test", { forceFile: "MathT1-Mod1.json" });
+  return;
+}
+// combine all questions and answers (verbal + math in full SAT mode)
 const allTestQuestions = [
+  ...(window.__verbalQuestions || []),
   ...(window.__testModule1Questions || []),
   ...data.questions
 ];
 const allTestAnswers = {
+  ...(window.__verbalAnswers || {}),
   ...(window.__testModule1Answers || {}),
   ...answers
 };
 data.questions = allTestQuestions;
 answers = allTestAnswers;
+window.__verbalQuestions = null;
+window.__verbalAnswers = null;
+
 localStorage.setItem("satLastTestSession", JSON.stringify({
   savedAt: new Date().toISOString(),
   mode: "test",
@@ -2453,17 +2594,25 @@ localStorage.setItem("satLastTestSession", JSON.stringify({
     });
   });
 
-  const breakdownHTML = buildBreakdownHTML(flatTree, data.questions, answers);
+  let reviewHTML;
 
-  let reviewHTML = `
-    <div class="appPage">
-      <h1 class="appTitle">Test Complete</h1>
-      <p class="appSubtitle">Here's your performance summary.</p>
-      <div id="scoreSummary" class="scoreBanner appCard" style="margin-bottom:24px;"></div>
-      <h3 class="appSectionTitle">Topics Practiced</h3>
-      ${breakdownHTML}
-    </div>
-  `;
+  if (fullSATMode) {
+    reviewHTML = buildTestSummaryHTML();
+  } else {
+    const breakdownHTML = buildBreakdownHTML(flatTree, data.questions, answers);
+    reviewHTML = `
+      <div class="appPage">
+        <h1 class="appTitle">Test Complete</h1>
+        <p class="appSubtitle">Here's your performance summary.</p>
+        <div id="scoreSummary" class="scoreBanner appCard" style="margin-bottom:24px;"></div>
+        <h3 class="appSectionTitle">Topics Practiced</h3>
+        ${breakdownHTML}
+        <div style="margin-top:24px; display:flex; gap:12px; justify-content:center;">
+          <button class="secondaryBtn" onclick="window.location.href='dashboard.html'">Home</button>
+        </div>
+      </div>
+    `;
+  }
 
   resultsSummaryHTML = reviewHTML;
 
@@ -2484,18 +2633,26 @@ localStorage.setItem("satLastTestSession", JSON.stringify({
         if (t) topicSet.add(t);
       });
 
-      await window.supabaseClient.from("test_sessions").insert({
-        user_id: user.id,
-        test_id: currentSubject === "verbal" ? "VerbalT1" : "MathT1",
-        module: 2,
-        module_file: "completed",
-        status: "completed",
-        answers: answers,
-        correct_count: correct,
-        total_count: totalAnswered,
-        topics: [...topicSet].join(", "),
-        subject: currentSubject
-      });
+      // Mark the active session as completed
+      if (activeTestSessionId) {
+        await window.supabaseClient.from("test_sessions")
+          .update({
+            status: "completed",
+            answers: answers,
+            correct_count: correct,
+            total_count: totalAnswered,
+            topics: [...topicSet].join(", "),
+            subject: currentSubject
+          })
+          .eq("id", activeTestSessionId);
+      }
+      // For full SAT, mark any remaining in_progress sessions with this attempt_id as completed
+      if (fullSATMode && currentAttemptId) {
+        await window.supabaseClient.from("test_sessions")
+          .update({ status: "completed" })
+          .eq("attempt_id", currentAttemptId)
+          .eq("status", "in_progress");
+      }
     } catch (err) {
       console.error("Failed to save test snapshot:", err);
     }
@@ -2505,6 +2662,52 @@ localStorage.setItem("satLastTestSession", JSON.stringify({
   renderScoreBanner();
   typesetMath();
 }
+function reviewAllBySubject(subject) {
+  const verbalDomains = ["Craft and Structure", "Information and Ideas", "Standard English Conventions", "Expression of Ideas"];
+  const filteredIndices = data.questions
+    .map((q, i) => ({ q, i }))
+    .filter(({ q }) => {
+      const domain = getDomain(q.skill);
+      const isVerbal = verbalDomains.includes(domain);
+      return subject === "verbal" ? isVerbal : !isVerbal;
+    })
+    .map(({ i }) => i);
+
+  if (filteredIndices.length === 0) {
+    alert(`No questions found for ${subject === "verbal" ? "Reading & Writing" : "Math"}.`);
+    return;
+  }
+
+  currentReviewMode = "all";
+  reviewIndices = filteredIndices;
+  reviewPointer = 0;
+  renderReviewScreen("all");
+  document.addEventListener("keydown", handleReviewKeydown);
+}
+
+function reviewMistakesBySubject(subject) {
+  const verbalDomains = ["Craft and Structure", "Information and Ideas", "Standard English Conventions", "Expression of Ideas"];
+  const filteredIndices = data.questions
+    .map((q, i) => ({ q, i }))
+    .filter(({ q }) => {
+      const domain = getDomain(q.skill);
+      const isVerbal = verbalDomains.includes(domain);
+      return subject === "verbal" ? isVerbal : !isVerbal;
+    })
+    .filter(({ q }) => answers[q.id] && !isQuestionCorrect(q))
+    .map(({ i }) => i);
+
+  if (filteredIndices.length === 0) {
+    alert(`No mistakes in ${subject === "verbal" ? "Reading & Writing" : "Math"}!`);
+    return;
+  }
+
+  currentReviewMode = "missed";
+  reviewIndices = filteredIndices;
+  reviewPointer = 0;
+  renderReviewScreen("missed");
+}
+
 function buildBreakdownHTML(tree, questionPool, answerMap) {
   let html = `<div class="skillBreakdownGrid">`;
 
@@ -2552,7 +2755,7 @@ function showTopicMiniSummary(topic, domain, correct, total) {
   const topicQuestions = data.questions.filter(q => getTopic(q.skill) === topic);
 
   const prev = document.body.innerHTML;
-  const cameFromHistory = !!new URLSearchParams(window.location.search).get("sessionId");
+  const cameFromHistory = !!new URLSearchParams(window.location.search).get("sessionId") || !!new URLSearchParams(window.location.search).get("attemptId");
   document.body.innerHTML = `
     <div class="appPage">
       <button class="summaryAction secondary" id="backFromTopicBtn" style="margin-bottom:24px;">
@@ -2753,9 +2956,8 @@ if (!isTyping) {
   }
 }
   if (key === "enter") {
-    
     if (current < data.questions.length - 1) nextQuestion();
-    else submitTest();
+    // Never submit on Enter — user must click the button
     return;
   }
 });
@@ -2831,7 +3033,8 @@ console.log("saving module_file:", currentModuleFile, "subject:", currentSubject
     flagged,
     current_question: current,
     time_left: timeLeft,
-    status: "in_progress"
+    status: "in_progress",
+    subject: currentSubject
   };
 
   let result;
@@ -2938,15 +3141,67 @@ function showHomeView() {
 
 async function resumeSavedTest() {
   const saved = await getLatestSavedTestSessionFromDB();
-  currentAttemptId = saved.attempt_id || null;
 
   if (!saved) {
     alert("No saved test session found.");
     return;
   }
 
+  currentAttemptId = saved.attempt_id || null;
   activeTestSessionId = saved.id;
   currentMode = "test";
+  fullSATMode = !!saved.attempt_id;
+
+  // If resuming into module 2 of a full SAT, reload prior module data from Supabase + JSON files
+  if (saved.attempt_id && (saved.module_file || "").includes("Mod2")) {
+    try {
+      const { data: priorSessions } = await window.supabaseClient
+        .from("test_sessions")
+        .select("*")
+        .eq("attempt_id", saved.attempt_id)
+        .eq("status", "completed")
+        .order("created_at", { ascending: true });
+
+      if (priorSessions && priorSessions.length > 0) {
+        const verbalSessions = priorSessions.filter(s => s.subject === "verbal");
+        const mathMod1Session = priorSessions.find(s => s.subject === "math" && (s.module_file || "").includes("Mod1"));
+
+        // Resuming into math mod2 — restore verbal questions and math mod1 answers
+        if (saved.subject === "math" && verbalSessions.length > 0) {
+          const verbalAnswers = {};
+          verbalSessions.forEach(s => Object.assign(verbalAnswers, s.answers || {}));
+          window.__verbalAnswers = verbalAnswers;
+
+          const verbalMod1File = (verbalSessions[0] || {}).module_file || "VerbalT1-Mod1.json";
+          const verbalMod2File = (verbalSessions[1] || {}).module_file || null;
+          const fetches = [fetch(verbalMod1File).then(r => r.json())];
+          if (verbalMod2File) fetches.push(fetch(verbalMod2File).then(r => r.json()));
+          const verbalJsons = await Promise.all(fetches);
+          window.__verbalQuestions = verbalJsons.flatMap(j => j.questions || []);
+        }
+
+        // Resuming into mod2 of any subject — restore mod1 answers
+        if (mathMod1Session && saved.subject === "math") {
+          window.__testModule1Answers = mathMod1Session.answers || {};
+          const mathMod1Json = await fetch(mathMod1Session.module_file || "MathT1-Mod1.json").then(r => r.json());
+          window.__testModule1Questions = mathMod1Json.questions || [];
+        }
+
+        // Resuming into verbal mod2 — restore verbal mod1 answers
+        if (saved.subject === "verbal") {
+          const verbalMod1Session = priorSessions.find(s => s.subject === "verbal" && (s.module_file || "").includes("Mod1"));
+          if (verbalMod1Session) {
+            window.__testModule1Answers = verbalMod1Session.answers || {};
+            const verbalMod1Json = await fetch(verbalMod1Session.module_file || "VerbalT1-Mod1.json").then(r => r.json());
+            window.__testModule1Questions = verbalMod1Json.questions || [];
+          }
+        }
+      }
+    } catch(e) {
+      console.error("Failed to restore prior module data on resume:", e);
+    }
+  }
+
   setAppView("session");
   updateUrlForMode("test");
 
@@ -3010,6 +3265,9 @@ function getModule2FileFromModule1() {
   const correct = data.questions.filter(q => isQuestionCorrect(q)).length;
   const ratio = total ? correct / total : 0;
 
+  if (currentSubject === "verbal") {
+    return ratio >= 0.7 ? "VerbalT1-Mod2H.json" : "VerbalT1-Mod2E.json";
+  }
   return ratio >= 0.7 ? "MathT1-Mod2H.json" : "MathT1-Mod2E.json";
 }
 
@@ -3037,7 +3295,7 @@ async function loadNextModule(file) {
 
   const nextSessionPayload = {
     user_id: user.id,
-    test_id: "MathT1",
+    test_id: currentSubject === "verbal" ? "VerbalT1" : "MathT1",
     module: 2,
     module_file: file,
     attempt_id: currentAttemptId,
@@ -3045,7 +3303,8 @@ async function loadNextModule(file) {
     flagged: {},
     current_question: 0,
     time_left: 0,
-    status: "in_progress"
+    status: "in_progress",
+    subject: currentSubject
   };
 
   const { data: insertedSession, error: insertError } = await window.supabaseClient
@@ -3077,7 +3336,7 @@ async function loadNextModule(file) {
 
   loadData("test", { forceFile: file });
 }
-window.restartFullTest = function () {
+window.restartFullTest = async function () {
   localStorage.removeItem("satLastTestSession");
 
   current = 0;
@@ -3088,6 +3347,30 @@ window.restartFullTest = function () {
   isPaused = false;
   isReady = false;
   currentMode = "test";
+  fullSATMode = params.get("subject") === "full";
+if (fullSATMode) {
+  const fullCard = document.getElementById("fullSATCard");
+  if (fullCard) fullCard.style.display = "";
+}
+if (fullSATMode && resume) {
+  const savedSession = await getLatestSavedTestSessionFromDB();
+  if (savedSession) {
+    const savedFile = savedSession.module_file || "";
+    currentSubject = savedFile.toLowerCase().includes("verbal") ? "verbal" : "math";
+    currentAttemptId = savedSession.attempt_id || null;
+    activeTestSessionId = savedSession.id;
+    localStorage.setItem("satLastTestSession", JSON.stringify({
+      mode: "test",
+      current: Number.isInteger(savedSession.current_question) ? savedSession.current_question : 0,
+      answers: savedSession.answers && typeof savedSession.answers === "object" ? savedSession.answers : {},
+      flagged: savedSession.flagged && typeof savedSession.flagged === "object" ? savedSession.flagged : {},
+      timeLeft: typeof savedSession.time_left === "number" ? savedSession.time_left : 0
+    }));
+    loadData("test", { resume: true, forceFile: savedFile });
+    return;
+  }
+}
+  currentAttemptId = crypto.randomUUID();
 
   window.__SAT_SIM_DATA_LOADED__ = false;
   window.__SAT_SIM_LOAD_IN_FLIGHT__ = false;
@@ -3118,9 +3401,34 @@ window.startPracticeMode = function () {
 // THEN your load starts AFTER this:
 const params = new URLSearchParams(window.location.search);
 const initialMode = params.get("mode");
+fullSATMode = params.get("subject") === "full";
+if (fullSATMode && params.get("resume") !== "1" && currentAttemptId === null) {
+  currentAttemptId = crypto.randomUUID();
+}
 
 if (!initialMode) {
   window.location.href = "dashboard.html";
+} else if (fullSATMode && params.get("resume") === "1") {
+  // Full SAT resume — let resumeSavedTest handle it
+  (async () => {
+    const savedSession = await getLatestSavedTestSessionFromDB();
+    if (savedSession) {
+      currentAttemptId = savedSession.attempt_id || null;
+      fullSATMode = !!savedSession.attempt_id;
+      currentSubject = (savedSession.subject === "verbal") ? "verbal" : "math";
+      activeTestSessionId = savedSession.id;
+      localStorage.setItem("satLastTestSession", JSON.stringify({
+        mode: "test",
+        current: Number.isInteger(savedSession.current_question) ? savedSession.current_question : 0,
+        answers: savedSession.answers && typeof savedSession.answers === "object" ? savedSession.answers : {},
+        flagged: savedSession.flagged && typeof savedSession.flagged === "object" ? savedSession.flagged : {},
+        timeLeft: typeof savedSession.time_left === "number" ? savedSession.time_left : 0
+      }));
+      loadData("test", { resume: true, forceFile: savedSession.module_file });
+    } else {
+      loadData(initialMode);
+    }
+  })();
 } else {
   loadData(initialMode);
   document.addEventListener("click", (e) => {

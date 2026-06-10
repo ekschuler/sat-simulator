@@ -192,18 +192,10 @@ Full SAT practice and tests are locked. Upgrade to unlock full access, or contin
 
 <div class="dashboardGrid">
   <div class="appCard">
-    <h2 class="cardTitle">Math Test</h2>
-    <p class="cardText">Begin a timed SAT Math module in the realistic testing interface.</p>
+    <h2 class="cardTitle">Full SAT Practice Test</h2>
+    <p class="cardText">Take a complete timed SAT with adaptive routing.</p>
     <div class="appActionRow" style="flex-direction:column; gap:8px;">
-      <button id="startTestBtn" class="primaryBtn" type="button" style="display:none;">Upgrade to Unlock</button>
-    </div>
-  </div>
-
-  <div class="appCard">
-    <h2 class="cardTitle">Verbal Test</h2>
-    <p class="cardText">Begin a timed SAT Reading and Writing module.</p>
-    <div class="appActionRow" style="flex-direction:column; gap:8px;">
-      <button id="startVerbalTestBtn" class="primaryBtn" type="button" style="display:none;">Upgrade to Unlock</button>
+      <button id="startFullSATBtn" class="primaryBtn" type="button">Start Full SAT</button>
     </div>
   </div>
       <div class="appCard">
@@ -220,7 +212,7 @@ Full SAT practice and tests are locked. Upgrade to unlock full access, or contin
   Start Over Math
 </button>
 <button id="startOverVerbalBtn" class="secondaryBtn" type="button" style="display:none;">
-  Start Over Verbal
+  Start Over Reading and Writing
 </button>
 </div>
       </div>
@@ -289,8 +281,6 @@ if (params.get("paid") === "1") {
 console.log("Dashboard access status:", accessStatus);
 
   const gatedMessage = document.getElementById("gatedMessage");
-  const startTestBtn = document.getElementById("startTestBtn");
-  const startPracticeBtn = document.getElementById("startPracticeBtn");
   const dashboardTestLink = document.getElementById("dashboardTestLink");
   const dashboardPracticeLink = document.getElementById("dashboardPracticeLink");
   const dashboardContent = document.getElementById("dashboardContent");
@@ -310,109 +300,59 @@ console.log("Dashboard access status:", accessStatus);
     dashboardPracticeLink.style.display = "";
   }
 
-  if (startTestBtn) {
-  startTestBtn.style.display = "";
-
-  // check for in-progress test
-  const { data: savedTest } = await window.supabaseClient
-    .from("test_sessions")
-    .select("*")
-    .eq("user_id", user.id)
-    .eq("status", "in_progress")
-    .order("created_at", { ascending: false })
-    .limit(1)
-    .maybeSingle();
-
-  if (savedTest) {
-    startTestBtn.textContent = "Resume Math Test";
-    startTestBtn.onclick = () => location.href = "simulator.html?mode=test&resume=1&subject=math";
-
-    const newTestBtn = document.createElement("button");
-    newTestBtn.className = "secondaryBtn";
-    newTestBtn.textContent = "Start New Math Test";
-    newTestBtn.style.marginTop = "8px";
-    newTestBtn.style.padding = "12px 16px";
-    newTestBtn.onclick = () => {
-  if (confirm("Starting a new test will replace your saved progress. Are you sure?")) {
-    location.href = "simulator.html?mode=test&subject=math";
-  }
-};
-    startTestBtn.parentNode.appendChild(newTestBtn);
-  } else {
-    const { data: completedMath } = await window.supabaseClient
+  const startFullSATBtn = document.getElementById("startFullSATBtn");
+  if (startFullSATBtn) {
+    const { data: savedFullSAT } = await window.supabaseClient
       .from("test_sessions")
-      .select("id")
+      .select("*")
       .eq("user_id", user.id)
-      .eq("test_id", "MathT1")
-      .eq("status", "completed")
+      .eq("status", "in_progress")
+      .not("attempt_id", "is", null)
+      .order("created_at", { ascending: false })
       .limit(1)
       .maybeSingle();
 
-    startTestBtn.textContent = completedMath ? "Retake Math Test" : "Start Math Test";
-    startTestBtn.onclick = () => {
-      if (completedMath) {
-        if (confirm("You've already completed this test. Starting again will create a new attempt. Continue?")) {
-          location.href = "simulator.html?mode=test&subject=math";
+    if (savedFullSAT) {
+      startFullSATBtn.textContent = "Resume Full SAT";
+      startFullSATBtn.onclick = () => location.href = "simulator.html?mode=test&resume=1&subject=full";
+
+      const newFullSATBtn = document.createElement("button");
+      newFullSATBtn.className = "secondaryBtn";
+      newFullSATBtn.textContent = "Start New Full SAT";
+      newFullSATBtn.style.marginTop = "8px";
+      newFullSATBtn.style.padding = "12px 16px";
+      newFullSATBtn.onclick = () => {
+        if (confirm("Starting a new test will replace your saved progress. Are you sure?")) {
+          location.href = "simulator.html?mode=test&subject=full";
         }
-      } else {
-        location.href = "simulator.html?mode=test&subject=math";
+      };
+      startFullSATBtn.parentNode.appendChild(newFullSATBtn);
+    } else {
+      startFullSATBtn.textContent = "Start Full SAT";
+      startFullSATBtn.onclick = () => location.href = "simulator.html?mode=test&subject=full";
+
+      // Check for a completed full SAT to show Review Last Test
+      const { data: completedFullSAT } = await window.supabaseClient
+        .from("test_sessions")
+        .select("attempt_id")
+        .eq("user_id", user.id)
+        .eq("status", "completed")
+        .not("attempt_id", "is", null)
+        .order("created_at", { ascending: false })
+        .limit(1)
+        .maybeSingle();
+
+      if (completedFullSAT) {
+        const reviewBtn = document.createElement("button");
+        reviewBtn.className = "secondaryBtn";
+        reviewBtn.textContent = "Review Last Test";
+        reviewBtn.style.marginTop = "8px";
+        reviewBtn.style.padding = "12px 16px";
+        reviewBtn.onclick = () => location.href = `simulator.html?mode=test&review=all&attemptId=${completedFullSAT.attempt_id}`;
+        startFullSATBtn.parentNode.appendChild(reviewBtn);
       }
-    };
+    }
   }
-}
-
-const startVerbalTestBtn = document.getElementById("startVerbalTestBtn");
-if (startVerbalTestBtn) {
-  startVerbalTestBtn.style.display = "";
-
-  const { data: savedVerbalTest } = await window.supabaseClient
-    .from("test_sessions")
-    .select("*")
-    .eq("user_id", user.id)
-    .eq("test_id", "VerbalT1")
-    .eq("status", "in_progress")
-    .order("created_at", { ascending: false })
-    .limit(1)
-    .maybeSingle();
-
-  if (savedVerbalTest) {
-    startVerbalTestBtn.textContent = "Resume Verbal Test";
-    startVerbalTestBtn.onclick = () => location.href = "simulator.html?mode=test&resume=1&subject=verbal";
-
-    const newVerbalTestBtn = document.createElement("button");
-    newVerbalTestBtn.className = "secondaryBtn";
-    newVerbalTestBtn.textContent = "Start New Verbal Test";
-    newVerbalTestBtn.style.marginTop = "8px";
-    newVerbalTestBtn.style.padding = "12px 16px";
-    newVerbalTestBtn.onclick = () => {
-      if (confirm("Starting a new test will replace your saved progress. Are you sure?")) {
-        location.href = "simulator.html?mode=test&subject=verbal";
-      }
-    };
-    startVerbalTestBtn.parentNode.appendChild(newVerbalTestBtn);
-  } else {
-    // check if they've already completed a verbal test
-    const { data: completedVerbal } = await window.supabaseClient
-      .from("test_sessions")
-      .select("id")
-      .eq("user_id", user.id)
-      .eq("test_id", "VerbalT1")
-      .eq("status", "completed")
-      .limit(1)
-      .maybeSingle();
-
-    startVerbalTestBtn.textContent = completedVerbal ? "Retake Verbal Test" : "Start Verbal Test";
-    startVerbalTestBtn.onclick = () => {
-      if (completedVerbal) {
-        if (confirm("You've already completed this test. Starting again will create a new attempt. Continue?")) {
-          location.href = "simulator.html?mode=test&subject=verbal";
-        }
-      } else {
-        location.href = "simulator.html?mode=test&subject=verbal";
-      }
-    };
-  }
-}
 
   const startMathPracticeBtn = document.getElementById("startMathPracticeBtn");
 const startVerbalPracticeBtn = document.getElementById("startVerbalPracticeBtn");
@@ -449,7 +389,7 @@ const { data: savedVerbal } = await window.supabaseClient
 
 if (startVerbalPracticeBtn) {
   startVerbalPracticeBtn.style.display = "";
-  startVerbalPracticeBtn.textContent = savedVerbal ? "Resume Verbal Practice" : "Verbal Practice";
+  startVerbalPracticeBtn.textContent = savedVerbal ? "Resume Reading and Writing Practice" : "Reading and Writing Practice";
   startVerbalPracticeBtn.onclick = () => location.href = savedVerbal
     ? "simulator.html?mode=practice&subject=verbal&resume=1"
     : "simulator.html?mode=practice&subject=verbal";
@@ -495,7 +435,7 @@ if (startOverMathBtn) {
 if (startOverVerbalBtn) {
   startOverVerbalBtn.style.display = "";
   startOverVerbalBtn.onclick = async () => {
-    const confirmed = confirm("Are you sure you want to start over Verbal practice? Your current verbal progress will be reset.");
+    const confirmed = confirm("Are you sure you want to start over Reading and Writing practice? Your current Reading and Writing progress will be reset.");
     if (!confirmed) return;
     const { data } = await window.supabaseClient.auth.getUser();
     const user = data?.user;
@@ -525,17 +465,6 @@ if (startOverVerbalBtn) {
       }
     };
 
-    if (startTestBtn) {
-      startTestBtn.style.display = "";
-      startTestBtn.textContent = "Upgrade to Unlock";
-      startTestBtn.onclick = upgradeHandler;
-    }
-const startVerbalTestBtn = document.getElementById("startVerbalTestBtn");
-if (startVerbalTestBtn) {
-  startVerbalTestBtn.style.display = "";
-  startVerbalTestBtn.textContent = "Upgrade to Unlock";
-  startVerbalTestBtn.onclick = upgradeHandler;
-}
     const startMathPracticeBtn = document.getElementById("startMathPracticeBtn");
     const startVerbalPracticeBtn = document.getElementById("startVerbalPracticeBtn");
 

@@ -356,6 +356,7 @@
         .select("*")
         .eq("user_id", user.id)
         .eq("status", "completed")
+        .not("attempt_id", "is", null)
         .order("created_at", { ascending: false });
 
       document.getElementById("loadingState").style.display = "none";
@@ -365,51 +366,76 @@
         return;
       }
 
+      // Group by attempt_id
+      const attempts = {};
+      sessions.forEach(s => {
+        if (!attempts[s.attempt_id]) attempts[s.attempt_id] = [];
+        attempts[s.attempt_id].push(s);
+      });
+
+      // Sort by most recent session in each attempt
+      const sortedAttempts = Object.entries(attempts).sort((a, b) => {
+        const latestA = Math.max(...a[1].map(s => new Date(s.created_at).getTime()));
+        const latestB = Math.max(...b[1].map(s => new Date(s.created_at).getTime()));
+        return latestB - latestA;
+      });
+
       const list = document.getElementById("sessionList");
       list.style.display = "flex";
 
-      sessions.forEach(session => {
-        const correct = session.correct_count ?? null;
-        const total = session.total_count ?? Object.keys(session.answers || {}).length;
-        const topics = session.topics || "";
-        const dateStr = formatDate(session.created_at);
-        const subject = session.subject || "math";
-        const subjectLabel = subject === "verbal" ? "Verbal" : "Math";
+      sortedAttempts.forEach(([attemptId, attemptSessions], index) => {
+        const testNumber = sortedAttempts.length - index;
+        const latestDate = new Date(Math.max(...attemptSessions.map(s => new Date(s.created_at).getTime())));
+        const dateStr = formatDate(latestDate);
 
-        const scoreHTML = (correct !== null && total)
-          ? `<span class="scorePill ${getScoreClass(correct, total)}">${correct}/${total} correct</span>`
-          : `<span>${total} question${total !== 1 ? "s" : ""}</span>`;
+        const verbalSessions = attemptSessions.filter(s => s.subject === "verbal");
+        const mathSessions = attemptSessions.filter(s => s.subject === "math");
+
+        const verbalCorrect = verbalSessions.reduce((sum, s) => sum + (s.correct_count || 0), 0);
+        const verbalTotal = verbalSessions.reduce((sum, s) => sum + (s.total_count || Object.keys(s.answers || {}).length), 0);
+        const mathCorrect = mathSessions.reduce((sum, s) => sum + (s.correct_count || 0), 0);
+        const mathTotal = mathSessions.reduce((sum, s) => sum + (s.total_count || Object.keys(s.answers || {}).length), 0);
+        const totalCorrect = verbalCorrect + mathCorrect;
+        const totalTotal = verbalTotal + mathTotal;
+
+        const totalScoreHTML = totalTotal
+          ? `<span class="scorePill ${getScoreClass(totalCorrect, totalTotal)}">${totalCorrect}/${totalTotal} correct</span>`
+          : "";
+        const verbalScoreHTML = verbalTotal
+          ? `<span class="scorePill ${getScoreClass(verbalCorrect, verbalTotal)}">R&W: ${verbalCorrect}/${verbalTotal}</span>`
+          : "";
+        const mathScoreHTML = mathTotal
+          ? `<span class="scorePill ${getScoreClass(mathCorrect, mathTotal)}">Math: ${mathCorrect}/${mathTotal}</span>`
+          : "";
 
         const row = document.createElement("div");
         row.className = "sessionRow";
         row.innerHTML = `
           <div class="sessionInfo">
-            <div class="sessionDate">${dateStr}</div>
+            <div class="sessionDate">Practice Test ${testNumber}</div>
             <div class="sessionMeta">
-              <span class="subjectPill">${subjectLabel}</span>
+              <span class="subjectPill">Full SAT</span>
               <span class="dot">·</span>
-              ${scoreHTML}
-              ${topics ? `<span class="dot">·</span><span>${topics}</span>` : ""}
+              <span style="font-size:12px;color:#666;">${dateStr}</span>
+              ${totalScoreHTML ? `<span class="dot">·</span>${totalScoreHTML}` : ""}
             </div>
+            ${(verbalScoreHTML || mathScoreHTML) ? `
+            <div class="sessionMeta" style="margin-top:4px;">
+              ${verbalScoreHTML}
+              ${verbalScoreHTML && mathScoreHTML ? '<span class="dot">·</span>' : ""}
+              ${mathScoreHTML}
+            </div>` : ""}
           </div>
           <div class="sessionActions">
-            <button class="reviewBtn" onclick="reviewTest('${session.id}', 'missed', '${subject}')">
-              Mistakes
-            </button>
-            <button class="reviewBtn" onclick="reviewTest('${session.id}', 'all', '${subject}')">
-              Review All
-            </button>
+            <button class="reviewBtn" onclick="goToSummary('${attemptId}')">Test Summary</button>
           </div>
         `;
         list.appendChild(row);
       });
     }
 
-    function reviewTest(sessionId, mode, subject) {
-      const safeId = encodeURIComponent(sessionId);
-      const safeMode = encodeURIComponent(mode);
-      const safeSubject = encodeURIComponent(subject || "math");
-      window.location.href = `simulator.html?mode=test&review=${safeMode}&sessionId=${safeId}&subject=${safeSubject}`;
+    function goToSummary(attemptId) {
+      window.location.href = `simulator.html?mode=test&attemptId=${encodeURIComponent(attemptId)}`;
     }
   </script>
 
