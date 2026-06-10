@@ -1113,8 +1113,34 @@
   "answerIndex": 3,
   "explanation": "<div class='explanation-step'>For <em>Student Research</em> questions, focus on what the student wants to highlight or accomplish. In this case, the student wants to identify the <em>turning point when aircraft went from being used for reconnaissance to being used as weapons</em>. The correct answer should highlight the specific moment this transition occurred.</div><div class='explanation-step'>Looking at the list of bulleted notes, one stands out: <ul style='margin-top:8px; margin-bottom:8px; padding-left:20px; line-height:1.8;'><li>Airplanes started to be used for more than just reconnaissance, and in 1915, the Germans made a plane that was purposely designed with machine guns to fight air battles to take down enemy planes.</li></ul></div><div class='explanation-step'>This note clearly marks the shift from aircraft being used to gather information to being used as weapons.</div><div class='explanation-step'><strong>A)</strong>describes a successful reconnaissance mission, which shows aircraft being used for information-gathering, not the shift away from it. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>states that by the end of WWI, aircraft were used to bomb ground forces. Although this shows aircraft as weapons, it does not pinpoint the <em>turning point</em> when this change began. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>describes the exact moment when airplanes began to be used as weapons—when the Germans created a plane with machine guns for air battles. This best matches the student’s goal. Keep C.</div><div class='explanation-step'><strong>D)</strong>discusses a law that restricted aircraft use to reconnaissance. This describes an earlier stage before the turning point, so eliminate D.</div><br><br>This means the correct answer is <strong>C</strong>."
 },
+{
+      "id": "V-L2-019",
+      "type": "mcq",
+      "mode": "practice",
+      "subject": "verbal",
+
+      "skill": {
+        "domain": "Information and Ideas",
+"topic": "Command of Evidence",
+"skill": "Textual Evidence"
+      },
+
+      "level": 2,
+      "set": "Verbal Practice",
+      "tags": ["logical transition"],
+
+      "stem": "&ldquo;To the Driving Cloud&rdquo; is an 1866 poem by Henry Wadsworth Longfellow.  In the poem, Longfellow speaks directly to a Native American about the impact of European colonization and the urbanization of the natural landscapes of the chief’s past, writing, <span class='blank'>_______</span>.<br><br>Which quotation from &ldquo;To the Driving Cloud&rdquo; most effectively illustrates the claim?",
+  "choices": [
+    "&ldquo;Gloomy and dark art thou, O chief of the mighty Omahas;/Gloomy and dark as the driving cloud, whose name thou hast taken!&rdquo;",
+    "&ldquo;How canst thou walk these streets, who hast trod the green turf of the prairies!/How canst thou breathe this air, who hast breathed the sweet air of the mountains!&rdquo;",
+    "&ldquo;In autumn the leaves of the maple/Pave the floors of thy palace-halls with gold, and in summer/Pine-trees waft through its chambers the odorous breath of their branches.&rdquo;",
+    "&ldquo;Ha! how the breath of these Saxons and Celts, like the blast of the east-wind,/Drifts evermore to the west the scanty smokes of thy wigwams!&rdquo;"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>For <em>Illustrating Claims</em> questions, where you are asked to find a supporting quotation, the correct answer will directly and completely illustrate the claim made in the question. Here, the claim is that Longfellow’s poem reflects on the <em>urbanization of natural landscapes</em> and its impact on the Native American chief. The correct line should contrast the natural beauty of the past with the man-made urban world of the present.</div><div class='explanation-step'><strong>A)</strong>This line focuses on the chief himself, comparing him to a &ldquo;driving cloud,&rdquo; but it does not mention anything about the changing landscape or urbanization. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>This line contrasts the &ldquo;streets&rdquo; the chief now walks with the &ldquo;green turf of the prairies&rdquo; he once knew, and the of the city with the &ldquo;sweet air of the mountains.&rdquo; These images directly show the loss of nature and the rise of urban settings. Keep B.</div><div class='explanation-step'><strong>C)</strong>This line describes the beauty of nature with &ldquo;the maple leaves,&rdquo; and &ldquo;pine trees,&rdquo; but doesn’t contrast the natural <em>past</em> with the urbanized <em>present</em>. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>This line describes European expansion westward but focuses on colonization, not on the transformation of the landscape itself. Eliminate D.</div><br><br>This means the correct answer is <strong>B</strong>.</div>"
+},
  {
-    "id": "V-L2-019",
+    "id": "V-L2-020",
     "type": "mcq",
     "mode": "practice",
     "subject": "verbal",
@@ -1137,7 +1163,7 @@
     "explanation": "<div class='explanation-step'>For <em>Main Idea</em> questions, the correct answer must capture both the central finding and the overall point of the passage, not just one detail. Before looking at the choices, summarize the passage: researchers found that fungal networks transfer resources and signals between trees, but critics dispute whether this counts as communication.</div><div class='explanation-step'><strong>A)</strong> The passage never distinguishes between benefits to individual trees vs. forest ecosystems — this is not discussed. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This captures both parts of the passage: the finding (resource and signal transfer) and the debate (whether it constitutes communication). Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage does not say communication has been conclusively demonstrated, and the word &ldquo;intentionally&rdquo; is precisely what critics dispute. This overstates the claim. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Critics question the word &ldquo;communication,&rdquo; not whether fungi help trees — this misrepresents their position. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
   },
   {
-    "id": "V-L2-020",
+    "id": "V-L2-021",
     "type": "mcq",
     "mode": "practice",
     "subject": "verbal",
@@ -1160,7 +1186,7 @@
     "explanation": "<div class='explanation-step'>For <em>According to the Text</em> questions, the correct answer will be directly stated in the passage. The passage says cities have begun removing highways &ldquo;citing studies showing that their removal often revitalizes surrounding neighborhoods and reduces rather than increases traffic.&rdquo;</div><div class='explanation-step'><strong>A)</strong> The passage does not mention property values or limit the benefits to wealthy neighborhoods. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This directly paraphrases the passage's explanation. Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage says planners argued highways would reduce congestion — it does not say this was proven wrong or that planners now believe highways never worked. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Federal funding is never mentioned in the passage. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
   },
   {
-    "id": "V-L2-021",
+    "id": "V-L2-022",
     "type": "mcq",
     "mode": "practice",
     "subject": "verbal",
@@ -1199,7 +1225,7 @@
     "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal stated in the question determines the correct answer. The student wants to explain <em>why</em> Webb can observe objects Hubble could not — the answer must identify specific capabilities that give Webb an advantage.</div><div class='explanation-step'><strong>A)</strong> The orbit distance is a fact from the notes, but the passage does not establish that orbiting farther from Earth improves observational capability. This does not explain the advantage. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Combines the two most relevant notes — infrared observation (seeing through dust) and larger mirror (detecting faint objects) — and directly links them to Webb&rsquo;s observational advantage over Hubble. Keep B.</div><div class='explanation-step'><strong>C)</strong> This is a finding, not an explanation of why Webb can see what Hubble cannot. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Newer technology&rdquo; is too vague to explain Webb&rsquo;s specific observational advantages. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
   },
   {
-    "id": "V-L2-022",
+    "id": "V-L2-023",
     "type": "mcq",
     "mode": "practice",
     "subject": "verbal",
@@ -1238,7 +1264,7 @@
     "explanation": "<div class='explanation-step'>For <em>Overall Structure</em> questions, identify what each part of the passage is doing. This passage begins with a detailed sensory description of a natural scene (the entangled bank), then shifts to a reflection on what that scene implies — that all its complexity has been produced by natural laws.</div><div class='explanation-step'><strong>A)</strong> The passage does not present a hypothesis or offer experimental evidence — it observes and reflects. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This accurately describes the two-part structure: vivid description of nature, followed by a philosophical observation about natural laws. Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage does not contrast animals and plants — both are presented as equally complex products of natural laws. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Darwin says the laws are &ldquo;acting around us,&rdquo; suggesting they are observable and known, not undiscovered. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
   },
   {
-    "id": "V-L2-023",
+    "id": "V-L2-024",
     "type": "mcq",
     "mode": "practice",
     "subject": "verbal",
@@ -1620,32 +1646,6 @@
   ],
   "answerIndex": 3,
   "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. Here, the sentence begins with an introductory modifying phrase, so this question tests <strong>Sentence Structure (Modifier Placement and Sentence Clarity).</strong>.</div><div class='explanation-step'>This sentence begins with the introductory modifying clause &ldquo;In addition to being lethal to trees and hard to prevent.&rdquo; It introduces a subject (noun), but doesn't say what that noun is.  When a sentence begins with a modifying phrase, the noun immediately following the comma must logically be the thing that the phrase describes. Here, the noun will answer the question <em>what is lethal to trees and hard to prevent?</em>  The correct answer must begin with the thing that answers this question, &ldquo;the emerald ash insects.&rdquo;</div><div class='explanation-step'><strong>A)</strong>begins with &ldquo;there is an additional hazard with emerald ash insects,&rdquo; but the true subject of the introductory phrase (what is lethal and hard to prevent) comes too late in the sentence, creating a misplaced modifier. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>begins with &ldquo;an additional hazard is present with emerald ash insects,&rdquo; which again fails to make the insects the subject immediately after the comma. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>begins with &ldquo;emerald ash insects’ additional hazard is that,&rdquo; which introduces an unnecessary possessive form that makes the subject <em>hazard</em> instead of <em>insects</em>. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>begins correctly with &ldquo;emerald ash insects,&rdquo; making them the subject that matches the introductory modifier and keeping the sentence clear and logical. This means the correct answer is <strong>D</strong>.</div>."
-},
-{
-      "id": "V-L2-019",
-      "type": "mcq",
-      "mode": "practice",
-      "subject": "verbal",
-
-      "skill": {
-        "domain": "Information and Ideas",
-"topic": "Command of Evidence",
-"skill": "Textual Evidence"
-      },
-
-      "level": 2,
-      "set": "Verbal Practice",
-      "tags": ["logical transition"],
-
-      "stem": "&ldquo;To the Driving Cloud&rdquo; is an 1866 poem by Henry Wadsworth Longfellow.  In the poem, Longfellow speaks directly to a Native American about the impact of European colonization and the urbanization of the natural landscapes of the chief’s past, writing, <span class='blank'>_______</span>.<br><br>Which quotation from &ldquo;To the Driving Cloud&rdquo; most effectively illustrates the claim?",
-  "choices": [
-    "&ldquo;Gloomy and dark art thou, O chief of the mighty Omahas;/Gloomy and dark as the driving cloud, whose name thou hast taken!&rdquo;",
-    "&ldquo;How canst thou walk these streets, who hast trod the green turf of the prairies!/How canst thou breathe this air, who hast breathed the sweet air of the mountains!&rdquo;",
-    "&ldquo;In autumn the leaves of the maple/Pave the floors of thy palace-halls with gold, and in summer/Pine-trees waft through its chambers the odorous breath of their branches.&rdquo;",
-    "&ldquo;Ha! how the breath of these Saxons and Celts, like the blast of the east-wind,/Drifts evermore to the west the scanty smokes of thy wigwams!&rdquo;"
-  ],
-  "answerIndex": 1,
-  "explanation": "<div class='explanation-step'>For <em>Illustrating Claims</em> questions, where you are asked to find a supporting quotation, the correct answer will directly and completely illustrate the claim made in the question. Here, the claim is that Longfellow’s poem reflects on the <em>urbanization of natural landscapes</em> and its impact on the Native American chief. The correct line should contrast the natural beauty of the past with the man-made urban world of the present.</div><div class='explanation-step'><strong>A)</strong>This line focuses on the chief himself, comparing him to a &ldquo;driving cloud,&rdquo; but it does not mention anything about the changing landscape or urbanization. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>This line contrasts the &ldquo;streets&rdquo; the chief now walks with the &ldquo;green turf of the prairies&rdquo; he once knew, and the of the city with the &ldquo;sweet air of the mountains.&rdquo; These images directly show the loss of nature and the rise of urban settings. Keep B.</div><div class='explanation-step'><strong>C)</strong>This line describes the beauty of nature with &ldquo;the maple leaves,&rdquo; and &ldquo;pine trees,&rdquo; but doesn’t contrast the natural <em>past</em> with the urbanized <em>present</em>. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>This line describes European expansion westward but focuses on colonization, not on the transformation of the landscape itself. Eliminate D.</div><br><br>This means the correct answer is <strong>B</strong>.</div>"
 },
 [
   {
