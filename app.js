@@ -17,6 +17,7 @@ let timeLeft = 0;
 let activeTestSessionId = null;
 let currentModuleFile = "MathT1-Mod1.json";
 let currentAttemptId = null;
+let currentTestVersion = "T1";
 let fullSATMode = false;
 let activePracticeSessionId = null;
 let timerInterval;
@@ -749,6 +750,8 @@ const resume = params.get("resume") === "1";
 reviewMode = params.get("review");
 const reviewSessionId = params.get("sessionId");
 const reviewAttemptId = params.get("attemptId");
+const testVersion = params.get("testVersion") || "T1";
+currentTestVersion = testVersion;
 const mode = forcedMode || params.get("mode") || "home";
 const accessAllowed = await guardSimulatorAccess(params);
 if (!accessAllowed) return;
@@ -772,7 +775,18 @@ if (!options.forceFile && reviewAttemptId && !options.resume) {
     answers = combinedAnswers;
     reviewReveal = true;
 
-    const moduleFiles = [...new Set(attemptSessions.map(s => s.module_file).filter(f => f && f !== "completed"))];
+    // Reconstruct all 4 module files — don't rely solely on stored module_file
+    // since Mod1 sessions may not have stored it correctly
+    const storedFiles = attemptSessions.map(s => s.module_file).filter(f => f && f !== "completed");
+    const tv = storedFiles.find(f => f.includes("T2")) ? "T2" : "T1";
+    const verbalMod2File = storedFiles.find(f => f.includes("Verbal") && f.includes("Mod2")) || `Verbal${tv}-Mod2E.json`;
+    const mathMod2File = storedFiles.find(f => f.includes("Math") && f.includes("Mod2")) || `Math${tv}-Mod2E.json`;
+    const moduleFiles = [
+      `Verbal${tv}-Mod1.json`,
+      verbalMod2File,
+      `Math${tv}-Mod1.json`,
+      mathMod2File
+    ];
     const jsons = await Promise.all(moduleFiles.map(f => fetch(f).then(r => r.json())));
     const allQuestions = jsons.flatMap(j => j.questions || []);
 
@@ -830,7 +844,7 @@ const file = options.forceFile
       ? "demo.json"
       : (mode === "practice"
     ? (currentSubject === "verbal" ? "verbal-practice.json" : "practice.json")
-    : (currentSubject === "verbal" ? "VerbalT1-Mod1.json" : "MathT1-Mod1.json")));
+    : (currentSubject === "verbal" ? `Verbal${testVersion}-Mod1.json` : `Math${testVersion}-Mod1.json`)));
 
 console.log("Mode:", mode, "File:", file);
 currentModuleFile = file;
@@ -931,8 +945,8 @@ if (!isPracticeMode && reviewMode && reviewSessionId) {
     reviewReveal = true;
 
     const sessionSubject = reviewSession.subject || currentSubject || "math";
-    const mod1File = sessionSubject === "verbal" ? "VerbalT1-Mod1.json" : "MathT1-Mod1.json";
-    const mod2File = sessionSubject === "verbal" ? "VerbalT1-Mod2E.json" : "MathT1-Mod2E.json";
+    const mod1File = sessionSubject === "verbal" ? `Verbal${testVersion}-Mod1.json` : `Math${testVersion}-Mod1.json`;
+    const mod2File = sessionSubject === "verbal" ? `Verbal${testVersion}-Mod2E.json` : `Math${testVersion}-Mod2E.json`;
 
     const [mod1Res, mod2Res] = await Promise.all([fetch(mod1File), fetch(mod2File)]);
     const [mod1Json, mod2Json] = await Promise.all([mod1Res.json(), mod2Res.json()]);
@@ -2529,7 +2543,7 @@ if (fullSATMode && currentSubject === "verbal" && (data?.moduleId || "").trim().
   currentMode = "test";
 
   setAppView("session");
-  loadData("test", { forceFile: "MathT1-Mod1.json" });
+  loadData("test", { forceFile: `Math${currentTestVersion}-Mod1.json` });
   return;
 }
 // combine all questions and answers (verbal + math in full SAT mode)
@@ -3025,7 +3039,7 @@ async function saveAndExitTest() {
 console.log("saving module_file:", currentModuleFile, "subject:", currentSubject);
   const sessionPayload = {
     user_id: user.id,
-    test_id: currentSubject === "verbal" ? "VerbalT1" : "MathT1",
+    test_id: currentSubject === "verbal" ? `Verbal${currentTestVersion}` : `Math${currentTestVersion}`,
     module: data?.moduleId?.includes("Mod2") ? 2 : 1,
     module_file: currentModuleFile,
     attempt_id: currentAttemptId,
@@ -3172,7 +3186,7 @@ async function resumeSavedTest() {
           verbalSessions.forEach(s => Object.assign(verbalAnswers, s.answers || {}));
           window.__verbalAnswers = verbalAnswers;
 
-          const verbalMod1File = (verbalSessions[0] || {}).module_file || "VerbalT1-Mod1.json";
+          const verbalMod1File = (verbalSessions[0] || {}).module_file || `Verbal${currentTestVersion}-Mod1.json`;
           const verbalMod2File = (verbalSessions[1] || {}).module_file || null;
           const fetches = [fetch(verbalMod1File).then(r => r.json())];
           if (verbalMod2File) fetches.push(fetch(verbalMod2File).then(r => r.json()));
@@ -3183,7 +3197,7 @@ async function resumeSavedTest() {
         // Resuming into mod2 of any subject — restore mod1 answers
         if (mathMod1Session && saved.subject === "math") {
           window.__testModule1Answers = mathMod1Session.answers || {};
-          const mathMod1Json = await fetch(mathMod1Session.module_file || "MathT1-Mod1.json").then(r => r.json());
+          const mathMod1Json = await fetch(mathMod1Session.module_file || `Math${currentTestVersion}-Mod1.json`).then(r => r.json());
           window.__testModule1Questions = mathMod1Json.questions || [];
         }
 
@@ -3192,7 +3206,7 @@ async function resumeSavedTest() {
           const verbalMod1Session = priorSessions.find(s => s.subject === "verbal" && (s.module_file || "").includes("Mod1"));
           if (verbalMod1Session) {
             window.__testModule1Answers = verbalMod1Session.answers || {};
-            const verbalMod1Json = await fetch(verbalMod1Session.module_file || "VerbalT1-Mod1.json").then(r => r.json());
+            const verbalMod1Json = await fetch(verbalMod1Session.module_file || `Verbal${currentTestVersion}-Mod1.json`).then(r => r.json());
             window.__testModule1Questions = verbalMod1Json.questions || [];
           }
         }
@@ -3266,10 +3280,9 @@ function getModule2FileFromModule1() {
   const ratio = total ? correct / total : 0;
 
   if (currentSubject === "verbal") {
-    return ratio >= 0.7 ? "VerbalT1-Mod2H.json" : "VerbalT1-Mod2E.json";
+    return ratio >= 0.7 ? `Verbal${currentTestVersion}-Mod2H.json` : `Verbal${currentTestVersion}-Mod2E.json`;
   }
-  return ratio >= 0.7 ? "MathT1-Mod2H.json" : "MathT1-Mod2E.json";
-}
+  return ratio >= 0.7 ? `Math${currentTestVersion}-Mod2H.json` : `Math${currentTestVersion}-Mod2E.json`;}
 
 async function loadNextModule(file) {
   const user = await getCurrentSupabaseUser();
@@ -3295,7 +3308,7 @@ async function loadNextModule(file) {
 
   const nextSessionPayload = {
     user_id: user.id,
-    test_id: currentSubject === "verbal" ? "VerbalT1" : "MathT1",
+    test_id: currentSubject === "verbal" ? `Verbal${currentTestVersion}` : `Math${currentTestVersion}`,
     module: 2,
     module_file: file,
     attempt_id: currentAttemptId,

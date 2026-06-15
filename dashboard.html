@@ -192,10 +192,17 @@ Full SAT practice and tests are locked. Upgrade to unlock full access, or contin
 
 <div class="dashboardGrid">
   <div class="appCard">
-    <h2 class="cardTitle">Full SAT Practice Test</h2>
+    <h2 class="cardTitle">Full-Length Practice Tests</h2>
     <p class="cardText">Take a complete timed SAT with adaptive routing.</p>
-    <div class="appActionRow" style="flex-direction:column; gap:8px;">
-      <button id="startFullSATBtn" class="primaryBtn" type="button">Start Full SAT</button>
+    <div id="fullSATTestList" style="display:flex; flex-direction:column; gap:10px; margin-top:4px;">
+      <div style="display:flex; justify-content:space-between; align-items:center;">
+        <span style="font-weight:600; font-size:15px;">Practice Test 1</span>
+        <button id="startT1Btn" class="primaryBtn" type="button" style="padding:8px 16px; font-size:14px;">Start</button>
+      </div>
+      <div style="border-top:1px solid #f0f0f0; padding-top:10px; display:flex; justify-content:space-between; align-items:center;">
+        <span style="font-weight:600; font-size:15px;">Practice Test 2</span>
+        <button id="startT2Btn" class="primaryBtn" type="button" style="padding:8px 16px; font-size:14px;">Start</button>
+      </div>
     </div>
   </div>
       <div class="appCard">
@@ -300,59 +307,70 @@ console.log("Dashboard access status:", accessStatus);
     dashboardPracticeLink.style.display = "";
   }
 
-  const startFullSATBtn = document.getElementById("startFullSATBtn");
-  if (startFullSATBtn) {
-    const { data: savedFullSAT } = await window.supabaseClient
+  async function setupTestButton(btnId, testVersion) {
+    const btn = document.getElementById(btnId);
+    if (!btn) return;
+
+    const { data: inProgress } = await window.supabaseClient
       .from("test_sessions")
       .select("*")
       .eq("user_id", user.id)
       .eq("status", "in_progress")
       .not("attempt_id", "is", null)
+      .ilike("test_id", `%${testVersion}%`)
       .order("created_at", { ascending: false })
       .limit(1)
       .maybeSingle();
 
-    if (savedFullSAT) {
-      startFullSATBtn.textContent = "Resume Full SAT";
-      startFullSATBtn.onclick = () => location.href = "simulator.html?mode=test&resume=1&subject=full";
+    if (inProgress) {
+      btn.textContent = "Resume";
+      btn.className = "secondaryBtn";
+      btn.style.padding = "8px 16px";
+      btn.style.fontSize = "14px";
+      btn.onclick = () => location.href = `simulator.html?mode=test&resume=1&subject=full&testVersion=${testVersion}`;
+      return;
+    }
 
-      const newFullSATBtn = document.createElement("button");
-      newFullSATBtn.className = "secondaryBtn";
-      newFullSATBtn.textContent = "Start New Full SAT";
-      newFullSATBtn.style.marginTop = "8px";
-      newFullSATBtn.style.padding = "12px 16px";
-      newFullSATBtn.onclick = () => {
-        if (confirm("Starting a new test will replace your saved progress. Are you sure?")) {
-          location.href = "simulator.html?mode=test&subject=full";
+    const { data: completed } = await window.supabaseClient
+      .from("test_sessions")
+      .select("attempt_id")
+      .eq("user_id", user.id)
+      .eq("status", "completed")
+      .not("attempt_id", "is", null)
+      .ilike("test_id", `%${testVersion}%`)
+      .order("created_at", { ascending: false })
+      .limit(1)
+      .maybeSingle();
+
+    if (completed) {
+      // Show Review + Retake buttons
+      btn.textContent = "Review";
+      btn.className = "secondaryBtn";
+      btn.style.padding = "8px 16px";
+      btn.style.fontSize = "14px";
+      btn.onclick = () => location.href = `simulator.html?mode=test&attemptId=${completed.attempt_id}`;
+
+      const retakeBtn = document.createElement("button");
+      retakeBtn.textContent = "Retake";
+      retakeBtn.className = "primaryBtn";
+      retakeBtn.style.padding = "8px 16px";
+      retakeBtn.style.fontSize = "14px";
+      retakeBtn.onclick = () => {
+        if (confirm("Starting a new attempt will not delete your previous results — they'll still appear in Test History. Ready to retake?")) {
+          location.href = `simulator.html?mode=test&subject=full&testVersion=${testVersion}`;
         }
       };
-      startFullSATBtn.parentNode.appendChild(newFullSATBtn);
+      btn.parentNode.appendChild(retakeBtn);
     } else {
-      startFullSATBtn.textContent = "Start Full SAT";
-      startFullSATBtn.onclick = () => location.href = "simulator.html?mode=test&subject=full";
-
-      // Check for a completed full SAT to show Review Last Test
-      const { data: completedFullSAT } = await window.supabaseClient
-        .from("test_sessions")
-        .select("attempt_id")
-        .eq("user_id", user.id)
-        .eq("status", "completed")
-        .not("attempt_id", "is", null)
-        .order("created_at", { ascending: false })
-        .limit(1)
-        .maybeSingle();
-
-      if (completedFullSAT) {
-        const reviewBtn = document.createElement("button");
-        reviewBtn.className = "secondaryBtn";
-        reviewBtn.textContent = "Review Last Test";
-        reviewBtn.style.marginTop = "8px";
-        reviewBtn.style.padding = "12px 16px";
-        reviewBtn.onclick = () => location.href = `simulator.html?mode=test&review=all&attemptId=${completedFullSAT.attempt_id}`;
-        startFullSATBtn.parentNode.appendChild(reviewBtn);
-      }
+      btn.textContent = "Start";
+      btn.style.padding = "8px 16px";
+      btn.style.fontSize = "14px";
+      btn.onclick = () => location.href = `simulator.html?mode=test&subject=full&testVersion=${testVersion}`;
     }
   }
+
+  setupTestButton("startT1Btn", "T1");
+  setupTestButton("startT2Btn", "T2");
 
   const startMathPracticeBtn = document.getElementById("startMathPracticeBtn");
 const startVerbalPracticeBtn = document.getElementById("startVerbalPracticeBtn");

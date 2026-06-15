@@ -1,0 +1,708 @@
+{
+  "moduleId": "VerbalT2_Mod2E",
+  "subject": "verbal",
+  "timeSeconds": 1920,
+  "title": "SAT Reading and Writing — Module 2",
+  "questions": [
+    {
+      "id": "VerbalT2-2E-001",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Craft and Structure",
+        "topic": "Words in Context",
+        "skill": "Vocabulary in Context"
+      },
+      "stemSegments": [
+        {
+          "text": "The following text is from Mary Wollstonecraft's <em>A Vindication of the Rights of Woman</em>, published in 1792.",
+          "align": "left",
+          "style": "default"
+        },
+        {
+          "text": "I wish to persuade women to endeavour to acquire strength, both of mind and body, and to convince them that the soft phrases, susceptibility of heart, delicacy of sentiment, and refinement of taste, are almost synonymous with epithets of weakness. <u>Dismissing</u>, then, those pretty feminine phrases, which the men condescendingly use to soften our slavish dependence, I wish to show that elegance is inferior to virtue.",
+          "align": "left",
+          "style": "passage"
+        },
+        {
+          "text": "As used in the text, \"Dismissing\" most nearly means",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+      "choices": [
+        "Setting aside",
+        "Criticizing harshly",
+        "Misunderstanding",
+        "Celebrating"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, determine what the word is doing in the sentence. Wollstonecraft is moving past the \"pretty feminine phrases\" — she is not stopping to attack them but putting them aside to make her main argument.</div><div class='explanation-step'><strong>A)</strong> \"Setting aside\" means putting something to one side in order to proceed — exactly what Wollstonecraft does with these phrases before making her argument. Keep A.</div><div class='explanation-step'><strong>B)</strong> \"Criticizing harshly\" implies a sustained attack. Wollstonecraft mentions the phrases briefly and moves on — she is not dwelling on criticism. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"Misunderstanding\" implies confusion, which is the opposite of Wollstonecraft's precise, deliberate rejection. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Celebrating\" is the opposite of her attitude toward these phrases. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-002",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Craft and Structure",
+        "topic": "Words in Context",
+        "skill": "Vocabulary in Context"
+      },
+      "stemSegments": [
+        {
+          "text": "The following text is from Booker T. Washington's <em>Up from Slavery</em>, published in 1901.",
+          "align": "left",
+          "style": "default"
+        },
+        {
+          "text": "There is a certain class of race-problem solvers who do not want the patient to get well, because as long as the disease holds out they have not only an easy means of making a living, but also an easy medium through which to make themselves <u>prominent</u>.",
+          "align": "left",
+          "style": "passage"
+        },
+        {
+          "text": "As used in the text, \"prominent\" most nearly means",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+      "choices": [
+        "wealthy",
+        "well-known",
+        "powerful",
+        "respected"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use the surrounding sentence to determine the word's meaning. Washington describes people who use a public problem as a vehicle for self-promotion — they want others to know who they are.</div><div class='explanation-step'><strong>A)</strong> \"Wealthy\" refers to financial gain — while Washington mentions \"making a living,\" \"prominent\" is listed as a separate benefit distinct from income. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Well-known\" means visible and recognized — precisely what someone gains by being associated with a high-profile cause. Keep B.</div><div class='explanation-step'><strong>C)</strong> \"Powerful\" implies political or institutional authority, which Washington does not suggest is the goal here. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Respected\" implies earned admiration — but Washington is criticizing these people, suggesting their prominence is self-serving rather than deserved. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-003",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Craft and Structure",
+        "topic": "Words in Context",
+        "skill": "Vocabulary in Context"
+      },
+      "stemSegments": [
+        {
+          "text": "The following text is from Bertrand Russell's <em>The Problems of Philosophy</em>, published in 1912.",
+          "align": "left",
+          "style": "default"
+        },
+        {
+          "text": "The man who has no tincture of philosophy goes through life imprisoned in the prejudices derived from common sense, from the habitual beliefs of his age or his nation, and from convictions which have grown up in his mind without the co-operation or consent of his deliberate reason. To such a man the world tends to become <u>definite</u>, finite, obvious; common objects rouse no questions, and unfamiliar possibilities are contemptuously rejected.",
+          "align": "left",
+          "style": "passage"
+        },
+        {
+          "text": "As used in the text, \"definite\" most nearly means",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+      "choices": [
+        "clear and easy to understand",
+        "fixed and closed to questioning",
+        "accurate and well-established",
+        "limited in scope"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 2, the most familiar meaning of the word is often the trap. \"Definite\" commonly means clear or certain — but Russell's context gives it a different emphasis.</div><div class='explanation-step'>Russell pairs \"definite\" with \"finite\" and \"obvious\" and says such a person rejects \"unfamiliar possibilities\" — the word here describes a world that is settled, closed off, and not open to questioning.</div><div class='explanation-step'><strong>A)</strong> \"Clear and easy to understand\" is the common meaning of \"definite\" — but Russell is not praising clarity; he is criticizing a closed-minded worldview. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Fixed and closed to questioning\" captures what Russell means — the world stops being a source of wonder and becomes a settled, unchallengeable given. Keep B.</div><div class='explanation-step'><strong>C)</strong> \"Accurate and well-established\" implies correctness, which Russell does not suggest — the person without philosophy is not necessarily right, just unquestioning. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Limited in scope\" is related but misses the key idea of being closed to questioning. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-004",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Craft and Structure",
+        "topic": "Words in Context",
+        "skill": "Vocabulary in Context"
+      },
+      "stemSegments": [
+        {
+          "text": "The following text is from Charlotte Bront&euml;&rsquo;s <em>Jane Eyre</em>, published in 1847.",
+          "align": "left",
+          "style": "default"
+        },
+        {
+          "text": "It is in vain to say human beings ought to be satisfied with tranquility: they must have action; and they will make it if they cannot find it. Nobody knows how many rebellions besides political rebellions <u>ferment</u> in the masses of life which people earth.",
+          "align": "left",
+          "style": "passage"
+        },
+        {
+          "text": "As used in the text, \"ferment\" most nearly means",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+      "choices": [
+        "erupt violently",
+        "develop quietly beneath the surface",
+        "are suppressed by authority",
+        "spread rapidly"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 2, think about what the word is doing in the sentence. Bront&euml; speaks of rebellions that \"nobody knows\" about — they are hidden, brewing, not yet visible.</div><div class='explanation-step'><strong>A)</strong> \"Erupt violently\" suggests these rebellions have already broken out — but Bront&euml; says nobody knows about them, implying they are still internal and undetected. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Develop quietly beneath the surface\" captures the brewing, hidden nature of these undetected rebellions. Keep B.</div><div class='explanation-step'><strong>C)</strong> \"Are suppressed by authority\" introduces an outside force not mentioned in the passage. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Spread rapidly\" implies outward movement — but the rebellions are described as unknown, internal, not spreading. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-005",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Craft and Structure",
+        "topic": "Text Structure and Purpose",
+        "skill": "Main Purpose"
+      },
+      "stem": "The human body operates on a roughly 24-hour internal clock known as the circadian rhythm, which regulates sleep-wake cycles, hormone release, body temperature, and other physiological processes. This biological clock is primarily synchronized by exposure to light, particularly sunlight. When people travel across time zones or work night shifts, their circadian rhythms are disrupted, a condition associated with increased risk of sleep disorders, metabolic problems, and cardiovascular disease. Researchers are now investigating chronotherapy — timing medical treatments to align with the body's natural rhythms — as a way to improve treatment outcomes.<br><br>What is the main purpose of the text?",
+      "choices": [
+        "To argue that night shift workers should receive compensation for health risks",
+        "To describe the circadian rhythm and explain its significance for health and medicine",
+        "To compare the circadian rhythms of people in different time zones",
+        "To explain how chronotherapy was developed as a medical treatment"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Main Purpose</em> questions, the correct answer must cover the full scope of the passage. Before looking at choices, summarize: the passage explains what circadian rhythms are, what disrupts them, the health consequences, and their emerging medical application.</div><div class='explanation-step'><strong>A)</strong> The passage mentions health risks but makes no argument about compensation. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Covers the full arc: what circadian rhythms are, why they matter for health, and their medical significance. Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage mentions time zones as one disruptor but does not compare rhythms across zones. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Chronotherapy is mentioned only in the final sentence as an emerging area — it is not the main topic. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-006",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Information and Ideas",
+        "topic": "Command of Evidence",
+        "skill": "Textual Evidence"
+      },
+      "stem": "When Johannes Gutenberg introduced movable type printing to Europe around 1440, the production of books was transformed from a slow, manual process requiring months of labor by skilled scribes into one that could produce hundreds of identical copies in days. The new technology allowed ideas to spread rapidly across geographic and linguistic boundaries. Within decades, printed texts had contributed to the spread of the Protestant Reformation, the Scientific Revolution, and new forms of vernacular literature that challenged Latin's dominance as the language of scholarship.<br><br>According to the text, what was one effect of Gutenberg's printing press?",
+      "choices": [
+        "It replaced Latin with vernacular languages as the primary language of scholarship.",
+        "It enabled ideas to spread more rapidly across geographic and linguistic boundaries.",
+        "It made skilled scribes obsolete within a generation of its introduction.",
+        "It was primarily responsible for the success of the Protestant Reformation."
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>According to the Text</em> questions, the correct answer is directly stated in the passage without distortion or overstatement.</div><div class='explanation-step'><strong>A)</strong> The passage says printed texts \"challenged\" Latin's dominance — not that they replaced it. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Directly stated: \"The new technology allowed ideas to spread rapidly across geographic and linguistic boundaries.\" Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage does not say scribes became obsolete — it describes the change in production speed. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The passage says printing \"contributed to\" the Reformation — not that it was primarily responsible. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-007",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Information and Ideas",
+        "topic": "Central Ideas and Details",
+        "skill": "Logical Completion"
+      },
+      "stem": "Social psychologists have documented a counterintuitive phenomenon called the bystander effect: people are less likely to offer help in an emergency when other bystanders are present than when they are alone. In a series of experiments, researchers found that as the number of bystanders increased, the probability that any individual would intervene decreased. The researchers attributed this to diffusion of responsibility — each bystander assumes that someone else will act. The bystander effect has been replicated across cultures and contexts, suggesting that _______.",
+      "choices": [
+        "people are more likely to help in emergencies when they receive prior training in first aid",
+        "the tendency to defer to others in emergencies is a deeply ingrained aspect of human social behavior",
+        "small groups are less capable of responding to emergencies than individuals acting alone",
+        "the bystander effect is more pronounced in urban environments than in rural ones"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions, the blank must follow directly from the passage's final claim. \"Replicated across cultures and contexts\" means the finding holds broadly — regardless of setting or background. The completion must reflect what this universality implies.</div><div class='explanation-step'><strong>A)</strong> First aid training is not mentioned and does not follow from the finding about cross-cultural replication. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> If the effect holds across all cultures and contexts, it suggests this tendency is a fundamental, deeply ingrained feature of human social behavior — not a cultural quirk. Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage describes individual inaction, not group incapacity. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The passage does not compare urban and rural settings. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-008",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Information and Ideas",
+        "topic": "Central Ideas and Details",
+        "skill": "Main Idea"
+      },
+      "stem": "Coral reefs cover less than one percent of the ocean floor yet support roughly a quarter of all marine species. Rising ocean temperatures, primarily driven by climate change, cause corals to expel the symbiotic algae living in their tissues, turning them white — a process known as bleaching. While bleached corals are not immediately dead, prolonged bleaching prevents the algae from returning, causing the coral to starve. Mass bleaching events have become more frequent and severe, with the Great Barrier Reef experiencing its first recorded mass bleaching in 1998 and several since.<br><br>Which choice best states the main idea of the text?",
+      "choices": [
+        "Coral reefs are the most biodiverse ecosystems found in the world's oceans.",
+        "Rising ocean temperatures caused by climate change are increasingly threatening coral reefs through bleaching.",
+        "The Great Barrier Reef has experienced more bleaching events than any other reef system in the world.",
+        "Bleached corals always die within weeks of losing their symbiotic algae."
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Main Idea</em> questions, the correct answer must cover the full scope of the passage. Summarize before looking at choices: coral reefs are ecologically important, climate change causes bleaching, bleaching threatens coral survival, and this is worsening.</div><div class='explanation-step'><strong>A)</strong> Coral reefs' biodiversity is mentioned as context in the first sentence, not the main topic. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Captures the main arc: climate change → rising temperatures → bleaching → increasing threat to reefs. Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage mentions the Great Barrier Reef as one example; it does not compare it to other reefs. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The passage says bleached corals are \"not immediately dead\" — this directly contradicts \"always die within weeks.\" Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-009",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Craft and Structure",
+        "topic": "Text Structure and Purpose",
+        "skill": "Overall Structure"
+      },
+      "stem": "Historians long celebrated Christopher Columbus's voyages as opening trade routes between Europe and the Americas. Beginning in the late twentieth century, however, scholars began to complicate this narrative by examining what historian Alfred Crosby termed the \"Columbian Exchange\" — the transfer of plants, animals, diseases, and peoples between hemispheres. While the exchange brought transformative crops like potatoes and maize to Europe and contributed to population growth, it also carried smallpox, measles, and other diseases to the Americas, where indigenous populations had no immunity. These epidemics killed tens of millions of people and facilitated European conquest in ways that military force alone could not have achieved.<br><br>Which choice best describes the overall structure of the text?",
+      "choices": [
+        "It presents a historical discovery and then explains the methodology historians used to make it.",
+        "It describes how historians' understanding of Columbus's voyages expanded to include both transformative benefits and catastrophic costs.",
+        "It argues that the negative effects of the Columbian Exchange outweighed its positive contributions.",
+        "It compares European and indigenous American perspectives on the Columbian Exchange."
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Overall Structure</em> questions, identify what each part of the passage does. The first sentence describes the old historical view (celebrated trade routes). The second shifts to newer scholarship that complicates this. The third and fourth present both benefits and catastrophic costs.</div><div class='explanation-step'><strong>A)</strong> The passage does not describe historians' methodology — it describes how the narrative expanded. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Captures the two-part structure: old view (celebrated) → new, more complex view (benefits and catastrophic costs). Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage presents both sides without arguing that one outweighed the other. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The passage does not present indigenous perspectives — it describes the historical and demographic impact from an analytical standpoint. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-010",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Information and Ideas",
+        "topic": "Command of Evidence",
+        "skill": "Textual Evidence"
+      },
+      "stem": "Neurologist Dr. Priya Nair argues that familiar music activates memory networks in patients with Alzheimer's disease that remain relatively intact even in advanced stages of the condition, and that musical interventions can temporarily improve recall and emotional wellbeing in ways that verbal communication alone cannot achieve.<br><br>Which finding, if true, would most directly support Dr. Nair's claim?",
+      "choices": [
+        "Patients with Alzheimer's disease who receive music therapy report higher levels of life satisfaction than those who do not.",
+        "Alzheimer's patients who cannot recall family members' names are nonetheless able to sing along to songs from their youth and show improved mood and verbal responsiveness afterward.",
+        "Music therapy has been shown to reduce anxiety in a wide range of neurological conditions beyond Alzheimer's disease.",
+        "The brain regions associated with musical memory are located in the temporal lobe, which also processes language."
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Supporting a Claim</em> questions, identify the precise claim. Dr. Nair argues (1) musical memory networks remain intact in advanced Alzheimer's, and (2) musical interventions can improve recall and wellbeing beyond what verbal communication achieves. The correct answer must support both elements.</div><div class='explanation-step'><strong>A)</strong> Life satisfaction addresses wellbeing but not the specific claim about intact musical memory or improved recall. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Shows that musical memory is intact (singing along despite forgetting names) AND that it produces improved recall and mood — directly supporting both parts of Dr. Nair's claim. Keep B.</div><div class='explanation-step'><strong>C)</strong> Broadening to other neurological conditions doesn't specifically support the claim about Alzheimer's or about musical vs verbal communication. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> This is anatomical background information, not evidence of the clinical effect Dr. Nair describes. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-011",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Craft and Structure",
+        "topic": "Text Structure and Purpose",
+        "skill": "Function of a Sentence"
+      },
+      "stemSegments": [
+        {
+          "text": "The following text is from John Stuart Mill's <em>On Liberty</em>, published in 1859.",
+          "align": "left",
+          "style": "default"
+        },
+        {
+          "text": "The object of this Essay is to assert one very simple principle, as entitled to govern absolutely the dealings of society with the individual in the way of compulsion and control. <u>That principle is, that the sole end for which mankind are warranted in interfering with the liberty of action of any of their number, is self-protection.</u>",
+          "align": "left",
+          "style": "passage"
+        },
+        {
+          "text": "Which choice best describes the function of the underlined sentence in the text?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+      "choices": [
+        "It introduces a counterexample that qualifies the principle stated in the preceding sentence.",
+        "It states the precise content of the principle the essay aims to establish.",
+        "It provides historical context for the development of liberal political philosophy.",
+        "It contrasts individual liberty with the collective interests of society."
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Function of a Sentence</em> questions, read the preceding sentence to understand what the underlined sentence does in relation to it. The first sentence announces that the essay will assert \"one very simple principle.\" The underlined sentence delivers exactly that principle.</div><div class='explanation-step'><strong>A)</strong> The sentence does not introduce a counterexample — it states the principle directly. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The first sentence announces a principle; the underlined sentence states its precise content. Keep B.</div><div class='explanation-step'><strong>C)</strong> No historical context is provided — the sentence is purely definitional. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The sentence defines when interference is warranted; it does not draw a contrast between individual and collective interests. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-012",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Information and Ideas",
+        "topic": "Command of Evidence",
+        "skill": "Textual Evidence"
+      },
+      "stem": "Environmental scientist Dr. Lucas Ferreira argues that microplastics — tiny plastic particles less than five millimeters in size — pose a significant and direct threat to human health, and that the concentrations currently found in food, water, and air are sufficient to cause measurable physiological harm in adults.<br><br>Which finding, if true, would most directly undermine Dr. Ferreira's claim?",
+      "choices": [
+        "Microplastics have been detected in human blood, lung tissue, and breast milk.",
+        "Studies exposing human cells to microplastics in laboratory settings have found cellular damage only at concentrations far higher than those typically encountered in daily life.",
+        "The production of single-use plastics has increased by 300% since the 1990s.",
+        "Microplastics break down into nanoplastics over time, which may penetrate human tissue more easily."
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Weakening a Claim</em> questions, identify the precise claim. Dr. Ferreira argues that current concentrations of microplastics are sufficient to cause measurable harm. To undermine this, the correct answer must show that current concentrations are NOT sufficient to cause harm.</div><div class='explanation-step'><strong>A)</strong> Detecting microplastics in the body supports the idea that exposure occurs — this actually supports Dr. Ferreira's concern. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> If harm only occurs at concentrations far higher than real-world exposure, then current concentrations are not sufficient — directly undermining Dr. Ferreira's specific claim. Keep B.</div><div class='explanation-step'><strong>C)</strong> Increased plastic production addresses supply, not whether current concentrations cause harm. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Nanoplastics being more penetrating would extend rather than undermine concern about plastic harm. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-013",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Information and Ideas",
+        "topic": "Command of Evidence",
+        "skill": "Textual Evidence"
+      },
+      "stemSegments": [
+        {
+          "text": "In her poetry, Emily Dickinson frequently portrays death not as a terrifying end but as a calm, almost companionable presence, writing <span class='blank'>_______</span>.",
+          "align": "left",
+          "style": "passage"
+        },
+        {
+          "text": "Which quotation from Dickinson's poetry most effectively illustrates the claim?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+      "choices": [
+        "&ldquo;Because I could not stop for Death &mdash; / He kindly stopped for me &mdash; / The Carriage held but just Ourselves &mdash; / And Immortality.&rdquo;",
+        "&ldquo;I heard a Fly buzz &mdash; when I died &mdash; / The Stillness in the Room / Was like the Stillness in the Air &mdash; / Between the Heaves of Storm &mdash;&rdquo;",
+        "&ldquo;The Bustle in a House / The Morning after Death / Is solemnest of industries / Enacted upon Earth &mdash;&rdquo;",
+        "&ldquo;After great pain, a formal feeling comes &mdash; / The Nerves sit ceremonious, like Tombs &mdash;&rdquo;"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>Illustrating Claims with Quotations</em> questions, the correct quotation must illustrate the specific claim precisely. The claim is that Dickinson portrays death as a <em>calm, companionable presence</em> — not terrifying.</div><div class='explanation-step'><strong>A)</strong> Death \"kindly\" stops for the speaker; they ride together in a carriage with Immortality — death as a gentle companion, exactly as the claim describes. Keep A.</div><div class='explanation-step'><strong>B)</strong> The fly buzzing and the storm imagery suggest strangeness and unease — not a calm, companionable presence. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This poem describes the activity of survivors after a death, not death itself as a companion. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> This poem is about emotional numbness after great pain — not about death as a presence. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-014",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
+      },
+      "stem": "The deep sea exploration team made a remarkable discovery: the ocean <span class='blank'>_______</span> floor contained hydrothermal vents teeming with previously unknown species of tube worms and crustaceans.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "ocean's",
+        "oceans'",
+        "oceans",
+        "oceans's"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>This question tests <strong>Apostrophe and Possession</strong>. The floor belongs to the ocean — a singular noun. To show singular possession, add an apostrophe followed by s.</div><div class='explanation-step'><strong>A)</strong> \"Ocean's\" is the correct singular possessive. Keep A.</div><div class='explanation-step'><strong>B)</strong> \"Oceans'\" is plural possessive — would mean the floor belongs to multiple oceans. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"Oceans\" is simply plural with no possessive — does not show ownership. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Oceans's\" is not a standard English form. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-015",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
+      },
+      "stem": "The history of vaccination includes milestones such as Edward Jenner's development of the smallpox vaccine, Louis Pasteur's creation of the rabies vaccine, and <span class='blank'>_______</span> polio vaccine in the 1950s.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "Jonas Salk developed the",
+        "Jonas Salk's development of the",
+        "the development of Jonas Salk's",
+        "when Jonas Salk developed the"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>This question tests <strong>Parallel Structure</strong>. The sentence lists three items after \"such as\": \"Edward Jenner's development of...,\" \"Louis Pasteur's creation of...,\" and a third item. All three must follow the same grammatical pattern: possessive noun + noun + \"of the\" + item.</div><div class='explanation-step'><strong>A)</strong> \"Jonas Salk developed the\" introduces a full clause, which breaks the parallel structure of the noun phrase list. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Jonas Salk's development of the\" matches the pattern of the other two items. Keep B.</div><div class='explanation-step'><strong>C)</strong> \"The development of Jonas Salk's\" reverses the possessive structure and breaks parallel form. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"When Jonas Salk developed the\" introduces a subordinate clause, breaking parallel structure. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-016",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
+      },
+      "stem": "Urban light pollution has made <span class='blank'>_______</span> certain constellations increasingly difficult for amateur astronomers living near cities.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "observe",
+        "to observe",
+        "observing",
+        "observed"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>This question tests <strong>Gerund vs Infinitive</strong> after \"make.\" The structure \"make [something] [adjective]\" requires a gerund (verb + -ing) as the object of \"made.\" The sentence structure is: \"has made [observing certain constellations] [increasingly difficult].\"</div><div class='explanation-step'><strong>A)</strong> \"Observe\" is a bare infinitive — not standard after \"made\" in this construction. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"To observe\" is an infinitive — while sometimes used after \"make,\" it creates awkward phrasing here: \"has made to observe certain constellations difficult.\" Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"Observing\" is a gerund — creates a natural noun phrase: \"has made observing certain constellations increasingly difficult.\" Keep C.</div><div class='explanation-step'><strong>D)</strong> \"Observed\" is past tense — makes no grammatical sense in this construction. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-017",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
+      },
+      "stem": "Rosalind Franklin, <span class='blank'>_______</span> X-ray crystallography work was crucial to determining the structure of DNA, received little public recognition during her lifetime.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "who's",
+        "whose",
+        "which",
+        "that"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>This question tests <strong>Relative Pronouns</strong>. The blank introduces a relative clause modifying Rosalind Franklin — a person. The clause describes something belonging to her (her X-ray crystallography work), so a possessive relative pronoun is needed.</div><div class='explanation-step'><strong>A)</strong> \"Who's\" is a contraction meaning \"who is\" — reading it in: \"Rosalind Franklin, who is X-ray crystallography work...\" — makes no sense. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Whose\" is the possessive relative pronoun for people — \"whose X-ray crystallography work\" correctly indicates the work belongs to Franklin. Keep B.</div><div class='explanation-step'><strong>C)</strong> \"Which\" is used for things, not people. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"That\" introduces a restrictive clause but cannot be possessive. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-018",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
+      },
+      "stem": "The competitive exclusion principle <span class='blank'>_______</span> states that two species competing for the same limited resource cannot coexist indefinitely — is one of the foundational concepts in ecology.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        ", which",
+        "which",
+        ", that",
+        "that"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>This question tests <strong>Restrictive vs Nonrestrictive Clauses</strong>. The clause \"states that two species competing for the same limited resource cannot coexist indefinitely\" adds extra information about the principle — it is nonrestrictive (the sentence would still identify the subject without it).</div><div class='explanation-step'>Nonrestrictive clauses use \"which\" (not \"that\") and require a comma before \"which.\"</div><div class='explanation-step'><strong>A)</strong> \", which\" correctly introduces a nonrestrictive clause with proper comma. Keep A.</div><div class='explanation-step'><strong>B)</strong> \"which\" without a comma would make the clause seem restrictive, but since the principle is already fully named, this information is additional, not defining. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \", that\" — \"that\" is used for restrictive clauses and should not follow a comma. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"that\" introduces a restrictive clause — but this clause provides additional information, not a defining restriction. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-019",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
+      },
+      "stem": "The ancient Romans used a concrete formula containing volcanic ash that allowed their structures to strengthen over time <span class='blank'>_______</span> modern concrete, by contrast, tends to weaken and crack within decades.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        ",",
+        ";",
+        ":",
+        ", so"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>This question tests <strong>Punctuation Between Independent Clauses</strong>. Both parts of the sentence are independent clauses. \"The ancient Romans used a concrete formula...\" and \"modern concrete...tends to weaken\" can each stand alone.</div><div class='explanation-step'><strong>A)</strong> A comma alone between two independent clauses creates a comma splice. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> A semicolon correctly joins two related independent clauses — the second clause contrasts with the first, making the semicolon appropriate. Keep B.</div><div class='explanation-step'><strong>C)</strong> A colon introduces an explanation or list. The second clause is a contrasting statement, not an elaboration. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \", so\" implies causation — modern concrete weakening is not caused by Roman concrete strengthening. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-020",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Transitions",
+        "skill": "Logical Transition"
+      },
+      "stem": "Tidal energy — generated by harnessing the movement of ocean tides — is a renewable power source with considerable theoretical potential, as tides are predictable and consistent in ways that wind and solar energy are not. <span class='blank'>_______</span> the high cost of underwater infrastructure and the limited number of suitable coastal locations have prevented tidal energy from being deployed at scale.<br><br>Which choice completes the text with the most logical transition?",
+      "choices": [
+        "However,",
+        "Therefore,",
+        "Moreover,",
+        "Indeed,"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>Logical Transition</em> questions, determine the relationship between the ideas. The first sentence describes tidal energy's considerable potential. The second introduces barriers that have prevented its deployment — a complication or qualification of the first idea. The transition must signal contrast.</div><div class='explanation-step'><strong>A)</strong> \"However\" signals contrast — despite the potential (first sentence), barriers exist (second sentence). Keep A.</div><div class='explanation-step'><strong>B)</strong> \"Therefore\" signals that the second idea results from the first — the barriers are not caused by the potential. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"Moreover\" signals addition — the second sentence is not adding to the positive case but complicating it. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Indeed\" signals confirmation — the second sentence does not confirm the first. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-021",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Transitions",
+        "skill": "Logical Transition"
+      },
+      "stem": "Research on food deserts — areas with limited access to affordable, nutritious food — has shown that residents of these communities have higher rates of diet-related diseases such as type 2 diabetes and cardiovascular disease. <span class='blank'>_______</span> the lack of grocery stores in food deserts is often accompanied by an abundance of fast food outlets, further limiting residents' dietary options.<br><br>Which choice completes the text with the most logical transition?",
+      "choices": [
+        "However,",
+        "Furthermore,",
+        "That said,",
+        "Nevertheless,"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Logical Transition</em> questions at level 2, determine the precise relationship. The first sentence identifies that food deserts lead to higher disease rates. The second adds a compounding factor — not just fewer healthy options, but also more unhealthy ones. The transition must signal addition or elaboration.</div><div class='explanation-step'><strong>A)</strong> \"However\" signals contrast — the second sentence does not contradict the first but adds to it. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Furthermore\" signals addition of a related, compounding point — the second sentence adds another dimension of the same problem. Keep B.</div><div class='explanation-step'><strong>C)</strong> \"That said\" signals a qualification or complication of the previous point — the second sentence compounds rather than qualifies. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Nevertheless\" implies persistence despite an obstacle — there is no obstacle being overcome here. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-022",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Rhetorical Synthesis",
+        "skill": "Using Notes"
+      },
+      "stemSegments": [
+        {
+          "text": "While researching a topic, a student has taken the following notes:",
+          "align": "left",
+          "style": "default"
+        },
+        {
+          "text": "• Octopuses have the largest brains of any invertebrate relative to body size.\n• They can unscrew jar lids, navigate mazes, and use tools such as coconut shells for shelter.\n• Octopuses have approximately 500 million neurons &mdash; comparable to a dog.\n• Each of an octopus&rsquo;s eight arms contains two-thirds of its neurons and can act semi-independently.\n• Octopuses have been observed playing with objects in ways that appear to serve no practical purpose.",
+          "align": "left",
+          "style": "notes"
+        },
+        {
+          "text": "The student wants to provide evidence that octopuses display unusually sophisticated cognitive abilities for invertebrates. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+      "choices": [
+        "Octopuses have approximately 500 million neurons, which is comparable to the number found in a dog's brain.",
+        "Each of an octopus's eight arms contains two-thirds of its neurons and can act semi-independently of the central brain.",
+        "Octopuses can unscrew jar lids, navigate mazes, use tools for shelter, and have been observed playing with objects — behaviors that collectively suggest cognitive sophistication uncommon among invertebrates.",
+        "Octopuses have the largest brains of any invertebrate relative to their body size."
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal determines the correct answer. The student wants to provide evidence of unusually sophisticated cognitive abilities. The correct answer must cite behavioral evidence AND frame it as evidence of cognition uncommon among invertebrates.</div><div class='explanation-step'><strong>A)</strong> Neuron count provides anatomical context but doesn't directly demonstrate cognitive ability through behavior. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The distributed neuron structure is interesting but relates to neural architecture, not cognitive sophistication. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Lists multiple sophisticated behaviors (tool use, maze navigation, play) AND explicitly frames them as evidence of cognitive sophistication uncommon among invertebrates. Keep C.</div><div class='explanation-step'><strong>D)</strong> Relative brain size is anatomical, not behavioral evidence of cognitive ability. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-023",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Rhetorical Synthesis",
+        "skill": "Using Notes"
+      },
+      "stemSegments": [
+        {
+          "text": "While researching a topic, a student has taken the following notes:",
+          "align": "left",
+          "style": "default"
+        },
+        {
+          "text": "• The first public library in the United States opened in Peterborough, New Hampshire in 1833.\n• By 1900 there were over 1,700 public libraries in the US, largely due to Andrew Carnegie&rsquo;s philanthropic funding.\n• Carnegie funded the construction of 2,509 libraries worldwide between 1883 and 1929.\n• Modern public libraries offer not just books but also internet access, job training programs, and social services.\n• A 2019 Pew Research survey found that 90% of Americans believe public libraries are important to their communities.",
+          "align": "left",
+          "style": "notes"
+        },
+        {
+          "text": "The student wants to show that public libraries have evolved significantly beyond their original function. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+      "choices": [
+        "Andrew Carnegie funded the construction of over 2,500 libraries worldwide between 1883 and 1929.",
+        "The first public library in the United States opened in Peterborough, New Hampshire in 1833.",
+        "Modern public libraries now offer internet access, job training, and social services in addition to books, representing a significant expansion of their original function.",
+        "A 2019 Pew Research survey found that 90% of Americans consider public libraries important to their communities."
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is to show that libraries have evolved beyond their original function. The correct answer must show what they do now compared to what they originally did.</div><div class='explanation-step'><strong>A)</strong> Carnegie's funding explains the growth of libraries historically but does not address their current expanded functions. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The origin date establishes history but says nothing about evolution of function. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Explicitly contrasts current offerings (internet, job training, social services) with the original implied function (books) and frames this as \"significant expansion.\" Keep C.</div><div class='explanation-step'><strong>D)</strong> Public opinion supports libraries' importance but does not demonstrate evolution of function. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-024",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Rhetorical Synthesis",
+        "skill": "Using Notes"
+      },
+      "stemSegments": [
+        {
+          "text": "While researching a topic, a student has taken the following notes:",
+          "align": "left",
+          "style": "default"
+        },
+        {
+          "text": "• Light pollution &mdash; excess artificial light at night &mdash; now affects over 80% of the world&rsquo;s population.\n• The Milky Way is no longer visible to approximately one-third of humanity, including 60% of Europeans and 80% of North Americans.\n• Light pollution disrupts the sleep patterns of humans and the behavior of nocturnal wildlife.\n• A 2016 study found that light pollution has increased by approximately 2% per year globally since 1992.\n• The International Dark-Sky Association estimates that 30% of outdoor lighting in the US is wasted, costing \\$3.3 billion annually.",
+          "align": "left",
+          "style": "notes"
+        },
+        {
+          "text": "The student wants to present light pollution as both an environmental and an economic problem. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+      "choices": [
+        "Light pollution now affects over 80% of the world's population, and the Milky Way is no longer visible to approximately one-third of humanity.",
+        "A 2016 study found that global light pollution has increased by approximately 2% per year since 1992.",
+        "Light pollution disrupts the sleep patterns of humans and the behavior of nocturnal wildlife while also wasting an estimated \\$3.3 billion annually in the US through inefficient outdoor lighting.",
+        "The International Dark-Sky Association estimates that 30% of outdoor lighting in the US is wasted."
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal requires addressing <em>both</em> an environmental and an economic dimension. The correct answer must include evidence of each.</div><div class='explanation-step'><strong>A)</strong> Population affected and Milky Way visibility are environmental impacts — no economic dimension is included. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The rate of increase is relevant context but addresses neither the environmental nor the economic problem specifically. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Addresses the environmental dimension (disrupting human sleep and nocturnal wildlife) and the economic dimension ($3.3 billion wasted) in one sentence. Keep C.</div><div class='explanation-step'><strong>D)</strong> Mentions wasted lighting but without the dollar cost or the environmental impact — covers neither dimension fully. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-025",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Rhetorical Synthesis",
+        "skill": "Using Notes"
+      },
+      "stemSegments": [
+        {
+          "text": "While researching a topic, a student has taken the following notes:",
+          "align": "left",
+          "style": "default"
+        },
+        {
+          "text": "• Ancient Roman concrete, known as <em>opus caementicium</em>, was used in structures like the Pantheon and the Colosseum.\n• Modern analysis has found that Roman concrete contains volcanic ash (pozzolana) that reacts with seawater to form rare minerals.\n• These minerals strengthen the concrete over time, unlike modern Portland cement, which weakens.\n• A 2023 study found that the self-healing properties of Roman concrete result from a technique called hot mixing with quicklime.\n• Roman concrete structures have survived for over 2,000 years in harsh marine environments.",
+          "align": "left",
+          "style": "notes"
+        },
+        {
+          "text": "The student wants to explain what makes Roman concrete superior to modern concrete in terms of longevity. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+      "choices": [
+        "Ancient Roman concrete was used in iconic structures such as the Pantheon and the Colosseum, which have survived for over 2,000 years.",
+        "Roman concrete contains volcanic ash that reacts to form minerals which strengthen the material over time, whereas modern Portland cement weakens — giving Roman concrete far greater longevity.",
+        "A 2023 study found that the self-healing properties of Roman concrete result from a technique called hot mixing with quicklime.",
+        "Roman concrete structures have survived for over 2,000 years in harsh marine environments."
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is to explain <em>what makes Roman concrete superior in terms of longevity</em>. The correct answer must identify the mechanism AND contrast it with modern concrete.</div><div class='explanation-step'><strong>A)</strong> Mentions the structures and their survival but does not explain the mechanism behind their longevity. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Explains the mechanism (volcanic ash → strengthening minerals) and explicitly contrasts it with modern cement (which weakens) to explain superior longevity. Keep B.</div><div class='explanation-step'><strong>C)</strong> Identifies one mechanism (hot mixing) but does not compare it to modern concrete or explain the longevity advantage directly. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> States the outcome (survived 2,000 years) but not the reason — does not explain what makes it superior. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-026",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Rhetorical Synthesis",
+        "skill": "Using Notes"
+      },
+      "stemSegments": [
+        {
+          "text": "While researching a topic, a student has taken the following notes:",
+          "align": "left",
+          "style": "default"
+        },
+        {
+          "text": "• Linguist Dr. Yuki Tanaka argues that language extinction is not merely a cultural loss but a scientific one.\n• Of the approximately 7,000 languages spoken today, roughly half are expected to disappear by 2100.\n• Many endangered languages encode unique ecological knowledge &mdash; names and uses of plants and animals unknown to science.\n• Dr. Tanaka&rsquo;s critics argue that language preservation efforts divert resources from more urgent poverty alleviation.\n• Dr. Tanaka counters that indigenous communities themselves overwhelmingly support language revitalization when given the choice.",
+          "align": "left",
+          "style": "notes"
+        },
+        {
+          "text": "The student wants to present Dr. Tanaka&rsquo;s strongest response to her critics. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+      "choices": [
+        "Linguist Dr. Yuki Tanaka argues that language extinction represents both a cultural and scientific loss, as endangered languages often encode unique ecological knowledge.",
+        "Critics of language preservation argue that such efforts divert resources from more urgent poverty alleviation programs.",
+        "Dr. Tanaka counters critics' resource concerns by pointing out that indigenous communities themselves overwhelmingly support language revitalization when given the choice, suggesting the communities most affected do not see preservation and poverty alleviation as competing priorities.",
+        "Approximately half of the world's 7,000 languages are expected to disappear by 2100, taking with them unique ecological knowledge encoded in those languages."
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal requires precision: the student wants Dr. Tanaka's <em>strongest response to her critics</em>. The critics argue that preservation diverts resources from poverty alleviation. The correct answer must directly counter that specific objection.</div><div class='explanation-step'><strong>A)</strong> States Dr. Tanaka's overall position but does not respond to the critics' specific objection. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> States the critics' view without countering it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Directly addresses the critics by showing that indigenous communities themselves support revitalization — undermining the premise that preservation conflicts with what affected communities want and need. Keep C.</div><div class='explanation-step'><strong>D)</strong> Provides data about language loss but does not respond to the resource objection. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-027",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Rhetorical Synthesis",
+        "skill": "Using Notes"
+      },
+      "stemSegments": [
+        {
+          "text": "While researching a topic, a student has taken the following notes:",
+          "align": "left",
+          "style": "default"
+        },
+        {
+          "text": "• Bike-share programs have been implemented in over 1,000 cities worldwide since 2007.\n• A 2021 study found that bike-share users in cities with robust cycling infrastructure took 23% more trips than those in cities without it.\n• Critics argue that bike-share programs primarily benefit wealthier, younger users and fail to reach low-income communities.\n• Some cities have addressed equity concerns by placing stations in underserved neighborhoods and offering subsidized memberships.\n• A 2022 study found that subsidized bike-share programs in low-income neighborhoods increased ridership by 47% among eligible residents.",
+          "align": "left",
+          "style": "notes"
+        },
+        {
+          "text": "The student wants to argue that the equity criticism of bike-share programs can be effectively addressed through policy. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+      "choices": [
+        "Bike-share programs have been implemented in over 1,000 cities worldwide since 2007, demonstrating their broad global appeal.",
+        "Critics argue that bike-share programs primarily benefit wealthier, younger users and fail to serve low-income communities adequately.",
+        "Cities that have placed stations in underserved neighborhoods and offered subsidized memberships have seen ridership among low-income residents increase by 47%, suggesting that targeted policy interventions can effectively address the equity gap.",
+        "Bike-share users in cities with robust cycling infrastructure take 23% more trips than those in cities without it."
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal is to argue that the equity criticism <em>can be effectively addressed through policy</em>. The correct answer must show a specific policy measure and its demonstrated effect on equity.</div><div class='explanation-step'><strong>A)</strong> Global scale demonstrates popularity but says nothing about addressing equity concerns. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> States the criticism without countering it — the opposite of the goal. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Identifies the specific policy interventions (stations in underserved neighborhoods, subsidized memberships) and their demonstrated effect (47% ridership increase among low-income residents), directly supporting the argument that equity concerns can be addressed through policy. Keep C.</div><div class='explanation-step'><strong>D)</strong> Addresses infrastructure and trip frequency — relevant to overall program effectiveness but not to the equity criticism specifically. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+    }
+  ]
+}

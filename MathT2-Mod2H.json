@@ -1,0 +1,414 @@
+{
+  "moduleId": "MathT2_Mod2H",
+  "subject": "math",
+  "timeSeconds": 2100,
+  "title": "SAT Math — Module 2",
+  "questions": [
+    {
+      "id": "MathT2-2H-001",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Equations and Inequalities",
+        "skill": "Absolute Value Equations"
+      },
+      "stem": "What is the sum of all solutions to \\(|2x - 3| = 7\\)?",
+      "choices": [
+        "\\(-3\\)",
+        "\\(3\\)",
+        "\\(5\\)",
+        "\\(7\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>An absolute value equation has two cases.</div><div class='explanation-math'>$$\\begin{aligned}2x - 3 &= 7 & 2x - 3 &= -7 \\\\ 2x &= 10 & 2x &= -4 \\\\ x &= 5 & x &= -2\\end{aligned}$$</div><div class='explanation-step'>The sum of all solutions is \\(5 + (-2) = 3\\).</div>"
+    },
+    {
+      "id": "MathT2-2H-002",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Equations and Inequalities",
+        "skill": "Number of Solutions"
+      },
+      "stem": "For what value of \\(k\\) does the equation \\(3x + 6 = 3(x + k)\\) have infinitely many solutions?",
+      "choices": [
+        "\\(0\\)",
+        "\\(1\\)",
+        "\\(2\\)",
+        "\\(3\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Expand the right side: \\(3x + 6 = 3x + 3k\\). Subtract \\(3x\\) from both sides: \\(6 = 3k\\). For infinitely many solutions, this must be true for all values of \\(x\\) — which means the equation must be an identity.</div><div class='explanation-math'>$$6 = 3k \\implies k = 2$$</div><div class='explanation-step'>When \\(k = 2\\), both sides are identical, giving infinitely many solutions. When \\(k \\neq 2\\), the equation has no solution.</div>"
+    },
+    {
+      "id": "MathT2-2H-003",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Systems of Equations",
+        "skill": "Systems with No Solution"
+      },
+      "stem": "<div style='text-align:center;'>$$2x + 4y = 8$$</div><div style='text-align:center;'>$$kx + 2y = 3$$</div><div class='stem-text'>For what value of \\(k\\) does the system of equations above have no solution?</div>",
+      "choices": [
+        "\\(0\\)",
+        "\\(1\\)",
+        "\\(2\\)",
+        "\\(4\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>A system has no solution when the lines are parallel — same slope but different \\(y\\)-intercepts. Write each equation in slope-intercept form.</div><div class='explanation-math'>$$\\begin{aligned}2x + 4y &= 8 \\implies y = -\\tfrac{1}{2}x + 2 \\\\ kx + 2y &= 3 \\implies y = -\\tfrac{k}{2}x + \\tfrac{3}{2}\\end{aligned}$$</div><div class='explanation-step'>Set slopes equal: \\(-\\frac{1}{2} = -\\frac{k}{2} \\implies k = 1\\). Check: the \\(y\\)-intercepts are 2 and \\(\\frac{3}{2}\\), which are different, confirming no solution.</div>"
+    },
+    {
+      "id": "MathT2-2H-004",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Algebraic Expressions",
+        "skill": "Simplifying Rational Expressions"
+      },
+      "stem": "Which of the following is equivalent to \\(\\dfrac{x^2 - 9}{x - 3}\\) for \\(x \\neq 3\\)?",
+      "choices": [
+        "\\(x - 3\\)",
+        "\\(x + 3\\)",
+        "\\(x^2 - 3\\)",
+        "\\((x - 3)^2\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>Factor the numerator as a difference of squares.</div><div class='explanation-math'>$$\\frac{x^2 - 9}{x - 3} = \\frac{(x+3)(x-3)}{x-3} = x + 3$$</div><div class='explanation-step'>The factor \\((x - 3)\\) cancels, leaving \\(x + 3\\). Note that \\(x \\neq 3\\) because the original expression is undefined at \\(x = 3\\).</div>"
+    },
+    {
+      "id": "MathT2-2H-005",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Equations and Inequalities",
+        "skill": "Quadratic Inequalities"
+      },
+      "stem": "Which of the following represents all values of \\(x\\) that satisfy \\(x^2 - 5x + 6 < 0\\)?",
+      "choices": [
+        "\\(x < 2\\) or \\(x > 3\\)",
+        "\\(2 < x < 3\\)",
+        "\\(x < -3\\) or \\(x > -2\\)",
+        "\\(-3 < x < -2\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>Factor the quadratic: \\(x^2 - 5x + 6 = (x-2)(x-3)\\). The expression equals zero at \\(x = 2\\) and \\(x = 3\\), and we need it to be less than zero.</div><div class='explanation-step'>Test a value between the roots, say \\(x = 2.5\\): \\((0.5)(-0.5) = -0.25 < 0\\) ✓. The product is negative between the roots.</div><div class='explanation-math'>$$2 < x < 3$$</div>"
+    },
+    {
+      "id": "MathT2-2H-006",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Complex Numbers",
+        "skill": "Operations with Complex Numbers"
+      },
+      "stem": "Which of the following is equivalent to \\((3 + 2i)(1 - 4i)\\)?",
+      "choices": [
+        "\\(11 - 10i\\)",
+        "\\(3 - 10i\\)",
+        "\\(11 + 10i\\)",
+        "\\(-5 - 10i\\)"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>Expand using FOIL and use the fact that \\(i^2 = -1\\).</div><div class='explanation-math'>$$\\begin{aligned}(3 + 2i)(1 - 4i) &= 3 - 12i + 2i - 8i^2 \\\\ &= 3 - 10i - 8(-1) \\\\ &= 3 - 10i + 8 \\\\ &= 11 - 10i\\end{aligned}$$</div>"
+    },
+    {
+      "id": "MathT2-2H-007",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Linear Functions",
+        "skill": "Writing Linear Functions"
+      },
+      "stem": "The function \\(f\\) is linear. If \\(f(2) = 7\\) and \\(f(5) = 16\\), what is \\(f(0)\\)?",
+      "choices": [
+        "\\(-1\\)",
+        "\\(0\\)",
+        "\\(1\\)",
+        "\\(3\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Find the slope using the two given points.</div><div class='explanation-math'>$$m = \\frac{16 - 7}{5 - 2} = \\frac{9}{3} = 3$$</div><div class='explanation-step'>Use point-slope form to find the \\(y\\)-intercept: \\(f(x) = 3x + b\\). Substitute \\(f(2) = 7\\): \\(7 = 6 + b \\implies b = 1\\). Therefore \\(f(0) = 3(0) + 1 = 1\\).</div>"
+    },
+    {
+      "id": "MathT2-2H-008",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Non-linear Systems",
+        "skill": "Solving Non-linear Systems"
+      },
+      "stem": "<div style='text-align:center;'>$$y = x^2 - 4$$</div><div style='text-align:center;'>$$y = 2x - 1$$</div><div class='stem-text'>The system of equations above has two solutions \\((x_1, y_1)\\) and \\((x_2, y_2)\\). What is the value of \\(x_1 + x_2\\)?</div>",
+      "choices": [
+        "\\(-2\\)",
+        "\\(0\\)",
+        "\\(2\\)",
+        "\\(4\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Set the expressions equal and solve.</div><div class='explanation-math'>$$\\begin{aligned}x^2 - 4 &= 2x - 1 \\\\ x^2 - 2x - 3 &= 0 \\\\ (x-3)(x+1) &= 0\\end{aligned}$$</div><div class='explanation-step'>The solutions are \\(x = 3\\) and \\(x = -1\\). Therefore \\(x_1 + x_2 = 3 + (-1) = 2\\).</div>"
+    },
+    {
+      "id": "MathT2-2H-009",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Polynomials",
+        "skill": "Remainder Theorem"
+      },
+      "stem": "When \\(p(x) = x^3 - 2x^2 + 3x - 4\\) is divided by \\((x - 2)\\), what is the remainder?",
+      "choices": [
+        "\\(0\\)",
+        "\\(2\\)",
+        "\\(4\\)",
+        "\\(6\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>By the Remainder Theorem, the remainder when \\(p(x)\\) is divided by \\((x - 2)\\) is \\(p(2)\\).</div><div class='explanation-math'>$$p(2) = (2)^3 - 2(2)^2 + 3(2) - 4 = 8 - 8 + 6 - 4 = 2$$</div><div class='explanation-step'>The remainder is \\(2\\). Note that since the remainder is not 0, \\(x = 2\\) is not a root of \\(p(x)\\).</div>"
+    },
+    {
+      "id": "MathT2-2H-010",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Rational Functions",
+        "skill": "Domain of Rational Functions"
+      },
+      "stem": "Which values of \\(x\\) are NOT in the domain of \\(f(x) = \\dfrac{x + 2}{x^2 - x - 6}\\)?",
+      "choices": [
+        "\\(x = 3\\) only",
+        "\\(x = -2\\) only",
+        "\\(x = 3\\) and \\(x = -2\\)",
+        "\\(x = -3\\) and \\(x = 2\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>A rational function is undefined where the denominator equals zero. Factor the denominator.</div><div class='explanation-math'>$$x^2 - x - 6 = (x - 3)(x + 2) = 0 \\implies x = 3 \\text{ or } x = -2$$</div><div class='explanation-step'>Both values make the denominator zero and are excluded from the domain. Note that \\(x = -2\\) also makes the numerator zero, but it is still excluded — the function has a hole there, not a defined value.</div>"
+    },
+    {
+      "id": "MathT2-2H-011",
+      "type": "gridin",
+      "level": 3,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Quadratic Functions",
+        "skill": "Completing the Square"
+      },
+      "stem": "The function \\(f\\) is defined by \\(f(x) = x^2 - 8x + 7\\). What is the minimum value of \\(f(x)\\)?",
+      "answer": -9,
+      "explanation": "<div class='explanation-step'>Complete the square to write the function in vertex form.</div><div class='explanation-math'>$$\\begin{aligned}f(x) &= x^2 - 8x + 7 \\\\ &= x^2 - 8x + 16 - 16 + 7 \\\\ &= (x - 4)^2 - 9\\end{aligned}$$</div><div class='explanation-step'>The vertex is at \\((4, -9)\\). Since the parabola opens upward (\\(a = 1 > 0\\)), the minimum value is \\(-9\\).</div>"
+    },
+    {
+      "id": "MathT2-2H-012",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Exponential Functions",
+        "skill": "Solving Exponential Equations"
+      },
+      "stem": "What is the value of \\(x\\) in the equation \\(4^x = 8^{x-1}\\)?",
+      "choices": [
+        "\\(1\\)",
+        "\\(2\\)",
+        "\\(3\\)",
+        "\\(4\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Write both sides as powers of 2.</div><div class='explanation-math'>$$4^x = 8^{x-1} \\implies 2^{2x} = 2^{3(x-1)}$$</div><div class='explanation-step'>Set the exponents equal and solve.</div><div class='explanation-math'>$$\\begin{aligned}2x &= 3(x-1) \\\\ 2x &= 3x - 3 \\\\ x &= 3\\end{aligned}$$</div>"
+    },
+    {
+      "id": "MathT2-2H-013",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Functions",
+        "skill": "Inverse Functions"
+      },
+      "stem": "The function \\(f\\) is defined by \\(f(x) = 2x + 6\\). Which of the following defines \\(f^{-1}(x)\\)?",
+      "choices": [
+        "\\(f^{-1}(x) = \\dfrac{x-6}{2}\\)",
+        "\\(f^{-1}(x) = \\dfrac{x+6}{2}\\)",
+        "\\(f^{-1}(x) = 2x - 6\\)",
+        "\\(f^{-1}(x) = \\dfrac{x}{2} + 6\\)"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>To find the inverse, replace \\(f(x)\\) with \\(y\\), swap \\(x\\) and \\(y\\), then solve for \\(y\\).</div><div class='explanation-math'>$$\\begin{aligned}y &= 2x + 6 \\\\ x &= 2y + 6 \\\\ x - 6 &= 2y \\\\ y &= \\frac{x-6}{2}\\end{aligned}$$</div>"
+    },
+    {
+      "id": "MathT2-2H-014",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Polynomial Functions",
+        "skill": "Factor Theorem"
+      },
+      "stem": "If \\((x - k)\\) is a factor of \\(p(x) = x^3 - 7x + 6\\), which of the following could be a value of \\(k\\)?",
+      "choices": [
+        "\\(4\\)",
+        "\\(-1\\)",
+        "\\(2\\)",
+        "\\(5\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>By the Factor Theorem, \\((x - k)\\) is a factor of \\(p(x)\\) if and only if \\(p(k) = 0\\). Test each choice.</div><div class='explanation-math'>$$\\begin{aligned}p(4) &= 64 - 28 + 6 = 42 \\neq 0 \\\\ p(-1) &= -1 + 7 + 6 = 12 \\neq 0 \\\\ p(2) &= 8 - 14 + 6 = 0 \\checkmark \\\\ p(5) &= 125 - 35 + 6 = 96 \\neq 0\\end{aligned}$$</div>"
+    },
+    {
+      "id": "MathT2-2H-015",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Quadratic Functions",
+        "skill": "Complex Roots"
+      },
+      "stem": "What are the solutions to \\(x^2 + 4x + 13 = 0\\)?",
+      "choices": [
+        "\\(x = -2 \\pm 3i\\)",
+        "\\(x = 2 \\pm 3i\\)",
+        "\\(x = -2 \\pm \\sqrt{13}\\)",
+        "\\(x = 4 \\pm 3i\\)"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>Use the quadratic formula with \\(a = 1\\), \\(b = 4\\), \\(c = 13\\).</div><div class='explanation-math'>$$x = \\frac{-4 \\pm \\sqrt{16 - 52}}{2} = \\frac{-4 \\pm \\sqrt{-36}}{2} = \\frac{-4 \\pm 6i}{2} = -2 \\pm 3i$$</div>"
+    },
+    {
+      "id": "MathT2-2H-016",
+      "type": "gridin",
+      "level": 3,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Exponential Functions",
+        "skill": "Exponential Growth Models"
+      },
+      "stem": "A population doubles every 12 years. If the initial population is 800, after how many years will the population first reach 3,200?",
+      "answer": 24,
+      "explanation": "<div class='explanation-step'>Set up an exponential equation where the population doubles every 12 years.</div><div class='explanation-math'>$$3{,}200 = 800 \\cdot 2^{t/12}$$</div><div class='explanation-step'>Divide both sides by 800, then solve for \\(t\\).</div><div class='explanation-math'>$$\\begin{aligned}4 &= 2^{t/12} \\\\ 2^2 &= 2^{t/12} \\\\ 2 &= \\frac{t}{12} \\\\ t &= 24\\end{aligned}$$</div>"
+    },
+    {
+      "id": "MathT2-2H-017",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Problem Solving and Data Analysis",
+        "topic": "Statistics",
+        "skill": "Interpreting Standard Deviation"
+      },
+      "stem": "Two classes take the same test. Class A has a mean score of 75 and a standard deviation of 3. Class B has a mean score of 75 and a standard deviation of 12. Which of the following statements is true?",
+      "choices": [
+        "Class A scored higher on average than Class B.",
+        "Class B scored higher on average than Class A.",
+        "Class A has more variation in scores than Class B.",
+        "Class B has more variation in scores than Class A."
+      ],
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>Both classes have the same mean (75), so neither scored higher on average. Standard deviation measures the spread of data around the mean. A larger standard deviation indicates more variation.</div><div class='explanation-step'>Class B has a standard deviation of 12, which is larger than Class A's standard deviation of 3. Therefore Class B has more variation in scores.</div>"
+    },
+    {
+      "id": "MathT2-2H-018",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Problem Solving and Data Analysis",
+        "topic": "Probability",
+        "skill": "Conditional Probability"
+      },
+      "stem": "In a group of 50 students, 30 play sports and 20 do not. Of those who play sports, 18 passed an exam. Of those who do not play sports, 10 passed. What is the probability that a randomly selected student who passed the exam plays sports?",
+      "choices": [
+        "\\(\\dfrac{3}{5}\\)",
+        "\\(\\dfrac{9}{14}\\)",
+        "\\(\\dfrac{18}{50}\\)",
+        "\\(\\dfrac{9}{25}\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>This is a conditional probability question. Find the total number of students who passed, then find the fraction of those who play sports.</div><div class='explanation-math'>$$\\text{Total passed} = 18 + 10 = 28$$</div><div class='explanation-math'>$$P(\\text{sports} \\mid \\text{passed}) = \\frac{18}{28} = \\frac{9}{14}$$</div>"
+    },
+    {
+      "id": "MathT2-2H-019",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Problem Solving and Data Analysis",
+        "topic": "Statistics",
+        "skill": "Sample Bias"
+      },
+      "stem": "A researcher wants to determine the average number of hours teenagers in a city spend on social media per day. She surveys 200 teenagers at a local shopping mall. Which of the following best describes a limitation of this method?",
+      "choices": [
+        "The sample size of 200 is too small to draw any conclusions.",
+        "Teenagers at a shopping mall may not be representative of all teenagers in the city.",
+        "The researcher should have surveyed adults as well as teenagers.",
+        "Social media usage cannot be accurately measured through self-reporting."
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>A key principle of sampling is that the sample should be representative of the population. Teenagers at a shopping mall are a specific subset — they may have different social media habits, schedules, or demographics than teenagers who are not at the mall at that time. This introduces sampling bias.</div>"
+    },
+    {
+      "id": "MathT2-2H-020",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Problem Solving and Data Analysis",
+        "topic": "Statistics",
+        "skill": "Interpreting Linear Regression"
+      },
+      "stem": "A line of best fit for data comparing years of work experience \\((x)\\) and annual salary in thousands of dollars \\((y)\\) has the equation \\(y = 3.2x + 42\\). What does \\(3.2\\) represent in this context?",
+      "choices": [
+        "The predicted starting salary in thousands of dollars with no experience",
+        "The number of years needed to reach a salary of \\$42,000",
+        "The predicted increase in annual salary, in thousands of dollars, for each additional year of experience",
+        "The total salary in thousands of dollars after 3.2 years"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>In the equation \\(y = 3.2x + 42\\), the coefficient \\(3.2\\) is the slope. In context, the slope represents the rate of change — for each additional year of experience (increase of 1 in \\(x\\)), the predicted salary increases by 3.2 thousand dollars, or \\$3,200.</div><div class='explanation-step'>The constant 42 represents the \\(y\\)-intercept — the predicted starting salary of \\$42,000 with zero years of experience.</div>"
+    },
+    {
+      "id": "MathT2-2H-021",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Geometry and Trigonometry",
+        "topic": "Circles",
+        "skill": "Area of a Sector"
+      },
+      "stem": "A circle has a radius of 9. A sector of the circle has a central angle of \\(80°\\). What is the area of the sector?",
+      "choices": [
+        "\\(9\\pi\\)",
+        "\\(14\\pi\\)",
+        "\\(18\\pi\\)",
+        "\\(81\\pi\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>The area of a sector is a fraction of the total circle area, determined by the central angle.</div><div class='explanation-math'>$$\\text{Area of sector} = \\frac{80}{360} \\times \\pi r^2 = \\frac{2}{9} \\times \\pi(9)^2 = \\frac{2}{9} \\times 81\\pi = 18\\pi$$</div>"
+    },
+    {
+      "id": "MathT2-2H-022",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Geometry and Trigonometry",
+        "topic": "Triangles",
+        "skill": "Law of Cosines"
+      },
+      "stem": "In triangle \\(ABC\\), \\(AB = 7\\), \\(BC = 9\\), and angle \\(B = 60°\\). What is \\(AC^2\\)?",
+      "choices": [
+        "\\(49\\)",
+        "\\(63\\)",
+        "\\(67\\)",
+        "\\(130\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Apply the Law of Cosines: \\(AC^2 = AB^2 + BC^2 - 2 \\cdot AB \\cdot BC \\cdot \\cos(B)\\).</div><div class='explanation-math'>$$\\begin{aligned}AC^2 &= 7^2 + 9^2 - 2(7)(9)\\cos(60°) \\\\ &= 49 + 81 - 126 \\cdot \\frac{1}{2} \\\\ &= 130 - 63 \\\\ &= 67\\end{aligned}$$</div>"
+    }
+  ]
+}

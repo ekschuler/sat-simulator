@@ -1,413 +1,402 @@
-
 {
   "moduleId": "MathT2_Mod1",
+  "subject": "math",
   "timeSeconds": 2100,
+  "title": "SAT Math — Module 1",
   "questions": [
-{
-  "id": "MathT2-1-001",
-  "type": "mcq",
-  "skill": {
-    "domain": "Algebra",
-    "topic": "Functions",
-    "skill": "Evaluating Functions"
-  },
-  "stem": "The function \\(f\\) is defined by \\(f(x)=\\sqrt{1-6x}\\). What is the value of \\(f(-8)?",
-  "choices": [
-    "\\(-\\frac{6}{35}\\)",
-    "\\(-\\frac{35}{6}\\)",
-    "\\(7\\)",
-    "\\(49\\)"
-  ],
-  "answerIndex": 2,
-  "explanation": "<div class='explanation-step'>Combine like terms.</div><div class='explanation-math'>$$\\begin{aligned}(4n^3+10n^3)+4n^2 &= 14n^3+4n^2\\end{aligned}$$</div>"
-
-},
-{
-  "id": "Math2-1-002",
-  "type": "mcq",
-  "skill": {
-    "domain": "Algebra",
-    "topic": "Equations and Inequalities",
-    "skill": "Literal Equations"
-},
-  "stem": "<div style='text-align:center;'>$$3a-b=b^2$$</div><div style='margin-top:12px;'>The given equation relates the rational numbers \\(a\\) and \\(b\\). Which equation correctly expresses \\(a\\) in terms of \\(b\\)?</div>",
-  "choices": [
-    "\\(a=3(b^2+b)\\)",
-    "\\(a=\\frac{b^2+b}{3}\\)",
-    "\\(a=b^2+b-3\\)",
-    "\\(a=\\frac{2b^2}{3}\\)"
-  ],
-  "answerIndex": 1,
-  "explanation": "The volume is increasing by a constant rate, or adding \\(900\\) cubic inches per hour, which is linear growth, so the function type is increasing linear."
-},
-{
-  "id": "MathT2-1-003",
-  "type": "mcq",
-  "skill": {
-    "domain": "Geometry and Trigonometry",
-    "topic": "Triangles",
-    "skill": "Triangle Sum"
-},
-  "stem": "In triangle DEF, the measure of angle D is \\(3n^\\circ\\), the measure of angle E is \\(n^\\circ\\), and the measure of angle F is \\(24^\\circ\\). What is the measure, in degrees, of angle E?",
-  "choices": [
-    "\\(23\\)",
-    "\\(39\\)",
-    "\\(52\\)",
-    "\\(117\\)"
-  ],
-  "answerIndex": 1,
-  "explanation": "Start with \\(\\frac{72\\,\\text{pages}}{1\\,\\text{week}}\\). Use unit conversions to calculate the number of hours Neja must read in one week:<br><br><div style='text-align:center;'>$$\\begin{aligned}\\frac{72\\,\\cancel{\\text{pages}}}{1\\,\\text{week}} \\times \\frac{1\\,\\text{hour}}{6\\,\\cancel{\\text{pages}}} &= \\frac{72}{6}\\,\\text{hours per week} \\\\ &= 12\\,\\text{hours per week}\\end{aligned}$$</div>"
-},
-{
-  "id": "MathT2-1-004",
-  "type": "mcq",
-  "skill": {
-    "domain": "Advanced Math",
-    "topic": "Rational Equations",
-    "skill": "Solving Rational Equations"
-},
-  "stem": "<div style='text-align:center;'>$$1=\\frac{x-4}{(x-4)^2}$$</div><div style='margin-top:12px;'>What is the mean time, in minutes, of the commutes?</div>",
-  "choices": [
-    "\\(1\\)",
-    "\\(4\\)",
-    "\\(5\\)",
-    "\\(16\\)"
-  ],
-  "answerIndex": 2,
-  "explanation": "Use the formula for the area of a rectangle, \\(A=lw\\) where \\(l=\\) the length of the rectangle and \\(w=\\) the width of the rectangle.<br><br><div style='text-align:center;'>$$\\begin{aligned}A=9(23)=207\\end{aligned}$$."
-},
-{
-  "id": "MathT2-1-005",
-  "type": "gridin",
-  "skill": {
-    "domain": "Advanced Math",
-    "topic": "Functions",
-    "skill": "Finding Intercepts"
-},
-  "stem": "<div style='margin-top:12px;'>The function \\(h\\) is defined by \\(h(x)=(x+1)^2(x-8)(x-3)\\). What is the \\(x\\)-coordinate of the largest \\(x\\)-intercept graph of the function in the \\(xy\\)-plane?</div>",
-  "answer": "8",
-      "answersAccepted": ["8"],
-      "validation": {
-        "format": "number",
-        "allowNegative": true,
-        "allowDecimal": true,
-        "allowFraction": false,
-        "maxChars": 8
+    {
+      "id": "MathT2-1-001",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Linear Functions",
+        "skill": "Writing Linear Equations"
       },
-      "explanation": "The mean, or average, is found by adding the values of a data set and dividing by the number of values in the data set.  There are \\(8\\) numbers, so divide the sum by \\(8\\).<div style='text-align:center;'>$$\\begin{aligned}\\frac{14+1+19+24+3+3+8+16}{8}=\\frac{88}{8}= 11\\end{aligned}$$</div>"
-},
-{
-  "id": "MathT2-1-006",
-  "type": "mcq",
-  "skill": {
-    "domain": "Algebra",
-    "topic": "Statistics",
-    "skill": "Calculating Mean"
-},
-  "stem": "The mean donation in an office fundraiser is \\(\\$90\\). If \\(48\\) employees donated, what is the total of all of the donations?",
-  "choices": [
-    "\\(\\$\\text{4,320}\\)",
-    "\\(\\$\\text{2,160}\\)",
-    "\\(\\$1,380\\)",
-    "\\(\\$\\432\\)"
-  ],
-  "answerIndex": 0,
-  "explanation": "<div class='explanation-step'>Solve this quadratic equation by setting it equal to zero and factoring.</div><div class='explanation-math'>$$\\begin{aligned}x^2+14x-32&=\\cancel{32}-\\cancel{32}\\\\x^2+14x-32&=0\\end{aligned}$$</div><div class='explanation-step'>Use the Zero Product Property to solve: \\(x-2=0\\) and \\(x+16=0\\), so \\(x=2\\) or \\(x=-16\\).  Of the two solutions, \\(x=2\\) appears in the answer choices, so D is the correct answer.<br><br> This problem can also be solved by substituting answers in for \\(x\\) and determining whether the equation is true or false. For example:<br><br> C) \\(4^2+14(4)\\neq32\\) because \\(16+56\\neq32\\). Incorrect.  <br><br> D) \\(2^2+14(2)=32\\) because \\(4+28=32\\). Correct.</div>"
-},
-{
-  "id": "MathT2-1-007",
-  "type": "mcq",
-  "skill": {
-    "domain": "Algebra",
-    "topic": "Linear Functions",
-    "skill": "Calculating Slope"
-},
-  "stem": "What is the slope of the graph of line \\(m\\) if it is perpendicular to the graph of \\(x-4y=-3))</div>",
-  "choices": [
-    "\\(4\\)",
-    "\\(\\frac{4}{3}\\)",
-    "\\(\\frac{3}{4}\\)",
-    "\\(\\frac{1}{4}\\)"
-  ],
-  "answerIndex": 3,
-  "explanation": "</div><img class='explanation-image' src='assets/Test1-1-7A.png' alt='explanation figure'><div class='explanation-step'>The given angle (\\(49^\\circ\\)) is corresponding angles with the angle indicated in the drawing and corresponding angles are congruent on parallel lines. That angle is supplementary angles with \\(y^\\circ\\).  Supplementary angles have a sum of \\(180^\\circ\\), so \\(y=180-49=131\\).  The correct answer is C."
-    },
-    {
-  "id": "MathT2-1-008",
-  "type": "mcq",
-  "skill": {
-    "domain": "Algebra",
-    "topic": "Exponents and Radicals",
-    "skill": "Laws of Exponents"
-},
-  "stem": "<div style='text-align:center;'>$$ax^2+8x-1$$</div><div style='margin-top:12px;'>In the given equation, the constant \\(a\\) is an integer.  If the equation has no solutions, what is the maximum possible value of \\(a\\)?</div>",
-  "choices": [
-    "\\(16\\)",
-    "\\(-15\\)",
-    "\\(-16\\)",
-    "\\(-17\\)"
-  ],
-  "answerIndex": 3,
-  "explanation": "<div class='explanation-step'>Use the laws of exponents to simplify \\((a^3dn^7)(a^2d^6n^{-4})\\). The product rule says that when multiplying powers with the same base, you add the exponents.</div><div class='explanation-math'>$$\\begin{aligned}&=(a^3dn^7)(a^2d^6n^{-4})\\\\ &=a^3a^2d{}d^6n^{7}n^{-4} \\\\ &=a^{5}d^{7}n^{3}\\end{aligned}$$</div>"
-},
-{
-  "id": "MathT2-1-009",
-  "type": "mcq",
-  "skill": {
-    "domain": "Advanced Math",
-    "topic": "Exponential Functions",
-    "skill": " Transformations"
-},
-  "stem": "<div style='text-align:center;'>$$g(x)=3(2)^x$$</div><div style='margin-top:12px;'>The function \\(g\\) is defined by the given equation. If \\(h(x)=g(x+5)\\), which of the following functions defines \\(g\\)?</div>",
-  "choices": [
-    "\\(h(x)=15(2)^x\\)",
-    "\\(h(x)=15(10)^x\\)",
-    "\\(h(x)=96(2)^x\\)",
-    "\\(h(x)=243(32)^x\\)"
-  ],
-  "answerIndex": 2,
-  "explanation": "<div class='explanation-step'>Square both sides, so \\((\\sqrt{-3x-17})^2=(\\sqrt{(x+5)^2})^2\\) simplifies to \\(-3x-17=(x+5)^2\\). This is a quadratic equation; expand the right hand side and set the equation equal to zero.</div><div class='explanation-math'>$$\\begin{aligned}-3x-17&=(x+5)(x+5)\\\\ \\cancel{-3x}-\\cancel{17}+\\cancel{3x}+\\cancel{17}&=x^2+10x+25+3x-17 \\\\0&=x^2+13x+42\\end{aligned}$$</div><div class='explanation-step'>Determine factors of \\(42\\) that have a sum of \\(13\\).  The factors are \\(6\\) and \\(7\\) because \\(6 \\times 7=42\\) and \\(6+7=13\\).</div><div class='explanation-math'>$$\\begin{aligned}0&=x^2+13x+42 \\\\0&=(x+6)(x+7)\\end{aligned}$$</div>.<div class='explanation-step'>Use the Zero Product Property to solve: \\(x+6=0\\) and \\(x+7=0\\), so \\(x=-6\\) or \\(x=-7\\). Since this question asks for the largest solution, \\(-6\\) is the correct answer.</div>"
-    },
-    {
-  "id": "MathT1-1-010",
-  "type": "mcq",
-  "skill": {
-    "domain": "Algebra",
-    "topic": "Linear Functions",
-    "skill": "Writing Linear Functions"
-},
-  "stem": "The linear function \\(g\\), graphed in the \\(xy)-plane contains the points \\(-7,15)\\) and \\(0,1\\). Which equation defines \\(g\\), where \\(y=g(x)\\)?",
-  "choices": [
-    "\\(y=14x+1\\)",
-    "\\(y=x+8\\)",
-    "\\(y=-2x+1\\)",
-    "\\(y=-6x+16\\)"
-  ],
-  "answerIndex": 2,
-  "explanation": "<div class='explanation-step'>If \\(\\frac{45}{5x+15}=\\frac{9}{x+c}\\), it must be the case that the numerator and denominator can be divided by a common factor.  Factor the greatest common factor from the denominator, so \\(5x+15=5(x+3)\\).  It's possible that you can see the value of \\(c\\) from here is \\(3\\), but if not, simplify the given fraction \\(\\frac{45}{5(x+3)}\\) by dividing the numerator and denominator by \\(5\\);  \\(\\frac{\\cancel{45}}{\\cancel{5}(x+3)}=\\frac{9}{x+3}\\). Since \\(\\frac{9}{x+c}=\\frac{9}{x+3}\\), \\(c=3\\).</div>"
-},
-{
-  "id": "MathT2-1-011",
-  "type": "mcq",
-  "skill": {
-    "domain": "Problem-solving and Data Analysis",
-    "topic": "Statistics",
-    "skill": "Margin of Error"
-},
-  "stem": "For a poll about voting method preferences, \\(\\text{3,000}\\) people were selected at random from a population of \\(\\text{30,000}\\) people. From the results of the poll, it is estimated that \\(40\\%\\) of people in the population prefer mail-in ballots, with an associated margin of error of \\(2\\%\\). Based on these results, which of the following is a plausible number of people in the population who prefer mail-in ballots?",
-  "choices": [
-    "\\(\\text{18,800}\\)",
-    "\\(\\text{11,800}\\)",
-    "\\(\\text{1,750)\\)",
-    "\\(\\text{1,250)\\)"
-  ],
-  "answerIndex": 1,
-  "explanation": "<div class='explanation-step'>In the slope-intercept equation \\(y=kx-8\\), \\(k\\) is the slope of the equation.  Substitute the ordered pair \\((a,b)\\) in for \\((x,y)\\) and solve for \\(k\\):</div><div class='explanation-math'>$$\\begin{aligned}y&=kx-8\\\\b&=ka-8\\\\b+8&=ka-\\cancel{8}+\\cancel{8}\\\\ \\frac{b+8}{a}&=\\frac{k\\cancel{a}}{\\cancel{a}}\\\\ k&=\\frac{b+8}{a}\\end{aligned}$$</div>"
-},
-{
-  "id": "MathT2-1-012",
-  "type": "mcq",
-  "skill": {
-     "domain": "Advanced Math",
-    "topic": "Non-linear Systems",
-    "skill": "Solving Non-linear Systems"
-},
-  "stem": "<div style='text-align:center;'><img src='assets/Test2-1-12.png' style='max-width:40%;height:auto;'></div><div style='margin-top:16px;'>The graph of a system of a linear equation and a nonlinear equation is shown. Which is a solution \\((x,y)\\) to this system?</div>",
-    "choices": [
-      "\\((0,3)\\)",
-      "\\((2,0)\\)",
-      "\\((8,0)\\)",
-      "\\((3,8)\\)"
-      ],
-    "answerIndex": 3,
-  "explanation": "<div class='explanation-columns'><div class='explanation-column'><img class='explanation-image' src='assets/Test1-1-16A.png' alt='explanation figure'></div><div class='explanation-column'>The \\(y\\)-intercept is the point where the graph intersects the \\(y\\)-axis. The \\(x\\)-value at the \\(y\\)-intercept is \\(0\\), so eliminate A and B. In the graph, the \\(y\\)-intercept crosses the \\(y\\)-axis at \\((0,3)\\), so C is the correct answer.</div></div>"
-    },
-{
-  "id": "MathT2-1-013",
-  "type": "mcq",
-  "skill": {
-    "domain": "Algebra",
-    "topic": "Linear Functions",
-    "skill": "Modeling"
-},
-"stem": "<div style='margin-top:12px;'>A knitting pattern for a scarf suggests 16 yards of yarn per inch in length of the scarf and an additional 30 yards for the scarf tassels. Which equation represents this equation, where \\(y\\) is the number of yards of yarn needed for a scarf that is \\(x\\) in length?</div>",
-  "choices": [
-      "\\(y=16x+30\\)",
-      "\\(y=30x+16\\)",
-      "\\(y=16x\\)",
-      "\\(y=46x\\)"
+      "stem": "A line passes through the points \\((0, 4)\\) and \\((3, 10)\\). Which of the following is the equation of the line?",
+      "choices": [
+        "\\(y = 2x + 4\\)",
+        "\\(y = 2x + 10\\)",
+        "\\(y = 3x + 4\\)",
+        "\\(y = 2x - 4\\)"
       ],
       "answerIndex": 0,
-  "explanation": "<div class='explanation-step'>The absolute value of a number is its distance from zero. This means that inside the absolute value on the left hand side, \\(30\\) or \\(-30\\) will have an absolute value of \\(30\\), the right hand side of the equation. To solve, write and solve one of two equations; one that gives $30$ or one that gives \\(-30\\) inside the absolute value:</div><div class='explanation-columns'><div class='explanation-column'>$$\\begin{aligned}x+18 &= 30 \\\\ x+\\cancel{18}-\\cancel{18} &= 30-18 \\\\ x &= 12\\end{aligned}$$</div><div class='explanation-column'>$$\\begin{aligned}x+18 &= -30 \\\\ x+\\cancel{18}-\\cancel{18} &= -30-18 \\\\ x &= -48\\end{aligned}$$</div></div>"
+      "explanation": "<div class='explanation-step'>Use the slope formula with the two given points \\((0, 4)\\) and \\((3, 10)\\).</div><div class='explanation-math'>$$m = \\frac{10 - 4}{3 - 0} = \\frac{6}{3} = 2$$</div><div class='explanation-step'>Since the line passes through \\((0, 4)\\), the \\(y\\)-intercept is \\(4\\). The equation of the line is \\(y = 2x + 4\\).</div>"
     },
     {
-  "id": "MathT2-1-014",
-  "type": "gridin",
-  "skill": {
-    "domain": "Advanced Math",
-    "topic": "Quadratic Functions",
-    "skill": "Finding Intercepts"
-},
-  "stem": "<div style='text-align:center;'>$$1=(x+5)(x-9)+1$$</div><div style='margin-top:12px;'>What is the smallest solution to the given equation?</div>",
-  "answer": "-5",
-      "answersAccepted": ["-5"],
-      "validation": {
-        "format": "number",
-        "allowNegative": true,
-        "allowDecimal": true,
-        "allowFraction": false,
-        "maxChars": 8
+      "id": "MathT2-1-002",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Equations and Inequalities",
+        "skill": "Solving Linear Inequalities"
       },
-  "explanation": "<div class='explanation-step'>This is a non-linear system of equations.  To solve, set the two expressions for \\(y\\) equal, so \\(15+10x=(x-1)(2x+3)\\). Expand the right hand side and set the equation equal to zero.</div><div class='explanation-math'>$$\\begin{aligned}15+10x&=(x-1)(2x+3)\\\\ \\cancel{15}+\\cancel{10x}-\\cancel{15}-\\cancel{10x}&=2x^2+3x-2x+-3-15-10x\\\\0&=2x^2-9x-18\\end{aligned}$$</div><div class='explanation-step'>To factor by grouping, multiply \\(a \\times c\\). In the expression \\(2x^2-9x-18\\), \\(a=2\\) and \\(c=-18\\), so \\(a \\times c = -36\\).  Determine factors of \\(-36\\) that have a sum of \\(-9\\).  These factors are \\(-12\\) and \\(3\\) because \\(-12 \\times 3= -36\\) and \\(-12 +3=9\\).  Re-write the given quadratic expression with these factors.</div><div class='explanation-math'>$$\\begin{aligned}&=2x^2-9x-18\\\\&=2x^2-12x+3x-18\\end{aligned}$$</div><div class='explanation-step'>Factor the greatest common factor from \\(2x^2-12x\\) and \\(3x-18\\):</div><div class='explanation-math'>$$\\begin{aligned}&=2x^2-12x+3x-18\\\\&=2x(x-6)+3(x-6)\\end{aligned}$$</div><div class='explanation-step'>Re-write the expression as the product of two binomials;  \\(2x(x-6)+3(x-6)=(2x+3)(x-6)\\). Use the Zero Product Property to solve: \\(2x+3=0\\) and \\(x+6=0\\), so \\(x=-\\frac{3}{2}\\) or \\(x=-6\\). The answer that appears in the answer choice is \\(-\\frac{3}{2}\\), so D is the correct answer<br><br>The other method that can be used to solve this problem is substituting answers; the challenge with this method in this problem is that you will have to substitute a fraction at some point as there are two fractional answer choices.</div>"
-},
-{
-  "id": "MathT2-1-015",
-  "type": "mcq",
-  "skill": {
-    "domain": "Algebra",
-    "topic": "Systems of Equations",
-    "skill": "Solving Linear Systems"
-},
-  "stem": "<div style='text-align:center;'>$$x-3y=8$$</div><div style='text-align:center;'>$$-4y=40$$</div><div style='margin-top:12px;'>The solution to the given system of equations is \\((x,y)\\).  What is the value of \\(x+y\\)?</div>",
-  "choices": [
-    "\\(48\\)",
-    "\\(32\\)",
-    "\\(-32\\)",
-    "\\(-48\\)"
-  ],
-  "answerIndex": 1,
-  "explanation": "<div class='explanation-step'>From the answers, notice that this is a factoring problem.  Right away you can eliminate C and D because if the terms cannot be combined before factoring, they also cannot be combined after factoring.  The greatest common factor, \\(4m^3 n^3\\), is the same in answer choices A and B so divide both terms by it to find what is remaining inside the parentheses.</div><div class='explanation-columns'><div class='explanation-column'>$$\\begin{aligned}&=\\frac{20\\cancel{m^3n^3}}{4\\cancel{m^3n^3}}\\\\&= \\frac{20}{4}\\\\&=5\\end{aligned}$$</div><div class='explanation-column'>$$\\begin{aligned}&=\\frac{\\cancel{4m^3}n^6}{\\cancel{4m^3}n^3}\\\\&= \\frac{n^6}{n^3}\\\\&=n^3\\end{aligned}$$</div></div><div class='explanation-step'>The factored form of this expression is \\(4m^3 n^3 (5+n^3 )\\), so the correct answer is B.</div>"
-},
-{
-  "id": "MathT2-1-016",
-  "type": "mcq",
-  "skill": {
-    "domain": "Geometry and Trigonometry",
-    "topic": "Perimeter, Area, and Volume",
-    "skill": "Volume"
-},
-  "stem": "A cylindrical barrel has a diameter of 12 feet and a volume of 252\\pi cubic feet. What is the height, in feet, of the barrel?",
-  "choices": [
-    "\\(6\\)",
-    "\\(7\\)",
-    "\\(12\\)",
-    "\\(21\\)"
-  ],
-  "answerIndex": 1,
-  "explanation": "<div class='explanation-step'>Write and solve an equation to find the cost to rent one table.  Let \\(t=\\) the cost of one table.  This means \\(12t\\) is the cost to rent \\(12\\) tables. Add the delivery fee to get the total cost, so \\(12t+124=220\\).</div><div class='explanation-math'>$$\\begin{aligned}12t+\\cancel{124}-\\cancel{124}&=220-124\\\\ \\frac{\\cancel{12}t}{\\cancel{12}}&=\\frac{96}{12}\\\\t&=8\\end{aligned}$$</div>"
-},
-
-  {
-  "id": "MathT1-1-017",
-  "type": "mcq",
-  "skill": {
-    "domain": "Algebra",
-    "topic": "Systems of Equations",
-    "skill": "Number of Solutions"
-},
-  "stem": "How many times do the graphs of the equations \\(y=2x+1\\) and \\(x+2y=4\\) intersect in the \\(xy-\\)plane?",
-  "choices": [
-    "\\(0\\)",
-    "\\(1\\)",
-    "\\(2\\)",
-    "\\(4\\)"
-  ],
-  "answerIndex": 1,
-  "explanation": "<div class='explanation-step'>The graphs of linear equations can intersect \\(0\\), \\(1\\), or infinitely many times.  Eliminate C and D. In general, the rules for how many times lines intersect are as follows:</div><ul><li>Graphs of equations with the same slope but different \\(y\\)-intercepts intersect \\(0\\) times because they are parallel lines.</li><li>Graphs of equations with different slopes intersect \\(1\\) time.</li><li>Graphs of equations with the same slope and same \\(y\\)-intercept intersect infinitely many times because they are equivalent equations that produce the same line.</li></ul><div class='explanation-step'>To determine how many times the graphs intersect, write the second equation in slope-intercept form, \\(y=mx+b\\).  The first equation is already in slope-intercept form where the slope is \\(2\\) and the \\(y\\)-intercept is \\(1\\).</div><div class='explanation-math'>$$\\begin{aligned}\\cancel{x}+2y-\\cancel{x}&=4-x\\\\\\frac{\\cancel{2}y}{\\cancel{2}}&=\\frac{4-x}{2}\\\\y&=-\\frac{1}{2}x+2\\end{aligned}$$</div><div class='explanation-step'>The slope of this line is \\(\\frac{1}{2}\\).  Since this is different than the slope of the other line (\\(2\\)), the lines intersect one time.</div>"
-},
-{
-  "id": "MathT1-1-018",
-  "type": "gridin",
-  "skill": {
-    "domain": "Algebra",
-    "topic": "Equations and Inequalities",
-    "skill": "Equivalent Equations"
-},   
-  "stem": "<div style='margin-top:12px;'>What is the value of \\(20-4x\\) if \\(5-x=21\\)?</div>",
-  "answer": "84",
-  "answersAccepted": ["84"],
-  "validation": {
-    "format": "number",
-      "allowNegative": true,
-      "allowDecimal": true,
-      "allowFraction": false,
-      "maxChars": 8
-      },
-      "explanation": "<div class='explanation-step'>To find the value of \\(20-4x\\) there is no need to solve directly for \\(x\\).  \\(20-4x\\) is \\(5-x\\) multiplied by \\(4\\), so multiply both sides of the given equation by \\(4\\).</div><div class='explanation-math'>$$\\begin{aligned}4(5-x)&=21 \\times 4\\\\20-4x&=84\\end{aligned}$$</div>"
+      "stem": "Which of the following values of \\(x\\) satisfies \\(3x - 7 > 2\\)?",
+      "choices": [
+        "\\(x = 1\\)",
+        "\\(x = 2\\)",
+        "\\(x = 3\\)",
+        "\\(x = 4\\)"
+      ],
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>Solve the inequality for \\(x\\).</div><div class='explanation-math'>$$\\begin{aligned}3x - 7 &> 2 \\\\ 3x &> 9 \\\\ x &> 3\\end{aligned}$$</div><div class='explanation-step'>The solution is \\(x > 3\\). Of the choices, only \\(x = 4\\) satisfies this condition. Note that \\(x = 3\\) does not work because the inequality is strict (\\(>\\), not \\(\\geq\\)).</div>"
     },
     {
-  "id": "MathT1-1-019",
-  "type": "gridin",
-  "skill": {
-    "domain": "Geometry and Trigonometry",
-    "topic": "Pythagorean Theorem",
-    "skill": "Using Pythagorean Theorem"
-},
-  "stem": "<div style='margin-top:12px;'>The legs of a right triangle have lengths of \\(32\\) inches and \\(51\\) inches. The length of this hypotenuse of the triangle can be written, in inches, can be written in the form \\(5\\sqrt{n}\\), where \\(n\\) is an integer, what is the value of \\(n\\)</div>",
-  "answer": "145",
-  "answersAccepted": ["145"],
-  "validation": { 
-    "format": "number",
-      "allowNegative": true,
-      "allowDecimal": true,
-      "allowFraction": false,
-      "maxChars": 8
+      "id": "MathT2-1-003",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Quadratic Functions",
+        "skill": "Completing the Square"
       },
-  "explanation": "</div><img class='explanation-image' src='assets/Test1-1-19A.png' alt='explanation figure'></div><div class='explanation-step'>In order to find the value of \\(n\\), first find the length of the hypotenuse.  Use the Pythagorean Theorem, \\(a^2+b^2=c^2\\) where the hypotenuse is \\(c\\).</div><div class='explanation-math'>$$\\begin{aligned}32^2+51^2&=c^2\\\\\\sqrt{3,625}&=\\sqrt{c^2}\\\\c&=\\sqrt{3,625}\\end{aligned}$$</div><div class='explanation-step'>Set the hypotenuse equal to the given length \\(5\\sqrt{n}\\) and solve for \\(n\\), so \\(\\sqrt{3,625}=5\\sqrt{n}\\).  Since \\(5\\) appears as a factor outside the square root, this means it was \\(5^2\\) inside the radical, so \\(\\sqrt{5^2 \\times 145}=5\\sqrt{n}\\), and \\(n=145\\).</div>"
+      "stem": "Which of the following is equivalent to \\(x^2 + 6x + 5\\) and reveals the minimum value of the expression?",
+      "choices": [
+        "\\((x + 3)^2 - 4\\)",
+        "\\((x + 3)^2 + 4\\)",
+        "\\((x - 3)^2 - 4\\)",
+        "\\((x + 6)^2 - 4\\)"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>Complete the square to rewrite the expression in vertex form.</div><div class='explanation-math'>$$\\begin{aligned}x^2 + 6x + 5 &= x^2 + 6x + 9 - 9 + 5 \\\\ &= (x + 3)^2 - 4\\end{aligned}$$</div><div class='explanation-step'>The expression \\((x+3)^2 - 4\\) reveals that the minimum value is \\(-4\\), occurring when \\(x = -3\\) (since \\((x+3)^2 \\geq 0\\) for all real \\(x\\)).</div>"
     },
     {
-  "id": "MathT1-1-020",
-  "type": "mcq",
-  "skill": {
-    "domain": "Algebra",
-    "topic": "Systems of Equations",
-    "skill": "Solving Linear Systems"
-},
-  "stem": "<div style='text-align:center;'>$$x=7y$$</div><div style='text-align:center;'>$$-5y+x=28$$</div><div style='margin-top:12px;'>The solution to the given system of equations is \\((x,y)\\).  What is the value of \\(y\\)?</div>",
-  "choices": [
-    "\\(2\\)",
-    "\\(4\\)",
-    "\\(14\\)",
-    "\\(28\\)"
-  ],
-  "answerIndex": 2,
-  "explanation": "<div class='explanation-step'>To solve this system of equations, substitute \\(7y\\) into the second equation for \\(x\\) and solve for \\(y\\).</div><div class='explanation-math'>$$\\begin{aligned}-5y+x&=28\\\\-5y+7y&=28\\\\ \\frac{\\cancel{2}y}{\\cancel{2}}&=\\frac{28}{2}\\\\y&=14\\end{aligned}$$</div>"
-},
-{
-  "id": "MathT1-1-021",
-  "type": "mcq",
-  "skill": {
-    "domain": "Advanced Math",
-    "topic": "Quadratic Functions",
-    "skill": "Finding the Vertex (Max/min)"
-},
-  "stem": "<div style='text-align:center;'>$$y=a(x+3)(x-5)$$</div><div style='margin-top:12px;'>In the quadratic equation above, \\(a\\) is a nonzero constant.  The graph of the equation in the \\(xy-\\)plane is a parabola with vertex \\((m,n)\\).  Which of the following is equal to \\(n\\)?</div>",
-  "choices": [
-    "\\(-16a\\)",
-    "\\(-15a\\)",
-    "\\(-5a\\)",
-    "\\(-3a\\)"
-  ],
-  "answerIndex": 0,
-  "explanation": "<div class='explanation-step'>For all parabolas, the \\(x\\)-value of the vertex is on the axis of symmetry.  The axis of symmetry is halfway between pairs of symmetrical points, including the \\(x\\)-intercepts.  In this factored form equation \\(y=a(x+3)(x-5)\\), the \\(x\\)-intercepts are \\((-3,0)\\) and \\((5,0)\\).  To find the axis of symmetry (which is also the \\(x\\)-value of the vertex), find the average, or midpoint of \\(-3\\) and \\(5\\), so \\(\\frac{-3+5}{2}=1\\).  Since \\((m,n)\\) is the vertex, \\(m=1\\). Substitute \\((1,n)\\) into the equation to solve for \\(n\\).</div><div class='explanation-math'>$$\\begin{aligned}y&=a(x+3)(x-5)\\\\n&=a(1+3)(1-5)\\\\n&=a(4)(-4)\\\\n&=-16a\\end{aligned}$$</div>"
-},
-{
-  "id": "MathT1-1-022",
-  "type": "mcq",
-  "skill": {
-    "domain": "Advanced Math",
-    "topic": "Quadratic Functions",
-    "skill": "Factoring"
-},
-  "stem": "Which expression is equivalent to \\(x^2-3x-10\\)?",
-  "choices": [
-    "\\((x+5)(x-2)\\)",
-    "\\((x+10)(x-1)\\)",
-    "\\((x+1)(x-10)\\)",
-    "\\((x+2)(x-5)\\)"
-  ],
-  "answerIndex": 3,
-  "explanation": "<div class='explanation-step'>Method \\(1\\) Factor.  To factor, determine factors of \\(-10\\) that have a sum of \\(-3\\).  These factors are \\(-5\\) and \\(2\\) because \\(-5 \\times 2= -10\\) and \\(-5 +2=-3\\).  Re-write the given quadratic expression with these factors.</div><div class='explanation-math'>$$\\begin{aligned}&=x^2-3x-10\\\\&=(x-5)(x+2)\\end{aligned}$$</div><div class='explanation-step'>Method \\(2\\): Multiply the answer choices to find \\(x^2-3x-10\\).<br><br>A) \\((x+5)(x-2)=x^2-2x+5x-10=x^2+3x-10\\)Incorrect<br><br>B) \\((x+10)(x-1)=x^2-x+10x-10=x^2+9x-10\\) Incorrect<br><br>C) \\((x+1)(x-10)=x^2-10x+x-10=x^2-9x-10\\) Incorrect<br><br>D) \\((x+2)(x-5)=x^2-5x+2x-10=x^2+3x-10\\) Correct</div>"
-}
+      "id": "MathT2-1-004",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Geometry and Trigonometry",
+        "topic": "Lines and Angles",
+        "skill": "Triangle Angle Sum"
+      },
+      "stem": "In triangle \\(ABC\\), the measure of angle \\(A\\) is \\(3x°\\), the measure of angle \\(B\\) is \\((2x + 20)°\\), and the measure of angle \\(C\\) is \\((x + 10)°\\). What is the measure, in degrees, of angle \\(B\\)?",
+      "choices": [
+        "\\(50\\)",
+        "\\(60\\)",
+        "\\(70\\)",
+        "\\(75\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>The sum of the angles in any triangle is \\(180°\\). Set up and solve an equation.</div><div class='explanation-math'>$$\\begin{aligned}3x + (2x + 20) + (x + 10) &= 180 \\\\ 6x + 30 &= 180 \\\\ 6x &= 150 \\\\ x &= 25\\end{aligned}$$</div><div class='explanation-step'>Substitute \\(x = 25\\) to find angle \\(B\\): \\(2(25) + 20 = 70°\\).</div>"
+    },
+    {
+      "id": "MathT2-1-005",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Problem Solving and Data Analysis",
+        "topic": "Percents",
+        "skill": "Percent Change"
+      },
+      "stem": "A jacket originally costs \\$80. It is on sale for \\$60. What is the percent decrease in price?",
+      "choices": [
+        "\\(20\\%\\)",
+        "\\(25\\%\\)",
+        "\\(30\\%\\)",
+        "\\(33\\%\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>Percent decrease is calculated using the original price as the denominator.</div><div class='explanation-math'>$$\\text{Percent decrease} = \\frac{80 - 60}{80} \\times 100 = \\frac{20}{80} \\times 100 = 25\\%$$</div><div class='explanation-step'>A common error is dividing by the new price: \\(\\frac{20}{60} \\approx 33\\%\\). Always use the original value when calculating percent change.</div>"
+    },
+    {
+      "id": "MathT2-1-006",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Linear Functions",
+        "skill": "Slope-Intercept Form"
+      },
+      "stem": "Line \\(l\\) is defined by the equation \\(4x - 2y = 10\\). Which of the following correctly describes line \\(l\\)?",
+      "choices": [
+        "Slope \\(= 2\\) and \\(y\\)-intercept \\(= -5\\)",
+        "Slope \\(= 4\\) and \\(y\\)-intercept \\(= -10\\)",
+        "Slope \\(= 2\\) and \\(y\\)-intercept \\(= 5\\)",
+        "Slope \\(= -2\\) and \\(y\\)-intercept \\(= 5\\)"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>Rewrite the equation in slope-intercept form \\(y = mx + b\\).</div><div class='explanation-math'>$$\\begin{aligned}4x - 2y &= 10 \\\\ -2y &= -4x + 10 \\\\ y &= 2x - 5\\end{aligned}$$</div><div class='explanation-step'>The slope is \\(2\\) and the \\(y\\)-intercept is \\(-5\\).</div>"
+    },
+    {
+      "id": "MathT2-1-007",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Polynomials",
+        "skill": "Polynomial Division"
+      },
+      "stem": "Which of the following is equivalent to \\(\\dfrac{x^3 - 2x^2 - 5x + 6}{x - 3}\\), for \\(x \\neq 3\\)?",
+      "choices": [
+        "\\(x^2 + x - 2\\)",
+        "\\(x^2 - x - 2\\)",
+        "\\(x^2 + x + 2\\)",
+        "\\(x^2 - x + 2\\)"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>Use synthetic division to divide \\(x^3 - 2x^2 - 5x + 6\\) by \\(x - 3\\).</div><div class='explanation-math'>$$\\begin{array}{r|rrrr} 3 & 1 & -2 & -5 & 6 \\\\ & & 3 & 3 & -6 \\\\ \\hline & 1 & 1 & -2 & 0 \\end{array}$$</div><div class='explanation-step'>The remainder is \\(0\\), confirming \\(x = 3\\) is a root. The quotient is \\(x^2 + x - 2\\).</div>"
+    },
+    {
+      "id": "MathT2-1-008",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Systems of Equations",
+        "skill": "Word Problem Setup"
+      },
+      "stem": "A farmer has only chickens and cows. There are 20 heads and 56 legs in total. How many cows does the farmer have?",
+      "choices": [
+        "\\(6\\)",
+        "\\(7\\)",
+        "\\(8\\)",
+        "\\(10\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Let \\(c\\) = number of cows and \\(k\\) = number of chickens. Each animal has 1 head; cows have 4 legs, chickens have 2.</div><div class='explanation-math'>$$\\begin{aligned}c + k &= 20 \\\\ 4c + 2k &= 56\\end{aligned}$$</div><div class='explanation-step'>From the first equation, \\(k = 20 - c\\). Substitute into the second equation.</div><div class='explanation-math'>$$\\begin{aligned}4c + 2(20 - c) &= 56 \\\\ 4c + 40 - 2c &= 56 \\\\ 2c &= 16 \\\\ c &= 8\\end{aligned}$$</div>"
+    },
+    {
+      "id": "MathT2-1-009",
+      "type": "gridin",
+      "level": 2,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Functions",
+        "skill": "Composition of Functions"
+      },
+      "stem": "The functions \\(f\\) and \\(g\\) are defined by \\(f(x) = 2x + 1\\) and \\(g(x) = x^2 - 3\\). What is the value of \\(f(g(2))\\)?",
+      "answer": 3,
+      "explanation": "<div class='explanation-step'>First evaluate \\(g(2)\\), then substitute the result into \\(f\\).</div><div class='explanation-math'>$$\\begin{aligned}g(2) &= (2)^2 - 3 = 4 - 3 = 1 \\\\ f(g(2)) &= f(1) = 2(1) + 1 = 3\\end{aligned}$$</div>"
+    },
+    {
+      "id": "MathT2-1-010",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Equations and Inequalities",
+        "skill": "Literal Equations"
+      },
+      "stem": "The perimeter of a rectangle is given by \\(P = 2l + 2w\\), where \\(l\\) is the length and \\(w\\) is the width. Which of the following expresses \\(l\\) in terms of \\(P\\) and \\(w\\)?",
+      "choices": [
+        "\\(l = P - 2w\\)",
+        "\\(l = \\dfrac{P - 2w}{2}\\)",
+        "\\(l = \\dfrac{P}{2} + w\\)",
+        "\\(l = 2P - w\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>Solve the formula for \\(l\\).</div><div class='explanation-math'>$$\\begin{aligned}P &= 2l + 2w \\\\ P - 2w &= 2l \\\\ l &= \\frac{P - 2w}{2}\\end{aligned}$$</div>"
+    },
+    {
+      "id": "MathT2-1-011",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Exponential Functions",
+        "skill": "Exponential Growth"
+      },
+      "stem": "A population of bacteria doubles every 3 hours. If there are initially 500 bacteria, which of the following functions gives the population \\(P\\) after \\(t\\) hours?",
+      "choices": [
+        "\\(P(t) = 500 \\cdot 2^t\\)",
+        "\\(P(t) = 500 \\cdot 2^{t/3}\\)",
+        "\\(P(t) = 500 \\cdot 3^t\\)",
+        "\\(P(t) = 500 + 2t\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>Since the population doubles every 3 hours, the exponent must equal 1 when \\(t = 3\\). This means the exponent is \\(\\frac{t}{3}\\), giving \\(P(t) = 500 \\cdot 2^{t/3}\\).</div><div class='explanation-step'>Check: at \\(t = 0\\), \\(P = 500\\) ✓. At \\(t = 3\\), \\(P = 500 \\cdot 2^1 = 1000\\) ✓ (doubled). At \\(t = 6\\), \\(P = 500 \\cdot 2^2 = 2000\\) ✓ (doubled again).</div>"
+    },
+    {
+      "id": "MathT2-1-012",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Geometry and Trigonometry",
+        "topic": "Circles",
+        "skill": "Arc Length"
+      },
+      "stem": "A circle has a radius of 6. A central angle measures \\(120°\\). What is the length of the arc intercepted by this angle?",
+      "choices": [
+        "\\(2\\pi\\)",
+        "\\(3\\pi\\)",
+        "\\(4\\pi\\)",
+        "\\(6\\pi\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Arc length is a fraction of the total circumference, determined by the central angle.</div><div class='explanation-math'>$$\\text{Arc length} = \\frac{120}{360} \\times 2\\pi(6) = \\frac{1}{3} \\times 12\\pi = 4\\pi$$</div>"
+    },
+    {
+      "id": "MathT2-1-013",
+      "type": "gridin",
+      "level": 2,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Linear Functions",
+        "skill": "Parallel and Perpendicular Lines"
+      },
+      "stem": "Line \\(m\\) has equation \\(y = 3x - 2\\). Line \\(n\\) is perpendicular to line \\(m\\) and passes through the point \\((0, 1)\\). What is the \\(y\\)-coordinate of the point on line \\(n\\) where \\(x = 3\\)?",
+      "answer": 0,
+      "explanation": "<div class='explanation-step'>The slope of a line perpendicular to line \\(m\\) is the negative reciprocal of \\(3\\), which is \\(-\\frac{1}{3}\\). Line \\(n\\) passes through \\((0, 1)\\), so its equation is \\(y = -\\frac{1}{3}x + 1\\).</div><div class='explanation-math'>$$y = -\\frac{1}{3}(3) + 1 = -1 + 1 = 0$$</div>"
+    },
+    {
+      "id": "MathT2-1-014",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Problem Solving and Data Analysis",
+        "topic": "Ratios and Proportional Reasoning",
+        "skill": "Setting Up Proportions"
+      },
+      "stem": "A recipe calls for 3 cups of flour for every 2 cups of sugar. If a baker uses 9 cups of flour, how many cups of sugar are needed?",
+      "choices": [
+        "\\(4\\)",
+        "\\(5\\)",
+        "\\(6\\)",
+        "\\(8\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Set up a proportion using the given ratio of flour to sugar.</div><div class='explanation-math'>$$\\frac{3}{2} = \\frac{9}{x} \\implies 3x = 18 \\implies x = 6$$</div>"
+    },
+    {
+      "id": "MathT2-1-015",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Quadratic Functions",
+        "skill": "Discriminant"
+      },
+      "stem": "For what value of \\(k\\) does the equation \\(kx^2 - 4x + 1 = 0\\) have exactly one real solution?",
+      "choices": [
+        "\\(2\\)",
+        "\\(4\\)",
+        "\\(8\\)",
+        "\\(16\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>A quadratic equation has exactly one real solution when its discriminant equals zero. For \\(kx^2 - 4x + 1 = 0\\), the discriminant is \\(b^2 - 4ac = (-4)^2 - 4(k)(1) = 16 - 4k\\).</div><div class='explanation-math'>$$16 - 4k = 0 \\implies k = 4$$</div><div class='explanation-step'>When \\(k = 4\\), the equation \\(4x^2 - 4x + 1 = 0\\) factors as \\((2x - 1)^2 = 0\\), giving exactly one solution \\(x = \\frac{1}{2}\\). ✓</div>"
+    },
+    {
+      "id": "MathT2-1-016",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Algebraic Expressions",
+        "skill": "Operations with Polynomials"
+      },
+      "stem": "Which of the following is equivalent to \\((3x^2 - 2x + 5) - (x^2 + 4x - 3)\\)?",
+      "choices": [
+        "\\(2x^2 - 6x + 8\\)",
+        "\\(2x^2 + 2x + 2\\)",
+        "\\(4x^2 - 6x + 8\\)",
+        "\\(2x^2 - 6x + 2\\)"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>Distribute the negative sign and combine like terms.</div><div class='explanation-math'>$$\\begin{aligned}&(3x^2 - 2x + 5) - (x^2 + 4x - 3) \\\\ &= 3x^2 - 2x + 5 - x^2 - 4x + 3 \\\\ &= 2x^2 - 6x + 8\\end{aligned}$$</div><div class='explanation-step'>A common error is forgetting to distribute the negative sign to all terms in the second polynomial, especially the \\(-3\\), which becomes \\(+3\\).</div>"
+    },
+    {
+      "id": "MathT2-1-017",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Systems of Equations",
+        "skill": "System Word Problem"
+      },
+      "stem": "Ana and Ben together have \\$120. Ana has \\$30 more than Ben. How much money does Ben have?",
+      "choices": [
+        "\\$40",
+        "\\$45",
+        "\\$50",
+        "\\$55"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>Let \\(a\\) = Ana's amount and \\(b\\) = Ben's amount. Write a system of equations.</div><div class='explanation-math'>$$\\begin{aligned}a + b &= 120 \\\\ a &= b + 30\\end{aligned}$$</div><div class='explanation-step'>Substitute the second equation into the first.</div><div class='explanation-math'>$$\\begin{aligned}(b + 30) + b &= 120 \\\\ 2b + 30 &= 120 \\\\ 2b &= 90 \\\\ b &= 45\\end{aligned}$$</div>"
+    },
+    {
+      "id": "MathT2-1-018",
+      "type": "gridin",
+      "level": 3,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Functions",
+        "skill": "Interpreting Function Forms"
+      },
+      "stem": "The function \\(f\\) is defined by \\(f(x) = -(x - 2)^2 + 9\\). What is the maximum value of \\(f(x)\\)?",
+      "answer": 9,
+      "explanation": "<div class='explanation-step'>The function is written in vertex form \\(f(x) = a(x - h)^2 + k\\), where the vertex is at \\((h, k)\\). Here \\(a = -1\\), \\(h = 2\\), and \\(k = 9\\).</div><div class='explanation-step'>Since \\(a = -1 < 0\\), the parabola opens downward, so the vertex represents a maximum. The maximum value of \\(f(x)\\) is \\(\\mathbf{9}\\), occurring at \\(x = 2\\).</div>"
+    },
+    {
+      "id": "MathT2-1-019",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Equations and Inequalities",
+        "skill": "Absolute Value Inequalities"
+      },
+      "stem": "Which of the following represents all solutions to \\(|x - 3| \\leq 5\\)?",
+      "choices": [
+        "\\(-2 \\leq x \\leq 8\\)",
+        "\\(x \\leq -2\\) or \\(x \\geq 8\\)",
+        "\\(-5 \\leq x \\leq 5\\)",
+        "\\(0 \\leq x \\leq 8\\)"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For \\(|x - 3| \\leq 5\\), rewrite as a compound inequality.</div><div class='explanation-math'>$$-5 \\leq x - 3 \\leq 5$$</div><div class='explanation-step'>Add 3 to all parts.</div><div class='explanation-math'>$$-2 \\leq x \\leq 8$$</div>"
+    },
+    {
+      "id": "MathT2-1-020",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Geometry and Trigonometry",
+        "topic": "Right Triangles",
+        "skill": "Special Right Triangles"
+      },
+      "stem": "In a \\(30°\\)-\\(60°\\)-\\(90°\\) triangle, the length of the shorter leg is 5. What is the length of the hypotenuse?",
+      "choices": [
+        "\\(5\\sqrt{2}\\)",
+        "\\(5\\sqrt{3}\\)",
+        "\\(10\\)",
+        "\\(10\\sqrt{3}\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>In a \\(30°\\)-\\(60°\\)-\\(90°\\) triangle, the side lengths are in the ratio \\(1 : \\sqrt{3} : 2\\), where the shortest side is opposite the \\(30°\\) angle and the hypotenuse is twice the shorter leg.</div><div class='explanation-math'>$$\\text{Hypotenuse} = 2 \\times 5 = 10$$</div><div class='explanation-step'>Common errors: choosing \\(5\\sqrt{2}\\) confuses this with a \\(45°\\)-\\(45°\\)-\\(90°\\) triangle, and \\(5\\sqrt{3}\\) is the longer leg, not the hypotenuse.</div>"
+    },
+    {
+      "id": "MathT2-1-021",
+      "type": "gridin",
+      "level": 1,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Linear Functions",
+        "skill": "Rate of Change in Context"
+      },
+      "stem": "A car travels at a constant speed. After 2 hours, the car has traveled 110 miles. After 5 hours, the car has traveled 275 miles. What is the car's speed in miles per hour?",
+      "answer": 55,
+      "explanation": "<div class='explanation-step'>Since speed is constant, use the slope formula to find the rate of change.</div><div class='explanation-math'>$$\\text{Speed} = \\frac{275 - 110}{5 - 2} = \\frac{165}{3} = 55 \\text{ mph}$$</div>"
+    },
+    {
+      "id": "MathT2-1-022",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Quadratic Functions",
+        "skill": "Quadratic Word Problem"
+      },
+      "stem": "A ball is thrown upward from a height of 4 feet. Its height \\(h\\), in feet, after \\(t\\) seconds is given by \\(h(t) = -16t^2 + 48t + 4\\). What is the maximum height, in feet, that the ball reaches?",
+      "choices": [
+        "\\(36\\)",
+        "\\(40\\)",
+        "\\(44\\)",
+        "\\(52\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>The maximum height occurs at the vertex. Find the \\(t\\)-value of the vertex using \\(t = -\\frac{b}{2a}\\).</div><div class='explanation-math'>$$t = -\\frac{48}{2(-16)} = -\\frac{48}{-32} = \\frac{3}{2} = 1.5 \\text{ seconds}$$</div><div class='explanation-step'>Substitute \\(t = 1.5\\) into \\(h(t)\\).</div><div class='explanation-math'>$$\\begin{aligned}h(1.5) &= -16(1.5)^2 + 48(1.5) + 4 \\\\ &= -16(2.25) + 72 + 4 \\\\ &= -36 + 72 + 4 \\\\ &= 40\\end{aligned}$$</div>"
+    }
   ]
 }

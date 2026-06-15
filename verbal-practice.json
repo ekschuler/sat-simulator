@@ -525,44 +525,117 @@
 {
       "id": "V-L1-020",
       "type": "mcq",
-      "mode": "practice",
-      "subject": "verbal",
-
       "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Rhetorical Synthesis",
-        "skill": "Using Notes"
+        "domain": "Craft and Structure",
+        "topic": "Words in Context",
+        "skill": "Vocabulary in Context"
       },
 
       "level": 1,
       "set": "Verbal Practice",
-      "tags": ["student research", "summarizing ideas"],
+      "tags": ["vocabulary", "sentence completion"],
 
-      "stemSegments": [
-    {
-      "text": "While researching a topic, a student has taken the following notes:",
-      "align": "left",
-      "style": "default"
-    },
-    {
-      "text": "• Dinosaur Park is a roadside attraction in Rapid City, South Dakota.\n• It has seven of the world's largest model dinosaurs.\n• The largest dinosaur weighs approximately 185,000 pounds.\n• Cabazon Dinosaurs is a roadside attraction in Cabazon, California.\n• It has two of the largest model dinosaurs in the world.\n• The largest dinosaur weighs approximately 300,000 pounds.",
-      "align": "left",
-      "style": "notes"
-    },
-    {
-      "text": "The student wants to compare the weights of two of the dinosaurs at the respective parks. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
-      "align": "left",
-      "style": "question"
-    }
-  ],
+      "stem": "A misinterpretation of the Stravinsky's ballet &ldquo;The Rite of Spring,&rdquo; bolstered by provocative themes and chaotic choreography, <span class='blank'>_______</span> negative reactions at its 1913 premiere that rioting and fighting broke out among members of the audience.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
   "choices": [
-    "Some of the model dinosaurs in the United States, including one of the two at Cabazon Dinosaurs, weigh more than \\(\\text{150,000}\\) pounds.",
-    "The largest dinosaur at Dinosaur Park weighs about \\(\\text{185,000}\\) pounds, while the significantly heavier dinosaur at Cabazon Dinosaurs weighs about \\(\\text{300,000}\\) pounds.",
-    "The largest dinosaur at Dinosaur Park, which boasts seven of the largest model dinosaurs in the world, weighs approximately \\(\\text{185,000}\\).",
-    "Dinosaur Park, located in South Dakota, and Cabazon Dinosaurs, located in California, are examples of roadside attractions."
+    "contradicted most",
+    "incited such",
+    "minimized the",
+    "ignored the"
   ],
   "answerIndex": 1,
-  "explanation": "<div class='explanation-step'>For <em>Student Research</em> questions, focus on what the student wants to highlight or accomplish. In this case, the student wants to <em>compare the weights of two of the dinosaurs at the respective parks</em>. Therefore, the correct answer must mention both parks and provide a clear comparison of the dinosaurs’ weights.</div><div class='explanation-step'>Looking at the list of bulleted notes, the following provide the relevant information: <ul style='margin-top:8px; margin-bottom:8px; padding-left:20px; line-height:1.8;'><li>The largest dinosaur at Dinosaur Park weighs approximately 185,000 pounds.</li><li>The largest dinosaur at Cabazon Dinosaurs weighs approximately 300,000 pounds.</li></ul></div><div class='explanation-step'>The correct answer must paraphrase these notes and highlight the difference in weight between the two dinosaurs.</div><div class='explanation-step'><strong>A)</strong>This choice mentions only one park and gives an approximate weight range, not a comparison between the two dinosaurs. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>This choice directly compares the two dinosaurs, mentioning both parks and showing that the Cabazon dinosaur is significantly heavier. Keep B.</div><div class='explanation-step'><strong>C)</strong>This choice discusses only Dinosaur Park and omits any mention of the Cabazon Dinosaurs, so it fails to make a comparison. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>This choice mentions both parks but does not include any information about the weights of their dinosaurs, which is the focus of the question. Eliminate D.</div><br><br>This means the correct answer is <strong>B</strong>."
+  "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word or phrase fits in the blank. Look for signal words that show whether the blank should be a synonym, an antonym, or a cause-and-effect relationship to another part of the sentence.</div><div class='explanation-step'>Here, the ballet was misinterpreted and had &ldquo;provocative themes and chaotic choreography,&rdquo; leading to &ldquo;negative reactions&rdquo; so extreme that they caused &ldquo;rioting.&rdquo; The word or phrase in the blank must therefore convey the idea of <em>causing</em> or <em>bringing about</em> these reactions.</div><div class='explanation-step'><strong>A)</strong> &ldquo;contradicted most&rdquo; means the reactions were in opposition to the misinterpretation. If that were true, the reactions wouldn’t have caused rioting. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;incited such&rdquo; means caused or stirred up, which precisely expresses the cause-and-effect relationship between the misinterpretation and the rioting. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;minimized the&rdquo; means to make something less significant. This is the opposite of what occurred. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;ignored the&rdquo; suggests that the misinterpretation ignored the reactions, which doesn’t fit logically or grammatically. Eliminate D.</div><br><br>This means <strong>B</strong> is the correct answer.</div>"
+},
+ {
+    "id": "V-L1-021",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Form, Structure, and Sense",
+      "skill": "Standard English Conventions"
+    },
+    "level": 1,
+    "set": "Verbal Practice",
+    "tags": ["grammar", "verb tense", "past perfect"],
+    "stem": "By the time the committee released its final report, investigators <span class='blank'>_______</span> the case for over three years.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "studied",
+      "have studied",
+      "had been studying",
+      "are studying"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices are different verb tenses, so this question tests <strong>Verb Tense</strong>.</div><div class='explanation-step'>The phrase &ldquo;by the time the committee released its final report&rdquo; signals that the investigating happened over a period of time that ended before the report was released. When one past action was ongoing and completed before another past action, the past perfect progressive tense (had been + verb-ing) is correct.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Studied&rdquo; is simple past, which describes a completed action but does not show that it preceded another past event. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Have studied&rdquo; is present perfect, which connects a past action to the present. The sentence is entirely in the past. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Had been studying&rdquo; is past perfect progressive, correctly showing that the investigation was ongoing over a period of time that ended before the report was released. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Are studying&rdquo; is present progressive, which breaks the past timeline entirely. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+      "id": "V-L1-022",
+      "type": "mcq",
+      "skill": {
+        "domain": "Information and Ideas",
+"topic": "Command of Evidence",
+"skill": "Textual Evidence"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["grammar", "possessive pronouns"],
+
+        "stem": "&ldquo;The Lady with the Dog&rdquo; is a story by Anton Chekhov. In the story, Checkhov uses setting to mirror a character’s emotional state.<br><br>Which quotation from &ldquo;The Lady with the Dog&rdquo; most effectively illustrates the claim?",
+  "choices": [
+    "&ldquo;The sea was calm, and the town seemed half asleep in the heat of the afternoon.&rdquo;",
+    "&ldquo;The streets were bright and crowded, and the sound of the orchestra drifted through the open windows.&rdquo;",
+    "&ldquo;It was winter in Moscow, and the gray days stretched endlessly; everything felt foreign and oppressive to him.&rdquo;",
+    "&ldquo;He walked quickly, eager to reach the familiar street where she had once walked beside him.&rdquo;"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>For <em>Illustrating Claims</em> questions, where you are asked to find a supporting quotation, the correct answer will directly and completely support or illustrate a claim about the text. In this question, the correct answer needs to show both the speaker's &ldquo;frustration caused by confining domestic expectations&rdquo; and her resulting inability &ldquo;to pursue her ambitions.&rdquo;</div><div class='explanation-step'><strong>A)</strong> This quotation focuses entirely on the physical setting but does not connect it to the character’s emotions or perspective. It illustrates only half of the claim. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This quotation also describes the setting, but does not reveal anything about the character’s internal state. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This quotation links the setting (&ldquo;gray days&rdquo;) to the character's feelings (&ldquo;felt foreign and oppressive&rdquo;).  The bleak environment <em>mirrors</em> the character's despair, demonstrating Checkov's use of setting to mirror the character's emotional state. Keep C.</div><div class='explanation-step'><strong>D)</strong> This quotation focuses on the character's actions and memories, but not the setting.  Although it mentions a &ldquo;familiar street,&rdquo; it does not link the character's emotional state to the physical environment. Eliminate D.</div><br><br>This means <strong>C</strong> is the correct answer."
+},
+{
+      "id": "V-L1-023",
+      "type": "mcq",
+      "skill": {
+       "domain": "Expression of Ideas",
+        "topic": "Transitions",
+        "skill": "Logical Transition"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["logical transition"],
+
+      "stem": "In the 1970s, young Māori activists launched a nationwide initiative to revitalize <em>Te Reo Māori</em>, the Indigenous Māori language that had declined after generations of government policies discouraging its use and banning it from schools. The cornerstone of this movement, <span class='blank'>_______</span> was the <em>Kohanga Reo</em> program—a network of early childhood centers where instruction was conducted entirely in Te Reo Māori and cultural education was emphasized.<br><br>Which choice completes the text with the most logical transition?",
+  "choices": [
+    "however,",
+    "in particular,",
+    "as a result,",
+    "instead,"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas, either between sentences or within a single sentence. To find the correct answer, find how the ideas connect; the second idea is usually a cause, result, contrast, or example of the first.</div><div class='explanation-step'>In this passage, the first sentence describes a movement to bring a fading Indigenous language back to life. The second sentence more specifically describes the movement. Because the second idea gives specifics to a more general idea expressed in the first sentence, the correct transition should signal <strong>specificity</strong>.</div><div class='explanation-step'><strong>A)</strong>&ldquo;however&rdquo; signals contrast, but the second idea isn’t opposing the first. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;in particular&rdquo; means <em>specifically</em> and correctly links introduces the <em>Kohanga Reo</em> program as a specific detail about the more general initiative to revive the language. Keep B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;as a result&rdquo; shows a cause-and-effect relationship, which doesn't fit since the program was not really a <em>result</em> of the movement, but rather it was a <em>part</em> of it Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;instead&rdquo; signals a contradiction, which doesn't fit because program does not contradict the initiative. Eliminate D.</div><br><br>This means the correct answer is <strong>B</strong>.</div>"
+},
+{
+      "id": "V-L1-024",
+      "type": "mcq",
+      "skill": {
+       "domain": "Expression of Ideas",
+        "topic": "Transitions",
+        "skill": "Logical Transition"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["logical transition"],
+
+      "stem": "Initially, the German Bauhaus movement was rejected in Germany for its experimental and forward-thinking style. <span class='blank'>_______</span> after many Bauhaus architects emigrated to the United States, the movement was celebrated and flourished for the very qualities that had once led to its repudiation in Germany.<br><br>Which choice completes the text with the most logical transition?",
+  "choices": [
+    "However,",
+    "Secondly,",
+    "For instance,",
+    "Therefore,"
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas, either between sentences or within a single sentence. To find the correct answer, find how the ideas connect; the second idea is usually a cause, result, contrast, or example of the first.</div><div class='explanation-step'>Here, the first sentence explains that the German Bahaus movement was rejected at first. The next sentence reverses this idea, stating that the movement was later &ldquo;celebrated.&rdquo; Because the passage shifts in direction, the best transition word should signal contrast—something like <em>However</em>.</div><div class='explanation-step'><strong>A)</strong>&ldquo;However,&rdquo; correctly signals contrast, showing that reception of the Bauhaus movement changed from rejection to celebration. Keep A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;Secondly,&rdquo; indicates a parallel or continuing idea, but the third sentence contrasts with the earlier ones. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;For instance,&rdquo; indicates that the second idea is an example of the first, which isn’t the relationship between these ideas. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;Therefore,&rdquo; suggests a cause-and-effect relationship, and this text does not state that the earlier <em>rejection</em> of the movement <em>caused</em> its celebration later.  Eliminate D.</div><br><br>This means the correct answer is <strong>A</strong>."
 },
 {
       "id": "V-L2-001",
@@ -1078,48 +1151,6 @@
       "subject": "verbal",
 
       "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Rhetorical Synthesis",
-        "skill": "Using Notes"
-      },
-
-      "level": 2,
-      "set": "Verbal Practice",
-      "tags": ["student research", "summarizing ideas"],
-
-      "stemSegments": [
-    {
-      "text": "While researching a topic, a student has taken the following notes:",
-      "align": "left",
-      "style": "default"
-    },
-    {
-      "text": "• Until WWI, most battles had taken place on the ground, but WWI saw the advent of airplanes in wars.\n• In 1911, leaders met to make a law that countries could only use airplanes for &ldquo;reconnaissance,&rdquo; which is gathering information about enemies from the air. \n• One example of successful reconnaissance was when a British pilot saw the German military was going to invade France, and this information helped France avoid devastation. \n• Airplanes started to be used for more than just reconnaissance and in 1915, the Germans made a plane that was purposely designed with machine guns to fight air battles to take down enemy planes. \n• By the end of WWI, aircraft were more commonly used as weapons, bombing enemy supplies and soldiers on the ground.",
-      "align": "left",
-      "style": "notes"
-    },
-    {
-      "text": "The student wants to highlight an example of a turning point when aircraft went from being used to collect information to when they started to be used as weapons. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
-      "align": "left",
-      "style": "question"
-    }
-  ],
-  "choices": [
-    "A British pilot averted Germany’s invasion of France when he saw that Germany was preparing to invade.",
-    "The end of WWI saw the use of aircraft to bomb ground forces.",
-    "The Germans designed a plane to fight against other planes in the air.",
-    "A law was written to restrict the use of aircraft as weapons, limiting them to use for collecting information about enemies."
-  ],
-  "answerIndex": 3,
-  "explanation": "<div class='explanation-step'>For <em>Student Research</em> questions, focus on what the student wants to highlight or accomplish. In this case, the student wants to identify the <em>turning point when aircraft went from being used for reconnaissance to being used as weapons</em>. The correct answer should highlight the specific moment this transition occurred.</div><div class='explanation-step'>Looking at the list of bulleted notes, one stands out: <ul style='margin-top:8px; margin-bottom:8px; padding-left:20px; line-height:1.8;'><li>Airplanes started to be used for more than just reconnaissance, and in 1915, the Germans made a plane that was purposely designed with machine guns to fight air battles to take down enemy planes.</li></ul></div><div class='explanation-step'>This note clearly marks the shift from aircraft being used to gather information to being used as weapons.</div><div class='explanation-step'><strong>A)</strong>describes a successful reconnaissance mission, which shows aircraft being used for information-gathering, not the shift away from it. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>states that by the end of WWI, aircraft were used to bomb ground forces. Although this shows aircraft as weapons, it does not pinpoint the <em>turning point</em> when this change began. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>describes the exact moment when airplanes began to be used as weapons—when the Germans created a plane with machine guns for air battles. This best matches the student’s goal. Keep C.</div><div class='explanation-step'><strong>D)</strong>discusses a law that restricted aircraft use to reconnaissance. This describes an earlier stage before the turning point, so eliminate D.</div><br><br>This means the correct answer is <strong>C</strong>."
-},
-{
-      "id": "V-L2-019",
-      "type": "mcq",
-      "mode": "practice",
-      "subject": "verbal",
-
-      "skill": {
         "domain": "Information and Ideas",
 "topic": "Command of Evidence",
 "skill": "Textual Evidence"
@@ -1140,7 +1171,7 @@
   "explanation": "<div class='explanation-step'>For <em>Illustrating Claims</em> questions, where you are asked to find a supporting quotation, the correct answer will directly and completely illustrate the claim made in the question. Here, the claim is that Longfellow’s poem reflects on the <em>urbanization of natural landscapes</em> and its impact on the Native American chief. The correct line should contrast the natural beauty of the past with the man-made urban world of the present.</div><div class='explanation-step'><strong>A)</strong>This line focuses on the chief himself, comparing him to a &ldquo;driving cloud,&rdquo; but it does not mention anything about the changing landscape or urbanization. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>This line contrasts the &ldquo;streets&rdquo; the chief now walks with the &ldquo;green turf of the prairies&rdquo; he once knew, and the of the city with the &ldquo;sweet air of the mountains.&rdquo; These images directly show the loss of nature and the rise of urban settings. Keep B.</div><div class='explanation-step'><strong>C)</strong>This line describes the beauty of nature with &ldquo;the maple leaves,&rdquo; and &ldquo;pine trees,&rdquo; but doesn’t contrast the natural <em>past</em> with the urbanized <em>present</em>. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>This line describes European expansion westward but focuses on colonization, not on the transformation of the landscape itself. Eliminate D.</div><br><br>This means the correct answer is <strong>B</strong>.</div>"
 },
  {
-    "id": "V-L2-020",
+    "id": "V-L2-019",
     "type": "mcq",
     "mode": "practice",
     "subject": "verbal",
@@ -1163,7 +1194,7 @@
     "explanation": "<div class='explanation-step'>For <em>Main Idea</em> questions, the correct answer must capture both the central finding and the overall point of the passage, not just one detail. Before looking at the choices, summarize the passage: researchers found that fungal networks transfer resources and signals between trees, but critics dispute whether this counts as communication.</div><div class='explanation-step'><strong>A)</strong> The passage never distinguishes between benefits to individual trees vs. forest ecosystems — this is not discussed. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This captures both parts of the passage: the finding (resource and signal transfer) and the debate (whether it constitutes communication). Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage does not say communication has been conclusively demonstrated, and the word &ldquo;intentionally&rdquo; is precisely what critics dispute. This overstates the claim. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Critics question the word &ldquo;communication,&rdquo; not whether fungi help trees — this misrepresents their position. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
   },
   {
-    "id": "V-L2-021",
+    "id": "V-L2-020",
     "type": "mcq",
     "mode": "practice",
     "subject": "verbal",
@@ -1185,47 +1216,9 @@
     "answerIndex": 1,
     "explanation": "<div class='explanation-step'>For <em>According to the Text</em> questions, the correct answer will be directly stated in the passage. The passage says cities have begun removing highways &ldquo;citing studies showing that their removal often revitalizes surrounding neighborhoods and reduces rather than increases traffic.&rdquo;</div><div class='explanation-step'><strong>A)</strong> The passage does not mention property values or limit the benefits to wealthy neighborhoods. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This directly paraphrases the passage's explanation. Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage says planners argued highways would reduce congestion — it does not say this was proven wrong or that planners now believe highways never worked. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Federal funding is never mentioned in the passage. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
   },
+  
   {
-    "id": "V-L2-022",
-    "type": "mcq",
-    "mode": "practice",
-    "subject": "verbal",
-    "skill": {
-      "domain": "Expression of Ideas",
-      "topic": "Rhetorical Synthesis",
-      "skill": "Using Notes"
-    },
-    "level": 2,
-    "set": "Verbal Practice",
-    "tags": ["student research", "rhetorical synthesis", "science"],
-    "stemSegments": [
-      {
-        "text": "While researching a topic, a student has taken the following notes:",
-        "align": "left",
-        "style": "default"
-      },
-      {
-        "text": "• The James Webb Space Telescope was launched in December 2021.\n• It observes in infrared light, allowing it to see through dust clouds that block visible light.\n• Its primary mirror is 6.5 meters wide, nearly three times larger than the Hubble Space Telescope&rsquo;s.\n• It has detected galaxies that formed only 300 million years after the Big Bang.\n• It orbits at the second Lagrange point, approximately 1.5 million kilometers from Earth.",
-        "align": "left",
-        "style": "notes"
-      },
-      {
-        "text": "The student wants to explain why the James Webb Space Telescope can observe objects that the Hubble Space Telescope could not. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
-        "align": "left",
-        "style": "question"
-      }
-    ],
-    "choices": [
-      "The James Webb telescope orbits farther from Earth than the Hubble telescope, giving it a clearer view of deep space.",
-      "Because the James Webb telescope observes in infrared light and has a mirror nearly three times larger than Hubble&rsquo;s, it can see through dust clouds and detect extremely distant, faint objects.",
-      "The James Webb telescope has detected galaxies that formed only 300 million years after the Big Bang.",
-      "The James Webb telescope was launched more recently than the Hubble telescope and incorporates newer technology."
-    ],
-    "answerIndex": 1,
-    "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal stated in the question determines the correct answer. The student wants to explain <em>why</em> Webb can observe objects Hubble could not — the answer must identify specific capabilities that give Webb an advantage.</div><div class='explanation-step'><strong>A)</strong> The orbit distance is a fact from the notes, but the passage does not establish that orbiting farther from Earth improves observational capability. This does not explain the advantage. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Combines the two most relevant notes — infrared observation (seeing through dust) and larger mirror (detecting faint objects) — and directly links them to Webb&rsquo;s observational advantage over Hubble. Keep B.</div><div class='explanation-step'><strong>C)</strong> This is a finding, not an explanation of why Webb can see what Hubble cannot. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Newer technology&rdquo; is too vague to explain Webb&rsquo;s specific observational advantages. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
-  },
-  {
-    "id": "V-L2-023",
+    "id": "V-L2-021",
     "type": "mcq",
     "mode": "practice",
     "subject": "verbal",
@@ -1264,7 +1257,7 @@
     "explanation": "<div class='explanation-step'>For <em>Overall Structure</em> questions, identify what each part of the passage is doing. This passage begins with a detailed sensory description of a natural scene (the entangled bank), then shifts to a reflection on what that scene implies — that all its complexity has been produced by natural laws.</div><div class='explanation-step'><strong>A)</strong> The passage does not present a hypothesis or offer experimental evidence — it observes and reflects. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This accurately describes the two-part structure: vivid description of nature, followed by a philosophical observation about natural laws. Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage does not contrast animals and plants — both are presented as equally complex products of natural laws. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Darwin says the laws are &ldquo;acting around us,&rdquo; suggesting they are observable and known, not undiscovered. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
   },
   {
-    "id": "V-L2-024",
+    "id": "V-L2-022",
     "type": "mcq",
     "mode": "practice",
     "subject": "verbal",
@@ -1301,6 +1294,309 @@
     ],
     "answerIndex": 2,
     "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use the surrounding text to determine what the word means in context. Here, the propounders (people putting forward a theory) are doing something with &ldquo;facts and arguments in favor of&rdquo; their position. The word in the blank must mean something like &ldquo;present&rdquo; or &ldquo;bring forward.&rdquo;</div><div class='explanation-step'><strong>A)</strong> &ldquo;Dismiss&rdquo; means to reject or disregard. The propounders are supporting their position, not rejecting evidence. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Exaggerate&rdquo; implies distortion. While Huxley is somewhat skeptical (&ldquo;more or less sound&rdquo;), the word in the blank describes the act of presenting arguments, not inflating them. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Cite&rdquo; means to bring forward as evidence or reference. &ldquo;Adduce&rdquo; means precisely this — to cite facts or arguments in support of a claim. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Contradict&rdquo; means to oppose. The propounders are supporting their theory, not contradicting it. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L2-023",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Form, Structure, and Sense",
+      "skill": "Standard English Conventions"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["grammar", "punctuation", "colon"],
+    "stem": "The philosopher Simone de Beauvoir is widely regarded as a founding figure of modern feminist theory <span class='blank'>_______</span> her 1949 work <em>The Second Sex</em> challenged foundational assumptions about gender and identity that had gone largely unquestioned in Western philosophy.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      ":",
+      ";",
+      ",",
+      "—"
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices offer different punctuation marks to join two clauses, so this question tests <strong>Colon and Semicolon Usage</strong>.</div><div class='explanation-step'>The first clause makes a general claim about de Beauvoir (she is regarded as a founding figure). The second clause directly explains <em>why</em> — her work challenged foundational assumptions. When an independent clause is followed by another clause that explains or elaborates on it, a colon is the correct punctuation.</div><div class='explanation-step'><strong>A)</strong> A colon correctly signals that what follows explains or supports the preceding claim. Keep A.</div><div class='explanation-step'><strong>B)</strong> A semicolon joins two independent clauses of equal weight, but does not signal the explanatory relationship between them. Less precise here. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> A comma alone between two independent clauses creates a comma splice — a run-on sentence. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> A dash can introduce explanatory information but is more informal and typically used for emphasis or interruption rather than explanation. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+  },
+  {
+    "id": "V-L2-024",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Form, Structure, and Sense",
+      "skill": "Standard English Conventions"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["grammar", "subject-verb agreement", "intervening phrase"],
+    "stem": "The collection of essays on climate policy written by researchers at three separate universities and later compiled into a single volume <span class='blank'>_______</span> significant attention from policymakers and environmental advocacy groups alike.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "have attracted",
+      "attracts",
+      "attracting",
+      "attract"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices offer different verb forms, so this question tests <strong>Subject-Verb Agreement</strong>.</div><div class='explanation-step'>To find the true subject, identify the noun the verb must agree with. The sentence begins with &ldquo;The collection,&rdquo; which is the subject. The long phrase &ldquo;of essays on climate policy written by researchers at three separate universities and later compiled into a single volume&rdquo; interrupts the sentence but does not change the subject. &ldquo;Collection&rdquo; is singular, so the verb must also be singular.</div><div class='explanation-step'><strong>A)</strong> &ldquo;have attracted&rdquo; is plural, agreeing with a plural subject. &ldquo;Collection&rdquo; is singular. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;attracts&rdquo; is singular present tense, correctly agreeing with &ldquo;collection.&rdquo; Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;attracting&rdquo; is a participle, not a finite verb — using it creates a sentence fragment with no main verb. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;attract&rdquo; is plural, agreeing with a plural subject. &ldquo;Collection&rdquo; is singular. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+   {
+    "id": "V-L2-025",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Transitions",
+      "skill": "Logical Transition"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["logical transition", "contrast", "history"],
+    "stem": "The discovery of the Rosetta Stone in 1799 was immediately celebrated as a breakthrough that would unlock the mysteries of ancient Egyptian hieroglyphics. <span class='blank'>_______</span> it would take more than two decades of painstaking work by multiple linguists before the script was fully decoded in 1822.<br><br>Which choice completes the text with the most logical transition?",
+    "choices": [
+      "However,",
+      "Therefore,",
+      "Similarly,",
+      "Indeed,"
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas. To find the correct answer, determine how the ideas connect.</div><div class='explanation-step'>The first sentence describes the Rosetta Stone&rsquo;s discovery as an immediate celebrated breakthrough. The second sentence reveals that decoding the script still took over two decades — a qualification that complicates the first sentence&rsquo;s optimism. The transition must signal contrast or qualification.</div><div class='explanation-step'><strong>A)</strong> &ldquo;However&rdquo; signals a shift or contrast, indicating that despite the excitement of the discovery, progress was slower than expected. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Therefore&rdquo; signals causation — that the second idea resulted from the first. The slow decoding was not caused by the celebration of the discovery. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Similarly&rdquo; signals that the two ideas are parallel or alike. The second sentence contradicts the optimism of the first rather than paralleling it. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Indeed&rdquo; signals confirmation or emphasis — it would suggest the second sentence reinforces the first. The second sentence qualifies rather than confirms. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+  },
+  {
+    "id": "V-L2-026",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Textual Evidence"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["support weaken", "archaeology", "science"],
+    "stemSegments": [
+      {
+        "text": "Archaeologist Dr. Lena Ashworth argues that the widespread appearance of similar geometric patterns in cave art across Europe and Africa suggests that early humans shared cognitive abilities for symbolic thinking earlier than previously believed, and that these abilities may have developed independently in multiple populations rather than spreading through migration.",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "Which finding, if true, would most directly support Dr. Ashworth&rsquo;s claim?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "Cave paintings featuring geometric patterns have been discovered at additional sites in South America, further expanding the geographic range of early symbolic art.",
+      "Genetic analysis shows that the populations who created cave art in Europe and Africa had no direct contact or interbreeding during the relevant period.",
+      "The geometric patterns found in European cave art are significantly more complex than those found in African sites, suggesting different levels of cognitive development.",
+      "Researchers have identified a migration route that could have allowed artistic traditions to spread from Africa to Europe during the relevant period."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Supporting a Claim</em> questions, identify the claim precisely before evaluating the choices. Dr. Ashworth claims two things: (1) early humans developed symbolic thinking earlier than believed, and (2) these abilities developed <em>independently</em> in multiple populations rather than spreading through migration. The correct answer must support the independence claim.</div><div class='explanation-step'><strong>A)</strong> Expanding the geographic range of symbolic art is consistent with Ashworth&rsquo;s view but does not specifically support the claim of independent development. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> If the European and African populations had no contact during the relevant period, then any similarities in their cave art could not have spread through migration — directly supporting the independent development claim. Keep B.</div><div class='explanation-step'><strong>C)</strong> Finding that the patterns differ in complexity would actually suggest different cognitive levels rather than shared early abilities — this weakens the claim. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Identifying a migration route would support the opposing view that artistic traditions spread through contact rather than developing independently — this weakens Ashworth&rsquo;s claim. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L2-027",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Quantitative Evidence"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["table", "data", "publishing", "support claim"],
+    "stemSegments": [
+      {
+        "text": "Books Published Annually by Genre (in thousands)",
+        "align": "center",
+        "style": "intro"
+      },
+      {
+        "text": "<table class='stem-table'><tr><th>Genre</th><th>2018</th><th>2019</th><th>2020</th><th>2021</th><th>2022</th></tr><tr><td>Literary Fiction</td><td>4.2</td><td>4.35</td><td>3.8</td><td>4.1</td><td>4.5</td></tr><tr><td>Mystery/Thriller</td><td>8.1</td><td>8.4</td><td>9.2</td><td>9.8</td><td>10.3</td></tr><tr><td>Self-Help</td><td>6.5</td><td>7.2</td><td>8.9</td><td>9.1</td><td>9.4</td></tr><tr><td>Science Fiction</td><td>3.1</td><td>3.3</td><td>3.6</td><td>3.9</td><td>4.2</td></tr></table>",
+        "align": "center",
+        "style": "table"
+      },
+      {
+        "text": "A publishing analyst argues that the COVID-19 pandemic, which began in 2020, accelerated growth in certain book genres. The analyst claims that genres offering escapism or practical guidance saw the sharpest increases in publications between 2019 and 2020, while literary fiction declined.",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "Which choice most effectively uses data from the table to support the analyst's claim?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "Mystery/Thriller publications increased more than any other genre between 2019 and 2020.",
+      "Between 2019 and 2020, Self-Help publications increased by 1,700 titles — the largest single-year increase of any genre — while Literary Fiction declined by 550 titles.",
+      "Science Fiction publications increased steadily every year from 2018 to 2022.",
+      "Literary Fiction was the only genre to show a decline in publications at any point between 2018 and 2022."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Quantitative Evidence</em> questions, identify the claim and find data that directly and accurately supports it. The analyst claims two things: (1) genres offering escapism or practical guidance had the sharpest increases between 2019 and 2020, and (2) literary fiction declined. The correct answer must support both parts.</div><div class='explanation-step'><strong>A)</strong> Factually incorrect — Self-Help increased by 1,700 titles between 2019 and 2020, while Mystery/Thriller increased by only 800. Mystery/Thriller did not have the largest increase. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Accurately states that Self-Help had the largest increase (7.2 to 8.9 thousand = 1.7 thousand titles) and that Literary Fiction declined (4.35 to 3.8 thousand = 0.55 thousand titles). Both parts of the claim are supported with specific data. Keep B.</div><div class='explanation-step'><strong>C)</strong> Science Fiction&rsquo;s steady growth is a true observation but does not address the claim about pandemic-driven acceleration or the literary fiction decline. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> True — Literary Fiction is the only genre with a year-over-year decline — but this only addresses one part of the claim and does not show the sharp increases in other genres. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+   {
+    "id": "V-L2-028",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Quantitative Evidence"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["table", "passage", "screen time", "children", "support claim"],
+    "stemSegments": [
+      {
+        "text": "Daily Average Screen Time for Children Ages 8&ndash;12 (hours), by Activity Type",
+        "align": "center",
+        "style": "intro"
+      },
+      {
+        "text": "<table class='stem-table'><tr><th>Activity</th><th>2015</th><th>2019</th><th>2023</th></tr><tr><td>Social Media</td><td>0.8</td><td>1.4</td><td>2.3</td></tr><tr><td>Video Games</td><td>1.2</td><td>1.5</td><td>1.8</td></tr><tr><td>Streaming Video</td><td>0.9</td><td>1.6</td><td>2.1</td></tr><tr><td>Educational Apps</td><td>0.3</td><td>0.6</td><td>0.9</td></tr></table>",
+        "align": "center",
+        "style": "table"
+      },
+      {
+        "text": "Child development researcher Dr. Amara Osei argues that screen time among children has grown substantially over the past decade, with the most dramatic growth occurring in social media use. She further notes that educational screen time, while growing, remains the smallest category and has not kept pace with entertainment-focused activities.",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "Which choice best uses data from the table to support Dr. Osei's claim?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "Social media use increased from 0.8 to 2.3 hours per day between 2015 and 2023 — the largest increase of any category — while educational app use grew from 0.3 to 0.9 hours, remaining the smallest category throughout.",
+      "Video game use increased steadily from 1.2 to 1.8 hours per day between 2015 and 2023.",
+      "All four categories of screen time increased between 2015 and 2023, demonstrating that overall screen time has grown.",
+      "Streaming video use increased more than video game use between 2015 and 2023."
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Passage + Table</em> questions, identify both parts of the claim and find data that supports both. Dr. Osei claims (1) social media had the most dramatic growth, and (2) educational screen time remains smallest and hasn&rsquo;t kept pace.</div><div class='explanation-step'><strong>A)</strong> Social media grew from 0.8 to 2.3 hours (+1.5 hrs, the largest increase). Educational apps grew from 0.3 to 0.9 hours and remain the smallest category in all three years. Both parts of Dr. Osei&rsquo;s claim are directly supported. Keep A.</div><div class='explanation-step'><strong>B)</strong> Video game use is a detail that does not address either part of Dr. Osei&rsquo;s specific claims about social media or educational apps. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Too vague — stating that all categories increased does not demonstrate dramatic social media growth or the relative lag of educational apps. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> A comparison between streaming and video games is irrelevant to Dr. Osei&rsquo;s claims about social media and educational screen time. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+  },
+  {
+    "id": "V-L2-029",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Words in Context",
+      "skill": "Vocabulary in Context"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["vocabulary", "words in context", "philosophy"],
+    "stemSegments": [
+      {
+        "text": "The following text is from William James&rsquo;s <em>Pragmatism</em>, published in 1907.",
+        "align": "left",
+        "style": "default"
+      },
+      {
+        "text": "The pragmatic method is primarily a method of settling metaphysical disputes that otherwise might be <u>interminable</u>. Is the world one or many? &mdash; fated or free? &mdash; material or spiritual? &mdash; here are notions either of which may or may not hold good of the world; and disputes over such notions are unending.",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "As used in the text, &ldquo;interminable&rdquo; most nearly means",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "endless",
+      "bitter",
+      "complex",
+      "unresolvable"
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use surrounding clues to determine what the word means in context. James describes metaphysical disputes that &ldquo;otherwise might be interminable&rdquo; and immediately follows with &ldquo;disputes over such notions are unending&rdquo; — this restatement is the clearest clue.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Endless&rdquo; means without end, which matches the context precisely. James is describing disputes that go on indefinitely without resolution. James even restates this with &ldquo;unending.&rdquo; Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Bitter&rdquo; suggests emotional intensity, not duration. The passage focuses on the length and irresolvability of disputes, not their emotional character. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Complex&rdquo; means complicated. While metaphysical disputes are complex, &ldquo;interminable&rdquo; specifically refers to duration, not difficulty. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Unresolvable&rdquo; means incapable of being resolved — a strong trap because interminable disputes often are unresolvable. However, &ldquo;interminable&rdquo; specifically means <em>without end</em> (endless), not <em>without solution</em>. The distinction matters: a dispute can be endless in duration while still theoretically having a resolution. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+  },
+  {
+    "id": "V-L2-030",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Words in Context",
+      "skill": "Vocabulary in Context"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["vocabulary", "words in context", "Darwin"],
+    "stemSegments": [
+      {
+        "text": "The following text is from Charles Darwin&rsquo;s <em>The Descent of Man</em>, published in 1871.",
+        "align": "left",
+        "style": "default"
+      },
+      {
+        "text": "The main conclusion arrived at in this work, namely that man is descended from some lowly-organised form, will, I regret to think, be highly <u>distasteful</u> to many persons. But there can hardly be a doubt that we are descended from barbarians.",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "As used in the text, &ldquo;distasteful&rdquo; most nearly means",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "offensive",
+      "unfamiliar",
+      "controversial",
+      "dangerous"
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use surrounding clues to determine what the word means in context. Darwin says his conclusion &ldquo;will, I regret to think, be highly distasteful to many persons&rdquo; — the phrase &ldquo;I regret to think&rdquo; signals that he anticipates an unpleasant reception, and &ldquo;highly&rdquo; intensifies the word.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Offensive&rdquo; means causing displeasure or resentment. &ldquo;Distasteful&rdquo; means unpleasant or objectionable — Darwin is anticipating that his conclusion will cause many people displeasure or offense. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Unfamiliar&rdquo; means not known or strange. Darwin&rsquo;s conclusion was certainly new, but &ldquo;distasteful&rdquo; specifically refers to something that causes displeasure, not something that is merely unknown. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Controversial&rdquo; is a strong trap — Darwin&rsquo;s theory was certainly controversial. However, &ldquo;distasteful&rdquo; refers to causing personal displeasure or offense, not simply to generating disagreement or debate. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Dangerous&rdquo; implies physical or practical risk, which Darwin does not suggest. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+  },
+  {
+    "id": "V-L2-031",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Textual Evidence"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": ["support claim", "linguistics", "bilingual"],
+    "stemSegments": [
+      {
+        "text": "Linguist Dr. Sofia Reyes argues that bilingual children do not experience language confusion, as is commonly believed. Rather, she claims that switching between languages &mdash; a phenomenon known as code-switching &mdash; reflects sophisticated cognitive control and an ability to manage two separate linguistic systems simultaneously. Reyes contends that code-switching is a marker of linguistic competence, not deficiency.",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "Which finding, if true, would most directly support Dr. Reyes&rsquo;s claim?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "Bilingual children who code-switch frequently score higher on tests of executive function than monolingual children of the same age.",
+      "Children raised in bilingual households begin speaking their first words later than children raised in monolingual households.",
+      "Adults who learned a second language in childhood are more likely to code-switch than those who learned it as adults.",
+      "Bilingual children who attend schools where both languages are used equally show stronger literacy skills in both languages than those in single-language schools."
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Supporting a Claim</em> questions, identify the claim precisely. Dr. Reyes claims that code-switching reflects sophisticated cognitive control and linguistic competence, not confusion or deficiency. The correct answer must provide evidence that code-switching is associated with high cognitive ability.</div><div class='explanation-step'><strong>A)</strong> Executive function is the set of cognitive skills that includes attention control, cognitive flexibility, and working memory — precisely the &ldquo;sophisticated cognitive control&rdquo; Dr. Reyes describes. If frequent code-switchers score higher on these tests, it directly supports her claim. Keep A.</div><div class='explanation-step'><strong>B)</strong> Later speech onset in bilingual children could suggest developmental delay, which would actually support the view that bilingualism causes confusion — the opposite of Reyes&rsquo;s claim. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This describes who code-switches more frequently but does not address whether code-switching reflects competence or deficiency. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Stronger literacy skills in bilingual school environments support bilingual education broadly, but do not specifically address code-switching or the cognitive control claim. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
   },
 {
       "id": "V-L3-001",
@@ -1982,47 +2278,9 @@
     "answerIndex": 2,
     "explanation": "<div class='explanation-step'>For <em>Main Idea</em> questions at level 3, two choices often seem plausible — the correct answer must be precise, not just vaguely related to the passage. Before looking at choices, summarize: Barthes argued that authorial intent is irrelevant to meaning, and that readers generate meaning instead.</div><div class='explanation-step'><strong>A)</strong> This is the opposite of Barthes&rsquo; position — he argued against biographical interpretation, not for it. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This attributes intentionality to authors, which is precisely what Barthes rejected. He argued authorial intent doesn&rsquo;t constrain meaning — not that authors plant multiple meanings deliberately. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This accurately captures the central claim: readers generate meaning, and authorial intent does not determine it. Keep C.</div><div class='explanation-step'><strong>D)</strong> The passage says Barthes challenged biographical interpretation but does not say the practice ended. This overstates. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
   },
+
   {
     "id": "V-L3-022",
-    "type": "mcq",
-    "mode": "practice",
-    "subject": "verbal",
-    "skill": {
-      "domain": "Expression of Ideas",
-      "topic": "Rhetorical Synthesis",
-      "skill": "Using Notes"
-    },
-    "level": 3,
-    "set": "Verbal Practice",
-    "tags": ["student research", "rhetorical synthesis", "social science"],
-    "stemSegments": [
-      {
-        "text": "While researching a topic, a student has taken the following notes:",
-        "align": "left",
-        "style": "default"
-      },
-      {
-        "text": "• Sociologist Dr. Priya Mehta found that teenagers who reported high levels of parental monitoring also reported lower academic motivation.\n• A separate study by Dr. James Okafor found that teenagers with highly involved parents had higher GPAs than those with less involved parents.\n• Dr. Mehta distinguished between monitoring (tracking and controlling behavior) and involvement (participating in a child&rsquo;s activities and conversations).\n• Dr. Okafor&rsquo;s study measured parental involvement through frequency of parent-child conversations about school.\n• Both researchers agreed that the quality of parental engagement matters more than the quantity.",
-        "align": "left",
-        "style": "notes"
-      },
-      {
-        "text": "The student wants to explain why Mehta&rsquo;s and Okafor&rsquo;s findings are not necessarily contradictory. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
-        "align": "left",
-        "style": "question"
-      }
-    ],
-    "choices": [
-      "Both Mehta and Okafor studied teenagers, so their findings describe the same population and should be interpreted together.",
-      "Mehta found that monitoring reduces motivation while Okafor found that involvement raises GPA; since both researchers distinguished monitoring from involvement, the two studies measure different types of parental engagement.",
-      "Both researchers agreed that the quality of parental engagement matters more than the quantity, confirming that parents should spend more time with their children.",
-      "Because Okafor measured GPA while Mehta measured self-reported motivation, the two studies cannot be directly compared."
-    ],
-    "answerIndex": 1,
-    "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal requires combining specific information from multiple notes. The student wants to explain why the findings are <em>not contradictory</em> — the correct answer must show how both can be true simultaneously.</div><div class='explanation-step'><strong>A)</strong> The fact that both studied teenagers does not explain why the findings are compatible — studying the same population doesn&rsquo;t resolve an apparent contradiction. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Correctly identifies that Mehta studied monitoring and Okafor studied involvement, and that both researchers explicitly distinguished these as different things. Since the studies measure different types of parental engagement, their different findings are not contradictory. Keep B.</div><div class='explanation-step'><strong>C)</strong> Misreads the &ldquo;quality over quantity&rdquo; finding as a recommendation to spend more time — the notes say quality matters more than quantity, not that more time is better. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Saying the studies &ldquo;cannot be directly compared&rdquo; suggests incompatibility rather than explaining compatibility. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
-  },
-  {
-    "id": "V-L3-023",
     "type": "mcq",
     "mode": "practice",
     "subject": "verbal",
@@ -2061,7 +2319,7 @@
     "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal determines the correct answer. Here the student wants to illustrate an <em>irony</em> — something that turned out contrary to its original purpose or that has an unexpected twist.</div><div class='explanation-step'><strong>A)</strong> States a fact about the road system&rsquo;s scale but presents no irony. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Directly captures the irony: the roads were built to hold the empire together, but were then used to destroy it. This is the unexpected, contradictory outcome that defines irony. Keep B.</div><div class='explanation-step'><strong>C)</strong> States a remarkable fact about construction methods but presents no irony. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> States a fact about the roads&rsquo; use for communication but presents no irony. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
   },
   {
-    "id": "V-L3-024",
+    "id": "V-L3-023",
     "type": "mcq",
     "mode": "practice",
     "subject": "verbal",
@@ -2100,7 +2358,7 @@
     "explanation": "<div class='explanation-step'>For <em>Function of a Sentence</em> questions, read the sentence before and after the underlined sentence to understand what it does in context. The preceding sentence warns that an author faces consequences for crossing the majority&rsquo;s barriers. The underlined sentence then specifies what kind of consequences: not physical violence (auto-da-f&eacute; refers to execution by burning) but social persecution (obloquy means public disgrace).</div><div class='explanation-step'><strong>A)</strong> The sentence does not introduce a counterargument — it elaborates on the previous claim by specifying the type of punishment. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This precisely describes the sentence&rsquo;s function: it distinguishes what the danger is not (physical violence) from what it is (social censure and persecution). Keep B.</div><div class='explanation-step'><strong>C)</strong> The sentence does not cite a historical example — an auto-da-f&eacute; is mentioned only as a contrast to clarify what kind of danger is not present. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Tocqueville is criticizing American society, not praising its tolerance relative to Europe. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
   },
   {
-    "id": "V-L3-025",
+    "id": "V-L3-024",
     "type": "mcq",
     "mode": "practice",
     "subject": "verbal",
@@ -2137,6 +2395,332 @@
     ],
     "answerIndex": 2,
     "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, two or more choices may seem plausible — the correct answer requires careful attention to what the word is doing in the sentence. Here, Thoreau says &ldquo;living is so dear&rdquo; immediately after expressing his fear of dying without having truly lived. The word must capture why life is too valuable to be wasted on &ldquo;what was not life.&rdquo;</div><div class='explanation-step'><strong>A)</strong> &ldquo;Costly&rdquo; is a surface reading of &ldquo;dear,&rdquo; which can mean expensive. But Thoreau is not discussing the financial cost of living — he is expressing the value of life as something not to be squandered. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Beloved&rdquo; captures warmth and affection but misses the sense of value that drives Thoreau&rsquo;s argument — the point is that life is too valuable to waste, not merely that he loves it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Precious and worth protecting&rdquo; captures both the high value Thoreau places on life and the implication that it must not be wasted. This fits the context precisely: because living is so precious, he refuses to live inauthentically. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Scarce&rdquo; suggests limited quantity, not high value. Thoreau&rsquo;s concern is about quality of life, not its duration. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L3-025",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Form, Structure, and Sense",
+      "skill": "Standard English Conventions"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["grammar", "modifier placement", "dangling modifier"],
+    "stem": "Having analyzed thousands of patient records over a decade of clinical research, <span class='blank'>_______</span><br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "the link between sleep deprivation and metabolic disorders was firmly established.",
+      "the researchers firmly established the link between sleep deprivation and metabolic disorders.",
+      "it was the researchers who firmly established the link between sleep deprivation and metabolic disorders.",
+      "a firm link between sleep deprivation and metabolic disorders was established by the researchers."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, a sentence beginning with a participial phrase tests <strong>Modifier Placement</strong>. When a sentence opens with a participial phrase, the noun immediately following the comma must be the person or thing performing the action described in the phrase.</div><div class='explanation-step'>Here, &ldquo;Having analyzed thousands of patient records&rdquo; describes whoever did the analyzing — only people (researchers) can analyze records. The subject after the comma must be the researchers.</div><div class='explanation-step'><strong>A)</strong> Places &ldquo;the link&rdquo; as the subject after the comma. A link cannot analyze patient records — this creates a dangling modifier. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Places &ldquo;the researchers&rdquo; immediately after the comma as the subject, correctly identifying who did the analyzing. Keep B.</div><div class='explanation-step'><strong>C)</strong> Uses an expletive construction (&ldquo;it was...who&rdquo;) that buries the true subject and creates an awkward, grammatically strained sentence. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Places &ldquo;a firm link&rdquo; as the subject in a passive construction — a link cannot analyze records, so this is also a dangling modifier. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+   {
+    "id": "V-L3-026",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Transitions",
+      "skill": "Logical Transition"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["logical transition", "qualification", "economics"],
+    "stem": "Proponents of universal basic income argue that it would reduce poverty and give workers greater bargaining power by providing a financial safety net independent of employment. <span class='blank'>_______</span> economists who study labor markets note that a poorly designed program could reduce workforce participation rates, potentially slowing economic growth.<br><br>Which choice completes the text with the most logical transition?",
+    "choices": [
+      "That said,",
+      "Nonetheless,",
+      "However,",
+      "Conversely,"
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas. At level 3, multiple choices may seem to signal contrast — the distinction comes down to precision.</div><div class='explanation-step'>The first sentence presents the benefits of universal basic income. The second introduces a caveat — not that UBI is wrong, but that a poorly designed program could have drawbacks. The transition must acknowledge the first point while introducing a qualification, without implying that the two ideas are directly opposed.</div><div class='explanation-step'><strong>A)</strong> &ldquo;That said&rdquo; signals acknowledgment of the previous point while introducing a nuanced qualification. It does not imply direct opposition — it signals &ldquo;the above is true, but here is a complication.&rdquo; This fits the relationship precisely. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Nonetheless&rdquo; implies that the second idea persists or holds true despite the first — it would suggest that slow growth happens anyway regardless of the benefits. This misrepresents the relationship. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;However&rdquo; signals a direct contrast, implying the second idea opposes the first. The economists&rsquo; concern is a conditional caveat (poorly designed programs), not a direct rebuttal. &ldquo;However&rdquo; is too stark here. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Conversely&rdquo; signals direct opposition — that the second idea is the reverse of the first. The economists are not arguing the opposite of UBI&rsquo;s benefits; they are raising a design concern. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+  },
+  {
+    "id": "V-L3-027",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Rhetorical Synthesis",
+      "skill": "Using Notes"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["student research", "rhetorical synthesis", "philosophy", "ethics"],
+    "stemSegments": [
+      {
+        "text": "While researching a topic, a student has taken the following notes:",
+        "align": "left",
+        "style": "default"
+      },
+      {
+        "text": "• Philosopher Peter Singer argues that if we can prevent something bad from happening without sacrificing anything of comparable moral importance, we are obligated to do so.\n• Singer applies this principle to global poverty, arguing that wealthy individuals are morally obligated to donate significantly to effective charities.\n• Critics argue that Singer&rsquo;s principle, taken to its logical conclusion, would require giving until further giving would harm the giver as much as it helps others.\n• Singer acknowledges this conclusion but argues that most people give far less than they could without significant sacrifice.\n• Philosopher Susan Wolf argues that Singer&rsquo;s view leaves no room for the personal projects and relationships that give life meaning.",
+        "align": "left",
+        "style": "notes"
+      },
+      {
+        "text": "The student wants to present the strongest objection to Singer&rsquo;s argument. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "Peter Singer argues that wealthy individuals are morally obligated to donate significantly to effective charities in order to reduce global poverty.",
+      "Susan Wolf argues that Singer&rsquo;s view is problematic because it leaves no room for the personal projects and relationships that make a meaningful life possible.",
+      "Singer acknowledges that his principle could require giving until it harms the giver, but argues that most people currently give far less than they could without significant sacrifice.",
+      "Critics note that Singer&rsquo;s principle, taken to its logical conclusion, would require individuals to give until further giving would harm themselves as much as it helps others."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal determines the correct answer. The student wants to present the <em>strongest objection</em> to Singer&rsquo;s argument — the answer must challenge Singer&rsquo;s framework most fundamentally, not just note a complication.</div><div class='explanation-step'><strong>A)</strong> This describes Singer&rsquo;s own position, not an objection to it. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Wolf&rsquo;s objection challenges the foundation of Singer&rsquo;s framework — if his view makes a meaningful life impossible, the entire ethical system is called into question. This is the most fundamental challenge. Keep B.</div><div class='explanation-step'><strong>C)</strong> This presents Singer&rsquo;s own response to a criticism, not the objection itself. Presenting his rebuttal does not accomplish the goal of stating an objection. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> This is also a strong objection, but it focuses on the logical extreme of Singer&rsquo;s principle rather than challenging the framework itself. Wolf&rsquo;s objection is broader and more fundamental — it questions what kind of life Singer&rsquo;s view permits, not just how far the principle extends. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-028",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Textual Evidence"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["quotation", "poetry", "Whitman"],
+    "stemSegments": [
+      {
+        "text": "In his 1855 poem &ldquo;Song of Myself,&rdquo; Walt Whitman presents the self as expansive and fundamentally contradictory &mdash; capable of containing opposing ideas and impulses without the need for internal consistency, writing <span class='blank'>_______</span>.",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "Which quotation from &ldquo;Song of Myself&rdquo; most effectively illustrates the claim?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "&ldquo;I celebrate myself, and sing myself, / And what I assume you shall assume, / For every atom belonging to me as good belongs to you.&rdquo;",
+      "&ldquo;Do I contradict myself? / Very well then I contradict myself, / (I am large, I contain multitudes.)&rdquo;",
+      "&ldquo;I am the poet of the Body and I am the poet of the Soul.&rdquo;",
+      "&ldquo;I have said that the soul is not more than the body, / And I have said that the body is not more than the soul.&rdquo;"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Illustrating Claims with Quotations</em> questions, identify the precise claim before evaluating the choices. The claim has two parts: (1) the self is expansive and contradictory, and (2) it contains opposing ideas without needing internal consistency. The correct quotation must illustrate both.</div><div class='explanation-step'><strong>A)</strong> This opening stanza emphasizes unity between the self and others (&ldquo;every atom belonging to me as good belongs to you&rdquo;) — it is about connection, not internal contradiction. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Directly addresses self-contradiction (&ldquo;Do I contradict myself? Very well then I contradict myself&rdquo;) and the expansive self (&ldquo;I am large, I contain multitudes&rdquo;) — both parts of the claim are illustrated. Keep B.</div><div class='explanation-step'><strong>C)</strong> Presents a duality (body and soul) but frames it as two roles the speaker occupies, not as a contradiction the self embraces without concern for consistency. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Asserts the equal value of body and soul but does not address contradiction or the self&rsquo;s capacity to contain opposing impulses without resolution. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-029",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Central Ideas and Details",
+      "skill": "Main Idea"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["main idea", "history of science", "medicine"],
+    "stem": "When Ignaz Semmelweis proposed in 1847 that physicians were transmitting fatal infections to patients by failing to wash their hands between performing autopsies and delivering babies, his colleagues largely rejected the theory. The medical establishment found the idea that doctors themselves could be causing patient deaths implausible and offensive to professional dignity. Semmelweis grew increasingly frustrated and erratic in his advocacy, ultimately being committed to a mental institution where he died in 1865 &mdash; ironically, likely from the same type of infection he had spent his career trying to prevent. His theory was vindicated only after Louis Pasteur&rsquo;s germ theory provided a scientific mechanism to explain it.<br><br>Which choice best states the main idea of the text?",
+    "choices": [
+      "Semmelweis failed to prevent hospital infections because he lacked access to modern sanitation equipment.",
+      "Despite proposing a correct and potentially life-saving theory, Semmelweis was rejected by the medical establishment and died without seeing his work validated.",
+      "The medical community&rsquo;s resistance to Semmelweis&rsquo;s theory demonstrates that scientific progress is always contentious and slow.",
+      "Pasteur&rsquo;s germ theory was more scientifically rigorous than Semmelweis&rsquo;s handwashing hypothesis and ultimately replaced it."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Main Idea</em> questions at level 3, the correct answer must capture the full arc of the passage precisely — not just one element. Before looking at choices, summarize: Semmelweis had a correct theory, was rejected for non-scientific reasons, and died before his work was accepted.</div><div class='explanation-step'><strong>A)</strong> The passage does not mention sanitation equipment — Semmelweis&rsquo;s proposal was specifically about handwashing, not equipment. This distorts the content. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Captures all three key elements: his theory was correct, the establishment rejected it, and he died without vindication. Keep B.</div><div class='explanation-step'><strong>C)</strong> Overgeneralizes from one case to a broad claim about all scientific progress. The passage does not make this argument — it tells one specific story. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Misrepresents the relationship between Semmelweis and Pasteur. Pasteur&rsquo;s theory explained and vindicated Semmelweis&rsquo;s work — it did not replace or supersede it. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-030",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Quantitative Evidence"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["table", "data", "evaluate claim", "commute"],
+    "stemSegments": [
+      {
+        "text": "Average Commute Time and Remote Work Rate by City",
+        "align": "center",
+        "style": "intro"
+      },
+      {
+        "text": "<table class='stem-table'><tr><th>City</th><th>Avg Commute Time (min)</th><th>% Remote Workers</th></tr><tr><td>City A</td><td>48</td><td>12%</td></tr><tr><td>City B</td><td>51</td><td>28%</td></tr><tr><td>City C</td><td>52</td><td>8%</td></tr><tr><td>City D</td><td>29</td><td>41%</td></tr><tr><td>City E</td><td>61</td><td>6%</td></tr></table>",
+        "align": "center",
+        "style": "table"
+      },
+      {
+        "text": "A researcher argues that among these five cities, higher rates of remote work are consistently associated with shorter average commute times, and that this relationship holds across all five cities in the data. Which choice most accurately uses data from the table to evaluate the researcher's claim?",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "Which choice most accurately uses data from the table to evaluate the researcher's claim?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "City D has the highest remote work rate and the shortest commute time, which supports the researcher's claim.",
+      "The data largely support the researcher's claim, but City B, which has a higher remote work rate than City A, also has a longer commute time, contradicting the claim that the relationship holds across all five cities.",
+      "City E has both the longest commute time and the lowest remote work rate, which is consistent with the researcher's claim.",
+      "Cities with remote work rates above 25% all have commute times below 40 minutes, fully supporting the researcher's claim."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Quantitative Evidence</em> questions, verify each claim carefully against the table before selecting an answer. The researcher claims the relationship holds across <em>all five cities</em>. Check each pair: City E (6%, 61 min), City C (8%, 52 min), City A (12%, 48 min) — all follow the pattern. But City B (28% remote) has a longer commute (51 min) than City A (12% remote, 48 min) — the pattern breaks.</div><div class='explanation-step'><strong>A)</strong> True but incomplete — City D supporting the claim at one end of the range does not confirm the claim holds across all five cities. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Correctly identifies that the pattern mostly holds but notes the exception: City B has more remote workers than City A but a longer commute, directly contradicting the claim that the relationship holds across all five cities. Keep B.</div><div class='explanation-step'><strong>C)</strong> True but addresses only one data point. Showing one city fits the pattern does not evaluate whether the pattern holds for all five. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Factually incorrect — City B has a 28% remote work rate but a 51-minute commute, well above 40 minutes. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-031",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Quantitative Evidence"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["table", "passage", "stress", "pandemic", "support claim"],
+    "stemSegments": [
+      {
+        "text": "Adults Reporting High Stress Levels by Occupation (%)",
+        "align": "center",
+        "style": "intro"
+      },
+      {
+        "text": "<table class='stem-table'><tr><th>Occupation</th><th>2019</th><th>2022</th></tr><tr><td>Healthcare workers</td><td>41%</td><td>68%</td></tr><tr><td>Educators</td><td>38%</td><td>55%</td></tr><tr><td>Tech workers</td><td>29%</td><td>44%</td></tr><tr><td>Retail workers</td><td>35%</td><td>49%</td></tr><tr><td>Finance workers</td><td>31%</td><td>39%</td></tr></table>",
+        "align": "center",
+        "style": "table"
+      },
+      {
+        "text": "Psychologist Dr. Marcus Webb argues that the COVID-19 pandemic disproportionately increased stress among workers in public-facing occupations compared to those who could transition to remote work. He further claims that healthcare workers experienced the most dramatic increase in reported stress of any occupational group studied.",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "Which choice best uses data from the table to support Dr. Webb's claim?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "Healthcare workers reported the highest stress levels in both 2019 and 2022, suggesting that their work has always been more stressful than other occupations.",
+      "Healthcare workers saw a 27 percentage point increase in reported stress — the largest of any group — while finance workers, who could more easily work remotely, saw only an 8 percentage point increase.",
+      "All five occupational groups showed increased stress levels between 2019 and 2022, indicating that the pandemic affected workers across all sectors.",
+      "Tech workers, despite being able to work remotely, still experienced a 15 percentage point increase in stress, which challenges Dr. Webb's claim."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Passage + Table</em> questions, the correct answer must use specific data to support both parts of the claim. Dr. Webb claims (1) public-facing workers were disproportionately affected compared to remote workers, and (2) healthcare workers had the most dramatic increase of any group.</div><div class='explanation-step'><strong>A)</strong> States that healthcare workers had the highest stress levels in both years, but this addresses absolute levels, not the size of the increase. It also does not address the comparison with remote workers. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Healthcare workers increased by 27 percentage points (41% to 68%) — the largest increase in the table — while finance workers increased by only 8 points (31% to 39%). This directly supports both parts of Dr. Webb&rsquo;s claim using specific data. Keep B.</div><div class='explanation-step'><strong>C)</strong> States that all groups showed increased stress, which is too vague and does not address the disproportionate impact on public-facing workers or the healthcare finding. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Frames tech workers&rsquo; increase as a challenge to Dr. Webb&rsquo;s claim rather than supporting it. The goal is to support, not undermine. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-032",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Words in Context",
+      "skill": "Vocabulary in Context"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["vocabulary", "words in context", "Douglass"],
+    "stemSegments": [
+      {
+        "text": "The following text is from Frederick Douglass&rsquo;s <em>Narrative of the Life of Frederick Douglass, an American Slave</em>, published in 1845.",
+        "align": "left",
+        "style": "default"
+      },
+      {
+        "text": "I have often been utterly astonished, since I came to the north, to find persons who could speak of the singing, among slaves, as evidence of their contentment and happiness. It is impossible to <u>conceive of</u> a greater mistake. Slaves sing most when they are most unhappy. The songs of the slave represent the sorrows of his heart; and he is relieved by them, only as an aching heart is relieved by its tears.",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "As used in the text, &ldquo;conceive of&rdquo; most nearly means",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "imagine",
+      "approve of",
+      "design",
+      "tolerate"
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, the tone and content of the passage can make emotionally loaded choices seem plausible. Here, Douglass says &ldquo;It is impossible to conceive of a greater mistake&rdquo; — the blank must be a cognitive act (something the mind does), not a moral or emotional one.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Imagine&rdquo; means to form a mental picture or concept. &ldquo;Conceive of&rdquo; in this context means to think of or imagine — &ldquo;it is impossible to imagine a greater mistake.&rdquo; This fits precisely. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Approve of&rdquo; is tempting because Douglass is clearly disapproving of those who misread slave singing as happiness. However, the phrase is about cognitive impossibility, not moral disapproval — he is saying no one could even think of a larger error, not that he won&rsquo;t endorse it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Design&rdquo; means to plan or create. This does not fit the context — Douglass is not discussing creating a mistake. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Tolerate&rdquo; is also tempting given Douglass&rsquo;s tone of moral outrage, but again, the phrase is cognitive rather than moral. He is not saying the mistake is intolerable — he is saying it is impossible to even think of a worse one. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+  },
+  {
+    "id": "V-L3-033",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Textual Evidence"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["undermine claim", "history", "Harlem Renaissance"],
+    "stemSegments": [
+      {
+        "text": "Historian Dr. James Okafor argues that the Harlem Renaissance of the 1920s was not primarily a literary movement, as it is most commonly characterized, but rather a visual arts movement whose impact on American culture has been systematically undervalued by scholars who prioritize written texts. He contends that the painters, sculptors, and photographers of the period reached broader audiences and had more immediate cultural influence than the writers who have received the bulk of scholarly attention.",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "Which finding, if true, would most directly undermine Dr. Okafor&rsquo;s claim?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "Several Harlem Renaissance writers, including Langston Hughes, gained significant international recognition during the 1920s.",
+      "Surveys of Americans conducted in the 1920s show that written works of the Harlem Renaissance were more widely read and discussed than visual artworks of the same period were viewed.",
+      "Scholars have published significantly more books about Harlem Renaissance literature than about its visual arts.",
+      "Many Harlem Renaissance visual artists also worked as illustrators for literary magazines, blurring the boundary between visual and written culture."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Weakening a Claim</em> questions, identify the claim precisely. Dr. Okafor claims that visual arts reached <em>broader audiences</em> and had <em>more immediate cultural influence</em> than the writers. To undermine this, the correct answer must show that literary works actually had broader reach or more influence.</div><div class='explanation-step'><strong>A)</strong> International recognition for Harlem Renaissance writers is consistent with them having broad influence, but it does not directly compare their reach to that of visual artists. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> If written works were more widely read and discussed than visual artworks were viewed, this directly contradicts Okafor&rsquo;s claim that visual arts reached broader audiences. Keep B.</div><div class='explanation-step'><strong>C)</strong> Scholars publishing more about literature actually supports Okafor&rsquo;s claim that scholars have prioritized written texts over visual arts. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Visual artists working as literary illustrators is an interesting connection, but it does not address whether visual or written works had broader audiences or more cultural influence. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-034",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Central Ideas and Details",
+      "skill": "Main Idea"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": ["main idea", "philosophy of science", "Popper"],
+    "stem": "The philosopher Karl Popper held that scientific theories can never be proven true &mdash; they can only be falsified. No amount of confirming evidence, he argued, is sufficient to establish a theory as certainly correct, because a single counterexample is enough to disprove it. This asymmetry, Popper claimed, is what distinguishes science from other forms of inquiry: genuine scientific theories make bold predictions that could in principle be shown wrong. Theories constructed so as to accommodate any possible evidence &mdash; that can explain everything equally well &mdash; are, by Popper&rsquo;s account, not scientific at all.<br><br>Which choice best states the main idea of the text?",
+    "choices": [
+      "Popper argued that scientific theories are more reliable than other forms of knowledge because they can be confirmed through repeated experimentation.",
+      "According to Popper, what makes a theory scientific is not that it can be proven true, but that it makes predictions specific enough to be potentially disproven.",
+      "Popper&rsquo;s philosophy of science demonstrated that all existing scientific theories will eventually be falsified by new evidence.",
+      "Popper believed that counterexamples are more valuable to science than confirming evidence because they generate new research questions."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Main Idea</em> questions at level 3, the correct answer must capture the central argument precisely. Before looking at choices, summarize: Popper argued that theories cannot be proven true, only falsified, and that the ability to be falsified is what makes a theory scientific.</div><div class='explanation-step'><strong>A)</strong> Directly contradicts Popper&rsquo;s view — he argued that no amount of confirming evidence proves a theory true. The passage explicitly states this. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Captures the asymmetry at the heart of Popper&rsquo;s argument: theories can&rsquo;t be proven true, but they can be falsified, and the capacity to be falsified is the criterion for being scientific. Keep B.</div><div class='explanation-step'><strong>C)</strong> Overstates Popper&rsquo;s position — he argued that theories are falsifiable in principle, not that all theories will inevitably be falsified. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Too narrow — Popper&rsquo;s point about counterexamples is that they can disprove theories, not specifically that they generate new research questions. The passage does not mention research questions. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
   }
 ]
 }

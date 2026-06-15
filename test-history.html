@@ -372,7 +372,12 @@
         if (!attempts[s.attempt_id]) attempts[s.attempt_id] = [];
         attempts[s.attempt_id].push(s);
       });
-
+// Only show attempts with both verbal and math completed sessions
+      Object.keys(attempts).forEach(id => {
+        const hasVerbal = attempts[id].some(s => s.subject === "verbal");
+        const hasMath = attempts[id].some(s => s.subject === "math");
+        if (!hasVerbal || !hasMath) delete attempts[id];
+      });
       // Sort by most recent session in each attempt
       const sortedAttempts = Object.entries(attempts).sort((a, b) => {
         const latestA = Math.max(...a[1].map(s => new Date(s.created_at).getTime()));
@@ -385,28 +390,12 @@
 
       sortedAttempts.forEach(([attemptId, attemptSessions], index) => {
         const testNumber = sortedAttempts.length - index;
+        const testVersion = attemptSessions[0]?.test_id?.includes("T2") ? "Test 2" : "Test 1";
         const latestDate = new Date(Math.max(...attemptSessions.map(s => new Date(s.created_at).getTime())));
         const dateStr = formatDate(latestDate);
 
         const verbalSessions = attemptSessions.filter(s => s.subject === "verbal");
         const mathSessions = attemptSessions.filter(s => s.subject === "math");
-
-        const verbalCorrect = verbalSessions.reduce((sum, s) => sum + (s.correct_count || 0), 0);
-        const verbalTotal = verbalSessions.reduce((sum, s) => sum + (s.total_count || Object.keys(s.answers || {}).length), 0);
-        const mathCorrect = mathSessions.reduce((sum, s) => sum + (s.correct_count || 0), 0);
-        const mathTotal = mathSessions.reduce((sum, s) => sum + (s.total_count || Object.keys(s.answers || {}).length), 0);
-        const totalCorrect = verbalCorrect + mathCorrect;
-        const totalTotal = verbalTotal + mathTotal;
-
-        const totalScoreHTML = totalTotal
-          ? `<span class="scorePill ${getScoreClass(totalCorrect, totalTotal)}">${totalCorrect}/${totalTotal} correct</span>`
-          : "";
-        const verbalScoreHTML = verbalTotal
-          ? `<span class="scorePill ${getScoreClass(verbalCorrect, verbalTotal)}">R&W: ${verbalCorrect}/${verbalTotal}</span>`
-          : "";
-        const mathScoreHTML = mathTotal
-          ? `<span class="scorePill ${getScoreClass(mathCorrect, mathTotal)}">Math: ${mathCorrect}/${mathTotal}</span>`
-          : "";
 
         const row = document.createElement("div");
         row.className = "sessionRow";
@@ -414,17 +403,8 @@
           <div class="sessionInfo">
             <div class="sessionDate">Practice Test ${testNumber}</div>
             <div class="sessionMeta">
-              <span class="subjectPill">Full SAT</span>
-              <span class="dot">·</span>
-              <span style="font-size:12px;color:#666;">${dateStr}</span>
-              ${totalScoreHTML ? `<span class="dot">·</span>${totalScoreHTML}` : ""}
+              <span style="font-size:12px;color:#888;">${dateStr}</span>
             </div>
-            ${(verbalScoreHTML || mathScoreHTML) ? `
-            <div class="sessionMeta" style="margin-top:4px;">
-              ${verbalScoreHTML}
-              ${verbalScoreHTML && mathScoreHTML ? '<span class="dot">·</span>' : ""}
-              ${mathScoreHTML}
-            </div>` : ""}
           </div>
           <div class="sessionActions">
             <button class="reviewBtn" onclick="goToSummary('${attemptId}')">Test Summary</button>

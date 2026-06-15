@@ -1,0 +1,407 @@
+{
+  "moduleId": "MathT2_Mod2E",
+  "subject": "math",
+  "timeSeconds": 2100,
+  "title": "SAT Math — Module 2",
+  "questions": [
+    {
+      "id": "MathT2-2E-001",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Linear Functions",
+        "skill": "Writing Linear Equations"
+      },
+      "stem": "<div class='stem-table-wrap'><table class='stem-table'><tr><th>\\(x\\)</th><th>\\(y\\)</th></tr><tr><td>\\(0\\)</td><td>\\(3\\)</td></tr><tr><td>\\(2\\)</td><td>\\(7\\)</td></tr><tr><td>\\(4\\)</td><td>\\(11\\)</td></tr></table></div><div class='stem-text'>The table shows values of \\(x\\) and their corresponding values of \\(y\\). Which of the following equations represents the relationship between \\(x\\) and \\(y\\)?</div>",
+      "choices": [
+        "\\(y = 2x + 3\\)",
+        "\\(y = 2x + 7\\)",
+        "\\(y = 3x + 2\\)",
+        "\\(y = 2x - 3\\)"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>Use two points from the table to find the slope.</div><div class='explanation-math'>$$m = \\frac{7 - 3}{2 - 0} = \\frac{4}{2} = 2$$</div><div class='explanation-step'>The \\(y\\)-intercept is the value of \\(y\\) when \\(x = 0\\), which the table shows is \\(3\\). The equation is \\(y = 2x + 3\\).</div>"
+    },
+    {
+      "id": "MathT2-2E-002",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Equations and Inequalities",
+        "skill": "Inequality Word Problems"
+      },
+      "stem": "A student needs to read at least 180 pages over the weekend. She has already read 45 pages. If she reads \\(p\\) pages per hour and has at most 9 hours remaining, which of the following inequalities represents the number of pages per hour she must read to meet her goal?",
+      "choices": [
+        "\\(9p \\geq 135\\)",
+        "\\(9p \\leq 135\\)",
+        "\\(9p \\geq 180\\)",
+        "\\(45p \\geq 180\\)"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>The total pages read is the 45 already read plus \\(p\\) pages per hour for up to 9 hours. This must be at least 180.</div><div class='explanation-math'>$$45 + 9p \\geq 180$$</div><div class='explanation-step'>Subtract 45 from both sides: \\(9p \\geq 135\\).</div>"
+    },
+    {
+      "id": "MathT2-2E-003",
+      "type": "gridin",
+      "level": 1,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Linear Functions",
+        "skill": "Modeling"
+      },
+      "stem": "A plumber charges a flat fee of \\$75 plus \\$50 per hour of work. A customer received a bill of \\$275. How many hours did the plumber work?",
+      "answer": 4,
+      "explanation": "<div class='explanation-step'>Let \\(h\\) = number of hours worked. Set up and solve an equation.</div><div class='explanation-math'>$$\\begin{aligned}75 + 50h &= 275 \\\\ 50h &= 200 \\\\ h &= 4\\end{aligned}$$</div>"
+    },
+    {
+      "id": "MathT2-2E-004",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Systems of Equations",
+        "skill": "Solving Linear Systems"
+      },
+      "stem": "<div style='text-align:center;'>$$y = 2x + 1$$</div><div style='text-align:center;'>$$3x + y = 16$$</div><div class='stem-text'>The solution to the given system of equations is \\((x, y)\\). What is the value of \\(x + y\\)?</div>",
+      "choices": [
+        "\\(8\\)",
+        "\\(9\\)",
+        "\\(10\\)",
+        "\\(12\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Substitute \\(y = 2x + 1\\) into the second equation.</div><div class='explanation-math'>$$\\begin{aligned}3x + (2x + 1) &= 16 \\\\ 5x + 1 &= 16 \\\\ 5x &= 15 \\\\ x &= 3\\end{aligned}$$</div><div class='explanation-step'>Substitute \\(x = 3\\) back: \\(y = 2(3) + 1 = 7\\). Therefore \\(x + y = 3 + 7 = 10\\).</div>"
+    },
+    {
+      "id": "MathT2-2E-005",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Linear Functions",
+        "skill": "Interpreting Slope in Context"
+      },
+      "stem": "A car rental company charges a daily fee plus a per-mile charge. The total cost \\(C\\), in dollars, for renting a car for one day and driving \\(m\\) miles is given by \\(C = 0.15m + 40\\). What does \\(0.15\\) represent in this equation?",
+      "choices": [
+        "The total cost of renting the car for one day",
+        "The cost in dollars per mile driven",
+        "The flat daily fee charged by the company",
+        "The total number of miles driven"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>In the equation \\(C = 0.15m + 40\\), this is slope-intercept form where the coefficient of \\(m\\) is the rate of change. Since \\(m\\) represents miles driven, \\(0.15\\) is the cost per mile — for each additional mile driven, the total cost increases by \\$0.15.</div>"
+    },
+    {
+      "id": "MathT2-2E-006",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Equations and Inequalities",
+        "skill": "Solving Multi-Step Equations"
+      },
+      "stem": "What is the solution to \\(3(2x - 4) = 2(x + 6)\\)?",
+      "choices": [
+        "\\(3\\)",
+        "\\(4\\)",
+        "\\(5\\)",
+        "\\(6\\)"
+      ],
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>Distribute on both sides, then solve for \\(x\\).</div><div class='explanation-math'>$$\\begin{aligned}3(2x - 4) &= 2(x + 6) \\\\ 6x - 12 &= 2x + 12 \\\\ 4x &= 24 \\\\ x &= 6\\end{aligned}$$</div>"
+    },
+    {
+      "id": "MathT2-2E-007",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Algebraic Expressions",
+        "skill": "Factoring"
+      },
+      "stem": "Which of the following is equivalent to \\(4x^2 - 25\\)?",
+      "choices": [
+        "\\((2x + 5)(2x - 5)\\)",
+        "\\((4x + 5)(x - 5)\\)",
+        "\\((2x - 5)^2\\)",
+        "\\((4x - 5)(x + 5)\\)"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>This is a difference of squares: \\(a^2 - b^2 = (a+b)(a-b)\\). Here \\(a = 2x\\) and \\(b = 5\\).</div><div class='explanation-math'>$$4x^2 - 25 = (2x)^2 - 5^2 = (2x + 5)(2x - 5)$$</div>"
+    },
+    {
+      "id": "MathT2-2E-008",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Quadratic Functions",
+        "skill": "Factoring to Find Roots"
+      },
+      "stem": "What is the sum of the solutions to \\(x^2 - 7x + 12 = 0\\)?",
+      "choices": [
+        "\\(3\\)",
+        "\\(4\\)",
+        "\\(7\\)",
+        "\\(12\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Factor the quadratic.</div><div class='explanation-math'>$$x^2 - 7x + 12 = (x - 3)(x - 4) = 0$$</div><div class='explanation-step'>The solutions are \\(x = 3\\) and \\(x = 4\\). Their sum is \\(3 + 4 = 7\\).</div>"
+    },
+    {
+      "id": "MathT2-2E-009",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Exponential Functions",
+        "skill": "Exponential Decay in Context"
+      },
+      "stem": "A car is purchased for \\$24,000 and loses 15% of its value each year. Which of the following functions gives the value \\(V\\), in dollars, of the car after \\(t\\) years?",
+      "choices": [
+        "\\(V(t) = 24{,}000(0.85)^t\\)",
+        "\\(V(t) = 24{,}000(0.15)^t\\)",
+        "\\(V(t) = 24{,}000 - 0.15t\\)",
+        "\\(V(t) = 24{,}000(1.15)^t\\)"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>Losing 15% of its value each year means the car retains \\(100\\% - 15\\% = 85\\%\\) of its value each year. The base of the exponential function is \\(0.85\\).</div><div class='explanation-math'>$$V(t) = 24{,}000(0.85)^t$$</div><div class='explanation-step'>Check: at \\(t=1\\), \\(V = 24{,}000(0.85) = 20{,}400\\), which is \\$24,000 minus 15%. ✓</div>"
+    },
+    {
+      "id": "MathT2-2E-010",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Polynomial Functions",
+        "skill": "Roots from Graph"
+      },
+      "stem": "<div class='stem-image'><img src='assets/MathT2-2E-010.png'></div><div class='stem-text'>The graph of a polynomial function \\(f\\) is shown. Which of the following could be an equation for \\(f\\)?</div>",
+      "choices": [
+        "\\(f(x) = (x + 2)(x - 1)(x - 4)\\)",
+        "\\(f(x) = (x - 2)(x + 1)(x + 4)\\)",
+        "\\(f(x) = (x + 2)(x + 1)(x - 4)\\)",
+        "\\(f(x) = (x - 2)(x - 1)(x - 4)\\)"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>The \\(x\\)-intercepts of the graph occur at \\(x = -2\\), \\(x = 1\\), and \\(x = 4\\). Each \\(x\\)-intercept corresponds to a factor: if \\(x = -2\\) is a root, then \\((x + 2)\\) is a factor; if \\(x = 1\\) is a root, then \\((x - 1)\\) is a factor; if \\(x = 4\\) is a root, then \\((x - 4)\\) is a factor.</div><div class='explanation-math'>$$f(x) = (x + 2)(x - 1)(x - 4)$$</div>",
+      "imageNote": "Coordinate plane showing a cubic polynomial with x-intercepts at x = -2, x = 1, and x = 4. Curve has positive leading coefficient (goes from bottom-left to top-right). Y-intercept is positive (approximately y = 8). Grid lines visible, axes labeled from -4 to 6 on x-axis."
+    },
+    {
+      "id": "MathT2-2E-011",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Functions",
+        "skill": "Interpreting Function Values from Graph"
+      },
+      "stem": "<div class='stem-image'><img src='assets/MathT2-2E-011.png'></div><div class='stem-text'>The graph of the function \\(f\\) is shown. What is the value of \\(f(3)\\)?</div>",
+      "choices": [
+        "\\(2\\)",
+        "\\(3\\)",
+        "\\(5\\)",
+        "\\(7\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>To find \\(f(3)\\), locate \\(x = 3\\) on the horizontal axis and read the corresponding \\(y\\)-value from the graph. The graph passes through the point \\((3, 5)\\), so \\(f(3) = 5\\).</div>",
+      "imageNote": "Coordinate plane showing a smooth curve passing through the following clearly labeled points: (-1, 0), (0, 2), (3, 5), (5, 3). Grid lines visible, x-axis from -2 to 6, y-axis from -1 to 8. Axes labeled."
+    },
+    {
+      "id": "MathT2-2E-012",
+      "type": "gridin",
+      "level": 2,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Quadratic Functions",
+        "skill": "Vertex Form"
+      },
+      "stem": "The function \\(f\\) is defined by \\(f(x) = (x - 4)^2 + 3\\). What is the minimum value of \\(f(x)\\)?",
+      "answer": 3,
+      "explanation": "<div class='explanation-step'>The function is in vertex form \\(f(x) = a(x - h)^2 + k\\), where the vertex is at \\((h, k)\\). Here \\(h = 4\\) and \\(k = 3\\).</div><div class='explanation-step'>Since \\(a = 1 > 0\\), the parabola opens upward, so the vertex is a minimum. The minimum value is \\(k = 3\\), occurring at \\(x = 4\\).</div>"
+    },
+    {
+      "id": "MathT2-2E-013",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Functions",
+        "skill": "Function Transformations"
+      },
+      "stem": "The graph of \\(g(x) = f(x - 3)\\) is the graph of \\(f\\) shifted in which direction?",
+      "choices": [
+        "3 units to the left",
+        "3 units to the right",
+        "3 units up",
+        "3 units down"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>When a function is written as \\(g(x) = f(x - c)\\) where \\(c > 0\\), the graph shifts \\(c\\) units to the right. This is a horizontal shift — replacing \\(x\\) with \\(x - 3\\) moves every point on the graph 3 units to the right.</div><div class='explanation-step'>A common error is thinking \\(x - 3\\) shifts left because of the minus sign. Remember: horizontal shifts go in the opposite direction of the sign inside the function.</div>"
+    },
+    {
+      "id": "MathT2-2E-014",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Exponential Functions",
+        "skill": "Exponential Decay"
+      },
+      "stem": "A population is modeled by \\(P(t) = 500(b)^t\\), where \\(t\\) is measured in years. If the population decreases by 12% each year, what is the value of \\(b\\)?",
+      "choices": [
+        "\\(0.12\\)",
+        "\\(0.88\\)",
+        "\\(1.12\\)",
+        "\\(1.88\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>If the population decreases by 12% each year, it retains \\(100\\% - 12\\% = 88\\%\\) of its value each year. The base \\(b\\) represents the fraction of the population that remains after each year.</div><div class='explanation-math'>$$b = 1 - 0.12 = 0.88$$</div><div class='explanation-step'>Common errors: choosing \\(0.12\\) (the rate itself rather than what remains) or \\(1.12\\) (which would model 12% growth, not decay).</div>"
+    },
+    {
+      "id": "MathT2-2E-015",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Problem Solving and Data Analysis",
+        "topic": "Probability",
+        "skill": "Simple Probability"
+      },
+      "stem": "A bag contains 5 red marbles, 3 blue marbles, and 2 green marbles. If one marble is drawn at random, what is the probability that it is blue?",
+      "choices": [
+        "\\(\\dfrac{1}{3}\\)",
+        "\\(\\dfrac{3}{10}\\)",
+        "\\(\\dfrac{3}{5}\\)",
+        "\\(\\dfrac{7}{10}\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>The total number of marbles is \\(5 + 3 + 2 = 10\\). The probability of drawing a blue marble is the number of blue marbles divided by the total.</div><div class='explanation-math'>$$P(\\text{blue}) = \\frac{3}{10}$$</div>"
+    },
+    {
+      "id": "MathT2-2E-016",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Problem Solving and Data Analysis",
+        "topic": "Statistics",
+        "skill": "Weighted Average"
+      },
+      "stem": "A student scores 80 on a test worth 40% of the final grade and 90 on a test worth 60% of the final grade. What is the student's weighted average?",
+      "choices": [
+        "\\(84\\)",
+        "\\(85\\)",
+        "\\(86\\)",
+        "\\(87\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Multiply each score by its weight and add the results.</div><div class='explanation-math'>$$\\begin{aligned}\\text{Weighted average} &= 0.40(80) + 0.60(90) \\\\ &= 32 + 54 \\\\ &= 86\\end{aligned}$$</div><div class='explanation-step'>A common error is taking the simple average: \\(\\frac{80 + 90}{2} = 85\\). This ignores the different weights.</div>"
+    },
+    {
+      "id": "MathT2-2E-017",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Problem Solving and Data Analysis",
+        "topic": "Graphs and Tables",
+        "skill": "Interpreting Line of Best Fit"
+      },
+      "stem": "<div class='stem-image'><img src='assets/MathT2-2E-017.png'></div><div class='stem-text'>The scatterplot shows the relationship between hours studied and test scores for a group of students, along with a line of best fit. Based on the line of best fit, what score would be predicted for a student who studied for 6 hours?</div>",
+      "choices": [
+        "\\(74\\)",
+        "\\(78\\)",
+        "\\(82\\)",
+        "\\(88\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Locate \\(x = 6\\) on the horizontal axis, then read the corresponding \\(y\\)-value from the line of best fit. The line passes through approximately \\((6, 82)\\).</div>",
+      "imageNote": "Scatterplot with x-axis labeled 'Hours Studied' ranging from 0 to 10, y-axis labeled 'Test Score' ranging from 50 to 100. Approximately 10-12 data points scattered showing positive correlation. Line of best fit drawn through the data. Line passes through approximately (0, 52) and (10, 97), giving a value of approximately 82 at x = 6. Grid lines visible."
+    },
+    {
+      "id": "MathT2-2E-018",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Problem Solving and Data Analysis",
+        "topic": "Ratios and Proportional Reasoning",
+        "skill": "Scale and Proportional Reasoning"
+      },
+      "stem": "A map uses a scale of 1 inch = 25 miles. Two cities are \\(3.5\\) inches apart on the map. What is the actual distance, in miles, between the two cities?",
+      "choices": [
+        "\\(71.5\\)",
+        "\\(82.5\\)",
+        "\\(87.5\\)",
+        "\\(92.5\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Use the scale to set up a proportion.</div><div class='explanation-math'>$$\\frac{1 \\text{ inch}}{25 \\text{ miles}} = \\frac{3.5 \\text{ inches}}{d \\text{ miles}}$$</div><div class='explanation-step'>Cross multiply: \\(d = 3.5 \\times 25 = 87.5\\) miles.</div>"
+    },
+    {
+      "id": "MathT2-2E-019",
+      "type": "gridin",
+      "level": 3,
+      "skill": {
+        "domain": "Problem Solving and Data Analysis",
+        "topic": "Statistics",
+        "skill": "Finding a Missing Value from Mean"
+      },
+      "stem": "The mean of five numbers is 12. Four of the numbers are 8, 10, 15, and 17. What is the fifth number?",
+      "answer": 10,
+      "explanation": "<div class='explanation-step'>The mean of five numbers is 12, so their sum is \\(12 \\times 5 = 60\\).</div><div class='explanation-math'>$$8 + 10 + 15 + 17 = 50$$</div><div class='explanation-step'>The fifth number is \\(60 - 50 = 10\\).</div>"
+    },
+    {
+      "id": "MathT2-2E-020",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Geometry and Trigonometry",
+        "topic": "Triangles",
+        "skill": "Similar Triangles"
+      },
+      "stem": "<div class='stem-image'><img src='assets/MathT2-2E-020.png'></div><div class='stem-text'>The two triangles shown are similar. What is the length of the longest side of the larger triangle?</div>",
+      "choices": [
+        "\\(12\\)",
+        "\\(13\\)",
+        "\\(15\\)",
+        "\\(18\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Find the scale factor by comparing the shortest sides of the two triangles.</div><div class='explanation-math'>$$\\text{Scale factor} = \\frac{9}{3} = 3$$</div><div class='explanation-step'>Multiply the longest side of the smaller triangle by the scale factor: \\(5 \\times 3 = 15\\).</div>",
+      "imageNote": "Two right triangles side by side. Smaller triangle has sides labeled 3 (shortest), 4, and 5 (hypotenuse/longest), with right angle marked. Larger triangle has shortest side labeled 9, other sides unlabeled except longest side marked with '?'. Right angle marked on larger triangle."
+    },
+    {
+      "id": "MathT2-2E-021",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Geometry and Trigonometry",
+        "topic": "Right Triangles",
+        "skill": "Trigonometric Ratios"
+      },
+      "stem": "<div class='stem-image'><img src='assets/MathT2-2E-021.png'></div><div class='stem-text'>In the right triangle shown, what is \\(\\sin(A)\\)?</div>",
+      "choices": [
+        "\\(\\dfrac{5}{12}\\)",
+        "\\(\\dfrac{5}{13}\\)",
+        "\\(\\dfrac{12}{13}\\)",
+        "\\(\\dfrac{12}{5}\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>The sine of an angle is the ratio of the length of the opposite side to the hypotenuse.</div><div class='explanation-math'>$$\\sin(A) = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{5}{13}$$</div><div class='explanation-step'>Common errors: \\(\\frac{12}{13}\\) is \\(\\cos(A)\\) (adjacent over hypotenuse), and \\(\\frac{5}{12}\\) is \\(\\tan(A)\\) (opposite over adjacent).</div>",
+      "imageNote": "Right triangle with right angle marked at bottom right. Vertical leg labeled 5, horizontal leg labeled 12, hypotenuse labeled 13. Angle A marked at bottom left vertex. Labels clearly visible."
+    },
+    {
+      "id": "MathT2-2E-022",
+      "type": "gridin",
+      "level": 3,
+      "skill": {
+        "domain": "Geometry and Trigonometry",
+        "topic": "Coordinate Geometry",
+        "skill": "Distance Between Two Points"
+      },
+      "stem": "What is the distance between the points \\((1, 2)\\) and \\((4, 6)\\) in the \\(xy\\)-plane?",
+      "answer": 5,
+      "explanation": "<div class='explanation-step'>Use the distance formula.</div><div class='explanation-math'>$$\\begin{aligned}d &= \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \\\\ &= \\sqrt{(4-1)^2 + (6-2)^2} \\\\ &= \\sqrt{9 + 16} \\\\ &= \\sqrt{25} = 5\\end{aligned}$$</div>"
+    }
+  ]
+}

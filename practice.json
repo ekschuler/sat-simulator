@@ -827,6 +827,79 @@
       "explanation": "<div class='explanation-step'>All of the answer choices are in the form \\(y=mx+b\\) where \\(m\\) is the slope and \\(b\\) is the \\(y\\)-intercept.  The \\(y\\)-intercept is the value of \\(y\\) when \\(x=0\\). From the table the \\(y\\)-intercept is \\(9\\), so eliminate A and C.  Find the slope;</div><div class='explanation-math'>$$\\begin{aligned}\\ m&=\\frac{y_2 - y_1}{x_2 - x_1} \\\\ m&=\\frac{5 - (-2)}{2-1}\\\\ m  &= 7\\end{aligned}$$</div><div class='explanation-step'>The slope is \\(7\\), so the equation is \\(h(x)=7x-9\\).</div>"
     },
     {
+  "id": "A-L1-032",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Functions",
+    "skill": "Evaluating Functions"
+  },
+  "stem": "The function \\(f\\) is defined by \\(f(x)=\\sqrt{1-6x}\\). What is the value of \\(f(-8)?",
+  "choices": [
+    "\\(-\\frac{6}{35}\\)",
+    "\\(-\\frac{35}{6}\\)",
+    "\\(7\\)",
+    "\\(49\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>Substitute \\(x = -8\\) into the function.</div><div class='explanation-math'>$$f(-8) = \\sqrt{1 - 6(-8)} = \\sqrt{1 + 48} = \\sqrt{49} = 7$$</div>"
+
+},
+{
+  "id": "A-L1-033",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Equations and Inequalities",
+    "skill": "Literal Equations"
+},
+  "stem": "<div style='text-align:center;'>$$3a-b=b^2$$</div><div style='margin-top:12px;'>The given equation relates the rational numbers \\(a\\) and \\(b\\). Which equation correctly expresses \\(a\\) in terms of \\(b\\)?</div>",
+  "choices": [
+    "\\(a=3(b^2+b)\\)",
+    "\\(a=\\frac{b^2+b}{3}\\)",
+    "\\(a=b^2+b-3\\)",
+    "\\(a=\\frac{2b^2}{3}\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>Solve for \\(a\\) by isolating it on one side of the equation.</div><div class='explanation-math'>$$\\begin{aligned}3a - b &= b^2 \\\\ 3a &= b^2 + b \\\\ a &= \\frac{b^2 + b}{3}\\end{aligned}$$</div>"
+},
+{
+  "id": "A-L1-034",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Statistics",
+    "skill": "Calculating Mean"
+},
+  "stem": "The mean donation in an office fundraiser is \\(\\$90\\). If \\(48\\) employees donated, what is the total of all of the donations?",
+  "choices": [
+    "\\(\\$\\text{4,320}\\)",
+    "\\(\\$\\text{2,160}\\)",
+    "\\(\\$1,380\\)",
+    "\\(\\$\\432\\)"
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>The mean is the total divided by the number of values. Multiply the mean by the number of employees to find the total.</div><div class='explanation-math'>$$\\text{Total} = 90 \\times 48 = \\$4{,}320$$</div>"
+},
+{
+  "id": "A-L1-035",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Linear Functions",
+    "skill": "Modeling"
+},
+"stem": "<div style='margin-top:12px;'>A knitting pattern for a scarf suggests 16 yards of yarn per inch in length of the scarf and an additional 30 yards for the scarf tassels. Which equation represents this equation, where \\(y\\) is the number of yards of yarn needed for a scarf that is \\(x\\) in length?</div>",
+  "choices": [
+      "\\(y=16x+30\\)",
+      "\\(y=30x+16\\)",
+      "\\(y=16x\\)",
+      "\\(y=46x\\)"
+      ],
+      "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>The yarn needed is 16 yards per inch of length plus a flat 30 yards for tassels. The rate per inch is the slope and the fixed amount is the \\(y\\)-intercept.</div><div class='explanation-math'>$$y = 16x + 30$$</div>"
+    },
+    {
       "id": "A-L2-001",
       "type": "mcq",
       "mode": "practice",
@@ -2350,6 +2423,42 @@
       "answerIndex": 3,
       "explanation": "<div class='explanation-step'>To solve for \\(3y\\) directly (without solving for \\(y\\) first), multiply both sides of the given equation by \\(6\\). </div><div class='explanation-math'>$$\\begin{aligned}\\ 7&=\\frac{1}{2}y\\\\ 7\\times 6&=\\frac{1}{2}y \\times 6\\\\42&=3y \\end{aligned}$$</div><div class='explanation-step'>If you don't see that multiplying by \\(6\\) will give \\(3y\\) on the right hand side, you can also solve for \\(y\\) directly by multiplying both sides by \\(2\\), so \\(y=14\\).  Then multiply by \\(3\\) to get \\(3y=42\\).</div>"
     },
+    {
+  "id": "A-L2-058",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Linear Functions",
+    "skill": "Calculating Slope"
+},
+  "stem": "What is the slope of the graph of line \\(m\\) if it is perpendicular to the graph of \\(x-4y=-3))</div>",
+  "choices": [
+    "\\(4\\)",
+    "\\(\\frac{4}{3}\\)",
+    "\\(\\frac{3}{4}\\)",
+    "\\(\\frac{1}{4}\\)"
+  ],
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>First, rewrite \\(x - 4y = -3\\) in slope-intercept form to find its slope.</div><div class='explanation-math'>$$\\begin{aligned}-4y &= -x - 3 \\\\ y &= \\frac{1}{4}x + \\frac{3}{4}\\end{aligned}$$</div><div class='explanation-step'>The slope of the given line is \\(\\frac{1}{4}\\). A perpendicular line has a slope that is the negative reciprocal.</div><div class='explanation-math'>$$m_{\\perp} = -\\frac{1}{\\frac{1}{4}} = -4$$</div>"
+    },
+{
+  "id": "A-L2-059",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Systems of Equations",
+    "skill": "Solving Linear Systems"
+},
+  "stem": "<div style='text-align:center;'>$$x-3y=8$$</div><div style='text-align:center;'>$$-4y=40$$</div><div style='margin-top:12px;'>The solution to the given system of equations is \\((x,y)\\).  What is the value of \\(x+y\\)?</div>",
+  "choices": [
+    "\\(48\\)",
+    "\\(32\\)",
+    "\\(-32\\)",
+    "\\(-48\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>Solve the second equation for \\(y\\).</div><div class='explanation-math'>$$-4y = 40 \\Rightarrow y = -10$$</div><div class='explanation-step'>Substitute \\(y = -10\\) into the first equation to find \\(x\\).</div><div class='explanation-math'>$$x - 3(-10) = 8 \\Rightarrow x + 30 = 8 \\Rightarrow x = -22$$</div><div class='explanation-step'>Therefore \\(x + y = -22 + (-10) = -32\\).</div>"
+},
 {
       "id": "A-L3-001",
       "type": "mcq",
@@ -2931,7 +3040,7 @@
       "set": "Algebra Practice",
       "tags": ["tables", "writing equations"],
 
-      "stem": "<div class='stem-table-wrap'><table class='stem-table'><tr><th>\\(x\\)</th><th>\\(g(x)\\)</th></tr><tr><td>\\(20\\)</td><td>\\(21\\)</td></tr><tr><td>\\(-10\\)</td><td>\\(-39\\)</td></tr></table></div><div class='stem-text'>The table shows values of the linear function \\(g\\). The graph of \\(y=g(x)\\) also passes through the point \\((\\frac{1}{5}, c)\\). What is the value of \\c\\)</div>",
+      "stem": "<div class='stem-table-wrap'><table class='stem-table'><tr><th>\\(x\\)</th><th>\\(g(x)\\)</th></tr><tr><td>\\(20\\)</td><td>\\(21\\)</td></tr><tr><td>\\(-10\\)</td><td>\\(-39\\)</td></tr></table></div><div class='stem-text'>The table shows values of the linear function \\(g\\). The graph of \\(y=g(x)\\) also passes through the point \\((\\frac{1}{5}, c)\\). What is the value of \\(c\\)</div>",
       "answer": "-18.6",
       "answersAccepted": ["-18.6", "-\\frac{93}{5}", "\\frac{-93}{5}", "\\frac{93}{-5}"],
 
@@ -4451,7 +4560,7 @@
       "set": "Advanced Math Practice",
       "tags": ["radical form", "exponential form"],
 
-      "stem": "<div class='stem-text'>Which of the following is equal to \\(d^{\\frac{2}{5}}\\), for all values of \\(a\\)?</div>",
+      "stem": "<div class='stem-text'>Which of the following is equal to \\(d^{\\frac{2}{5}}\\), for all values of \\(d\\)?</div>",
 
       "choices": [
         "\\(\\sqrt{d^\\frac{1}{5}}\\)",
@@ -4756,7 +4865,101 @@
       "answerIndex": 1,
       "explanation": "<div class='explanation-step'>Use the laws of exponents to simplify this expression.  But first, cross out \\(\\frac{d^2}{d^2}\\) since anything divided by itself is \\(1\\).  This means there is no power of \\(d\\) in the answer, so eliminate C and D. Next, use the Quotient Rule; subtract the exponents of powers with the same bases.</div><div class='explanation-math'>$$\\begin{aligned}\\ &=\\frac{c^6 f }{c^2 f^3}\\\\ &=c^{6-2} f^{1-3} \\\\ &=c^{4} f^{-2}\\end{aligned}$$</div><div class='explanation-step'></div><div class='explanation-step'>Since the only remaining answer with \\(c^4\\) is B, it must be the correct answer.  But to finish simplifying, use the Negative Exponent Rule, so \\(f^{-2}=\\frac{1}{f^2}\\).  Then \\(c^4 \\times \\frac{1}{f^2} = \\frac{c^4  }{f^2}\\).</div>"
     },
-
+{
+  "id": "AM-L2-047",
+  "type": "mcq",
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Rational Equations",
+    "skill": "Solving Rational Equations"
+},
+  "stem": "<div style='text-align:center;'>$$1=\\frac{x-4}{(x-4)^2}$$</div><div style='margin-top:12px;'>What is the solution to the equation?</div>",
+  "choices": [
+    "\\(1\\)",
+    "\\(4\\)",
+    "\\(5\\)",
+    "\\(16\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>Simplify the right side by canceling one factor of \\((x-4)\\), noting that \\(x \\neq 4\\) (since that would make the denominator zero).</div><div class='explanation-math'>$$1 = \\frac{x-4}{(x-4)^2} = \\frac{1}{x-4}$$</div><div class='explanation-step'>Solve for \\(x\\).</div><div class='explanation-math'>$$\\begin{aligned}x - 4 &= 1 \\\\ x &= 5\\end{aligned}$$</div><div class='explanation-step'>Check: \\(x = 4\\) is excluded, and \\(x = 5\\) gives \\(\\frac{5-4}{(5-4)^2} = \\frac{1}{1} = 1\\) ✓</div>"
+},
+{
+  "id": "AM-L2-048",
+  "type": "gridin",
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Functions",
+    "skill": "Finding Intercepts"
+},
+  "stem": "<div style='margin-top:12px;'>The function \\(h\\) is defined by \\(h(x)=(x+1)^2(x-8)(x-3)\\). What is the \\(x\\)-coordinate of the largest \\(x\\)-intercept graph of the function in the \\(xy\\)-plane?</div>",
+  "answer": "8",
+      "answersAccepted": ["8"],
+      "validation": {
+        "format": "number",
+        "allowNegative": true,
+        "allowDecimal": true,
+        "allowFraction": false,
+        "maxChars": 8
+      },
+      "explanation": "<div class='explanation-step'>The \\(x\\)-intercepts occur where \\(h(x) = 0\\). Set each factor equal to zero.</div><div class='explanation-math'>$$\\begin{aligned}(x+1)^2 &= 0 \\Rightarrow x = -1 \\\\ x - 8 &= 0 \\Rightarrow x = 8 \\\\ x - 3 &= 0 \\Rightarrow x = 3\\end{aligned}$$</div><div class='explanation-step'>The \\(x\\)-intercepts are \\(x = -1\\), \\(x = 3\\), and \\(x = 8\\). The largest is \\(8\\).</div>"
+},
+{
+  "id": "AM-L2-049",
+  "type": "mcq",
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Exponential Functions",
+    "skill": " Transformations"
+},
+  "stem": "<div style='text-align:center;'>$$g(x)=3(2)^x$$</div><div style='margin-top:12px;'>The function \\(g\\) is defined by the given equation. If \\(h(x)=g(x+5)\\), which of the following functions defines \\(g\\)?</div>",
+  "choices": [
+    "\\(h(x)=15(2)^x\\)",
+    "\\(h(x)=15(10)^x\\)",
+    "\\(h(x)=96(2)^x\\)",
+    "\\(h(x)=243(32)^x\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>Substitute \\(x + 5\\) for \\(x\\) in \\(g(x)\\).</div><div class='explanation-math'>$$h(x) = g(x+5) = 3(2)^{x+5} = 3 \\cdot 2^x \\cdot 2^5 = 3 \\cdot 32 \\cdot 2^x = 96(2)^x$$</div>"
+},
+{
+  "id": "AM-L2-050",
+  "type": "mcq",
+  "skill": {
+     "domain": "Advanced Math",
+    "topic": "Non-linear Systems",
+    "skill": "Solving Non-linear Systems"
+},
+  "stem": "<div style='text-align:center;'><img src='assets/Test2-1-12.png' style='max-width:40%;height:auto;'></div><div style='margin-top:16px;'>The graph of a system of a linear equation and a nonlinear equation is shown. Which is a solution \\((x,y)\\) to this system?</div>",
+    "choices": [
+      "\\((0,3)\\)",
+      "\\((2,0)\\)",
+      "\\((8,0)\\)",
+      "\\((3,8)\\)"
+      ],
+    "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>The solutions to a system of equations are the points where the graphs intersect. From the graph, identify the coordinates of the intersection points and match them to the answer choices.</div><div class='explanation-step'>The intersection point that matches one of the given choices is \\((3, 8)\\).</div>"
+    },
+    
+    {
+  "id": "AM-L2-051",
+  "type": "gridin",
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Quadratic Functions",
+    "skill": "Finding Intercepts"
+},
+  "stem": "<div style='text-align:center;'>$$1=(x+5)(x-9)+1$$</div><div style='margin-top:12px;'>What is the smallest solution to the given equation?</div>",
+  "answer": "-5",
+      "answersAccepted": ["-5"],
+      "validation": {
+        "format": "number",
+        "allowNegative": true,
+        "allowDecimal": true,
+        "allowFraction": false,
+        "maxChars": 8
+      },
+  "explanation": "<div class='explanation-step'>Subtract 1 from both sides.</div><div class='explanation-math'>$$\\begin{aligned}1 &= (x+5)(x-9)+1 \\\\ 0 &= (x+5)(x-9)\\end{aligned}$$</div><div class='explanation-step'>Set each factor equal to zero.</div><div class='explanation-math'>$$x + 5 = 0 \\Rightarrow x = -5 \\qquad x - 9 = 0 \\Rightarrow x = 9$$</div><div class='explanation-step'>The smallest solution is \\(-5\\).</div>"
+},
     {
       "id": "AM-L3-001",
       "type": "mcq",
@@ -5853,7 +6056,7 @@
       "set": "Advanced Math Practice",
       "tags": ["functions", "evaluating"],
 
-      "stem": "<div class='stem-text'>A quadratic function passes through the point \\((-n,0)\\), has a factor of \\(x-8.6), and a vertex at \\((3.4, 8)\\), where \\(n\\) is a positive constant. What is the value of \\(n\\)?</div>",
+      "stem": "<div class='stem-text'>A quadratic function passes through the point \\((-n,0)\\), has a factor of \\(x-8.6\\), and a vertex at \\((3.4, 8)\\), where \\(n\\) is a positive constant. What is the value of \\(n\\)?</div>",
 
       "choices": [
         "\\(8.6\\)",
@@ -5864,6 +6067,24 @@
       "answerIndex": 2,
       "explanation": "<div class='explanation-step'>The point \\((-n,0)\\)is one of the \\(x\\)-intercepts. The other \\(x\\)-intercept is given in the factor \\(x-8.6\\), so it is \\((8.6,0)\\). \\(x\\)-intercepts are symmetrical about the vertex, so their \\(x\\)-values are equidistant from the \\(x\\)-value of the vertex.</div><div class='explanation-step'>Find the distance between the \\(x\\)-intercept \\(8.6\\) and the \\(x\\)-value of the vertex, \\(3.4\\), so \\(8.6-3.4=5.2\\). Subtract \\(5.2\\) from \\(3.4\\) to find the other \\(x\\)-intercept; \\(3.4-5.2=-1.8\\). Since \\(n\\) is a positive constant, \\(n=1.8\\).</div>"
         },
+        {
+  "id": "AM-L3-042",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Exponents and Radicals",
+    "skill": "Laws of Exponents"
+},
+  "stem": "<div style='text-align:center;'>$$ax^2+8x-1$$</div><div style='margin-top:12px;'>In the given equation, the constant \\(a\\) is an integer.  If the equation has no solutions, what is the maximum possible value of \\(a\\)?</div>",
+  "choices": [
+    "\\(16\\)",
+    "\\(-15\\)",
+    "\\(-16\\)",
+    "\\(-17\\)"
+  ],
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>A quadratic equation has no real solutions when its discriminant is negative: \\(b^2 - 4ac < 0\\). Here \\(a = a\\), \\(b = 8\\), \\(c = -1\\).</div><div class='explanation-math'>$$\\begin{aligned}8^2 - 4(a)(-1) &< 0 \\\\ 64 + 4a &< 0 \\\\ 4a &< -64 \\\\ a &< -16\\end{aligned}$$</div><div class='explanation-step'>Since \\(a\\) must be an integer less than \\(-16\\), the maximum possible value is \\(-17\\).</div>"
+},
 {
       "id": "P-L1-001",
       "type": "mcq",
@@ -6723,7 +6944,24 @@
       "answerIndex": 1,
       "explanation": "<div class='explanation-step'>To find the percentage of monthly ticket holders out of all commuters, divide the number of monthly ticket holders by the total number of commuters, and multiply that result by \\(100\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ &=\\frac{\\text{part}}{\\text{total}} \\times 100\\\\ &=\\frac{\\text{2,160,000}}{\\text{9,000,000}} \\times 100\\\\ &= 24\\% \\end{aligned}$$</div>"
     },
-
+{
+  "id": "PS-L2-020",
+  "type": "mcq",
+  "skill": {
+    "domain": "Problem-solving and Data Analysis",
+    "topic": "Statistics",
+    "skill": "Margin of Error"
+},
+  "stem": "For a poll about voting method preferences, \\(\\text{3,000}\\) people were selected at random from a population of \\(\\text{30,000}\\) people. From the results of the poll, it is estimated that \\(40\\%\\) of people in the population prefer mail-in ballots, with an associated margin of error of \\(2\\%\\). Based on these results, which of the following is a plausible number of people in the population who prefer mail-in ballots?",
+  "choices": [
+    "\\(\\text{18,800}\\)",
+    "\\(\\text{11,800}\\)",
+    "\\(\\text{1,750)\\)",
+    "\\(\\text{1,250)\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>The estimate is 40% with a margin of error of 2%, so the plausible range is 38% to 42% of the population of 30,000.</div><div class='explanation-math'>$$\\begin{aligned}\\text{Low} &= 0.38 \\times 30{,}000 = 11{,}400 \\\\ \\text{High} &= 0.42 \\times 30{,}000 = 12{,}600\\end{aligned}$$</div><div class='explanation-step'>The only answer choice that falls within the range of 11,400 to 12,600 is 11,800.</div>"
+},
     {
       "id": "P-L3-001",
       "type": "mcq",
@@ -7328,7 +7566,24 @@
       "answerIndex": 3,
       "explanation": "<div class='explanation-step'>To convert an angle from degrees to radians, multiply the angle by \\(\\frac{\\pi}{180}\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ &=900 \\times \\frac{\\pi}{180}=5\\pi\\end{aligned}$$</div><div class='explanation-step'>If you can't remember when to multiply by \\(\\frac{180}{\\pi}\\) as opposed to \\(\\frac{\\pi}{180}\\), think about what you are trying to accomplish in your answer.  Here, to go from radians to degrees, the \\(\\pi\\) must cancel out.  Since it is in the numerator, multiply it such that \\(\\pi\\) is in the denominator to cancel the \\(\\pi\\).</div>"
     },
-
+{
+  "id": "G-L1-010",
+  "type": "mcq",
+  "skill": {
+    "domain": "Geometry and Trigonometry",
+    "topic": "Triangles",
+    "skill": "Triangle Sum"
+},
+  "stem": "In triangle DEF, the measure of angle D is \\(3n^\\circ\\), the measure of angle E is \\(n^\\circ\\), and the measure of angle F is \\(24^\\circ\\). What is the measure, in degrees, of angle E?",
+  "choices": [
+    "\\(23\\)",
+    "\\(39\\)",
+    "\\(52\\)",
+    "\\(117\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>The sum of the angles in any triangle is \\(180°\\). Set up and solve an equation.</div><div class='explanation-math'>$$\\begin{aligned}3n + n + 24 &= 180 \\\\ 4n &= 156 \\\\ n &= 39\\end{aligned}$$</div><div class='explanation-step'>Since angle \\(E = n°\\), the measure of angle \\(E\\) is \\(39°\\).</div>"
+},
     {
       "id": "G-L2-001",
       "type": "mcq",
@@ -7863,6 +8118,24 @@
       "answerIndex": 0,
       "explanation": "<div class='explanation-step'>It is given that \\(f+n=j+h\\), and since \\(j\\) and \\(n\\) are vertical they are congruent.  Subtracting \\(j\\) and \\(n\\) from both sides, it can be concluded that \\(f=h\\). Test the answers.</div><div class='explanation-step'>\\(\\mathrm{I}\\). \\(f=m\\)?</div><div class='explanation-step'>\\(h=m\\): vertical angles</div><div class='explanation-step'>\\(f=h\\): from the given information</div><div class='explanation-step'>\\(f=m\\): Substitution/Transitive Property, so \\(\\mathrm{I}\\) is true.  Eliminate C.</div><div class='explanation-step'>\\(\\mathrm{II}\\). \\(h=k\\)?</div><div class='explanation-step'>\\(f=k\\): vertical angles</div><div class='explanation-step'>\\(f=h\\): from the given information</div><div class='explanation-step'>\\(h=k\\): Substitution or the Transitive Property, so \\(\\mathrm{II}\\) is true.  Eliminate B.</div><div class='explanation-step'>\\(\\mathrm{III}\\). \\(g=h\\)?</div><div class='explanation-step'>This is difficult to prove, so use a counterexample with real angle measures to prove or disprove.</div><div class='explanation-step'>Let \\(h=30^\\circ\\) and \\(n=50^\\circ\\). Since \\(h=f=m=30^\\circ\\). \\(m+n+f+g=180\\) because they are on line \\(b\\). Substituting the values for \\(m\\), \\(n\\), and \\(f\\), \\(30+50+30+g=180\\) and \\(g=70^\\circ\\).  This is a counterexample to \\(g=h\\); \\(g=70\\) and \\(h=30\\), so in this case \\(g\\neq h\\).</div><div class='stem-image'><img src='assets/Geo2-20A.png'></div>"
     },
+    {
+  "id": "G-L2-021",
+  "type": "mcq",
+  "skill": {
+    "domain": "Geometry and Trigonometry",
+    "topic": "Perimeter, Area, and Volume",
+    "skill": "Volume"
+},
+  "stem": "A cylindrical barrel has a diameter of 12 feet and a volume of 252\\pi cubic feet. What is the height, in feet, of the barrel?",
+  "choices": [
+    "\\(6\\)",
+    "\\(7\\)",
+    "\\(12\\)",
+    "\\(21\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>The volume of a cylinder is \\(V = \\pi r^2 h\\). The diameter is 12 feet, so the radius is 6 feet.</div><div class='explanation-math'>$$\\begin{aligned}252\\pi &= \\pi (6)^2 h \\\\ 252\\pi &= 36\\pi h \\\\ h &= \\frac{252}{36} = 7\\end{aligned}$$</div>"
+},
     {
       "id": "G-L3-001",
       "type": "mcq",
@@ -8421,7 +8694,7 @@
       "set": "Geometry and Trigonometry Practice",
       "tags": ["central angle", "inscribed angels", "sector area"],
 
-      "stem": "<div class='stem-text'>A circle with a center at point \\(T\\) has inscribed angle \\(QRS\\) with a measure of \\(54^circ\\). If the length of arc \\(QS\\) is \\(6\\pi\\) inches, what is the area, in square inches, of sector \\(QTS\\)?</div>",
+      "stem": "<div class='stem-text'>A circle with a center at point \\(T\\) has inscribed angle \\(QRS\\) with a measure of \\(54^\\circ\\). If the length of arc \\(QS\\) is \\(6\\pi\\) inches, what is the area, in square inches, of sector \\(QTS\\)?</div>",
 
       "choices": [
         "\\(20\\pi\\)",
