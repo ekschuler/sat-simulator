@@ -52,7 +52,15 @@
         "skill": "Modeling"
       },
       "stem": "A plumber charges a flat fee of \\$75 plus \\$50 per hour of work. A customer received a bill of \\$275. How many hours did the plumber work?",
-      "answer": 4,
+           "answer": 4,
+      "answersAccepted": ["4"],
+      "validation": {
+        "format": "number",
+        "allowNegative": true,
+        "allowDecimal": true,
+        "allowFraction": false,
+        "maxChars": 8
+      },
       "explanation": "<div class='explanation-step'>Let \\(h\\) = number of hours worked. Set up and solve an equation.</div><div class='explanation-math'>$$\\begin{aligned}75 + 50h &= 275 \\\\ 50h &= 200 \\\\ h &= 4\\end{aligned}$$</div>"
     },
     {
@@ -219,7 +227,15 @@
         "skill": "Vertex Form"
       },
       "stem": "The function \\(f\\) is defined by \\(f(x) = (x - 4)^2 + 3\\). What is the minimum value of \\(f(x)\\)?",
-      "answer": 3,
+      "answer": "3",
+      "answersAccepted": ["3"],
+      "validation": {
+        "format": "number",
+        "allowNegative": true,
+        "allowDecimal": true,
+        "allowFraction": false,
+        "maxChars": 8
+      },
       "explanation": "<div class='explanation-step'>The function is in vertex form \\(f(x) = a(x - h)^2 + k\\), where the vertex is at \\((h, k)\\). Here \\(h = 4\\) and \\(k = 3\\).</div><div class='explanation-step'>Since \\(a = 1 > 0\\), the parabola opens upward, so the vertex is a minimum. The minimum value is \\(k = 3\\), occurring at \\(x = 4\\).</div>"
     },
     {
@@ -347,7 +363,15 @@
         "skill": "Finding a Missing Value from Mean"
       },
       "stem": "The mean of five numbers is 12. Four of the numbers are 8, 10, 15, and 17. What is the fifth number?",
-      "answer": 10,
+      "answer": "10",
+      "answersAccepted": ["10"],
+      "validation": {
+        "format": "number",
+        "allowNegative": true,
+        "allowDecimal": true,
+        "allowFraction": false,
+        "maxChars": 8
+      },
       "explanation": "<div class='explanation-step'>The mean of five numbers is 12, so their sum is \\(12 \\times 5 = 60\\).</div><div class='explanation-math'>$$8 + 10 + 15 + 17 = 50$$</div><div class='explanation-step'>The fifth number is \\(60 - 50 = 10\\).</div>"
     },
     {
@@ -400,7 +424,15 @@
         "skill": "Distance Between Two Points"
       },
       "stem": "What is the distance between the points \\((1, 2)\\) and \\((4, 6)\\) in the \\(xy\\)-plane?",
-      "answer": 5,
+      "answer": "5",
+      "answersAccepted": ["5"],
+      "validation": {
+        "format": "number",
+        "allowNegative": true,
+        "allowDecimal": true,
+        "allowFraction": false,
+        "maxChars": 8
+      },
       "explanation": "<div class='explanation-step'>Use the distance formula.</div><div class='explanation-math'>$$\\begin{aligned}d &= \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \\\\ &= \\sqrt{(4-1)^2 + (6-2)^2} \\\\ &= \\sqrt{9 + 16} \\\\ &= \\sqrt{25} = 5\\end{aligned}$$</div>"
     }
   ]

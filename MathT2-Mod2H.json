@@ -204,7 +204,15 @@
         "skill": "Completing the Square"
       },
       "stem": "The function \\(f\\) is defined by \\(f(x) = x^2 - 8x + 7\\). What is the minimum value of \\(f(x)\\)?",
-      "answer": -9,
+      "answer": "-9",
+      "answersAccepted": ["-9"],
+      "validation": {
+        "format": "number",
+        "allowNegative": true,
+        "allowDecimal": true,
+        "allowFraction": false,
+        "maxChars": 8
+      },
       "explanation": "<div class='explanation-step'>Complete the square to write the function in vertex form.</div><div class='explanation-math'>$$\\begin{aligned}f(x) &= x^2 - 8x + 7 \\\\ &= x^2 - 8x + 16 - 16 + 7 \\\\ &= (x - 4)^2 - 9\\end{aligned}$$</div><div class='explanation-step'>The vertex is at \\((4, -9)\\). Since the parabola opens upward (\\(a = 1 > 0\\)), the minimum value is \\(-9\\).</div>"
     },
     {
@@ -293,7 +301,15 @@
         "skill": "Exponential Growth Models"
       },
       "stem": "A population doubles every 12 years. If the initial population is 800, after how many years will the population first reach 3,200?",
-      "answer": 24,
+      "answer": "24",
+      "answersAccepted": ["24"],
+      "validation": {
+        "format": "number",
+        "allowNegative": true,
+        "allowDecimal": true,
+        "allowFraction": false,
+        "maxChars": 8
+      },
       "explanation": "<div class='explanation-step'>Set up an exponential equation where the population doubles every 12 years.</div><div class='explanation-math'>$$3{,}200 = 800 \\cdot 2^{t/12}$$</div><div class='explanation-step'>Divide both sides by 800, then solve for \\(t\\).</div><div class='explanation-math'>$$\\begin{aligned}4 &= 2^{t/12} \\\\ 2^2 &= 2^{t/12} \\\\ 2 &= \\frac{t}{12} \\\\ t &= 24\\end{aligned}$$</div>"
     },
     {

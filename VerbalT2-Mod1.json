@@ -13,31 +13,19 @@
         "topic": "Words in Context",
         "skill": "Vocabulary in Context"
       },
-      "stemSegments": [
-        {
-          "text": "The following text is from Charlotte Perkins Gilman's <em>Women and Economics</em>, published in 1898.",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "The economic dependence of women has been so long established that it seems to most of us a natural condition, an inherent part of the relationship between the sexes. Yet if we examine it with any care, we shall find that it is a <u>peculiar</u> arrangement, one that has no parallel in the animal kingdom.",
-          "align": "left",
-          "style": "passage"
-        },
-        {
-          "text": "As used in the text, \"peculiar\" most nearly means",
-          "align": "left",
-          "style": "question"
-        }
+      "tags": [
+        "vocabulary",
+        "sentence completion"
       ],
+      "stem": "Scientists studying coral reefs have found that rising ocean temperatures cause corals to <span class='blank'>_______</span> their symbiotic algae, leaving the coral bleached white and vulnerable to starvation. Without these algae, which provide the coral with essential nutrients through photosynthesis, the reef cannot survive for long.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
-        "unusual",
-        "troubling",
-        "personal",
-        "ancient"
+        "absorb",
+        "expel",
+        "retain",
+        "consume"
       ],
-      "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use surrounding clues rather than relying on the word's most common meaning. Here, Gilman says the arrangement has \"no parallel in the animal kingdom\" — this signals that she is describing something without precedent, something distinctive and unusual.</div><div class='explanation-step'><strong>A)</strong> \"Unusual\" means without parallel or precedent — precisely what Gilman signals with \"no parallel in the animal kingdom.\" Keep A.</div><div class='explanation-step'><strong>B)</strong> \"Troubling\" implies emotional distress. While Gilman may find it troubling, the word \"peculiar\" here describes the arrangement's distinctiveness, not its emotional weight. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"Personal\" means individual or private, which is unrelated to the context. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Ancient\" refers to age. Gilman says the dependence is \"long established\" but \"peculiar\" refers to its nature, not its age. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank.</div><div class='explanation-step'>The passage says corals become &ldquo;bleached white and vulnerable to starvation&rdquo; after this process, and that &ldquo;without these algae&rdquo; the reef cannot survive. The coral must be losing or getting rid of the algae — not keeping them.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Absorb&rdquo; means to take in — the opposite of what happens, since the coral ends up without the algae. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Expel&rdquo; means to force out or eject. If the coral expels its algae, it would be left without them — consistent with the passage. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Retain&rdquo; means to keep — the opposite of what happens, since the coral ends up without the algae. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Consume&rdquo; means to eat or use up — the algae are expelled, not eaten. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-1-002",
@@ -48,31 +36,19 @@
         "topic": "Words in Context",
         "skill": "Vocabulary in Context"
       },
-      "stemSegments": [
-        {
-          "text": "The following text is from John Muir's <em>My First Summer in the Sierra</em>, published in 1911.",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "The snow is melting into music. Every <u>pulse</u> of sound and motion became watchful and was joined to the universal flow of nature around us.",
-          "align": "left",
-          "style": "passage"
-        },
-        {
-          "text": "As used in the text, \"pulse\" most nearly means",
-          "align": "left",
-          "style": "question"
-        }
+      "tags": [
+        "vocabulary",
+        "sentence completion"
       ],
+      "stem": "The new manager was known for her <span class='blank'>_______</span> approach to workplace conflict: rather than letting disagreements fester, she addressed them directly, bringing all parties together to discuss their concerns openly.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
-        "heartbeat",
-        "rhythm",
-        "light",
-        "surge"
+        "evasive",
+        "forthright",
+        "passive",
+        "erratic"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use the surrounding text to determine what the word means here. Muir describes \"sound and motion\" joining a \"universal flow\" — the passage evokes nature's continuous, rhythmic movement.</div><div class='explanation-step'><strong>A)</strong> \"Heartbeat\" is too literal and biological for a passage about nature's sounds and motions. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Rhythm\" captures the regular, recurring pattern of sound and motion that Muir describes joining the \"universal flow.\" Keep B.</div><div class='explanation-step'><strong>C)</strong> \"Light\" is unrelated to \"sound and motion.\" Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Surge\" implies a sudden increase in intensity, not the sustained rhythmic flow Muir describes. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank.</div><div class='explanation-step'>The passage describes the manager as someone who addressed conflicts &ldquo;directly&rdquo; and brought parties together to discuss concerns &ldquo;openly&rdquo; — as opposed to &ldquo;letting disagreements fester.&rdquo; The blank should describe someone who faces things directly and openly.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Evasive&rdquo; means avoiding or dodging — the opposite of addressing conflict directly. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Forthright&rdquo; means direct and outspoken. This fits a manager who addresses conflict openly rather than avoiding it. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Passive&rdquo; means inactive or unresponsive — the opposite of someone who actively brings parties together. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Erratic&rdquo; means unpredictable or irregular — the passage describes a consistent, deliberate approach, not an unpredictable one. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-1-003",
@@ -83,31 +59,19 @@
         "topic": "Words in Context",
         "skill": "Vocabulary in Context"
       },
-      "stemSegments": [
-        {
-          "text": "The following text is from Henry Adams's <em>The Education of Henry Adams</em>, published in 1907.",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "Politics, as a practice, whatever its professions, has always been the systematic organization of hatreds. The effect of power and publicity on all men is the <u>aggravation</u> of self, a sort of tumor that ends by killing the victim's sympathies.",
-          "align": "left",
-          "style": "passage"
-        },
-        {
-          "text": "As used in the text, \"aggravation\" most nearly means",
-          "align": "left",
-          "style": "question"
-        }
+      "tags": [
+        "vocabulary",
+        "sentence completion"
       ],
+      "stem": "Although the novelist's early work was praised for its clarity and accessibility, critics found her later novels increasingly <span class='blank'>_______</span> — dense with literary allusions and resistant to straightforward interpretation, they rewarded only the most patient readers.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
-        "irritation",
-        "intensification",
-        "distortion",
-        "diminishment"
+        "lucid",
+        "prolific",
+        "opaque",
+        "candid"
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 2, the most common meaning of the word is often the trap. \"Aggravation\" most commonly means irritation or annoyance — but here Adams uses it differently.</div><div class='explanation-step'>Adams describes power as producing an \"aggravation of self\" — a growth or worsening of ego, likened to \"a sort of tumor.\" The tumor metaphor signals something that grows and expands, not something that merely irritates.</div><div class='explanation-step'><strong>A)</strong> \"Irritation\" is the everyday meaning of \"aggravation\" — but Adams is describing the intensifying of the self, not an emotional annoyance. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Intensification\" means a worsening or enlarging — consistent with the tumor metaphor, where something grows until it destroys surrounding tissue (sympathies). Keep B.</div><div class='explanation-step'><strong>C)</strong> \"Distortion\" implies twisting out of shape, not expanding. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Diminishment\" means reduction — the opposite of what Adams describes. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank.</div><div class='explanation-step'>The word &ldquo;Although&rdquo; signals a contrast: the early work was praised for &ldquo;clarity and accessibility,&rdquo; but the later novels moved in the opposite direction — they were &ldquo;dense with allusions&rdquo; and &ldquo;resistant to straightforward interpretation.&rdquo; The blank should mean something like difficult to understand or unclear.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Lucid&rdquo; means clear and easy to understand — the opposite of what the later novels are described as. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Prolific&rdquo; means producing a lot of work — unrelated to the clarity or difficulty of the novels. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Opaque&rdquo; means difficult to understand or interpret. This fits perfectly — the later novels were dense and resistant to interpretation. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Candid&rdquo; means open and honest — unrelated to how difficult the novels are to interpret. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
     },
     {
       "id": "VerbalT2-1-004",
@@ -118,31 +82,19 @@
         "topic": "Words in Context",
         "skill": "Vocabulary in Context"
       },
-      "stemSegments": [
-        {
-          "text": "The following text is from Edith Wharton's <em>The Age of Innocence</em>, published in 1920.",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "The innocent are so few that two of them seldom meet — when they do meet, their <u>unconscious</u> fellowship makes a law unto itself, strong as the conventions that society otherwise imposes.",
-          "align": "left",
-          "style": "passage"
-        },
-        {
-          "text": "As used in the text, \"unconscious\" most nearly means",
-          "align": "left",
-          "style": "question"
-        }
+      "tags": [
+        "vocabulary",
+        "sentence completion"
       ],
+      "stem": "The discovery of pottery shards at the dig site was considered <span class='blank'>_______</span> because it provided the first physical evidence linking the ancient settlement to a trade network that scholars had previously only theorized existed.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
-        "unaware",
-        "instinctive",
-        "invisible",
-        "sleeping"
+        "redundant",
+        "corroborating",
+        "misleading",
+        "inconclusive"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 2, consider what role the word plays in the sentence. Wharton describes a \"fellowship\" between innocent people that \"makes a law unto itself\" — the connection is powerful without being deliberately created or planned.</div><div class='explanation-step'><strong>A)</strong> \"Unaware\" is the surface meaning of \"unconscious\" — but the fellowship isn't unaware of itself; rather, it arises naturally without deliberate effort. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Instinctive\" means arising naturally and without deliberate intention — the bond forms automatically, without calculation or effort, yet has the force of law. Keep B.</div><div class='explanation-step'><strong>C)</strong> \"Invisible\" means unseen, which is not what Wharton says — the fellowship makes a law, suggesting it has real presence and force. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Sleeping\" is too literal. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank.</div><div class='explanation-step'>The discovery provided the &ldquo;first physical evidence&rdquo; for something that was &ldquo;previously only theorized.&rdquo; Physical evidence that supports a theory is evidence that confirms or backs it up.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Redundant&rdquo; means unnecessary because it duplicates something already present — but this was the first physical evidence, not a duplicate. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Corroborating&rdquo; means confirming or supporting an existing theory with new evidence. The discovery confirms what scholars had previously only theorized. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Misleading&rdquo; means causing a false impression — the passage says the discovery provided supporting evidence, not false evidence. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Inconclusive&rdquo; means not settling the question — the passage presents this as meaningful supporting evidence, not uncertain. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-1-005",
@@ -172,7 +124,7 @@
         "topic": "Central Ideas and Details",
         "skill": "Logical Completion"
       },
-      "stem": "When people encounter information that contradicts their existing beliefs, they tend to scrutinize it more carefully than information that confirms what they already think. This asymmetry, known as confirmation bias, means that two people reading the same article can walk away with opposite conclusions, each convinced that the evidence supports their prior view. Psychologists have documented this effect across a wide range of domains, from political beliefs to medical diagnoses. The persistence of confirmation bias even among trained experts suggests that _______.",
+      "stem": "When people encounter information that contradicts their existing beliefs, they tend to scrutinize it more carefully than information that confirms what they already think. This asymmetry, known as confirmation bias, means that two people reading the same article can walk away with opposite conclusions, each convinced that the evidence supports their prior view. Psychologists have documented this effect across a wide range of domains, from political beliefs to medical diagnoses. The persistence of confirmation bias even among trained experts suggests that _______.<br><br>Which choice most logically completes the text?",
       "choices": [
         "awareness of cognitive biases is sufficient to eliminate their influence on decision-making",
         "motivated reasoning is a fundamental feature of human cognition rather than a correctable error",
@@ -411,7 +363,7 @@
       "stem": "The committee announced that <span class='blank'>_______</span> decision on the proposed merger would be delayed until further financial evidence was presented.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
       "choices": [
         "their",
-        "his or her",
+        "they're",
         "its",
         "our"
       ],

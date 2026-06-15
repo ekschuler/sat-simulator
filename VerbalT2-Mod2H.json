@@ -13,31 +13,19 @@
         "topic": "Words in Context",
         "skill": "Vocabulary in Context"
       },
-      "stemSegments": [
-        {
-          "text": "The following text is from John Dewey's <em>Democracy and Education</em>, published in 1916.",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "The aim of education is to enable individuals to continue their education — or that the object and reward of learning is continued capacity for growth. Now this idea is easily <u>perverted</u>. What we want and what we are getting is the use of schools to prepare individuals for employment — to give them a skill which shall enable them to earn a living in some predetermined groove.",
-          "align": "left",
-          "style": "passage"
-        },
-        {
-          "text": "As used in the text, \"perverted\" most nearly means",
-          "align": "left",
-          "style": "question"
-        }
+      "tags": [
+        "vocabulary",
+        "sentence completion"
       ],
+      "stem": "The senator's speech was criticized for being <span class='blank'>_______</span> rather than substantive: it was filled with emotional appeals and colorful anecdotes but contained no specific policy proposals or data to support its central claims.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
-        "corrupted morally",
-        "distorted",
-        "rejected",
-        "forgotten"
+        "pragmatic",
+        "rhetorical",
+        "candid",
+        "measured"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 2, the most familiar meaning of the word is often the trap. \"Perverted\" most commonly carries a moral connotation — but context determines meaning.</div><div class='explanation-step'>Dewey describes how the idea of education for continued growth \"is easily\" twisted into something narrower: training for employment. The word describes the idea being misapplied or distorted, not corrupted in a moral sense.</div><div class='explanation-step'><strong>A)</strong> \"Corrupted morally\" is the everyday connotation of \"perverted\" — but Dewey is describing an intellectual distortion of an idea, not a moral failing. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Distorted\" means twisted from its original form or meaning — exactly what happens when education for growth is turned into job training. Keep B.</div><div class='explanation-step'><strong>C)</strong> \"Rejected\" means refused entirely — Dewey says the idea is perverted, meaning misused, not abandoned. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Forgotten\" means no longer remembered — the idea is still present but twisted, not forgotten. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank.</div><div class='explanation-step'>The speech was criticized for being something &ldquo;rather than substantive&rdquo; — so the blank describes something opposed to substance. The clue is &ldquo;emotional appeals and colorful anecdotes but no specific proposals or data&rdquo; — the speech was all style and persuasion, no real content.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Pragmatic&rdquo; means practical and focused on results — the opposite of a speech criticized for lacking substance. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Rhetorical&rdquo; means focused on persuasion through language rather than facts or substance. A speech of emotional appeals with no data or proposals is rhetorical rather than substantive. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Candid&rdquo; means honest and straightforward — unrelated to whether the speech had substance. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Measured&rdquo; means careful and restrained — a measured speech would likely be substantive, not the opposite. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-2H-002",
@@ -48,31 +36,19 @@
         "topic": "Words in Context",
         "skill": "Vocabulary in Context"
       },
-      "stemSegments": [
-        {
-          "text": "The following text is from Thorstein Veblen's <em>The Theory of the Leisure Class</em>, published in 1899.",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "Conspicuous consumption of valuable goods is a means of <u>reputability</u> to the gentleman of leisure. As wealth accumulates on his hands, his own unaided effort will not avail to sufficiently put his opulence in evidence by this method.",
-          "align": "left",
-          "style": "passage"
-        },
-        {
-          "text": "As used in the text, \"reputability\" most nearly means",
-          "align": "left",
-          "style": "question"
-        }
+      "tags": [
+        "vocabulary",
+        "sentence completion"
       ],
+      "stem": "Once considered a <span class='blank'>_______</span> figure in behavioral economics, the researcher's reputation suffered considerably when a replication study revealed that the majority of her most celebrated findings could not be reproduced under controlled conditions.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
-        "moral respectability",
-        "high social standing",
-        "financial security",
-        "public recognition"
+        "obscure",
+        "polarizing",
+        "preeminent",
+        "controversial"
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 2, consider the specific meaning within the author's argument. Veblen is analyzing how the wealthy display status — \"reputability\" in his framework refers specifically to one's standing in the social hierarchy, not to moral character.</div><div class='explanation-step'><strong>A)</strong> \"Moral respectability\" implies ethical virtue — but Veblen is describing conspicuous consumption as a social display mechanism, not a moral one. He is critical of this behavior. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"High social standing\" captures Veblen's precise meaning — the ability to be seen as belonging to the upper class through visible displays of wealth. Keep B.</div><div class='explanation-step'><strong>C)</strong> \"Financial security\" refers to the possession of wealth itself, not to the social recognition that Veblen argues wealth-display is designed to achieve. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Public recognition\" is close but too broad — Veblen is specifically describing recognition within a social hierarchy, not fame or celebrity. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank.</div><div class='explanation-step'>The researcher was &ldquo;once considered&rdquo; something, but her reputation later &ldquo;suffered considerably.&rdquo; This contrast signals that she was previously held in very high regard — before the replication failure.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Obscure&rdquo; means unknown or unimportant — if she were obscure, her reputation falling further wouldn&rsquo;t be noteworthy. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Polarizing&rdquo; means causing strong disagreement — while possible, the passage describes a fall from high status, not pre-existing controversy. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Preeminent&rdquo; means most important or distinguished in a field. A researcher whose reputation &ldquo;suffered considerably&rdquo; after being celebrated must have been highly regarded before. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Controversial&rdquo; means causing disagreement — this implies she was already disputed, not clearly celebrated. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
     },
     {
       "id": "VerbalT2-2H-003",
@@ -83,31 +59,19 @@
         "topic": "Words in Context",
         "skill": "Vocabulary in Context"
       },
-      "stemSegments": [
-        {
-          "text": "The following text is from Herbert Spencer's <em>The Study of Sociology</em>, published in 1873.",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "The difficulties of the social problem would be <u>insuperable</u> were it not that men's characters are modifiable by institutions, just as institutions are modifiable by men's characters.",
-          "align": "left",
-          "style": "passage"
-        },
-        {
-          "text": "As used in the text, \"insuperable\" most nearly means",
-          "align": "left",
-          "style": "question"
-        }
+      "tags": [
+        "vocabulary",
+        "sentence completion"
       ],
+      "stem": "The philosopher's writing style was celebrated for being <span class='blank'>_______</span>: her arguments unfolded with such transparency that even readers encountering her ideas for the first time could follow each logical step without difficulty.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
-        "extremely complex",
-        "poorly understood",
-        "impossible to overcome",
-        "politically contentious"
+        "turgid",
+        "pellucid",
+        "ornate",
+        "elliptical"
       ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, unfamiliar words require careful attention to the sentence's logic. Spencer says the social problem would be \"insuperable\" were it not for the fact that characters and institutions can modify each other. The word describes what the problem would be without that saving possibility.</div><div class='explanation-step'>If the mutual modifiability of characters and institutions is what prevents a certain outcome, that outcome must be complete failure — not just difficulty or confusion.</div><div class='explanation-step'><strong>A)</strong> \"Extremely complex\" is the intuitive trap — the word sounds related to \"super\" and students may assume it means very difficult. But Spencer is not saying the problem would merely be harder; he is saying it would be unsolvable. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Poorly understood\" implies an epistemic problem, not an obstacle to solving. Spencer is describing an obstacle to solution, not a knowledge gap. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"Impossible to overcome\" is the correct meaning of \"insuperable\" — from Latin <em>insuperabilis</em>, meaning incapable of being surmounted. Keep C.</div><div class='explanation-step'><strong>D)</strong> \"Politically contentious\" implies disagreement among people, which is not what Spencer is describing. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, unfamiliar words require careful attention to context clues. The philosopher's writing was &ldquo;celebrated&rdquo; for this quality, and the explanation that follows describes arguments of such &ldquo;transparency&rdquo; that even first-time readers could follow &ldquo;each logical step without difficulty.&rdquo; The blank should mean extremely clear and transparent.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Turgid&rdquo; means pompous and difficult to understand — the opposite of transparent and easy to follow. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Pellucid&rdquo; means translucently clear, allowing perfect understanding. This precisely matches the description of writing so transparent that any reader can follow it. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Ornate&rdquo; means elaborately decorated — while not the opposite of clear, it describes a showy style rather than a transparent one. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Elliptical&rdquo; means using deliberately vague or ambiguous language — the opposite of transparent and easy to follow. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-2H-004",
@@ -118,31 +82,19 @@
         "topic": "Words in Context",
         "skill": "Vocabulary in Context"
       },
-      "stemSegments": [
-        {
-          "text": "The following text is from George Eliot's <em>Middlemarch</em>, published in 1871&ndash;72.",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "If we had a keen vision and feeling of all ordinary human life, it would be like hearing the grass grow and the squirrel&rsquo;s heart beat, and we should die of that roar which lies on the other side of silence. As it is, the quickest of us walk about well <u>wadded</u> with stupidity.",
-          "align": "left",
-          "style": "passage"
-        },
-        {
-          "text": "As used in the text, \"wadded\" most nearly means",
-          "align": "left",
-          "style": "question"
-        }
+      "tags": [
+        "vocabulary",
+        "sentence completion"
       ],
+      "stem": "The historian argued that the peace treaty, far from being <span class='blank'>_______</span>, was in fact deeply contested: three of the five signatories had privately expressed reservations, and two nations refused to ratify the agreement until several years after it was signed.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
-        "burdened",
-        "cushioned",
-        "deceived",
-        "distracted"
+        "divisive",
+        "unanimous",
+        "unprecedented",
+        "contentious"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, precise word choice requires understanding the metaphor. Eliot describes how full, unfiltered perception of life would be overwhelming — like hearing a roar beyond silence. \"As it is,\" she says, we are protected from this overwhelming intensity by our own \"stupidity\" — our mental dullness insulates us.</div><div class='explanation-step'>\"Wadded\" comes from wadding — the soft material used to cushion or insulate. Eliot is using stupidity as a kind of padding that cushions humans from the full intensity of perception.</div><div class='explanation-step'><strong>A)</strong> \"Burdened\" implies stupidity weighs us down — but Eliot's point is that it protects us, not that it is a weight we carry. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Cushioned\" captures the insulating, protective quality of wadding — stupidity buffers us from perceptions that would otherwise overwhelm us. Keep B.</div><div class='explanation-step'><strong>C)</strong> \"Deceived\" implies someone or something misleads us — Eliot describes a natural insulation, not deliberate deception. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Distracted\" implies our attention is pulled elsewhere — but Eliot describes a structural insulation from perception, not momentary inattention. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, the phrase &ldquo;far from being&rdquo; signals that the blank describes what the treaty was NOT. The passage then says it was &ldquo;deeply contested&rdquo; with signatories expressing reservations and nations refusing to ratify — so the blank must mean something like universally agreed upon, since the treaty was anything but that.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Divisive&rdquo; means causing disagreement — if the treaty was &ldquo;far from being divisive,&rdquo; that would mean it was harmonious, but the passage says it was contested. This creates a contradiction. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Unanimous&rdquo; means agreed upon by all. The historian says the treaty was &ldquo;far from unanimous&rdquo; — and then proves it by describing reservations and refusals to ratify. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Unprecedented&rdquo; means never done before — unrelated to whether the treaty was contested or agreed upon. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Contentious&rdquo; means causing controversy — if the treaty was &ldquo;far from contentious,&rdquo; that would mean it was uncontroversial, which contradicts the passage showing it was contested. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-2H-005",
@@ -172,7 +124,7 @@
         "topic": "Central Ideas and Details",
         "skill": "Logical Completion"
       },
-      "stem": "Since the early twentieth century, average IQ scores have risen substantially in many countries — a phenomenon psychologist James Flynn documented systematically in the 1980s and that now bears his name. The Flynn Effect suggests that environmental factors rather than genetics drive much of the variation in measured intelligence, since the genetic makeup of populations cannot change significantly within a few generations. Interestingly, the effect has begun to plateau or even reverse in some high-income countries in recent decades. This reversal suggests that _______.",
+      "stem": "Since the early twentieth century, average IQ scores have risen substantially in many countries — a phenomenon psychologist James Flynn documented systematically in the 1980s and that now bears his name. The Flynn Effect suggests that environmental factors rather than genetics drive much of the variation in measured intelligence, since the genetic makeup of populations cannot change significantly within a few generations. Interestingly, the effect has begun to plateau or even reverse in some high-income countries in recent decades. This reversal suggests that _______.<br><br>Which choice most logically completes the text?",
       "choices": [
         "intelligence tests are an unreliable measure of genuine cognitive ability",
         "the environmental improvements that drove earlier score gains may have reached their practical limits in developed nations",

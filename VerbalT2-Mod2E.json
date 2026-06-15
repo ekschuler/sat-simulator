@@ -13,31 +13,19 @@
         "topic": "Words in Context",
         "skill": "Vocabulary in Context"
       },
-      "stemSegments": [
-        {
-          "text": "The following text is from Mary Wollstonecraft's <em>A Vindication of the Rights of Woman</em>, published in 1792.",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "I wish to persuade women to endeavour to acquire strength, both of mind and body, and to convince them that the soft phrases, susceptibility of heart, delicacy of sentiment, and refinement of taste, are almost synonymous with epithets of weakness. <u>Dismissing</u>, then, those pretty feminine phrases, which the men condescendingly use to soften our slavish dependence, I wish to show that elegance is inferior to virtue.",
-          "align": "left",
-          "style": "passage"
-        },
-        {
-          "text": "As used in the text, \"Dismissing\" most nearly means",
-          "align": "left",
-          "style": "question"
-        }
+      "tags": [
+        "vocabulary",
+        "sentence completion"
       ],
+      "stem": "The city council's decision to close the park drew <span class='blank'>_______</span> from local residents, many of whom signed petitions and attended public meetings specifically to express their opposition to the plan.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
-        "Setting aside",
-        "Criticizing harshly",
-        "Misunderstanding",
-        "Celebrating"
+        "praise",
+        "censure",
+        "indifference",
+        "curiosity"
       ],
-      "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, determine what the word is doing in the sentence. Wollstonecraft is moving past the \"pretty feminine phrases\" — she is not stopping to attack them but putting them aside to make her main argument.</div><div class='explanation-step'><strong>A)</strong> \"Setting aside\" means putting something to one side in order to proceed — exactly what Wollstonecraft does with these phrases before making her argument. Keep A.</div><div class='explanation-step'><strong>B)</strong> \"Criticizing harshly\" implies a sustained attack. Wollstonecraft mentions the phrases briefly and moves on — she is not dwelling on criticism. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"Misunderstanding\" implies confusion, which is the opposite of Wollstonecraft's precise, deliberate rejection. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Celebrating\" is the opposite of her attitude toward these phrases. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank.</div><div class='explanation-step'>The clues are &ldquo;signed petitions&rdquo; and &ldquo;express their opposition&rdquo; — residents were actively against the decision. The blank should mean strong disapproval or criticism.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Praise&rdquo; means approval — the opposite of what the passage describes. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Censure&rdquo; means strong official disapproval or criticism. This fits residents who actively opposed the decision. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Indifference&rdquo; means a lack of interest or concern — inconsistent with residents who signed petitions and attended meetings. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Curiosity&rdquo; means interest in knowing something — unrelated to the active opposition described. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-2E-002",
@@ -48,31 +36,19 @@
         "topic": "Words in Context",
         "skill": "Vocabulary in Context"
       },
-      "stemSegments": [
-        {
-          "text": "The following text is from Booker T. Washington's <em>Up from Slavery</em>, published in 1901.",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "There is a certain class of race-problem solvers who do not want the patient to get well, because as long as the disease holds out they have not only an easy means of making a living, but also an easy medium through which to make themselves <u>prominent</u>.",
-          "align": "left",
-          "style": "passage"
-        },
-        {
-          "text": "As used in the text, \"prominent\" most nearly means",
-          "align": "left",
-          "style": "question"
-        }
+      "tags": [
+        "vocabulary",
+        "sentence completion"
       ],
+      "stem": "The documentary filmmaker was known for her <span class='blank'>_______</span> style: she gave her subjects ample time to speak without interruption, trusting that their unedited words would be more compelling than any narration she might add.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
-        "wealthy",
-        "well-known",
-        "powerful",
-        "respected"
+        "intrusive",
+        "didactic",
+        "unobtrusive",
+        "combative"
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use the surrounding sentence to determine the word's meaning. Washington describes people who use a public problem as a vehicle for self-promotion — they want others to know who they are.</div><div class='explanation-step'><strong>A)</strong> \"Wealthy\" refers to financial gain — while Washington mentions \"making a living,\" \"prominent\" is listed as a separate benefit distinct from income. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Well-known\" means visible and recognized — precisely what someone gains by being associated with a high-profile cause. Keep B.</div><div class='explanation-step'><strong>C)</strong> \"Powerful\" implies political or institutional authority, which Washington does not suggest is the goal here. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Respected\" implies earned admiration — but Washington is criticizing these people, suggesting their prominence is self-serving rather than deserved. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank.</div><div class='explanation-step'>The filmmaker &ldquo;gave subjects ample time to speak without interruption&rdquo; and trusted their unedited words over her own narration. This describes a hands-off, non-interfering style.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Intrusive&rdquo; means overly involved or interfering — the opposite of giving subjects space to speak without interruption. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Didactic&rdquo; means intended to teach a moral lesson — unrelated to the filmmaker's non-interfering approach. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Unobtrusive&rdquo; means not drawing attention to oneself, not interfering. A filmmaker who stays in the background and lets subjects speak uninterrupted is unobtrusive. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Combative&rdquo; means eager to argue or fight — the opposite of someone who lets subjects speak freely. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
     },
     {
       "id": "VerbalT2-2E-003",
@@ -83,31 +59,19 @@
         "topic": "Words in Context",
         "skill": "Vocabulary in Context"
       },
-      "stemSegments": [
-        {
-          "text": "The following text is from Bertrand Russell's <em>The Problems of Philosophy</em>, published in 1912.",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "The man who has no tincture of philosophy goes through life imprisoned in the prejudices derived from common sense, from the habitual beliefs of his age or his nation, and from convictions which have grown up in his mind without the co-operation or consent of his deliberate reason. To such a man the world tends to become <u>definite</u>, finite, obvious; common objects rouse no questions, and unfamiliar possibilities are contemptuously rejected.",
-          "align": "left",
-          "style": "passage"
-        },
-        {
-          "text": "As used in the text, \"definite\" most nearly means",
-          "align": "left",
-          "style": "question"
-        }
+      "tags": [
+        "vocabulary",
+        "sentence completion"
       ],
+      "stem": "Though often described as shy in person, the poet's written voice was anything but <span class='blank'>_______</span>: her verses were bold and confrontational, unsparing in their criticism of political leaders and social conventions.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
-        "clear and easy to understand",
-        "fixed and closed to questioning",
-        "accurate and well-established",
-        "limited in scope"
+        "reticent",
+        "eloquent",
+        "restrained",
+        "verbose"
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 2, the most familiar meaning of the word is often the trap. \"Definite\" commonly means clear or certain — but Russell's context gives it a different emphasis.</div><div class='explanation-step'>Russell pairs \"definite\" with \"finite\" and \"obvious\" and says such a person rejects \"unfamiliar possibilities\" — the word here describes a world that is settled, closed off, and not open to questioning.</div><div class='explanation-step'><strong>A)</strong> \"Clear and easy to understand\" is the common meaning of \"definite\" — but Russell is not praising clarity; he is criticizing a closed-minded worldview. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Fixed and closed to questioning\" captures what Russell means — the world stops being a source of wonder and becomes a settled, unchallengeable given. Keep B.</div><div class='explanation-step'><strong>C)</strong> \"Accurate and well-established\" implies correctness, which Russell does not suggest — the person without philosophy is not necessarily right, just unquestioning. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Limited in scope\" is related but misses the key idea of being closed to questioning. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank.</div><div class='explanation-step'>The phrase &ldquo;anything but&rdquo; signals that the blank describes something the written voice was NOT. The poet was described as &ldquo;shy in person,&rdquo; and the written voice contrasted with that — it was &ldquo;bold,&rdquo; &ldquo;confrontational,&rdquo; and &ldquo;unsparing.&rdquo; The blank should mean something like shy or reluctant to speak, since the voice was anything but that.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Reticent&rdquo; means reluctant to speak or reserved. The written voice was &ldquo;anything but&rdquo; reserved — it was bold and confrontational. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Eloquent&rdquo; means expressing ideas well and persuasively. The written voice might well be eloquent, so saying it was &ldquo;anything but eloquent&rdquo; would contradict the passage. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Restrained&rdquo; is a strong trap — like reticent, it means held back. However, &ldquo;reticent&rdquo; specifically echoes &ldquo;shy&rdquo; (reluctant to speak) more precisely than &ldquo;restrained&rdquo; does. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Verbose&rdquo; means using too many words. The passage does not suggest the written voice was wordy — it suggests it was bold and direct. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
       "id": "VerbalT2-2E-004",
@@ -118,31 +82,19 @@
         "topic": "Words in Context",
         "skill": "Vocabulary in Context"
       },
-      "stemSegments": [
-        {
-          "text": "The following text is from Charlotte Bront&euml;&rsquo;s <em>Jane Eyre</em>, published in 1847.",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "It is in vain to say human beings ought to be satisfied with tranquility: they must have action; and they will make it if they cannot find it. Nobody knows how many rebellions besides political rebellions <u>ferment</u> in the masses of life which people earth.",
-          "align": "left",
-          "style": "passage"
-        },
-        {
-          "text": "As used in the text, \"ferment\" most nearly means",
-          "align": "left",
-          "style": "question"
-        }
+      "tags": [
+        "vocabulary",
+        "sentence completion"
       ],
+      "stem": "The professor's lectures were widely praised for their <span class='blank'>_______</span> quality: even the most complex theoretical concepts were broken down into clear, step-by-step explanations that students with no prior background could follow.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
-        "erupt violently",
-        "develop quietly beneath the surface",
-        "are suppressed by authority",
-        "spread rapidly"
+        "abstruse",
+        "lucid",
+        "redundant",
+        "verbose"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 2, think about what the word is doing in the sentence. Bront&euml; speaks of rebellions that \"nobody knows\" about — they are hidden, brewing, not yet visible.</div><div class='explanation-step'><strong>A)</strong> \"Erupt violently\" suggests these rebellions have already broken out — but Bront&euml; says nobody knows about them, implying they are still internal and undetected. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Develop quietly beneath the surface\" captures the brewing, hidden nature of these undetected rebellions. Keep B.</div><div class='explanation-step'><strong>C)</strong> \"Are suppressed by authority\" introduces an outside force not mentioned in the passage. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Spread rapidly\" implies outward movement — but the rebellions are described as unknown, internal, not spreading. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank.</div><div class='explanation-step'>The lectures were praised because &ldquo;complex concepts were broken down into clear, step-by-step explanations&rdquo; that even novices could follow. The blank should mean something like clear or easy to understand.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Abstruse&rdquo; means difficult to understand — the opposite of what is described. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Lucid&rdquo; means clear and easy to understand. Lectures praised for making complex ideas accessible would be lucid. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Redundant&rdquo; means unnecessarily repetitive — unrelated to clarity or accessibility. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Verbose&rdquo; means using too many words, which is not a quality that would be praised. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-2E-005",
@@ -191,7 +143,7 @@
         "topic": "Central Ideas and Details",
         "skill": "Logical Completion"
       },
-      "stem": "Social psychologists have documented a counterintuitive phenomenon called the bystander effect: people are less likely to offer help in an emergency when other bystanders are present than when they are alone. In a series of experiments, researchers found that as the number of bystanders increased, the probability that any individual would intervene decreased. The researchers attributed this to diffusion of responsibility — each bystander assumes that someone else will act. The bystander effect has been replicated across cultures and contexts, suggesting that _______.",
+      "stem": "Social psychologists have documented a counterintuitive phenomenon called the bystander effect: people are less likely to offer help in an emergency when other bystanders are present than when they are alone. In a series of experiments, researchers found that as the number of bystanders increased, the probability that any individual would intervene decreased. The researchers attributed this to diffusion of responsibility — each bystander assumes that someone else will act. The bystander effect has been replicated across cultures and contexts, suggesting that _______.<br><br>Which choice most logically completes the text?",
       "choices": [
         "people are more likely to help in emergencies when they receive prior training in first aid",
         "the tendency to defer to others in emergencies is a deeply ingrained aspect of human social behavior",
