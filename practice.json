@@ -826,33 +826,18 @@
       "answerIndex": 3,
       "explanation": "<div class='explanation-step'>All of the answer choices are in the form \\(y=mx+b\\) where \\(m\\) is the slope and \\(b\\) is the \\(y\\)-intercept.  The \\(y\\)-intercept is the value of \\(y\\) when \\(x=0\\). From the table the \\(y\\)-intercept is \\(9\\), so eliminate A and C.  Find the slope;</div><div class='explanation-math'>$$\\begin{aligned}\\ m&=\\frac{y_2 - y_1}{x_2 - x_1} \\\\ m&=\\frac{5 - (-2)}{2-1}\\\\ m  &= 7\\end{aligned}$$</div><div class='explanation-step'>The slope is \\(7\\), so the equation is \\(h(x)=7x-9\\).</div>"
     },
-    {
-  "id": "A-L1-032",
-  "type": "mcq",
-  "skill": {
-    "domain": "Algebra",
-    "topic": "Functions",
-    "skill": "Evaluating Functions"
-  },
-  "stem": "The function \\(f\\) is defined by \\(f(x)=\\sqrt{1-6x}\\). What is the value of \\(f(-8)?",
-  "choices": [
-    "\\(-\\frac{6}{35}\\)",
-    "\\(-\\frac{35}{6}\\)",
-    "\\(7\\)",
-    "\\(49\\)"
-  ],
-  "answerIndex": 2,
-  "explanation": "<div class='explanation-step'>Substitute \\(x = -8\\) into the function.</div><div class='explanation-math'>$$f(-8) = \\sqrt{1 - 6(-8)} = \\sqrt{1 + 48} = \\sqrt{49} = 7$$</div>"
 
-},
 {
-  "id": "A-L1-033",
+  "id": "A-L1-032",
   "type": "mcq",
   "skill": {
     "domain": "Algebra",
     "topic": "Equations and Inequalities",
     "skill": "Literal Equations"
 },
+ "level": 1,
+      "set": "Algebra Practice",
+      "tags": ["solving for a variable", "literal equations"],
   "stem": "<div style='text-align:center;'>$$3a-b=b^2$$</div><div style='margin-top:12px;'>The given equation relates the rational numbers \\(a\\) and \\(b\\). Which equation correctly expresses \\(a\\) in terms of \\(b\\)?</div>",
   "choices": [
     "\\(a=3(b^2+b)\\)",
@@ -863,32 +848,18 @@
   "answerIndex": 1,
   "explanation": "<div class='explanation-step'>Solve for \\(a\\) by isolating it on one side of the equation.</div><div class='explanation-math'>$$\\begin{aligned}3a - b &= b^2 \\\\ 3a &= b^2 + b \\\\ a &= \\frac{b^2 + b}{3}\\end{aligned}$$</div>"
 },
+
 {
-  "id": "A-L1-034",
-  "type": "mcq",
-  "skill": {
-    "domain": "Algebra",
-    "topic": "Statistics",
-    "skill": "Calculating Mean"
-},
-  "stem": "The mean donation in an office fundraiser is \\(\\$90\\). If \\(48\\) employees donated, what is the total of all of the donations?",
-  "choices": [
-    "\\(\\$\\text{4,320}\\)",
-    "\\(\\$\\text{2,160}\\)",
-    "\\(\\$1,380\\)",
-    "\\(\\$\\432\\)"
-  ],
-  "answerIndex": 0,
-  "explanation": "<div class='explanation-step'>The mean is the total divided by the number of values. Multiply the mean by the number of employees to find the total.</div><div class='explanation-math'>$$\\text{Total} = 90 \\times 48 = \\$4{,}320$$</div>"
-},
-{
-  "id": "A-L1-035",
+  "id": "A-L1-033",
   "type": "mcq",
   "skill": {
     "domain": "Algebra",
     "topic": "Linear Functions",
     "skill": "Modeling"
 },
+"level": 1,
+      "set": "Algebra Practice",
+      "tags": ["word problems", "writing equations"],
 "stem": "<div style='margin-top:12px;'>A knitting pattern for a scarf suggests 16 yards of yarn per inch in length of the scarf and an additional 30 yards for the scarf tassels. Which equation represents this equation, where \\(y\\) is the number of yards of yarn needed for a scarf that is \\(x\\) in length?</div>",
   "choices": [
       "\\(y=16x+30\\)",
@@ -3531,7 +3502,7 @@
 
       "skill": {
         "domain": "Advanced Math",
-        "topic": "Systems of Equations",
+        "topic": "Non-linear Systems",
         "skill": "Solving Non-linear Systems"
       },
 
@@ -3630,6 +3601,28 @@
 
       "explanation": "<div class='explanation-step'>Substitute \\(4\\) into the equation and simplify (do the math):</div><div class='explanation-math'>$$\\begin{aligned}\\ &f(4)=4^2-10(4)+112\\\\&f(4)=16-40+112=88\\end{aligned}$$</div>"
     },
+        {
+  "id": "AM-L1-015",
+  "type": "mcq",
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Functions",
+    "skill": "Evaluating Functions"
+  },
+   "level": 1,
+      "set": "Advanced Math Practice",
+      "tags": ["functions", "evaluating"],
+  "stem": "The function \\(f\\) is defined by \\(f(x)=\\sqrt{1-6x}\\). What is the value of \\(f(-8\\)?",
+  "choices": [
+    "\\(-\\frac{6}{35}\\)",
+    "\\(-\\frac{35}{6}\\)",
+    "\\(7\\)",
+    "\\(49\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>Substitute \\(x = -8\\) into the function.</div><div class='explanation-math'>$$f(-8) = \\sqrt{1 - 6(-8)} = \\sqrt{1 + 48} = \\sqrt{49} = 7$$</div>"
+
+},
     {
       "id": "AM-L2-001",
       "type": "gridin",
@@ -3901,34 +3894,9 @@
       "answerIndex": 0,
       "explanation": "<div class='explanation-step'>To convert between exponential and radical form, use \\(\\sqrt[n]{a^m}=a^{\\frac{m}{n}}\\), so \\(\\sqrt[5]{a^3 b^3}=a^{\\frac{3}{5}}b^{\\frac{3}{5}}\\). Then use the power of a product rule: \\(a^{\\frac{3}{5}}b^{\\frac{3}{5}}=(ab)^{\\frac{3}{5}}\\).</div>"
     },
+
 {
       "id": "AM-L2-011",
-      "type": "mcq",
-      "mode": "practice",
-
-      "skill": {
-        "domain": "Advanced Math",
-        "topic": "Equations and Inequalities",
-        "skill": "Writing Equations"
-      },
-
-      "level": 2,
-      "set": "Advanced Math Practice",
-      "tags": ["word problems", "percents"],
-
-      "stem": "<div class='stem-text'>The value of a certain investment increased by \\(9\\%\\) from 1996 to 1997.  If the value of the investment in 1997 is \\(n\\) times the value of the investment in 1996, what is the value of \\(n\\)?</div>",
-
-      "choices": [
-        "\\(0.09\\)",
-        "\\(0.9\\)",
-        "\\(1.09\\)",
-        "\\(1.9\\)"
-      ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>Since the value of the investment increased by \\(9\\%\\) from 1996 to 1997, the investment in 1997 is \\(100\\%\\) of its value in 1996 plus an additional \\(9\\%\\), or \\(I_{1997}=I_{1996} + 9\\%(I_{1996})=109\\%(I_{1996})=1.09\\times I_{1996}\\).</div>"
-    },
-{
-      "id": "AM-L2-012",
       "type": "gridin",
       "mode": "practice",
 
@@ -3957,12 +3925,12 @@
       "explanation": "<div class='explanation-step'>Since you only need to solve for the positive value of \\(n+5\\), drop the absolute value sign and divide the entire equation by \\(5\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ 5n+25&=230\\\\ \\frac{\\cancel{5}n}{\\cancel{5}}+\\frac{25}{5}&=\\frac{230}{5}\\\\n+5&=46 \\end{aligned}$$</div><div class='explanation-step'>Note: solving for the positive value doesn't always mean you set the equation equal to the positive value (\\(230\\) instead of \\(-230\\)).  For example, in the equation \\(|-5n+25|=230\\), you would need to solve the equation \\(-5n+25=-230\\) in order to find the positive solution.</div>"
     },
 {
-      "id": "AM-L2-013",
+      "id": "AM-L2-012",
       "type": "mcq",
       "mode": "practice",
 
       "skill": {
-        "domain": "Advanced Math",
+        "domain": "Algebra",
         "topic": "Algebraic Expressions",
         "skill": "Factoring"
       },
@@ -3983,7 +3951,7 @@
       "explanation": "<div class='explanation-step'>From the answers, notice that this is a factoring problem.  Eliminate A because if the terms cannot be combined before factoring, they cannot be combined after factoring.  Find the greatest common factor (GCF) of \\(4n^5\\) and \\(10n^6\\) and divide both terms by it to find what remains inside the parentheses. The GCF is \\(2n^5\\) because \\(2\\) is the largest integer that \\(4\\) and \\(10\\) are divisible by and \\(5\\) is the smaller of the two exponents of \\(n\\).</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}\\frac{4\\cancel{n^5}}{2\\cancel{n^5}} &= 2\\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}\\frac{10n^6}{2n^5} &= 5n^{6-5}=5n\\\\\\end{aligned}$$</div></div></div><div class='explanation-step'>Factor to get \\(4n^5+10n^6=2n^5(2+5n)\\)</div>"
     },
 {
-      "id": "AM-L2-014",
+      "id": "AM-L2-013",
       "type": "gridin",
       "mode": "practice",
 
@@ -4011,7 +3979,7 @@
       "explanation": "<div class='explanation-step'>The maximum value of \\(x\\) occurs at the vertex of the parabola.  To find the vertex, use \\(x=-\\frac{b}{2a}\\) where \\(y=ax^2+bx+c\\).  In the function \\(g(x)=-6x^2+30x+72\\), \\(a=-6\\) and \\(b=30\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ x&= -\\frac{30}{2(-6)}\\\\x&= -\\frac{30}{-12}\\\\x&= \\frac{5}{2} \\end{aligned}$$</div>"
     },
 {
-      "id": "AM-L2-015",
+      "id": "AM-L2-014",
       "type": "mcq",
       "mode": "practice",
 
@@ -4037,12 +4005,12 @@
       "explanation": "<div class='explanation-step'>In the exponential function \\(y=a \\times b^x\\), \\(a\\) is the starting value and \\(b\\) is the growth factor. The starting value from the table is \\(825\\) (the \\(y\\)-intercept), so eliminate A and D. The budget is decreasing, which is modeled by exponential decay. In an exponential decay model, \\(0\\lt b\\lt 1\\), which is seen in answer choice C; \\(1-0.05=0.95\\).</div>"
     },
 {
-      "id": "AM-L2-016",
+      "id": "AM-L2-015",
       "type": "mcq",
       "mode": "practice",
 
       "skill": {
-        "domain": "Advanced Math",
+        "domain": "Algebra",
         "topic": "Algebraic Expressions",
         "skill": "Factoring"
       },
@@ -4063,13 +4031,13 @@
       "explanation": "<div class='explanation-step'>From the answers, notice that this is a factoring problem.  Find the greatest common factor of \\(2y^3\\) and \\(15y^2\\) and divide both terms by it to find what is remaining inside the parentheses. The greatest common factor is \\(y^2\\) because \\(2\\) and \\(15\\) do not share factors other than \\(1\\), and \\(2\\) is the smaller of the two exponents of \\(y\\).</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}\\frac{2y^3}{y^2}&= 2y^{3-2}=2y\\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}\\frac{15{\\cancel{y^2}}}{\\cancel{y^2}}&= 15\\\\ \\end{aligned}$$</div></div></div><div class='explanation-step'>Factor to get \\(2y^3+15y^2=y^2(2y-15)\\)</div>"
     },
 {
-      "id": "AM-L2-017",
+      "id": "AM-L2-016",
       "type": "mcq",
       "mode": "practice",
 
       "skill": {
         "domain": "Advanced Math",
-        "topic": "Systems of Equations",
+        "topic": "Non-linear Systems",
         "skill": "Solving Non-linear Systems"
       },
 
@@ -4088,7 +4056,7 @@
       "explanation": "<div class='explanation-step'>This is a non-linear system of equations. Since \\(y\\) has a constant value of \\(133\\), substitute \\(133\\) into the first equation for \\(y\\) and solve for \\(x\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ y&=x^2+12\\\\133&=x^2+12\\\\133-12&=x^2+\\cancel{12}-\\cancel{12}\\\\\\sqrt{121}&=\\sqrt{x^2}\\\\x&=\\pm11 \\end{aligned}$$</div>"
     },
 {
-      "id": "AM-L2-018",
+      "id": "AM-L2-017",
       "type": "mcq",
       "mode": "practice",
 
@@ -4114,7 +4082,7 @@
       "explanation": "<div class='explanation-step'>The \\(y\\)-intercept is the value of \\(y\\) when \\(x=0\\).  Substitute \\(0\\) in for \\(x\\) and evaluate the function.</div><div class='explanation-math'>$$\\begin{aligned}\\ g(0)&=9 \\left(\\frac{1}{3} \\right)^0-30\\\\ g(0)&=9(1)-30\\\\ g(0)&=9-30\\\\ g(0)&=-21\\end{aligned}$$</div>"
     },
 {
-      "id": "AM-L2-019",
+      "id": "AM-L2-018",
       "type": "gridin",
       "mode": "practice",
 
@@ -4141,7 +4109,7 @@
       "explanation": "<div class='explanation-step'>This is a non-linear system of equations. Since \\(y\\) has a constant value of \\(2\\), substitute \\(2\\) into the second equation for \\(y\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ 2&=x^2+6x+m\\end{aligned}$$</div><div class='explanation-step'>Since this is a system with one real solution, you can treat the equation above like a quadratic equation with one solution. If a quadratic equation has one real solution, the discriminant, \\(b^2-4ac\\) must equal \\(0\\).  Put the equation into \\(y=ax^2+bx+c\\) form in order to determine the values of \\(a\\), \\(b\\), and \\(c\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ \\cancel{2}-\\cancel{2}&=x^2+6x+m-2\\\\ 0&=x^2+6x+m-2 \\end{aligned}$$</div>div class='explanation-step'>In this equation, \\(a=1\\), \\(b=6\\) and \\(c=(m-2)\\).  Use the discriminant to solve for \\(m\\):</div><div class='explanation-math'>$$\\begin{aligned}\\ b^2-4ac&=0\\\\ 6^2-4(1)(m-2)&=0\\\\ 36-4m+8&=0\\\\ 44-\\cancel{4m}+\\cancel{4m}&=0+4m\\\\ \\frac{44}{4}&=\\frac{\\cancel{4}m}{\\cancel{4}}\\\\ m&=11\\end{aligned}$$</div>"
     },
 {
-      "id": "AM-L2-020",
+      "id": "AM-L2-019",
       "type": "mcq",
       "mode": "practice",
 
@@ -4167,7 +4135,7 @@
       "explanation": "<div class='explanation-step'>The equation of a circle is \\((x-h)^2+(y-k)^2=r^2\\), where \\((h,k)\\) is the center of the circle and \\(r\\) is the radius.  Since you are only concerned with the diameter, which is \\(2\\times r\\), you only need to find the radius. In the equation \\((x+2)^2+(y+9)^2=36\\), \\(r^2=36\\), so \\(r=6\\) and \\(d=2(6)=12\\).</div>"
     },
 {
-      "id": "AM-L2-021",
+      "id": "AM-L2-020",
       "type": "mcq",
       "mode": "practice",
 
@@ -4193,7 +4161,7 @@
       "explanation": "<div class='explanation-step'>To convert between exponential and radical form, use \\(\\sqrt[b]{m^a}=m^{\\frac{a}{b}}\\). Since the answer choices don't all have the numbers \\(15\\) and \\(8\\), which appear in the original expression, it can be quicker to convert the answers to exponential form and compare the fractional exponents.</div><div class='explanation-step'>A) \\(\\sqrt[8]{n^{120}}=n^{\\frac{120}{8}}\\); \\(\\frac{120}{8} \\neq \\frac{15}{8}\\)</div><div class='explanation-step'>B) \\(\\sqrt[64]{n^{120}} =n^{\\frac{120}{64}}\\); \\(\\frac{120}{64} = \\frac{15}{8}\\)</div>"
     },
 {
-      "id": "AM-L2-022",
+      "id": "AM-L2-021",
       "type": "gridin",
       "mode": "practice",
 
@@ -4222,7 +4190,7 @@
       "explanation": "<div class='explanation-step'>To begin solving this equation, multiply both sides by \\((n-14)\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ \\cancel{(n-14)}\\times \\frac{72}{\\cancel{n-14}}&=n \\times (n-14)\\\\ 72&=n(n-14)\\\\ 72&=n^2-14n\\end{aligned}$$</div><div class='explanation-step'>Solve this quadratic equation by setting it equal to zero and factoring. To factor, determine factors of \\(-72\\) that have a sum of \\(-14\\).  The factors are \\(-18\\) and \\(4\\) because \\(-18 \\times 4=-72\\) and \\(-18+4=-14\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ \\cancel{72}-\\cancel{72}&=n^2-14n-72\\\\ 0&=n^2-14n-72\\\\ 0&=(n-18)(n+4)\\end{aligned}$$</div><div class='explanation-step'>Use the Zero Product Property to solve: \\(n-18=0\\) and \\(n+4=0\\), so \\(n=18\\) or \\(n=-4\\).</div>"
     },
     {
-      "id": "AM-L2-023",
+      "id": "AM-L2-022",
       "type": "mcq",
       "mode": "practice",
 
@@ -4248,7 +4216,7 @@
       "explanation": "<div class='explanation-step'>The answer choices are a clue that this problem is best solved using the quadratic formula (or completing the square). To make the problem slightly easier to work with, first divide the entire equation by \\(4\\), so \\(x^2-12x+9=0\\). This equation in the form \\(y=ax^2+bx+c\\), \\(a=1\\), \\(b=-12\\), and \\(c=9\\).  Substitute these values into the quadratic formula and evaluate.</div><div class='explanation-math'>$$\\begin{aligned}\\ x&=\\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}\\\\ x&=\\frac{-(-12) \\pm \\sqrt{(-12)^2-4(1)(9)}}{2(1)}\\\\ x&=\\frac{12 \\pm \\sqrt{144-36)}}{2}\\\\ x&=\\frac{12 \\pm \\sqrt{108)}}{2} \\end{aligned}$$</div><div class='explanation-step'>Simplify \\(\\sqrt{108}\\).  The largest perfect square factor of \\(108\\) is \\(36\\), so \\(\\sqrt{108}=\\sqrt{36 \\times 2}\\), which equals \\(6 \\sqrt{2}\\). Simplify further:</div><div class='explanation-math'>$$\\begin{aligned}\\ x&=\\frac{12 \\pm 6\\sqrt{2}}{2}\\\\ x&=6 \\pm 3\\sqrt{2}\\end{aligned}$$</div>"
     },
 {
-      "id": "AM-L2-024",
+      "id": "AM-L2-023",
       "type": "mcq",
       "mode": "practice",
 
@@ -4274,7 +4242,7 @@
       "explanation": "<div class='explanation-step'>Use process of elimination to determine which answer is exponential.</div><div class='explanation-step'>A) Each successive year, the bird population grows by \\(3\\%\\) of the initial bird population.</div><div class='explanation-step'>This answer choice demonstrates linear growth because \\(3\\%\\) of the initial bird population is a constant, and adding a constant is linear growth.</div><div class='explanation-step'>B) Each successive year, the bird population grows by \\(5\\%\\) of the initial bird population and \\(20\\) new birds are added to the bird population.</div><div class='explanation-step'>This answer choice demonstrates linear growth because \\(5\\%\\) of the initial bird population is a constant, and adding that number (and adding \\(20\\)) each year is linear growth.</div><div class='explanation-step'>C) Each successive year, the bird population grows by \\(4\\%\\) of the previous year's bird population.</div><div class='explanation-step'>This answer choice demonstrates exponential growth; if the population grows by \\(4\\%\\) of the previous year, each year will be \\(1.04\\) or \\(104\\%\\) of the previous year.  Growing by a constant multiplier demonstrates exponential growth.</div>"
     },
 {
-      "id": "AM-L2-025",
+      "id": "AM-L2-024",
       "type": "mcq",
       "mode": "practice",
 
@@ -4300,7 +4268,7 @@
       "explanation": "<div class='explanation-step'>Method \\(1\\): Write an equation that models the situation.  In the exponential function \\(y=a\\times b^{x}\\) \\(a\\) is the starting population, \\(b\\) is the growth or decay multiplier, \\(x\\) is the number of halving periods, and \\(y\\) is the population of bees.  The equation is \\(y=\\text{9,000,000} \\times \\left(\\frac{1}{2}\\right)^x\\).  \\(b=\\frac{1}{2}\\) because the population halves each period of time.  This occurs every \\(6\\) hours, so after \\(24\\) hours, there are \\(\\frac{24}{6}=4\\) halving periods. Substitute \\(x=4\\) into the equation to find the bee population.</div><div class='explanation-math'>$$\\begin{aligned}\\ y&=\\text{9,000,000} \\times \\left(\\frac{1}{2}\\right)^4\\\\ y&=\\text{9,000,000} \\times \\left(\\frac{1}{16}\\right)\\\\ y&=\\text{562,500}\\end{aligned}$$</div><div class='explanation-step'>Method \\(2\\): Since the halving occurs every \\(6\\) hours and you are asked to find the population after \\(24\\) hours, use \\(\\frac{24}{6}=4\\) as the number of halving periods. Cut the population in half (divide by \\(2\\)) \\(4\\) times.</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}\\frac{\\text{9,000,000}}{2}=\\text{4,500,000}\\\\ \\frac{\\text{4,500,000}}{2}=\\text{2,250,000}\\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}\\frac{\\text{2,250,000}}{2}=\\text{1,125,000}\\\\ \\frac{\\text{1,125,000}}{2}=\\text{562,500}\\end{aligned}$$</div></div></div>"
     },
 {
-      "id": "AM-L2-026",
+      "id": "AM-L2-025",
       "type": "gridin",
       "mode": "practice",
 
@@ -4330,7 +4298,7 @@
     },
 
 {
-      "id": "AM-L2-027",
+      "id": "AM-L2-026",
       "type": "mcq",
       "mode": "practice",
 
@@ -4356,7 +4324,7 @@
       "explanation": "<div class='explanation-step'>In the exponential function \\(y=a \\times b^x\\), \\(a\\) is the starting value and \\(b\\) is the growth or decay factor. In this situation, the number of people who visit the park is \\(\\text{15,000}\\), so \\(a=\\text{15,000}\\).  Eliminate A and B. The number of visitors triples, so grows by a factor of \\(3\\).  This means \\(b=3\\). The equation that models the situation is \\(y=\\text{15,000}(3)^t\\).</div>"
     },
 {
-      "id": "AM-L2-028",
+      "id": "AM-L2-027",
       "type": "mcq",
       "mode": "practice",
 
@@ -4382,7 +4350,7 @@
       "explanation": "<div class='explanation-step'>In the exponential function \\(y=a \\times b^x\\), \\(a\\) is the starting value and \\(b\\) is the growth or decay factor. In this situation, the initial value of the car is \\$22,500.00, so \\(a=\\text{22,500.00}\\). Eliminate C and D.  The car decreases in value, and in an exponential decay (decrease) function \\(0\\lt b\\lt 1\\).</div>"
     },
 {
-      "id": "AM-L2-029",
+      "id": "AM-L2-028",
       "type": "mcq",
       "mode": "practice",
 
@@ -4408,7 +4376,7 @@
       "explanation": "<div class='explanation-step'>To find the value of \\(x\\) when \\(h(x)=64\\), substitute \\(64\\) into the equation for \\(h(x)\\) and solve for \\(x\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ 64&=x^2-36\\\\ 64+36&=x^2-\\cancel{36}+\\cancel{36}\\\\ \\sqrt{100}&=\\sqrt{x^2}\\\\ x&=\\pm 10\\end{aligned}$$</div>"
     },
 {
-      "id": "AM-L2-030",
+      "id": "AM-L2-029",
       "type": "gridin",
       "mode": "practice",
 
@@ -4436,7 +4404,7 @@
       "explanation": "<div class='explanation-step'>The \\(y\\)-intercept is the value of \\(y\\) when \\(x=0\\).  Substitute \\(0\\) in for \\(x\\) and evaluate the function.</div><div class='explanation-math'>$$\\begin{aligned}\\ f(0)&=20 \\left(\\frac{1}{3}\\right)^0\\\\ f(0)&=20(1)\\\\ f(0)&=20\\end{aligned}$$</div>"
     },
 {
-      "id": "AM-L2-031",
+      "id": "AM-L2-030",
       "type": "mcq",
       "mode": "practice",
 
@@ -4462,7 +4430,7 @@
       "explanation": "<div class='explanation-step'>In a polynomial function \\(ax^n\\) a vertical shift (up or down) appears in the function as \\(ax^n+c\\) where \\(c\\) is a constant.  Eliminate C and D. Since the function \\(h\\) is the function \\(g\\) shifted up, the constant must be positive, so \\(h(x)=-4x^4+5\\).</div>"
     },
 {
-      "id": "AM-L2-032",
+      "id": "AM-L2-031",
       "type": "gridin",
       "mode": "practice",
 
@@ -4491,7 +4459,7 @@
       "explanation": "<div class='explanation-step'>In the absolute value equation \\(4|1-2n|-10|1-2n|=-42\\), the two terms on the left can be combined as like terms, both containing \\(|1-2n|\\).  The simplified equation is \\(-6|1-2n|=-42\\).  Solve the equation by isolating the absolute value, so dividing both sides by \\(-6\\). Then divide the equation \\(|1-2n|=7\\) into two equations and solve.</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}1 -2n&=7\\\\ \\cancel{1} -{2n}-\\cancel{1}&=7-1\\\\ \\frac{\\cancel{-2}n}{\\cancel{-2}}&=\\frac{6}{2}\\\\ n &=-3\\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}1 -2n&=-7\\\\ \\cancel{1} -{2n}-\\cancel{1}&=-7-1\\\\ \\frac{\\cancel{-2}n}{\\cancel{-2}}&=\\frac{-8}{-2}\\\\ n &=4\\end{aligned}$$</div></div></div><div class='explanation-step'>Since \\(4>-3\\), \\(4\\) is the correct answer.</div>"
     },
 {
-      "id": "AM-L2-033",
+      "id": "AM-L2-032",
       "type": "mcq",
       "mode": "practice",
 
@@ -4517,7 +4485,7 @@
       "explanation": "<div class='explanation-step'>Method \\(1\\): Start by writing an equation that models the situation.  In the exponential function \\(y=a\\times b^{x}\\) \\(a\\) is the initial investment, \\(b\\) is the growth or decay multiplier, \\(x\\) is the number of doubling periods, and \\(y\\) is the value of the investment.  The equation is \\(y=\\text{200,000} \\times (2)^x\\).  \\(b=2\\) because the fund doubles each given period of time.  Since the doubling occurs every \\(4\\) years and you are asked to find the value of the investment after \\(20\\) years, use \\(\\frac{20}{4}=5\\) as the \\(x\\)-value. Substitute \\(x=5\\) into the equation and evaluate to find the value of the investment.</div><div class='explanation-math'>$$\\begin{aligned}\\ y&=\\text{200,000} \\times (2)^5\\\\ y&=\\text{200,000} \\times 32\\\\ y&=\\text{6,400,000}\\end{aligned}$$</div><div class='explanation-step'>Method \\(2\\): Since the doubling occurs every \\(4\\) years and you are asked to find the value of the fund after \\(20\\) years, use \\(\\frac{20}{4}=5\\) as the number of doubling periods. Double the investment \\(5\\) times.</div><div class='explanation-math'>$$\\begin{aligned}\\ \\text{200,000}\\times2=\\text{400,000}\\\\ \\text{400,000}\\times2=\\text{800,000}\\\\ \\text{800,000}\\times2=\\text{1,600,000}\\\\ \\text{1,600,000}\\times2=\\text{3,200,000}\\\\ \\text{3,200,000}\\times2=\\text{6,400,000}\\end{aligned}$$</div>"
     },
 {
-      "id": "AM-L2-034",
+      "id": "AM-L2-033",
       "type": "gridin",
       "mode": "practice",
 
@@ -4546,7 +4514,7 @@
       "explanation": "<div class='explanation-step'>The maximum value of \\(x\\) occurs at the vertex of the parabola.  To find the vertex, use \\(x=-\\frac{b}{2a}\\) where \\(y=ax^2+bx+c\\).  In the function \\(h(x)=-2x^2+70x-46\\), \\(a=-2\\) and \\(b=70\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ x&= -\\frac{b}{2a}\\\\ x&= -\\frac{70}{2(-2)}\\\\ x&= -\\frac{70}{-4}= \\frac{35}{2}\\end{aligned}$$</div>"
     },
 {
-      "id": "AM-L2-35",
+      "id": "AM-L2-34",
       "type": "mcq",
       "mode": "practice",
 
@@ -4572,7 +4540,7 @@
       "explanation": "<div class='explanation-step'>To convert between exponential and radical form, use \\(a^{\\frac{m}{n}}=\\sqrt[n]{a^m}\\), so \\(d^{\\frac{2}{5}}=\\sqrt[5]{d^2}\\).</div>"
     },
 {
-      "id": "AM-L2-036",
+      "id": "AM-L2-035",
       "type": "mcq",
       "mode": "practice",
 
@@ -4598,7 +4566,7 @@
       "explanation": "<div class='explanation-step'>To find the number of solutions that a quadratic function has, use the discriminant, \\(b^2-4ac\\). If \\(b^2-4ac<0\\) the function has no real solutions, if \\(b^2-4ac=0\\) it has one real solution and if \\(b^2-4ac>0\\) it has two real solutions.  The equation \\(9x^2-30x+25=0\\) is in the form \\(y=ax^2+bx+c\\) where \\(a=9\\), \\(b=-30\\), and \\(c=25\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ &=b^2-4ac\\\\ &=(-30)^2-4(9)(25)\\\\ &=900-900\\\\ &=0\\end{aligned}$$</div><div class='explanation-step'>Since the discriminant is \\(0\\), there is exactly one real solution.</div>"
     },
 {
-      "id": "AM-L2-037",
+      "id": "AM-L2-036",
       "type": "gridin",
       "mode": "practice",
 
@@ -4627,7 +4595,7 @@
       "explanation": "<div class='explanation-step'>To begin solving this equation, multiply both sides by \\((x-10)\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ \\cancel{(x-10)}\\times \\frac{24}{\\cancel{x-10}}&=x \\times (x-10)\\\\ 24&=x^2-10x\\end{aligned}$$</div><div class='explanation-step'>Set the equation equal to zero and factor. Determine factors of \\(-24\\) that have a sum of \\(-10\\).  The factors are \\(-12\\) and \\(2\\) because \\(-12 \\times 2=-24\\) and \\(-12+2=-10\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ \\cancel{24}-\\cancel{24}&=x^2-14x-24\\\\ 0&=x^2-10x-24\\\\ 0&=(x-12)(x+2)\\end{aligned}$$</div><div class='explanation-step'>Use the Zero Product Property to solve: \\(x-12=0\\) and \\(x+2=0\\), so \\(x=12\\) or \\(x=-2\\). Since the answer must be positive, \\(12\\) is the correct answer.</div>"
     },
 {
-      "id": "AM-L2-038",
+      "id": "AM-L2-037",
       "type": "mcq",
       "mode": "practice",
 
@@ -4653,7 +4621,7 @@
       "explanation": "<div class='explanation-step'>To find the value of \\(x\\) when \\(k(x)=54\\), substitute \\(54\\) into the equation for \\(k(x)\\) and solve for \\(x\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ k(x)&=2x^3\\\\ \\frac{54}{2}&=\\frac{\\cancel{2}x^3}{\\cancel2}\\\\ \\sqrt[3]{27}&=\\sqrt[3]{x^3}\\\\ x&=3\\end{aligned}$$</div>"
     },
 {
-      "id": "AM-L2-039",
+      "id": "AM-L2-038",
       "type": "mcq",
       "mode": "practice",
 
@@ -4679,7 +4647,7 @@
       "explanation": "<div class='explanation-step'>To begin solving this equation, multiply both sides by \\((x-1)\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ \\cancel{(x-1)}\\times \\frac{72}{\\cancel{x-1}}&=x \\times (x-1)\\\\ 72&=x(x-1)\\\\ 72&=x^2-x\\end{aligned}$$</div><div class='explanation-step'>Solve this quadratic equation by setting it equal to zero and factoring. To factor, determine factors of \\(-72\\) that have a sum of \\(-1\\).  The factors are \\(-9\\) and \\(8\\) because \\(-9 \\times 8=-72\\) and \\(-9+8=-1\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ \\cancel{72}-\\cancel{72}&=x^2-1x-72\\\\ 0&=x^2-x-72\\\\ 0&=(x-9)(x+8)\\end{aligned}$$</div><div class='explanation-step'>Use the Zero Product Property to solve: \\(x-9=0\\) and \\(x+8=0\\), so \\(x=9\\) or \\(x=-8\\), which means B) \\(9\\) is the correct answer.</div>"
     },
 {
-      "id": "AM-L2-040",
+      "id": "AM-L2-039",
       "type": "mcq",
       "mode": "practice",
 
@@ -4705,13 +4673,13 @@
       "explanation": "<div class='explanation-step'>The minimum value of the function occurs at the vertex of the parabola.  The minimum value refers to the \\(y\\)-value at the vertex.  To find the vertex, use \\(x=-\\frac{b}{2a}\\) where \\(y=ax^2+bx+c\\).  In the function \\(h(x)=3x^2-25\\), \\(a=3\\) and \\(b=0\\). Since \\(b=0\\), the \\(x\\)-value of the vertex will also be \\(0\\) (\\(x=\\frac{0}{-6}=0\\)).</div><div class='explanation-step'>Substitute \\(x=0\\) it into the original function to find the minimum value of \\(y\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ h(0)&=3(0)^2-25\\\\ h(0)&=0-25\\\\ h(0)&=-25\\end{aligned}$$</div><div class='explanation-step'>Alternatively, if you recognize that this function is the parent function \\(y=x^2\\) shifted down \\(25\\), you can determine that the vertex is \\((0,-25)\\) and the minimum value is \\(-25\\).</div>"
     },
 {
-      "id": "AM-L2-041",
+      "id": "AM-L2-040",
       "type": "mcq",
       "mode": "practice",
 
       "skill": {
         "domain": "Advanced Math",
-        "topic": "Systems of Equations",
+        "topic": "Non-linear Systems",
         "skill": "Solving Non-linear Systems"
       },
 
@@ -4731,7 +4699,7 @@
     },
 
 {
-      "id": "AM-L2-042",
+      "id": "AM-L2-041",
       "type": "mcq",
       "mode": "practice",
 
@@ -4757,7 +4725,7 @@
       "explanation": "<div class='explanation-step'>Since \\(t(0)=27\\), \\(27\\) is the starting value, or \\(a\\) in the exponential function \\(y=a \\times b^x\\).  Eliminate A and B. In the given function, as \\(x\\) increases by \\(1\\), the value of \\(t(x)\\) also increases (by \\(37\\%\\)). This is exponential growth, so in the function \\(y=a \\times b^x\\), \\(b>1\\). This means B is the correct answer.  This can also be seen by writing an increase by \\(37\\%\\) as \\(b=1+0.37=1.37\\).</div>"
     },
 {
-      "id": "AM-L2-043",
+      "id": "AM-L2-042",
       "type": "mcq",
       "mode": "practice",
 
@@ -4783,7 +4751,7 @@
       "explanation": "<div class='explanation-step'>The \\(y\\)-intercept is the value of \\(y\\) when \\(x=0\\). This is also the starting value \\(a\\) in the function \\(y=a \\times b^x\\).  The starting value is \\(12,800\\); eliminate A and C.  January is the first month of this model, so D is the correct answer.  This can also be seen by substituting \\(m=0\\) months into the equation and solving for \\(y\\) (the \\(y\\)-intercept).</div><div class='explanation-math'>$$\\begin{aligned}\\ p(0)&=12,800(0.75)^0\\\\ &=12,800(1)=12,800\\end{aligned}$$</div>"
     },
 {
-      "id": "AM-L2-044",
+      "id": "AM-L2-043",
       "type": "mcq",
       "mode": "practice",
 
@@ -4810,7 +4778,7 @@
     },
 
  {
-      "id": "AM-L2-045",
+      "id": "AM-L2-044",
       "type": "gridin",
       "mode": "practice",
 
@@ -4840,7 +4808,7 @@
     },
 
 {
-      "id": "AM-L2-046",
+      "id": "AM-L2-045",
       "type": "mcq",
       "mode": "practice",
 
@@ -4866,7 +4834,7 @@
       "explanation": "<div class='explanation-step'>Use the laws of exponents to simplify this expression.  But first, cross out \\(\\frac{d^2}{d^2}\\) since anything divided by itself is \\(1\\).  This means there is no power of \\(d\\) in the answer, so eliminate C and D. Next, use the Quotient Rule; subtract the exponents of powers with the same bases.</div><div class='explanation-math'>$$\\begin{aligned}\\ &=\\frac{c^6 f }{c^2 f^3}\\\\ &=c^{6-2} f^{1-3} \\\\ &=c^{4} f^{-2}\\end{aligned}$$</div><div class='explanation-step'></div><div class='explanation-step'>Since the only remaining answer with \\(c^4\\) is B, it must be the correct answer.  But to finish simplifying, use the Negative Exponent Rule, so \\(f^{-2}=\\frac{1}{f^2}\\).  Then \\(c^4 \\times \\frac{1}{f^2} = \\frac{c^4  }{f^2}\\).</div>"
     },
 {
-  "id": "AM-L2-047",
+  "id": "AM-L2-046",
   "type": "mcq",
   "skill": {
     "domain": "Advanced Math",
@@ -4884,7 +4852,7 @@
   "explanation": "<div class='explanation-step'>Simplify the right side by canceling one factor of \\((x-4)\\), noting that \\(x \\neq 4\\) (since that would make the denominator zero).</div><div class='explanation-math'>$$1 = \\frac{x-4}{(x-4)^2} = \\frac{1}{x-4}$$</div><div class='explanation-step'>Solve for \\(x\\).</div><div class='explanation-math'>$$\\begin{aligned}x - 4 &= 1 \\\\ x &= 5\\end{aligned}$$</div><div class='explanation-step'>Check: \\(x = 4\\) is excluded, and \\(x = 5\\) gives \\(\\frac{5-4}{(5-4)^2} = \\frac{1}{1} = 1\\) ✓</div>"
 },
 {
-  "id": "AM-L2-048",
+  "id": "AM-L2-047",
   "type": "gridin",
   "skill": {
     "domain": "Advanced Math",
@@ -4904,7 +4872,7 @@
       "explanation": "<div class='explanation-step'>The \\(x\\)-intercepts occur where \\(h(x) = 0\\). Set each factor equal to zero.</div><div class='explanation-math'>$$\\begin{aligned}(x+1)^2 &= 0 \\Rightarrow x = -1 \\\\ x - 8 &= 0 \\Rightarrow x = 8 \\\\ x - 3 &= 0 \\Rightarrow x = 3\\end{aligned}$$</div><div class='explanation-step'>The \\(x\\)-intercepts are \\(x = -1\\), \\(x = 3\\), and \\(x = 8\\). The largest is \\(8\\).</div>"
 },
 {
-  "id": "AM-L2-049",
+  "id": "AM-L2-048",
   "type": "mcq",
   "skill": {
     "domain": "Advanced Math",
@@ -4922,7 +4890,7 @@
   "explanation": "<div class='explanation-step'>Substitute \\(x + 5\\) for \\(x\\) in \\(g(x)\\).</div><div class='explanation-math'>$$h(x) = g(x+5) = 3(2)^{x+5} = 3 \\cdot 2^x \\cdot 2^5 = 3 \\cdot 32 \\cdot 2^x = 96(2)^x$$</div>"
 },
 {
-  "id": "AM-L2-050",
+  "id": "AM-L2-049",
   "type": "mcq",
   "skill": {
      "domain": "Advanced Math",
@@ -4941,7 +4909,7 @@
     },
     
     {
-  "id": "AM-L2-051",
+  "id": "AM-L2-050",
   "type": "gridin",
   "skill": {
     "domain": "Advanced Math",
@@ -5163,7 +5131,7 @@
 
       "skill": {
         "domain": "Advanced Math",
-        "topic": "Polynomials",
+        "topic": "Rational Expressions",
         "skill": "Polynomial Long Division"
       },
 
@@ -5649,7 +5617,7 @@
 
       "skill": {
         "domain": "Advanced Math",
-        "topic": "Systems of Equations",
+        "topic": "Non-linear Systems",
         "skill": "Using the Discriminant"
       },
 
@@ -5752,7 +5720,7 @@
 
       "skill": {
         "domain": "Advanced Math",
-        "topic": "Polynomials",
+        "topic": "Polynomial Functions",
         "skill": "Factoring"
       },
 
@@ -6071,11 +6039,11 @@
   "id": "AM-L3-042",
   "type": "mcq",
   "skill": {
-    "domain": "Algebra",
-    "topic": "Exponents and Radicals",
-    "skill": "Laws of Exponents"
+    "domain": "Advanced Math",
+    "topic": "Quadratic Functions",
+    "skill": "Using the Discriminant"
 },
-  "stem": "<div style='text-align:center;'>$$ax^2+8x-1$$</div><div style='margin-top:12px;'>In the given equation, the constant \\(a\\) is an integer.  If the equation has no solutions, what is the maximum possible value of \\(a\\)?</div>",
+  "stem": "<div style='text-align:center;'>$$ax^2+8x-1=0$$</div><div style='margin-top:12px;'>In the given equation, the constant \\(a\\) is an integer.  If the equation has no solutions, what is the maximum possible value of \\(a\\)?</div>",
   "choices": [
     "\\(16\\)",
     "\\(-15\\)",
@@ -6443,6 +6411,27 @@
       },
       "explanation": "<div class='explanation-step'>This question asks what the smallest value is in the data set.  The trick here is making sure to answer the smallest data value and not the smallest frequency.  The correct answer is \\(10\\) as it is the minimum value of the data set.</div>"
     },
+    {
+  "id": "P-L1-014",
+  "type": "mcq",
+  "skill": {
+    "domain": "Problem-solving and Data Analysis",
+    "topic": "Statistics",
+    "skill": "Calculating Mean"
+},
+ "level": 1,
+      "set": "Problem-solving and Data Analysis Practice",
+      "tags": ["solving equations"],
+  "stem": "The mean donation in an office fundraiser is \\(\\$90\\). If \\(48\\) employees donated, what is the total of all of the donations?",
+  "choices": [
+    "\\(\\$\\text{4,320}\\)",
+    "\\(\\$\\text{2,160}\\)",
+    "\\(\\$1,380\\)",
+    "\\(\\$\\432\\)"
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>The mean is the total divided by the number of values. Multiply the mean by the number of employees to find the total.</div><div class='explanation-math'>$$\\text{Total} = 90 \\times 48 = \\$4{,}320$$</div>"
+},
     {
       "id": "P-L2-001",
       "type": "gridin",
@@ -6962,6 +6951,32 @@
   "answerIndex": 1,
   "explanation": "<div class='explanation-step'>The estimate is 40% with a margin of error of 2%, so the plausible range is 38% to 42% of the population of 30,000.</div><div class='explanation-math'>$$\\begin{aligned}\\text{Low} &= 0.38 \\times 30{,}000 = 11{,}400 \\\\ \\text{High} &= 0.42 \\times 30{,}000 = 12{,}600\\end{aligned}$$</div><div class='explanation-step'>The only answer choice that falls within the range of 11,400 to 12,600 is 11,800.</div>"
 },
+{
+      "id": "PS-L2-021",
+      "type": "mcq",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Equations and Inequalities",
+        "skill": "Writing Equations"
+      },
+
+      "level": 2,
+      "set": "Advanced Math Practice",
+      "tags": ["word problems", "percents"],
+
+      "stem": "<div class='stem-text'>The value of a certain investment increased by \\(9\\%\\) from 1996 to 1997.  If the value of the investment in 1997 is \\(n\\) times the value of the investment in 1996, what is the value of \\(n\\)?</div>",
+
+      "choices": [
+        "\\(0.09\\)",
+        "\\(0.9\\)",
+        "\\(1.09\\)",
+        "\\(1.9\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Since the value of the investment increased by \\(9\\%\\) from 1996 to 1997, the investment in 1997 is \\(100\\%\\) of its value in 1996 plus an additional \\(9\\%\\), or \\(I_{1997}=I_{1996} + 9\\%(I_{1996})=109\\%(I_{1996})=1.09\\times I_{1996}\\).</div>"
+    },
     {
       "id": "P-L3-001",
       "type": "mcq",
@@ -7190,7 +7205,7 @@
     "type": "mcq",
     "mode": "practice",
     "skill": {
-      "domain": "Problem Solving and Data Analysis",
+      "domain": "Problem-solving and Data Analysis",
       "topic": "Percents",
       "skill": "Percent Relationships"
     },
@@ -7212,7 +7227,7 @@
     "type": "mcq",
     "mode": "practice",
     "skill": {
-      "domain": "Problem Solving and Data Analysis",
+      "domain": "Problem-solving and Data Analysis",
       "topic": "Percents",
       "skill": "Percent Change"
     },
@@ -7234,7 +7249,7 @@
     "type": "mcq",
     "mode": "practice",
     "skill": {
-      "domain": "Problem Solving and Data Analysis",
+      "domain": "Problem-solving and Data Analysis",
       "topic": "Graphs and Tables",
       "skill": "Interpreting Data Displays"
     },
@@ -7256,7 +7271,7 @@
     "type": "mcq",
     "mode": "practice",
     "skill": {
-      "domain": "Problem Solving and Data Analysis",
+      "domain": "Problem-solving and Data Analysis",
       "topic": "Statistics",
       "skill": "Mean and Median"
     },
@@ -7278,7 +7293,7 @@
     "type": "mcq",
     "mode": "practice",
     "skill": {
-      "domain": "Problem Solving and Data Analysis",
+      "domain": "Problem-solving and Data Analysis",
       "topic": "Percents",
       "skill": "Percent Change"
     },
@@ -7300,7 +7315,7 @@
     "type": "mcq",
     "mode": "practice",
     "skill": {
-      "domain": "Problem Solving and Data Analysis",
+      "domain": "Problem-solving and Data Analysis",
       "topic": "Percents",
       "skill": "Percent of a Percent"
     },
