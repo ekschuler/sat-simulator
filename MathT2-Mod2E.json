@@ -52,7 +52,7 @@
         "skill": "Modeling"
       },
       "stem": "A plumber charges a flat fee of \\$75 plus \\$50 per hour of work. A customer received a bill of \\$275. How many hours did the plumber work?",
-      "answer": 4,
+      "answer": "4",
       "answersAccepted": ["4"],
       "validation": {
         "format": "number",

@@ -17,15 +17,15 @@
         "vocabulary",
         "sentence completion"
       ],
-      "stem": "Scientists studying coral reefs have found that rising ocean temperatures cause corals to <span class='blank'>_______</span> their symbiotic algae, leaving the coral bleached white and vulnerable to starvation. Without these algae, which provide the coral with essential nutrients through photosynthesis, the reef cannot survive for long.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+      "stem": "Dr. Maria Santos had a reputation for _______ in her field: she routinely challenged accepted findings, demanded rigorous evidence for every claim, and refused to endorse conclusions she considered premature.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
-        "absorb",
-        "expel",
-        "retain",
-        "consume"
+        "iconoclasm",
+        "pragmatism",
+        "deference",
+        "diplomacy"
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank.</div><div class='explanation-step'>The passage says corals become &ldquo;bleached white and vulnerable to starvation&rdquo; after this process, and that &ldquo;without these algae&rdquo; the reef cannot survive. The coral must be losing or getting rid of the algae — not keeping them.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Absorb&rdquo; means to take in — the opposite of what happens, since the coral ends up without the algae. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Expel&rdquo; means to force out or eject. If the coral expels its algae, it would be left without them — consistent with the passage. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Retain&rdquo; means to keep — the opposite of what happens, since the coral ends up without the algae. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Consume&rdquo; means to eat or use up — the algae are expelled, not eaten. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank. Dr. Santos &ldquo;routinely challenged accepted findings&rdquo; and &ldquo;refused to endorse conclusions she considered premature.&rdquo; The blank describes this pattern of questioning and challenging established views.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Iconoclasm&rdquo; means the practice of attacking or rejecting established beliefs or institutions. A scientist who challenges accepted findings and refuses premature endorsements is an iconoclast. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Pragmatism&rdquo; means a practical, results-focused approach — unrelated to challenging accepted findings. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Deference&rdquo; means respectful submission to others&rsquo; views — the opposite of challenging them. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Diplomacy&rdquo; means skill in managing relations tactfully — unrelated to the intellectual challenge Dr. Santos presents. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
       "id": "VerbalT2-1-002",
@@ -40,15 +40,15 @@
         "vocabulary",
         "sentence completion"
       ],
-      "stem": "The new manager was known for her <span class='blank'>_______</span> approach to workplace conflict: rather than letting disagreements fester, she addressed them directly, bringing all parties together to discuss their concerns openly.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+      "stem": "The committee's new safety regulations were designed to _______ the number of workplace accidents, which had risen sharply over the previous decade despite repeated warnings from inspectors.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
-        "evasive",
-        "forthright",
-        "passive",
-        "erratic"
+        "exacerbate",
+        "chronicle",
+        "curtail",
+        "replicate"
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank.</div><div class='explanation-step'>The passage describes the manager as someone who addressed conflicts &ldquo;directly&rdquo; and brought parties together to discuss concerns &ldquo;openly&rdquo; — as opposed to &ldquo;letting disagreements fester.&rdquo; The blank should describe someone who faces things directly and openly.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Evasive&rdquo; means avoiding or dodging — the opposite of addressing conflict directly. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Forthright&rdquo; means direct and outspoken. This fits a manager who addresses conflict openly rather than avoiding it. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Passive&rdquo; means inactive or unresponsive — the opposite of someone who actively brings parties together. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Erratic&rdquo; means unpredictable or irregular — the passage describes a consistent, deliberate approach, not an unpredictable one. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank. The regulations are a response to accidents that &ldquo;had risen sharply.&rdquo; Safety regulations are designed to reduce accidents, not increase or document them.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Exacerbate&rdquo; means to make worse — the opposite of what safety regulations are designed to do. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Chronicle&rdquo; means to document or record — regulations are meant to prevent accidents, not catalog them. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Curtail&rdquo; means to reduce or limit. Safety regulations designed to curtail accidents would reduce their frequency. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Replicate&rdquo; means to reproduce or repeat — the opposite of what the regulations intend. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
     },
     {
       "id": "VerbalT2-1-003",
@@ -63,15 +63,15 @@
         "vocabulary",
         "sentence completion"
       ],
-      "stem": "Although the novelist's early work was praised for its clarity and accessibility, critics found her later novels increasingly <span class='blank'>_______</span> — dense with literary allusions and resistant to straightforward interpretation, they rewarded only the most patient readers.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+      "stem": "Though the young composer's melodies were immediately appealing, critics noted that his arrangements were _______, relying on familiar harmonic progressions rather than developing the distinctive voice that separates truly original artists from merely competent ones.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
-        "lucid",
-        "prolific",
-        "opaque",
-        "candid"
+        "derivative",
+        "intricate",
+        "restrained",
+        "evocative"
       ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank.</div><div class='explanation-step'>The word &ldquo;Although&rdquo; signals a contrast: the early work was praised for &ldquo;clarity and accessibility,&rdquo; but the later novels moved in the opposite direction — they were &ldquo;dense with allusions&rdquo; and &ldquo;resistant to straightforward interpretation.&rdquo; The blank should mean something like difficult to understand or unclear.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Lucid&rdquo; means clear and easy to understand — the opposite of what the later novels are described as. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Prolific&rdquo; means producing a lot of work — unrelated to the clarity or difficulty of the novels. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Opaque&rdquo; means difficult to understand or interpret. This fits perfectly — the later novels were dense and resistant to interpretation. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Candid&rdquo; means open and honest — unrelated to how difficult the novels are to interpret. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 2, the correct answer requires understanding the full argument. The critics found the arrangements lacking a &ldquo;distinctive voice&rdquo; — they relied on &ldquo;familiar harmonic progressions&rdquo; rather than originality. The blank must mean unoriginal or imitative.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Derivative&rdquo; means unoriginal, drawing too heavily on existing styles or sources. Critics saying the arrangements were derivative would mean they lacked originality — consistent with &ldquo;familiar harmonic progressions.&rdquo; Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Intricate&rdquo; means complex or detailed — this could describe elaborate arrangements, but does not capture the criticism of lacking originality. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Restrained&rdquo; means deliberately limited or controlled — a different quality from unoriginal. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Evocative&rdquo; means suggestive or emotionally resonant — a positive quality, inconsistent with the critical tone. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
       "id": "VerbalT2-1-004",
@@ -86,15 +86,15 @@
         "vocabulary",
         "sentence completion"
       ],
-      "stem": "The discovery of pottery shards at the dig site was considered <span class='blank'>_______</span> because it provided the first physical evidence linking the ancient settlement to a trade network that scholars had previously only theorized existed.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+      "stem": "Although the study was conducted over a decade and involved thousands of participants, its conclusions about the long-term effects of social media on adolescent mental health remain _______ — the researchers themselves acknowledged that causation could not be established from correlational data alone.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
-        "redundant",
-        "corroborating",
-        "misleading",
-        "inconclusive"
+        "comprehensive",
+        "provocative",
+        "corroborated",
+        "tentative"
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank.</div><div class='explanation-step'>The discovery provided the &ldquo;first physical evidence&rdquo; for something that was &ldquo;previously only theorized.&rdquo; Physical evidence that supports a theory is evidence that confirms or backs it up.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Redundant&rdquo; means unnecessary because it duplicates something already present — but this was the first physical evidence, not a duplicate. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Corroborating&rdquo; means confirming or supporting an existing theory with new evidence. The discovery confirms what scholars had previously only theorized. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Misleading&rdquo; means causing a false impression — the passage says the discovery provided supporting evidence, not false evidence. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Inconclusive&rdquo; means not settling the question — the passage presents this as meaningful supporting evidence, not uncertain. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 2, the phrase &ldquo;although&rdquo; signals a contrast: despite the study&rsquo;s large scale (decade-long, thousands of participants), the conclusions are limited in some way. The em dash then explains: causation could not be established. The blank must describe conclusions that are uncertain or not firmly established.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Comprehensive&rdquo; is a strong trap — the study sounds comprehensive in scope, but the blank describes the conclusions, which are limited by the inability to establish causation. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Provocative&rdquo; means stimulating debate or controversy — unrelated to the epistemological limitation described. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Corroborated&rdquo; means confirmed by additional evidence — the opposite of what the researchers acknowledge. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Tentative&rdquo; means not fully certain or established — precisely what conclusions based on correlational data (not causation) would be. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
     },
     {
       "id": "VerbalT2-1-005",
@@ -107,13 +107,13 @@
       },
       "stem": "Cities tend to be significantly warmer than surrounding rural areas, a phenomenon known as the urban heat island effect. This temperature difference arises because urban surfaces — roads, rooftops, and parking lots — absorb and retain heat more readily than vegetation does. Trees and plants, by contrast, release water vapor through a process called evapotranspiration, which cools the surrounding air. As cities continue to expand and green spaces diminish, urban heat island effects are expected to intensify, posing risks for public health and energy consumption.<br><br>What is the main purpose of the text?",
       "choices": [
-        "To argue that cities should replace all paved surfaces with green spaces",
         "To explain the causes and potential consequences of the urban heat island effect",
+        "To argue that cities should replace all paved surfaces with green spaces",
         "To compare temperatures in urban and rural environments across different climates",
         "To describe the process of evapotranspiration in urban trees"
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Main Purpose</em> questions, the correct answer must reflect the full scope of the passage — not just one part of it. Before looking at choices, summarize: the passage explains why cities are warmer (causes) and what might happen as this worsens (consequences).</div><div class='explanation-step'><strong>A)</strong> The passage describes the problem but does not prescribe replacing all paved surfaces — this overstates the passage's argument. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Covers both the explanation of causes (surfaces absorb heat, less vegetation) and the potential consequences (health risks, energy costs). Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage mentions the urban-rural temperature difference but does not compare multiple climates. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Evapotranspiration is one detail in the passage, not its main purpose. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>Main Purpose</em> questions, the correct answer must reflect the full scope of the passage — not just one part of it. Before looking at choices, summarize: the passage explains why cities are warmer (causes) and what might happen as this worsens (consequences).</div><div class='explanation-step'><strong>A)</strong> The passage describes the problem but does not prescribe replacing all paved surfaces — this overstates the passage's argument. Eliminate A.</div><div class='explanation-step'><strong>A)</strong> Covers both the explanation of causes (surfaces absorb heat, less vegetation) and the potential consequences (health risks, energy costs). Keep A.</div><div class='explanation-step'><strong>C)</strong> The passage mentions the urban-rural temperature difference but does not compare multiple climates. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Evapotranspiration is one detail in the passage, not its main purpose. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
       "id": "VerbalT2-1-006",
@@ -145,13 +145,13 @@
       },
       "stem": "When carbon dioxide dissolves in seawater, it forms carbonic acid, lowering the pH of the ocean. This process, known as ocean acidification, has accelerated significantly since the Industrial Revolution as atmospheric CO₂ levels have risen. Marine organisms that build shells or skeletons from calcium carbonate — including oysters, mussels, and some species of plankton — are particularly vulnerable, as acidic water dissolves the calcium carbonate they depend on.<br><br>According to the text, why are certain marine organisms particularly vulnerable to ocean acidification?",
       "choices": [
-        "They cannot tolerate the rising water temperatures caused by increased CO₂ levels.",
         "They build their shells or skeletons from a material that dissolves in acidic water.",
+        "They cannot tolerate the rising water temperatures caused by increased CO₂ levels.",
         "They depend on plankton for food, and plankton populations have declined.",
         "They are unable to regulate their internal pH in response to environmental changes."
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>According to the Text</em> questions, the correct answer is directly stated in the passage. The passage says organisms that build shells from calcium carbonate are vulnerable because \"acidic water dissolves the calcium carbonate they depend on.\"</div><div class='explanation-step'><strong>A)</strong> The passage discusses pH, not temperature. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Directly matches the passage's explanation — calcium carbonate structures dissolve in acidic water. Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage mentions plankton as one of the vulnerable organisms, not as a food source. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Internal pH regulation is not mentioned in the passage. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>According to the Text</em> questions, the correct answer is directly stated in the passage. The passage says organisms that build shells from calcium carbonate are vulnerable because \"acidic water dissolves the calcium carbonate they depend on.\"</div><div class='explanation-step'><strong>B)</strong> The passage discusses pH, not temperature. Eliminate B.</div><div class='explanation-step'><strong>A)</strong> Directly matches the passage's explanation — calcium carbonate structures dissolve in acidic water. Keep A.</div><div class='explanation-step'><strong>C)</strong> The passage mentions plankton as one of the vulnerable organisms, not as a food source. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Internal pH regulation is not mentioned in the passage. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
       "id": "VerbalT2-1-008",
@@ -165,12 +165,12 @@
       "stem": "Neurologist Dr. Sarah Chen argues that lifelong bilingualism may delay the onset of dementia symptoms by an average of four to five years compared to monolingualism. She contends that constantly managing two language systems exercises cognitive control mechanisms in ways that build what researchers call cognitive reserve — a buffer against neurological decline.<br><br>Which finding, if true, would most directly support Dr. Chen's claim?",
       "choices": [
         "Bilingual individuals show greater activation in language-processing regions of the brain during tasks requiring only one language.",
-        "Bilingual patients with equivalent degrees of Alzheimer's-related brain damage show fewer symptoms than monolingual patients with similar damage.",
         "People who learn a second language in adulthood show the same cognitive benefits as those who learn it in childhood.",
-        "The cognitive reserve built by bilingualism diminishes within a decade of ceasing to use the second language."
+        "The cognitive reserve built by bilingualism diminishes within a decade of ceasing to use the second language.",
+        "Bilingual patients with equivalent degrees of Alzheimer's-related brain damage show fewer symptoms than monolingual patients with similar damage."
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Supporting a Claim</em> questions, identify the precise claim. Dr. Chen argues that bilingualism builds cognitive reserve — a buffer against neurological decline — that delays dementia symptoms. The correct answer must provide evidence of this buffer effect.</div><div class='explanation-step'><strong>A)</strong> Greater brain activation shows bilingual brains work differently, but does not address whether this delays dementia symptoms. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> If bilingual patients show fewer symptoms despite equivalent brain damage, this directly supports the idea that bilingualism provides a buffer — the brain tolerates more damage before symptoms appear. Keep B.</div><div class='explanation-step'><strong>C)</strong> This addresses when the benefit arises, not whether the benefit exists. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> This would actually weaken the claim by suggesting the benefit is not permanent. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>For <em>Supporting a Claim</em> questions, identify the precise claim. Dr. Chen argues that bilingualism builds cognitive reserve — a buffer against neurological decline — that delays dementia symptoms. The correct answer must provide evidence of this buffer effect.</div><div class='explanation-step'><strong>A)</strong> Greater brain activation shows bilingual brains work differently, but does not address whether this delays dementia symptoms. Eliminate A.</div><div class='explanation-step'><strong>D)</strong> If bilingual patients show fewer symptoms despite equivalent brain damage, this directly supports the idea that bilingualism provides a buffer — the brain tolerates more damage before symptoms appear. Keep D.</div><div class='explanation-step'><strong>B)</strong> This addresses when the benefit arises, not whether the benefit exists. Eliminate C.</div><div class='explanation-step'><strong>C)</strong> This would actually weaken the claim by suggesting the benefit is not permanent. Eliminate D.</div><br><br>The correct answer is <strong>D</strong>."
     },
     {
       "id": "VerbalT2-1-009",
@@ -184,12 +184,12 @@
       "stem": "For decades, the placebo effect was dismissed as a nuisance in clinical trials — an inconvenient statistical artifact to be controlled away. Researchers designed experiments specifically to subtract its influence, treating it as noise in data about \"real\" treatments. More recently, however, scientists have begun studying the placebo effect as a phenomenon worthy of investigation in its own right. They have found that placebos trigger measurable physiological responses, including the release of endorphins and changes in brain activity, suggesting that the mind's expectation of healing can itself produce genuine healing.<br><br>Which choice best describes the overall structure of the text?",
       "choices": [
         "It presents a scientific consensus and then introduces evidence that challenges it.",
-        "It describes how the scientific community's attitude toward a phenomenon shifted from dismissal to serious inquiry.",
         "It compares the effectiveness of placebos with that of conventional treatments.",
+        "It describes how the scientific community's attitude toward a phenomenon shifted from dismissal to serious inquiry.",
         "It argues that all medical treatments work primarily through psychological mechanisms."
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Overall Structure</em> questions, identify what each part of the passage does. The first half describes the old attitude (dismissed, treated as noise). The second half describes the new attitude (studied seriously, found to produce real responses). The structure is a shift over time.</div><div class='explanation-step'><strong>A)</strong> The passage doesn't present a current consensus being challenged — it describes a completed shift in thinking. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Accurately captures the two-part structure: dismissal (\"nuisance,\" \"controlled away\") → serious inquiry (\"worthy of investigation,\" measurable physiological responses). Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage never compares placebos to conventional treatments in terms of effectiveness. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The passage does not make this broad claim about all treatments. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>For <em>Overall Structure</em> questions, identify what each part of the passage does. The first half describes the old attitude (dismissed, treated as noise). The second half describes the new attitude (studied seriously, found to produce real responses). The structure is a shift over time.</div><div class='explanation-step'><strong>A)</strong> The passage doesn't present a current consensus being challenged — it describes a completed shift in thinking. Eliminate A.</div><div class='explanation-step'><strong>C)</strong> Accurately captures the two-part structure: dismissal (\"nuisance,\" \"controlled away\") → serious inquiry (\"worthy of investigation,\" measurable physiological responses). Keep C.</div><div class='explanation-step'><strong>B)</strong> The passage never compares placebos to conventional treatments in terms of effectiveness. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The passage does not make this broad claim about all treatments. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
     },
     {
       "id": "VerbalT2-1-010",
@@ -203,12 +203,12 @@
       "stem": "The Green Revolution of the mid-twentieth century dramatically increased agricultural yields through the development of high-yielding crop varieties, widespread irrigation, and the use of synthetic fertilizers and pesticides. These advances are credited with preventing widespread famine and feeding hundreds of millions of people. Critics, however, note that the Green Revolution also contributed to soil degradation, increased dependence on chemical inputs, and the displacement of traditional farming knowledge. Some argue that its benefits were distributed unequally, favoring large commercial farms over smallholders.<br><br>Which choice best states the main idea of the text?",
       "choices": [
         "The Green Revolution successfully eliminated famine in the developing world.",
-        "The Green Revolution's reliance on synthetic chemicals has rendered modern agriculture unsustainable.",
         "While the Green Revolution dramatically increased food production, it also brought significant environmental and social costs.",
+        "The Green Revolution's reliance on synthetic chemicals has rendered modern agriculture unsustainable.",
         "Critics of the Green Revolution are motivated primarily by a preference for traditional farming methods."
       ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>For <em>Main Idea</em> questions, the correct answer must capture the full arc of the passage — not just one side. The passage presents both significant achievements and significant costs. Summarize: the Green Revolution increased food production enormously but also created serious problems.</div><div class='explanation-step'><strong>A)</strong> The passage says famine was prevented, not eliminated — and the scope is overstated. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Focuses on one criticism (chemicals) and overstates it as causing unsustainability. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Captures both the achievement (dramatically increased food production) and the costs (environmental and social). Keep C.</div><div class='explanation-step'><strong>D)</strong> Misrepresents critics' motivations — they raise environmental and equity concerns, not merely a preference for tradition. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Main Idea</em> questions, the correct answer must capture the full arc of the passage — not just one side. The passage presents both significant achievements and significant costs. Summarize: the Green Revolution increased food production enormously but also created serious problems.</div><div class='explanation-step'><strong>A)</strong> The passage says famine was prevented, not eliminated — and the scope is overstated. Eliminate A.</div><div class='explanation-step'><strong>C)</strong> Focuses on one criticism (chemicals) and overstates it. Eliminate C. (chemicals) and overstates it as causing unsustainability. Eliminate B.</div><div class='explanation-step'><strong>B)</strong> Captures both the achievement (dramatically increased food production) and the costs (environmental and social). Keep B. (dramatically increased food production) and the costs (environmental and social). Keep B.</div><div class='explanation-step'><strong>D)</strong> Misrepresents critics' motivations. Eliminate D.' motivations — they raise environmental and equity concerns, not merely a preference for tradition. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-1-011",
@@ -221,12 +221,12 @@
       },
       "stemSegments": [
         {
-          "text": "The following text is from W.E.B. Du Bois's <em>The Souls of Black Folk</em>, published in 1903.",
+          "text": "The following text is from William James's <em>The Principles of Psychology</em>, published in 1890.",
           "align": "left",
           "style": "default"
         },
         {
-          "text": "After the Egyptian and Indian, the Greek and Roman, the Teuton and Mongolian, the Negro is a sort of seventh son, born with a veil, and gifted with second-sight in this American world — a world which yields him no true self-consciousness, but only lets him see himself through the revelation of the other world. <u>It is a peculiar sensation, this double-consciousness, this sense of always looking at one's self through the eyes of others, of measuring one's soul by the tape of a world that looks on in amused contempt and pity.</u>",
+          "text": "The hell to be endured hereafter, of which theology tells, is no worse than the hell we make for ourselves in this world by habitually fashioning our characters in the wrong way. Every smallest stroke of virtue or of vice leaves its never so little scar. <u>The drunken Rip Van Winkle, in Jefferson's play, excuses himself for every fresh dereliction by saying, &lsquo;I won&rsquo;t count this time!&rsquo; Well! he may not count it, and a kind Heaven may not count it; but it is being counted none the less.</u>",
           "align": "left",
           "style": "passage"
         },
@@ -237,13 +237,13 @@
         }
       ],
       "choices": [
-        "It introduces a counterargument to Du Bois's concept of double-consciousness.",
-        "It provides a concrete experiential definition of the abstract concept introduced in the preceding sentence.",
-        "It shifts the focus from the African American experience to a universal human condition.",
-        "It summarizes Du Bois's broader argument about racial inequality in American society."
+        "It provides a concrete illustration of how small moral lapses accumulate even when a person refuses to acknowledge them.",
+        "It introduces a counterargument to James's claim that character is shaped by habitual actions.",
+        "It shifts the focus from individual psychology to the role of religious belief in moral development.",
+        "It summarizes the broader argument James makes about the relationship between virtue and punishment."
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Function of a Sentence</em> questions, read what comes before and after the underlined sentence. The preceding sentence introduces \"second-sight\" and the condition of seeing oneself only through the perspective of the other world — but these are abstract. The underlined sentence then names and unpacks this: \"double-consciousness,\" defined as \"always looking at one's self through the eyes of others.\"</div><div class='explanation-step'><strong>A)</strong> The sentence does not introduce a counterargument — it elaborates and clarifies the concept. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Precisely describes the function: names the concept (double-consciousness) and gives its experiential content (looking at oneself through others' eyes, measuring one's soul by an external standard). Keep B.</div><div class='explanation-step'><strong>C)</strong> The sentence remains focused on the specific experience Du Bois describes — it does not shift to a universal condition. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Too broad — Du Bois is defining a specific psychological experience here, not summarizing a broad argument. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>Function of a Sentence</em> questions, read the preceding sentences to understand what the underlined sentence does in relation to them. James argues that every small act of virtue or vice &ldquo;leaves its scar&rdquo; — character is shaped by small habits. The underlined sentence then illustrates this with Rip Van Winkle, who tells himself his derelictions don&rsquo;t count, but James insists &ldquo;it is being counted none the less.&rdquo;</div><div class='explanation-step'><strong>A)</strong> The Rip Van Winkle example concretely illustrates how moral lapses accumulate even when denied — directly supporting James&rsquo;s claim about habits leaving their mark. Keep A.</div><div class='explanation-step'><strong>B)</strong> The sentence does not introduce a counterargument — it reinforces James&rsquo;s claim with an example. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Heaven is mentioned but only in passing — the sentence is about psychological accumulation, not religious development. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The sentence is a specific illustrative example, not a summary of the broader argument. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
       "id": "VerbalT2-1-012",
@@ -257,12 +257,12 @@
       "stem": "Conservation biologist Dr. Amara Diallo argues that rewilding programs — reintroducing apex predators to ecosystems from which they were eliminated — consistently produce measurable improvements in biodiversity across all species in the ecosystem. She points to the reintroduction of wolves to Yellowstone as evidence that a single apex predator can trigger cascading positive effects throughout an entire food web.<br><br>Which finding, if true, would most directly undermine Dr. Diallo's claim?",
       "choices": [
         "Wolves reintroduced to Yellowstone have reduced elk populations, allowing vegetation to recover in several areas.",
-        "Several rewilding programs in Europe have failed to produce significant biodiversity improvements despite successful predator reintroduction.",
         "Rewilding programs are significantly more expensive per acre than habitat restoration programs.",
+        "Several rewilding programs in Europe have failed to produce significant biodiversity improvements despite successful predator reintroduction.",
         "Dr. Diallo's research was conducted primarily in North American ecosystems, limiting its generalizability."
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Weakening a Claim</em> questions, identify the precise claim. Dr. Diallo claims rewilding programs <em>consistently</em> produce measurable biodiversity improvements. To undermine this, the correct answer must show that the pattern does not hold consistently.</div><div class='explanation-step'><strong>A)</strong> This actually supports Dr. Diallo's claim — wolves triggering vegetation recovery is exactly the kind of cascading positive effect she describes. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> If rewilding programs in Europe have failed to improve biodiversity despite successful predator reintroduction, this directly contradicts the claim that rewilding <em>consistently</em> produces improvements. Keep B.</div><div class='explanation-step'><strong>C)</strong> Cost is irrelevant to whether rewilding produces biodiversity improvements. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> This raises a question about generalizability but does not show that the positive effects failed to occur — it just questions the scope. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>For <em>Weakening a Claim</em> questions, identify the precise claim. Dr. Diallo claims rewilding programs <em>consistently</em> produce measurable biodiversity improvements. To undermine this, the correct answer must show that the pattern does not hold consistently.</div><div class='explanation-step'><strong>A)</strong> This actually supports Dr. Diallo's claim — wolves triggering vegetation recovery is exactly the kind of cascading positive effect she describes. Eliminate A.</div><div class='explanation-step'><strong>C)</strong> If rewilding programs in Europe have failed to improve biodiversity despite successful predator reintroduction, this directly contradicts the claim that rewilding <em>consistently</em> produces improvements. Keep C.</div><div class='explanation-step'><strong>B)</strong> Cost is irrelevant to whether rewilding produces biodiversity improvements. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> This raises a question about generalizability but does not show that the positive effects failed to occur — it just questions the scope. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
     },
     {
       "id": "VerbalT2-1-013",
@@ -275,7 +275,7 @@
       },
       "stemSegments": [
         {
-          "text": "In his 1841 essay &ldquo;Self-Reliance,&rdquo; Ralph Waldo Emerson argues that society pressures individuals to conform at the expense of their own authentic thought and judgment, writing <span class='blank'>_______</span>.",
+          "text": "In his 1841 essay &ldquo;Self-Reliance,&rdquo; Ralph Waldo Emerson argues that most people abandon their own genuine convictions the moment they encounter social disapproval, writing <span class='blank'>_______</span>.",
           "align": "left",
           "style": "passage"
         },
@@ -288,11 +288,11 @@
       "choices": [
         "&ldquo;To be great is to be misunderstood.&rdquo;",
         "&ldquo;A foolish consistency is the hobgoblin of little minds, adored by little statesmen and philosophers and divines.&rdquo;",
-        "&ldquo;Society everywhere is in conspiracy against the manhood of every one of its members&hellip; The virtue in most request is conformity.&rdquo;",
+        "&ldquo;What I must do is all that concerns me, not what the people think.&rdquo;",
         "&ldquo;Trust thyself: every heart vibrates to that iron string.&rdquo;"
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>For <em>Illustrating Claims with Quotations</em> questions, the correct quotation must directly illustrate the specific claim. The claim is that society pressures individuals to conform at the expense of authentic thought. The quotation must show society's pressure toward conformity explicitly.</div><div class='explanation-step'><strong>A)</strong> This is about the relationship between greatness and being misunderstood — it implies nonconformity has consequences, but doesn't show society actively pressuring conformity. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This criticizes intellectual consistency but doesn't directly address society's pressure to conform. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Directly states that society is \"in conspiracy\" against its members and that \"conformity\" is the most demanded virtue — precisely illustrating the claim. Keep C.</div><div class='explanation-step'><strong>D)</strong> This is a call to self-trust, not a statement about society's pressure to conform. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Illustrating Claims with Quotations</em> questions, the correct quotation must directly illustrate the specific claim. The claim is that people abandon genuine convictions when they face social disapproval — the quotation must show someone prioritizing their own judgment over others&rsquo; opinions explicitly.</div><div class='explanation-step'><strong>A)</strong> This line is about the relationship between greatness and being misunderstood — it implies nonconformity but does not directly address abandoning convictions under social pressure. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This criticizes intellectual consistency as small-minded but does not directly address the pressure to abandon convictions when facing disapproval. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;What I must do is all that concerns me, not what the people think&rdquo; directly states that one&rsquo;s own convictions take priority over social opinion — precisely illustrating the claim. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Trust thyself&rdquo; is a call to self-reliance but does not specifically address the moment of social disapproval when convictions are abandoned. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
     },
     {
       "id": "VerbalT2-1-014",
@@ -303,15 +303,15 @@
         "topic": "Form, Structure, and Sense",
         "skill": "Standard English Conventions"
       },
-      "stem": "The migration of Arctic terns spans nearly 25,000 miles each year, making it the longest known migration of any animal <span class='blank'>_______</span> scientists have tracked their routes using lightweight geolocators attached to the birds' legs.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "stem": "Each of the migratory bird species documented in the study _______ a unique route between its summer and winter habitats, shaped by centuries of evolutionary adaptation.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
       "choices": [
-        ",",
-        ";",
-        ":",
-        ", and yet"
+        "have followed",
+        "are following",
+        "follows",
+        "follow"
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>The answer choices are all punctuation options, so this question tests <strong>Punctuation Between Independent Clauses</strong>. Check whether both parts of the sentence can stand alone. \"The migration of Arctic terns spans nearly 25,000 miles each year, making it the longest known migration of any animal\" is an independent clause. \"Scientists have tracked their routes using lightweight geolocators attached to the birds' legs\" is also an independent clause.</div><div class='explanation-step'><strong>A)</strong> A comma alone between two independent clauses creates a comma splice — a run-on sentence. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> A semicolon correctly joins two related independent clauses. Keep B.</div><div class='explanation-step'><strong>C)</strong> A colon introduces an explanation or list, but what follows is an additional fact, not an explanation of the preceding clause. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"And yet\" implies contrast, but the second clause does not contrast with the first. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>The answer choices are different verb forms, so this question tests <strong>Subject-Verb Agreement</strong>. Identify the subject: &ldquo;Each.&rdquo; The phrase &ldquo;of the migratory bird species documented in the study&rdquo; is a prepositional phrase modifying &ldquo;each&rdquo; — it does not change the subject. &ldquo;Each&rdquo; is always singular.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Have followed&rdquo; is plural present perfect — incorrect for the singular subject &ldquo;each.&rdquo; Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Are following&rdquo; is plural present progressive — incorrect. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Follows&rdquo; is third-person singular present tense — correctly agreeing with &ldquo;each.&rdquo; Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Follow&rdquo; is plural — incorrect for the singular subject &ldquo;each.&rdquo; Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
     },
     {
       "id": "VerbalT2-1-015",
@@ -324,13 +324,13 @@
       },
       "stem": "The jury, after deliberating for six days and reviewing hundreds of pages of evidence, <span class='blank'>_______</span> unable to reach a unanimous verdict.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
       "choices": [
-        "were",
         "was",
+        "were",
         "are",
         "have been"
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>The answer choices are different verb forms, so this question tests <strong>Subject-Verb Agreement</strong>. Identify the subject: \"jury.\" The long intervening phrase \"after deliberating for six days and reviewing hundreds of pages of evidence\" can be removed without changing the subject.</div><div class='explanation-step'>In American English, collective nouns like \"jury,\" \"committee,\" and \"team\" take singular verbs when acting as a single unit. Here the jury is acting collectively.</div><div class='explanation-step'><strong>A)</strong> \"Were\" is plural — incorrect for the singular collective noun \"jury.\" Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Was\" is singular, correctly agreeing with \"jury.\" Keep B.</div><div class='explanation-step'><strong>C)</strong> \"Are\" is present tense plural — incorrect. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Have been\" is plural present perfect — incorrect. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>The answer choices are different verb forms, so this question tests <strong>Subject-Verb Agreement</strong>. Identify the subject: \"jury.\" The long intervening phrase \"after deliberating for six days and reviewing hundreds of pages of evidence\" can be removed without changing the subject.</div><div class='explanation-step'>In American English, collective nouns like \"jury,\" \"committee,\" and \"team\" take singular verbs when acting as a single unit. Here the jury is acting collectively.</div><div class='explanation-step'><strong>B)</strong> \"Were\" is plural — incorrect for the singular collective noun \"jury.\" Eliminate A.</div><div class='explanation-step'><strong>A)</strong> \"Was\" is singular, correctly agreeing with \"jury.\" Keep A.</div><div class='explanation-step'><strong>C)</strong> \"Are\" is present tense plural — incorrect. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Have been\" is plural present perfect — incorrect. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
       "id": "VerbalT2-1-016",
@@ -344,12 +344,12 @@
       "stem": "By the time the expedition reached the summit, the weather <span class='blank'>_______</span> dramatically, making the descent far more dangerous than the climb.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
       "choices": [
         "changes",
+        "had changed",
         "changed",
-        "has changed",
-        "had changed"
+        "has changed"
       ],
-      "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>The answer choices are different verb tenses, so this question tests <strong>Verb Tense</strong>. The phrase \"by the time the expedition reached the summit\" signals a sequence of two past events. One action (weather changing) must have been completed before another past action (reaching the summit).</div><div class='explanation-step'>When one past action is completed before another past action, the past perfect tense (had + past participle) is correct.</div><div class='explanation-step'><strong>A)</strong> \"Changes\" is simple present — incorrect in a past-tense sentence. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Changed\" is simple past — does not show that the weather changed <em>before</em> the summit was reached. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"Has changed\" is present perfect — connects to the present, not to a prior past event. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Had changed\" is past perfect — correctly indicates the weather changed before the expedition reached the summit. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>The answer choices are different verb tenses, so this question tests <strong>Verb Tense</strong>. The phrase \"by the time the expedition reached the summit\" signals a sequence of two past events. One action (weather changing) must have been completed before another past action (reaching the summit).</div><div class='explanation-step'>When one past action is completed before another past action, the past perfect tense (had + past participle) is correct.</div><div class='explanation-step'><strong>A)</strong> \"Changes\" is simple present — incorrect in a past-tense sentence. Eliminate A. — incorrect in a past-tense sentence. Eliminate A.</div><div class='explanation-step'><strong>C)</strong> \"Changed\" is simple past — does not show the weather changed before the summit was reached. Eliminate C. — does not show that the weather changed <em>before</em> the summit was reached. Eliminate B.</div><div class='explanation-step'><strong>D)</strong> \"Has changed\" is present perfect — connects to the present, not a prior past event. Eliminate D. — connects to the present, not to a prior past event. Eliminate C.</div><div class='explanation-step'><strong>B)</strong> \"Had changed\" is past perfect — correctly indicates the weather changed before the expedition reached the summit. Keep B. — correctly indicates the weather changed before the expedition reached the summit. Keep B.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-1-017",
@@ -379,15 +379,15 @@
         "topic": "Form, Structure, and Sense",
         "skill": "Standard English Conventions"
       },
-      "stem": "After conducting extensive fieldwork in the Amazon basin for three years, <span class='blank'>_______</span><br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "stem": "After conducting extensive fieldwork in the Amazon basin for three years, the researchers, who had initially expected to find only a handful of undocumented species, _______ their biodiversity findings in a leading scientific journal.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
       "choices": [
-        "the biodiversity findings were published in a leading scientific journal.",
-        "the researchers published their biodiversity findings in a leading scientific journal.",
-        "it was the researchers who published the biodiversity findings.",
-        "a publication of the biodiversity findings appeared in a leading scientific journal."
+        "their biodiversity findings were published",
+        "published",
+        "to publish",
+        "having published"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>A sentence beginning with a participial phrase tests <strong>Modifier Placement</strong>. The opening phrase \"After conducting extensive fieldwork in the Amazon basin for three years\" describes whoever did the conducting — only people can conduct fieldwork. The noun immediately after the comma must be the researchers.</div><div class='explanation-step'><strong>A)</strong> \"The biodiversity findings\" cannot conduct fieldwork. This creates a dangling modifier. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Places \"the researchers\" immediately after the comma as the subject — correctly identifies who conducted the fieldwork. Keep B.</div><div class='explanation-step'><strong>C)</strong> The expletive construction \"it was...who\" buries the true subject and creates an awkward sentence. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"A publication\" cannot conduct fieldwork — another dangling modifier. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "explanation": "<div class='explanation-step'>A sentence beginning with a participial phrase tests <strong>Modifier Placement</strong>. The opening phrase &ldquo;After conducting extensive fieldwork in the Amazon basin for three years&rdquo; describes whoever did the conducting — only people can conduct fieldwork. The subject after the comma-enclosed interrupting clause must be the researchers.</div><div class='explanation-step'>The interrupting clause &ldquo;who had initially expected to find only a handful of undocumented species&rdquo; is set off by commas and modifies &ldquo;the researchers.&rdquo; After the interrupting clause, the verb must continue the main clause.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Their biodiversity findings were published&rdquo; — the subject &ldquo;their biodiversity findings&rdquo; cannot have conducted fieldwork. Dangling modifier. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Published&rdquo; is the correct simple past verb for the subject &ldquo;the researchers&rdquo; — who conducted the fieldwork and then published their findings. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;To publish&rdquo; is an infinitive — it cannot serve as the main verb of the sentence. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Having published&rdquo; is a participial phrase — it cannot serve as the main verb. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-1-019",
@@ -398,15 +398,15 @@
         "topic": "Form, Structure, and Sense",
         "skill": "Standard English Conventions"
       },
-      "stem": "The architect cited three reasons for the building's remarkable durability <span class='blank'>_______</span> the quality of the original materials, the precision of the construction methods, and the mild climate of the region.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "stem": "The scientist was known for her meticulous data collection, her willingness to challenge prevailing theories, and _______ younger researchers in her field.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
       "choices": [
-        ";",
-        ":",
-        ",",
-        "—and"
+        "she mentored",
+        "to mentor",
+        "her mentorship of",
+        "mentoring"
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>This question tests <strong>Colon Usage</strong>. The first part of the sentence makes a complete statement (\"the architect cited three reasons for the building's remarkable durability\") and specifically signals that a list follows (\"three reasons\"). What follows the blank is that list.</div><div class='explanation-step'><strong>A)</strong> A semicolon joins two independent clauses of equal weight. What follows the blank is a list, not an independent clause. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> A colon introduces a list, explanation, or elaboration that directly follows from a complete preceding clause — exactly what is needed here. Keep B.</div><div class='explanation-step'><strong>C)</strong> A comma here creates an unclear run-on and is not strong enough to introduce a formal three-item list signaled by \"three reasons.\" Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"—and\" would connect one item, not introduce a list of three. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>The answer choices are different grammatical forms, so this question tests <strong>Parallel Structure</strong>. The sentence lists three things the scientist was known for. Identify the pattern of the first two items: &ldquo;her meticulous data collection&rdquo; (possessive + gerund noun phrase) and &ldquo;her willingness to challenge&rdquo; (possessive + noun). The third item must follow a parallel grammatical form.</div><div class='explanation-step'>Actually, all three items follow a list introduced by &ldquo;for&rdquo; — the cleanest parallel is a gerund phrase matching &ldquo;collecting&rdquo; and &ldquo;challenging&rdquo; at their core. &ldquo;Mentoring younger researchers&rdquo; matches this gerund pattern.</div><div class='explanation-step'><strong>A)</strong> &ldquo;She mentored&rdquo; introduces a full clause, which breaks the noun-phrase pattern of the list. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;To mentor&rdquo; is an infinitive — it breaks the parallel pattern of noun phrases. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Her mentorship of&rdquo; is grammatically possible but creates a heavier, less parallel construction than the gerund. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Mentoring&rdquo; is a gerund that matches the verbal noun pattern of the other items in the list. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
     },
     {
       "id": "VerbalT2-1-020",
@@ -419,13 +419,13 @@
       },
       "stem": "The Amazon rainforest is often described as the \"lungs of the Earth\" for its role in absorbing carbon dioxide and releasing oxygen. <span class='blank'>_______</span> recent research suggests that deforestation has turned significant portions of the Amazon into a net carbon emitter rather than a carbon absorber.<br><br>Which choice completes the text with the most logical transition?",
       "choices": [
-        "However,",
         "Therefore,",
+        "However,",
         "Similarly,",
         "Indeed,"
       ],
-      "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>For <em>Logical Transition</em> questions, determine the relationship between the two ideas. The first sentence describes the Amazon as a carbon absorber. The second says it has become a carbon emitter — this directly contradicts the first idea. The transition must signal contrast.</div><div class='explanation-step'><strong>A)</strong> \"However\" signals contrast or complication — exactly the relationship here. Keep A.</div><div class='explanation-step'><strong>B)</strong> \"Therefore\" signals causation — the second idea does not result from the first. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"Similarly\" signals parallel ideas — the two ideas are opposite, not parallel. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Indeed\" signals confirmation or emphasis — the second sentence contradicts rather than confirms the first. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Logical Transition</em> questions, determine the relationship between the two ideas. The first sentence describes the Amazon as a carbon absorber. The second says it has become a carbon emitter — this directly contradicts the first idea. The transition must signal contrast.</div><div class='explanation-step'><strong>B)</strong> \"However\" signals contrast — exactly the relationship here. Keep B. or complication — exactly the relationship here. Keep B.</div><div class='explanation-step'><strong>A)</strong> \"Therefore\" signals causation — the second idea does not result from the first. Eliminate A. — the second idea does not result from the first. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"Similarly\" signals parallel ideas — the two ideas are opposite, not parallel. Eliminate C. signals parallel ideas — the two ideas are opposite, not parallel. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Indeed\" signals confirmation — the second sentence contradicts rather than confirms the first. Eliminate D. signals confirmation or emphasis — the second sentence contradicts rather than confirms the first. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-1-021",
@@ -467,19 +467,19 @@
           "style": "notes"
         },
         {
-          "text": "The student wants to introduce Zaha Hadid to an audience unfamiliar with her work. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+          "text": "The student wants to introduce Zaha Hadid to a general audience unfamiliar with her, conveying both her significance and her distinctive approach. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
           "align": "left",
           "style": "question"
         }
       ],
       "choices": [
-        "Zaha Hadid, born in Baghdad in 1950, died in 2016 at the age of 65.",
         "Zaha Hadid was the first woman to win the Pritzker Architecture Prize and was known for fluid, curvilinear designs that rejected traditional right angles.",
+        "Zaha Hadid, born in Baghdad in 1950, died in 2016 at the age of 65.",
         "Zaha Hadid's notable works include the MAXXI museum in Rome and the Guangzhou Opera House.",
         "Zaha Hadid studied architecture in both Beirut and London before establishing her career."
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal determines the correct answer. The student wants to <em>introduce</em> Hadid to an unfamiliar audience — this requires establishing who she was and what made her significant, not just listing biographical details.</div><div class='explanation-step'><strong>A)</strong> Only provides birth and death dates — gives no sense of her significance or work. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Establishes her significance (first woman to win the Pritzker Prize) and her distinctive approach (curvilinear designs rejecting right angles) — exactly what an introduction to an unfamiliar audience needs. Keep B.</div><div class='explanation-step'><strong>C)</strong> Lists specific works but gives no context for why she matters or what distinguishes her style. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Covers only educational background — not sufficient for an introduction. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal determines the correct answer. The student wants to <em>introduce</em> Hadid to an unfamiliar audience — this requires establishing who she was and what made her significant, not just listing biographical details.</div><div class='explanation-step'><strong>A)</strong> Only provides birth and death dates — gives no sense of her significance or work. Eliminate A.</div><div class='explanation-step'><strong>A)</strong> Establishes her significance (first woman to win the Pritzker Prize) and her distinctive approach (curvilinear designs rejecting right angles) — exactly what an introduction to an unfamiliar audience needs. Keep A. (first woman to win the Pritzker Prize) and her distinctive approach (curvilinear designs rejecting right angles) — exactly what an introduction to an unfamiliar audience needs. Keep A.</div><div class='explanation-step'><strong>C)</strong> Lists specific works but gives no context for why she matters or what distinguishes her style. Eliminate C. but gives no context for why she matters or what distinguishes her style. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Covers only educational background — not sufficient for an introduction. Eliminate D. — not sufficient for an introduction. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
       "id": "VerbalT2-1-023",
@@ -497,7 +497,7 @@
           "style": "default"
         },
         {
-          "text": "• A 2023 study found that urban trees reduce local temperatures by an average of 2&ndash;4&deg;C.\n• Trees provide shade that reduces cooling costs in nearby buildings.\n• Tree roots absorb stormwater, reducing flooding risk.\n• Urban trees improve air quality by filtering pollutants.\n• A single mature tree can absorb up to 48 pounds of CO2; per year.",
+          "text": "• A 2023 study found that urban trees reduce local temperatures by an average of 2&ndash;4&deg;C.\n• Trees provide shade that reduces cooling costs in nearby buildings.\n• Tree roots absorb stormwater, reducing flooding risk.\n• Urban trees improve air quality by filtering pollutants.\n• A single mature tree can absorb up to 48 pounds of CO₂ per year.",
           "align": "left",
           "style": "notes"
         },
@@ -508,13 +508,13 @@
         }
       ],
       "choices": [
-        "Urban trees improve air quality by filtering pollutants and can absorb up to 48 pounds of CO2; per year.",
-        "Urban trees reduce local temperatures by 2&ndash;4&deg;C, lower building cooling costs, and absorb significant amounts of CO&sub2;, making them a valuable tool for urban climate adaptation.",
+        "Urban trees improve air quality by filtering pollutants and can absorb up to 48 pounds of CO&sub2; per year.",
         "Urban trees reduce flooding risk by absorbing stormwater through their root systems.",
-        "Urban trees provide multiple environmental benefits, including temperature reduction, stormwater absorption, and air quality improvement."
+        "Urban trees provide multiple environmental benefits, including temperature reduction, stormwater absorption, and air quality improvement.",
+        "Urban trees reduce local temperatures by 2&ndash;4&deg;C, lower building cooling costs, and absorb significant amounts of CO&sub2;, making them a valuable tool for urban climate adaptation."
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is key. The student wants to emphasize <em>climate-related</em> benefits specifically — not all environmental benefits.</div><div class='explanation-step'><strong>A)</strong> CO₂ absorption is climate-related, but air quality filtering is a general environmental benefit, not specifically a climate benefit. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Combines three specifically climate-related benefits (temperature reduction, cooling costs, CO₂ absorption) and frames them explicitly as climate adaptation tools. Keep B.</div><div class='explanation-step'><strong>C)</strong> Stormwater absorption addresses flooding, not climate specifically. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Too broad — includes stormwater and air quality, which are not specifically climate benefits. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is key. The student wants to emphasize <em>climate-related</em> benefits specifically — not all environmental benefits.</div><div class='explanation-step'><strong>A)</strong> CO₂ absorption is climate-related, but air quality filtering is a general environmental benefit, not specifically a climate benefit. Eliminate A., but air quality filtering is a general environmental benefit, not specifically a climate benefit. Eliminate A.</div><div class='explanation-step'><strong>D)</strong> Combines three specifically climate-related benefits (temperature reduction, cooling costs, CO₂ absorption) and frames them explicitly as climate adaptation tools. Keep D. (temperature reduction, cooling costs, CO₂ absorption) and frames them explicitly as climate adaptation tools. Keep D.</div><div class='explanation-step'><strong>B)</strong> Stormwater absorption addresses flooding, not climate specifically. Eliminate B., not climate specifically. Eliminate C.</div><div class='explanation-step'><strong>C)</strong> Too broad — includes stormwater and air quality, which are not specifically climate benefits. Eliminate C. — includes stormwater and air quality, which are not specifically climate benefits. Eliminate D.</div><br><br>The correct answer is <strong>D</strong>."
     },
     {
       "id": "VerbalT2-1-024",
@@ -543,13 +543,13 @@
         }
       ],
       "choices": [
-        "Both Dr. Watanabe and Dr. Al-Rashid found that hybrid work arrangements produced intermediate results on their respective measures.",
         "While Dr. Watanabe&rsquo;s research suggests remote work improves employee wellbeing, Dr. Al-Rashid&rsquo;s findings indicate it may come at a cost to career advancement.",
+        "Both Dr. Watanabe and Dr. Al-Rashid found that hybrid work arrangements produced intermediate results on their respective measures.",
         "Dr. Al-Rashid tracked promotions and salary increases over five years, while Dr. Watanabe used self-reported satisfaction surveys.",
         "Remote work has become increasingly common, prompting researchers to study its effects on both employee satisfaction and career outcomes."
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is to present a <em>tension</em> between the two studies — meaning the correct answer must show how their findings pull in opposite directions.</div><div class='explanation-step'><strong>A)</strong> Focuses on hybrid work, which is a point of agreement between the researchers, not a tension. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Directly names the tension: remote work improves satisfaction (Watanabe) but reduces advancement (Al-Rashid) — pulling in opposite directions on different outcomes. Keep B.</div><div class='explanation-step'><strong>C)</strong> Describes the methodological differences, not the tension in findings. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Too vague — introduces the topic but does not present any tension. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is to present a <em>tension</em> between the two studies — meaning the correct answer must show how their findings pull in opposite directions.</div><div class='explanation-step'><strong>A)</strong> Focuses on hybrid work, which is a point of agreement between the researchers, not a tension. Eliminate A.</div><div class='explanation-step'><strong>A)</strong> Directly names the tension: remote work improves satisfaction (Watanabe) but reduces advancement (Al-Rashid) — pulling in opposite directions. Keep A.: remote work improves satisfaction (Watanabe) but reduces advancement (Al-Rashid) — pulling in opposite directions on different outcomes. Keep A.</div><div class='explanation-step'><strong>C)</strong> Describes the methodological differences, not the tension in findings. Eliminate C., not the tension in findings. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Too vague — introduces the topic but does not present any tension. Eliminate D. — introduces the topic but does not present any tension. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
       "id": "VerbalT2-1-025",
@@ -602,24 +602,24 @@
           "style": "default"
         },
         {
-          "text": "• Philosopher Hannah Arendt argued that totalitarian regimes depend on the destruction of the public sphere &mdash; the space where citizens engage in political discourse.\n• Arendt distinguished between &ldquo;labor&rdquo; (maintaining biological life), &ldquo;work&rdquo; (creating durable objects), and &ldquo;action&rdquo; (participating in public life with others).\n• She argued that &ldquo;action&rdquo; &mdash; political participation &mdash; is the highest human activity because it alone can create something genuinely new.\n• Critics argue that Arendt&rsquo;s model of the public sphere excludes those historically denied access to political participation.\n• Arendt developed her ideas partly in response to her experience of Nazi Germany and statelessness as a Jewish refugee.",
+          "text": "• The bystander effect — the tendency for people to be less likely to help in emergencies when others are present — was first documented by social psychologists John Darley and Bibb Latané in 1968.\n• Their research was prompted by the 1964 murder of Kitty Genovese in New York City, which was widely reported as having occurred in front of 38 witnesses who did not call the police.\n• Later investigations revealed that the original reporting was inaccurate — fewer witnesses saw the attack than reported, and at least one person did call the police.\n• Darley and Latané's experimental findings have since been replicated in numerous controlled studies and remain influential in social psychology.\n• Critics have argued that applying laboratory findings about bystander behavior to real-world emergencies oversimplifies the conditions under which people choose to intervene.",
           "align": "left",
           "style": "notes"
         },
         {
-          "text": "The student wants to explain why critics find Arendt&rsquo;s theory of political action problematic despite its aspirations. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+          "text": "The student wants to acknowledge the limitations of the original case that inspired the bystander effect research without undermining the validity of the research itself. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
           "align": "left",
           "style": "question"
         }
       ],
       "choices": [
-        "Hannah Arendt developed her political theory partly in response to her personal experience of Nazi Germany and statelessness as a Jewish refugee.",
-        "Arendt argued that political participation is the highest human activity because it alone can produce something genuinely new in human affairs.",
-        "While Arendt celebrated political participation as the highest human activity, critics point out that her model assumes access to a public sphere that was historically denied to many people.",
-        "Arendt distinguished between labor, work, and action as three distinct modes of human activity, with action representing the highest form."
+        "The 1964 murder of Kitty Genovese, which prompted Darley and Latané's research, was widely reported as having occurred in front of 38 witnesses — a figure that later investigations revealed to be inaccurate.",
+        "Although the original reporting about the Genovese case that inspired the bystander effect research was later found to be inaccurate, Darley and Latané's experimental findings have since been replicated in numerous controlled studies.",
+        "Critics have argued that applying laboratory findings about bystander behavior to real-world emergencies oversimplifies the conditions under which people choose to intervene.",
+        "The bystander effect was first documented by John Darley and Bibb Latané in 1968, following the widely publicized murder of Kitty Genovese in New York City."
       ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal requires combining specific information precisely. The student wants to explain why critics find the theory <em>problematic despite its aspirations</em> — meaning the correct answer must acknowledge what Arendt was trying to celebrate and show why critics see a flaw in it.</div><div class='explanation-step'><strong>A)</strong> Provides biographical context but does not address critics or the problematic aspect of the theory. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> States Arendt&rsquo;s positive view without mentioning the problem critics identify. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Captures the tension precisely: Arendt&rsquo;s aspiration (celebrating political participation as the highest activity) and the critics&rsquo; objection (her model presupposes access that was historically unavailable to many). Keep C.</div><div class='explanation-step'><strong>D)</strong> Describes the labor/work/action framework but does not address the critical objection. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal requires a precise balance: acknowledge the limitations of the original case while not undermining the research itself. The correct answer must do both simultaneously.</div><div class='explanation-step'><strong>A)</strong> Acknowledges the inaccurate reporting but does not address the validity of the subsequent research. Only half the goal is accomplished. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The word &ldquo;Although&rdquo; sets up the contrast precisely: the original case was flawed (limitation acknowledged) but the experimental findings were replicated (research validity preserved). Both parts of the goal are accomplished. Keep B.</div><div class='explanation-step'><strong>C)</strong> Presents critics&rsquo; concerns about applying lab findings to real situations — a different limitation than the one about the Genovese case, and one that does undermine the research rather than preserving its validity. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Introduces the research without acknowledging any limitation of the original case. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-1-027",
@@ -637,24 +637,24 @@
           "style": "default"
         },
         {
-          "text": "• A 2022 meta-analysis found that mindfulness-based interventions reduce anxiety symptoms in adults with generalized anxiety disorder.\n• The same meta-analysis found that the effect sizes for mindfulness were comparable to those of cognitive behavioral therapy (CBT).\n• The studies reviewed varied significantly in their methodologies and definitions of &ldquo;mindfulness.&rdquo;\n• Several studies relied on self-reported outcomes rather than clinician assessments.\n• The researchers concluded that while the evidence is promising, the heterogeneity of the studies limits the strength of the conclusions.",
+          "text": "• Historian Dr. James Nakamura argues that the transcontinental railroad, completed in 1869, is typically celebrated as a triumph of American industrialism but rarely examined for its human costs.\n• The construction relied heavily on Chinese immigrant laborers, who made up approximately 80% of the Central Pacific workforce.\n• Chinese workers were paid significantly less than their white counterparts for the same work and were assigned the most dangerous tasks, including handling explosives.\n• An estimated 1,000 to 1,200 Chinese workers died during construction, though the exact number is unknown because records were not consistently kept.\n• Dr. Nakamura argues that a complete historical account must acknowledge both the engineering achievement and the exploitative labor conditions that made it possible.",
           "align": "left",
           "style": "notes"
         },
         {
-          "text": "The student wants to explain why the meta-analysis&rsquo;s positive findings should be interpreted cautiously. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+          "text": "The student wants to present Dr. Nakamura&rsquo;s central argument in a way that captures the tension between the railroad&rsquo;s celebrated status and its contested history. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
           "align": "left",
           "style": "question"
         }
       ],
       "choices": [
-        "A 2022 meta-analysis found that mindfulness-based interventions reduce anxiety symptoms with effect sizes comparable to those of cognitive behavioral therapy.",
-        "The meta-analysis covered studies that varied significantly in methodology and relied in several cases on self-reported rather than clinician-assessed outcomes, limiting the conclusions that can be drawn.",
-        "Mindfulness-based interventions are now considered a viable alternative to cognitive behavioral therapy for treating generalized anxiety disorder.",
-        "The researchers who conducted the meta-analysis concluded that the evidence for mindfulness interventions is promising."
+        "Chinese immigrant laborers, who made up approximately 80% of the Central Pacific workforce, were paid less than white workers and assigned the most dangerous tasks.",
+        "Dr. James Nakamura argues that historians have consistently misrepresented the role of Chinese laborers in building the transcontinental railroad.",
+        "An estimated 1,000 to 1,200 Chinese workers died during construction of the transcontinental railroad, though incomplete record-keeping makes the exact number impossible to determine.",
+        "Dr. Nakamura argues that the transcontinental railroad cannot be fully understood as a triumph of American industrialism without acknowledging that it was built on exploitative labor conditions that cost the lives of thousands of Chinese workers."
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal is to explain why positive findings should be interpreted <em>cautiously</em>. The correct answer must identify the specific methodological limitations that warrant caution.</div><div class='explanation-step'><strong>A)</strong> States the positive finding without any caution or limitation — the opposite of the goal. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Identifies the two key limitations: methodological heterogeneity across studies and reliance on self-reported outcomes. Together these explain why caution is warranted. Keep B.</div><div class='explanation-step'><strong>C)</strong> Overstates the conclusion — the meta-analysis did not establish mindfulness as a definitively viable alternative; that claim goes beyond what the notes support. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Mentions that evidence is promising but omits the limitations that make caution necessary. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal is to capture the tension between the railroad&rsquo;s celebrated status and its contested history — both elements must be present.</div><div class='explanation-step'><strong>A)</strong> Describes the exploitative labor conditions but does not reference the railroad&rsquo;s celebrated status or the tension between the two. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Misrepresents Dr. Nakamura&rsquo;s argument — he says the railroad is rarely examined for its human costs, not that historians have consistently misrepresented it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Provides a specific statistic about deaths but does not capture the tension between celebration and exploitation. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Directly names the tension: the railroad is a &ldquo;triumph of American industrialism&rdquo; (celebrated status) that &ldquo;cannot be fully understood&rdquo; without acknowledging the exploitative labor conditions (contested history). Both elements of the goal are captured. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
     }
   ]
 }
