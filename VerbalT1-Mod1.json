@@ -5,99 +5,99 @@
   "title": "SAT Reading and Writing — Module 1",
   "questions": [
 
-    {
-      "id": "VerbalT1-1-001",
-      "type": "mcq",
-      "skill": {
-        "domain": "Craft and Structure",
-        "topic": "Words in Context",
-        "skill": "Vocabulary in Context"
-      },
+      {
+        "id": "VerbalT1-1-001",
+        "type": "mcq",
+        "skill": {
+          "domain": "Craft and Structure",
+          "topic": "Words in Context",
+          "skill": "Vocabulary in Context"
+        },
 
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["vocabulary", "sentence completion"],
+        "level": 1,
+        "set": "Verbal Practice",
+        "tags": ["vocabulary", "sentence completion"],
 
-      "stem": "The <span class='blank'>_______</span> between the two opposing candidates overshadowed the actual content of the debate.  Additionally, the lack of interest the candidates showed in hiding their animosity towards each other made the tone of the debate unprofessional and immature.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
-  "choices": [
-    "esteem",
-    "antipathy",
-    "indifference",
-    "affinity"
-  ],
-  "answerIndex": 1,
-  "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word or phrase fits in the blank. Look for signal words that show whether the blank should be a synonym, an antonym, or a cause-and-effect relationship to another part of the sentence.</div><div class='explanation-step'>Here, the word that goes in the blank describes the feeling between the candidates. The clue for this word comes in the second sentence: the candidates did not hide their &ldquo;animosity&rdquo; toward one another, and this made the debate seem &ldquo;unprofessional&rdquo; and &ldquo;immature.&rdquo; The word for the blank should relate to animosity—a feeling of dislike or even hatred.</div><div class='explanation-step'><strong>A)</strong> &ldquo;esteem&rdquo; means respect, so this is the opposite of what you’re seeking; eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;antipathy&rdquo; means strong dislike, so this is a good fit. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;indifference&rdquo; means they don’t have strong feelings either way, so eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;affinity&rdquo; means a liking for something, which is closer to the opposite of dislike. Eliminate D.</div><br><br>This means <strong>B</strong> is the correct answer.</div>"
-},
+        "stem": "The <span class='blank'>_______</span> between the two opposing candidates overshadowed the actual content of the debate.  Additionally, the lack of interest the candidates showed in hiding their animosity towards each other made the tone of the debate unprofessional and immature.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "esteem",
+      "antipathy",
+      "indifference",
+      "affinity"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word or phrase fits in the blank. Look for signal words that show whether the blank should be a synonym, an antonym, or a cause-and-effect relationship to another part of the sentence.</div><div class='explanation-step'>Here, the word that goes in the blank describes the feeling between the candidates. The clue for this word comes in the second sentence: the candidates did not hide their &ldquo;animosity&rdquo; toward one another, and this made the debate seem &ldquo;unprofessional&rdquo; and &ldquo;immature.&rdquo; The word for the blank should relate to animosity—a feeling of dislike or even hatred.</div><div class='explanation-step'><strong>A)</strong> &ldquo;esteem&rdquo; means respect, so this is the opposite of what you’re seeking; eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;antipathy&rdquo; means strong dislike, so this is a good fit. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;indifference&rdquo; means they don’t have strong feelings either way, so eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;affinity&rdquo; means a liking for something, which is closer to the opposite of dislike. Eliminate D.</div><br><br>This means <strong>B</strong> is the correct answer.</div>"
+  },
 
-{
-      "id": "VerbalT1-1-002",
-      "type": "mcq",
-      "skill": {
-        "domain": "Craft and Structure",
-        "topic": "Words in Context",
-        "skill": "Vocabulary in Context"
-      },
+  {
+        "id": "VerbalT1-1-002",
+        "type": "mcq",
+        "skill": {
+          "domain": "Craft and Structure",
+          "topic": "Words in Context",
+          "skill": "Vocabulary in Context"
+        },
 
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["vocabulary", "sentence completion"],
+        "level": 1,
+        "set": "Verbal Practice",
+        "tags": ["vocabulary", "sentence completion"],
 
-      "stem": "In the mid-1900s, urbanization caused a slew of health care problems due to unsanitary living practices and increasing areas of dense population that meant an increase in the spread of disease. But these problems <span class='blank'>_______</span> the spread of public health care initiatives and the creation of city hospitals. Prior to this period, public health care initiatives were scarcely present; families relied more on traditional methods and family care than on hospitals.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
-  "choices": [
-    "neglected",
-    "goaded",
-    "undermined",
-    "fostered"
-  ],
-  "answerIndex": 3,
-  "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word or phrase fits in the blank. Look for signal words that show whether the blank should be a synonym, an antonym, or a cause-and-effect relationship to another part of the sentence.</div><div class='explanation-step'>Here, the word in the blank is one that describes the impact of the health care problems caused by urbanization on the &ldquo;spread of public health care initiatives&rdquo; and the &ldquo;creation of city hospitals.&rdquo; In the final sentence, we learn that before, there were not many health care initiatives, so the problems must have <em>helped</em> or <em>brought on</em> health care initiatives.</div><div class='explanation-step'><strong>A)</strong> &ldquo;neglected&rdquo; means ignored, and is closer to the opposite of helped. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;goaded&rdquo; does mean provoke, but in an annoying way, so this is not a god fit.  Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;undermined&rdquo; , like answer A, is closer to the opposite; it means to take away the effectiveness of something. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;fostered&rdquo; means supported; additionally, by process of elimination, this is the only remaining answer.This means <strong>D</strong> is the correct answer.</div>"
-},
-{
-      "id": "VerbalT1-1-003",
-      "type": "mcq",
-      "skill": {
-        "domain": "Craft and Structure",
-        "topic": "Words in Context",
-        "skill": "Vocabulary in Context"
-      },
+        "stem": "In the mid-1900s, urbanization caused a slew of health care problems due to unsanitary living practices and increasing areas of dense population that meant an increase in the spread of disease. But these problems <span class='blank'>_______</span> the spread of public health care initiatives and the creation of city hospitals. Prior to this period, public health care initiatives were scarcely present; families relied more on traditional methods and family care than on hospitals.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "neglected",
+      "goaded",
+      "undermined",
+      "fostered"
+    ],
+    "answerIndex": 3,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word or phrase fits in the blank. Look for signal words that show whether the blank should be a synonym, an antonym, or a cause-and-effect relationship to another part of the sentence.</div><div class='explanation-step'>Here, the word in the blank is one that describes the impact of the health care problems caused by urbanization on the &ldquo;spread of public health care initiatives&rdquo; and the &ldquo;creation of city hospitals.&rdquo; In the final sentence, we learn that before, there were not many health care initiatives, so the problems must have <em>helped</em> or <em>brought on</em> health care initiatives.</div><div class='explanation-step'><strong>A)</strong> &ldquo;neglected&rdquo; means ignored, and is closer to the opposite of helped. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;goaded&rdquo; does mean provoke, but in an annoying way, so this is not a god fit.  Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;undermined&rdquo; , like answer A, is closer to the opposite; it means to take away the effectiveness of something. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;fostered&rdquo; means supported; additionally, by process of elimination, this is the only remaining answer.This means <strong>D</strong> is the correct answer.</div>"
+  },
+  {
+        "id": "VerbalT1-1-003",
+        "type": "mcq",
+        "skill": {
+          "domain": "Craft and Structure",
+          "topic": "Words in Context",
+          "skill": "Vocabulary in Context"
+        },
 
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["vocabulary", "sentence completion"],
+        "level": 1,
+        "set": "Verbal Practice",
+        "tags": ["vocabulary", "sentence completion"],
 
-      "stem": "Many wildlife biologists argue that limits to the number of people who can enter public parks significantly supports the growth of indigenous animal species in those parks. However, a few believe that the impact entrance quotas have is <span class='blank'>_______</span> they argue that spaces that introduce entrance quotas are more likely to have many other initiatives that directly impact population growth of animal species.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
-  "choices": [
-    "nominal",
-    "scathing",
-    "notable",
-    "abridged"
-  ],
-  "answerIndex": 0,
-  "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word or phrase fits in the blank. Look for signal words that show whether the blank should be a synonym, an antonym, or a cause-and-effect relationship to another part of the sentence.</div><div class='explanation-step'>Here, the first sentence suggests that by limiting the number of people who can enter public parks, the number of animal species can increase. The use of the word <em>However</em> at the beginning of the sentence implies that there is a change in direction from the first sentence. When it says  &ldquo;a few believe&rdquo; that must mean they believe something in opposition to the &ldquo;many wildlife biologists&rdquo; in the first sentence.  They believe that limiting park entrances does <em>not</em> support the growth of animal species.  There is supporting evidence of this change in direction later in the second sentence; these parks with entrance quotas, it is believed by a few, probably &ldquo;have many other initiatives that&rdquo; support the growth of animal species. The word in the blank, thus, should be a word that means <em>small</em> or <em>insignificant</em>.</div><div class='explanation-step'><strong>A)</strong> &ldquo;nominal&rdquo; means small or not real.  Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;scathing&rdquo; means very critical, so is not related to the correct answer.  Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;notable&rdquo; means remarkable or significant, so this is the opposite of the correct word. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;abridged&rdquo; means shortened; this is similar in meaning to small and insignificant, but it relates more to something that is shortened in length.  Additionally, <em>nominal</em> is a better choice.  Eliminate D.</div><br><br>This means <strong>A</strong> is the correct answer."
-},
-{
-      "id": "VerbalT1-1-004",
-      "type": "mcq",
-      "skill": {
-        "domain": "Craft and Structure",
-        "topic": "Words in Context",
-        "skill": "Vocabulary in Context"
-      },
+        "stem": "Many wildlife biologists argue that limits to the number of people who can enter public parks significantly supports the growth of indigenous animal species in those parks. However, a few believe that the impact entrance quotas have is <span class='blank'>_______</span> they argue that spaces that introduce entrance quotas are more likely to have many other initiatives that directly impact population growth of animal species.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "nominal",
+      "scathing",
+      "notable",
+      "abridged"
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word or phrase fits in the blank. Look for signal words that show whether the blank should be a synonym, an antonym, or a cause-and-effect relationship to another part of the sentence.</div><div class='explanation-step'>Here, the first sentence suggests that by limiting the number of people who can enter public parks, the number of animal species can increase. The use of the word <em>However</em> at the beginning of the sentence implies that there is a change in direction from the first sentence. When it says  &ldquo;a few believe&rdquo; that must mean they believe something in opposition to the &ldquo;many wildlife biologists&rdquo; in the first sentence.  They believe that limiting park entrances does <em>not</em> support the growth of animal species.  There is supporting evidence of this change in direction later in the second sentence; these parks with entrance quotas, it is believed by a few, probably &ldquo;have many other initiatives that&rdquo; support the growth of animal species. The word in the blank, thus, should be a word that means <em>small</em> or <em>insignificant</em>.</div><div class='explanation-step'><strong>A)</strong> &ldquo;nominal&rdquo; means small or not real.  Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;scathing&rdquo; means very critical, so is not related to the correct answer.  Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;notable&rdquo; means remarkable or significant, so this is the opposite of the correct word. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;abridged&rdquo; means shortened; this is similar in meaning to small and insignificant, but it relates more to something that is shortened in length.  Additionally, <em>nominal</em> is a better choice.  Eliminate D.</div><br><br>This means <strong>A</strong> is the correct answer."
+  },
+  {
+        "id": "VerbalT1-1-004",
+        "type": "mcq",
+        "skill": {
+          "domain": "Craft and Structure",
+          "topic": "Words in Context",
+          "skill": "Vocabulary in Context"
+        },
 
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["vocabulary", "sentence completion"],
+        "level": 1,
+        "set": "Verbal Practice",
+        "tags": ["vocabulary", "sentence completion"],
 
-      "stem": "Many authors use descriptions of landscapes to reenforce the themes of their books.  One such author, John Steinbeck, lays out <span class='blank'>_______</span> settings to embody the bleakness and despair of the characters that inhabit them.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
-  "choices": [
-    "germane",
-    "immutable",
-    "incisive",
-    "desolate"
-  ],
-  "answerIndex": 3,
-  "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word or phrase fits in the blank. Look for signal words that show whether the blank should be a synonym, an antonym, or a cause-and-effect relationship to another part of the sentence.</div><div class='explanation-step'>Here, the second sentence (the one with the blank) provides an example of what is stated in the first sentence, that authors use physical settings to strengthen their book themes. The blank is a word that describes Steinbeck's settings, which should reenforce the &ldquo;bleakness&rdquo; and &ldquo;despair&rdquo; described in his books.  Good word choices for the blank are, therefore, <em>bleak</em> and <em>despairing</em>.</div><div class='explanation-step'><strong>A)</strong> &ldquo;germane&rdquo; means relevant. Although the settings are relevant to the themes, here we are specifically seeking a word that describes the bleakness of Steinbeck's settings. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;immutable&rdquo; means unchanging or not able to be changed, which is different than bleak. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;incisive&rdquo; means clear or direct, so this is not correct.  Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;desolate&rdquo; means bleak or uninhabited or empty in a bleak manner, which is synonymous with bleak and despairing. This means the correct answer is <strong>D</strong>.</div>"
-},
+        "stem": "Many authors use descriptions of landscapes to reenforce the themes of their books.  One such author, John Steinbeck, lays out <span class='blank'>_______</span> settings to embody the bleakness and despair of the characters that inhabit them.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "germane",
+      "immutable",
+      "incisive",
+      "desolate"
+    ],
+    "answerIndex": 3,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word or phrase fits in the blank. Look for signal words that show whether the blank should be a synonym, an antonym, or a cause-and-effect relationship to another part of the sentence.</div><div class='explanation-step'>Here, the second sentence (the one with the blank) provides an example of what is stated in the first sentence, that authors use physical settings to strengthen their book themes. The blank is a word that describes Steinbeck's settings, which should reenforce the &ldquo;bleakness&rdquo; and &ldquo;despair&rdquo; described in his books.  Good word choices for the blank are, therefore, <em>bleak</em> and <em>despairing</em>.</div><div class='explanation-step'><strong>A)</strong> &ldquo;germane&rdquo; means relevant. Although the settings are relevant to the themes, here we are specifically seeking a word that describes the bleakness of Steinbeck's settings. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;immutable&rdquo; means unchanging or not able to be changed, which is different than bleak. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;incisive&rdquo; means clear or direct, so this is not correct.  Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;desolate&rdquo; means bleak or uninhabited or empty in a bleak manner, which is synonymous with bleak and despairing. This means the correct answer is <strong>D</strong>.</div>"
+  },
 {
       "id": "VerbalT1-1-005",
       "type": "mcq",

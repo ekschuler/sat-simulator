@@ -413,15 +413,6 @@ function getLeafSkill(skill) {
   if (!skill || typeof skill === "string") return "General";
   return skill.skill || "General";
 }
-function ensurePracticeDomainCollapseState() {
-  if (!practiceSidebarTree) return;
-
-  Object.keys(practiceSidebarTree).forEach(domain => {
-    if (!(domain in collapsedPracticeDomains)) {
-      collapsedPracticeDomains[domain] = true;
-    }
-  });
-}
 function typesetMath() {
   if (!window.MathJax) return;
 
@@ -2157,11 +2148,6 @@ function ensurePracticeDomainCollapseState() {
     }
   });
 }
-function togglePracticeDomain(domain) {
-  if (!domain) return;
-  collapsedPracticeDomains[domain] = !collapsedPracticeDomains[domain];
-  renderPracticeSidebar();
-}
 function renderPracticeSidebar() {
   if (!isPracticeMode) {
   const sidebar = document.getElementById("practiceSidebar");
@@ -2211,17 +2197,8 @@ html += `
     <div class="sidebar-domain-row">
       <button
   type="button"
-  class="sidebar-domain-toggle"
-  onclick='togglePracticeDomain(${JSON.stringify(domain)})'
-  aria-label="Toggle ${domain}"
->
-        <span class="sidebar-domain-chevron">${isCollapsed ? "▸" : "▾"}</span>
-      </button>
-
-      <button
-  type="button"
   class="sidebar-domain-btn ${isDomainActive ? "active" : ""}"
-  onclick='selectPracticeDomain(${JSON.stringify(domain)})'
+  onclick='togglePracticeDomain(${JSON.stringify(domain)})'
 >
         <span class="sidebar-domain-name">
   <span class="sidebar-domain-chevron-inline">
