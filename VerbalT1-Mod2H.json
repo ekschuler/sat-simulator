@@ -74,40 +74,25 @@
       "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, the blank describes the fungal disease from an ecological standpoint — contrasted with the &ldquo;cultural loss&rdquo; that follows. The word should be scientific in register and convey large-scale destruction.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Plight&rdquo; means a difficult situation — while the disease was devastating, &ldquo;plight&rdquo; is too vague and non-scientific for an ecological description. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Occurrence&rdquo; means an event — far too neutral for a disease that killed four billion trees. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Blight&rdquo; means something that destroys or causes ruin, and specifically refers to plant diseases — an exact ecological match for a fungal disease that devastated a tree species. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Anomaly&rdquo; means a deviation from the norm — while the disease was unusual, this word doesn&rsquo;t capture the scale of destruction. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
     },
     {
-      "id": "VerbalT1-2H-004",
-      "type": "mcq",
-      "level": 3,
-      "skill": {
-        "domain": "Craft and Structure",
-        "topic": "Text Structure and Purpose",
-        "skill": "Overall Structure"
-      },
-      "stemSegments": [
-        {
-          "text": "The following text is from Jacob Riis&rsquo; journalistic work <em>How the Other Half Lives</em>, published in 1890.",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "Long ago it was said that &lsquo;one half of the world does not know how the other half lives.&rsquo; That was true then. It did not know because it did not care. The half that was on top cared little for the struggles, and less for the fate of those who were underneath, so long as it was able to hold them there and keep its own seat. There came a time when the discomfort and crowding below were so great, and the consequent upheaval so violent, that it was no longer an easy thing to do, and then the upper half fell to inquiring what was the matter. Information on the subject has been accumulating rapidly since, and the whole world has had its hands full answering for its old ignorance.",
-          "align": "left",
-          "style": "passage"
-        },
-        {
-          "text": "Which choice best describes the overall structure of the text?",
-          "align": "left",
-          "style": "question"
-        }
-      ],
-      "choices": [
-        "It introduces a historical condition, explains the attitude that allowed it to persist, and describes what eventually forced a reckoning with it.",
-        "It presents a social problem, proposes a series of solutions, and concludes with a call to action.",
-        "It describes the living conditions of the poor, contrasts them with those of the wealthy, and argues for policy reform.",
-        "It opens with a provocative claim, acknowledges a counterargument, and ultimately concedes the opposing view."
-      ],
-      "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>For <em>Overall Structure</em> questions, map what each part of the passage does. Part 1: the rich did not know how the poor lived because they did not care (historical condition + attitude). Part 2: the suffering grew so severe that upheaval occurred, forcing the upper half to inquire (forced reckoning). Part 3: information has been accumulating since (consequence).</div><div class='explanation-step'><strong>A)</strong> Precisely captures all three parts: historical condition (ignorance/indifference), the attitude that sustained it (the upper half didn&rsquo;t care), and what forced a reckoning (violent upheaval). Keep A.</div><div class='explanation-step'><strong>B)</strong> Riis does not propose solutions or issue a call to action in this passage. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Riis does not describe specific living conditions or argue for policy reform here. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> There is no counterargument or concession in the passage. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
-    },
+  "id": "VerbalT1-2H-004",
+  "type": "mcq",
+  "level": 3,
+  "skill": {
+    "domain": "Craft and Structure",
+    "topic": "Words in Context",
+    "skill": "Vocabulary in Context"
+  },
+  "tags": ["vocabulary", "sentence completion"],
+  "stem": "Though the administration had initially dismissed the investigative report as sensationalist, its findings proved surprisingly <span class='blank'>_______</span>: within months, three independent audits had reached nearly identical conclusions, and a congressional committee cited the report's central claims without qualification.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "contentious",
+    "prescient",
+    "credulous",
+    "durable"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, the direction change is key. The administration &ldquo;initially dismissed&rdquo; the report as sensationalist — but the blank describes what the findings &ldquo;proved.&rdquo; The word &ldquo;though&rdquo; signals a reversal. What follows confirms the blank: three independent audits reached identical conclusions and Congress cited the claims without qualification. The blank must mean something like accurate or vindicated in advance.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Contentious&rdquo; means causing disagreement — the passage describes the findings being confirmed, not disputed further. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Prescient&rdquo; means having accurate foresight — a report dismissed as sensationalist that was later confirmed by independent audits and cited by Congress proved prescient. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Credulous&rdquo; means too willing to believe things — this describes a person, not a report's findings. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Durable&rdquo; means long-lasting — while related, it doesn&rsquo;t capture the specific quality of being proven accurate after being dismissed. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+},
     {
       "id": "VerbalT1-2H-005",
       "type": "mcq",
@@ -197,7 +182,7 @@
           "style": "default"
         },
         {
-          "text": "<div style='display:flex; gap:24px; align-items:flex-start; flex-wrap:wrap;'><div><img src='assets/VerbalT1-2H-008.png' style='max-width:600px; width:100%;'></div></div>",
+          "text": "<img src='assets/VerbalT1-2H-008.png' style='width:100%; display:block;'>",
           "align": "left",
           "style": "default"
         },
@@ -291,7 +276,7 @@
         {
           "text": "In <em>Walden</em> (1854), Henry David Thoreau argues that most people spend their lives laboring to maintain a standard of living that ultimately impoverishes rather than enriches them — that the pursuit of material comfort actively prevents genuine freedom, writing <span class='blank'>_______</span>.",
           "align": "left",
-          "style": "passage"
+          "style": "default"
         },
         {
           "text": "Which quotation from <em>Walden</em> most effectively illustrates the claim?",
@@ -423,24 +408,24 @@
       "explanation": "<div class='explanation-step'>A sentence beginning with a participial phrase tests <strong>Modifier Placement</strong>. The phrase &ldquo;Having spent nearly two decades advocating for stricter emissions standards&rdquo; describes whoever did the advocating — only a person or organization can advocate. The subject immediately after the comma must be the environmental coalition.</div><div class='explanation-step'><strong>A)</strong> &ldquo;The landmark legislation&rdquo; cannot have spent two decades advocating. Dangling modifier. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;The environmental coalition&rsquo;s landmark legislation&rdquo; — the possessive makes legislation the subject, but legislation cannot advocate. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;The environmental coalition&rdquo; is the subject immediately after the comma — correctly identifies who spent two decades advocating. Keep C.</div><div class='explanation-step'><strong>D)</strong> The expletive &ldquo;it was&rdquo; construction buries the true subject and creates an awkward sentence. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
     },
     {
-      "id": "VerbalT1-2H-019",
-      "type": "mcq",
-      "level": 3,
-      "skill": {
-        "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
-      },
-      "stem": "The Silk Road connected not only distant civilizations through trade but also <span class='blank'>_______</span>, transmitting philosophical and religious traditions across thousands of miles of terrain that would otherwise have remained impenetrable barriers to cultural exchange.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
-      "choices": [
-        "the spreading of ideas and belief systems across them",
-        "ideas and belief systems were spread across them",
-        "it spread ideas and belief systems across them",
-        "ideas and belief systems across them"
-      ],
-      "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>This question tests <strong>Parallel Structure</strong> with a correlative conjunction. The construction &ldquo;not only X but also Y&rdquo; requires X and Y to be grammatically parallel. X is &ldquo;distant civilizations through trade&rdquo; — a noun phrase (noun + prepositional phrase). Y must follow the same pattern.</div><div class='explanation-step'><strong>A)</strong> &ldquo;The spreading of ideas and belief systems across them&rdquo; — a gerund phrase, not parallel to the noun phrase in X. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Ideas and belief systems were spread across them&rdquo; — a full clause, not parallel to the noun phrase. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;It spread ideas and belief systems across them&rdquo; — a full clause with a new subject, breaking the parallel structure. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Ideas and belief systems across them&rdquo; — a noun phrase + prepositional phrase, parallel to &ldquo;distant civilizations through trade.&rdquo; Keep D.</div><br><br>The correct answer is <strong>D</strong>."
-    },
+  "id": "VerbalT1-2H-019",
+  "type": "mcq",
+  "level": 3,
+  "skill": {
+    "domain": "Standard English Conventions",
+    "topic": "Form, Structure, and Sense",
+    "skill": "Standard English Conventions"
+  },
+  "stem": "The Silk Road served not only as a conduit for goods such as silk, spices, and glassware but also as <span class='blank'>_______</span>, allowing Buddhism, Islam, and Christianity to spread far beyond their regions of origin.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "religious and philosophical ideas found a pathway",
+    "religious and philosophical ideas traveled along it",
+    "the traveling of religious and philosophical ideas",
+    "a vehicle for the transmission of religious and philosophical ideas"
+  ],
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>This question tests <strong>Parallel Structure</strong> with a correlative conjunction. The construction &ldquo;not only X but also Y&rdquo; requires X and Y to be grammatically parallel. X is &ldquo;a conduit for goods&rdquo; — a noun phrase beginning with an article. Y must follow the same pattern.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Religious and philosophical ideas found a pathway&rdquo; — a full clause with its own subject and verb, not a noun phrase parallel to &ldquo;a conduit for goods.&rdquo; Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Religious and philosophical ideas traveled along it&rdquo; — a full clause, not a noun phrase parallel to &ldquo;a conduit for goods.&rdquo; Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;The traveling of religious and philosophical ideas&rdquo; — a gerund phrase, not parallel to the noun phrase in X. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;A vehicle for the transmission of religious and philosophical ideas&rdquo; — a clean noun phrase beginning with an article, parallel to &ldquo;a conduit for goods.&rdquo; Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+},
     {
       "id": "VerbalT1-2H-020",
       "type": "mcq",
@@ -455,10 +440,10 @@
         "Consequently,",
         "Similarly,",
         "Nevertheless,",
-        "In time,"
+        "Eventually,"
       ],
       "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>For <em>Logical Transition</em> questions, determine the relationship between the ideas. The first sentence describes an old assumption. The second describes how Kepler eventually overturned it. The relationship is temporal — the correction came later, after a period of the old belief persisting.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Consequently&rdquo; implies the second event results from the first — Kepler&rsquo;s discovery did not result from the circular orbit assumption. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Similarly&rdquo; implies parallel ideas — Kepler&rsquo;s finding contradicts the first, not parallels it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Nevertheless&rdquo; implies Kepler&rsquo;s finding persisted despite an obstacle — but the passage describes a temporal sequence, not persistence against opposition. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;In time&rdquo; signals that the second event happened after a period — Kepler eventually overturned the long-held assumption. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Logical Transition</em> questions, determine the relationship between the ideas. The first sentence describes an old assumption. The second describes how Kepler eventually overturned it. The relationship is temporal — the correction came later, after a period of the old belief persisting.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Consequently&rdquo; implies the second event results from the first — Kepler&rsquo;s discovery did not result from the circular orbit assumption. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Similarly&rdquo; implies parallel ideas — Kepler&rsquo;s finding contradicts the first, not parallels it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Nevertheless&rdquo; implies Kepler&rsquo;s finding persisted despite an obstacle — but the passage describes a temporal sequence, not persistence against opposition. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Eventually&rdquo; signals that the second event happened after a period — Kepler eventually overturned the long-held assumption. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
     },
     {
       "id": "VerbalT1-2H-021",
@@ -514,111 +499,111 @@
       "answerIndex": 0,
       "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is to introduce Snow and explain his significance. The correct answer must identify who he was, what he did, and why it mattered.</div><div class='explanation-step'><strong>A)</strong> Identifies Snow, describes what he did (traced outbreak to contaminated pump using geographic visualization), and explains significance (founding moment of epidemiology). All three elements present. Keep A.</div><div class='explanation-step'><strong>B)</strong> Describes initial rejection — relevant context but doesn&rsquo;t explain why the work was significant. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Describes the map as an early data visualization but omits its significance to epidemiology. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> States his belief about transmission but doesn&rsquo;t explain his method or lasting significance. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
+{
+  "id": "VerbalT1-2H-023",
+  "type": "mcq",
+  "level": 1,
+  "skill": {
+    "domain": "Expression of Ideas",
+    "topic": "Rhetorical Synthesis",
+    "skill": "Using Notes"
+  },
+  "stemSegments": [
     {
-      "id": "VerbalT1-2H-023",
-      "type": "mcq",
-      "level": 1,
-      "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Rhetorical Synthesis",
-        "skill": "Using Notes"
-      },
-      "stemSegments": [
-        {
-          "text": "While researching a topic, a student has taken the following notes:",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "• Monarch butterflies travel up to 3,000 miles from Canada and the northern United States to overwintering sites in central Mexico each fall.\n• No individual monarch completes the round trip: the southward migration is completed by one generation, while the return journey north requires three to four generations.\n• Scientists believe monarchs use the sun&rsquo;s position and an internal circadian clock to navigate.\n• Monarch populations have declined by more than 80% since the 1980s, primarily due to habitat loss and pesticide use.\n• Conservation efforts include planting milkweed, the only plant monarch caterpillars can eat, along migratory corridors.",
-          "align": "left",
-          "style": "notes"
-        },
-        {
-          "text": "The student wants to highlight what makes the monarch butterfly migration biologically unusual. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
-          "align": "left",
-          "style": "question"
-        }
-      ],
-      "choices": [
-        "Monarch butterflies migrate up to 3,000 miles each fall to overwintering sites in central Mexico.",
-        "Unlike most migratory animals, no individual monarch butterfly completes the round trip — the southward journey is accomplished by one generation, while the return requires three to four more.",
-        "Monarch populations have declined by more than 80% since the 1980s, making conservation of their migratory routes increasingly urgent.",
-        "Scientists believe monarchs navigate using the sun&rsquo;s position and an internal circadian clock, a system also found in many migratory bird species."
-      ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is to highlight what makes the migration biologically unusual. The correct answer must identify the specific feature that distinguishes monarchs from typical migrating animals.</div><div class='explanation-step'><strong>A)</strong> The 3,000-mile distance is notable but not biologically unusual — many species migrate comparable distances. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Population decline is ecologically important but not what makes the migration biologically unusual. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> The multigenerational migration — no individual completes the round trip — is what makes monarch migration biologically distinctive and unusual. Keep C.</div><div class='explanation-step'><strong>D)</strong> Sun-based navigation is shared with many birds — this makes the monarchs less unusual, not more. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "text": "While researching a topic, a student has taken the following notes:",
+      "align": "left",
+      "style": "default"
     },
     {
-      "id": "VerbalT1-2H-024",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Rhetorical Synthesis",
-        "skill": "Using Notes"
-      },
-      "stemSegments": [
-        {
-          "text": "While researching a topic, a student has taken the following notes:",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "• The Silk Road was a network of trade routes connecting China, Central Asia, the Middle East, and Europe from roughly 200 BCE to 1450 CE.\n• Goods traded included silk, spices, glassware, paper, and gunpowder.\n• The routes also facilitated the spread of religions including Buddhism, Islam, and Christianity.\n• Outbreaks of bubonic plague spread along Silk Road trade routes, reaching Europe in the 1340s.\n• The Silk Road declined after the fall of the Mongol Empire disrupted overland trade security and European powers developed sea routes to Asia.",
-          "align": "left",
-          "style": "notes"
-        },
-        {
-          "text": "The student wants to argue that the Silk Road had consequences that extended well beyond commerce. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
-          "align": "left",
-          "style": "question"
-        }
-      ],
-      "choices": [
-        "The Silk Road connected China, Central Asia, the Middle East, and Europe through a network of trade routes that operated for nearly 1,700 years.",
-        "Goods traded along the Silk Road included silk, spices, glassware, paper, and gunpowder — commodities that transformed economies across multiple continents.",
-        "The decline of the Silk Road after the fall of the Mongol Empire shows how dependent long-distance trade networks are on political stability.",
-        "The Silk Road facilitated not only commerce but also the spread of major world religions and the transmission of diseases including the bubonic plague, demonstrating its role as a conduit for cultural and biological exchange that reshaped civilizations."
-      ],
-      "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is to argue that consequences extended beyond commerce. The correct answer must include non-commercial consequences explicitly.</div><div class='explanation-step'><strong>A)</strong> Describes geographic scope and duration — purely commercial context. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Lists commercial goods — stays within commerce, doesn&rsquo;t address non-commercial consequences. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Explicitly includes religious spread and plague transmission alongside commerce, framing these as civilizational consequences beyond trade. Keep C.</div><div class='explanation-step'><strong>D)</strong> Addresses decline and political dependence — relevant but focuses on the end of the network, not its broader consequences. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "text": "• Monarch butterflies travel up to 3,000 miles from Canada and the northern United States to overwintering sites in central Mexico each fall.\n• Unlike most migratory species, in which individual animals complete the round trip, the monarch migration spans multiple generations: the southward journey is completed by one generation, while the return north requires three to four more.\n• Scientists believe monarchs use the sun&rsquo;s position and an internal circadian clock to navigate.\n• Monarch populations have declined by more than 80% since the 1980s, primarily due to habitat loss and pesticide use.\n• Conservation efforts include planting milkweed, the only plant monarch caterpillars can eat, along migratory corridors.",
+      "align": "left",
+      "style": "notes"
     },
     {
-      "id": "VerbalT1-2H-025",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Rhetorical Synthesis",
-        "skill": "Using Notes"
-      },
-      "stemSegments": [
-        {
-          "text": "While researching a topic, a student has taken the following notes:",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "• CRISPR-Cas9 is a gene-editing technology that allows scientists to precisely alter DNA sequences in living organisms.\n• It was adapted from a natural defense mechanism found in bacteria, which use it to cut and disable viral DNA.\n• Since its development in 2012, CRISPR has been used to treat sickle cell disease in clinical trials and to engineer crops resistant to disease.\n• Critics raise concerns about the ethical implications of editing human germline cells — changes that would be inherited by future generations.\n• Proponents argue that germline editing could eliminate heritable diseases and that regulatory frameworks can address ethical concerns.",
-          "align": "left",
-          "style": "notes"
-        },
-        {
-          "text": "The student wants to present a balanced view of CRISPR technology that acknowledges both its potential and the concerns it raises. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
-          "align": "left",
-          "style": "question"
-        }
-      ],
-      "choices": [
-        "CRISPR-Cas9, adapted from a bacterial defense mechanism, has been used since 2012 to treat sickle cell disease and engineer disease-resistant crops.",
-        "CRISPR-Cas9 offers remarkable potential for eliminating heritable diseases and improving crop resilience, though questions about the ethics of germline editing remain unresolved.",
-        "Critics argue that editing human germline cells raises serious ethical concerns, while proponents contend that such editing could eliminate heritable diseases and that regulations can address those concerns.",
-        "CRISPR was developed in 2012 and has already shown clinical promise, suggesting that concerns about its ethical implications may be overblown."
-      ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is a balanced view — acknowledging both potential and concerns. The correct answer must present both dimensions without favoring one side.</div><div class='explanation-step'><strong>A)</strong> Covers applications but doesn&rsquo;t mention concerns — not balanced. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Presents the debate between critics and proponents — this is balanced, but frames it as a dispute between camps rather than a unified acknowledgment of potential and concerns. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Acknowledges both remarkable potential (heritable disease elimination, crop resilience) and unresolved ethical questions — balanced and integrated. Keep C.</div><div class='explanation-step'><strong>D)</strong> Dismisses concerns as &ldquo;overblown&rdquo; — not balanced. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "text": "The student wants to highlight what makes the monarch butterfly migration biologically unusual. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "align": "left",
+      "style": "question"
+    }
+  ],
+  "choices": [
+    "Monarch butterflies migrate up to 3,000 miles each fall to overwintering sites in central Mexico.",
+    "No individual monarch butterfly completes the round trip — the southward journey is accomplished by one generation, while the return north requires three to four more.",
+    "Monarch populations have declined by more than 80% since the 1980s, making conservation of their migratory routes increasingly urgent.",
+    "Scientists believe monarchs navigate using the sun\u2019s position and an internal circadian clock."
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is to highlight what makes the migration biologically unusual. The notes explicitly flag the multigenerational nature of the migration as distinctive: &ldquo;Unlike most migratory species, in which individual animals complete the round trip, the monarch migration spans multiple generations.&rdquo; The correct answer must use that information.</div><div class='explanation-step'><strong>A)</strong> The 3,000-mile distance is notable but not identified in the notes as biologically unusual. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Directly uses the note that distinguishes monarchs from most migratory species — no individual completes the round trip. Keep B.</div><div class='explanation-step'><strong>C)</strong> Population decline is ecologically important but the notes do not identify it as what makes the migration biologically unusual. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Sun-based navigation is mentioned in the notes but not flagged as unusual or distinctive. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+},
+    {
+  "id": "VerbalT1-2H-024",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Expression of Ideas",
+    "topic": "Rhetorical Synthesis",
+    "skill": "Using Notes"
+  },
+  "stemSegments": [
+    {
+      "text": "While researching a topic, a student has taken the following notes:",
+      "align": "left",
+      "style": "default"
     },
+    {
+      "text": "• Polio paralyzed tens of thousands of Americans annually in the early twentieth century, with the 1952 epidemic being the worst in U.S. history — nearly 58,000 cases reported.\n• Jonas Salk developed the first effective polio vaccine, announced in 1955 after a nationwide trial involving 1.8 million children known as &ldquo;Polio Pioneers.&rdquo;\n• The Salk vaccine used inactivated (killed) poliovirus; Albert Sabin later developed an oral vaccine using weakened live virus, which became the global standard.\n• By 1979, polio was eliminated from the United States; global eradication efforts have reduced cases worldwide by more than 99% since 1988.\n• Some communities resisted vaccination campaigns, slowing eradication efforts in parts of Africa and Asia.",
+      "align": "left",
+      "style": "notes"
+    },
+    {
+      "text": "The student wants to convey both the scale of polio&rsquo;s impact and the magnitude of the achievement in controlling it. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "align": "left",
+      "style": "question"
+    }
+  ],
+  "choices": [
+    "Jonas Salk announced the first effective polio vaccine in 1955 following a trial involving 1.8 million children, one of the largest medical trials in history.",
+    "Albert Sabin&rsquo;s oral vaccine, which used weakened live virus rather than the killed virus in Salk&rsquo;s vaccine, eventually became the global standard for polio prevention.",
+    "A disease that paralyzed nearly 58,000 Americans in its worst single year has been reduced by more than 99% globally since 1988, representing one of the most dramatic public health achievements in modern history.",
+    "Despite the success of vaccination campaigns, resistance in parts of Africa and Asia has prevented the complete global eradication of polio."
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal requires conveying both the scale of polio&rsquo;s impact AND the magnitude of the achievement in controlling it. The correct answer must include both elements.</div><div class='explanation-step'><strong>A)</strong> Describes the trial scale but focuses only on the achievement side — doesn&rsquo;t convey the scale of polio&rsquo;s impact as a disease. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Describes the difference between two vaccines — relevant context but addresses neither the disease&rsquo;s impact nor the magnitude of controlling it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Captures both: the scale of impact (58,000 cases in one year) and the magnitude of the achievement (99% reduction globally). Keep C.</div><div class='explanation-step'><strong>D)</strong> Focuses on remaining obstacles to eradication — acknowledges the limits of the achievement rather than its magnitude. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+},
+    {
+  "id": "VerbalT1-2H-025",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Expression of Ideas",
+    "topic": "Rhetorical Synthesis",
+    "skill": "Using Notes"
+  },
+  "stemSegments": [
+    {
+      "text": "While researching a topic, a student has taken the following notes:",
+      "align": "left",
+      "style": "default"
+    },
+    {
+      "text": "• CRISPR-Cas9 is a gene-editing technology that allows scientists to precisely alter DNA sequences in living organisms.\n• It was adapted from a natural defense mechanism found in bacteria, which use it to cut and disable viral DNA.\n• Since its development in 2012, CRISPR has been used to treat sickle cell disease in clinical trials and to engineer crops resistant to disease.\n• Critics raise concerns about the ethical implications of editing human germline cells — changes that would be inherited by future generations.\n• Proponents argue that germline editing could eliminate heritable diseases and that regulatory frameworks can address ethical concerns.",
+      "align": "left",
+      "style": "notes"
+    },
+    {
+      "text": "The student wants to present a balanced view of CRISPR technology that acknowledges both its potential and the concerns it raises. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "align": "left",
+      "style": "question"
+    }
+  ],
+  "choices": [
+    "CRISPR-Cas9, adapted from a bacterial defense mechanism, has been used since 2012 to treat sickle cell disease and engineer disease-resistant crops.",
+    "CRISPR-Cas9 offers remarkable potential for eliminating heritable diseases and improving crop resilience, though questions about the ethics of germline editing remain unresolved.",
+    "Critics argue that editing human germline cells raises profound ethical concerns because changes would be inherited by future generations — concerns that proponents have not adequately addressed.",
+    "CRISPR was developed in 2012 and has already shown clinical promise, suggesting that concerns about its ethical implications may be overblown."
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is a balanced view — acknowledging both potential and concerns. The correct answer must present both dimensions clearly.</div><div class='explanation-step'><strong>A)</strong> Describes only CRISPR&rsquo;s applications and origins — covers potential but says nothing about the ethical concerns the goal requires. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Acknowledges both the potential (&ldquo;eliminating heritable diseases and improving crop resilience&rdquo;) and the unresolved ethical concerns (&ldquo;questions about the ethics of germline editing remain unresolved&rdquo;) — balanced and integrated. Keep B.</div><div class='explanation-step'><strong>C)</strong> Presents only critics&rsquo; concerns and misrepresents proponents by implying they have not adequately addressed those concerns — not balanced, and goes beyond what the notes support. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Suggests ethical concerns may be overblown — dismisses rather than acknowledges them, which is the opposite of balanced. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+},
     {
       "id": "VerbalT1-2H-026",
       "type": "mcq",
@@ -655,39 +640,39 @@
       "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal is to explain why nuclear remains controversial <em>despite</em> its low-carbon advantages — both elements must be present, with the controversy framed as persisting alongside the advantages.</div><div class='explanation-step'><strong>A)</strong> States the advantages without explaining the controversy. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The IPCC report supports nuclear energy — this explains recognition of its value, not the source of controversy. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Explicitly frames the controversy (&ldquo;although... advantages&rdquo;) as persisting alongside the low-carbon benefits, citing both accident risk and waste storage as the specific sources of debate. Keep C.</div><div class='explanation-step'><strong>D)</strong> States critics&rsquo; view without acknowledging the low-carbon advantages or the &ldquo;despite&rdquo; framing the goal requires. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
     },
     {
-      "id": "VerbalT1-2H-027",
-      "type": "mcq",
-      "level": 3,
-      "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Rhetorical Synthesis",
-        "skill": "Using Notes"
-      },
-      "stemSegments": [
-        {
-          "text": "While researching a topic, a student has taken the following notes:",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "• Sleep researcher Dr. Matthew Chen argues that chronic sleep deprivation — defined as consistently sleeping fewer than seven hours per night — has become a public health crisis in high-income countries.\n• Studies show that chronically sleep-deprived adults have significantly elevated risks of cardiovascular disease, type 2 diabetes, and depression.\n• Dr. Chen notes that workplace culture in many industries actively discourages adequate sleep, treating long hours as a marker of dedication.\n• Critics argue that sleep needs vary significantly between individuals and that the seven-hour threshold is an oversimplification.\n• A 2021 meta-analysis of 89 studies found that sleeping fewer than six hours per night was associated with a 13% increased risk of all-cause mortality.",
-          "align": "left",
-          "style": "notes"
-        },
-        {
-          "text": "The student wants to argue that the health consequences of sleep deprivation justify treating it as a systemic rather than individual problem. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
-          "align": "left",
-          "style": "question"
-        }
-      ],
-      "choices": [
-        "Critics argue that individual variation in sleep needs makes it difficult to establish universal thresholds, complicating efforts to address sleep deprivation at a systemic level.",
-        "A 2021 meta-analysis of 89 studies found that sleeping fewer than six hours per night was associated with a 13% increased risk of all-cause mortality.",
-        "Dr. Chen argues that chronic sleep deprivation has become a public health crisis, a claim supported by studies linking it to elevated risks of cardiovascular disease, diabetes, and depression.",
-        "Because workplace cultures in many industries actively discourage adequate sleep and the health consequences — including elevated risks of cardiovascular disease, diabetes, and a 13% increase in all-cause mortality — are widespread, sleep deprivation warrants intervention at the systemic level rather than being treated as a matter of individual choice."
-      ],
-      "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal is to argue that health consequences justify treating sleep deprivation as a <em>systemic</em> rather than individual problem. The correct answer must connect the systemic causes (workplace culture) to the widespread consequences (health data) and explicitly frame this as requiring systemic intervention.</div><div class='explanation-step'><strong>A)</strong> Acknowledges critics&rsquo; individualist view — which would support treating it as an individual rather than systemic problem. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Provides one piece of health data without connecting it to systemic causes or making the argument for systemic intervention. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> States Dr. Chen&rsquo;s position and the health risks but doesn&rsquo;t explicitly argue for systemic intervention or mention the workplace culture dimension. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Connects workplace culture (systemic cause) to specific health consequences (cardiovascular, diabetes, 13% mortality increase) and explicitly frames this as requiring systemic-level intervention rather than individual choice. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+  "id": "VerbalT1-2H-027",
+  "type": "mcq",
+  "level": 3,
+  "skill": {
+    "domain": "Expression of Ideas",
+    "topic": "Rhetorical Synthesis",
+    "skill": "Using Notes"
+  },
+  "stemSegments": [
+    {
+      "text": "While researching a topic, a student has taken the following notes:",
+      "align": "left",
+      "style": "default"
+    },
+    {
+      "text": "• Food deserts are defined as low-income areas where residents live more than one mile from a supermarket in urban settings or more than ten miles in rural ones.\n• Approximately 19 million Americans live in food deserts, disproportionately in communities of color.\n• Research has linked food desert residence to higher rates of obesity, type 2 diabetes, and cardiovascular disease.\n• Some scholars argue that the food desert framework is flawed — studies show that simply opening supermarkets in underserved areas does not reliably improve residents&rsquo; diets, suggesting cost and cultural factors matter more than proximity.\n• Policy responses have included mobile markets, community gardens, and subsidized grocery delivery programs, with mixed results.",
+      "align": "left",
+      "style": "notes"
+    },
+    {
+      "text": "The student wants to explain why addressing food deserts is more complicated than simply increasing residents&rsquo; physical access to supermarkets. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "align": "left",
+      "style": "question"
     }
+  ],
+  "choices": [
+    "Approximately 19 million Americans live in food deserts, disproportionately in communities of color, making food access a significant issue of racial and economic equity.",
+    "Policy responses to food deserts have included mobile markets, community gardens, and subsidized grocery delivery programs, reflecting the range of approaches governments have tried.",
+    "Research links food desert residence to higher rates of obesity, type 2 diabetes, and cardiovascular disease, demonstrating the serious public health consequences of limited food access.",
+    "Studies show that opening supermarkets in underserved areas does not reliably improve residents\u2019 diets, suggesting that cost and cultural factors shape food choices in ways that physical proximity alone cannot address."
+  ],
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal is to explain why addressing food deserts is more complicated than increasing physical access. The correct answer must specifically challenge the assumption that proximity is sufficient.</div><div class='explanation-step'><strong>A)</strong> Establishes the scale and equity dimensions of the problem but doesn&rsquo;t address why physical access alone is insufficient. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Describes the range of policy responses without explaining why proximity-based solutions are inadequate. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Demonstrates health consequences of food deserts but doesn&rsquo;t address the complication the goal requires — why physical access alone doesn&rsquo;t solve the problem. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Directly explains the complication: opening supermarkets doesn&rsquo;t reliably improve diets, because cost and cultural factors matter beyond mere proximity. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+}
   ]
 }
