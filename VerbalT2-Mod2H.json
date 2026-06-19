@@ -17,15 +17,15 @@
         "vocabulary",
         "sentence completion"
       ],
-      "stem": "The senator's speech was criticized for being <span class='blank'>_______</span> rather than substantive: it was filled with emotional appeals and colorful anecdotes but contained no specific policy proposals or data to support its central claims.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+      "stem": "The senator's economic proposal was praised in some quarters for its ambition, but economists who examined it closely found its central assumptions <span class='blank'>_______</span>: the projected growth figures depended on conditions that historical data suggested were unlikely to occur simultaneously.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
-        "pragmatic",
-        "rhetorical",
-        "candid",
-        "measured"
+        "innovative",
+        "untenable",
+        "preliminary",
+        "contentious"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank.</div><div class='explanation-step'>The speech was criticized for being something &ldquo;rather than substantive&rdquo; — so the blank describes something opposed to substance. The clue is &ldquo;emotional appeals and colorful anecdotes but no specific proposals or data&rdquo; — the speech was all style and persuasion, no real content.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Pragmatic&rdquo; means practical and focused on results — the opposite of a speech criticized for lacking substance. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Rhetorical&rdquo; means focused on persuasion through language rather than facts or substance. A speech of emotional appeals with no data or proposals is rhetorical rather than substantive. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Candid&rdquo; means honest and straightforward — unrelated to whether the speech had substance. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Measured&rdquo; means careful and restrained — a measured speech would likely be substantive, not the opposite. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, the word &ldquo;but&rdquo; signals a direction change — despite being praised for ambition, the proposal had a flaw. The blank describes what economists found wrong with the central assumptions: the projected figures depended on conditions &ldquo;unlikely to occur simultaneously.&rdquo; The blank must mean something like impossible to sustain or defend.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Innovative&rdquo; is positive — inconsistent with the critical tone introduced by &ldquo;but.&rdquo; Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Untenable&rdquo; means impossible to defend or maintain — a strong fit for assumptions that depend on conditions unlikely to occur. However, check if a better answer exists.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Preliminary&rdquo; means early or not yet finalized — the economists are not saying the assumptions need more work, but that they are flawed. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Contentious&rdquo; means causing disagreement — while the proposal may be controversial, the passage says economists found the assumptions flawed based on historical data, not merely disputed. Eliminate D.</div><div class='explanation-step'>Returning to B: &ldquo;Untenable&rdquo; precisely captures assumptions that cannot be defended because they depend on historically unlikely conditions. Keep B.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-2H-002",
@@ -45,7 +45,7 @@
         "obscure",
         "polarizing",
         "preeminent",
-        "controversial"
+        "emblematic"
       ],
       "answerIndex": 2,
       "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank.</div><div class='explanation-step'>The researcher was &ldquo;once considered&rdquo; something, but her reputation later &ldquo;suffered considerably.&rdquo; This contrast signals that she was previously held in very high regard — before the replication failure.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Obscure&rdquo; means unknown or unimportant — if she were obscure, her reputation falling further wouldn&rsquo;t be noteworthy. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Polarizing&rdquo; means causing strong disagreement — while possible, the passage describes a fall from high status, not pre-existing controversy. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Preeminent&rdquo; means most important or distinguished in a field. A researcher whose reputation &ldquo;suffered considerably&rdquo; after being celebrated must have been highly regarded before. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Controversial&rdquo; means causing disagreement — this implies she was already disputed, not clearly celebrated. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
@@ -63,15 +63,15 @@
         "vocabulary",
         "sentence completion"
       ],
-      "stem": "The philosopher's writing style was celebrated for being <span class='blank'>_______</span>: her arguments unfolded with such transparency that even readers encountering her ideas for the first time could follow each logical step without difficulty.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+      "stem": "Critics who expected the philosopher's dense theoretical work to be inaccessible were surprised to find her prose style entirely <span class='blank'>_______</span> — her arguments, however abstract their subject matter, unfolded through a sequence of small, carefully verified steps that left no reader uncertain about where she had been or where she was going.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
         "turgid",
+        "elliptical",
         "pellucid",
-        "ornate",
-        "elliptical"
+        "abstruse"
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, unfamiliar words require careful attention to context clues. The philosopher's writing was &ldquo;celebrated&rdquo; for this quality, and the explanation that follows describes arguments of such &ldquo;transparency&rdquo; that even first-time readers could follow &ldquo;each logical step without difficulty.&rdquo; The blank should mean extremely clear and transparent.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Turgid&rdquo; means pompous and difficult to understand — the opposite of transparent and easy to follow. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Pellucid&rdquo; means translucently clear, allowing perfect understanding. This precisely matches the description of writing so transparent that any reader can follow it. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Ornate&rdquo; means elaborately decorated — while not the opposite of clear, it describes a showy style rather than a transparent one. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Elliptical&rdquo; means using deliberately vague or ambiguous language — the opposite of transparent and easy to follow. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, there is no explicit direction signal — the reader must infer from the full passage what quality the blank describes. Critics expected the work to be inaccessible (&ldquo;dense theoretical work&rdquo;), but were surprised to find the prose &ldquo;entirely _______.&rdquo; The em dash then explains: arguments unfolded through verified steps that left no reader uncertain. The blank must mean something like completely clear and transparent — the opposite of what was expected.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Turgid&rdquo; means pompously difficult to understand — this is what critics expected, not what they found. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Elliptical&rdquo; means deliberately vague or indirect — the opposite of arguments that leave no reader uncertain. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Pellucid&rdquo; means translucently clear and easy to understand. Arguments that unfold through verified steps leaving no reader uncertain are pellucid. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Abstruse&rdquo; means difficult to understand — again, what critics expected, not what they found. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
     },
     {
       "id": "VerbalT2-2H-004",
@@ -86,15 +86,15 @@
         "vocabulary",
         "sentence completion"
       ],
-      "stem": "The historian argued that the peace treaty, far from being <span class='blank'>_______</span>, was in fact deeply contested: three of the five signatories had privately expressed reservations, and two nations refused to ratify the agreement until several years after it was signed.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+      "stem": "The historian argued that the peace treaty, far from being <span class='blank'>_______</span>, was in fact bitterly disputed: three of the five signatories had privately expressed reservations, and two nations refused to ratify the agreement until several years after it was signed.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
         "divisive",
-        "unanimous",
+        "incontrovertible",
         "unprecedented",
-        "contentious"
+        "ratified"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, the phrase &ldquo;far from being&rdquo; signals that the blank describes what the treaty was NOT. The passage then says it was &ldquo;deeply contested&rdquo; with signatories expressing reservations and nations refusing to ratify — so the blank must mean something like universally agreed upon, since the treaty was anything but that.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Divisive&rdquo; means causing disagreement — if the treaty was &ldquo;far from being divisive,&rdquo; that would mean it was harmonious, but the passage says it was contested. This creates a contradiction. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Unanimous&rdquo; means agreed upon by all. The historian says the treaty was &ldquo;far from unanimous&rdquo; — and then proves it by describing reservations and refusals to ratify. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Unprecedented&rdquo; means never done before — unrelated to whether the treaty was contested or agreed upon. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Contentious&rdquo; means causing controversy — if the treaty was &ldquo;far from contentious,&rdquo; that would mean it was uncontroversial, which contradicts the passage showing it was contested. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, &ldquo;far from being&rdquo; signals that the blank describes what the treaty was NOT. The passage then shows it was &ldquo;bitterly disputed&rdquo; — signatories expressed reservations and nations refused to ratify. The blank must mean something like beyond all dispute or impossible to question.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Divisive&rdquo; means causing disagreement — if the treaty were &ldquo;far from divisive,&rdquo; that would mean it was harmonious, which contradicts the evidence of dispute. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Incontrovertible&rdquo; means impossible to dispute or deny. If the treaty was &ldquo;far from incontrovertible,&rdquo; it was very much open to dispute — consistent with the reservations and refusals to ratify described. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Unprecedented&rdquo; means never done before — unrelated to whether the treaty was disputed or agreed upon. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Ratified&rdquo; means officially approved — the passage says two nations refused to ratify, so &ldquo;far from ratified&rdquo; would be true, but this is too literal and doesn't capture the spirit of dispute. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-2H-005",
@@ -108,12 +108,12 @@
       "stem": "In 1968, ecologist Garrett Hardin published an influential essay arguing that shared resources — what he called \"the commons\" — are inevitably overexploited when individuals act in their own self-interest. His example was a shared pasture: each herder benefits individually from adding another animal, but the cumulative effect of all herders doing so is the destruction of the pasture. Hardin concluded that the tragedy of the commons was unavoidable without either privatization or government regulation. Subsequent scholars, however, notably Elinor Ostrom, whose work earned a Nobel Prize, demonstrated that communities often develop their own effective rules for managing shared resources without relying on either market mechanisms or state authority.<br><br>What is the main purpose of the text?",
       "choices": [
         "To argue that Hardin's theory was fundamentally flawed and should be rejected by economists",
-        "To explain Hardin's theory of the tragedy of the commons and introduce the scholarly challenge it has faced",
         "To compare the effectiveness of privatization and government regulation as solutions to resource overuse",
-        "To describe how Elinor Ostrom's research on resource management earned a Nobel Prize"
+        "To describe how Elinor Ostrom's research on resource management earned a Nobel Prize",
+        "To explain Hardin's theory of the tragedy of the commons and introduce the scholarly challenge it has faced"
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Main Purpose</em> questions, the correct answer must cover the full scope of the passage. Summarize: the passage explains Hardin's theory, then introduces Ostrom's challenge to it.</div><div class='explanation-step'><strong>A)</strong> The passage does not argue the theory should be rejected — it presents both Hardin's view and Ostrom's challenge evenhandedly. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Covers both main elements: Hardin's theory and the scholarly challenge it faced from Ostrom. Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage mentions privatization and regulation as Hardin's proposed solutions, but does not compare their effectiveness. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Ostrom's Nobel is mentioned as context — the passage is not primarily about how she earned it. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>For <em>Main Purpose</em> questions, the correct answer must cover the full scope of the passage. Summarize: the passage explains Hardin's theory, then introduces Ostrom's challenge to it.</div><div class='explanation-step'><strong>D)</strong> The passage does not argue the theory should be rejected — it presents both Hardin's view and Ostrom's challenge evenhandedly. Eliminate A.</div><div class='explanation-step'><strong>A)</strong> Covers both main elements: Hardin's theory and the scholarly challenge it faced from Ostrom. Keep B.</div><div class='explanation-step'><strong>B)</strong> The passage mentions privatization and regulation as Hardin's proposed solutions, but does not compare their effectiveness. Eliminate C.</div><div class='explanation-step'><strong>C)</strong> Ostrom's Nobel is mentioned as context — the passage is not primarily about how she earned it. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-2H-006",
@@ -126,13 +126,13 @@
       },
       "stem": "Since the early twentieth century, average IQ scores have risen substantially in many countries — a phenomenon psychologist James Flynn documented systematically in the 1980s and that now bears his name. The Flynn Effect suggests that environmental factors rather than genetics drive much of the variation in measured intelligence, since the genetic makeup of populations cannot change significantly within a few generations. Interestingly, the effect has begun to plateau or even reverse in some high-income countries in recent decades. This reversal suggests that _______.<br><br>Which choice most logically completes the text?",
       "choices": [
-        "intelligence tests are an unreliable measure of genuine cognitive ability",
         "the environmental improvements that drove earlier score gains may have reached their practical limits in developed nations",
+        "intelligence tests are an unreliable measure of genuine cognitive ability",
         "genetic factors play a greater role in intelligence than the Flynn Effect originally suggested",
         "average IQ scores in low-income countries will soon surpass those in high-income countries"
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions, the blank must follow directly from the passage's logic. The passage establishes that environmental factors drive IQ gains. It then says the effect is plateauing or reversing in high-income countries. The completion must explain what this plateau implies about those environmental factors.</div><div class='explanation-step'><strong>A)</strong> Test reliability is not addressed in the passage — introducing it here goes beyond what the evidence supports. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> If environmental improvement drove earlier gains and the gains are now plateauing in countries that have experienced those improvements longest, it follows that those improvements may have reached their practical ceiling. Keep B.</div><div class='explanation-step'><strong>C)</strong> The plateau could be explained entirely by environmental factors reaching their limits — genetics need not be invoked. This also contradicts the passage's framing. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The passage does not address scores in low-income countries or make comparative predictions. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions, the blank must follow directly from the passage's logic. The passage establishes that environmental factors drive IQ gains. It then says the effect is plateauing or reversing in high-income countries. The completion must explain what this plateau implies about those environmental factors.</div><div class='explanation-step'><strong>B)</strong> Test reliability is not addressed in the passage — introducing it here goes beyond what the evidence supports. Eliminate A.</div><div class='explanation-step'><strong>A)</strong> If environmental improvement drove earlier gains and the gains are now plateauing in countries that have experienced those improvements longest, it follows that those improvements may have reached their practical ceiling. Keep A.</div><div class='explanation-step'><strong>C)</strong> The plateau could be explained entirely by environmental factors reaching their limits — genetics need not be invoked. This also contradicts the passage's framing. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The passage does not address scores in low-income countries or make comparative predictions. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
       "id": "VerbalT2-2H-007",
@@ -143,7 +143,7 @@
         "topic": "Command of Evidence",
         "skill": "Textual Evidence"
       },
-      "stem": "Synesthesia is a neurological phenomenon in which stimulation of one sense automatically triggers an involuntary experience in another. The most common form involves seeing letters or numbers as inherently colored — a person with this type might consistently perceive the letter A as red and the number 7 as green, regardless of the actual color in which they are printed. Synesthesia runs in families and appears to have a genetic component, though the specific genes involved have not been identified. Researchers estimate that approximately 4% of the population experiences some form of synesthesia, though many are unaware of it because they assume their perceptual experiences are universal.<br><br>According to the text, why are many people with synesthesia unaware of their condition?",
+      "stem": "Synesthesia is a neurological phenomenon in which stimulation of one sense automatically triggers an involuntary experience in another. Researchers estimate that approximately 4% of the population experiences some form of synesthesia, though many are unaware of it because they assume their perceptual experiences are universal. The most common form involves seeing letters or numbers as inherently colored — a person with this type might consistently perceive the letter A as red and the number 7 as green, regardless of the actual color in which they are printed. Synesthesia appears to have a genetic component, though the specific genes involved have not been identified.<br><br>According to the text, why are many people with synesthesia unaware of their condition?",
       "choices": [
         "The condition is too mild to produce noticeable differences in their daily perceptual experience.",
         "They assume that other people experience the world in the same way they do.",
@@ -185,30 +185,30 @@
       "choices": [
         "Biomimicry has successfully replaced conventional engineering approaches in most industrial sectors.",
         "Biomimicry is a design approach that draws on biological solutions, with both demonstrated applications and recognized limitations.",
-        "The lotus leaf and termite mound represent the most successful examples of biomimicry in current practice.",
-        "Critics of biomimicry argue that biological solutions are fundamentally incompatible with industrial requirements."
+        "Because biological solutions evolved under different constraints than industrial applications require, biomimicry has produced no commercially viable innovations.",
+        "The field of biomimicry is primarily concerned with developing self-cleaning surfaces inspired by the lotus leaf."
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Main Idea</em> questions, the correct answer must cover the full scope of the passage. Summarize: biomimicry draws on biological solutions (with examples), but critics raise limitations, and proponents respond.</div><div class='explanation-step'><strong>A)</strong> The passage does not say biomimicry has replaced conventional approaches — it describes it as an approach and presents both its promise and its critics. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Captures both the core approach (drawing on biological solutions, with examples) and the balanced debate (applications and limitations). Keep B.</div><div class='explanation-step'><strong>C)</strong> The lotus leaf and termite mound are two examples used as illustrations — not the main topic. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Presents only the critics' view — the passage also presents examples of successful applications and the proponents' response. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Main Idea</em> questions, the correct answer must cover the full scope of the passage — not just one part. The passage presents both the promise (lotus leaf, termite mound examples) and the criticism (constraints don't always translate).</div><div class='explanation-step'><strong>A)</strong> The passage presents biomimicry as promising but does not say it has replaced conventional approaches. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Captures both the approach and the debate — demonstrated applications and recognized limitations. Keep B.</div><div class='explanation-step'><strong>C)</strong> A strong trap — the passage does mention constraints that don&rsquo;t translate, but also gives examples of successful applications. This overcorrects into a claim the passage doesn&rsquo;t make. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Narrows to one specific example and mischaracterizes the field&rsquo;s scope. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-2H-010",
       "type": "mcq",
-      "level": 2,
+      "level": 3,
       "skill": {
         "domain": "Information and Ideas",
         "topic": "Command of Evidence",
-        "skill": "Textual Evidence"
+        "skill": "Quantitative Evidence"
       },
-      "stem": "Agricultural technologist Dr. Amina Osei argues that vertical farms — indoor growing facilities that stack crops in layers under artificial lighting — can produce significantly higher yields per square foot than conventional agriculture while using up to 95% less water, and that these advantages make vertical farming essential for feeding a growing global population in an era of increasing water scarcity and arable land loss.<br><br>Which finding, if true, would most directly support Dr. Osei's claim?",
+      "stem": "A researcher studying the relationship between urban green space and resident wellbeing collected data from four neighborhoods with varying amounts of parkland:<br><br><table style='border-collapse:collapse;margin:12px auto;font-size:14px;'><thead><tr><th style='border:1px solid #ccc;padding:8px 14px;background:#f5f5f5;'>Neighborhood</th><th style='border:1px solid #ccc;padding:8px 14px;background:#f5f5f5;'>Park Area (% of total)</th><th style='border:1px solid #ccc;padding:8px 14px;background:#f5f5f5;'>Avg. Self-Reported Wellbeing (1–10)</th><th style='border:1px solid #ccc;padding:8px 14px;background:#f5f5f5;'>Annual Income (median)</th></tr></thead><tbody><tr><td style='border:1px solid #ccc;padding:8px 14px;'>Ashford</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>4%</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>5.8</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>$38,000</td></tr><tr><td style='border:1px solid #ccc;padding:8px 14px;'>Briarwood</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>12%</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>6.4</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>$41,000</td></tr><tr><td style='border:1px solid #ccc;padding:8px 14px;'>Clarendon</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>21%</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>7.1</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>$44,000</td></tr><tr><td style='border:1px solid #ccc;padding:8px 14px;'>Dunmore</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>28%</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>7.3</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>$62,000</td></tr></tbody></table><br>The researcher concluded that greater access to green space directly causes higher wellbeing among urban residents. A critic argued that the data do not support a causal claim. Which choice best explains why the critic's objection is valid?",
       "choices": [
-        "The construction cost of a vertical farm facility is significantly higher than that of an equivalent area of conventional farmland.",
-        "A vertical farm in Singapore produces ten times more leafy greens per square foot than comparable outdoor farms in the region while using 95% less water.",
-        "Vertical farming technology has been adopted more rapidly in urban areas of East Asia than in Europe or North America.",
-        "LED lighting technology, which is essential for vertical farming, has become 70% cheaper over the past decade."
+        "The wellbeing scores across all four neighborhoods are relatively close, suggesting that green space has only a modest effect on resident wellbeing.",
+        "The data show a correlation between park area and wellbeing, but median income also increases alongside park area, making it impossible to isolate green space as the cause of higher wellbeing.",
+        "The study relies on self-reported wellbeing scores, which are subjective and may not accurately reflect residents' actual quality of life.",
+        "The sample of four neighborhoods is too small to draw any meaningful conclusions about the relationship between green space and wellbeing."
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Supporting a Claim</em> questions, identify the precise claim. Dr. Osei claims vertical farms produce higher yields per square foot while using far less water. The correct answer must provide evidence of both advantages.</div><div class='explanation-step'><strong>A)</strong> Higher construction costs would actually work against the case for vertical farming's advantages. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Demonstrates both the yield advantage (ten times more per square foot) and the water efficiency (95% less) — directly supporting both parts of Dr. Osei's claim. Keep B.</div><div class='explanation-step'><strong>C)</strong> Adoption rates describe where the technology is used, not whether it delivers the advantages Dr. Osei claims. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Lower LED costs make vertical farming more economically viable but do not demonstrate the yield or water efficiency advantages Dr. Osei claims. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Quantitative Evidence</em> questions at level 3, the question requires understanding why a causal claim is not supported. The researcher claims green space <em>causes</em> higher wellbeing. To challenge a causal claim, you need a confounding variable — another factor that changes alongside the variable of interest and could explain the outcome.</div><div class='explanation-step'>Looking at the table: as park area increases (4% → 28%), both wellbeing (5.8 → 7.3) and median income ($38K → $62K) increase together. Income is a well-known predictor of wellbeing, so it is impossible to determine whether park area or income is driving the wellbeing difference.</div><div class='explanation-step'><strong>A)</strong> The scores range from 5.8 to 7.3 — a real difference, not a negligible one. This doesn&rsquo;t explain why causation can&rsquo;t be established. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Correctly identifies the confounding variable: income rises alongside park area, making it impossible to isolate green space as the cause of higher wellbeing. Keep B.</div><div class='explanation-step'><strong>C)</strong> Subjectivity of self-reporting is a general limitation of survey data, not specific to why this causal claim fails — the critic&rsquo;s objection is about the design, not the measurement instrument. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Sample size is a legitimate concern, but the critic&rsquo;s objection is specifically about causation vs correlation, not about sample size. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-2H-011",
@@ -226,7 +226,7 @@
           "style": "default"
         },
         {
-          "text": "To go into solitude, a man needs to retire as much from his chamber as from society. I am not solitary whilst I read and write, though nobody is with me. <u>But if a man would be alone, let him look at the stars.</u>",
+          "text": "To go into solitude, a man needs to retire as much from his chamber as from society. I am not solitary whilst I read and write, though nobody is with me. Books, conversation, industry, all occupy the mind with symbols and superficialities, keeping it busy without ever allowing it to rest on the elemental facts of existence. <u>But if a man would be alone, let him look at the stars.</u> The rays that come from those heavenly worlds will separate between him and vulgar things.",
           "align": "left",
           "style": "passage"
         },
@@ -259,10 +259,10 @@
         "Most people significantly overestimate their own multitasking ability when asked to self-report.",
         "Task-switching between cognitively demanding activities increases error rates in controlled laboratory settings.",
         "A longitudinal study found that professional air traffic controllers, who receive extensive training in managing simultaneous information streams, show no significant performance degradation when monitoring multiple flight paths concurrently.",
-        "The ability to switch rapidly between tasks declines with age in most adults."
+        "People who believe they are good at multitasking show higher stress levels than those who work sequentially, suggesting that perceived multitasking ability carries psychological costs."
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>For <em>Weakening a Claim</em> questions at level 3, identify the most specific element of the claim to target. Dr. Torres claims the multitasking limitation applies \"universally across all adults regardless of age, <em>practice</em>, or self-reported ability.\" To undermine this, the correct answer must show that practice can eliminate the impairment.</div><div class='explanation-step'><strong>A)</strong> People overestimating their multitasking ability actually supports Dr. Torres — it suggests they have the limitation but lack self-awareness of it. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Increased error rates in task-switching directly support Torres's claim. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Air traffic controllers receive extensive training (practice) and show no performance degradation when monitoring multiple tasks simultaneously — directly undermining the \"regardless of practice\" part of Torres's claim. Keep C.</div><div class='explanation-step'><strong>D)</strong> Declining task-switching ability with age supports Torres by showing the limitation is real and even worsens — it does not undermine the claim. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Weakening a Claim</em> questions at level 3, identify the most precise element of the claim to target. Dr. Torres claims the limitation applies &ldquo;universally across all adults regardless of age, <em>practice</em>, or self-reported ability.&rdquo;</div><div class='explanation-step'><strong>A)</strong> People overestimating their ability actually supports Torres — it suggests they have the limitation but lack self-awareness. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Increased error rates directly support Torres&rsquo;s claim. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Air traffic controllers with extensive training (practice) show no performance degradation — directly undermining the &ldquo;regardless of practice&rdquo; part of Torres&rsquo;s claim. Keep C.</div><div class='explanation-step'><strong>D)</strong> A strong trap — this discusses stress costs of perceived multitasking, which is adjacent to the topic but doesn&rsquo;t address whether true simultaneous processing is possible. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
     },
     {
       "id": "VerbalT2-2H-013",
@@ -275,24 +275,24 @@
       },
       "stemSegments": [
         {
-          "text": "In his <em>Narrative of the Life of Frederick Douglass</em>, Douglass argues that the institution of slavery corrupted not only the enslaved but also those who held power over them, writing <span class='blank'>_______</span>.",
+          "text": "In <em>Democracy in America</em> (1835), Alexis de Tocqueville argues that democratic societies generate a subtle but powerful pressure toward intellectual conformity — not through overt coercion, but through the weight of majority opinion, writing <span class='blank'>_______</span>.",
           "align": "left",
           "style": "passage"
         },
         {
-          "text": "Which quotation from the <em>Narrative</em> most effectively illustrates the claim?",
+          "text": "Which quotation from <em>Democracy in America</em> most effectively illustrates the claim?",
           "align": "left",
           "style": "question"
         }
       ],
       "choices": [
-        "&ldquo;I have observed this in my experience of slavery &mdash; that whenever my condition was improved, instead of its increasing my contentment, it only increased my desire to be free.&rdquo;",
-        "&ldquo;The fatal poison of irresponsible power was already in her hands, and soon commenced its infernal work.&rdquo;",
-        "&ldquo;I never saw my mother, to know her as such, more than four or five times in my life.&rdquo;",
-        "&ldquo;You have seen how a man was made a slave; you shall see how a slave was made a man.&rdquo;"
+        "&ldquo;The surface of American society is covered with a layer of democratic paint, but from time to time one can see the old aristocratic colors breaking through.&rdquo;",
+        "&ldquo;I know of no country in which there is so little independence of mind and real freedom of discussion as in America.&rdquo;",
+        "&ldquo;Americans are so enamored of equality that they would rather be equal in slavery than unequal in freedom.&rdquo;",
+        "&ldquo;Liberty cannot be established without morality, nor morality without faith.&rdquo;"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Illustrating Claims with Quotations</em> questions, the correct quotation must illustrate the specific claim precisely. The claim is that slavery corrupted those who held power over the enslaved — not just the enslaved themselves.</div><div class='explanation-step'><strong>A)</strong> This describes the effect of improved conditions on Douglass's own desire for freedom — about the enslaved, not those who held power. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"The fatal poison of irresponsible power\" and \"infernal work\" describe how holding power over another person corrupted the slaveholder (Mrs. Auld) — directly illustrating the claim. Keep B.</div><div class='explanation-step'><strong>C)</strong> This describes the forced separation of families — a horror of slavery, but not specifically about the corruption of those who held power. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> This describes Douglass's own transformation from enslaved to free man — about his experience, not the corruption of slaveholders. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Illustrating Claims with Quotations</em> questions, the correct quotation must directly illustrate the specific claim. The claim is that democratic societies create pressure toward intellectual conformity through the weight of majority opinion — not coercion, but social pressure suppressing independent thought.</div><div class='explanation-step'><strong>A)</strong> This is about aristocratic vs democratic social structures — it addresses class, not intellectual conformity or freedom of thought. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Directly states that America lacks independence of mind and freedom of discussion — precisely illustrating the claim that democratic majority opinion suppresses intellectual conformity. Keep B.</div><div class='explanation-step'><strong>C)</strong> This is about equality and freedom as political values, not about intellectual conformity or the suppression of independent thought. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> This is about the relationship between liberty, morality, and faith — unrelated to intellectual conformity. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-2H-014",
@@ -303,15 +303,15 @@
         "topic": "Form, Structure, and Sense",
         "skill": "Standard English Conventions"
       },
-      "stem": "The researchers presented <span class='blank'>_______</span> findings at the international conference on cognitive load theory and educational design.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "stem": "The James Webb Space Telescope, launched in December 2021, represents a generational leap in astronomical observation <span class='blank'>_______</span> its infrared imaging capabilities allow scientists to peer through cosmic dust clouds that were previously opaque to earlier instruments.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
       "choices": [
-        "researcher's",
-        "researchers'",
-        "researchers",
-        "researches'"
+        ",",
+        "and,",
+        "however,",
+        ";"
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>This question tests <strong>Apostrophe and Possession</strong>. The findings belong to multiple researchers (plural). To show plural possession, add an apostrophe after the plural noun.</div><div class='explanation-step'><strong>A)</strong> \"Researcher's\" is singular possessive — one researcher. The sentence uses \"researchers\" (plural) as the subject. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Researchers'\" is plural possessive — correctly shows the findings belong to multiple researchers. Keep B.</div><div class='explanation-step'><strong>C)</strong> \"Researchers\" is simply plural with no possessive — does not show ownership. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Researches'\" is not a standard English form. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>The answer choices are punctuation options, so this question tests <strong>Joining Independent Clauses</strong>. Check whether both parts can stand alone. &ldquo;The James Webb Space Telescope... represents a generational leap in astronomical observation&rdquo; is an independent clause. &ldquo;Its infrared imaging capabilities allow scientists to peer through cosmic dust clouds&rdquo; is also an independent clause.</div><div class='explanation-step'><strong>A)</strong> A comma alone between two independent clauses creates a comma splice — a grammatical error. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;And,&rdquo; with a comma after it is not standard — coordinating conjunctions do not take a following comma. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;However,&rdquo; signals contrast, but the second clause elaborates on why the telescope is a generational leap — it does not contrast with it. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> A semicolon correctly joins two related independent clauses. The second clause explains the first, making the semicolon appropriate. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
     },
     {
       "id": "VerbalT2-2H-015",
@@ -322,15 +322,15 @@
         "topic": "Form, Structure, and Sense",
         "skill": "Standard English Conventions"
       },
-      "stem": "The number of species affected by ocean acidification <span class='blank'>_______</span> growing rapidly as carbon dioxide levels in the atmosphere continue to rise.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "stem": "Over the past two decades, neuroimaging studies have transformed our understanding of memory consolidation, <span class='blank'>_______</span> that the process of storing long-term memories involves far more complex interactions between brain regions than researchers had previously assumed.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
       "choices": [
-        "are",
-        "is",
-        "have been",
-        "were"
+        "revealing",
+        "they revealed",
+        "revealed",
+        "to reveal"
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>This question tests <strong>Subject-Verb Agreement</strong> with a commonly confused construction. The subject is \"the number\" — not \"species.\" \"The number\" is singular, unlike \"a number of species,\" which takes a plural verb.</div><div class='explanation-step'><strong>A)</strong> \"Are\" is plural — it would agree with \"species\" but not with \"the number,\" which is the true subject. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Is\" is singular, correctly agreeing with \"the number.\" Keep B.</div><div class='explanation-step'><strong>C)</strong> \"Have been\" is plural present perfect — incorrect for the singular subject. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Were\" is past tense — the sentence describes an ongoing trend, not a past state. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>The answer choices are different verb forms, so this question tests <strong>Participial Phrases vs Clauses</strong>. The sentence already has a main verb: &ldquo;have transformed.&rdquo; What follows the comma must either be a new independent clause (with its own subject) or a participial phrase modifying the subject.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Revealing&rdquo; is a present participle — it creates a participial phrase that modifies the subject of the main clause (neuroimaging studies), indicating the result of their transformation of understanding. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;They revealed&rdquo; introduces a new subject (&ldquo;they&rdquo;) after a comma, creating a comma splice with the preceding independent clause. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Revealed&rdquo; is simple past — it creates a second verb without a conjunction, making the sentence a run-on. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;To reveal&rdquo; is an infinitive — while infinitives can follow certain verbs, here it creates an awkward construction that doesn&rsquo;t clearly connect to the main clause. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
       "id": "VerbalT2-2H-016",
@@ -360,7 +360,7 @@
         "topic": "Form, Structure, and Sense",
         "skill": "Standard English Conventions"
       },
-      "stem": "Although the study's authors claimed that their methodology was sound, several independent reviewers argued that <span class='blank'>_______</span> contained significant flaws that undermined the key conclusions.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "stem": "Although the study's lead authors insisted that their statistical model was sound and had been independently verified, several prominent reviewers argued that <span class='blank'>_______</span> contained fundamental errors in its assumptions about baseline population variance, errors that significantly undermined the validity of the central conclusions.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
       "choices": [
         "it",
         "they",
@@ -398,15 +398,15 @@
         "topic": "Form, Structure, and Sense",
         "skill": "Standard English Conventions"
       },
-      "stem": "The concept of terra nullius &mdash; the legal doctrine that land belonging to no one could be claimed by a colonizing power <span class='blank'>_______</span> was used to justify the dispossession of indigenous peoples across Australia, Canada, and the American continent.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "stem": "Despite generating less revenue than its older <span class='blank'>_______</span> division remained the company's most strategically important unit, responsible for the foundational research that had produced every major product innovation of the past decade.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
       "choices": [
-        ",",
-        "&mdash;",
-        ";",
-        ":"
+        "divisions, the research",
+        "divisions the research",
+        "division's, the research",
+        "divisions, the research's"
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>This question tests <strong>Consistent Punctuation with Parenthetical Phrases</strong>. The sentence contains a parenthetical phrase set off by an opening em dash after \"terra nullius.\" A parenthetical phrase opened with an em dash must be closed with an em dash — not a comma, semicolon, or colon.</div><div class='explanation-step'><strong>A)</strong> A comma after a phrase opened with an em dash is inconsistent — punctuation marks that set off parenthetical phrases must match. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> A closing em dash correctly matches the opening em dash, properly enclosing the parenthetical phrase. Keep B.</div><div class='explanation-step'><strong>C)</strong> A semicolon is used between independent clauses — it cannot close a parenthetical phrase opened with a dash. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> A colon introduces a list or explanation — it cannot close a parenthetical phrase. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>This question tests <strong>Comma Usage and Possessives</strong>. Parse the sentence carefully: &ldquo;Despite generating less revenue than its older divisions&rdquo; is an introductory prepositional phrase. The main clause subject is &ldquo;the research division&rdquo; and the verb is &ldquo;remained.&rdquo;</div><div class='explanation-step'><strong>A)</strong> &ldquo;divisions, the research&rdquo; — the comma correctly separates the introductory phrase from the main clause, and &ldquo;the research division&rdquo; is the correct subject. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;divisions the research&rdquo; — without a comma, the introductory phrase runs into the main clause, creating a run-on. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;division&rsquo;s, the research&rdquo; — adding an apostrophe turns &ldquo;division&rdquo; into a possessive, but &ldquo;division&rdquo; here is a modifier (research division), not a possessor. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;divisions, the research&rsquo;s&rdquo; — &ldquo;research&rsquo;s&rdquo; is grammatically awkward and unnecessary; &ldquo;research division&rdquo; is a compound noun, not a possessive. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
       "id": "VerbalT2-2H-020",
@@ -417,15 +417,15 @@
         "topic": "Transitions",
         "skill": "Logical Transition"
       },
-      "stem": "Proponents of cognitive load theory argue that reducing extraneous information in instructional materials — simplifying slides, eliminating decorative images, avoiding redundant text — significantly improves learning outcomes. <span class='blank'>_______</span> some researchers have found that certain types of visual redundancy, such as illustrative diagrams paired with spoken explanations, can actually enhance understanding for novice learners.<br><br>Which choice completes the text with the most logical transition?",
+      "stem": "The introduction of invasive zebra mussels into the Great Lakes in the late 1980s dramatically altered the ecosystem by filtering enormous quantities of phytoplankton from the water. <span class='blank'>_______</span> populations of native fish species that depended on phytoplankton as a food source declined sharply in the years that followed.<br><br>Which choice completes the text with the most logical transition?",
       "choices": [
         "Nevertheless,",
-        "Therefore,",
-        "That said,",
-        "Indeed,"
+        "In contrast,",
+        "Consequently,",
+        "Similarly,"
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>For <em>Logical Transition</em> questions at level 2, precision is key. The first sentence states the general principle (reduce extraneous information). The second introduces a nuanced complication — not that the principle is wrong, but that it doesn't apply in all cases.</div><div class='explanation-step'><strong>A)</strong> \"Nevertheless\" implies the second idea holds true despite the first — as if the first sentence tried to prevent the second's conclusion. The logic here is qualification, not persistence. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Therefore\" implies causation — the second idea does not result from the first. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"That said\" signals acknowledgment of the prior point while introducing a nuanced exception — \"the principle is generally sound, but here is a complication.\" Keep C.</div><div class='explanation-step'><strong>D)</strong> \"Indeed\" signals confirmation or emphasis — the second sentence does not confirm the first but qualifies it. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Logical Transition</em> questions, determine the relationship between the ideas. The first sentence describes zebra mussels filtering phytoplankton. The second sentence describes fish populations declining. The fish declined <em>because</em> the phytoplankton they depended on was removed — this is a cause-and-effect relationship.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Nevertheless&rdquo; signals contrast or persistence despite opposition — the fish decline is not a contrast but a direct result. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;In contrast&rdquo; signals an opposing idea — the fish decline is not opposed to the phytoplankton loss but caused by it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Consequently&rdquo; signals that the second idea results from the first — fish populations declined as a consequence of phytoplankton depletion. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Similarly&rdquo; signals parallel ideas — the two sentences describe a cause and its effect, not two similar things. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
     },
     {
       "id": "VerbalT2-2H-021",
@@ -474,12 +474,12 @@
       ],
       "choices": [
         "Biomimicry designer Janine Benyus coined the term in 1997, combining the Greek words for life and imitation.",
-        "Biomimicry — the practice of modeling human designs on solutions found in nature — has produced innovations like Velcro, which was inspired by the way burrs cling to fabric.",
         "The Biomimicry Institute, founded in 2006, connects designers with biologists to develop nature-inspired solutions to human engineering problems.",
-        "Janine Benyus argued that nature has already solved many of the design challenges that humans continue to struggle with today."
+        "Janine Benyus argued that nature has already solved many of the design challenges that humans continue to struggle with today.",
+        "Biomimicry — the practice of modeling human designs on solutions found in nature — has produced innovations like Velcro, which was inspired by the way burrs cling to fabric."
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal determines the correct answer. The student wants to both <em>define</em> biomimicry and give a <em>concrete example</em> for a general audience.</div><div class='explanation-step'><strong>A)</strong> Covers the term's etymology but does not define what biomimicry is or give an example. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Defines biomimicry (\"modeling human designs on solutions found in nature\") and gives a concrete example (Velcro inspired by burrs). Keep B.</div><div class='explanation-step'><strong>C)</strong> Describes the Institute but does not define biomimicry or give an example of a design. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> States Benyus's argument without defining the term or providing a concrete example. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal determines the correct answer. The student wants to both <em>define</em> biomimicry and give a <em>concrete example</em> for a general audience.</div><div class='explanation-step'><strong>D)</strong> Covers the term's etymology but does not define what biomimicry is or give an example. Eliminate A.</div><div class='explanation-step'><strong>A)</strong> Defines biomimicry (\"modeling human designs on solutions found in nature\") and gives a concrete example (Velcro inspired by burrs). Keep B.</div><div class='explanation-step'><strong>B)</strong> Describes the Institute but does not define biomimicry or give an example of a design. Eliminate C.</div><div class='explanation-step'><strong>C)</strong> States Benyus's argument without defining the term or providing a concrete example. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-2H-023",
@@ -508,13 +508,13 @@
         }
       ],
       "choices": [
+        "The Great Oxidation Event, triggered by oxygen-producing cyanobacteria 2.4 billion years ago, ultimately led to the formation of the ozone layer, which enabled complex life to survive on land.",
         "Approximately 2.4 billion years ago, cyanobacteria began producing oxygen through photosynthesis, dramatically altering Earth's atmosphere.",
         "The Great Oxidation Event caused a mass extinction of anaerobic organisms that could not survive in the newly oxygen-rich atmosphere.",
-        "The Great Oxidation Event, triggered by oxygen-producing cyanobacteria 2.4 billion years ago, ultimately led to the formation of the ozone layer, which enabled complex life to survive on land.",
         "Before the Great Oxidation Event, Earth's atmosphere contained virtually no free oxygen, making conditions inhospitable for most modern life forms."
       ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal requires both describing the event and identifying its most significant long-term consequence. The ozone layer's formation, which enabled complex life on land, is the most significant long-term consequence — the mass extinction, while dramatic, was an immediate effect.</div><div class='explanation-step'><strong>A)</strong> Describes the event (cyanobacteria, 2.4 billion years ago) but does not identify its most significant long-term consequence. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Identifies the mass extinction as a consequence — but this is an immediate effect, not the most significant long-term consequence for life on Earth. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Describes the event and identifies the ozone layer formation as the consequence that enabled complex life on land — the most significant long-term consequence. Keep C.</div><div class='explanation-step'><strong>D)</strong> Provides pre-event context only and does not describe the event itself or its consequences. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal requires both describing the event and identifying its most significant long-term consequence. The ozone layer's formation, which enabled complex life on land, is the most significant long-term consequence — the mass extinction, while dramatic, was an immediate effect.</div><div class='explanation-step'><strong>C)</strong> Describes the event (cyanobacteria, 2.4 billion years ago) but does not identify its most significant long-term consequence. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Identifies the mass extinction as a consequence — but this is an immediate effect, not the most significant long-term consequence for life on Earth. Eliminate B.</div><div class='explanation-step'><strong>A)</strong> Describes the event and identifies the ozone layer formation as the consequence that enabled complex life on land — the most significant long-term consequence. Keep A.</div><div class='explanation-step'><strong>D)</strong> Provides pre-event context only and does not describe the event itself or its consequences. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
       "id": "VerbalT2-2H-024",
@@ -545,11 +545,11 @@
       "choices": [
         "Elinor Ostrom was the first woman to win the Nobel Prize in Economics, receiving the award in 2009 for her research on resource management.",
         "Ostrom studied fisheries, forests, and irrigation systems to identify eight design principles common to communities that successfully manage shared resources.",
-        "By demonstrating that communities could effectively manage shared resources without privatization or government intervention, Ostrom challenged a foundational assumption of economic theory.",
-        "Critics argued that Ostrom's findings could not be scaled to address global collective action problems such as climate change."
+        "Critics argued that Ostrom's findings could not be scaled to address global collective action problems such as climate change.",
+        "By demonstrating that communities could effectively manage shared resources without privatization or government intervention, Ostrom challenged a foundational assumption of economic theory."
       ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is to explain what made Ostrom's work groundbreaking in economics specifically. The correct answer must identify what foundational assumption she challenged and why that was significant.</div><div class='explanation-step'><strong>A)</strong> Being the first woman to win the Nobel is historically notable but does not explain what made the economics research itself groundbreaking. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Describes her methodology and findings, but does not explain why they were groundbreaking — what assumption did she challenge? Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Directly states the groundbreaking contribution: she challenged a foundational economic assumption (that shared resources inevitably lead to overexploitation) by demonstrating successful community management without state or market mechanisms. Keep C.</div><div class='explanation-step'><strong>D)</strong> Presents critics' limitations without explaining the groundbreaking nature of the original contribution. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is to explain what made Ostrom's work groundbreaking in economics specifically. The correct answer must identify what foundational assumption she challenged and why that was significant.</div><div class='explanation-step'><strong>A)</strong> Being the first woman to win the Nobel is historically notable but does not explain what made the economics research itself groundbreaking. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Describes her methodology and findings, but does not explain why they were groundbreaking — what assumption did she challenge? Eliminate B.</div><div class='explanation-step'><strong>D)</strong> Directly states the groundbreaking contribution: she challenged a foundational economic assumption (that shared resources inevitably lead to overexploitation) by demonstrating successful community management without state or market mechanisms. Keep D.</div><div class='explanation-step'><strong>C)</strong> Presents critics' limitations without explaining the groundbreaking nature of the original contribution. Eliminate D.</div><br><br>The correct answer is <strong>D</strong>."
     },
     {
       "id": "VerbalT2-2H-025",
@@ -567,24 +567,24 @@
           "style": "default"
         },
         {
-          "text": "• Neuroscientist Dr. Keiko Mori argues that synesthesia is not a disorder but an extreme version of neural connectivity that all humans possess to varying degrees.\n• Studies using fMRI have shown that synesthetes display significantly greater cross-activation between sensory regions of the brain than non-synesthetes.\n• Dr. Mori&rsquo;s critics argue that synesthesia is categorically different from normal sensory experience and should not be placed on a continuum with it.\n• Dr. Mori counters that non-synesthetes also show mild cross-sensory associations &mdash; for example, universally associating higher-pitched sounds with brighter colors.\n• A 2021 study found that training non-synesthetes with consistent color-letter pairings produced mild synesthetic responses within eight weeks.",
+          "text": "• Biologist Dr. Yuna Park argues that epigenetic changes — modifications to gene expression that do not alter DNA sequence — can be transmitted from parents to offspring.\n• Studies in mice have shown that trauma-induced epigenetic changes in one generation can persist for at least two subsequent generations.\n• Critics argue that the evidence for transgenerational epigenetic inheritance in humans remains limited and methodologically inconsistent.\n• Dr. Park counters that human studies are inherently difficult to conduct because they require multigenerational data collection over decades.\n• A 2022 review of 43 studies found that epigenetic markers associated with stress exposure in parents were detectable in their children at rates significantly above chance.",
           "align": "left",
           "style": "notes"
         },
         {
-          "text": "The student wants to present the strongest evidence in support of Dr. Mori&rsquo;s continuum claim. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+          "text": "The student wants to explain why critics' concerns about human evidence do not necessarily undermine Dr. Park's broader claim. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
           "align": "left",
           "style": "question"
         }
       ],
       "choices": [
-        "fMRI studies show that synesthetes display significantly greater cross-activation between sensory brain regions than non-synesthetes, supporting Dr. Mori's claim that the two groups differ only in degree.",
-        "Dr. Mori argues that synesthesia is an extreme form of neural connectivity that all humans share to varying degrees, though critics dispute whether it belongs on a continuum with normal perception.",
-        "A 2021 study found that non-synesthetes developed mild synesthetic responses after eight weeks of training with consistent color-letter pairings, suggesting that synesthetic associations can be induced in people without the condition.",
-        "Non-synesthetes universally associate higher-pitched sounds with brighter colors, which Dr. Mori cites as evidence of mild cross-sensory associations present in all people."
+        "Studies in mice have shown that trauma-induced epigenetic changes can persist for at least two subsequent generations, providing a biological mechanism for transgenerational inheritance.",
+        "A 2022 review found that epigenetic markers associated with parental stress exposure were detectable in children at rates significantly above chance, suggesting the effect is real in humans.",
+        "Critics argue that human evidence for epigenetic inheritance is limited and methodologically inconsistent, raising questions about whether animal findings apply to humans.",
+        "Dr. Park explains that the very features of human research that make it difficult — the need for multigenerational data collected over decades — are precisely why robust evidence is scarce, not because the phenomenon does not exist."
       ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal requires identifying the <em>strongest evidence</em> for a specific claim. Dr. Mori's continuum claim is that all humans have synesthetic capacity to varying degrees. The strongest evidence would be direct experimental demonstration that non-synesthetes can develop synesthetic responses.</div><div class='explanation-step'><strong>A)</strong> fMRI data shows synesthetes and non-synesthetes differ in degree of cross-activation — this supports the continuum but shows difference, not that non-synesthetes have the same capacity. Less direct. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Describes the claim and the dispute without presenting the evidence. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> The 2021 training study is the strongest evidence — it shows that non-synesthetes can actually develop synesthetic responses through training, directly demonstrating that the capacity exists in everyone and can be activated. Keep C.</div><div class='explanation-step'><strong>D)</strong> The pitch-brightness association is evidence of mild cross-sensory links in all people, but it is a single anecdotal example less powerful than an experimental study demonstrating induced synesthesia. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal is to explain why critics&rsquo; concerns do not necessarily undermine the claim. The correct answer must address the critics&rsquo; concern (limited human evidence) and explain why that limitation doesn&rsquo;t disprove the claim.</div><div class='explanation-step'><strong>A)</strong> The mouse study supports the existence of epigenetic inheritance but doesn&rsquo;t address why human evidence is scarce — it doesn&rsquo;t respond to the critics&rsquo; concern. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The 2022 review provides positive human evidence, which is relevant, but the goal is to explain why limited evidence doesn&rsquo;t undermine the claim — not simply to add more evidence. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This states the critics&rsquo; position without countering it. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Directly explains why human evidence is scarce (methodological difficulty, not absence of the phenomenon) — turning the critics&rsquo; concern into evidence of how hard the research is, not evidence against the claim. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
     },
     {
       "id": "VerbalT2-2H-026",
@@ -607,19 +607,19 @@
           "style": "notes"
         },
         {
-          "text": "The student wants to present Dr. Osei&rsquo;s argument without misrepresenting it as opposition to conservation. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+          "text": "The student wants to present the critics&rsquo; most compelling objection to Dr. Osei&rsquo;s argument. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
           "align": "left",
           "style": "question"
         }
       ],
       "choices": [
-        "Dr. Amara Osei argues that the forced removal of Native American communities during the creation of national parks represents a historical injustice that demands contemporary redress.",
-        "Critics of Dr. Osei's position argue that acknowledging indigenous land management practices does not undermine the existing case for wilderness preservation.",
-        "Dr. Osei challenges the myth of pristine, human-free wilderness not to oppose conservation but to advocate for conservation models that recognize and incorporate indigenous stewardship of landscapes.",
-        "Many landscapes considered wild were actively shaped by indigenous land management practices, including controlled burns, for thousands of years before European colonization."
+        "Dr. Osei challenges the myth of pristine wilderness by pointing out that many landscapes were actively shaped by indigenous land management practices such as controlled burns.",
+        "Critics contend that even if indigenous peoples did manage these landscapes, this does not mean that current conservation policies require fundamental revision — the case for preservation stands regardless.",
+        "The forced removal of Native American communities during the creation of national parks represents a historical injustice that Dr. Osei argues has shaped contemporary conservation policy.",
+        "Dr. Osei&rsquo;s supporters argue that her position is ultimately pro-conservation, advocating for models that incorporate indigenous stewardship rather than opposing preservation entirely."
       ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal requires precision: present Dr. Osei's argument while explicitly clarifying she is not opposed to conservation. The correct answer must state her argument AND clarify what it is not.</div><div class='explanation-step'><strong>A)</strong> Focuses on the historical injustice angle but does not clarify Dr. Osei's stance on conservation. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Presents the critics' framing rather than Dr. Osei's own argument. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> States her argument (challenging the pristine wilderness myth) AND explicitly clarifies she is not opposing conservation but advocating for a different model that includes indigenous stewardship. Keep C.</div><div class='explanation-step'><strong>D)</strong> Presents a supporting historical fact without stating Dr. Osei's argument or clarifying her conservation stance. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal is to present the critics&rsquo; <em>most compelling objection</em>. The notes say critics argue that &ldquo;acknowledging indigenous land management does not undermine the case for wilderness preservation.&rdquo; The correct answer must articulate why this is a compelling objection — it concedes Dr. Osei&rsquo;s historical point while denying its policy implications.</div><div class='explanation-step'><strong>A)</strong> Presents Dr. Osei&rsquo;s own argument, not the critics&rsquo; objection. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Articulates the critics&rsquo; objection precisely: even granting Dr. Osei&rsquo;s historical claim, it doesn&rsquo;t follow that conservation policy needs revision. This is the most compelling objection because it concedes the premise while denying the conclusion. Keep B.</div><div class='explanation-step'><strong>C)</strong> Describes the historical injustice — part of Dr. Osei&rsquo;s argument, not the critics&rsquo; objection. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Presents the supporters&rsquo; characterization of Dr. Osei&rsquo;s position — not the critics&rsquo; objection. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-2H-027",
@@ -637,24 +637,24 @@
           "style": "default"
         },
         {
-          "text": "• Urban rewilding programs introduce native plants and small wildlife into cities to create ecological corridors.\n• A 2022 study found that urban rewilding increased local biodiversity by an average of 34% within three years.\n• Critics argue that urban rewilding&rsquo;s benefits are primarily aesthetic and do not address the scale of biodiversity loss occurring in rural and wild areas.\n• Some urban ecologists counter that cities cover only 3% of Earth&rsquo;s land surface but disproportionately influence surrounding ecosystems through pollution, heat, and water runoff.\n• A longitudinal study in Berlin found that urban green corridors reduced pollinator decline rates by 28% compared to adjacent urban areas without corridors.",
+          "text": "• Economist Dr. Priya Mehta argues that universal basic income (UBI) — a regular unconditional cash payment to all citizens — would reduce poverty more efficiently than existing means-tested welfare programs.\n• A 2021 pilot program in Stockton, California provided $500 monthly to 125 low-income residents; recipients showed improved employment outcomes and mental health compared to a control group.\n• Critics argue that UBI is fiscally unsustainable at scale and would require tax increases that could slow economic growth.\n• Proponents counter that eliminating the administrative costs of means-tested programs would offset a significant portion of UBI&rsquo;s expense.\n• A 2023 analysis estimated that consolidating existing US welfare programs into a UBI would require only $200 billion in additional annual funding — less than 1% of GDP.",
           "align": "left",
           "style": "notes"
         },
         {
-          "text": "The student wants to counter the critics&rsquo; claim that urban rewilding is primarily aesthetic and lacks meaningful ecological impact. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+          "text": "The student wants to counter the critics&rsquo; fiscal sustainability objection with the most specific and quantified evidence available in the notes. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
           "align": "left",
           "style": "question"
         }
       ],
       "choices": [
-        "Urban rewilding programs introduce native plants and small wildlife into cities to create ecological corridors that connect fragmented habitats.",
-        "Critics argue that urban rewilding's benefits are primarily aesthetic and fail to address biodiversity loss at a meaningful scale.",
-        "Although critics dismiss urban rewilding as primarily aesthetic, evidence that these programs increased local biodiversity by 34% and reduced pollinator decline rates by 28% in Berlin suggests the ecological impact is measurable and significant.",
-        "Cities cover only 3% of Earth's land surface but disproportionately affect surrounding ecosystems through pollution, heat, and water runoff, making urban ecological interventions strategically important."
+        "The Stockton pilot program demonstrated that unconditional cash transfers improve employment outcomes and mental health, suggesting UBI&rsquo;s benefits may justify its costs.",
+        "Proponents of UBI argue that administrative savings from eliminating means-tested programs would offset much of the additional expense, though the exact amount saved is unclear.",
+        "Dr. Priya Mehta argues that UBI would reduce poverty more efficiently than existing welfare programs, addressing critics&rsquo; concerns about fiscal sustainability.",
+        "A 2023 analysis found that consolidating existing welfare programs into a UBI would require only $200 billion in additional annual funding — less than 1% of GDP — directly challenging the claim that UBI is fiscally unsustainable."
       ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal is to counter the critics' specific claim — that urban rewilding is <em>primarily aesthetic</em> and lacks <em>meaningful ecological impact</em>. The correct answer must directly oppose that claim with quantitative evidence of real ecological impact.</div><div class='explanation-step'><strong>A)</strong> Describes what the programs do but does not present evidence against the aesthetic-only criticism. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> States the critics' view without countering it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Directly counters the aesthetic criticism by citing two pieces of quantitative ecological evidence: 34% biodiversity increase and 28% reduction in pollinator decline. Keep C.</div><div class='explanation-step'><strong>D)</strong> Makes a strategic argument about cities' outsized influence but does not directly address whether rewilding's benefits are aesthetic or ecological. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal is to counter the fiscal sustainability objection with the <em>most specific and quantified</em> evidence. The correct answer must use concrete numbers.</div><div class='explanation-step'><strong>A)</strong> The Stockton pilot addresses benefits (employment, mental health) but not fiscal sustainability. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Mentions administrative savings but explicitly acknowledges the exact amount is unclear — less quantified than the 2023 analysis. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> States Dr. Mehta&rsquo;s general argument without specific figures — not the most quantified evidence. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Provides the specific figure ($200 billion, less than 1% of GDP) that directly addresses the fiscal sustainability objection with hard data. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
     }
   ]
 }

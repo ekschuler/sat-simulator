@@ -2721,6 +2721,268 @@
     ],
     "answerIndex": 1,
     "explanation": "<div class='explanation-step'>For <em>Main Idea</em> questions at level 3, the correct answer must capture the central argument precisely. Before looking at choices, summarize: Popper argued that theories cannot be proven true, only falsified, and that the ability to be falsified is what makes a theory scientific.</div><div class='explanation-step'><strong>A)</strong> Directly contradicts Popper&rsquo;s view — he argued that no amount of confirming evidence proves a theory true. The passage explicitly states this. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Captures the asymmetry at the heart of Popper&rsquo;s argument: theories can&rsquo;t be proven true, but they can be falsified, and the capacity to be falsified is the criterion for being scientific. Keep B.</div><div class='explanation-step'><strong>C)</strong> Overstates Popper&rsquo;s position — he argued that theories are falsifiable in principle, not that all theories will inevitably be falsified. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Too narrow — Popper&rsquo;s point about counterexamples is that they can disprove theories, not specifically that they generate new research questions. The passage does not mention research questions. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-035",
+    "type": "mcq",
+    "level": 3,
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Words in Context",
+      "skill": "Vocabulary in Context"
+    },
+    "tags": [
+      "vocabulary",
+      "sentence completion"
+    ],
+    "stem": "Though celebrated for her meticulous scholarship, the historian's critics argued that her apparent objectivity was itself a pose — that her selection of sources and framing of events reflected commitments far from <span class='blank'>_______</span>, however neutral her prose style appeared on the surface.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "disinterested",
+      "impartial",
+      "detached",
+      "rigorous"
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, the blank must capture a precise quality the critics say the historian lacks. The critics argue her &ldquo;apparent objectivity was itself a pose&rdquo; — her source selection and framing revealed underlying commitments despite a neutral prose surface. The blank must mean something like genuinely neutral or free from bias.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Impartial&rdquo; means treating all sides equally — close, but the key distinction is that &ldquo;disinterested&rdquo; specifically means having no personal stake or vested interest in the outcome, which is the quality critics say her source selection undermines. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Disinterested&rdquo; means free from personal interest or bias — precisely what the critics argue she is not, since her framing reveals underlying commitments. This is also a classic vocabulary trap: students often confuse &ldquo;disinterested&rdquo; (unbiased) with &ldquo;uninterested&rdquo; (indifferent). Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Detached&rdquo; means emotionally removed — the critics are questioning her intellectual bias, not her emotional involvement. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Rigorous&rdquo; means thorough and demanding — her scholarship is described as meticulous, so calling it &ldquo;far from rigorous&rdquo; would contradict the passage. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-036",
+    "type": "mcq",
+    "level": 3,
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Words in Context",
+      "skill": "Vocabulary in Context"
+    },
+    "tags": [
+      "vocabulary",
+      "sentence completion"
+    ],
+    "stem": "After years of combative press conferences and pointed public criticism of his rivals, the senator surprised observers with a remarkably <span class='blank'>_______</span> address — one that extended olive branches to former opponents, acknowledged areas of common ground, and deliberately avoided the sharp-edged rhetoric that had defined his earlier career.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "subdued",
+      "measured",
+      "diplomatic",
+      "conciliatory"
+    ],
+    "answerIndex": 3,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, the direction change is key. After &ldquo;years of combative&rdquo; behavior, the senator surprised with the opposite. The blank describes a speech that &ldquo;extended olive branches,&rdquo; &ldquo;acknowledged common ground,&rdquo; and avoided sharp rhetoric. The word must capture the specific quality of seeking reconciliation.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Subdued&rdquo; means quiet or restrained in tone — while the address was less combative, the key feature is the active reaching out to opponents, which &ldquo;subdued&rdquo; doesn&rsquo;t capture. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Conciliatory&rdquo; means intended to make peace and reduce hostility — precisely what extending olive branches, acknowledging common ground, and avoiding sharp rhetoric accomplishes. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Measured&rdquo; means careful and deliberate — describes manner of speech, not the intent to reconcile. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Diplomatic&rdquo; means tactful — close, but &ldquo;conciliatory&rdquo; is more precise because it specifically means aimed at reconciliation with former opponents, not just general tactfulness. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-037",
+    "type": "mcq",
+    "level": 2,
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Textual Evidence"
+    },
+    "stemSegments": [
+      {
+        "text": "The following text is from Zora Neale Hurston's <em>Dust Tracks on a Road</em>, published in 1942.",
+        "align": "left",
+        "style": "default"
+      },
+      {
+        "text": "I was born in a Negro town. I do not mean by that the black back-side of an average town. Eatonville, Florida is, and was at the time of my birth, a pure Negro town — charter, mayor, council, and all. It was not the first Negro town in the United States, but it was the first to be incorporated, the first to assume a governing body, and as such it stands as a unique element in the history of the United States.",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "According to the text, what does Hurston emphasize about Eatonville that distinguishes it from other Black communities?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "It was the first Black town to establish a formal governing structure through legal incorporation.",
+      "It was the first town in the United States founded and populated entirely by Black residents.",
+      "It was larger and more politically active than other Black communities of its era.",
+      "It was founded specifically to serve as a model for Black self-governance across the South."
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>According to the Text</em> questions, the correct answer must be directly stated. Hurston says Eatonville &ldquo;was not the first Negro town in the United States, but it was the first to be incorporated, the first to assume a governing body.&rdquo;</div><div class='explanation-step'><strong>A)</strong> Hurston explicitly says it was NOT the first Negro town — this contradicts the passage. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Directly stated: first to be incorporated and assume a governing body — formal legal self-governance. Keep B.</div><div class='explanation-step'><strong>C)</strong> Size and political activity level are not mentioned. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Hurston does not describe Eatonville as a model or as founded for a specific purpose. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-038",
+    "type": "mcq",
+    "level": 2,
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Textual Evidence"
+    },
+    "stemSegments": [
+      {
+        "text": "The following text is from Rachel Carson's <em>The Sea Around Us</em>, published in 1951.",
+        "align": "left",
+        "style": "default"
+      },
+      {
+        "text": "Beginnings are apt to be shadowy, and so it is with the beginnings of that great mother of life, the sea. Many people have debated how and when the ocean came to be. The poets and philosophers who first turned their minds to this question imagined that a watery chaos preceded the creation of the world. Science has not altered that conception greatly; it merely has substituted new images. The ocean is ancient beyond all our concepts of time. It is older than the mountains, older than the continents, older than life itself on this earth.",
+        "align": "left",
+        "style": "passage"
+      },
+      {
+        "text": "According to the text, how does Carson characterize the relationship between scientific and earlier accounts of the ocean's origins?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "Science has conclusively disproved the philosophical and poetic accounts that preceded it.",
+      "Science has largely confirmed that early accounts were correct about the ocean's extraordinary age.",
+      "Science has replaced vague poetic imagery with precise explanations, fundamentally changing our understanding.",
+      "Science has not dramatically changed the essential conception, only the specific images used to express it."
+    ],
+    "answerIndex": 3,
+    "explanation": "<div class='explanation-step'>For <em>According to the Text</em> questions, the correct answer must match what Carson directly states. She writes: &ldquo;Science has not altered that conception greatly; it merely has substituted new images.&rdquo;</div><div class='explanation-step'><strong>A)</strong> Carson says science has NOT altered the conception greatly — the opposite of disproving it. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Carson doesn&rsquo;t say science confirmed correctness about age specifically — she says the conception wasn&rsquo;t greatly altered. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Carson says science &ldquo;merely substituted new images&rdquo; — implying the change was minimal, not fundamental. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Directly matches: &ldquo;not altered that conception greatly&rdquo; and &ldquo;merely substituted new images.&rdquo; Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+  },
+  {
+    "id": "V-L3-039",
+    "type": "mcq",
+    "level": 2,
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Textual Evidence"
+    },
+    "stem": "When the Hubble Space Telescope was launched in 1990, scientists discovered that its primary mirror had been ground to the wrong shape — a flaw of just 2.2 micrometers that nonetheless caused every image it produced to be blurry. NASA engineers developed corrective optics, essentially a set of small mirrors designed to compensate for the aberration, and astronauts installed them during a 1993 servicing mission. The repair was considered an engineering triumph, and Hubble subsequently produced some of the most scientifically significant astronomical images ever captured.<br><br>According to the text, what caused the initial problem with the Hubble Space Telescope?",
+    "choices": [
+      "The telescope was launched before engineers had finished calibrating its optical systems.",
+      "Damage sustained during launch affected the telescope's ability to focus correctly.",
+      "A tiny error in the shape of the primary mirror caused all of its images to be blurry.",
+      "The telescope's corrective optics failed to function as designed once it reached orbit."
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>According to the Text</em> questions, the correct answer is directly stated. The passage says the primary mirror &ldquo;had been ground to the wrong shape — a flaw of just 2.2 micrometers that nonetheless caused every image it produced to be blurry.&rdquo;</div><div class='explanation-step'><strong>A)</strong> Calibration is not mentioned — the problem was the mirror&rsquo;s shape. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Directly matches: a tiny error in the mirror&rsquo;s shape caused blurry images. Keep B.</div><div class='explanation-step'><strong>C)</strong> Launch damage is not mentioned — the flaw was in how the mirror was ground before launch. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The corrective optics were the solution, not the problem. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-040",
+    "type": "mcq",
+    "level": 3,
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Textual Evidence"
+    },
+    "stem": "The Voynich manuscript, a handwritten illustrated codex believed to date from the early fifteenth century, has resisted all attempts at decipherment since its rediscovery by antiquarian Wilfrid Voynich in 1912. The manuscript is written in an unknown script and an unknown language — or possibly in a cipher — and its illustrations depict plants, astronomical diagrams, and human figures engaged in unexplained activities, none of which have been definitively identified. Some scholars argue it is an elaborate hoax containing no meaningful content; others contend it encodes genuine information in a system no one has yet cracked. The manuscript is held at Yale University's Beinecke Rare Book and Manuscript Library.<br><br>According to the text, what do scholars disagree about regarding the Voynich manuscript?",
+    "choices": [
+      "Whether the manuscript was genuinely written in the fifteenth century or is a modern forgery.",
+      "Whether the illustrations depict real plants and astronomical phenomena or invented ones.",
+      "Whether the manuscript contains meaningful encoded information or is simply a sophisticated hoax.",
+      "Whether Wilfrid Voynich discovered the manuscript legitimately or fabricated it himself."
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>According to the Text</em> questions, the correct answer is directly stated. The passage says: &ldquo;Some scholars argue it is an elaborate hoax containing no meaningful content; others contend it encodes genuine information in a system no one has yet cracked.&rdquo;</div><div class='explanation-step'><strong>A)</strong> The passage does not mention disagreement about the manuscript&rsquo;s dating or whether it is a modern forgery. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Disagreement about whether the illustrations are real or invented is not described. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Directly matches the passage: hoax (no meaningful content) vs. encoded genuine information. Keep C.</div><div class='explanation-step'><strong>D)</strong> Voynich&rsquo;s role in fabricating the manuscript is not discussed. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L3-041",
+    "type": "mcq",
+    "level": 3,
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Textual Evidence"
+    },
+    "stem": "Cognitive scientist Dr. Elena Vasquez argues that bilingual children develop stronger executive function than their monolingual peers — specifically, greater ability to suppress irrelevant information and switch attention between tasks — because the constant management of two language systems exercises the same cognitive control mechanisms that underlie these skills.<br><br>Which finding, if true, would most directly support Dr. Vasquez's claim?",
+    "choices": [
+      "Bilingual children score higher than monolingual children on standardized tests of vocabulary knowledge in their dominant language.",
+      "Children who learn a second language before age five show greater executive function advantages than those who learn a second language after age ten.",
+      "Adults who are fluent in three or more languages show greater executive function advantages than those who are fluent in two languages.",
+      "In a controlled experiment, bilingual children outperformed monolingual children on tasks requiring them to ignore a distracting stimulus and shift focus between competing rules, but not on tasks measuring memory capacity."
+    ],
+    "answerIndex": 3,
+    "explanation": "<div class='explanation-step'>For <em>Supporting a Claim</em> questions, identify the precise claim. Dr. Vasquez argues bilingualism specifically improves executive function — the ability to suppress irrelevant information and switch attention — because managing two languages exercises those exact mechanisms.</div><div class='explanation-step'><strong>A)</strong> Vocabulary scores address language proficiency, not executive function. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Bilingual children outperforming on tasks requiring suppression of distraction and attention-switching — precisely the executive function skills Dr. Vasquez identifies — directly supports her claim. The qualifier &ldquo;but not on memory capacity&rdquo; also makes the finding more credible and specific. Keep B.</div><div class='explanation-step'><strong>C)</strong> The age of acquisition addresses timing, not whether bilingualism improves executive function at all. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Trilingual vs bilingual comparison extends beyond Dr. Vasquez&rsquo;s specific claim about bilingual vs monolingual. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-042",
+    "type": "mcq",
+    "level": 3,
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Textual Evidence"
+    },
+    "stem": "Economist Dr. Rashid Okafor argues that moderate increases in the minimum wage — defined as increases of 10 to 15 percent — do not cause significant reductions in employment in low-wage sectors, and that concerns about job losses have been consistently overstated by critics of minimum wage legislation. He bases this claim primarily on studies comparing employment levels in counties on opposite sides of state borders where minimum wages differ.<br><br>Which finding, if true, would most directly undermine Dr. Okafor's claim?",
+    "choices": [
+      "A meta-analysis of 47 minimum wage studies found that the average employment effect across all studies was a reduction of fewer than 0.5% of jobs in affected sectors.",
+      "Counties used in border-comparison studies often differ significantly in industry composition, unionization rates, and local economic conditions in ways that make direct employment comparisons unreliable.",
+      "Several countries that implemented large minimum wage increases of over 30% experienced significant employment reductions in their restaurant and retail sectors.",
+      "Economists who specialize in labor markets are more likely than general economists to find negative employment effects from minimum wage increases."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Weakening a Claim</em> questions, identify the most precise element to target. Dr. Okafor bases his claim about moderate minimum wage increases on border-comparison studies. To undermine his claim, the correct answer must challenge either the conclusion or the evidentiary basis.</div><div class='explanation-step'><strong>A)</strong> A 0.5% average employment reduction across studies is very small — this actually supports Dr. Okafor&rsquo;s claim that job losses are overstated. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> If the border-comparison counties differ in ways that make employment comparisons unreliable, this directly undermines the evidentiary basis of Dr. Okafor&rsquo;s claim — his primary evidence becomes suspect. Keep B.</div><div class='explanation-step'><strong>C)</strong> Large increases (30%+) are outside the moderate range (10–15%) Dr. Okafor studied — this doesn&rsquo;t directly undermine his specific claim. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Economists&rsquo; specialization affecting findings is a general observation about research bias, not a direct challenge to Dr. Okafor&rsquo;s evidence or conclusion. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-043",
+    "type": "mcq",
+    "level": 3,
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Rhetorical Synthesis",
+      "skill": "Using Notes"
+    },
+    "stemSegments": [
+      {
+        "text": "While researching a topic, a student has taken the following notes:",
+        "align": "left",
+        "style": "default"
+      },
+      {
+        "text": "• Fingerprint evidence has been used in criminal courts since the early twentieth century and was long considered among the most reliable forms of forensic identification.\n• In 2009, the National Academy of Sciences released a landmark report concluding that fingerprint analysis lacks a standardized methodology and that examiners&rsquo; conclusions are often subjective.\n• The report found no peer-reviewed scientific studies establishing the rate at which fingerprint examiners make errors.\n• Several wrongful convictions have been linked in part to fingerprint misidentification, including the 2004 case of Brandon Mayfield, who was falsely identified by FBI examiners in connection with the Madrid train bombings.\n• Some courts have begun requiring fingerprint examiners to disclose their error rates and the methodology used to reach conclusions.",
+        "align": "left",
+        "style": "notes"
+      },
+      {
+        "text": "The student wants to explain why courts have begun scrutinizing fingerprint evidence more carefully in recent years. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "Fingerprint evidence has been used in criminal courts since the early twentieth century, when it was considered one of the most reliable forms of forensic identification available.",
+      "Several wrongful convictions, including the false identification of Brandon Mayfield in 2004, have demonstrated that fingerprint misidentification can have serious consequences for defendants.",
+      "A 2009 National Academy of Sciences report found that fingerprint analysis lacks standardized methodology, that examiners&rsquo; conclusions are often subjective, and that no studies had established examiner error rates — findings that directly challenged the scientific foundation of fingerprint evidence.",
+      "Some courts now require fingerprint examiners to disclose their error rates and explain the methodology used to reach their conclusions before presenting evidence."
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal is to explain why courts have begun scrutinizing fingerprint evidence more carefully. The correct answer must identify what prompted this increased scrutiny.</div><div class='explanation-step'><strong>A)</strong> Describes the historical status of fingerprint evidence — before courts began scrutinizing it more carefully, not the reason for the change. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Wrongful convictions demonstrate consequences but don&rsquo;t explain the mechanism by which scientific credibility was challenged — they are an effect, not the primary cause of increased scrutiny. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> The 2009 NAS report is the direct cause — it challenged the scientific foundation of fingerprint evidence by identifying lack of standardization, subjectivity, and unknown error rates, giving courts a formal basis for increased scrutiny. Keep C.</div><div class='explanation-step'><strong>D)</strong> Describes a current practice — the result of increased scrutiny, not the explanation for why it began. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L3-044",
+    "type": "mcq",
+    "level": 3,
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Rhetorical Synthesis",
+      "skill": "Using Notes"
+    },
+    "stemSegments": [
+      {
+        "text": "While researching a topic, a student has taken the following notes:",
+        "align": "left",
+        "style": "default"
+      },
+      {
+        "text": "• Diel vertical migration is the daily movement of marine organisms from deep water to the surface at night and back again before dawn.\n• It is considered the largest daily animal migration on Earth by biomass.\n• Some species travel distances of 200 to 1,000 meters vertically within a single 24-hour cycle.\n• Organisms migrate upward at night to feed on surface plankton in darkness, reducing their own predation risk, then descend to colder, darker water during the day.\n• Estimates suggest that organisms performing diel vertical migration collectively transport tens of millions of tons of carbon from surface waters to the deep ocean each year, a process known as the biological pump.",
+        "align": "left",
+        "style": "notes"
+      },
+      {
+        "text": "The student wants to convey the scale of diel vertical migration using the most specific and striking evidence available in the notes. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+        "align": "left",
+        "style": "question"
+      }
+    ],
+    "choices": [
+      "Diel vertical migration is considered the largest daily animal migration on Earth by biomass, with some species traveling up to 1,000 meters vertically within a single day.",
+      "Diel vertical migration involves marine organisms traveling between deep water and the ocean surface each night to feed on plankton while avoiding predators.",
+      "Through diel vertical migration, marine organisms collectively transport tens of millions of tons of carbon from the surface to the deep ocean annually, a process known as the biological pump.",
+      "Diel vertical migration occurs daily across the world&rsquo;s oceans, making it a phenomenon of global ecological significance that affects both surface and deep-water ecosystems."
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal is to convey scale using the most specific and striking evidence. The correct answer must combine quantitative specificity with the most impressive scale indicators.</div><div class='explanation-step'><strong>A)</strong> Describes the mechanism (feeding at night, avoiding predators) — relevant but conveys behavior, not scale. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Combines the superlative claim (largest daily animal migration on Earth by biomass) with the most striking specific measurement (up to 1,000 meters per day) — the most effective combination for conveying scale. Keep B.</div><div class='explanation-step'><strong>C)</strong> The carbon transport statistic (tens of millions of tons) is impressive and specific, but it describes an indirect effect of the migration rather than the scale of the migration itself. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> States global significance vaguely without any specific quantitative evidence. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
   }
 ]
 }

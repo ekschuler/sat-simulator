@@ -141,17 +141,17 @@
       "skill": {
         "domain": "Information and Ideas",
         "topic": "Command of Evidence",
-        "skill": "Textual Evidence"
+        "skill": "Quantitative Evidence"
       },
-      "stem": "When carbon dioxide dissolves in seawater, it forms carbonic acid, lowering the pH of the ocean. This process, known as ocean acidification, has accelerated significantly since the Industrial Revolution as atmospheric CO₂ levels have risen. Marine organisms that build shells or skeletons from calcium carbonate — including oysters, mussels, and some species of plankton — are particularly vulnerable, as acidic water dissolves the calcium carbonate they depend on.<br><br>According to the text, why are certain marine organisms particularly vulnerable to ocean acidification?",
+      "stem": "A marine biologist studying the effects of ocean acidification on shell-forming organisms collected the following data after exposing three species to water at different pH levels for 30 days:<br><br><table style='border-collapse:collapse;margin:12px auto;font-size:14px;'><thead><tr><th style='border:1px solid #ccc;padding:8px 16px;background:#f5f5f5;'>Species</th><th style='border:1px solid #ccc;padding:8px 16px;background:#f5f5f5;'>pH 8.1 (normal)</th><th style='border:1px solid #ccc;padding:8px 16px;background:#f5f5f5;'>pH 7.8 (acidified)</th><th style='border:1px solid #ccc;padding:8px 16px;background:#f5f5f5;'>Shell Mass Change</th></tr></thead><tbody><tr><td style='border:1px solid #ccc;padding:8px 16px;'>Pacific oyster</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>&minus;18%</td></tr><tr><td style='border:1px solid #ccc;padding:8px 16px;'>Purple sea urchin</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>&minus;6%</td></tr><tr><td style='border:1px solid #ccc;padding:8px 16px;'>Pteropod (sea snail)</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Dissolved</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>N/A</td></tr></tbody></table><br>The biologist concluded that all three species are negatively affected by ocean acidification. Which choice best describes how the data in the table relates to this conclusion?",
       "choices": [
-        "They build their shells or skeletons from a material that dissolves in acidic water.",
-        "They cannot tolerate the rising water temperatures caused by increased CO₂ levels.",
-        "They depend on plankton for food, and plankton populations have declined.",
-        "They are unable to regulate their internal pH in response to environmental changes."
+        "The data fully support the conclusion, since all three species show measurable negative effects under acidified conditions.",
+        "The data partially support the conclusion — while the pteropod and Pacific oyster show clear negative effects, the purple sea urchin's shell loss of only 6% may not constitute a significant impact.",
+        "The data undermine the conclusion, because two of the three species survived exposure to acidified water.",
+        "The data are insufficient to support the conclusion, since the experiment only lasted 30 days."
       ],
-      "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>For <em>According to the Text</em> questions, the correct answer is directly stated in the passage. The passage says organisms that build shells from calcium carbonate are vulnerable because \"acidic water dissolves the calcium carbonate they depend on.\"</div><div class='explanation-step'><strong>B)</strong> The passage discusses pH, not temperature. Eliminate B.</div><div class='explanation-step'><strong>A)</strong> Directly matches the passage's explanation — calcium carbonate structures dissolve in acidic water. Keep A.</div><div class='explanation-step'><strong>C)</strong> The passage mentions plankton as one of the vulnerable organisms, not as a food source. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Internal pH regulation is not mentioned in the passage. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Quantitative Evidence</em> questions, read the table carefully and assess how well the data match the conclusion. The biologist concludes that <em>all three</em> species are negatively affected.</div><div class='explanation-step'>The pteropod dissolved entirely — clearly negative. The Pacific oyster lost 18% of its shell mass — clearly negative. The purple sea urchin lost only 6% of shell mass and survived. Whether a 6% loss constitutes a &ldquo;significant negative effect&rdquo; is debatable, meaning the data only partially support the conclusion as stated.</div><div class='explanation-step'><strong>A)</strong> Claims all three show clear negative effects — but the purple sea urchin&rsquo;s 6% shell loss is ambiguous enough that calling it a definitive negative impact overstates what the data show. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Correctly identifies that the pteropod and oyster show clear negative effects, while raising a legitimate question about whether the sea urchin&rsquo;s modest shell loss confirms the conclusion for all three species. Keep B.</div><div class='explanation-step'><strong>C)</strong> Two species surviving does not undermine the conclusion — survival and negative effects are not mutually exclusive, as the shell mass data shows. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The experiment duration is not addressed in the conclusion or the table — introducing this as a limitation goes beyond the data provided. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-1-008",
@@ -508,10 +508,10 @@
         }
       ],
       "choices": [
-        "Urban trees improve air quality by filtering pollutants and can absorb up to 48 pounds of CO&sub2; per year.",
+        "Urban trees improve air quality by filtering pollutants and can absorb up to 48 pounds of CO₂ per year.",
         "Urban trees reduce flooding risk by absorbing stormwater through their root systems.",
         "Urban trees provide multiple environmental benefits, including temperature reduction, stormwater absorption, and air quality improvement.",
-        "Urban trees reduce local temperatures by 2&ndash;4&deg;C, lower building cooling costs, and absorb significant amounts of CO&sub2;, making them a valuable tool for urban climate adaptation."
+        "Urban trees reduce local temperatures by 2&ndash;4&deg;C, lower building cooling costs, and absorb significant amounts of CO₂, making them a valuable tool for urban climate adaptation."
       ],
       "answerIndex": 3,
       "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is key. The student wants to emphasize <em>climate-related</em> benefits specifically — not all environmental benefits.</div><div class='explanation-step'><strong>A)</strong> CO₂ absorption is climate-related, but air quality filtering is a general environmental benefit, not specifically a climate benefit. Eliminate A., but air quality filtering is a general environmental benefit, not specifically a climate benefit. Eliminate A.</div><div class='explanation-step'><strong>D)</strong> Combines three specifically climate-related benefits (temperature reduction, cooling costs, CO₂ absorption) and frames them explicitly as climate adaptation tools. Keep D. (temperature reduction, cooling costs, CO₂ absorption) and frames them explicitly as climate adaptation tools. Keep D.</div><div class='explanation-step'><strong>B)</strong> Stormwater absorption addresses flooding, not climate specifically. Eliminate B., not climate specifically. Eliminate C.</div><div class='explanation-step'><strong>C)</strong> Too broad — includes stormwater and air quality, which are not specifically climate benefits. Eliminate C. — includes stormwater and air quality, which are not specifically climate benefits. Eliminate D.</div><br><br>The correct answer is <strong>D</strong>."
@@ -567,62 +567,27 @@
           "style": "default"
         },
         {
-          "text": "• The passenger pigeon was once the most abundant bird in North America, with flocks numbering in the billions.\n• The last known passenger pigeon, named Martha, died in captivity at the Cincinnati Zoo in 1914.\n• Hunting and habitat destruction caused the species&rsquo; rapid decline in the late 1800s.\n• The extinction took less than 50 years from peak abundance to complete disappearance.\n• De-extinction scientists are now attempting to revive the passenger pigeon using genetic engineering.",
+          "text": "• The passenger pigeon was once the most abundant bird in North America, with flocks numbering in the billions.\n• The last known passenger pigeon, named Martha, died in captivity at the Cincinnati Zoo in 1914.\n• Hunting and habitat destruction caused the species’ rapid decline in the late 1800s.\n• The extinction took less than 50 years from peak abundance to complete disappearance.\n• De-extinction scientists are now attempting to revive the passenger pigeon using genetic engineering.",
           "align": "left",
           "style": "notes"
         },
         {
-          "text": "The student wants to illustrate how quickly a seemingly invulnerable species can collapse. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+          "text": "The student wants to argue that the passenger pigeon’s extinction should complicate narratives of American industrial progress in the late nineteenth century. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
           "align": "left",
           "style": "question"
         }
       ],
       "choices": [
-        "The last passenger pigeon, Martha, died at the Cincinnati Zoo in 1914, marking the species&rsquo; complete extinction.",
-        "De-extinction scientists are using genetic engineering in an attempt to revive the passenger pigeon.",
-        "Once numbering in the billions and seemingly inexhaustible, the passenger pigeon went from peak abundance to complete extinction in fewer than 50 years.",
-        "Hunting and habitat destruction in the late 1800s were responsible for the decline of the passenger pigeon."
+        "The passenger pigeon, once numbering in the billions, went from peak abundance to complete extinction in fewer than 50 years — a collapse driven by the same hunting and habitat destruction that characterized American industrial expansion.",
+        "The last passenger pigeon, Martha, died at the Cincinnati Zoo in 1914, marking the end of a species that had once numbered in the billions.",
+        "De-extinction scientists are now attempting to revive the passenger pigeon through genetic engineering, raising questions about humanity’s responsibility for species it has eliminated.",
+        "Hunting and habitat destruction in the late 1800s were responsible for the passenger pigeon’s decline, though the species had recovered from population pressures before."
       ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is to illustrate how <em>quickly</em> a <em>seemingly invulnerable</em> species can collapse. The correct answer must show both the apparent invulnerability and the speed of collapse.</div><div class='explanation-step'><strong>A)</strong> States the fact of extinction but does not convey the contrast between prior abundance and rapid collapse. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Is about revival efforts — irrelevant to the collapse. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Captures both elements: \"numbering in the billions and seemingly inexhaustible\" (apparent invulnerability) and \"fewer than 50 years\" (speed). Keep C.</div><div class='explanation-step'><strong>D)</strong> Identifies the cause but not the speed or the contrast with prior abundance. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is to argue that the extinction should <em>complicate narratives of American industrial progress</em>. The correct answer must connect the extinction explicitly to the forces of industrial expansion, not just state that it happened.</div><div class='explanation-step'><strong>A)</strong> Directly links the extinction (&ldquo;collapse driven by hunting and habitat destruction&rdquo;) to the forces of industrial expansion, making the case that progress and extinction were connected. Keep A.</div><div class='explanation-step'><strong>B)</strong> States the fact of extinction and prior abundance but makes no connection to industrial progress or any argument about what the extinction should complicate. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Focuses on de-extinction efforts — a contemporary development that does not address industrial progress in the late nineteenth century. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Identifies the cause of decline but introduces a false claim (&ldquo;the species had recovered from population pressures before&rdquo;) not supported by the notes. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
       "id": "VerbalT2-1-026",
-      "type": "mcq",
-      "level": 3,
-      "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Rhetorical Synthesis",
-        "skill": "Using Notes"
-      },
-      "stemSegments": [
-        {
-          "text": "While researching a topic, a student has taken the following notes:",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "• The bystander effect — the tendency for people to be less likely to help in emergencies when others are present — was first documented by social psychologists John Darley and Bibb Latané in 1968.\n• Their research was prompted by the 1964 murder of Kitty Genovese in New York City, which was widely reported as having occurred in front of 38 witnesses who did not call the police.\n• Later investigations revealed that the original reporting was inaccurate — fewer witnesses saw the attack than reported, and at least one person did call the police.\n• Darley and Latané's experimental findings have since been replicated in numerous controlled studies and remain influential in social psychology.\n• Critics have argued that applying laboratory findings about bystander behavior to real-world emergencies oversimplifies the conditions under which people choose to intervene.",
-          "align": "left",
-          "style": "notes"
-        },
-        {
-          "text": "The student wants to acknowledge the limitations of the original case that inspired the bystander effect research without undermining the validity of the research itself. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
-          "align": "left",
-          "style": "question"
-        }
-      ],
-      "choices": [
-        "The 1964 murder of Kitty Genovese, which prompted Darley and Latané's research, was widely reported as having occurred in front of 38 witnesses — a figure that later investigations revealed to be inaccurate.",
-        "Although the original reporting about the Genovese case that inspired the bystander effect research was later found to be inaccurate, Darley and Latané's experimental findings have since been replicated in numerous controlled studies.",
-        "Critics have argued that applying laboratory findings about bystander behavior to real-world emergencies oversimplifies the conditions under which people choose to intervene.",
-        "The bystander effect was first documented by John Darley and Bibb Latané in 1968, following the widely publicized murder of Kitty Genovese in New York City."
-      ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal requires a precise balance: acknowledge the limitations of the original case while not undermining the research itself. The correct answer must do both simultaneously.</div><div class='explanation-step'><strong>A)</strong> Acknowledges the inaccurate reporting but does not address the validity of the subsequent research. Only half the goal is accomplished. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The word &ldquo;Although&rdquo; sets up the contrast precisely: the original case was flawed (limitation acknowledged) but the experimental findings were replicated (research validity preserved). Both parts of the goal are accomplished. Keep B.</div><div class='explanation-step'><strong>C)</strong> Presents critics&rsquo; concerns about applying lab findings to real situations — a different limitation than the one about the Genovese case, and one that does undermine the research rather than preserving its validity. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Introduces the research without acknowledging any limitation of the original case. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
-    },
-    {
-      "id": "VerbalT2-1-027",
       "type": "mcq",
       "level": 3,
       "skill": {
@@ -642,19 +607,54 @@
           "style": "notes"
         },
         {
-          "text": "The student wants to present Dr. Nakamura&rsquo;s central argument in a way that captures the tension between the railroad&rsquo;s celebrated status and its contested history. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+          "text": "The student wants to present Dr. Nakamura’s central argument in a way that captures the tension between the railroad’s celebrated status and its contested history. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
           "align": "left",
           "style": "question"
         }
       ],
       "choices": [
         "Chinese immigrant laborers, who made up approximately 80% of the Central Pacific workforce, were paid less than white workers and assigned the most dangerous tasks.",
-        "Dr. James Nakamura argues that historians have consistently misrepresented the role of Chinese laborers in building the transcontinental railroad.",
+        "Dr. Nakamura argues that the transcontinental railroad cannot be fully understood as a triumph of American industrialism without acknowledging the exploitative labor conditions that made it possible.",
         "An estimated 1,000 to 1,200 Chinese workers died during construction of the transcontinental railroad, though incomplete record-keeping makes the exact number impossible to determine.",
-        "Dr. Nakamura argues that the transcontinental railroad cannot be fully understood as a triumph of American industrialism without acknowledging that it was built on exploitative labor conditions that cost the lives of thousands of Chinese workers."
+        "Dr. James Nakamura argues that historians have consistently misrepresented the role of Chinese laborers in building the transcontinental railroad."
       ],
-      "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal is to capture the tension between the railroad&rsquo;s celebrated status and its contested history — both elements must be present.</div><div class='explanation-step'><strong>A)</strong> Describes the exploitative labor conditions but does not reference the railroad&rsquo;s celebrated status or the tension between the two. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Misrepresents Dr. Nakamura&rsquo;s argument — he says the railroad is rarely examined for its human costs, not that historians have consistently misrepresented it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Provides a specific statistic about deaths but does not capture the tension between celebration and exploitation. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Directly names the tension: the railroad is a &ldquo;triumph of American industrialism&rdquo; (celebrated status) that &ldquo;cannot be fully understood&rdquo; without acknowledging the exploitative labor conditions (contested history). Both elements of the goal are captured. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal is to capture the tension between the railroad’s celebrated status and its contested history — both elements must be present in the correct answer.</div><div class='explanation-step'><strong>A)</strong> Describes the exploitative labor conditions accurately but does not reference the railroad’s celebrated status or the tension between the two narratives. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Directly names the tension: the railroad is &ldquo;a triumph of American industrialism&rdquo; (celebrated) that &ldquo;cannot be fully understood&rdquo; without acknowledging exploitation (contested) — both elements captured. Keep B.</div><div class='explanation-step'><strong>C)</strong> Provides a specific statistic about deaths but does not address the tension between celebration and exploitation. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Misrepresents Dr. Nakamura’s argument — he says the railroad is rarely examined for human costs, not that historians have consistently misrepresented it. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    },
+    {
+      "id": "VerbalT2-1-027",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Rhetorical Synthesis",
+        "skill": "Using Notes"
+      },
+      "stemSegments": [
+        {
+          "text": "While researching a topic, a student has taken the following notes:",
+          "align": "left",
+          "style": "default"
+        },
+        {
+          "text": "• Psychologist Dr. Angela Duckworth defines &ldquo;grit&rdquo; as the combination of passion and perseverance for long-term goals, which she argues predicts achievement better than talent or IQ alone.\n• Her research found that grit scores predicted graduation rates at West Point military academy more accurately than the academy&rsquo;s own composite admissions score.\n• Critics argue that grit research overlooks structural factors such as socioeconomic status, access to resources, and systemic discrimination that shape outcomes independently of individual persistence.\n• Duckworth acknowledges that grit is not the only factor in success but maintains that it is a meaningful and underappreciated one.\n• A 2022 meta-analysis of 88 studies found that grit&rsquo;s predictive power for academic achievement was significantly weaker than Duckworth&rsquo;s original studies suggested.",
+          "align": "left",
+          "style": "notes"
+        },
+        {
+          "text": "The student wants to explain why the 2022 meta-analysis poses a more significant challenge to Duckworth&rsquo;s theory than the critics&rsquo; structural objection does. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+      "choices": [
+        "Critics argue that structural factors like socioeconomic status shape outcomes independently of grit, but Duckworth acknowledges that grit is not the only factor in success.",
+        "While critics raise concerns about structural factors that grit research ignores, the 2022 meta-analysis directly challenges the empirical foundation of Duckworth’s claim by showing that grit’s predictive power is significantly weaker than her original studies indicated.",
+        "Dr. Duckworth’s research showed that grit predicted graduation at West Point more accurately than the academy’s own admissions composite, but this finding has not been replicated across other institutional contexts.",
+        "The 2022 meta-analysis of 88 studies represents the largest systematic review of grit research to date, making it the most comprehensive assessment of the theory’s validity."
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal requires a precise comparison: explain why the meta-analysis poses a <em>more significant</em> challenge than the structural objection. The correct answer must show that the meta-analysis attacks the empirical core of the theory, while the structural objection is one Duckworth has already partially accommodated.</div><div class='explanation-step'><strong>A)</strong> Shows the structural objection and Duckworth&rsquo;s response, but does not explain how the meta-analysis poses a greater challenge. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Correctly contrasts the two challenges: critics raise structural concerns (which Duckworth can partially absorb by acknowledging grit is not the only factor), while the meta-analysis directly undermines the empirical claim that grit is a strong predictor — the foundation of the theory. Keep B.</div><div class='explanation-step'><strong>C)</strong> Raises a question about replication of the West Point finding but does not address the meta-analysis or compare its significance to the structural objection. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Notes the meta-analysis&rsquo;s scope but does not explain why it poses a greater challenge than the structural objection. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     }
   ]
 }

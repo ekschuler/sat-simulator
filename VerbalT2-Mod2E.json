@@ -17,15 +17,15 @@
         "vocabulary",
         "sentence completion"
       ],
-      "stem": "The city council's decision to close the park drew <span class='blank'>_______</span> from local residents, many of whom signed petitions and attended public meetings specifically to express their opposition to the plan.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+      "stem": "Although the foundation had donated generously to the arts for decades, its board of directors remained <span class='blank'>_______</span> about funding experimental projects, preferring to support established institutions with proven track records over artists whose work had not yet found a wide audience.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
-        "praise",
-        "censure",
-        "indifference",
-        "curiosity"
+        "enthusiastic",
+        "cautious",
+        "divided",
+        "transparent"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank.</div><div class='explanation-step'>The clues are &ldquo;signed petitions&rdquo; and &ldquo;express their opposition&rdquo; — residents were actively against the decision. The blank should mean strong disapproval or criticism.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Praise&rdquo; means approval — the opposite of what the passage describes. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Censure&rdquo; means strong official disapproval or criticism. This fits residents who actively opposed the decision. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Indifference&rdquo; means a lack of interest or concern — inconsistent with residents who signed petitions and attended meetings. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Curiosity&rdquo; means interest in knowing something — unrelated to the active opposition described. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage. The word &ldquo;Although&rdquo; signals a direction change: despite decades of generous donations, the board had a specific attitude toward experimental projects. The clue that follows — &ldquo;preferring established institutions with proven track records over artists whose work had not yet found a wide audience&rdquo; — shows the board avoided unproven work.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Enthusiastic&rdquo; is the opposite of what the clues suggest — the board avoided experimental projects. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Cautious&rdquo; means careful and hesitant about risk — consistent with preferring proven institutions over unproven artists. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Divided&rdquo; implies internal disagreement — the passage describes a consistent preference, not a split board. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Transparent&rdquo; means open and honest — unrelated to the board&rsquo;s attitude toward experimental funding. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-2E-002",
@@ -40,15 +40,15 @@
         "vocabulary",
         "sentence completion"
       ],
-      "stem": "The documentary filmmaker was known for her <span class='blank'>_______</span> style: she gave her subjects ample time to speak without interruption, trusting that their unedited words would be more compelling than any narration she might add.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+      "stem": "The wildlife photographer spent months in the field documenting endangered species, but her methods were <span class='blank'>_______</span>: she used long lenses and remained hidden for hours at a time, ensuring that her presence never altered the animals' natural behavior.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
         "intrusive",
-        "didactic",
+        "systematic",
         "unobtrusive",
-        "combative"
+        "deliberate"
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank.</div><div class='explanation-step'>The filmmaker &ldquo;gave subjects ample time to speak without interruption&rdquo; and trusted their unedited words over her own narration. This describes a hands-off, non-interfering style.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Intrusive&rdquo; means overly involved or interfering — the opposite of giving subjects space to speak without interruption. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Didactic&rdquo; means intended to teach a moral lesson — unrelated to the filmmaker's non-interfering approach. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Unobtrusive&rdquo; means not drawing attention to oneself, not interfering. A filmmaker who stays in the background and lets subjects speak uninterrupted is unobtrusive. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Combative&rdquo; means eager to argue or fight — the opposite of someone who lets subjects speak freely. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage. The colon after the blank introduces an explanation of what the blank means: she &ldquo;used long lenses,&rdquo; &ldquo;remained hidden,&rdquo; and ensured her presence &ldquo;never altered the animals' natural behavior.&rdquo; All three clues point to a hands-off, non-interfering approach.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Intrusive&rdquo; means interfering or disruptive — the opposite of what the clues describe. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Systematic&rdquo; means organized and methodical — while her approach may be systematic, this doesn&rsquo;t capture the key quality of not disturbing the animals. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Unobtrusive&rdquo; means not drawing attention or interfering — precisely what long lenses and hiding for hours achieves. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Deliberate&rdquo; means intentional and careful — while related, it doesn&rsquo;t capture the specific quality of non-interference that the clues emphasize. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
     },
     {
       "id": "VerbalT2-2E-003",
@@ -63,15 +63,15 @@
         "vocabulary",
         "sentence completion"
       ],
-      "stem": "Though often described as shy in person, the poet's written voice was anything but <span class='blank'>_______</span>: her verses were bold and confrontational, unsparing in their criticism of political leaders and social conventions.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+      "stem": "Though colleagues described the scientist as reserved in professional settings, her published writing was anything but <span class='blank'>_______</span>: her papers challenged foundational assumptions in the field and called for wholesale revisions to methods that had gone unquestioned for decades.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
         "reticent",
-        "eloquent",
+        "rigorous",
         "restrained",
-        "verbose"
+        "conventional"
       ],
       "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank.</div><div class='explanation-step'>The phrase &ldquo;anything but&rdquo; signals that the blank describes something the written voice was NOT. The poet was described as &ldquo;shy in person,&rdquo; and the written voice contrasted with that — it was &ldquo;bold,&rdquo; &ldquo;confrontational,&rdquo; and &ldquo;unsparing.&rdquo; The blank should mean something like shy or reluctant to speak, since the voice was anything but that.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Reticent&rdquo; means reluctant to speak or reserved. The written voice was &ldquo;anything but&rdquo; reserved — it was bold and confrontational. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Eloquent&rdquo; means expressing ideas well and persuasively. The written voice might well be eloquent, so saying it was &ldquo;anything but eloquent&rdquo; would contradict the passage. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Restrained&rdquo; is a strong trap — like reticent, it means held back. However, &ldquo;reticent&rdquo; specifically echoes &ldquo;shy&rdquo; (reluctant to speak) more precisely than &ldquo;restrained&rdquo; does. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Verbose&rdquo; means using too many words. The passage does not suggest the written voice was wordy — it suggests it was bold and direct. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, the phrase &ldquo;anything but&rdquo; signals that the blank describes a quality the writing did NOT have. Colleagues described her as &ldquo;reserved&rdquo; — and the writing was &ldquo;anything but&rdquo; that same quality. The colon then confirms: she challenged foundational assumptions and called for wholesale revisions — bold, not reserved.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Reticent&rdquo; means reluctant to speak or express opinions — a close synonym for &ldquo;reserved.&rdquo; Her writing was &ldquo;anything but reticent&rdquo; — it challenged assumptions boldly. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Rigorous&rdquo; means thorough and demanding — her writing sounds rigorous, so saying it was &ldquo;anything but rigorous&rdquo; would contradict the passage. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Restrained&rdquo; is a strong trap — it is close in meaning to &ldquo;reticent,&rdquo; but &ldquo;restrained&rdquo; means held back in a general sense, while &ldquo;reticent&rdquo; specifically echoes &ldquo;reserved&rdquo; (reluctant to speak or express opinions). The passage uses &ldquo;reserved&rdquo; as the foil, so &ldquo;reticent&rdquo; is the more precise match. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Conventional&rdquo; means following established norms — her writing challenged foundational assumptions, so it wasn&rsquo;t conventional, but the blank must echo &ldquo;reserved,&rdquo; not describe her relationship to convention. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
       "id": "VerbalT2-2E-004",
@@ -86,15 +86,15 @@
         "vocabulary",
         "sentence completion"
       ],
-      "stem": "The professor's lectures were widely praised for their <span class='blank'>_______</span> quality: even the most complex theoretical concepts were broken down into clear, step-by-step explanations that students with no prior background could follow.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+      "stem": "Students who struggled in other courses consistently thrived in Professor Okafor's seminars, a pattern her colleagues attributed to her <span class='blank'>_______</span> teaching style: she had a talent for breaking down complex ideas into sequences that built on each other, so that even students with no background in the subject found themselves able to follow — and eventually contribute to — difficult discussions.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
-        "abstruse",
+        "demanding",
+        "flexible",
         "lucid",
-        "redundant",
-        "verbose"
+        "innovative"
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank.</div><div class='explanation-step'>The lectures were praised because &ldquo;complex concepts were broken down into clear, step-by-step explanations&rdquo; that even novices could follow. The blank should mean something like clear or easy to understand.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Abstruse&rdquo; means difficult to understand — the opposite of what is described. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Lucid&rdquo; means clear and easy to understand. Lectures praised for making complex ideas accessible would be lucid. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Redundant&rdquo; means unnecessarily repetitive — unrelated to clarity or accessibility. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Verbose&rdquo; means using too many words, which is not a quality that would be praised. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, the colon introduces the explanation of the blank: she broke down complex ideas into building sequences so that even students without background could follow and contribute. This describes a teaching style defined by clarity and accessibility.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Demanding&rdquo; means requiring great effort — the passage describes students thriving, not struggling harder. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Lucid&rdquo; means clear and easy to understand — a teacher who makes complex ideas accessible through sequenced building blocks is lucid. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Flexible&rdquo; means adaptable — while related, the passage emphasizes clarity of explanation, not adaptability. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Innovative&rdquo; means introducing new methods — the passage describes the effectiveness of her approach, not its novelty. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-2E-005",
@@ -108,11 +108,11 @@
       "stem": "The human body operates on a roughly 24-hour internal clock known as the circadian rhythm, which regulates sleep-wake cycles, hormone release, body temperature, and other physiological processes. This biological clock is primarily synchronized by exposure to light, particularly sunlight. When people travel across time zones or work night shifts, their circadian rhythms are disrupted, a condition associated with increased risk of sleep disorders, metabolic problems, and cardiovascular disease. Researchers are now investigating chronotherapy — timing medical treatments to align with the body's natural rhythms — as a way to improve treatment outcomes.<br><br>What is the main purpose of the text?",
       "choices": [
         "To argue that night shift workers should receive compensation for health risks",
-        "To describe the circadian rhythm and explain its significance for health and medicine",
         "To compare the circadian rhythms of people in different time zones",
-        "To explain how chronotherapy was developed as a medical treatment"
+        "To explain how chronotherapy was developed as a medical treatment",
+        "To describe the circadian rhythm and explain its significance for health and medicine"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "<div class='explanation-step'>For <em>Main Purpose</em> questions, the correct answer must cover the full scope of the passage. Before looking at choices, summarize: the passage explains what circadian rhythms are, what disrupts them, the health consequences, and their emerging medical application.</div><div class='explanation-step'><strong>A)</strong> The passage mentions health risks but makes no argument about compensation. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Covers the full arc: what circadian rhythms are, why they matter for health, and their medical significance. Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage mentions time zones as one disruptor but does not compare rhythms across zones. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Chronotherapy is mentioned only in the final sentence as an emerging area — it is not the main topic. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
@@ -127,7 +127,7 @@
       "stem": "When Johannes Gutenberg introduced movable type printing to Europe around 1440, the production of books was transformed from a slow, manual process requiring months of labor by skilled scribes into one that could produce hundreds of identical copies in days. The new technology allowed ideas to spread rapidly across geographic and linguistic boundaries. Within decades, printed texts had contributed to the spread of the Protestant Reformation, the Scientific Revolution, and new forms of vernacular literature that challenged Latin's dominance as the language of scholarship.<br><br>According to the text, what was one effect of Gutenberg's printing press?",
       "choices": [
         "It replaced Latin with vernacular languages as the primary language of scholarship.",
-        "It enabled ideas to spread more rapidly across geographic and linguistic boundaries.",
+        "It enabled ideas and information to travel across previously impassable geographic and cultural boundaries.",
         "It made skilled scribes obsolete within a generation of its introduction.",
         "It was primarily responsible for the success of the Protestant Reformation."
       ],
@@ -146,11 +146,11 @@
       "stem": "Social psychologists have documented a counterintuitive phenomenon called the bystander effect: people are less likely to offer help in an emergency when other bystanders are present than when they are alone. In a series of experiments, researchers found that as the number of bystanders increased, the probability that any individual would intervene decreased. The researchers attributed this to diffusion of responsibility — each bystander assumes that someone else will act. The bystander effect has been replicated across cultures and contexts, suggesting that _______.<br><br>Which choice most logically completes the text?",
       "choices": [
         "people are more likely to help in emergencies when they receive prior training in first aid",
-        "the tendency to defer to others in emergencies is a deeply ingrained aspect of human social behavior",
         "small groups are less capable of responding to emergencies than individuals acting alone",
-        "the bystander effect is more pronounced in urban environments than in rural ones"
+        "the bystander effect is more pronounced in urban environments than in rural ones",
+        "the tendency to defer to others in emergencies is a deeply ingrained aspect of human social behavior"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions, the blank must follow directly from the passage's final claim. \"Replicated across cultures and contexts\" means the finding holds broadly — regardless of setting or background. The completion must reflect what this universality implies.</div><div class='explanation-step'><strong>A)</strong> First aid training is not mentioned and does not follow from the finding about cross-cultural replication. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> If the effect holds across all cultures and contexts, it suggests this tendency is a fundamental, deeply ingrained feature of human social behavior — not a cultural quirk. Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage describes individual inaction, not group incapacity. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The passage does not compare urban and rural settings. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
@@ -164,12 +164,12 @@
       },
       "stem": "Coral reefs cover less than one percent of the ocean floor yet support roughly a quarter of all marine species. Rising ocean temperatures, primarily driven by climate change, cause corals to expel the symbiotic algae living in their tissues, turning them white — a process known as bleaching. While bleached corals are not immediately dead, prolonged bleaching prevents the algae from returning, causing the coral to starve. Mass bleaching events have become more frequent and severe, with the Great Barrier Reef experiencing its first recorded mass bleaching in 1998 and several since.<br><br>Which choice best states the main idea of the text?",
       "choices": [
-        "Coral reefs are the most biodiverse ecosystems found in the world's oceans.",
         "Rising ocean temperatures caused by climate change are increasingly threatening coral reefs through bleaching.",
+        "Coral reefs are the most biodiverse ecosystems found in the world's oceans.",
         "The Great Barrier Reef has experienced more bleaching events than any other reef system in the world.",
         "Bleached corals always die within weeks of losing their symbiotic algae."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "<div class='explanation-step'>For <em>Main Idea</em> questions, the correct answer must cover the full scope of the passage. Summarize before looking at choices: coral reefs are ecologically important, climate change causes bleaching, bleaching threatens coral survival, and this is worsening.</div><div class='explanation-step'><strong>A)</strong> Coral reefs' biodiversity is mentioned as context in the first sentence, not the main topic. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Captures the main arc: climate change → rising temperatures → bleaching → increasing threat to reefs. Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage mentions the Great Barrier Reef as one example; it does not compare it to other reefs. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The passage says bleached corals are \"not immediately dead\" — this directly contradicts \"always die within weeks.\" Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
@@ -181,7 +181,7 @@
         "topic": "Text Structure and Purpose",
         "skill": "Overall Structure"
       },
-      "stem": "Historians long celebrated Christopher Columbus's voyages as opening trade routes between Europe and the Americas. Beginning in the late twentieth century, however, scholars began to complicate this narrative by examining what historian Alfred Crosby termed the \"Columbian Exchange\" — the transfer of plants, animals, diseases, and peoples between hemispheres. While the exchange brought transformative crops like potatoes and maize to Europe and contributed to population growth, it also carried smallpox, measles, and other diseases to the Americas, where indigenous populations had no immunity. These epidemics killed tens of millions of people and facilitated European conquest in ways that military force alone could not have achieved.<br><br>Which choice best describes the overall structure of the text?",
+      "stem": "For much of the twentieth century, historical accounts of the 1492 transatlantic voyages focused primarily on their role in establishing new trade routes between Europe and the Americas. Beginning in the late twentieth century, however, historians began to broaden this analysis by examining what historian Alfred Crosby termed the \"Columbian Exchange\" — the transfer of plants, animals, diseases, and peoples between hemispheres. While the exchange brought transformative crops like potatoes and maize to Europe and contributed to population growth, it also carried smallpox, measles, and other diseases to the Americas, where indigenous populations had no immunity. These epidemics devastated tens of millions of people and reshaped the balance of power between continents in ways that military force alone could not have achieved.<br><br>Which choice best describes the overall structure of the text?",
       "choices": [
         "It presents a historical discovery and then explains the methodology historians used to make it.",
         "It describes how historians' understanding of Columbus's voyages expanded to include both transformative benefits and catastrophic costs.",
@@ -189,7 +189,7 @@
         "It compares European and indigenous American perspectives on the Columbian Exchange."
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Overall Structure</em> questions, identify what each part of the passage does. The first sentence describes the old historical view (celebrated trade routes). The second shifts to newer scholarship that complicates this. The third and fourth present both benefits and catastrophic costs.</div><div class='explanation-step'><strong>A)</strong> The passage does not describe historians' methodology — it describes how the narrative expanded. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Captures the two-part structure: old view (celebrated) → new, more complex view (benefits and catastrophic costs). Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage presents both sides without arguing that one outweighed the other. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The passage does not present indigenous perspectives — it describes the historical and demographic impact from an analytical standpoint. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Overall Structure</em> questions, identify what each part of the passage does. The first sentence describes the old historical view (celebrated trade routes). The second shifts to newer scholarship that complicates this. The third and fourth present both benefits and catastrophic costs.</div><div class='explanation-step'><strong>A)</strong> The passage does not describe historians' methodology — it describes how the narrative expanded. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Captures the two-part structure: earlier accounts focused on trade routes → later historians broadened the analysis to include both benefits and devastating costs. Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage presents both transformative benefits and catastrophic costs without arguing that one outweighed the other. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The passage does not present indigenous perspectives — it describes the historical and demographic impact from an analytical standpoint. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-2E-010",
@@ -203,11 +203,11 @@
       "stem": "Neurologist Dr. Priya Nair argues that familiar music activates memory networks in patients with Alzheimer's disease that remain relatively intact even in advanced stages of the condition, and that musical interventions can temporarily improve recall and emotional wellbeing in ways that verbal communication alone cannot achieve.<br><br>Which finding, if true, would most directly support Dr. Nair's claim?",
       "choices": [
         "Patients with Alzheimer's disease who receive music therapy report higher levels of life satisfaction than those who do not.",
-        "Alzheimer's patients who cannot recall family members' names are nonetheless able to sing along to songs from their youth and show improved mood and verbal responsiveness afterward.",
         "Music therapy has been shown to reduce anxiety in a wide range of neurological conditions beyond Alzheimer's disease.",
-        "The brain regions associated with musical memory are located in the temporal lobe, which also processes language."
+        "The brain regions associated with musical memory are located in the temporal lobe, which also processes language.",
+        "Alzheimer's patients who cannot recall family members' names are nonetheless able to sing along to songs from their youth and show improved mood and verbal responsiveness afterward."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "<div class='explanation-step'>For <em>Supporting a Claim</em> questions, identify the precise claim. Dr. Nair argues (1) musical memory networks remain intact in advanced Alzheimer's, and (2) musical interventions can improve recall and wellbeing beyond what verbal communication achieves. The correct answer must support both elements.</div><div class='explanation-step'><strong>A)</strong> Life satisfaction addresses wellbeing but not the specific claim about intact musical memory or improved recall. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Shows that musical memory is intact (singing along despite forgetting names) AND that it produces improved recall and mood — directly supporting both parts of Dr. Nair's claim. Keep B.</div><div class='explanation-step'><strong>C)</strong> Broadening to other neurological conditions doesn't specifically support the claim about Alzheimer's or about musical vs verbal communication. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> This is anatomical background information, not evidence of the clinical effect Dr. Nair describes. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
@@ -226,7 +226,7 @@
           "style": "default"
         },
         {
-          "text": "The object of this Essay is to assert one very simple principle, as entitled to govern absolutely the dealings of society with the individual in the way of compulsion and control. <u>That principle is, that the sole end for which mankind are warranted in interfering with the liberty of action of any of their number, is self-protection.</u>",
+          "text": "The object of this Essay is to assert one very simple principle, as entitled to govern absolutely the dealings of society with the individual in the way of compulsion and control, whether the means used be physical force in the form of legal penalties, or the moral coercion of public opinion. That principle is, that the sole end for which mankind are warranted in interfering with the liberty of action of any of their number, is self-protection. That the only purpose for which power can be rightfully exercised over any member of a civilised community, against his will, is to prevent harm to others. <u>His own good, either physical or moral, is not a sufficient warrant.</u> He cannot rightfully be compelled to do or forbear because it will be better for him to do so, because it will make him happier, because, in the opinions of others, to do so would be wise, or even right.",
           "align": "left",
           "style": "passage"
         },
@@ -238,11 +238,11 @@
       ],
       "choices": [
         "It introduces a counterexample that qualifies the principle stated in the preceding sentence.",
-        "It states the precise content of the principle the essay aims to establish.",
         "It provides historical context for the development of liberal political philosophy.",
+        "It states the precise content of the principle the essay aims to establish.",
         "It contrasts individual liberty with the collective interests of society."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "<div class='explanation-step'>For <em>Function of a Sentence</em> questions, read the preceding sentence to understand what the underlined sentence does in relation to it. The first sentence announces that the essay will assert \"one very simple principle.\" The underlined sentence delivers exactly that principle.</div><div class='explanation-step'><strong>A)</strong> The sentence does not introduce a counterexample — it states the principle directly. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The first sentence announces a principle; the underlined sentence states its precise content. Keep B.</div><div class='explanation-step'><strong>C)</strong> No historical context is provided — the sentence is purely definitional. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The sentence defines when interference is warranted; it does not draw a contrast between individual and collective interests. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
@@ -254,15 +254,15 @@
         "topic": "Command of Evidence",
         "skill": "Textual Evidence"
       },
-      "stem": "Environmental scientist Dr. Lucas Ferreira argues that microplastics — tiny plastic particles less than five millimeters in size — pose a significant and direct threat to human health, and that the concentrations currently found in food, water, and air are sufficient to cause measurable physiological harm in adults.<br><br>Which finding, if true, would most directly undermine Dr. Ferreira's claim?",
+      "stem": "Environmental scientist Dr. Lucas Ferreira argues that microplastics — tiny plastic particles less than five millimeters in size — pose a significant and direct threat to human health. He contends that the concentrations of microplastics currently found in food, drinking water, and indoor air are sufficient to cause measurable physiological harm in adults, including inflammation, hormonal disruption, and impaired immune response. Dr. Ferreira bases this claim primarily on in vitro studies — experiments conducted on isolated cells outside of a living organism — which have shown cellular damage at microplastic concentrations similar to those detected in environmental samples.<br><br>Which finding, if true, would most directly undermine Dr. Ferreira's claim?",
       "choices": [
-        "Microplastics have been detected in human blood, lung tissue, and breast milk.",
-        "Studies exposing human cells to microplastics in laboratory settings have found cellular damage only at concentrations far higher than those typically encountered in daily life.",
-        "The production of single-use plastics has increased by 300% since the 1990s.",
-        "Microplastics break down into nanoplastics over time, which may penetrate human tissue more easily."
+        "The in vitro studies Dr. Ferreira cites have not been replicated in living organisms, and animal studies using equivalent concentrations have shown no significant physiological harm.",
+        "Microplastics have been detected in human blood, lung tissue, and placental samples collected from adults in multiple countries.",
+        "The production of single-use plastics has increased by over 300% since the 1990s, resulting in higher environmental microplastic concentrations.",
+        "Microplastics break down into nanoplastics over time, which are smaller and may penetrate human tissue more easily than microplastics themselves."
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Weakening a Claim</em> questions, identify the precise claim. Dr. Ferreira argues that current concentrations of microplastics are sufficient to cause measurable harm. To undermine this, the correct answer must show that current concentrations are NOT sufficient to cause harm.</div><div class='explanation-step'><strong>A)</strong> Detecting microplastics in the body supports the idea that exposure occurs — this actually supports Dr. Ferreira's concern. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> If harm only occurs at concentrations far higher than real-world exposure, then current concentrations are not sufficient — directly undermining Dr. Ferreira's specific claim. Keep B.</div><div class='explanation-step'><strong>C)</strong> Increased plastic production addresses supply, not whether current concentrations cause harm. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Nanoplastics being more penetrating would extend rather than undermine concern about plastic harm. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>Weakening a Claim</em> questions, identify the precise claim. Dr. Ferreira argues that current environmental concentrations of microplastics cause measurable physiological harm. He bases this on in vitro studies. The correct answer must undermine the connection between his evidence and his conclusion.</div><div class='explanation-step'><strong>A)</strong> Detection of microplastics in human tissue supports Dr. Ferreira&rsquo;s concern about exposure — this strengthens, not weakens. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> If the in vitro studies haven&rsquo;t been replicated in living organisms and animal studies at equivalent concentrations show no harm, this directly undermines the leap from lab evidence to real-world health threat. Keep B.</div><div class='explanation-step'><strong>C)</strong> Increased production addresses supply, not whether current concentrations cause harm. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Nanoplastics being more penetrating extends rather than undermines concern about plastic harm. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-2E-013",
@@ -303,15 +303,15 @@
         "topic": "Form, Structure, and Sense",
         "skill": "Standard English Conventions"
       },
-      "stem": "The deep sea exploration team made a remarkable discovery: the ocean <span class='blank'>_______</span> floor contained hydrothermal vents teeming with previously unknown species of tube worms and crustaceans.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "stem": "The deep-sea exploration team made a remarkable discovery when <span class='blank'>_______</span> submersible captured footage of hydrothermal vents teeming with previously undocumented species of tube worms and crustaceans.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
       "choices": [
-        "ocean's",
-        "oceans'",
-        "oceans",
-        "oceans's"
+        "their",
+        "its",
+        "the team's",
+        "them"
       ],
       "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>This question tests <strong>Apostrophe and Possession</strong>. The floor belongs to the ocean — a singular noun. To show singular possession, add an apostrophe followed by s.</div><div class='explanation-step'><strong>A)</strong> \"Ocean's\" is the correct singular possessive. Keep A.</div><div class='explanation-step'><strong>B)</strong> \"Oceans'\" is plural possessive — would mean the floor belongs to multiple oceans. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"Oceans\" is simply plural with no possessive — does not show ownership. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Oceans's\" is not a standard English form. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+      "explanation": "<div class='explanation-step'>This question tests <strong>Pronoun-Antecedent Agreement</strong>. The pronoun in the blank must agree with its antecedent &ldquo;team.&rdquo; The submersible belongs to the team.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Their&rdquo; is plural and refers to the team — collective nouns like &ldquo;team&rdquo; can take &ldquo;their&rdquo; when referring to the members acting collectively. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Its&rdquo; is singular and could refer to the team as a unit, but &ldquo;its submersible&rdquo; sounds less natural than &ldquo;their submersible&rdquo; for a team of people. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;The team&rsquo;s&rdquo; is grammatically correct but redundant — the team is already established as the subject, and repeating the noun is unnecessarily wordy. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Them&rdquo; is an object pronoun — it cannot modify a noun. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
       "id": "VerbalT2-2E-015",
@@ -325,11 +325,11 @@
       "stem": "The history of vaccination includes milestones such as Edward Jenner's development of the smallpox vaccine, Louis Pasteur's creation of the rabies vaccine, and <span class='blank'>_______</span> polio vaccine in the 1950s.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
       "choices": [
         "Jonas Salk developed the",
-        "Jonas Salk's development of the",
         "the development of Jonas Salk's",
+        "Jonas Salk's development of the",
         "when Jonas Salk developed the"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "<div class='explanation-step'>This question tests <strong>Parallel Structure</strong>. The sentence lists three items after \"such as\": \"Edward Jenner's development of...,\" \"Louis Pasteur's creation of...,\" and a third item. All three must follow the same grammatical pattern: possessive noun + noun + \"of the\" + item.</div><div class='explanation-step'><strong>A)</strong> \"Jonas Salk developed the\" introduces a full clause, which breaks the parallel structure of the noun phrase list. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Jonas Salk's development of the\" matches the pattern of the other two items. Keep B.</div><div class='explanation-step'><strong>C)</strong> \"The development of Jonas Salk's\" reverses the possessive structure and breaks parallel form. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"When Jonas Salk developed the\" introduces a subordinate clause, breaking parallel structure. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
@@ -345,10 +345,10 @@
       "choices": [
         "observe",
         "to observe",
-        "observing",
-        "observed"
+        "observed",
+        "observing"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "<div class='explanation-step'>This question tests <strong>Gerund vs Infinitive</strong> after \"make.\" The structure \"make [something] [adjective]\" requires a gerund (verb + -ing) as the object of \"made.\" The sentence structure is: \"has made [observing certain constellations] [increasingly difficult].\"</div><div class='explanation-step'><strong>A)</strong> \"Observe\" is a bare infinitive — not standard after \"made\" in this construction. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"To observe\" is an infinitive — while sometimes used after \"make,\" it creates awkward phrasing here: \"has made to observe certain constellations difficult.\" Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"Observing\" is a gerund — creates a natural noun phrase: \"has made observing certain constellations increasingly difficult.\" Keep C.</div><div class='explanation-step'><strong>D)</strong> \"Observed\" is past tense — makes no grammatical sense in this construction. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
     },
     {
@@ -363,11 +363,11 @@
       "stem": "Rosalind Franklin, <span class='blank'>_______</span> X-ray crystallography work was crucial to determining the structure of DNA, received little public recognition during her lifetime.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
       "choices": [
         "who's",
-        "whose",
         "which",
-        "that"
+        "that",
+        "whose"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "<div class='explanation-step'>This question tests <strong>Relative Pronouns</strong>. The blank introduces a relative clause modifying Rosalind Franklin — a person. The clause describes something belonging to her (her X-ray crystallography work), so a possessive relative pronoun is needed.</div><div class='explanation-step'><strong>A)</strong> \"Who's\" is a contraction meaning \"who is\" — reading it in: \"Rosalind Franklin, who is X-ray crystallography work...\" — makes no sense. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Whose\" is the possessive relative pronoun for people — \"whose X-ray crystallography work\" correctly indicates the work belongs to Franklin. Keep B.</div><div class='explanation-step'><strong>C)</strong> \"Which\" is used for things, not people. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"That\" introduces a restrictive clause but cannot be possessive. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
@@ -398,15 +398,15 @@
         "topic": "Form, Structure, and Sense",
         "skill": "Standard English Conventions"
       },
-      "stem": "The ancient Romans used a concrete formula containing volcanic ash that allowed their structures to strengthen over time <span class='blank'>_______</span> modern concrete, by contrast, tends to weaken and crack within decades.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "stem": "The ancient Romans developed a concrete formula containing volcanic ash <span class='blank'>_______</span> unlike modern Portland cement, which weakens and cracks within decades, has been shown to strengthen over time when exposed to seawater.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
       "choices": [
-        ",",
-        ";",
-        ":",
-        ", so"
+        "that,",
+        "which,",
+        "that",
+        "which"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>This question tests <strong>Punctuation Between Independent Clauses</strong>. Both parts of the sentence are independent clauses. \"The ancient Romans used a concrete formula...\" and \"modern concrete...tends to weaken\" can each stand alone.</div><div class='explanation-step'><strong>A)</strong> A comma alone between two independent clauses creates a comma splice. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> A semicolon correctly joins two related independent clauses — the second clause contrasts with the first, making the semicolon appropriate. Keep B.</div><div class='explanation-step'><strong>C)</strong> A colon introduces an explanation or list. The second clause is a contrasting statement, not an elaboration. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \", so\" implies causation — modern concrete weakening is not caused by Roman concrete strengthening. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "explanation": "<div class='explanation-step'>This question tests <strong>Restrictive vs Nonrestrictive Clauses</strong>. The clause that follows provides additional information about the concrete formula — it is not essential to identifying which formula is meant (it is already identified as the Roman formula). Nonrestrictive clauses use &ldquo;which&rdquo; and require a comma.</div><div class='explanation-step'><strong>A)</strong> &ldquo;That,&rdquo; — &ldquo;that&rdquo; introduces a restrictive clause and should not be followed by a comma. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Which,&rdquo; — &ldquo;which&rdquo; correctly introduces a nonrestrictive clause, and the comma correctly sets it off from the main clause. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;that&rdquo; without a comma introduces a restrictive clause — but this clause is nonrestrictive (the formula is already fully identified). Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;which&rdquo; without a comma — nonrestrictive clauses introduced by &ldquo;which&rdquo; require a preceding comma. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-2E-020",
@@ -419,12 +419,12 @@
       },
       "stem": "Tidal energy — generated by harnessing the movement of ocean tides — is a renewable power source with considerable theoretical potential, as tides are predictable and consistent in ways that wind and solar energy are not. <span class='blank'>_______</span> the high cost of underwater infrastructure and the limited number of suitable coastal locations have prevented tidal energy from being deployed at scale.<br><br>Which choice completes the text with the most logical transition?",
       "choices": [
-        "However,",
         "Therefore,",
         "Moreover,",
-        "Indeed,"
+        "Indeed,",
+        "However,"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "<div class='explanation-step'>For <em>Logical Transition</em> questions, determine the relationship between the ideas. The first sentence describes tidal energy's considerable potential. The second introduces barriers that have prevented its deployment — a complication or qualification of the first idea. The transition must signal contrast.</div><div class='explanation-step'><strong>A)</strong> \"However\" signals contrast — despite the potential (first sentence), barriers exist (second sentence). Keep A.</div><div class='explanation-step'><strong>B)</strong> \"Therefore\" signals that the second idea results from the first — the barriers are not caused by the potential. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"Moreover\" signals addition — the second sentence is not adding to the positive case but complicating it. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Indeed\" signals confirmation — the second sentence does not confirm the first. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
@@ -439,11 +439,11 @@
       "stem": "Research on food deserts — areas with limited access to affordable, nutritious food — has shown that residents of these communities have higher rates of diet-related diseases such as type 2 diabetes and cardiovascular disease. <span class='blank'>_______</span> the lack of grocery stores in food deserts is often accompanied by an abundance of fast food outlets, further limiting residents' dietary options.<br><br>Which choice completes the text with the most logical transition?",
       "choices": [
         "However,",
-        "Furthermore,",
         "That said,",
+        "Furthermore,",
         "Nevertheless,"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "<div class='explanation-step'>For <em>Logical Transition</em> questions at level 2, determine the precise relationship. The first sentence identifies that food deserts lead to higher disease rates. The second adds a compounding factor — not just fewer healthy options, but also more unhealthy ones. The transition must signal addition or elaboration.</div><div class='explanation-step'><strong>A)</strong> \"However\" signals contrast — the second sentence does not contradict the first but adds to it. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Furthermore\" signals addition of a related, compounding point — the second sentence adds another dimension of the same problem. Keep B.</div><div class='explanation-step'><strong>C)</strong> \"That said\" signals a qualification or complication of the previous point — the second sentence compounds rather than qualifies. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Nevertheless\" implies persistence despite an obstacle — there is no obstacle being overcome here. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
@@ -451,105 +451,57 @@
       "type": "mcq",
       "level": 1,
       "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Rhetorical Synthesis",
-        "skill": "Using Notes"
+        "domain": "Information and Ideas",
+        "topic": "Central Ideas and Details",
+        "skill": "Logical Completion"
       },
-      "stemSegments": [
-        {
-          "text": "While researching a topic, a student has taken the following notes:",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "• Octopuses have the largest brains of any invertebrate relative to body size.\n• They can unscrew jar lids, navigate mazes, and use tools such as coconut shells for shelter.\n• Octopuses have approximately 500 million neurons &mdash; comparable to a dog.\n• Each of an octopus&rsquo;s eight arms contains two-thirds of its neurons and can act semi-independently.\n• Octopuses have been observed playing with objects in ways that appear to serve no practical purpose.",
-          "align": "left",
-          "style": "notes"
-        },
-        {
-          "text": "The student wants to provide evidence that octopuses display unusually sophisticated cognitive abilities for invertebrates. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
-          "align": "left",
-          "style": "question"
-        }
-      ],
+      "stem": "For centuries, natural philosophers assumed that the diversity of life on Earth was fixed — that species were created in their current forms and remained unchanged. The discovery of fossils of organisms with no living counterparts posed a direct challenge to this view, forcing scholars to confront the possibility that some species had ceased to exist entirely. The accumulating weight of such evidence suggested that _______.\n\nWhich choice most logically completes the text?",
       "choices": [
-        "Octopuses have approximately 500 million neurons, which is comparable to the number found in a dog's brain.",
-        "Each of an octopus's eight arms contains two-thirds of its neurons and can act semi-independently of the central brain.",
-        "Octopuses can unscrew jar lids, navigate mazes, use tools for shelter, and have been observed playing with objects — behaviors that collectively suggest cognitive sophistication uncommon among invertebrates.",
-        "Octopuses have the largest brains of any invertebrate relative to their body size."
+        "the history of life was not static but involved the disappearance of species that had once existed",
+        "natural philosophers had overestimated the age of the Earth by several orders of magnitude",
+        "fossil evidence was an unreliable guide to the actual diversity of prehistoric life",
+        "the variety of living species on Earth was far greater than scholars had previously recognized"
       ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal determines the correct answer. The student wants to provide evidence of unusually sophisticated cognitive abilities. The correct answer must cite behavioral evidence AND frame it as evidence of cognition uncommon among invertebrates.</div><div class='explanation-step'><strong>A)</strong> Neuron count provides anatomical context but doesn't directly demonstrate cognitive ability through behavior. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The distributed neuron structure is interesting but relates to neural architecture, not cognitive sophistication. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Lists multiple sophisticated behaviors (tool use, maze navigation, play) AND explicitly frames them as evidence of cognitive sophistication uncommon among invertebrates. Keep C.</div><div class='explanation-step'><strong>D)</strong> Relative brain size is anatomical, not behavioral evidence of cognitive ability. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions, the blank must follow directly from the passage. The passage describes two things: (1) the assumption that species were fixed and unchanging, and (2) fossils of organisms with no living counterparts challenging this view. The blank must capture what this challenge implies.</div><div class='explanation-step'><strong>A)</strong> The age of the Earth is not mentioned — this introduces a new idea not supported by the passage. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> If fossils show organisms that no longer exist, the history of life involved species disappearing — directly following from the evidence described. Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage presents fossils as challenging evidence, not as unreliable — this contradicts the passage. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The fossils suggest species disappeared, not that more species exist now — this reverses the implication. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-2E-023",
       "type": "mcq",
       "level": 1,
       "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Rhetorical Synthesis",
-        "skill": "Using Notes"
+        "domain": "Information and Ideas",
+        "topic": "Command of Evidence",
+        "skill": "Quantitative Evidence"
       },
-      "stemSegments": [
-        {
-          "text": "While researching a topic, a student has taken the following notes:",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "• The first public library in the United States opened in Peterborough, New Hampshire in 1833.\n• By 1900 there were over 1,700 public libraries in the US, largely due to Andrew Carnegie&rsquo;s philanthropic funding.\n• Carnegie funded the construction of 2,509 libraries worldwide between 1883 and 1929.\n• Modern public libraries offer not just books but also internet access, job training programs, and social services.\n• A 2019 Pew Research survey found that 90% of Americans believe public libraries are important to their communities.",
-          "align": "left",
-          "style": "notes"
-        },
-        {
-          "text": "The student wants to show that public libraries have evolved significantly beyond their original function. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
-          "align": "left",
-          "style": "question"
-        }
-      ],
+      "stem": "A researcher studying sleep patterns in college students collected the following data:<br><br><table style='border-collapse:collapse;margin:12px auto;font-size:14px;'><thead><tr><th style='border:1px solid #ccc;padding:8px 16px;background:#f5f5f5;'>Hours of Sleep Per Night</th><th style='border:1px solid #ccc;padding:8px 16px;background:#f5f5f5;'>Average GPA</th><th style='border:1px solid #ccc;padding:8px 16px;background:#f5f5f5;'>% Reporting High Stress</th></tr></thead><tbody><tr><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Less than 6</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>2.8</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>74%</td></tr><tr><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>6–7</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>3.1</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>58%</td></tr><tr><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>7–8</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>3.4</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>41%</td></tr><tr><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>More than 8</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>3.3</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>39%</td></tr></tbody></table><br>The researcher concluded that among college students, sleeping more hours is consistently associated with both higher academic performance and lower stress. Which finding from the table, if true, most directly challenges this conclusion?",
       "choices": [
-        "Andrew Carnegie funded the construction of over 2,500 libraries worldwide between 1883 and 1929.",
-        "The first public library in the United States opened in Peterborough, New Hampshire in 1833.",
-        "Modern public libraries now offer internet access, job training, and social services in addition to books, representing a significant expansion of their original function.",
-        "A 2019 Pew Research survey found that 90% of Americans consider public libraries important to their communities."
+        "Students sleeping less than 6 hours reported the highest stress levels at 74%.",
+        "Students sleeping more than 8 hours had a lower average GPA than those sleeping 7–8 hours.",
+        "The percentage of students reporting high stress declined steadily as sleep hours increased.",
+        "Students sleeping 6–7 hours had a higher GPA than those sleeping less than 6 hours."
       ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is to show that libraries have evolved beyond their original function. The correct answer must show what they do now compared to what they originally did.</div><div class='explanation-step'><strong>A)</strong> Carnegie's funding explains the growth of libraries historically but does not address their current expanded functions. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The origin date establishes history but says nothing about evolution of function. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Explicitly contrasts current offerings (internet, job training, social services) with the original implied function (books) and frames this as \"significant expansion.\" Keep C.</div><div class='explanation-step'><strong>D)</strong> Public opinion supports libraries' importance but does not demonstrate evolution of function. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Quantitative Evidence</em> questions, read the table carefully before looking at choices. The researcher concludes that more sleep is <em>consistently</em> associated with higher GPA and lower stress. To challenge this, find a data point that breaks the consistent pattern.</div><div class='explanation-step'><strong>A)</strong> Students sleeping less than 6 hours having the highest stress (74%) is consistent with the conclusion — more sleep, less stress. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Students sleeping more than 8 hours had a GPA of 3.3 — lower than the 3.4 for students sleeping 7–8 hours. This breaks the &ldquo;consistently associated&rdquo; pattern for GPA, directly challenging the conclusion. Keep B.</div><div class='explanation-step'><strong>C)</strong> Declining stress as sleep increases supports the conclusion. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Higher GPA with more sleep (6–7 vs less than 6) supports the conclusion. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-2E-024",
       "type": "mcq",
       "level": 2,
       "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Rhetorical Synthesis",
-        "skill": "Using Notes"
+        "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
       },
-      "stemSegments": [
-        {
-          "text": "While researching a topic, a student has taken the following notes:",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "• Light pollution &mdash; excess artificial light at night &mdash; now affects over 80% of the world&rsquo;s population.\n• The Milky Way is no longer visible to approximately one-third of humanity, including 60% of Europeans and 80% of North Americans.\n• Light pollution disrupts the sleep patterns of humans and the behavior of nocturnal wildlife.\n• A 2016 study found that light pollution has increased by approximately 2% per year globally since 1992.\n• The International Dark-Sky Association estimates that 30% of outdoor lighting in the US is wasted, costing \\$3.3 billion annually.",
-          "align": "left",
-          "style": "notes"
-        },
-        {
-          "text": "The student wants to present light pollution as both an environmental and an economic problem. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
-          "align": "left",
-          "style": "question"
-        }
-      ],
+      "stem": "The panel of experts convened by the federal agency to evaluate the safety of the proposed chemical compound <span class='blank'>_______</span> that further long-term studies were needed before any approval could be granted.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
       "choices": [
-        "Light pollution now affects over 80% of the world's population, and the Milky Way is no longer visible to approximately one-third of humanity.",
-        "A 2016 study found that global light pollution has increased by approximately 2% per year since 1992.",
-        "Light pollution disrupts the sleep patterns of humans and the behavior of nocturnal wildlife while also wasting an estimated \\$3.3 billion annually in the US through inefficient outdoor lighting.",
-        "The International Dark-Sky Association estimates that 30% of outdoor lighting in the US is wasted."
+        "concluded",
+        "have concluded",
+        "conclude",
+        "were concluding"
       ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal requires addressing <em>both</em> an environmental and an economic dimension. The correct answer must include evidence of each.</div><div class='explanation-step'><strong>A)</strong> Population affected and Milky Way visibility are environmental impacts — no economic dimension is included. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The rate of increase is relevant context but addresses neither the environmental nor the economic problem specifically. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Addresses the environmental dimension (disrupting human sleep and nocturnal wildlife) and the economic dimension ($3.3 billion wasted) in one sentence. Keep C.</div><div class='explanation-step'><strong>D)</strong> Mentions wasted lighting but without the dollar cost or the environmental impact — covers neither dimension fully. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>This question tests <strong>Subject-Verb Agreement</strong> with a long intervening phrase. The subject is &ldquo;panel&rdquo; — a singular collective noun. Everything between &ldquo;panel&rdquo; and the blank is a prepositional/participial phrase modifying the subject. Remove the intervening phrase: &ldquo;The panel... concluded.&rdquo;</div><div class='explanation-step'><strong>A)</strong> &ldquo;Concluded&rdquo; is singular simple past — correctly agrees with the singular subject &ldquo;panel.&rdquo; Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Have concluded&rdquo; is plural present perfect — does not agree with the singular &ldquo;panel.&rdquo; Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Conclude&rdquo; is plural present — does not agree with &ldquo;panel&rdquo; and shifts to present tense without reason. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Were concluding&rdquo; is plural past progressive — &ldquo;were&rdquo; does not agree with singular &ldquo;panel.&rdquo; Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
       "id": "VerbalT2-2E-025",
@@ -579,7 +531,7 @@
       ],
       "choices": [
         "Ancient Roman concrete was used in iconic structures such as the Pantheon and the Colosseum, which have survived for over 2,000 years.",
-        "Roman concrete contains volcanic ash that reacts to form minerals which strengthen the material over time, whereas modern Portland cement weakens — giving Roman concrete far greater longevity.",
+        "Roman concrete contains volcanic ash that reacts with seawater to form strengthening minerals, unlike modern cement, which weakens — giving Roman concrete far greater longevity.",
         "A 2023 study found that the self-healing properties of Roman concrete result from a technique called hot mixing with quicklime.",
         "Roman concrete structures have survived for over 2,000 years in harsh marine environments."
       ],
@@ -602,24 +554,24 @@
           "style": "default"
         },
         {
-          "text": "• Linguist Dr. Yuki Tanaka argues that language extinction is not merely a cultural loss but a scientific one.\n• Of the approximately 7,000 languages spoken today, roughly half are expected to disappear by 2100.\n• Many endangered languages encode unique ecological knowledge &mdash; names and uses of plants and animals unknown to science.\n• Dr. Tanaka&rsquo;s critics argue that language preservation efforts divert resources from more urgent poverty alleviation.\n• Dr. Tanaka counters that indigenous communities themselves overwhelmingly support language revitalization when given the choice.",
+          "text": "• Linguist Dr. Yuki Tanaka argues that language extinction is not merely a cultural loss but a scientific one.\n• Of the approximately 7,000 languages spoken today, roughly half are expected to disappear by 2100.\n• Many endangered languages encode unique ecological knowledge — names and uses of plants and animals unknown to science.\n• Dr. Tanaka&rsquo;s critics argue that language preservation efforts divert resources from more urgent poverty alleviation.\n• Dr. Tanaka notes that indigenous communities themselves overwhelmingly support language revitalization when given the choice.",
           "align": "left",
           "style": "notes"
         },
         {
-          "text": "The student wants to present Dr. Tanaka&rsquo;s strongest response to her critics. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+          "text": "The student wants to show that Dr. Tanaka&rsquo;s position is consistent with the priorities of the communities most affected by language extinction. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
           "align": "left",
           "style": "question"
         }
       ],
       "choices": [
-        "Linguist Dr. Yuki Tanaka argues that language extinction represents both a cultural and scientific loss, as endangered languages often encode unique ecological knowledge.",
-        "Critics of language preservation argue that such efforts divert resources from more urgent poverty alleviation programs.",
-        "Dr. Tanaka counters critics' resource concerns by pointing out that indigenous communities themselves overwhelmingly support language revitalization when given the choice, suggesting the communities most affected do not see preservation and poverty alleviation as competing priorities.",
-        "Approximately half of the world's 7,000 languages are expected to disappear by 2100, taking with them unique ecological knowledge encoded in those languages."
+        "Roughly half of the world's 7,000 languages are expected to disappear by 2100, taking with them ecological knowledge that science has not yet recorded.",
+        "Dr. Tanaka argues that language extinction represents both a cultural and a scientific loss, since endangered languages often encode unique ecological knowledge.",
+        "Indigenous communities themselves overwhelmingly favor language revitalization efforts when given the opportunity to choose, suggesting that preservation aligns with the priorities of those most directly affected.",
+        "Dr. Tanaka's critics argue that language preservation competes with poverty alleviation for limited resources, a concern that Dr. Tanaka disputes."
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal requires precision: the student wants Dr. Tanaka's <em>strongest response to her critics</em>. The critics argue that preservation diverts resources from poverty alleviation. The correct answer must directly counter that specific objection.</div><div class='explanation-step'><strong>A)</strong> States Dr. Tanaka's overall position but does not respond to the critics' specific objection. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> States the critics' view without countering it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Directly addresses the critics by showing that indigenous communities themselves support revitalization — undermining the premise that preservation conflicts with what affected communities want and need. Keep C.</div><div class='explanation-step'><strong>D)</strong> Provides data about language loss but does not respond to the resource objection. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is to show that Dr. Tanaka&rsquo;s position is consistent with the priorities of affected communities. The correct answer must directly connect community preferences to the question of whether preservation aligns with their priorities.</div><div class='explanation-step'><strong>A)</strong> Provides data about language disappearance and ecological knowledge — relevant to Dr. Tanaka&rsquo;s argument but not to whether it aligns with community priorities. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> States Dr. Tanaka&rsquo;s core argument without addressing community priorities. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Directly states that indigenous communities favor revitalization and connects this to the goal of showing the position aligns with affected communities&rsquo; priorities. Keep C.</div><div class='explanation-step'><strong>D)</strong> Describes the critics&rsquo; concern and Dr. Tanaka&rsquo;s response — but the goal is to show alignment with community priorities, not to address critics. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
     },
     {
       "id": "VerbalT2-2E-027",
@@ -650,10 +602,10 @@
       "choices": [
         "Bike-share programs have been implemented in over 1,000 cities worldwide since 2007, demonstrating their broad global appeal.",
         "Critics argue that bike-share programs primarily benefit wealthier, younger users and fail to serve low-income communities adequately.",
-        "Cities that have placed stations in underserved neighborhoods and offered subsidized memberships have seen ridership among low-income residents increase by 47%, suggesting that targeted policy interventions can effectively address the equity gap.",
-        "Bike-share users in cities with robust cycling infrastructure take 23% more trips than those in cities without it."
+        "Bike-share users in cities with robust cycling infrastructure take 23% more trips than those in cities without it.",
+        "Cities that have placed stations in underserved neighborhoods and offered subsidized memberships have seen ridership among low-income residents increase by 47%, suggesting that targeted policy interventions can effectively address the equity gap."
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal is to argue that the equity criticism <em>can be effectively addressed through policy</em>. The correct answer must show a specific policy measure and its demonstrated effect on equity.</div><div class='explanation-step'><strong>A)</strong> Global scale demonstrates popularity but says nothing about addressing equity concerns. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> States the criticism without countering it — the opposite of the goal. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Identifies the specific policy interventions (stations in underserved neighborhoods, subsidized memberships) and their demonstrated effect (47% ridership increase among low-income residents), directly supporting the argument that equity concerns can be addressed through policy. Keep C.</div><div class='explanation-step'><strong>D)</strong> Addresses infrastructure and trip frequency — relevant to overall program effectiveness but not to the equity criticism specifically. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
     }
   ]

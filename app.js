@@ -1325,6 +1325,17 @@ function togglePause() {
 
   const saveExitBtn = document.getElementById("saveExitBtn");
   if (saveExitBtn) saveExitBtn.disabled = isPaused;
+
+  // Disable level filter pills and practice filters during pause
+  const practiceFilters = document.getElementById("practiceFilters");
+  if (practiceFilters) {
+    practiceFilters.style.pointerEvents = isPaused ? "none" : "";
+    practiceFilters.style.opacity = isPaused ? "0.55" : "";
+  }
+
+  // Disable navigator button during pause
+  const navBtn = document.getElementById("practiceSidebarToggleBtn");
+  if (navBtn) navBtn.disabled = isPaused;
 }
 function renderProgress() {
   const el = document.getElementById("progress");
@@ -2198,10 +2209,14 @@ html += `
       <button
   type="button"
   class="sidebar-domain-btn ${isDomainActive ? "active" : ""}"
-  onclick='togglePracticeDomain(${JSON.stringify(domain)})'
+  onclick='selectPracticeDomain(${JSON.stringify(domain)})'
 >
         <span class="sidebar-domain-name">
-  <span class="sidebar-domain-chevron-inline">
+  <span
+    class="sidebar-domain-chevron-inline"
+    onclick='event.stopPropagation(); togglePracticeDomain(${JSON.stringify(domain)})'
+    style="cursor:pointer; padding: 2px 4px;"
+  >
     ${isCollapsed ? "▸" : "▾"}
   </span>
   ${domain}
@@ -2321,7 +2336,7 @@ function renderPracticeFilters() {
   const filters = document.getElementById("practiceFilters");
   if (!filters) return;
 
-  if (!isPracticeMode || (!practiceCurrentTopic && !practiceCurrentDomain)) {
+  if (!isPracticeMode) {
     filters.style.display = "none";
     filters.innerHTML = "";
     return;
@@ -2347,7 +2362,7 @@ function renderPracticeFilters() {
 function selectPracticeLevelFilter(level) {
   console.log("LEVEL BUTTON CLICKED:", level);
 
-  if (!practiceCurrentDomain && !practiceCurrentTopic) return;
+  // Always render level pills; domain/topic filtering below
   if (practiceCurrentDomain) {
     collapsedPracticeDomains[practiceCurrentDomain] = false;
   }

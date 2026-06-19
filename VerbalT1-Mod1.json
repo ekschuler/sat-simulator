@@ -65,7 +65,7 @@
         "set": "Verbal Practice",
         "tags": ["vocabulary", "sentence completion"],
 
-        "stem": "Many wildlife biologists argue that limits to the number of people who can enter public parks significantly supports the growth of indigenous animal species in those parks. However, a few believe that the impact entrance quotas have is <span class='blank'>_______</span> they argue that spaces that introduce entrance quotas are more likely to have many other initiatives that directly impact population growth of animal species.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+        "stem": "Many wildlife biologists argue that limits to the number of people who can enter public parks significantly supports the growth of indigenous animal species in those parks. However, a few believe that the impact entrance quotas have is <span class='blank'>_______</span>, arguing that spaces that introduce entrance quotas are more likely to have many other initiatives that directly impact population growth of animal species.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       "nominal",
       "scathing",
@@ -119,7 +119,7 @@
   },
   {
     "text": "I look upon my departure from Colonel Lloyd’s plantation as one of the most interesting events of my life. It is possible, and even quite probable, that but for the mere circumstance of being removed from that plantation to Baltimore, I should have to-day, instead of being here seated by my own table, in the enjoyment of freedom and the happiness of home, writing this Narrative, been confined in the galling chains of slavery. <u>Going to live at Baltimore laid the foundation, and opened the gateway, to all my subsequent prosperity.</u> I have ever regarded it as the first plain manifestation of that kind providence which has ever since attended me, and marked my life with so many favors.",
-    "align": "center",
+    "align": "left",
     "style": "passage"
   },
   {
@@ -158,7 +158,7 @@
   },
   {
     "text": "He departed with his weeping and almost heart-broken mistress for a more northern portion of the mines; and the next we hear of him, he is cultivating a little farm on the banks of a beautiful stream. Here he might hope for peace—here he might forget the past, and again be happy. But his dream was not destined to last. A company of unprincipled Americans—shame that there should be such bearing the name!—saw his retreat, coveted his little home, and drove him from it, with no other excuse than that he was &ldquo;an infernal Mexican intruder!&rdquo; Joaquíns blood boiled in his veins, but his spirit was still unbroken, nor had the iron so far entered his soul as to sear up the innate sensitiveness to honor and right which reigned in his bosom.",
-    "align": "center",
+    "align": "left",
     "style": "passage"
   },
   {
@@ -243,7 +243,7 @@
   },
   {
     "text": "When the legislative and executive powers are united in the same person, or in the same body of magistrates, there can be no liberty; because apprehensions may arise, lest the same monarch or senate should enact tyrannical laws, to execute them in a tyrannical manner.<br><br>Again, there is no liberty, if the judiciary power be not separated from the legislative and executive. Were it joined with the legislative, the life and liberty of the subject would be exposed to arbitrary control; for the judge would be then the legislator. Were it joined to the executive power, the judge might behave with violence and oppression.",
-    "align": "center",
+    "align": "left",
     "style": "passage"
   },
   {
@@ -253,7 +253,7 @@
   }
 ],
   "choices": [
-    "To argue for an argument for the separation of powers amongst the legislative, executive, and judicial branches.",
+    "To argue for the separation of powers amongst the legislative, executive, and judicial branches.",
     "To compare the legislative, executive, and judicial branches of government.",
     "To explain how a judge might abuse their power if tied to the executive branch.",
     "To argue the importance of united branches of government."
@@ -297,7 +297,7 @@
       "set": "Verbal Practice",
       "tags": ["grammar", "possessive pronouns"],
 
-        "stem": "<div style='text-align:center;'><img src='assets/VerbalTest1-1-11.png' style='max-width:40%;height:auto;'></div><div style='margin-top:16px;'>A nutrition team analyzed the calorie content of various popular snacks to determine whether flavoring consistently increases calorie content. They collected data on five types of snacks, comparing flavored and unflavored versions. Based on their findings, the team claims that flavored snacks always have more calories per serving than unflavored snacks.</div><br><br>Which choice provides data from the graph that most directly weakens the nutrition team’s claim?",
+        "stem": "<div style='text-align:center;'><img src='assets/VerbalTest1-1-11.png' style='max-width:50%;height:auto;'></div><div style='margin-top:16px;'>A nutrition team analyzed the calorie content of various popular snacks to determine whether flavoring consistently increases calorie content. They collected data on five types of snacks, comparing flavored and unflavored versions. Based on their findings, the team claims that flavored snacks always have more calories per serving than unflavored snacks.</div><br><br>Which choice provides data from the graph that most directly weakens the nutrition team’s claim?",
   "choices": [
     "Chips are higher in calories when flavored.",
     "Granola bars are higher in calories when unflavored.",
@@ -378,6 +378,29 @@
       "id": "VerbalT1-1-014",
       "type": "mcq",
       "skill": {
+        "domain": "Information and Ideas",
+"topic": "Command of Evidence",
+"skill": "Textual Evidence"
+      },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["illustrating a claim", "using evidence"],
+
+      "stem": "&ldquo;She Walks in Beauty&rdquo; is a poem written by Lord Byron in 1814. In the poem, Byron suggests that true beauty arises from harmony between qualities of outer appearance and inner character.<br><br>Which quotation from &ldquo;She Walks in Beauty&rdquo; most effectively illustrates the claim?",
+  "choices": [
+    "&ldquo;One shade the more, one ray the less, Had half impaired the nameless grace&rdquo;",
+    "&ldquo;And all that’s best of dark and bright, meet in her aspect and her eyes&rdquo;",
+    "&ldquo;Where thoughts serenely sweet express, How pure, how dear their dwelling place&rdquo;",
+    "&ldquo;She walks in beauty, like the night Of cloudless climes and starry skies&rdquo;"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>For <em>Illustrating Claims</em> questions, where you are asked to find a supporting quotation, the correct answer will directly and completely support or illustrate a claim about the text. In this question, the correct answer needs to show both the woman's <em>outer appearance</em> and her <em>inner character</em>.</div><div class='explanation-step'><strong>A)</strong>This choice focuses only on outer beauty. It emphasizes balance of features, not the connection between her physical appearance and inner character. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>This choice seems to show a contrast (&ldquo;dark and bright&rdquo;), which <em>could</em> highlight harmony, but both &ldquo;her aspect&rdquo; and &ldquo;her eyes&rdquo; are references to her physical features only.  Eliminate B.</div><div class='explanation-step'><strong>C)</strong>This choice mentions both her inner character in &ldquo;thoughts serenely sweet express&rdquo; and her outer appearance in &ldquo;their dwelling place.&rdquo; This line illustrates the harmony between inner character and outer appearance. Keep C.</div><div class='explanation-step'><strong>D)</strong>This choice compares her beauty to the surrounding environment, rather than connecting it to her inner character.  Eliminate D.</div><br><br>This means the correct answer is <strong>C</strong>."
+},
+{
+      "id": "VerbalT1-1-015",
+      "type": "mcq",
+      "skill": {
         "domain": "Standard English Conventions",
         "topic": "Form, Structure, and Sense",
         "skill": "Standard English Conventions"
@@ -398,7 +421,7 @@
 "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices here are different verb forms, so this question tests <strong>verb tense and agreement</strong>.</div><div class='explanation-step'>In the sentence, the subject is &ldquo;one of the conflicts&rdquo; — a singular noun. It’s followed by a long interrupting phrase (&ldquo;reminiscent of past arguments regarding cell phone usage&rdquo;) before the blank, which can make it harder to match the subject with the correct verb. Because the subject is singular, the verb must also be singular.</div><div class='explanation-step'><strong>A)</strong>&ldquo;having emerged&rdquo; is grammatically possible but changes the structure; it creates a modifying phrase (&ldquo;One of the conflicts, having emerged…&rdquo;) that makes the sentence awkward and incomplete. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;were emerging&rdquo; is plural, which disagrees with the singular subject <em>one conflict</em>. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;has emerged&rdquo; is singular and agrees with <em>one conflict</em>.  Additionally, this answer maintains the present perfect tense consistent with &ldquo;has sparked&rdquo; in the previous sentence. Keep C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;have emerged&rdquo; is plural and disagrees with <em>one conflict</em>. Eliminate D.</div><br><br>This means <strong>C</strong> is the correct answer.</div>"
 },
 {
-      "id": "VerbalT1-1-015",
+      "id": "VerbalT1-1-016",
       "type": "mcq",
       "skill": {
                "domain": "Standard English Conventions",
@@ -421,7 +444,7 @@
   "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested.</strong>. Here, the answer choices offer different ways of joining two clauses, so this question focuses on <strong>Sentence Structure (Run-ons and Fragments)</strong>.</div><div class='explanation-step'>To answer, determine whether the clauses before and after the blank are independent or dependent. The first clause (&ldquo;many were, such as…&rdquo;) has a subject (<em>texts</em>) and a verb (<em>were</em>), so it’s independent. The clause after the blank (&ldquo;this book is widely agreed…&rdquo;) also has both a subject and a verb, making it another independent clause. Two independent clauses can be joined correctly with a semicolon, a comma + conjunction (for, and, nor, but, or, yet, so), or by dividing them into two sentences.</div><div class='explanation-step'><strong>A)</strong>&ldquo;<em>Beowulf</em> written&rdquo; lacks any punctuation or conjunction to connect the clauses, creating a run-on. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;<em>Beowulf</em>, written&rdquo; includes a comma but no conjunction, so it also results in a run-on. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;<em>Beowulf</em>. Written&rdquo; correctly separates the two independent clauses into two complete sentences.  Keep C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;<em>Beowulf</em> and written&rdquo; uses a conjunction but no comma, again creating a run-on. Eliminate D.</div><br><br>This means the correct answer is <strong>C</strong>."
 },
 {
-      "id": "VerbalT1-1-016",
+      "id": "VerbalT1-1-017",
       "type": "mcq",
       "skill": {
                 "domain": "Standard English Conventions",
@@ -444,7 +467,7 @@
   "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested.The phrase leading up to the blank is a modifying phrase that needs a clear subject to describe. This is a clue that this question is <strong>Sentence Structure (Modifier Placement and Sentence Clarity)</strong>.</div><div class='explanation-step'>When a sentence begins with a modifying phrase, the noun immediately following the comma must logically be the thing that the phrase is describing. Here, the modifier describes something &ldquo;used in spiritual ceremonies and traditional dishes,&rdquo; so the correct answer will begin with the ingredient itself.</div><div class='explanation-step'><strong>A)</strong>begins with &ldquo;the Chilean rhubarb,&rdquo; which is a correct response to the modifying phrase. The sentence is clear and grammatically correct. Keep A.</div><div class='explanation-step'><strong>B)</strong>begins with &ldquo;which the indigenous people use,&rdquo; but &ldquo;which&rdquo; cannot be the subject of the sentence, as it leaves the sentence with no main clause. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>begins with &ldquo;the indigenous Mapuche,&rdquo; making the people, not the ingredient, the subject. This creates a logical mismatch with the introductory modifier. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>begins correctly with &ldquo;the Chilean rhubarb,&rdquo; but here the verb is &ldquo;is growing,&rdquo; which incorrectly shifts the tense and meaning. The sentence does not describe an ongoing action, so this tense is incorrect. Eliminate D.</div><br><br>This means the correct answer is <strong>A</strong>."
 },
 {
-      "id": "VerbalT1-1-017",
+      "id": "VerbalT1-1-018",
       "type": "mcq",
            "skill": {
         "domain": "Standard English Conventions",
@@ -467,7 +490,7 @@
   "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices here vary in both number (singular vs. plural) and possession (use of apostrophes), so answering this question correctly depends on knowing how to form and punctuate possessive nouns correctly. This question tests <strong>Possession and Number Agreement</strong>.</div><div class='explanation-step'><strong>A)</strong>&ldquo;childs memory's&rdquo; correctly uses the singular <em>child</em>, which matches the article <em>a</em> before the blank.  However, it incorrectly makes <em>memory's</em> the possessive noun, and it should be <em>child's</em> that shows possession. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;children’s memories&rdquo; correctly places the possessive apostrophe but incorrectly uses the plural <em>children</em>. The sentence refers to an individual, so the noun must be singular. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;childrens memory’s&rdquo; contains two errors: it uses the plural <em>children</em> and incorrectly makes <em>memory’s</em> the possessive noun. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;child’s memories&rdquo; correctly uses the singular <em>child</em> and properly shows possession with the apostrophe. It also uses the plural memories to agree with the context.This means the correct answer is <strong>D</strong>.</div>"
 },
 {
-      "id": "VerbalT1-1-018",
+      "id": "VerbalT1-1-019",
       "type": "mcq",
       "skill": {
         "domain": "Standard English Conventions",
@@ -490,7 +513,7 @@
 "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices here show different ways of connecting ideas, so this question tests <strong>Sentence Structure (Modifiers and Phrasal Construction)</strong>.</div><div class='explanation-step'>To answer, analyze the clauses before and after the blank. The first part of the sentence (&ldquo;From a distance, coral reefs…&rdquo;) has a subject (<em>coral reefs</em>) and a verb (<em>appear</em>), so it is independent (it can stand alone as a complete sentence). After the blank (&ldquo;vibrant colors and patterns…&rdquo;), the phrase describes what closer observation reveals, so the correct answer must join the two ideas clearly without creating a fragment or a run-on.</div><div class='explanation-step'><strong>A)</strong>&ldquo;alive and their&rdquo; incorrectly tries to join &ldquo;alive&rdquo; (a description) with &ldquo;their vibrant colors…&rdquo; (a noun phrase). The two parts don’t match. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;alive, their&rdquo; makes the sentence grammatically correct. The phrase after the comma, &ldquo;their vibrant colors and patterns shaped by countless tiny organisms working together,&rdquo;  describes <em>how</em> coral reefs appear alive when seen up close. It does not create any sentence structure issues such as fragments or run-ons.  Keep B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;alive; their&rdquo; uses a semi-colon, which must be followed by an independent clause (something with its own subject and verb). &ldquo;their vibrant colors and patterns shaped by…&rdquo; creates a fragment. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;alive. Their&rdquo; separates before and after the blank into two sentences, creating a fragment after the period. Eliminate D.</div><br><br>This means the correct answer is <strong>B</strong>."
 },
 {
-      "id": "VerbalT1-1-019",
+      "id": "VerbalT1-1-020",
       "type": "mcq",
       "skill": {
         "domain": "Standard English Conventions",
@@ -513,7 +536,7 @@
   "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices here are different verb forms, so this question tests <strong>verb tense and agreement</strong>.</div><div class='explanation-step'>In the sentence, the subject is the &ldquo;International Boundary and Water Commission&rdquo; — a singular noun. It’s followed by a long interrupting phrase (&ldquo;acting in consultation with...&rdquo;) before the blank, which can make it harder to match the subject with the correct verb. Because the subject is singular, the verb must also be singular.</div><div class='explanation-step'><strong>A)</strong>&ldquo;is&rdquo; correctly matches the singular <em>Commission</em> in number, and the present tense of the verb matches the present action &ldquo;acting.&rdquo;  Keep A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;are&rdquo; is plural, and this does not agree with the singular subject. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;is being&rdquo; doesn’t work in this sentence. The words &ldquo;being reviewing&rdquo; can’t appear together — &ldquo;being&rdquo; would require a form of reviewed (as in &ldquo;is being reviewed&rdquo;), not reviewing. The tense combination is incorrect and makes the sentence ungrammatical. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;has been&rdquo; is a plural conjugation, and this does not agree with the singular subject. Eliminate D.</div><br><br>This means the correct answer is <strong>A</strong>."
 },
 {
-      "id": "VerbalT1-1-020",
+      "id": "VerbalT1-1-021",
       "type": "mcq",
       "skill": {
         "domain": "Expression of Ideas",
@@ -525,7 +548,7 @@
       "set": "Verbal Practice",
       "tags": ["logical transition"],
 
-      "stem": "There is an increasing emphasis on the necessity of computer literacy for college applicants, with many universities highlighting technology requirements in admissions materials. \rule{1.5cm}{0.4pt} more parents are enrolling their high school–aged children in summer courses offered by local school districts to strengthen their technology skills. <span class='blank'>_______</span> more parents are enrolling their high school–aged children in summer courses offered by local school districts to strengthen their technology skills.<br><br>Which choice completes the text with the most logical transition?",
+      "stem": "There is an increasing emphasis on the necessity of computer literacy for college applicants, with many universities highlighting technology requirements in admissions materials. <span class='blank'>_______</span> more parents are enrolling their high school–aged children in summer courses offered by local school districts to strengthen their technology skills.<br><br>Which choice completes the text with the most logical transition?",
   "choices": [
     "Consequently,",
     "Alternatively,",
@@ -536,7 +559,7 @@
   "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas, either between sentences or within a single sentence. To find the correct answer, find how the ideas connect; the second idea is usually a cause, result, contrast, or example of the first.</div><div class='explanation-step'>Here, the first sentence emphasizes the growing importance of computer literacy among college applicants. The second sentence describes a related effect in that parents are responding by enrolling their children in technology courses. Because the second sentence presents a <em>result</em> of the first, the correct transition should show <em>cause and effect</em>.</div><div class='explanation-step'><strong>A)</strong>&ldquo;Consequently&rdquo; means as a result and correctly links the two ideas, showing that parents’ actions stem from the growing emphasis on computer literacy. Keep A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;Alternatively&rdquo; introduces a different option or another possibility, but the second sentence is not an alternative. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;More importantly&rdquo; places emphasis on the second idea, but the passage doesn’t suggest that one idea outweighs the other. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;Conversely&rdquo; signals contrast or opposition, which doesn’t fit the cause-and-effect relationship here. Eliminate D.</div><br><br>This means the correct answer is <strong>A</strong>."
 },
 {
-      "id": "VerbalT1-1-021",
+      "id": "VerbalT1-1-022",
       "type": "mcq",
       "skill": {
        "domain": "Expression of Ideas",
@@ -559,7 +582,7 @@
   "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas, either between sentences or within a single sentence. To find the correct answer, find how the ideas connect; the second idea is usually a cause, result, contrast, or example of the first.</div><div class='explanation-step'>Here, the first two sentences describe Picasso’s early, realistic style that critics expected him to maintain. The next sentence reverses that expectation by saying that he abandoned this traditional approach. Because the passage shifts in direction, the best transition word should signal contrast—something like <em>However</em>.</div><div class='explanation-step'><strong>A)</strong>&ldquo;Finally,&rdquo; introduces the last idea in a sequence, usually following transitions such as <em>First</em> or <em>Next</em>. This context doesn’t involve a sequence. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;Similarly,&rdquo; indicates a parallel or continuing idea, but the third sentence contrasts with the earlier ones. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;Therefore,&rdquo; signals cause and effect, which isn’t the relationship between these ideas. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;Instead,&rdquo; correctly signals contrast, showing that Picasso moved in a new and unexpected artistic direction.This means the correct answer is <strong>D</strong>.</div>"
 },
 {
-      "id": "VerbalT1-1-022",
+      "id": "VerbalT1-1-023",
       "type": "mcq",
           "skill": {
         "domain": "Expression of Ideas",
@@ -595,10 +618,10 @@
     "The New Deal was implemented in the 1930s, and the Great Society was launched in the 1960s."
   ],
   "answerIndex": 2,
-  "explanation": "<div class='explanation-step'>For <em>Student Research</em> questions, focus on what the student wants to highlight or accomplish. In this case, the student wants to <em>contrast</em> the New Deal and the Great Society and their <em>different social and economic goals</em>. The correct answer must therefore mention both programs and make the contrast in their goals clear.  Looking at the list of bulleted notes, the following state those goals:<ul style='margin-top:8px; margin-bottom:8px; padding-left:20px; line-height:1.8;'><li>The New Deal, initiated by President Roosevelt in response to the Great Depression, aimed to restore economic security and stability for Americans.</li><li>The Great Society, launched in the 1960s, sought to reduce poverty and address social inequalities across the United States.</li></ul></div><div class='explanation-step'>The correct answer should paraphrase these stated goals and should indicate a contrast between them.</div><div class='explanation-step'><strong>A)</strong>This answer is accurate and mentions both programs with their goals. It might seem correct at first glance, so keep A for now.</div><div class='explanation-step'><strong>B)</strong>This choice gives detailed examples of the programs rather than a broad contrast of goals, which makes it less aligned with the task. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>This choice uses the word &ldquo;while,&rdquo; which signals contrast and clearly distinguishes the focus of each program. It directly fulfills the prompt’s goal of contrasting their different aims. Keep C.</div><div class='explanation-step'><strong>D)</strong>This is purely chronological and doesn’t mention the programs’ goals. Eliminate D.</div><div class='explanation-step'>Now compare A and C: although A accurately describes both programs, it lists them side by side rather than contrasting them. The lack of a transition like &ldquo;while&rdquo; or &ldquo;whereas&rdquo; means it doesn’t fulfill the rhetorical goal, and makes C the <em>best</em> answer. Eliminate A and this means <strong>C</strong> is the correct answer.</div>"
+  "explanation": "<div class='explanation-step'>For <em>Student Research</em> questions, focus on what the student wants to highlight or accomplish. In this case, the student wants to <em>contrast</em> the New Deal and the Great Society and their <em>different social and economic goals</em>. The correct answer must therefore mention both programs and make the contrast in their goals clear.  Looking at the list of bulleted notes, the following state those goals:<ul style='margin-top:8px; margin-bottom:8px; padding-left:20px; line-height:1.8;'><li>The New Deal, initiated by President Roosevelt in response to the Great Depression, aimed to restore economic security and stability for Americans.</li><li>The Great Society, launched in the 1960s, sought to reduce poverty and address social inequalities across the United States.</li></ul></div><div class='explanation-step'>The correct answer should paraphrase these stated goals and should indicate a contrast between them.</div><div class='explanation-step'><strong>A)</strong>This answer is accurate and mentions both programs with their goals. Keep A.</div><div class='explanation-step'><strong>B)</strong>This choice gives detailed examples of the programs rather than a broad contrast of goals, which makes it less aligned with the task. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>This choice uses the word &ldquo;while,&rdquo; which signals contrast and clearly distinguishes the focus of each program. It directly fulfills the prompt’s goal of contrasting their different aims. Keep C.</div><div class='explanation-step'><strong>D)</strong>This is purely chronological and doesn’t mention the programs’ goals. Eliminate D.</div><div class='explanation-step'>Now compare A and C: although A accurately describes both programs, it lists them side by side rather than contrasting them. The lack of a transition like &ldquo;while&rdquo; or &ldquo;whereas&rdquo; means it doesn’t fulfill the rhetorical goal, and makes C the <em>best</em> answer. Eliminate A and this means <strong>C</strong> is the correct answer.</div>"
 },
 {
-      "id": "VerbalT1-1-023",
+      "id": "VerbalT1-1-024",
       "type": "mcq",
       
       "skill": {
@@ -633,7 +656,7 @@
   "explanation": "<div class='explanation-step'>For <em>Student Research</em> questions, focus on what the student wants to highlight or accomplish. In this case, the student wants to <em>highlight Marie Curie’s unique accomplishments compared to other scientists</em>. The correct answer must therefore mention something that Curie accomplished that others did not.  Looking at the list of bulleted notes, the following highlights those accomplishments:<ul style='margin-top:8px; margin-bottom:8px; padding-left:20px; line-height:1.8;'><li>She was the first woman to win a Nobel Prize and the only individual ever to win the prize in two different sciences.</li></ul></div><div class='explanation-step'>Although the others list her accomplishments, this one also highlights an accomplishment that is unique to her. The correct answer will paraphrase this bullet.</div><div class='explanation-step'><strong>A)</strong>Although this answer names something that she did, it isn't a <em>unique accomplishment</em> and it doesn't mention that others did not do the same. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>Similar to A, this answer does not speak to the uniqueness of this accomplishment. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>This choice states a fact about when she did her work, and does not mention any accomplishments. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>This answer correctly identifies the accomplishment and states that she was the only one to achieve this, making it unique to her.  This means <strong>D</strong> is the correct answer.</div>"
 },
 {
-      "id": "VerbalT1-1-024",
+      "id": "VerbalT1-1-025",
       "type": "mcq",
       
       "skill": {
@@ -668,7 +691,7 @@
   "explanation": "<div class='explanation-step'>For <em>Student Research</em> questions, focus on what the student wants to highlight or accomplish. In this case, the student wants to highlight a <em>similarity between sea otters and beavers in how they survive in aquatic environments</em>. The correct answer must therefore mention both sea otters and beavers and make the similarity in how they survive in water.  Looking at the list of bulleted notes, the following highlights how each survives in aquatic environments: <ul style='margin-top:8px; margin-bottom:8px; padding-left:20px; line-height:1.8;'><li>Lacking blubber, sea otters rely on dense fur to maintain body heat in cold ocean waters.</li><li>Beavers maintain body temperature through a combination of body fat and the insulation provided by their lodges.</li></ul></div><div class='explanation-step'>The correct answer must paraphrase these notes.</div><div class='explanation-step'><strong>A)</strong>This choice <em>contrasts</em> the way sea otters and beavers use their environment to eat and store food, so it is incorrect both in that it does not highlight a <em>similarity</em> and it makes the wrong comparison (not about survival in water). Eliminate A.</div><div class='explanation-step'><strong>B)</strong>Beginning with the word &ldquo;both,&rdquo; this answer is set up to highlight a <em>similarity</em> and that comparison is about how both sea otters and beavers survive the cold waters, the comparison required for this question. Keep B.</div><div class='explanation-step'><strong>C)</strong>This answer simply states where sea otters and beavers live and does not highlight a similarity about how they survive the waters. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>This answer, although tempting, does not contain any comparison words like <em>both</em>.  Additionally, it does not mention <em>why</em> they have these biological tools to maintain body temperature, a critical part of what the student wants to highlight. Eliminate D.</div><br><br>This means the correct answer is <strong>B</strong>."
 },
 {
-      "id": "VerbalT1-1-025",
+      "id": "VerbalT1-1-026",
       "type": "mcq",
       
       "skill": {
@@ -703,7 +726,7 @@
   "explanation": "<div class='explanation-step'>For <em>Student Research</em> questions, focus on what the student wants to highlight or accomplish. In this case, the student wants to emphasize the <em>significance of Langston Hughes’s role in the Harlem Renaissance</em>. Therefore, the correct answer must mention Hughes's role in the Harlem Renaissance and why it was important.  Looking at the list of bulleted notes, the following emphasizes this significance:<ul style='margin-top:8px; margin-bottom:8px; padding-left:20px; line-height:1.8;'><li>Hughes' prominence in the Harlem Renaissance is thought to be due to his innovative integration of jazz rhythms into his poetry as well as his focus on  the experiences of Black Americans.</li></ul></div><div class='explanation-step'>The correct answer must paraphrase this note.</div><div class='explanation-step'><strong>A)</strong>This answer is merely factual and does not mention the Harlem Renaissance. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>Although this choice mentions the work he did during the Harlem Renaissance, it does not mention <em>why</em> Hughes's work was significant. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>This answer not only states his role in the Harlem Renaissance but also why it was significant to the movement. Keep C.</div><div class='explanation-step'><strong>D)</strong>This answer, although it mentions the overall importance of Hughes's work, it does not specifically reference the Harlem Renaissance. Eliminate D.</div><br><br>This means the correct answer is <strong>C</strong>."
 },
 {
-      "id": "VerbalT1-1-026",
+      "id": "VerbalT1-1-027",
       "type": "mcq",
       
       "skill": {
@@ -736,29 +759,6 @@
   ],
   "answerIndex": 0,
   "explanation": "<div class='explanation-step'>For <em>Student Research</em> questions, focus on what the student wants to highlight or accomplish. In this case, the student wants to <em>how changes in astronomical definitions can affect the way celestial bodies are classified</em>. The correct answer must therefore why astronomical definitions are important in classifying planets.  Looking at the list of bulleted notes, the following emphasizes this significance: <ul style='margin-top:8px; margin-bottom:8px; padding-left:20px; line-height:1.8;'><li>Due to the debate over Pluto, in 2006 the International Astronomical Union (IAU) defined a planet as an object that orbits the Sun, is spherical, and has cleared its orbit of other debris.</li><li>Pluto failed the the new definition because its orbit is not clear of other debris.  Pluto was reclassified as a dwarf planet.</li></ul></div><div class='explanation-step'>The correct answer must paraphrase these notes.</div><div class='explanation-step'><strong>A)</strong>This answer both mentions a change in the astronomical definition of <em>planet</em> and how it led to a reclassification of Pluto.  It introduces <em>how</em> astronomical definition changes <em>affect</em> the classification of celestial bodies. Keep A.</div><div class='explanation-step'><strong>B)</strong>This choice states the fact that Pluto has been reclassified, but does not discuss how astronomical definitions led to this change.  Eliminate B.</div><div class='explanation-step'><strong>C)</strong>This choice states a fact about Pluto and its discovery, but does not mention any details about astronomical definitions or even the reclassification of Pluto. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>This choice <em>does</em> mention what led to questioning Pluto's classification, but does not mention astronomical definitions or that Pluto was ultimately reclassified. Eliminate D.</div><br><br>This means the correct answer is <strong>A</strong>."
-},
-{
-      "id": "VerbalT1-1-027",
-      "type": "mcq",
-      "skill": {
-        "domain": "Information and Ideas",
-"topic": "Command of Evidence",
-"skill": "Textual Evidence"
-      },
-
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["illustrating a claim", "using evidence"],
-
-      "stem": "&ldquo;She Walks in Beauty&rdquo; is a poem written by Lord Byron in 1814. In the poem, Byron suggests that true beauty arises from harmony between qualities of outer appearance and inner character.<br><br>Which quotation from &ldquo;She Walks in Beauty&rdquo; most effectively illustrates the claim?",
-  "choices": [
-    "&ldquo;One shade the more, one ray the less, Had half impaired the nameless grace&rdquo;",
-    "&ldquo;And all that’s best of dark and bright, meet in her aspect and her eyes&rdquo;",
-    "&ldquo;Where thoughts serenely sweet express, How pure, how dear their dwelling place&rdquo;",
-    "&ldquo;She walks in beauty, like the night Of cloudless climes and starry skies&rdquo;"
-  ],
-  "answerIndex": 2,
-  "explanation": "<div class='explanation-step'>For <em>Illustrating Claims</em> questions, where you are asked to find a supporting quotation, the correct answer will directly and completely support or illustrate a claim about the text. In this question, the correct answer needs to show both the woman's <em>outer appearance</em> and her <em>inner character</em>.</div><div class='explanation-step'><strong>A)</strong>This choice focuses only on outer beauty. It emphasizes balance of features, not the connection between her physical appearance and inner character. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>This choice seems to show a contrast (&ldquo;dark and bright&rdquo;), which <em>could</em> highlight harmony, but both &ldquo;her aspect&rdquo; and &ldquo;her eyes&rdquo; are references to her physical features only.  Eliminate B.</div><div class='explanation-step'><strong>C)</strong>This choice mentions both her inner character in &ldquo;thoughts serenely sweet express&rdquo; and her outer appearance in &ldquo;their dwelling place.&rdquo; This line illustrates the harmony between inner character and outer appearance. Keep C.</div><div class='explanation-step'><strong>D)</strong>This choice compares her beauty to the surrounding environment, rather than connecting it to her inner character.  Eliminate D.</div><br><br>This means the correct answer is <strong>C</strong>."
 }
 
   ]
