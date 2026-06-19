@@ -159,7 +159,9 @@
     <div class="navInner">
       <div class="navBrand">SAT Practice</div>
      <div class="navLinks">
-    <a href="#" id="manageSubBtn" style="display:none;">Manage Subscription</a>
+  <a href="#" id="dashboardTestLink" style="display:none;">Full Test</a>
+  <a href="#" id="dashboardPracticeLink" style="display:none;">Practice</a>
+  <a href="#" id="manageSubBtn" style="display:none;">Manage Subscription</a>
   <a href="#" id="dashboardLogoutBtn">Log Out</a>
 </div>
     </div>
@@ -189,6 +191,25 @@ Full SAT practice and tests are locked. Upgrade to unlock full access, or contin
   </div>
 
 <div class="dashboardGrid">
+
+  <!-- Practice by Topic Card -->
+  <div class="appCard">
+    <h2 class="cardTitle">Practice by Topic</h2>
+    <p class="cardText">Choose a topic, filter by level, and work through targeted SAT practice.</p>
+    <div style="display:flex; flex-direction:column; gap:8px; margin-bottom:16px;">
+      <button id="startMathPracticeBtn" class="primaryBtn" type="button" style="display:none;">Upgrade to Unlock</button>
+      <button id="startVerbalPracticeBtn" class="primaryBtn" type="button" style="display:none;">Upgrade to Unlock</button>
+      <button id="startOverMathBtn" class="secondaryBtn" type="button" style="display:none;">Start Over Math</button>
+      <button id="startOverVerbalBtn" class="secondaryBtn" type="button" style="display:none;">Start Over Reading and Writing</button>
+    </div>
+    <div id="recentPracticeSessions" style="display:none;">
+      <div style="font-size:12px; font-weight:700; color:#6b7280; text-transform:uppercase; letter-spacing:0.05em; margin-bottom:8px;">Recent Sessions</div>
+      <div id="recentSessionsList"></div>
+      <a href="practice-history.html" style="display:block; margin-top:12px; font-size:13px; font-weight:600; color:#4f46e5; text-decoration:none;">View all sessions →</a>
+    </div>
+  </div>
+
+  <!-- Full-Length Practice Tests Card -->
   <div class="appCard">
     <h2 class="cardTitle">Full-Length Practice Tests</h2>
     <p class="cardText">Take a complete timed SAT with adaptive routing.</p>
@@ -202,45 +223,10 @@ Full SAT practice and tests are locked. Upgrade to unlock full access, or contin
         <button id="startT2Btn" class="primaryBtn" type="button" style="padding:8px 16px; font-size:14px;">Start</button>
       </div>
     </div>
+    <a href="test-history.html" style="display:block; margin-top:16px; font-size:13px; font-weight:600; color:#4f46e5; text-decoration:none;">View test history →</a>
   </div>
-      <div class="appCard">
-        <h2 class="cardTitle">Practice by Topic</h2>
-<p class="cardText">Choose a topic, filter by level, and work through targeted SAT practice.</p>
-<div class="appActionRow" style="flex-direction:column; gap:8px;">
-  <button id="startMathPracticeBtn" class="primaryBtn" type="button" style="display:none;">
-    Upgrade to Unlock
-  </button>
-  <button id="startVerbalPracticeBtn" class="primaryBtn" type="button" style="display:none;">
-    Upgrade to Unlock
-  </button>
-<button id="startOverMathBtn" class="secondaryBtn" type="button" style="display:none;">
-  Start Over Math
-</button>
-<button id="startOverVerbalBtn" class="secondaryBtn" type="button" style="display:none;">
-  Start Over Reading and Writing
-</button>
-</div>
-      </div>
 
-<div class="appCard" id="practiceHistoryCard">
-  <h2 class="cardTitle">History</h2>
-  <p class="cardText">Review past practice sessions and completed tests.</p>
-  <div id="cumulativeSummary" style="font-size:13px; color:#666; margin-top:6px; margin-bottom:14px;"></div>
-  <div id="cumulativeSkillSummary"></div>
-  <div id="practiceHistoryMeta" style="font-size:13px; color:#666; margin-top:4px;"></div>
-  <div id="practiceHistoryList">
-    <p style="margin:0; color:#666;">Loading...</p>
-  </div>
 </div>
-
-      <div class="appCard comingSoon">
-        <h2 class="cardTitle">View Progress</h2>
-        <p class="cardText">Later, this area will show strengths, weaknesses, trends, and progress over time.</p>
-        <div class="appActionRow">
-          <button class="secondaryBtn" disabled>Coming Soon</button>
-        </div>
-      </div>
-    </div>
     </div>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
@@ -326,49 +312,52 @@ console.log("Dashboard access status:", accessStatus);
       btn.style.padding = "8px 16px";
       btn.style.fontSize = "14px";
       btn.onclick = () => location.href = `simulator.html?mode=test&resume=1&subject=full&testVersion=${testVersion}`;
-      return;
-    }
-
-    const { data: completed } = await window.supabaseClient
-      .from("test_sessions")
-      .select("attempt_id")
-      .eq("user_id", user.id)
-      .eq("status", "completed")
-      .not("attempt_id", "is", null)
-      .ilike("test_id", `%${testVersion}%`)
-      .order("created_at", { ascending: false })
-      .limit(1)
-      .maybeSingle();
-
-    if (completed) {
-      // Show Review + Retake buttons
-      btn.textContent = "Review";
-      btn.className = "secondaryBtn";
-      btn.style.padding = "8px 16px";
-      btn.style.fontSize = "14px";
-      btn.onclick = () => location.href = `simulator.html?mode=test&attemptId=${completed.attempt_id}`;
-
-      const retakeBtn = document.createElement("button");
-      retakeBtn.textContent = "Retake";
-      retakeBtn.className = "primaryBtn";
-      retakeBtn.style.padding = "8px 16px";
-      retakeBtn.style.fontSize = "14px";
-      retakeBtn.onclick = () => {
-        if (confirm("Starting a new attempt will not delete your previous results — they'll still appear in Test History. Ready to retake?")) {
-          location.href = `simulator.html?mode=test&subject=full&testVersion=${testVersion}`;
-        }
-      };
-      btn.parentNode.appendChild(retakeBtn);
     } else {
       btn.textContent = "Start";
-      btn.style.padding = "8px 16px";
-      btn.style.fontSize = "14px";
       btn.onclick = () => location.href = `simulator.html?mode=test&subject=full&testVersion=${testVersion}`;
     }
   }
 
   setupTestButton("startT1Btn", "T1");
   setupTestButton("startT2Btn", "T2");
+
+  // Load recent practice sessions
+  const { data: recentSessions } = await window.supabaseClient
+    .from("practice_sessions")
+    .select("id, subject, set_id, correct_count, total_count, status, updated_at, answers")
+    .eq("user_id", user.id)
+    .in("status", ["completed", "in_progress"])
+    .order("updated_at", { ascending: false })
+    .limit(3);
+
+  if (recentSessions && recentSessions.length > 0) {
+    const recentDiv = document.getElementById("recentPracticeSessions");
+    const listDiv = document.getElementById("recentSessionsList");
+    if (recentDiv && listDiv) {
+      recentDiv.style.display = "block";
+      listDiv.innerHTML = recentSessions.map(s => {
+        const date = new Date(s.updated_at);
+        const dateStr = date.toLocaleDateString([], { month: "short", day: "numeric" });
+        const subject = s.subject === "verbal" ? "R&W" : "Math";
+        const total = s.total_count || Object.keys(s.answers || {}).length || 0;
+        const correct = s.correct_count || 0;
+        const score = total ? `${correct}/${total}` : "";
+        const isInProgress = s.status === "in_progress";
+        const reviewUrl = isInProgress
+          ? `simulator.html?mode=practice&subject=${s.subject}&resume=1`
+          : `simulator.html?mode=practice&review=all&sessionId=${s.id}&subject=${s.subject}`;
+        const btnLabel = isInProgress ? "Resume" : "Review";
+        const btnClass = isInProgress ? "primaryBtn" : "secondaryBtn";
+        return `<div style="display:flex; justify-content:space-between; align-items:center; padding:8px 0; border-top:1px solid #f0f0f0; font-size:13px;">
+          <div>
+            <span style="font-weight:600; color:#111;">${subject}</span>
+            <span style="color:#6b7280; margin-left:8px;">${dateStr}${score ? " · " + score : ""}</span>
+          </div>
+          <a href="${reviewUrl}" style="font-size:12px; font-weight:700; color:#4f46e5; text-decoration:none; padding:4px 10px; border:1px solid #ede9fe; border-radius:6px; background:white;">${btnLabel}</a>
+        </div>`;
+      }).join("");
+    }
+  }
 
   const startMathPracticeBtn = document.getElementById("startMathPracticeBtn");
 const startVerbalPracticeBtn = document.getElementById("startVerbalPracticeBtn");
@@ -510,7 +499,7 @@ if (startOverVerbalBtn) {
   if (dashboardContent) dashboardContent.style.display = "block";
 }
 
-  applyDashboardAccessState();
+applyDashboardAccessState();
 </script>
 <div style="text-align:center;font-size:13px;color:#888;margin:40px 0 20px;">
   <div style="margin-bottom:6px;">SAT Math Practice</div>

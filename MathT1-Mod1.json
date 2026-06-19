@@ -71,7 +71,7 @@
     "\\(32\\) in\\(^2\\)",
     "\\(64\\) in\\(^2\\)",
     "\\(207\\) in\\(^2\\)",
-    "\\(1,024\\) in\\(^2\\)"
+    "\\(\\text{1,024}\\) in\\(^2\\)"
   ],
   "answerIndex": 2,
   "explanation": "Use the formula for the area of a rectangle, \\(A=lw\\) where \\(l=\\) the length of the rectangle and \\(w=\\) the width of the rectangle.<br><br><div style='text-align:center;'>$$\\begin{aligned}A=9(23)=207\\end{aligned}$$."

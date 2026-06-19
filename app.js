@@ -2447,24 +2447,49 @@ function buildTestSummaryHTML() {
   const verbalCorrect = verbalQs.filter(q => isQuestionCorrect(q)).length;
   const mathCorrect = mathQs.filter(q => isQuestionCorrect(q)).length;
 
+  // Split by module using question index
+  // Verbal: first 27 = Mod1, next 27 = Mod2
+  // Math: first 22 = Mod1, next 22 = Mod2
+  const verbalMod1Qs = verbalQs.slice(0, 27);
+  const verbalMod2Qs = verbalQs.slice(27);
+  const mathMod1Qs = mathQs.slice(0, 22);
+  const mathMod2Qs = mathQs.slice(22);
+
+  const verbalMod1Correct = verbalMod1Qs.filter(q => isQuestionCorrect(q)).length;
+  const verbalMod2Correct = verbalMod2Qs.filter(q => isQuestionCorrect(q)).length;
+  const mathMod1Correct = mathMod1Qs.filter(q => isQuestionCorrect(q)).length;
+  const mathMod2Correct = mathMod2Qs.filter(q => isQuestionCorrect(q)).length;
+
+  function moduleReviewBtns(subject, mod) {
+    return `<div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap;">
+      <button class="secondaryBtn" style="font-size:13px;padding:8px 14px;" onclick="reviewMistakesByModule('${subject}', ${mod})">Review Mistakes</button>
+      <button class="secondaryBtn" style="font-size:13px;padding:8px 14px;" onclick="reviewAllByModule('${subject}', ${mod})">Review All</button>
+    </div>`;
+  }
+
   return `
     <div class="appPage">
       <h1 class="appTitle">Full SAT Complete</h1>
-      <p class="appSubtitle">Here's your performance summary.</p>
+      <p class="appSubtitle">Here&rsquo;s your performance summary.</p>
       <div id="scoreSummary" class="scoreBanner appCard" style="margin-bottom:24px;"></div>
+
       <h3 class="appSectionTitle">Reading &amp; Writing — ${verbalCorrect} / ${verbalQs.length} correct</h3>
-      ${verbalBreakdown}
-      <div style="margin-top:16px; display:flex; gap:12px;">
-        <button class="secondaryBtn" onclick="reviewMistakesBySubject('verbal')">Review R&amp;W Mistakes</button>
-        <button class="secondaryBtn" onclick="reviewAllBySubject('verbal')">Review All R&amp;W</button>
+      <div style="display:flex; gap:8px; margin-bottom:16px; flex-wrap:wrap;">
+        <button class="filterModuleBtn active" onclick="showModulePanel('rw1', this)" style="padding:7px 16px;border-radius:20px;border:1.5px solid #4f46e5;background:#4f46e5;color:white;font-size:13px;font-weight:700;cursor:pointer;">Module 1 &nbsp;${verbalMod1Correct}/${verbalMod1Qs.length}</button>
+        <button class="filterModuleBtn" onclick="showModulePanel('rw2', this)" style="padding:7px 16px;border-radius:20px;border:1.5px solid #4f46e5;background:white;color:#4f46e5;font-size:13px;font-weight:700;cursor:pointer;">Module 2 &nbsp;${verbalMod2Correct}/${verbalMod2Qs.length}</button>
       </div>
+      <div id="panel-rw1">${buildBreakdownHTML(buildTree(verbalMod1Qs), verbalMod1Qs, answers)}${moduleReviewBtns('verbal', 1)}</div>
+      <div id="panel-rw2" style="display:none;">${buildBreakdownHTML(buildTree(verbalMod2Qs), verbalMod2Qs, answers)}${moduleReviewBtns('verbal', 2)}</div>
+
       <h3 class="appSectionTitle" style="margin-top:32px;">Math — ${mathCorrect} / ${mathQs.length} correct</h3>
-      ${mathBreakdown}
-      <div style="margin-top:16px; display:flex; gap:12px;">
-        <button class="secondaryBtn" onclick="reviewMistakesBySubject('math')">Review Math Mistakes</button>
-        <button class="secondaryBtn" onclick="reviewAllBySubject('math')">Review All Math</button>
+      <div style="display:flex; gap:8px; margin-bottom:16px; flex-wrap:wrap;">
+        <button class="filterModuleBtn active" onclick="showModulePanel('math1', this)" style="padding:7px 16px;border-radius:20px;border:1.5px solid #4f46e5;background:#4f46e5;color:white;font-size:13px;font-weight:700;cursor:pointer;">Module 1 &nbsp;${mathMod1Correct}/${mathMod1Qs.length}</button>
+        <button class="filterModuleBtn" onclick="showModulePanel('math2', this)" style="padding:7px 16px;border-radius:20px;border:1.5px solid #4f46e5;background:white;color:#4f46e5;font-size:13px;font-weight:700;cursor:pointer;">Module 2 &nbsp;${mathMod2Correct}/${mathMod2Qs.length}</button>
       </div>
-      <div style="margin-top:24px; display:flex; gap:12px; justify-content:center;">
+      <div id="panel-math1">${buildBreakdownHTML(buildTree(mathMod1Qs), mathMod1Qs, answers)}${moduleReviewBtns('math', 1)}</div>
+      <div id="panel-math2" style="display:none;">${buildBreakdownHTML(buildTree(mathMod2Qs), mathMod2Qs, answers)}${moduleReviewBtns('math', 2)}</div>
+
+      <div style="margin-top:28px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
         <button class="secondaryBtn" onclick="window.location.href='dashboard.html'">Home</button>
         <button class="secondaryBtn" onclick="window.location.href='test-history.html'">Test History</button>
       </div>
@@ -2668,6 +2693,71 @@ localStorage.setItem("satLastTestSession", JSON.stringify({
   renderScoreBanner();
   typesetMath();
 }
+function buildTree(questions) {
+  const tree = {};
+  questions.forEach(q => {
+    const domain = getDomain(q.skill);
+    const topic = getTopic(q.skill);
+    if (!tree[domain]) tree[domain] = {};
+    if (!tree[domain][topic]) tree[domain][topic] = { correct: 0, total: 0 };
+    tree[domain][topic].total++;
+    if (isQuestionCorrect(q)) tree[domain][topic].correct++;
+  });
+  return tree;
+}
+
+function showModulePanel(panelId, btn) {
+  const panels = ['panel-rw1','panel-rw2','panel-math1','panel-math2'];
+  const prefix = panelId.startsWith('rw') ? 'rw' : 'math';
+  panels.filter(p => p.startsWith(prefix)).forEach(p => {
+    const el = document.getElementById(p);
+    if (el) el.style.display = p === panelId ? '' : 'none';
+  });
+  btn.closest('div').querySelectorAll('.filterModuleBtn').forEach(b => {
+    b.style.background = 'white';
+    b.style.color = '#4f46e5';
+  });
+  btn.style.background = '#4f46e5';
+  btn.style.color = 'white';
+}
+
+function reviewAllByModule(subject, mod) {
+  const verbalDomains = ["Craft and Structure", "Information and Ideas", "Standard English Conventions", "Expression of Ideas"];
+  const subjectQs = data.questions.filter(q => {
+    const domain = getDomain(q.skill);
+    const isVerbal = verbalDomains.includes(domain);
+    return subject === "verbal" ? isVerbal : !isVerbal;
+  });
+  const moduleQs = mod === 1 ? subjectQs.slice(0, subject === "verbal" ? 27 : 22) : subjectQs.slice(subject === "verbal" ? 27 : 22);
+  const indices = moduleQs.map(mq => data.questions.indexOf(mq)).filter(i => i !== -1);
+  if (indices.length === 0) { alert("No questions found for this module."); return; }
+  currentReviewMode = "all";
+  reviewIndices = indices;
+  reviewPointer = 0;
+  renderReviewScreen("all");
+  document.addEventListener("keydown", handleReviewKeydown);
+}
+
+function reviewMistakesByModule(subject, mod) {
+  const verbalDomains = ["Craft and Structure", "Information and Ideas", "Standard English Conventions", "Expression of Ideas"];
+  const subjectQs = data.questions.filter(q => {
+    const domain = getDomain(q.skill);
+    const isVerbal = verbalDomains.includes(domain);
+    return subject === "verbal" ? isVerbal : !isVerbal;
+  });
+  const moduleQs = mod === 1 ? subjectQs.slice(0, subject === "verbal" ? 27 : 22) : subjectQs.slice(subject === "verbal" ? 27 : 22);
+  const indices = moduleQs
+    .filter(mq => answers[mq.id] && !isQuestionCorrect(mq))
+    .map(mq => data.questions.indexOf(mq))
+    .filter(i => i !== -1);
+  if (indices.length === 0) { alert("No mistakes in this module!"); return; }
+  currentReviewMode = "missed";
+  reviewIndices = indices;
+  reviewPointer = 0;
+  renderReviewScreen("missed");
+  document.addEventListener("keydown", handleReviewKeydown);
+}
+
 function reviewAllBySubject(subject) {
   const verbalDomains = ["Craft and Structure", "Information and Ideas", "Standard English Conventions", "Expression of Ideas"];
   const filteredIndices = data.questions

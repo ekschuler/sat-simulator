@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Practice History | SAT Practice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { margin:0; background:#f7f7f7; color:#222; font-family:'DM Sans',system-ui,sans-serif; visibility:hidden; }
+    .nav { position:sticky; top:0; background:white; border-bottom:1px solid #e5e5e5; z-index:100; }
+    .navInner { max-width:1100px; margin:0 auto; padding:16px 20px; display:flex; justify-content:space-between; align-items:center; gap:20px; flex-wrap:wrap; }
+    .navBrand { font-weight:800; font-size:18px; text-decoration:none; color:#111; }
+    .navLinks { display:flex; gap:18px; flex-wrap:wrap; align-items:center; }
+    .navLinks a { text-decoration:none; color:#333; font-weight:600; }
+    .navLinks a:hover { color:#4f46e5; }
+    .appPage { max-width:900px; margin:40px auto; padding:0 20px 60px; }
+    .appTitle { font-size:32px; font-weight:800; margin:0 0 8px; }
+    .appSubtitle { color:#666; margin:0 0 28px; }
+    .topActions { display:flex; gap:12px; margin-bottom:24px; flex-wrap:wrap; }
+    .secondaryBtn { border:none; border-radius:10px; padding:12px 18px; font-size:15px; font-weight:700; cursor:pointer; background:white; color:#2563eb; border:1px solid #dbe6ff; }
+    .secondaryBtn:hover { background:#eef4ff; }
+    .primaryBtn { border:none; border-radius:10px; padding:12px 18px; font-size:15px; font-weight:700; cursor:pointer; background:#4f46e5; color:white; }
+    .filterRow { display:flex; gap:8px; margin-bottom:20px; flex-wrap:wrap; }
+    .filterPill { padding:6px 14px; border-radius:20px; border:1px solid #e5e7eb; background:white; font-size:13px; font-weight:600; cursor:pointer; color:#374151; }
+    .filterPill.active { background:#4f46e5; color:white; border-color:#4f46e5; }
+    .sessionList { display:flex; flex-direction:column; gap:10px; }
+    .sessionRow { background:white; border:1px solid #e5e7eb; border-radius:14px; padding:14px 18px; display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap; box-shadow:0 2px 8px rgba(0,0,0,0.03); transition:border-color 0.15s; }
+    .sessionRow:hover { border-color:#c7d2fe; }
+    .sessionInfo { flex:1; min-width:0; }
+    .sessionDate { font-weight:700; font-size:15px; color:#111; margin-bottom:3px; }
+    .sessionMeta { font-size:13px; color:#666; display:flex; flex-wrap:wrap; gap:6px; align-items:center; }
+    .subjectPill { display:inline-block; padding:2px 10px; border-radius:20px; font-size:12px; font-weight:700; }
+    .subjectPill.math { background:#dbeafe; color:#1e40af; }
+    .subjectPill.verbal { background:#ede9fe; color:#4f46e5; }
+    .scorePill { display:inline-block; padding:2px 10px; border-radius:20px; font-size:12px; font-weight:700; }
+    .scorePill.high { background:#dcfce7; color:#166534; }
+    .scorePill.mid { background:#fef9c3; color:#854d0e; }
+    .scorePill.low { background:#fee2e2; color:#991b1b; }
+    .scorePill.inprogress { background:#f3f4f6; color:#6b7280; }
+    .sessionActions { display:flex; gap:8px; flex-shrink:0; }
+    .reviewBtn { background:white; color:#4f46e5; border:1px solid #ede9fe; border-radius:8px; padding:7px 14px; font-size:13px; font-weight:700; cursor:pointer; white-space:nowrap; text-decoration:none; display:inline-block; }
+    .reviewBtn:hover { background:#f5f3ff; }
+    .resumeBtn { background:#4f46e5; color:white; border:none; border-radius:8px; padding:7px 14px; font-size:13px; font-weight:700; cursor:pointer; white-space:nowrap; text-decoration:none; display:inline-block; }
+    .resumeBtn:hover { background:#4338ca; }
+    .emptyState { text-align:center; padding:60px 20px; color:#666; }
+    .emptyState h2 { font-size:20px; margin-bottom:8px; color:#333; }
+    #loadingState { text-align:center; padding:60px 20px; color:#666; }
+    @media (max-width:600px) {
+      .appTitle { font-size:24px; }
+      .sessionRow { flex-direction:column; align-items:flex-start; }
+      .sessionActions { width:100%; }
+      .reviewBtn, .resumeBtn { flex:1; text-align:center; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="navInner">
+      <a class="navBrand" href="dashboard.html">SAT Practice</a>
+      <div class="navLinks">
+        <a href="dashboard.html">Home</a>
+        <a href="#" id="logoutBtn">Log Out</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="appPage">
+    <h1 class="appTitle">Practice History</h1>
+    <p class="appSubtitle">All past practice sessions — resume or review any time.</p>
+
+    <div class="topActions">
+      <button class="secondaryBtn" onclick="window.location.href='dashboard.html'">← Home</button>
+    </div>
+
+    <div class="filterRow">
+      <button class="filterPill active" onclick="setFilter('all', this)">All</button>
+      <button class="filterPill" onclick="setFilter('math', this)">Math</button>
+      <button class="filterPill" onclick="setFilter('verbal', this)">Reading & Writing</button>
+    </div>
+
+    <div id="loadingState">Loading sessions...</div>
+    <div class="sessionList" id="sessionList" style="display:none;"></div>
+    <div class="emptyState" id="emptyState" style="display:none;">
+      <h2>No practice sessions yet</h2>
+      <p>Start a practice session to see it here.</p>
+      <button class="primaryBtn" onclick="window.location.href='dashboard.html'">Go to Home</button>
+    </div>
+  </div>
+
+  <div style="text-align:center;font-size:13px;color:#888;margin:40px 0 20px;">
+    <div style="margin-bottom:6px;">SAT Practice</div>
+    <div>
+      <a href="terms.html" style="color:#666;text-decoration:none;margin:0 8px;">Terms</a>
+      <a href="privacy.html" style="color:#666;text-decoration:none;margin:0 8px;">Privacy</a>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase-config.js"></script>
+  <script>
+    let allSessions = [];
+    let currentFilter = "all";
+
+    (async () => {
+      const { data } = await window.supabaseClient.auth.getSession();
+      if (!data?.session?.user) { window.location.replace("index.html"); return; }
+      document.body.style.visibility = "visible";
+      init();
+    })();
+
+    document.getElementById("logoutBtn").addEventListener("click", async (e) => {
+      e.preventDefault();
+      await window.supabaseClient.auth.signOut();
+      window.location.href = "index.html";
+    });
+
+    function formatDate(dateStr) {
+      const date = new Date(dateStr);
+      const now = new Date();
+      const yesterday = new Date(now); yesterday.setDate(now.getDate() - 1);
+      const timeStr = date.toLocaleTimeString([], { hour:"numeric", minute:"2-digit" });
+      if (date.toDateString() === now.toDateString()) return `Today at ${timeStr}`;
+      if (date.toDateString() === yesterday.toDateString()) return `Yesterday at ${timeStr}`;
+      return date.toLocaleDateString([], { month:"short", day:"numeric", year:"numeric" }) + ` at ${timeStr}`;
+    }
+
+    function getScoreClass(correct, total) {
+      if (!total) return "";
+      const pct = correct / total;
+      if (pct >= 0.8) return "high";
+      if (pct >= 0.5) return "mid";
+      return "low";
+    }
+
+    function setFilter(filter, btn) {
+      currentFilter = filter;
+      document.querySelectorAll(".filterPill").forEach(p => p.classList.remove("active"));
+      btn.classList.add("active");
+      renderSessions();
+    }
+
+    function renderSessions() {
+      const list = document.getElementById("sessionList");
+      const empty = document.getElementById("emptyState");
+      const filtered = currentFilter === "all"
+        ? allSessions
+        : allSessions.filter(s => s.subject === currentFilter);
+
+      list.innerHTML = "";
+
+      if (filtered.length === 0) {
+        list.style.display = "none";
+        empty.style.display = "block";
+        return;
+      }
+
+      list.style.display = "flex";
+      empty.style.display = "none";
+
+      filtered.forEach(s => {
+        const isInProgress = s.status === "in_progress";
+        const subject = s.subject === "verbal" ? "Reading & Writing" : "Math";
+        const subjectClass = s.subject === "verbal" ? "verbal" : "math";
+        const dateStr = formatDate(s.updated_at);
+        const total = s.total_count || Object.keys(s.answers || {}).length || 0;
+        const correct = s.correct_count || 0;
+
+        let scoreHTML = "";
+        if (isInProgress) {
+          scoreHTML = `<span class="scorePill inprogress">In Progress${total ? ` · ${total} answered` : ""}</span>`;
+        } else if (total) {
+          scoreHTML = `<span class="scorePill ${getScoreClass(correct, total)}">${correct}/${total} correct</span>`;
+        }
+
+        const row = document.createElement("div");
+        row.className = "sessionRow";
+        row.innerHTML = `
+          <div class="sessionInfo">
+            <div class="sessionDate">${dateStr}</div>
+            <div class="sessionMeta">
+              <span class="subjectPill ${subjectClass}">${subject}</span>
+              ${scoreHTML ? `<span class="dot" style="color:#d1d5db;">·</span>${scoreHTML}` : ""}
+            </div>
+          </div>
+          <div class="sessionActions">
+            ${isInProgress
+              ? `<a href="simulator.html?mode=practice&subject=${s.subject}&resume=1" class="resumeBtn">Resume</a>`
+              : `<a href="simulator.html?mode=practice&review=missed&sessionId=${s.id}&subject=${s.subject}" class="reviewBtn">Review Mistakes</a>
+                 <a href="simulator.html?mode=practice&review=all&sessionId=${s.id}&subject=${s.subject}" class="reviewBtn">Review All</a>`
+            }
+          </div>
+        `;
+        list.appendChild(row);
+      });
+    }
+
+    async function init() {
+      const { data: userData } = await window.supabaseClient.auth.getUser();
+      const user = userData?.user;
+      if (!user) return;
+
+      const { data: sessions, error } = await window.supabaseClient
+        .from("practice_sessions")
+        .select("*")
+        .eq("user_id", user.id)
+        .in("status", ["completed", "in_progress"])
+        .order("updated_at", { ascending: false });
+
+      document.getElementById("loadingState").style.display = "none";
+
+      if (error || !sessions || sessions.length === 0) {
+        document.getElementById("emptyState").style.display = "block";
+        return;
+      }
+
+      allSessions = sessions;
+      renderSessions();
+    }
+  </script>
+</body>
+</html>

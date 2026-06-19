@@ -36,7 +36,7 @@
 
       "answerIndex": 1,
 
-      "explanation": "<div class='explanation-step'>Add the two equations to eliminate \\(y\\).</div><div class='explanation-math'>$$\\begin{aligned}(x+y)+(x-y) &= 5+1 \\\\ 2x &= 6 \\\\ x &= 3\\end{aligned}$$</div><div class='explanation-step'>Substitute \\(x=3\\) into \\(x+y=5\\).</div><div class='explanation-math'>$$3+y=5 \\Rightarrow y=2$$</div><div class='explanation-step'>The solution is \\((3,2)\\).</div>"
+      "explanation": "<div class='stem-image'><img src='assets/Alg1-1-1A.png'></div><div class='explanation-step'>Since \\(x\\) is the number of weeks and \\(y\\) is the budget in dollars, the slope, or \\(\\frac{y_2 - y_1}{x_2 - x_1}\\) is the change in the weekly budget per week.</div>"
     },
     {
       "id": "A-L1-002",
@@ -764,7 +764,7 @@
       "set": "Algebra Practice",
       "tags": ["graphing", "systems", "solving systems"],
 
-      "stem": "<div class='stem-image'><img src='assets/Alg1-1-30.png' style='max-width:30%;'></div><div class='stem-text'>The graph above shows a system of equations.  What is the solution \\((x,y)\\) to the system?</div>",
+      "stem": "<div class='stem-image'><img src='assets/Alg1-1-30.png' style='max-width:50%;'></div><div class='stem-text'>The graph above shows a system of equations.  What is the solution \\((x,y)\\) to the system?</div>",
       "choices": [
         "\\((2,0)\\)",
         "\\((2,-5)\\)",
@@ -860,7 +860,7 @@
 "level": 1,
       "set": "Algebra Practice",
       "tags": ["word problems", "writing equations"],
-"stem": "<div style='margin-top:12px;'>A knitting pattern for a scarf suggests 16 yards of yarn per inch in length of the scarf and an additional 30 yards for the scarf tassels. Which equation represents this equation, where \\(y\\) is the number of yards of yarn needed for a scarf that is \\(x\\) in length?</div>",
+"stem": "<div style='margin-top:12px;'>A knitting pattern for a scarf suggests 16 yards of yarn per inch in length of the scarf and an additional 30 yards for the scarf tassels. Which equation represents this equation, where \\(y\\) is the number of yards of yarn needed for a scarf that is \\(x\\) inches in length?</div>",
   "choices": [
       "\\(y=16x+30\\)",
       "\\(y=30x+16\\)",
@@ -1542,34 +1542,41 @@
       "explanation": "<div class='explanation-step'>The answers contain algebraic expressions, so choose values for the variable(s) and then test answers.  Let \\(k=2\\) and \\(m=1\\); Sri makes \\(1\\) liter of juice for every \\(2\\) pounds of fruit.  With \\(24k\\) pounds of fruit, Sri can make \\(24(2)=48\\) liters of juice.  Substitute \\(m=2\\) into the answers to find which one equals \\(48\\):<div class='explanation-step'>A) \\(m+24=1+24\\neq48\\)</div><div class='explanation-step'>B) \\(m-24=1-24\\neq48\\)</div><div class='explanation-step'>C) \\(\\frac{m}{24}=\\frac{1}{24}\\neq48\\)</div><div class='explanation-step'>D) \\(24m=24(2)=48\\)</div></div>"
     },
 {
-      "id": "A-L2-026",
-      "type": "gridin",
-      "mode": "practice",
-
-      "skill": {
-        "domain": "Algebra",
-        "topic": "Linear Functions",
-        "skill": "Solving Linear Inequalities"
-      },
-
-      "level": 2,
-      "set": "Algebra Practice",
-      "tags": ["equations", "solving"],
-
-      "stem": "<div class='stem-text'>A jewelry maker is selling bracelets.  She has already earned \\(\\$85\\) toward her goal, and she plans to charge \\(\\$18.15\\) for each bracelet.  Her goal is to earn at least \\(\\$700\\).  What is the minimum number of bracelets she must sell in order to meet or exceed her earnings goal?</div>",
-
-      "answer": "34",
-      "answersAccepted": ["34"],
-
-      "validation": {
-        "allowDecimal": false,
-        "allowFraction": false,
-        "allowNegative": true,
-        "maxChars": 6
-      },
-
-      "explanation": "<div class='explanation-step'>Begin by defining a variable for the number of bracelets and then write an inequality for her earnings goal. Let \\(b=\\) number of bracelets and since she earns \\(\\$18.15\\) from each bracelet sale, she earns a total of \\(\\$18.15b\\) on the sale of bracelets.  The earnings goal inequality is \\(18.15b+85\\geq700\\).  Solve for \\(b\\):</div><div class='explanation-math'>$$\\begin{aligned}\\ 18.15b+85&\\geq700 \\\\ 18.15b+\\cancel{85}-\\cancel{85}&\\geq700-85\\\\ \\frac{\\cancel{18.15}b}{\\cancel{18.15}}&\\geq\\frac{615}{18.15}\\\\b&\\geq33.9\\end{aligned}$$</div><div class='explanation-step'>To reach her earnings goal, she must sell at least \\(34\\) bracelets.</div>"
+  "id": "A-L2-058",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Linear Functions",
+    "skill": "Calculating Slope"
+},
+  "stem": "What is the slope of the graph of line \\(m\\) if it is perpendicular to the graph of \\(x+4y=-3\\)</div>",
+  "choices": [
+    "\\(4\\)",
+    "\\(\\frac{4}{3}\\)",
+    "\\(\\frac{3}{4}\\)",
+    "\\(\\frac{1}{4}\\)"
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>First, rewrite \\(x + 4y = -3\\) in slope-intercept form to find its slope.</div><div class='explanation-math'>$$\\begin{aligned}4y &= -x - 3 \\\\ y &= \\frac{-1}{4}x + \\frac{3}{4}\\end{aligned}$$</div><div class='explanation-step'>The slope of the given line is \\(\\frac{-1}{4}\\). A perpendicular line has a slope that is the negative reciprocal.</div><div class='explanation-math'>$$m_{\\perp} = -\\frac{1}{\\frac{-1}{4}} = 4$$</div>"
     },
+{
+  "id": "A-L2-026",
+  "type": "mcq",
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Systems of Equations",
+    "skill": "Solving Linear Systems"
+},
+  "stem": "<div style='text-align:center;'>$$x-3y=8$$</div><div style='text-align:center;'>$$-4y=40$$</div><div style='margin-top:12px;'>The solution to the given system of equations is \\((x,y)\\).  What is the value of \\(x+y\\)?</div>",
+  "choices": [
+    "\\(48\\)",
+    "\\(32\\)",
+    "\\(-32\\)",
+    "\\(-48\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>Solve the second equation for \\(y\\).</div><div class='explanation-math'>$$-4y = 40 \\Rightarrow y = -10$$</div><div class='explanation-step'>Substitute \\(y = -10\\) into the first equation to find \\(x\\).</div><div class='explanation-math'>$$x - 3(-10) = 8 \\Rightarrow x + 30 = 8 \\Rightarrow x = -22$$</div><div class='explanation-step'>Therefore \\(x + y = -22 + (-10) = -32\\).</div>"
+},
 {
       "id": "A-L2-027",
       "type": "mcq",
@@ -1674,7 +1681,7 @@
         "maxChars": 6
       },
 
-      "explanation": "<div class='explanation-step'>Let \\(b=\\) number of bracelets and \\(n=\\) number of necklaces.  Since the maximum number of products is \\(500\\), \\(n+b\\leq500\\) or \\(n\\leq500-b\\).  Write a second inequality with the earning goal: \\(3.8b+9.1n\\geq\\text{3,500}\\).\\\\Substitute \\(500-b\\) into the second inequality and solve for \\(b\\):</div><div class='explanation-math'>$$\\begin{aligned}\\ 3.8b+9.1(500-b)&\\geq\\text{3,500} \\\\ 3.8b+\\text{4,550}-9.1b&\\geq\\text{3,500}\\\\ -5.3b+\\cancel{\\text{4,550}}-\\cancel{\\text{4,550}}&\\geq\\text{3,500}-\\text{4,550}\\\\ \\frac{\\cancel{-5.3}b}{\\cancel{-5.3}}&\\geq\\frac{-\\text{1,050}}{-5.3}\\\\ b&\\leq198.1 \\end{aligned}$$</div><div class='explanation-step'>Since \\(b\\leq198.1\\), the maximum number of bracelets is \\(198\\).</div>"
+      "explanation": "<div class='explanation-step'>Let \\(b=\\) number of bracelets and \\(n=\\) number of necklaces.  Since the maximum number of products is \\(500\\), \\(n+b\\leq500\\) or \\(n\\leq500-b\\).  Write a second inequality with the earning goal: \\(3.8b+9.1n\\geq\\text{3,500}\\).\\\\ Substitute \\(500-b\\) into the second inequality and solve for \\(b\\):</div><div class='explanation-math'>$$\\begin{aligned}\\ 3.8b+9.1(500-b)&\\geq\\text{3,500} \\\\ 3.8b+\\text{4,550}-9.1b&\\geq\\text{3,500}\\\\ -5.3b+\\cancel{\\text{4,550}}-\\cancel{\\text{4,550}}&\\geq\\text{3,500}-\\text{4,550}\\\\ \\frac{\\cancel{-5.3}b}{\\cancel{-5.3}}&\\geq\\frac{-\\text{1,050}}{-5.3}\\\\ b&\\leq198.1 \\end{aligned}$$</div><div class='explanation-step'>Since \\(b\\leq198.1\\), the maximum number of bracelets is \\(198\\).</div>"
     },
 {
       "id": "A-L2-031",
@@ -2063,8 +2070,8 @@
 
       "stem": "<div class='stem-text'>If \\(\\frac{7}{15} n-\\frac{2}{15}n=\\frac{5}{6}+\\frac{1}{2}\\), what is the value of \\(n\\)?</div>",
 
-      "answer": "4",
-      "answersAccepted": ["4"],
+      "answer": "2.75",
+      "answersAccepted": ["2.75", "11/4"],
 
       "validation": {
         "allowDecimal": false,
@@ -2073,7 +2080,7 @@
         "maxChars": 6
       },
 
-      "explanation": "<div class='explanation-math'>$$\\begin{aligned} \\frac{7}{15}n-\\frac{2}{15}n&=\\frac{5}{6}+\\frac{1}{2}\\\\ \\frac{5}{15}n&=\\frac{5}{6}+\\frac{6}{12}\\\\ 3\\times \\frac{1}{3}n&=\\frac{11}{12} \\times 3\\\\ n&=4 \\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-math'>$$\\begin{aligned} \\frac{7}{15}n-\\frac{2}{15}n&=\\frac{5}{6}+\\frac{1}{2}\\\\ \\frac{5}{15}n&=\\frac{5}{6}+\\frac{6}{12}\\\\ 3\\times \\frac{1}{3}n&=\\frac{11}{12} \\times 3\\\\ n&=\\frac{11}{4} \\end{aligned}$$</div>"
     },
 
 {
@@ -2394,42 +2401,6 @@
       "answerIndex": 3,
       "explanation": "<div class='explanation-step'>To solve for \\(3y\\) directly (without solving for \\(y\\) first), multiply both sides of the given equation by \\(6\\). </div><div class='explanation-math'>$$\\begin{aligned}\\ 7&=\\frac{1}{2}y\\\\ 7\\times 6&=\\frac{1}{2}y \\times 6\\\\42&=3y \\end{aligned}$$</div><div class='explanation-step'>If you don't see that multiplying by \\(6\\) will give \\(3y\\) on the right hand side, you can also solve for \\(y\\) directly by multiplying both sides by \\(2\\), so \\(y=14\\).  Then multiply by \\(3\\) to get \\(3y=42\\).</div>"
     },
-    {
-  "id": "A-L2-058",
-  "type": "mcq",
-  "skill": {
-    "domain": "Algebra",
-    "topic": "Linear Functions",
-    "skill": "Calculating Slope"
-},
-  "stem": "What is the slope of the graph of line \\(m\\) if it is perpendicular to the graph of \\(x-4y=-3))</div>",
-  "choices": [
-    "\\(4\\)",
-    "\\(\\frac{4}{3}\\)",
-    "\\(\\frac{3}{4}\\)",
-    "\\(\\frac{1}{4}\\)"
-  ],
-  "answerIndex": 3,
-  "explanation": "<div class='explanation-step'>First, rewrite \\(x - 4y = -3\\) in slope-intercept form to find its slope.</div><div class='explanation-math'>$$\\begin{aligned}-4y &= -x - 3 \\\\ y &= \\frac{1}{4}x + \\frac{3}{4}\\end{aligned}$$</div><div class='explanation-step'>The slope of the given line is \\(\\frac{1}{4}\\). A perpendicular line has a slope that is the negative reciprocal.</div><div class='explanation-math'>$$m_{\\perp} = -\\frac{1}{\\frac{1}{4}} = -4$$</div>"
-    },
-{
-  "id": "A-L2-059",
-  "type": "mcq",
-  "skill": {
-    "domain": "Algebra",
-    "topic": "Systems of Equations",
-    "skill": "Solving Linear Systems"
-},
-  "stem": "<div style='text-align:center;'>$$x-3y=8$$</div><div style='text-align:center;'>$$-4y=40$$</div><div style='margin-top:12px;'>The solution to the given system of equations is \\((x,y)\\).  What is the value of \\(x+y\\)?</div>",
-  "choices": [
-    "\\(48\\)",
-    "\\(32\\)",
-    "\\(-32\\)",
-    "\\(-48\\)"
-  ],
-  "answerIndex": 2,
-  "explanation": "<div class='explanation-step'>Solve the second equation for \\(y\\).</div><div class='explanation-math'>$$-4y = 40 \\Rightarrow y = -10$$</div><div class='explanation-step'>Substitute \\(y = -10\\) into the first equation to find \\(x\\).</div><div class='explanation-math'>$$x - 3(-10) = 8 \\Rightarrow x + 30 = 8 \\Rightarrow x = -22$$</div><div class='explanation-step'>Therefore \\(x + y = -22 + (-10) = -32\\).</div>"
-},
 {
       "id": "A-L3-001",
       "type": "mcq",
@@ -2801,7 +2772,7 @@
         "\\(C=\\frac{f}{60}\\)",
         "\\(C=60f\\)"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "<div class='explanation-step'>Method \\(1\\): Choose a value for \\(f\\).  Let \\(f=180\\).  If one liter is used for \\(60\\) square meters, \\(3\\) liters are needed for \\(180\\) square meters.  To wash the \\(180\\) square meters \\(3\\) times, \\(3\\times3=9\\) liters are needed.  Test the answers by substituting \\(f=180\\) to find the answer that gives \\(C=9\\):</div><div class='explanation-step'>A) \\(C=\\frac{180}{20}=9\\)</div><div class='explanation-step'>Test the other answers in case the value you chose for \\(f\\) gives a false positive answer.</div><div class='explanation-step'>B) \\(C=20(180)\\neq9\\)</div><div class='explanation-step'>C) \\(C=\\frac{180}{60}\\neq9\\)</div><div class='explanation-step'>D) \\(C=60(180)\\neq9\\)</div><div class='explanation-step'>Method \\(2\\): Start with \\(\\frac{1\\, \\text{liter}}{60\\, \\text{square meters}}\\).  Use unit conversions to calculate the number of liters needed to wash the floors \\(3\\) times: </div><div class='explanation-math'>$$\\begin{aligned}\\ \\frac{1\\, \\text{liter}}{60\\, \\cancel{\\text{square meters}}}\\times \\frac{f \\, \\cancel{\\text{square meters}}}{1\\, \\text{wash}}&=\\frac{\\frac{f}{60}\\text{liters}}{1\\, \\text{wash}} \\\\ \\frac{\\frac{f}{60}\\text{liters}}{1\\, \\cancel{\\text{wash}}}\\times3 \\, \\cancel{\\text{washes}}&=\\frac{3f}{60}=\\frac{f}{20}\\end{aligned}$$</div>"
     },
 {
@@ -2910,8 +2881,8 @@
   "\\(\\begin{array}{l}x + 2y = 7 \\\\ 3cx - dy = 7\\end{array}\\)",
   "\\(\\begin{array}{l}x - 2y = 7 \\\\ 3cx - dy = 7\\end{array}\\)"
       ],
-      "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>Parallel lines have equal slopes, so find the slope of \\(2x+3y=7\\). The equation is in standard form \\(x+By=C\\), where the slope is \\(\\frac{-A}{B}\\), or \\(\\frac{-2}{3}\\).</div><div class='explanation-step'>The slope of \\(cx+dy=7\\) is \\(\\frac{-c}{d}\\).  Set the slopes equal to find the possible values of \\(c\\) and \\(d\\); \\(\\frac{-2}{3}=\\frac{-c}{d}\\).  Multiply (or divide) both sides by \\(-1\\) to get \\(\\frac{2}{3}=\\frac{c}{d}\\).  Therefore, you can say \\(c=2\\) and \\(d=3\\) (or some equal ratio).</div><div class='explanation-step'>The graphs of the answer choice pairs form perpendicular lines, so their slopes are \\textit{negative reciprocals}. Test answers by finding their slopes and determining whether they are negative reciprocals of each other.</div><div class='explanation-step'>A) \\(x-2y=7\\): slope\\(=\\frac{-1}{-2}=\\frac{1}{2}\\)</div><div class='explanation-step'>\\(-cx-3dy=7\\): slope\\(=\\frac{c}{-(3d)}=\\frac{2}{-9}\\)</div><div class='explanation-step'>Since \\(\\frac{1}{2}\\) and \\(\\frac{2}{-9}\\) are not negative reciprocals, A is incorrect.</div><div class='explanation-step'>B) \\(x+2y=7\\): slope\\(=\\frac{-1}{2}\\)</div><div class='explanation-step'>\\(cx-3dy=3\\): slope\\(=\\frac{-c}{-(3d)}=-\\frac{-2}{-9}\\)</div><div class='explanation-step'>Since \\(\\frac{-1}{2}\\) and \\(-\\frac{2}{9}\\) are not negative reciprocals, B is incorrect.</div><div class='explanation-step'>C) \\(x+2y=7\\): slope\\(=\\frac{-1}{2}\\)</div><div class='explanation-step'>Parallel lines have equal slopes, so find the slope of \\(2x+3y=7\\). The equation is in standard form \\(Ax+By=C\\), where the slope is \\(\\frac{-A}{B}\\), or \\(\\frac{-2}{3}\\).</div><div class='explanation-step'>The slope of \\(cx+dy=7\\) is \\(\\frac{-c}{d}\\).  Set the slopes equal to find the possible values of \\(c\\) and \\(d\\); \\(\\frac{-2}{3}=\\frac{-c}{d}\\).  Multiply (or divide) both sides by \\(-1\\) to get \\(\\frac{2}{3}=\\frac{c}{d}\\).  Therefore, you can say \\(c=2\\) and \\(d=3\\) (or some equal ratio).</div><div class='explanation-step'>The graphs of the answer choice pairs form perpendicular lines, so their slopes are \\textit{negative reciprocals}. Test answers by finding their slopes and determining whether they are negative reciprocals of each other.</div><div class='explanation-step'>A) \\(x-2y=7\\): slope\\(=\\frac{-1}{-2}=\\frac{1}{2}\\)</div><div class='explanation-step'>\\(-cx-3dy=7\\): slope\\(=\\frac{c}{-(3d)}=\\frac{2}{-9}\\)</div><div class='explanation-step'>Since \\(\\frac{1}{2}\\) and \\(\\frac{2}{-9}\\) are not negative reciprocals, A is incorrect.</div><div class='explanation-step'>B) \\(x+2y=7\\): slope\\(=\\frac{-1}{2}\\)</div><div class='explanation-step'>\\(cx-3dy=3\\): slope\\(=\\frac{-c}{-(3d)}=-\\frac{-2}{-9}\\)</div><div class='explanation-step'>Since \\(\\frac{-1}{2}\\) and \\(-\\frac{2}{9}\\) are not negative reciprocals, B is incorrect.</div><div class='explanation-step'>C) \\(x+2y=7\\): slope\\(=\\frac{-1}{2}\\)</div><div class='explanation-step'>\\(3cx-dy=3\\): slope\\(=\\frac{-(3c)}{-d}=-\\frac{6}{-3}=-2\\)</div><div class='explanation-step'>Although \\(\\frac{-1}{2}\\) and \\(-2\\) are reciprocals, they are not opposites, so C is incorrect.</div><div class='explanation-step'>D) \\(x-2y=7\\): slope\\(=\\frac{-1}{-2}=\\frac{1}{2}\\)</div><div class='explanation-step'>\\(3cx-dy=3\\): slope\\(=\\frac{-(3c)}{-d}=-\\frac{6}{-3}=-2\\)</div><div class='explanation-step'>Since \\(\\frac{1}{2}\\) and \\(-2\\) are negative reciprocals, D is correct.</div>"
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Parallel lines have equal slopes, so find the slope of \\(2x+3y=7\\). The equation is in standard form \\(x+By=C\\), where the slope is \\(\\frac{-A}{B}\\), or \\(\\frac{-2}{3}\\).</div><div class='explanation-step'>The slope of \\(cx+dy=7\\) is \\(\\frac{-c}{d}\\).  Set the slopes equal to find the possible values of \\(c\\) and \\(d\\); \\(\\frac{-2}{3}=\\frac{-c}{d}\\).  Multiply (or divide) both sides by \\(-1\\) to get \\(\\frac{2}{3}=\\frac{c}{d}\\).  Therefore, you can say \\(c=2\\) and \\(d=3\\) (or some equal ratio).</div><div class='explanation-step'>The graphs of the answer choice pairs form perpendicular lines, so their slopes are <em>{negative reciprocals}</em>. Test answers by finding their slopes and determining whether they are negative reciprocals of each other.</div><div class='explanation-step'>A) \\(x-2y=7\\): slope\\(=\\frac{-1}{-2}=\\frac{1}{2}\\)</div><div class='explanation-step'>\\(-cx-3dy=7\\): slope\\(=\\frac{c}{-(3d)}=\\frac{2}{-9}\\)</div><div class='explanation-step'>Since \\(\\frac{1}{2}\\) and \\(\\frac{2}{-9}\\) are not negative reciprocals, A is incorrect.</div><div class='explanation-step'>B) \\(x+2y=7\\): slope\\(=\\frac{-1}{2}\\)</div><div class='explanation-step'>\\(cx-3dy=3\\): slope\\(=\\frac{-c}{-(3d)}=-\\frac{-2}{-9}\\)</div><div class='explanation-step'>Since \\(\\frac{-1}{2}\\) and \\(-\\frac{2}{9}\\) are not negative reciprocals, B is incorrect.</div><div class='explanation-step'>C) \\(x+2y=7\\): slope\\(=\\frac{-1}{2}\\)</div><div class='explanation-step'>\\(3cx-dy=3\\): slope\\(=\\frac{-(3c)}{-d}=\\frac{-6}{-3}=2\\)</div><div class='explanation-step'>Since \\(\\frac{-1}{2}\\) and \\(2\\) are negative reciprocals, C is correct.</div>"
     },
 {
       "id": "A-L3-19",
@@ -2987,14 +2958,14 @@
       "stem": "<div class='stem-equation'>$$6x-\\frac{2}{3}y=10$$</div><div class='stem-equation'>$$10x+\\frac{8}{3}y=31$$</div><div class='stem-text'>If the solution to the given system of equations is \\((x,y)\\), what is the value of \\(48x+6y\\)?</div>",
 
       "choices": [
-        "16",
-        "21",
-        "41",
-        "123"
+        "\\(16\\)",
+        "\\(21\\)",
+        "\\(41\\)",
+        "\\(123\\)"
       ],
       "answerIndex": 3,
 
-      "explanation": "<div class='explanation-step'>Instead of solving the this system of equations, look for ways to compose \\(48x+6y\\) from the left hand sides of the two given equations. Start with the \\(x\\) terms since they do not contain fractions. \\(48= 3 \\times 6 + 3 \\times 10\\). To verify that this expression works for the \\(y\\) terms, multiply  \\(x\\), do a series of operations to solve for \\(\\frac{9x}{2}\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ 8(2x-1)+4x&=2x+16\\\\16x\\cancel{-8}+4x-2x\\cancel{+8}&=\\cancel{2x} \\cancel{-2x}+16+8\\\\ 18x&=24 \\end{aligned}$$</div><div class='explanation-step'>To solve for \\(9x\\), divide both sides by \\(2\\), so \\(9x=12\\).  Finally, to solve for \\(\\frac{9x}{2}\\), divide both sides again by \\(2\\), so \\(\\frac{9x}{2}=6\\).</div>"
+      "explanation": "<div class='explanation-step'>Instead of solving the this system of equations, look for ways to compose \\(48x+6y\\) from the left hand sides of the two given equations. Start with the \\(x\\) terms since they do not contain fractions. \\(48= 3 \\times 6 + 3 \\times 10\\). This means the equations can be added, then tripled to get \\(48x\\)</div><div class='explanation-math'>$$\\begin{aligned}\\ 6x+10x-\\frac{2}{3}y+\\frac{8}{3}y=10+31 \\\\ 16x+2y=41 \\end{aligned}$$</div><div class='explanation-step'>Multiply the entire equation by \\(3\\): \\(3(16x+2y)=3(41), so 48x+6y=123.</div>"
     },
     {
       "id": "A-L3-022",
@@ -3007,7 +2978,7 @@
         "skill": "Writing Linear Functions"
       },
 
-      "level": 1,
+      "level": 3,
       "set": "Algebra Practice",
       "tags": ["tables", "writing equations"],
 
@@ -3021,7 +2992,7 @@
         "allowNegative": true,
         "maxChars": 6
       },
-      "explanation": "<div class='explanation-step'>In order to find the value of \\(c\\), or the corresponding \\(y\\)-value when \\(x=\\frac{1}{5}\\), first use the given table values to determine the equation for \\(g(x))\\. First find the slope:</div><div class='explanation-math'>$$\\begin{aligned}\\ m&=\\frac{y_2 - y_1}{x_2 - x_1} \\\\ m&=\\frac{21 - (-39)}{20-(-10)}\\\\ m  &= \\frac{60}{3} \\\\ &=2\\end{aligned}$$</div><div class='explanation-step'>The slope is \\(2\\), so the equation is now \\(g(x)=2x+b\\). Substitute in one ordered pair from the table to find the \\(y\\)-intercept:</div><div class='explanation-math'>$$\\begin{aligned}\\ g(x)&=2x+b \\\\ 21&=2(20)+b\\\\ 21  &= 40+b \\\\ -19&=b\\end{aligned}$$</div><div class='explanation-step'>The final equation is \\(g(x)=2x-19\\). Substitute \\(x=\\frac{1}{5}\\) in order to find the value of \\(y\\), which is\\(c\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ g(x)&=2\\frac{1}{5}-19 \\\\ g(x)&=\\frac{2}{5}-19\\\\  &= -18.6 \\end{aligned}$$</div><div class='explanation-step'>Another correct way to enter the answer is \\(-\\frac{93}{5}\\).</div>"
+      "explanation": "<div class='explanation-step'>In order to find the value of \\(c\\), or the corresponding \\(y\\)-value when \\(x=\\frac{1}{5}\\), first use the given table values to determine the equation for \\(g(x))\\. First find the slope:</div><div class='explanation-math'>$$\\begin{aligned}\\ m&=\\frac{y_2 - y_1}{x_2 - x_1} \\\\ m&=\\frac{21 - (-39)}{20-(-10)}\\\\ m  &= \\frac{60}{3} \\\\ &=2\\end{aligned}$$</div><div class='explanation-step'>The slope is \\(2\\), so the equation is now \\(g(x)=2x+b\\). Substitute in one ordered pair from the table to find the \\(y\\)-intercept:</div><div class='explanation-math'>$$\\begin{aligned}\\ g(x)&=2x+b \\\\ 21&=2(20)+b\\\\ 21  &= 40+b \\\\ -19&=b\\end{aligned}$$</div><div class='explanation-step'>The final equation is \\(g(x)=2x-19\\). Substitute \\(x=\\frac{1}{5}\\) in order to find the value of \\(y\\), which is\\(c\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ g(x)&=2 \\times \\frac{1}{5}-19 \\\\ g(x)&=\\frac{2}{5}-19\\\\  &= -18.6 \\end{aligned}$$</div><div class='explanation-step'>Another correct way to enter the answer is \\(-\\frac{93}{5}\\).</div>"
     },
     {
       "id": "A-L3-023",
@@ -3048,7 +3019,7 @@
         "allowNegative": true,
         "maxChars": 6
       },
-      "explanation": "<div class='explanation-step'>An equation that models this situation is (number of \\(3\\)-packs sold) + (number of \\(8\\)-packs sold) + 24 + = \\(149\\). If \\(n=\\) the number of \\(8\\)-packs sold, \\(4n=\\) the number of \\(3\\)-packs sold, so \\(4n+n+24=149\\). Solve for \\(n\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ 4n+n+24&=149 \\\\ 5n+24-24=149-24\\\\ 5n&= 125 \\\\ n&=25\\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>An equation that models this situation is (number of \\(3\\)-packs sold) + (number of \\(8\\)-packs sold) + 24 + = \\(149\\). If \\(n=\\) the number of \\(8\\)-packs sold, \\(4n=\\) the number of \\(3\\)-packs sold, so \\(4n+n+24=149\\). Solve for \\(n\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ 4n+n+24&=149 \\\\ 5n+24-24&=149-24\\\\ 5n&= 125 \\\\ n&=25\\end{aligned}$$</div>"
     },
 {
       "id": "A-L3-024",
@@ -3068,14 +3039,14 @@
       "stem": "<div class='stem-text'>A farmer uses \\(\\text{20,000}\\) gallons of water per week to irrigate his farm. He uses an average of \\(20\\) gallons per square yard of land. If water costs \\(\\$0.10\\) per square yard, which equation can be used to determine how many fewer gallons of water, \\(w\\), the farmer must use to decrease his water bill by \\(\\$10\\)?</div>",
       
       "choices": [
-        "\\frac{1}{200}w=10",
-        "\\frac{1}{200}w=15",
-        "200w=10",
-        "200w=15"
+        "\\(\\frac{1}{200}w=10\\)",
+        "\\(\\frac{1}{200}w=15\\)",
+        "\\(200w=10\\)",
+        "\\(200w=15\\)"
       ],
       "answerIndex": 0,
 
-      "explanation": "<div class='explanation-step'>This problem can be solved using unit conversions (dimensional analysis). To determine how much water the farmer must cut per week to save \\(\\$10\\), he will need to know the cost per gallon.  Begin with the cost per square yard, and use unit conversions to find the cost per gallon.</div><div class='explanation-math'>$$\\begin{aligned}\\ \\frac{0.1\\, \\text{dollars}}{1\\, \\cancel{\\text{square yard}}}\\times \\frac{1 \\, \\cancel{\\text{square yard}}}{20\\, \\text{gallons}}&=\\frac{0.1 \\, \\text{dollars}}{20 \\, \\text{gallons}} \\end{aligned}$$</div><div class='explanation-step'>Since this fraction does not match any in the answer choices, multiply the numerator and denominator by \\(10\\) to eliminate the decimal in the numerator. The cost per gallon fraction is then \\(\\frac{1}{200}\\). The farmer wants to save \\(\\$10\\), so the correct equation is the cost per gallon multiplied by the number of gallons of water, \\(w\\) equals \\(\\$10\\), or \\frac{1}{200}w=10</div>"
+      "explanation": "<div class='explanation-step'>This problem can be solved using unit conversions (dimensional analysis). To determine how much water the farmer must cut per week to save \\(\\$10\\), he will need to know the cost per gallon.  Begin with the cost per square yard, and use unit conversions to find the cost per gallon.</div><div class='explanation-math'>$$\\begin{aligned}\\ \\frac{0.1\\, \\text{dollars}}{1\\, \\cancel{\\text{square yard}}}\\times \\frac{1 \\, \\cancel{\\text{square yard}}}{20\\, \\text{gallons}}&=\\frac{0.1 \\, \\text{dollars}}{20 \\, \\text{gallons}} \\end{aligned}$$</div><div class='explanation-step'>Since this fraction does not match any in the answer choices, multiply the numerator and denominator by \\(10\\) to eliminate the decimal in the numerator. The cost per gallon fraction is then \\(\\frac{1}{200}\\). The farmer wants to save \\(\\$10\\), so the correct equation is the cost per gallon multiplied by the number of gallons of water, \\(w\\) equals \\(\\$10\\), or \\(\\frac{1}{200}w=10\\)</div>"
     },
 {
     "id": "A-L3-025",
@@ -3231,6 +3202,35 @@
     "answerIndex": 3,
     "explanation": "<div class='explanation-step'>The runner jogs at 6 mph for the first 2 hours, covering \\(6 \\times 2 = 12\\) miles. The remaining hours after the first two hours are \\(x - 2\\) hours. And she runs at 9 mph, so she runs \\(9(x-2)\\) miles. The total distance is:</div><div class='explanation-math'>$$\\begin{aligned}y &= 6(2) + 9(x-2) \\\\ y &= 12 + 9x - 18 \\\\ y &= 9x - 6\\end{aligned}$$</div><div class='explanation-step'>The correct equation is \\(y = 9x - 6\\). A common error is writing \\(9x\\) instead of \\(9(x-2)\\) for the second segment, which incorrectly applies the 9 mph rate to all \\(x\\) hours instead of only the hours after the first 2.</div>"
   },
+  {
+      "id": "A-L3-031",
+      "type": "gridin",
+      "mode": "practice",
+
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Linear Functions",
+        "skill": "Solving Linear Inequalities"
+      },
+
+      "level": 2,
+      "set": "Algebra Practice",
+      "tags": ["equations", "solving"],
+
+      "stem": "<div class='stem-text'>A jewelry maker is selling bracelets.  She has already earned \\(\\$85\\) toward her goal, and she plans to charge \\(\\$18.15\\) for each bracelet.  Her goal is to earn at least \\(\\$700\\).  What is the minimum number of bracelets she must sell in order to meet or exceed her earnings goal?</div>",
+
+      "answer": "34",
+      "answersAccepted": ["34"],
+
+      "validation": {
+        "allowDecimal": false,
+        "allowFraction": false,
+        "allowNegative": true,
+        "maxChars": 6
+      },
+
+      "explanation": "<div class='explanation-step'>Begin by defining a variable for the number of bracelets and then write an inequality for her earnings goal. Let \\(b=\\) number of bracelets and since she earns \\(\\$18.15\\) from each bracelet sale, she earns a total of \\(\\$18.15b\\) on the sale of bracelets.  The earnings goal inequality is \\(18.15b+85\\geq700\\).  Solve for \\(b\\):</div><div class='explanation-math'>$$\\begin{aligned}\\ 18.15b+85&\\geq700 \\\\ 18.15b+\\cancel{85}-\\cancel{85}&\\geq700-85\\\\ \\frac{\\cancel{18.15}b}{\\cancel{18.15}}&\\geq\\frac{615}{18.15}\\\\b&\\geq33.9\\end{aligned}$$</div><div class='explanation-step'>To reach her earnings goal, she must sell at least \\(34\\) bracelets.</div>"
+    },
     {
       "id": "AM-L1-001",
       "type": "mcq",
@@ -6373,7 +6373,7 @@
       "set": "Problem-solving and Data Analysis Practice",
       "tags": ["bar graphs"],
 
-      "stem": "<div class='stem-image'><img src='assets/Prob1-12.png' style='max-width:50%;'></div><div class='stem-text'>The bar graph shows the distribution of \\(399\\) tickets sold by \\(6\\) different age groups for a town fair. Which best approximates how many more tickets were sold by the 11-12 year olds than by the 17-18 year olds?</div>",
+      "stem": "<div class='stem-image'><img src='assets/Prob1-12.png' style='max-width:60%;'></div><div class='stem-text'>The bar graph shows the distribution of \\(399\\) tickets sold by \\(6\\) different age groups for a town fair. Which best approximates how many more tickets were sold by the 11-12 year olds than by the 17-18 year olds?</div>",
       "choices": [
         "\\(16\\)",
         "\\(27\\)",
@@ -6427,7 +6427,7 @@
     "\\(\\$\\text{4,320}\\)",
     "\\(\\$\\text{2,160}\\)",
     "\\(\\$1,380\\)",
-    "\\(\\$\\432\\)"
+    "\\(\\$432\\)"
   ],
   "answerIndex": 0,
   "explanation": "<div class='explanation-step'>The mean is the total divided by the number of values. Multiply the mean by the number of employees to find the total.</div><div class='explanation-math'>$$\\text{Total} = 90 \\times 48 = \\$4{,}320$$</div>"
@@ -6710,7 +6710,7 @@
       "set": "Problem-solving and Data Analysis Practice",
       "tags": ["graphs"],
 
-      "stem": "<div class='stem-image'><img src='assets/Prob2-11.png'></div><div class='stem-text'>Based on the graph, which of the following best describes the general trend in annual attendance at this amusement park from 1981 through 1991?</div>",
+      "stem": "<div class='stem-image'><img src='assets/Prob2-11.png' style='width:100%;'></div><div class='stem-text'>Based on the graph, which of the following best describes the general trend in annual attendance at this amusement park from 1981 through 1991?</div>",
       "choices": [
         "Attendance generally decreased each year since 1981.",
         "Attendance generally increased each year since 1981.",
@@ -6853,7 +6853,7 @@
         "maxChars": 6
       },
 
-      "explanation": "<div class='explanation-step'>This percent problem can be directly translated into a math equation; \\(n\\%\\) is \\(\\frac{n}{100}\\) &ldquo;and of&rdquo; means multiply, so &ldquo;\\(n\\%\\) of \\(40\\)&rdquo; is \\(\\frac{n}{100} \\times 40\\). Finally, &ldquo;is \\(19\\)&rdquo; means equals \\(19\\), so the final equation to solve is \\(\\frac{n}{100} \\times 40 = 19\\), or \\(\\frac{40}{100} \\times n = 19\\), which equals \\(0.4n = 19\\).  Divide both sides by \\(0.4\\), so \\(\\frac{19}{0.4}=247.5\\).</div>"
+      "explanation": "<div class='explanation-step'>This percent problem can be directly translated into a math equation; \\(n\\%\\) is \\(\\frac{n}{100}\\) &ldquo;and of&rdquo; means multiply, so &ldquo;\\(n\\%\\) of \\(40\\)&rdquo; is \\(\\frac{n}{100} \\times 40\\). Finally, &ldquo;is \\(19\\)&rdquo; means equals \\(19\\), so the final equation to solve is \\(\\frac{n}{100} \\times 40 = 19\\), or \\(\\frac{40}{100} \\times n = 19\\), which equals \\(0.4n = 19\\).  Divide both sides by \\(0.4\\), so \\(\\frac{19}{0.4}=47.5\\).</div>"
     },
     {
       "id": "P-L2-017",
@@ -6949,7 +6949,7 @@
     "\\(\\text{1,250)\\)"
   ],
   "answerIndex": 1,
-  "explanation": "<div class='explanation-step'>The estimate is 40% with a margin of error of 2%, so the plausible range is 38% to 42% of the population of 30,000.</div><div class='explanation-math'>$$\\begin{aligned}\\text{Low} &= 0.38 \\times 30{,}000 = 11{,}400 \\\\ \\text{High} &= 0.42 \\times 30{,}000 = 12{,}600\\end{aligned}$$</div><div class='explanation-step'>The only answer choice that falls within the range of 11,400 to 12,600 is 11,800.</div>"
+  "explanation": "<div class='explanation-step'>The estimate is \\(40\\%\\) with a margin of error of \\(2\\%\\), so the plausible range is \\(38\\%\\) to \\(42\\%\\) of the population of \\(\\text{30,000}\\).</div><div class='explanation-math'>$$\\begin{aligned}\\text{Low} &= 0.38 \\times 30{,}000 = 11{,}400 \\\\ \\text{High} &= 0.42 \\times 30{,}000 = 12{,}600\\end{aligned}$$</div><div class='explanation-step'>The only answer choice that falls within the range of \\(\\text{11,400\\) to \\(\\text{12,600\\) is \\(\\text{11,800\\).</div>"
 },
 {
       "id": "PS-L2-021",
@@ -7021,7 +7021,7 @@
       "set": "Problem-solving and Data Analysis Practice",
       "tags": ["conditional probability"],
 
-      "stem": "<div class='stem-table-wrap'><table class='stem-table'><tr><th></th><th>Junior Varsity</th><th>Varsity</th><th>Total</th></tr><tr><td>Basketball</td><td>\\(5\\)</td><td>\\(20\\)</td><td>\\(25\\)</td></tr><tr><td>Swimming</td><td>\\(30\\)</td><td>\\(10\\)</td><td>\\(40\\)</td></tr><tr><td>Volleyball</td><td>\\(15\\)</td><td>\\(20\\)</td><td>\\(35\\)</td></tr><tr><td>Total</td><td>\\(50\\)</td><td>\\(50\\)</td><td>\\(100\\)</td></tr></table></div><div class='stem-text'>Given that one of the varsity teams is selected, what is the probability that the team is a basketball team? (Express your answer as a decimal or fraction, not as a percent).</div>",
+      "stem": "<div class='stem-text'>The table summarizes the distribution of sports teams and levels for 100 teams across a particular state.</div><div class='stem-table-wrap'><table class='stem-table'><tr><th></th><th>Junior Varsity</th><th>Varsity</th><th>Total</th></tr><tr><td>Basketball</td><td>\\(5\\)</td><td>\\(20\\)</td><td>\\(25\\)</td></tr><tr><td>Swimming</td><td>\\(30\\)</td><td>\\(10\\)</td><td>\\(40\\)</td></tr><tr><td>Volleyball</td><td>\\(15\\)</td><td>\\(20\\)</td><td>\\(35\\)</td></tr><tr><td>Total</td><td>\\(50\\)</td><td>\\(50\\)</td><td>\\(100\\)</td></tr></table></div><div class='stem-text'>Given that one of the varsity teams is selected, what is the probability that the team is a basketball team? (Express your answer as a decimal or fraction, not as a percent).</div>",
 
       "answer": "\\frac{2}{5}",
       "answersAccepted": ["\\frac{2}{5}", "0.4", ".4"],
@@ -7104,7 +7104,7 @@
       "set": "Problem-solving and Data Analysis Practice",
       "tags": ["mean", "average"],
 
-      "stem": "<div class='stem-image'><img src='assets/Prob3-5.png' style='max-width:60%;'></div><div class='stem-text'>Two data sets of \\(25\\) whole numbered test scores each are summarized in the histograms shown.  For each of the histograms, the first interval represents the frequency of test scores greater than or equal to \\(0\\), but less than \\(20\\).  The second interval represents the frequency of test scores greater than or equal to \\(20\\), but less than \\(40\\), and so on.  What is the smallest possible difference between the mean of data set K and the mean of data set L?</div>",
+      "stem": "<div class='stem-image'><img src='assets/Prob3-5.png' style='max-width:80%;'></div><div class='stem-text'>Two data sets of \\(25\\) whole numbered test scores each are summarized in the histograms shown.  For each of the histograms, the first interval represents the frequency of test scores greater than or equal to \\(0\\), but less than \\(20\\).  The second interval represents the frequency of test scores greater than or equal to \\(20\\), but less than \\(40\\), and so on.  What is the smallest possible difference between the mean of data set K and the mean of data set L?</div>",
       "choices": [
         "\\(0\\)",
         "\\(3\\)",
@@ -7197,8 +7197,7 @@
         "allowNegative": true,
         "maxChars": 6
       },
-
-      "explanation": "<div class='explanation-step'>The mean is given, so use the mean formula to solve for the missing value \\(n\\).  The mean (or average) is \\(\\text{mean}= \\frac{\\text{sum of values}}{\\text{number of values}}\\). A frequency table summarizes the number of times a value occurs in a data set.  This frequency table indicates that there are three 1s, an unknown number of 2s, five 4s, etc.  To find the sum of the values, therefore, multiply the value (number) by the frequency, and add those products.  Then divide the number of values in the data set.</div><div class='explanation-step'>The sum of the values: \\((1 \\times 3) + 2n + (5 \\times 4) + (8 \\times 5) + (9 \\times 3)= 2n+90\\).</div><div class='explanation-step'>The number of values in the set: \\(3+n+4+5+3=n+15\\)</div><div class='explanation-step'>Substitute the expressions into the mean formula and solve for \\(n\\):</div><div class='explanation-math'>$$\\begin{aligned}\\ 5&= \\frac{2n+90}{n+15} \\end{aligned}$$</div><div class='explanation-step'>To solve, multiply both sides by \\(n+15\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ 5(n+15)&= 2n+90\\\\ 5n\\cancel{+75}-2n\\cancel{-75}&=\\cancel{2n}-\\cancel{2n}+90-75\\\\ 3n&=15\\\\ n&=5 \\end{aligned}$$</div><div class='explanation-step'>The frequency of  \\(2\\) is \\(5\\).</div>"
+      "explanation": "<div class='explanation-step'>The four categories must sum to 100%. Events (22%) + Advertising (38%) + Analytics (16%) = 76%, so branding accounts for the remaining 24% of the budget.</div><div class='explanation-step'>Since branding equals 24% of the total budget and is given as $6,000, set up an equation to find the total:</div><div class='explanation-math'>$$0.24 \\times T = 6{,}000 \\implies T = \\frac{6{,}000}{0.24} = 25{,}000$$</div><div class='explanation-step'>Now find the dollar amounts for advertising and events:</div><div class='explanation-math'>$$\\text{Advertising} = 0.38 \\times 25{,}000 = 9{,}500$$</div><div class='explanation-math'>$$\\text{Events} = 0.22 \\times 25{,}000 = 5{,}500$$</div><div class='explanation-step'>The difference is:</div><div class='explanation-math'>$$9{,}500 - 5{,}500 = \\$4{,}000$$</div>"
     },
   {
     "id": "P-L3-009",
@@ -7256,7 +7255,7 @@
     "level": 3,
     "set": "Problem Solving Practice",
     "tags": ["box plot", "median", "IQR", "range", "must be true"],
-    "stem": "<div class='stem-image'><img src='assets/Prob3-11.png'></div><div class='stem-text'>The box plot summarizes the wait times, in minutes, of 9 customers at a service counter. A 10th customer has a wait time of 71 minutes, and this value is added to the data to create a new data set with 10 values. Which of the following must be true?<br><br>I. The median wait time of the new data set is greater than the median wait time of the original data set.<br>II. The interquartile range (IQR) of the new data set is greater than the IQR of the original data set.<br>III. The range of the new data set is greater than the range of the original data set.</div>",
+    "stem": "<div class='stem-image'><img src='assets/Prob3-11.png' style='width:100%;'></div><div class='stem-text'>The box plot summarizes the wait times, in minutes, of 9 customers at a service counter. A 10th customer has a wait time of 71 minutes, and this value is added to the data to create a new data set with 10 values. Which of the following must be true?<br><br>I. The median wait time of the new data set is greater than the median wait time of the original data set.<br>II. The interquartile range (IQR) of the new data set is greater than the IQR of the original data set.<br>III. The range of the new data set is greater than the range of the original data set.</div>",
     "choices": [
       "\\(\\text{I only}\\)",
       "\\(\\text{I and II only}\\)",
@@ -8719,7 +8718,209 @@
       ],
       "answerIndex": 2,
       "explanation": "<div class='explanation-step'>Draw and label the circle. If the inscribed angle is \\(54^\\circ\\), the measure of central angle \\(QTS=108^\\circ\\). This is the central angle that forms the sector in question.</div><div class='stem-image'><img src='assets/Geo3-21A.png.png'><div class='explanation-step'>The area of a sector of a circle \\(=\\frac{\\text{central angle}}{360} \\times \\text{area of the circle}\\). In order to find the area of the circle, you need to find the radius.  Use the arc length formula and the given arc length to solve for the circumference. <div class='explanation-math'>$$\\begin{aligned}\\ \\text{Arc length}&=\\frac{\\text{central angle}{360} \\times \\text{circumference} \\\\ 6\\pi &=\\frac{108}{360} \\times C \\\\6\\pi &=.3C \\\\ C&=20\\pi \\end{aligned}$$</div><div class='explanation-step'>The circumference is found by \\(C=2\\pi r\\), so \\(20\\pi=2\\pi r\\). Divide both sides by \\(2 \\pi\\) to get \\(r=10\\). Next, use the sector area formula to find the area of sector \\(QTS\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ \\text{Sector Area}&=.3 \\times \\pi r^2 \\\\ 6&=.3 \\times \\pi \\times 10^2 \\\\ &=.3 \\times 100 \\pi \\\\ &= 30 \\pi \\end{aligned}$$</div>"
-    }
+    },
+    {
+    "id": "G-L3-022",
+    "type": "mcq",
+    "level": 3,
+    "skill": {
+      "domain": "Geometry and Trigonometry",
+      "topic": "Geometry and Trigonometry",
+      "skill": "Rates, Ratios, and Proportional Reasoning"
+    },
+    "stem": "<div class='stem-text'>Two similar cylinders have radii in the ratio \\(3:5\\). If the volume of the smaller cylinder is \\(54\\pi\\) cubic inches, what is the volume of the larger cylinder in cubic inches?</div>",
+    "choices": [
+      "\\(250\\pi\\)",
+      "\\(90\\pi\\)",
+      "\\(162\\pi\\)",
+      "\\(375\\pi\\)"
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For similar three-dimensional figures, volumes scale as the <strong>cube</strong> of the ratio of corresponding linear dimensions.</div><div class='explanation-math'>$$\\text{Volume ratio} = \\left(\\frac{5}{3}\\right)^3 = \\frac{125}{27}$$</div><div class='explanation-step'>The larger volume equals the smaller volume times this ratio:</div><div class='explanation-math'>$$V_{\\text{large}} = 54\\pi \\times \\frac{125}{27} = 2\\pi \\times 125 = 250\\pi$$</div><div class='explanation-step'>The correct answer is <strong>C</strong>: \\(250\\pi\\) cubic inches.</div>"
+  },
+  {
+    "id": "G-L3-023",
+    "type": "gridin",
+    "level": 3,
+    "skill": {
+      "domain": "Geometry and Trigonometry",
+      "topic": "Geometry and Trigonometry",
+      "skill": "Rates, Ratios, and Proportional Reasoning"
+    },
+    "stem": "<div class='stem-text'>A map uses a scale of 1.5 inches to represent 40 miles. On the map, the distance between two cities measures 5.25 inches. A driver travels between the cities at an average speed of 60 miles per hour. How many minutes will the trip take?</div>",
+    "answer": "140",
+    "answersAccepted": [
+      "140"
+    ],
+    "validation": {
+      "format": "number",
+      "allowNegative": false,
+      "allowDecimal": false,
+      "allowFraction": false,
+      "maxChars": 5
+    },
+    "explanation": "<div class='explanation-step'>First, find the actual distance using the map scale.</div><div class='explanation-math'>$$\\frac{1.5 \\text{ in}}{40 \\text{ mi}} = \\frac{5.25 \\text{ in}}{d} \\implies d = \\frac{5.25 \\times 40}{1.5} = \\frac{210}{1.5} = 140 \\text{ miles}$$</div><div class='explanation-step'>Find the travel time in hours, then convert to minutes.</div><div class='explanation-math'>$$t = \\frac{140}{60} = \\frac{7}{3} \\text{ hours} = \\frac{7}{3} \\times 60 = 140 \\text{ minutes}$$</div>"
+  },
+  {
+    "id": "G-L3-024",
+    "type": "mcq",
+    "level": 3,
+    "skill": {
+      "domain": "Geometry and Trigonometry",
+      "topic": "Geometry and Trigonometry",
+      "skill": "Rates, Ratios, and Proportional Reasoning"
+    },
+    "stem": "<div class='stem-text'>Rectangle \\(ABCD\\) is similar to rectangle \\(EFGH\\). The perimeter of \\(ABCD\\) is 36 and the perimeter of \\(EFGH\\) is 60. If the area of \\(ABCD\\) is 72, what is the area of \\(EFGH\\)?</div>",
+    "choices": [
+      "\\(120\\)",
+      "\\(144\\)",
+      "\\(200\\)",
+      "\\(180\\)"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For similar figures, the ratio of perimeters equals the ratio of corresponding side lengths, and the ratio of areas equals the <strong>square</strong> of that ratio.</div><div class='explanation-math'>$$\\text{Side ratio} = \\frac{60}{36} = \\frac{5}{3}$$</div><div class='explanation-math'>$$\\text{Area ratio} = \\left(\\frac{5}{3}\\right)^2 = \\frac{25}{9}$$</div><div class='explanation-math'>$$\\text{Area of } EFGH = 72 \\times \\frac{25}{9} = 8 \\times 25 = 200$$</div>"
+  },
+  {
+    "id": "G-L3-025",
+    "type": "mcq",
+    "level": 3,
+    "skill": {
+      "domain": "Geometry and Trigonometry",
+      "topic": "Geometry and Trigonometry",
+      "skill": "Pythagorean Theorem"
+    },
+    "stem": "<div class='stem-text'>A 25-foot ladder leans against a vertical wall with its foot 7 feet from the base of the wall. A rung of the ladder is located exactly 20 feet up the ladder from its foot (measured along the ladder). How many feet above the ground is that rung?</div>",
+    "choices": [
+      "\\(\\dfrac{72}{5}\\)",
+      "\\(\\dfrac{48}{5}\\)",
+      "\\(\\dfrac{96}{5}\\)",
+      "\\(20\\)"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>First find the height the ladder reaches using the Pythagorean theorem.</div><div class='explanation-math'>$$h = \\sqrt{25^2 - 7^2} = \\sqrt{625 - 49} = \\sqrt{576} = 24 \\text{ ft}$$</div><div class='explanation-step'>The ladder rises 24 feet over its 25-foot length, so height gained per foot along the ladder is \\(\\dfrac{24}{25}\\).</div><div class='explanation-math'>$$\\text{Height of rung} = 20 \\times \\frac{24}{25} = \\frac{480}{25} = \\frac{96}{5} \\text{ ft}$$</div>"
+  },
+  {
+    "id": "G-L3-026",
+    "type": "gridin",
+    "level": 3,
+    "skill": {
+      "domain": "Geometry and Trigonometry",
+      "topic": "Geometry and Trigonometry",
+      "skill": "Pythagorean Theorem"
+    },
+    "stem": "<div class='stem-text'>In right triangle \\(ABC\\) with the right angle at \\(C\\), the altitude from \\(C\\) to hypotenuse \\(\\overline{AB}\\) meets \\(AB\\) at point \\(D\\). If \\(AD = 4\\) and \\(DB = 9\\), what is the length of \\(CD\\)?</div>",
+    "answer": "6",
+    "answersAccepted": [
+      "6"
+    ],
+    "validation": {
+      "format": "number",
+      "allowNegative": false,
+      "allowDecimal": false,
+      "allowFraction": false,
+      "maxChars": 4
+    },
+    "explanation": "<div class='explanation-step'>When an altitude is drawn from the right angle to the hypotenuse of a right triangle, the altitude is the geometric mean of the two segments it creates on the hypotenuse.</div><div class='explanation-math'>$$CD^2 = AD \\times DB = 4 \\times 9 = 36$$</div><div class='explanation-math'>$$CD = \\sqrt{36} = 6$$</div>"
+  },
+  {
+    "id": "G-L3-027",
+    "type": "mcq",
+    "level": 3,
+    "skill": {
+      "domain": "Geometry and Trigonometry",
+      "topic": "Geometry and Trigonometry",
+      "skill": "Trigonometry"
+    },
+    "stem": "<div class='stem-text'>In right triangle \\(PQR\\), the right angle is at \\(Q\\). If \\(PQ = 7\\) and \\(\\sin(\\angle P) = \\dfrac{3}{5}\\), what is the length of \\(QR\\)?</div>",
+    "choices": [
+      "\\(\\dfrac{21}{5}\\)",
+      "\\(\\dfrac{35}{4}\\)",
+      "\\(\\dfrac{35}{3}\\)",
+      "\\(\\dfrac{21}{4}\\)"
+    ],
+    "answerIndex": 3,
+    "explanation": "<div class='explanation-step'>In right triangle \\(PQR\\) with right angle at \\(Q\\), side \\(PQ\\) is adjacent to \\(\\angle P\\) and \\(QR\\) is opposite \\(\\angle P\\).</div><div class='explanation-math'>$$\\sin(\\angle P) = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{QR}{PR} = \\frac{3}{5}$$</div><div class='explanation-math'>$$\\cos(\\angle P) = \\frac{PQ}{PR} = \\frac{4}{5}$$</div><div class='explanation-step'>Using \\(\\cos(\\angle P)\\) to find \\(PR\\):</div><div class='explanation-math'>$$\\frac{4}{5} = \\frac{7}{PR} \\implies PR = \\frac{35}{4}$$</div><div class='explanation-step'>Now find \\(QR\\):</div><div class='explanation-math'>$$QR = PR \\times \\sin(\\angle P) = \\frac{35}{4} \\times \\frac{3}{5} = \\frac{105}{20} = \\frac{21}{4}$$</div>"
+  },
+  {
+    "id": "G-L3-028",
+    "type": "mcq",
+    "level": 3,
+    "skill": {
+      "domain": "Geometry and Trigonometry",
+      "topic": "Geometry and Trigonometry",
+      "skill": "Special Right Triangles"
+    },
+    "stem": "<div class='stem-text'>A regular hexagon has a perimeter of 48. What is its area?</div>",
+    "choices": [
+      "\\(96\\sqrt{3}\\)",
+      "\\(48\\sqrt{3}\\)",
+      "\\(72\\sqrt{3}\\)",
+      "\\(144\\sqrt{3}\\)"
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>A regular hexagon with perimeter 48 has side length \\(s = 48 \\div 6 = 8\\).</div><div class='explanation-step'>A regular hexagon is made up of 6 equilateral triangles, each with side length 8. Each equilateral triangle can be split into two 30-60-90 triangles.</div><div class='explanation-math'>$$\\text{Area of one equilateral triangle} = \\frac{\\sqrt{3}}{4}s^2 = \\frac{\\sqrt{3}}{4}(64) = 16\\sqrt{3}$$</div><div class='explanation-math'>$$\\text{Area of hexagon} = 6 \\times 16\\sqrt{3} = 96\\sqrt{3}$$</div>"
+  },
+  {
+    "id": "G-L3-029",
+    "type": "gridin",
+    "level": 3,
+    "skill": {
+      "domain": "Geometry and Trigonometry",
+      "topic": "Geometry and Trigonometry",
+      "skill": "Special Right Triangles"
+    },
+    "stem": "<div class='stem-text'>In a 45-45-90 triangle, the hypotenuse has length \\(10\\sqrt{2}\\). What is the area of a square whose side length equals one leg of the triangle?</div>",
+    "answer": "100",
+    "answersAccepted": [
+      "100"
+    ],
+    "validation": {
+      "format": "number",
+      "allowNegative": false,
+      "allowDecimal": false,
+      "allowFraction": false,
+      "maxChars": 5
+    },
+    "explanation": "<div class='explanation-step'>In a 45-45-90 triangle, the legs are equal and the hypotenuse is \\(\\sqrt{2}\\) times the leg length.</div><div class='explanation-math'>$$\\text{leg} = \\frac{10\\sqrt{2}}{\\sqrt{2}} = 10$$</div><div class='explanation-math'>$$\\text{Area of square} = 10^2 = 100$$</div>"
+  },
+  {
+    "id": "G-L3-030",
+    "type": "mcq",
+    "level": 3,
+    "skill": {
+      "domain": "Geometry and Trigonometry",
+      "topic": "Geometry and Trigonometry",
+      "skill": "Congruence"
+    },
+    "stem": "<div class='stem-text'>Triangles \\(ABC\\) and \\(DEF\\) are congruent, with \\(AB \\cong DE\\), \\(BC \\cong EF\\), and \\(\\angle B \\cong \\angle E\\). If \\(\\angle B = 65°\\) and \\(\\angle F = 47°\\), what is the measure of \\(\\angle D\\)?</div>",
+    "choices": [
+      "\\(47°\\)",
+      "\\(68°\\)",
+      "\\(65°\\)",
+      "\\(115°\\)"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>The triangles are congruent by SAS (two sides and the included angle). The correspondence is \\(A \\leftrightarrow D\\), \\(B \\leftrightarrow E\\), \\(C \\leftrightarrow F\\).</div><div class='explanation-step'>Since \\(\\angle C \\cong \\angle F\\), we have \\(\\angle C = 47°\\). Use the triangle angle sum to find \\(\\angle A\\):</div><div class='explanation-math'>$$\\angle A + \\angle B + \\angle C = 180°$$</div><div class='explanation-math'>$$\\angle A + 65° + 47° = 180°$$</div><div class='explanation-math'>$$\\angle A = 68°$$</div><div class='explanation-step'>Since \\(\\angle D \\cong \\angle A\\), we have \\(\\angle D = 68°\\).</div>"
+  },
+  {
+    "id": "G-L3-031",
+    "type": "mcq",
+    "level": 3,
+    "skill": {
+      "domain": "Geometry and Trigonometry",
+      "topic": "Geometry and Trigonometry",
+      "skill": "Congruence"
+    },
+    "stem": "<div class='stem-text'>In the figure, \\(\\overline{AC}\\) bisects \\(\\angle BAD\\) and \\(\\overline{AC}\\) bisects \\(\\angle BCD\\). Which congruence theorem guarantees that \\(\\triangle ABC \\cong \\triangle ADC\\)?</div>",
+    "choices": [
+      "SSS",
+      "SAS",
+      "AAS",
+      "ASA"
+    ],
+    "answerIndex": 3,
+    "explanation": "<div class='explanation-step'>Since \\(\\overline{AC}\\) bisects \\(\\angle BAD\\), we have \\(\\angle BAC = \\angle DAC\\). Since \\(\\overline{AC}\\) bisects \\(\\angle BCD\\), we have \\(\\angle BCA = \\angle DCA\\). The side \\(\\overline{AC}\\) is shared by both triangles (\\(AC = AC\\)).</div><div class='explanation-step'>This gives us: \\(\\angle BAC = \\angle DAC\\), \\(AC = AC\\) (shared side), and \\(\\angle BCA = \\angle DCA\\).</div><div class='explanation-step'>The pattern is angle-side-angle (<strong>ASA</strong>): two angles and the included side are congruent. The included side \\(\\overline{AC}\\) lies between the two pairs of congruent angles.</div>"
+  }
 
   ]
 }

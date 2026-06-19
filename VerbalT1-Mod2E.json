@@ -52,27 +52,25 @@
   "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word or phrase fits in the blank. Look for signal words that show whether the blank should be a synonym, an antonym, or a cause-and-effect relationship to another part of the sentence.</div><div class='explanation-step'>Here, Galileo was previously &ldquo;censured,&rdquo; which means condemned or deeply criticized. But later something happened because of &ldquo;widespread recognition of his indisputable contributions to astronomy,&rdquo; in contrast to censure. The word in the blank is something close to <em>respected</em> or maybe even <em>celebrated</em>.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Revered&rdquo; means <em>respected</em> or <em>admired</em>.  This is the opposite of censured and in line with being widely recognized. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Discredited&rdquo; means <em>losing respect</em>, which is the opposite of what is expected with wide recognition of Galileo's accomplishments. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Overlooked&rdquo; means <em>not noticed</em>. Galileo was widely recognized, so this is the opposite of overlooked. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Condemned&rdquo; is synonymous with <em>censured</em>. Since this sentence has a reversal, the opposite is of condemned is needed. Eliminate D.</div><br><br>This means <strong>A</strong> is the correct answer."
 },
 {
-      "id": "VerbalT1-2E-003",
-      "type": "mcq",
-      "skill": {
-        "domain": "Craft and Structure",
-        "topic": "Words in Context",
-        "skill": "Vocabulary in Context"
-      },
-
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["vocabulary", "sentence completion"],
-
-      "stem": "Engineers have been exploring self-healing polymers—materials that can repair themselves when exposed to heat or other stimuli—primarily from a scientific perspective, and their commercial potential remains largely unexplored. Although these materials have taken the scientific community by storm, their comparatively <span class='blank'>_______</span> applications extend only to a few examples, such as car paint and certain medical devices, suggesting that the field remains ripe for further development.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+  "id": "VerbalT1-2E-003",
+  "type": "mcq",
+  "level": 1,
+  "skill": {
+    "domain": "Craft and Structure",
+    "topic": "Words in Context",
+    "skill": "Vocabulary in Context"
+  },
+  "set": "Verbal Practice",
+  "tags": ["vocabulary", "sentence completion"],
+  "stem": "Engineers have been exploring self-healing polymers — materials that can repair themselves when exposed to heat or other stimuli — almost exclusively within academic research settings. Although these materials have generated considerable excitement in scientific circles, their real-world applications remain comparatively <span class='blank'>_______</span>, extending only to a few examples such as car paint and certain medical devices, suggesting the field remains ripe for further development.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
   "choices": [
     "innovative",
+    "theoretical",
     "paltry",
-    "commercial",
     "extensive"
   ],
   "answerIndex": 2,
-  "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word or phrase fits in the blank. Look for signal words that show whether the blank should be a synonym, an antonym, or a cause-and-effect relationship to another part of the sentence.</div><div class='explanation-step'>In the first sentence, we learn that self-healing polymers have been extensively explored from the &ldquo;scientific perspective,&rdquo; but not from a &ldquo;commercial&rdquo; perspective.  The word &ldquo;although&rdquo; in the second sentence sets up a contrast that is similar to the first sentence; the polymers have &ldquo;taken the scientific community by storm,&rdquo; and in comparison their <em>commercial applications</em> (taken from the first sentence) just have a few examples.  The word in the blank is <em>commercial</em> or <em>practical</em>.</div><div class='explanation-step'><strong>A)</strong> &ldquo;innovative&rdquo; means <em>original</em> or <em>creative</em>.  This word fits grammatically and describes a type of application, making it a tempting choice. However, the passage never suggests that the few existing uses (car paint and medical devices) are particularly innovative. Because there’s no evidence they are innovative, this is not the best answer. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;paltry&rdquo; means <em>small</em> or <em>meager</em>. This could describe the number of examples, but the blank refers to the type of applications, not the quantity. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;commercial&rdquo; means <em>intended for business or profit</em>, directly contrasting with &ldquo;scientific&rdquo; and matching the context of the first sentence. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;extensive&rdquo; means <em>large</em> or <em>wide-ranging</em>. This is the opposite of what the sentence conveys, since the applications are limited. Eliminate D.</div><br><br>This means <strong>C</strong> is the correct answer."
+  "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank. The word &ldquo;Although&rdquo; signals a contrast: despite generating &ldquo;considerable excitement&rdquo; in scientific circles, the real-world applications are something quite different. The clue is &ldquo;extending only to a few examples&rdquo; — the blank must describe applications that are small in number or insufficient.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Innovative&rdquo; means original or creative. The passage never suggests that car paint and medical devices are particularly innovative — this word doesn&rsquo;t follow from the clues. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Theoretical&rdquo; means existing only in theory, not in practice. But the passage gives concrete real-world examples (car paint, medical devices), so the applications are not purely theoretical. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Paltry&rdquo; means meager or disappointingly small in number. This fits the contrast the passage sets up: great excitement in science, but only a handful of real-world uses so far. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Extensive&rdquo; means large or wide-ranging — the opposite of what the passage describes. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
 },
 {
       "id": "VerbalT1-2E-004",
@@ -110,7 +108,7 @@
       "set": "Verbal Practice",
       "tags": ["passage structure", "sentence function"],
 
-      "stem": "Noam Chomsky is first and foremost a professor of linguistics, but much of his published body of work is dedicated to political analysis and activism. It raises the question of how his background in linguistics informs his analysis of political climates and events. <u>The definitive answer lies in <em>Manufacturing Consent</em>, his book about media and propaganda and how the language used in media is crafted to manipulate the opinions, behaviors, and docility of its consumers.</u><br><br>Which choice best describes the function of the underlined sentence in the text as a whole?",
+      "stem": "Noam Chomsky is first and foremost a professor of linguistics, but much of his published body of work is dedicated to political analysis and activism. This raises the question of how his background in linguistics informs his analysis of political climates and events. <u>The definitive answer lies in <em>Manufacturing Consent</em>, his book about media and propaganda and how the language used in media is crafted to manipulate the opinions, behaviors, and docility of its consumers.</u><br><br>Which choice best describes the function of the underlined sentence in the text as a whole?",
   "choices": [
     "It shifts the focus from Chomsky’s academic work to his political life.",
     "It provides an example that illustrates how Chomsky’s expertise in language relates to his political analysis.",
@@ -141,7 +139,7 @@
   },
   {
     "text": "Chemical control of insects seems to have proceeded on the assumption that the soil could and would sustain any amount of <u>insult</u> via the introduction of poisons, without striking back. The very nature of the world of the soil has been largely ignored.",
-    "align": "center",
+    "align": "left",
     "style": "passage"
   },
   {
@@ -195,7 +193,7 @@
       "set": "Verbal Practice",
       "tags": ["main idea", "main purpose"],
 
-      "stem": "The true identity of who authored Shakespeare’s plays is still debated in academic circles. Scholars generally fall into two main camps: the traditionalists, who attribute the works to William Shakespeare of Stratford-upon-Avon, and the anti-Stratfordians, who argue that another writer must have been responsible. The existence of these opposing camps stems largely from Shakespeare’s modest background, which some believe contrasts too sharply with the extensive knowledge of aristocratic life and distant settings reflected in the plays.<br><br>Which choice best states the main purpose of the text?",
+      "stem": "The true identity of who authored Shakespeare&rsquo;s plays is still debated in academic circles. Scholars generally fall into two main camps: the traditionalists, who attribute the works to William Shakespeare of Stratford-upon-Avon, and the anti-Stratfordians, who argue that another writer must have been responsible. The existence of these opposing camps stems largely from Shakespeare&rsquo;s modest background, which anti-Stratfordians believe contrasts too sharply with the extensive knowledge of aristocratic life and distant settings reflected in the plays.<br><br>Which choice best states the main purpose of the text?",
   "choices": [
     "Summarize the evidence supporting Shakespeare’s authorship of his plays.",
     "Argue that the anti-Stratfordian position is more convincing than the traditional one.",
@@ -301,7 +299,7 @@
     {
       "text": "According to the table, the age group with the highest rate of electric vehicle ownership in 2023 was <span class='blank'>_______</span>.",
       "align": "left",
-      "style": "passage"
+      "style": "default"
     },
     {
       "text": "Which choice most effectively uses data from the table to complete the statement?",
@@ -545,8 +543,8 @@
     "Primarily,",
     "Therefore,"
   ],
-  "answerIndex": 3,
-  "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas, either between sentences or within a single sentence. To find the correct answer, find how the ideas connect; the second idea is usually a cause, result, contrast, or example of the first.</div><div class='explanation-step'>In this passage, the first sentence discusses the environmental and medical uses of biodegradable electronics. The second sentence introduces an additional application in espionage. Because the second idea expands on the first rather than contrasting or resulting from it, the correct transition should signal \textbf{addition} or \textbf{continuation}.</div><div class='explanation-step'><strong>A)</strong>&ldquo;However&rdquo; signals contrast, but the second sentence isn’t opposing the first. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;Likewise&rdquo; means \textit{in a similar way} and correctly links the new example (espionage) as another application of the same property described earlier. Keep B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;Primarily&rdquo; suggests a main purpose, which doesn’t fit the second idea. The second sentence introduces an additional use, not the primary one. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;Therefore&rdquo; shows a cause-and-effect relationship, which doesn’t fit since espionage use isn’t caused by the medical one. Eliminate D.</div><br><br>This means the correct answer is <strong>D</strong>."
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas, either between sentences or within a single sentence. To find the correct answer, find how the ideas connect; the second idea is usually a cause, result, contrast, or example of the first.</div><div class='explanation-step'>In this passage, the first sentence discusses the environmental and medical uses of biodegradable electronics. The second sentence introduces an additional application in espionage. Because the second idea expands on the first rather than contrasting or resulting from it, the correct transition should signal \textbf{addition} or \textbf{continuation}.</div><div class='explanation-step'><strong>A)</strong>&ldquo;However&rdquo; signals contrast, but the second sentence isn’t opposing the first. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;Likewise&rdquo; means \textit{in a similar way} and correctly links the new example (espionage) as another application of the same property described earlier. Keep B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;Primarily&rdquo; suggests a main purpose, which doesn’t fit the second idea. The second sentence introduces an additional use, not the primary one. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;Therefore&rdquo; shows a cause-and-effect relationship, which doesn’t fit since espionage use isn’t caused by the medical one. Eliminate D.</div><br><br>This means the correct answer is <strong>B</strong>."
 },
 {
     "id": "VerbalT1-2E-023",
