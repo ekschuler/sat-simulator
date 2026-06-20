@@ -7233,7 +7233,7 @@
     "level": 3,
     "set": "Problem Solving Practice",
     "tags": ["percent", "must be true", "revenue"],
-    "stem": "<div class='stem-text'>A store's revenue increased by 12% from year 1 to year 2, and then decreased by 15% from year 2 to year 3. Which of the following must be true?<br><br>I. The store's revenue in year 3 was less than its revenue in year 1.<br>II. The decrease in revenue from year 2 to year 3 was greater than the increase in revenue from year 1 to year 2.<br>III. The store's revenue in year 3 was less than 95% of its revenue in year 1.</div>",
+    "stem": "<div class='stem-text'>A store's revenue increased by \\(12\\%\\) from year 1 to year 2, and then decreased by \\(15\\%\\) from year 2 to year 3. Which of the following must be true?<br><br>I. The store's revenue in year 3 was less than its revenue in year 1.<br>II. The decrease in revenue from year 2 to year 3 was greater than the increase in revenue from year 1 to year 2.<br>III. The store's revenue in year 3 was less than 95% of its revenue in year 1.</div>",
     "choices": [
       "\\(\\text{I only}\\)",
       "\\(\\text{II only}\\)",
@@ -7241,7 +7241,7 @@
       "\\(\\text{I, II, and III}\\)"
     ],
     "answerIndex": 2,
-    "explanation": "<div class='explanation-step'>Let the year 1 revenue equal \\$100. Then year 2 revenue \\(= 100 \\times 1.12 = \\$112\\). Year 3 revenue \\(= 112 \\times 0.85 = \\$95.20\\).</div><div class='explanation-step'><strong>Statement I:</strong> \\$95.20 &lt; \\$100 ✓ True.</div><div class='explanation-step'><strong>Statement II:</strong> Increase \\(= \\$12\\). Decrease \\(= \\$112 - \\$95.20 = \\$16.80\\). Since \\$16.80 &gt; \\$12 ✓ True.</div><div class='explanation-step'><strong>Statement III:</strong> 95% of \\$100 \\(= \\$95\\). Since \\$95.20 &gt; \\$95\\), statement III is false.</div><div class='explanation-step'>Only statements I and II must be true.</div>"
+    "explanation": "<div class='explanation-step'>Let the year 1 revenue equal $100. Then year 2 revenue \\(= 100 \\times 1.12 = 112\\). Year 3 revenue \\(= 112 \\times 0.85 = 95.20\\).</div><div class='explanation-step'><strong>Statement I:</strong> $95.20 &lt; $100 ✓ True.</div><div class='explanation-step'><strong>Statement II:</strong> Increase = $12. Decrease \\(= 112 - 95.20 = 16.80\\). Since $16.80 &gt; $12 ✓ True.</div><div class='explanation-step'><strong>Statement III:</strong> 95% of $100 = $95. Since $95.20 &gt; $95, statement III is false.</div><div class='explanation-step'>Only statements I and II must be true.</div>"
   },
   {
     "id": "P-L3-011",
@@ -7255,7 +7255,7 @@
     "level": 3,
     "set": "Problem Solving Practice",
     "tags": ["box plot", "median", "IQR", "range", "must be true"],
-    "stem": "<div class='stem-image'><img src='assets/Prob3-11.png' style='width:100%;'></div><div class='stem-text'>The box plot summarizes the wait times, in minutes, of 9 customers at a service counter. A 10th customer has a wait time of 71 minutes, and this value is added to the data to create a new data set with 10 values. Which of the following must be true?<br><br>I. The median wait time of the new data set is greater than the median wait time of the original data set.<br>II. The interquartile range (IQR) of the new data set is greater than the IQR of the original data set.<br>III. The range of the new data set is greater than the range of the original data set.</div>",
+    "stem": "<div class='stem-image'><img src='assets/Prob3-11.png' style='width:100%;'></div><div class='stem-text'>The box plot summarizes the wait times, in minutes, of \\(9\\) customers at a service counter. A 10th customer has a wait time of \\(71\\) minutes, and this value is added to the data to create a new data set with 10 values. Which of the following must be true?<br><br>I. The median wait time of the new data set is greater than the median wait time of the original data set.<br>II. The interquartile range (IQR) of the new data set is greater than the IQR of the original data set.<br>III. The range of the new data set is greater than the range of the original data set.</div>",
     "choices": [
       "\\(\\text{I only}\\)",
       "\\(\\text{I and II only}\\)",
@@ -7285,7 +7285,7 @@
       "\\(\\text{I, II, and III}\\)"
     ],
     "answerIndex": 3,
-    "explanation": "<div class='explanation-step'>The histogram shows bins: 4,000–5,999 (5 participants), 6,000–7,999 (10), 8,000–9,999 (16), 10,000–11,999 (7), 12,000–13,999 (2). The minimum value in data set A is 4,000. The new value of 3,200 is below the minimum.</div><div class='explanation-step'><strong>Statement I:</strong> The median of data set A is the average of the 20th and 21st values, which falls in the 8,000–9,999 bin. Adding 3,200 (below the median) shifts the median down. ✓ True.</div><div class='explanation-step'><strong>Statement II:</strong> Mean of data set A \\(\\approx \\frac{5000(5)+7000(10)+9000(16)+11000(7)+13000(2)}{40} = \\frac{342{,}000}{40} = 8{,}550\\). Adding 3,200, which is below the mean, pulls the mean down. ✓ True.</div><div class='explanation-step'><strong>Statement III:</strong> Since 3,200 &lt; 4,000, the new minimum extends the range. ✓ True.</div><div class='explanation-step'>All three statements must be true.</div>"
+    "explanation": "<div class='explanation-step'>The histogram shows bins: 4,000–5,999 (5 participants), 6,000–7,999 (10), 8,000–9,999 (16), 10,000–11,999 (7), 12,000–13,999 (2). The minimum value in data set A is \\(\\text{4,000}\\). The new value of \\(\\texT{3,200}\\) is below the minimum.</div><div class='explanation-step'><strong>Statement I:</strong> The median of data set A is the average of the 20th and 21st values, which falls in the 8,000–9,999 bin. Adding 3,200 (below the median) shifts the median down. ✓ True.</div><div class='explanation-step'><strong>Statement II:</strong> Mean of data set A \\(\\approx \\frac{5000(5)+7000(10)+9000(16)+11000(7)+13000(2)}{40} = \\frac{342{,}000}{40} = 8{,}550\\). Adding \\(\\text{3,200}\\), which is below the mean, pulls the mean down. ✓ True.</div><div class='explanation-step'><strong>Statement III:</strong> Since \\(\\text{3,200} &lt; \\text{4,000}\\), the new minimum extends the range. ✓ True.</div><div class='explanation-step'>All three statements must be true.</div>"
   },
   {
     "id": "P-L3-013",
@@ -7299,7 +7299,7 @@
     "level": 3,
     "set": "Problem Solving Practice",
     "tags": ["percent", "successive", "percent change"],
-    "stem": "<div class='stem-text'>A jacket's original price is marked up by 40%, and then the marked-up price is discounted by 25%. What is the net percent change in the price of the jacket from its original price?</div>",
+    "stem": "<div class='stem-text'>A jacket's original price is marked up by \\(40\\%\\), and then the marked-up price is discounted by \\(25\\%\\). What is the net percent change in the price of the jacket from its original price?</div>",
     "choices": [
       "\\(5\\%\\text{ decrease}\\)",
       "\\(12\\%\\text{ increase}\\)",
@@ -7307,7 +7307,7 @@
       "\\(5\\%\\text{ increase}\\)"
     ],
     "answerIndex": 3,
-    "explanation": "<div class='explanation-step'>Let the original price equal \\$100. After a 40% markup, the price becomes \\$140. After a 25% discount off the marked-up price:</div><div class='explanation-math'>$$\\begin{aligned}140 \\times 0.75 = 105\\end{aligned}$$</div><div class='explanation-step'>The final price is \\$105, which is 5% more than the original price of \\$100. The net change is a 5% increase.</div><div class='explanation-step'>Note: the percent changes cannot simply be subtracted. A 40% increase followed by a 25% decrease is <em>not</em> a 15% increase, because the 25% discount is applied to the already-increased price.</div>"
+    "explanation": "<div class='explanation-step'>Let the original price equal \\(\\$100\\). After a \\(40\\%\\) markup, the price becomes \\(\\$140\\). After a \\(25\\%\\) discount off the marked-up price:</div><div class='explanation-math'>$$\\begin{aligned} 140 \\times 0.75 = 105\\end{aligned}$$</div><div class='explanation-step'>The final price is \\(\\$105\\), which is \\(5\\%\\) more than the original price of \\$100. The net change is a 5% increase.</div><div class='explanation-step'>Note: the percent changes cannot simply be subtracted. A \\(40\\%\\) increase followed by a \\(25\\%\\) decrease is <em>not</em> a \\(15\\%\\) increase, because the \\(25\\%\\) discount is applied to the already-increased price.</div>"
   },
   {
     "id": "P-L3-014",
@@ -7321,7 +7321,7 @@
     "level": 3,
     "set": "Problem Solving Practice",
     "tags": ["percent", "multi-step", "word problem"],
-    "stem": "<div class='stem-text'>At a school, 35% of students play a sport. Of the students who play a sport, 60% play more than one sport. What percent of the total student population plays exactly one sport?</div>",
+    "stem": "<div class='stem-text'>At a school, \\(35\\%\\) of students play a sport. Of the students who play a sport, \\(60\\%\\) play more than one sport. What percent of the total student population plays exactly one sport?</div>",
     "choices": [
       "\\(14\\%\\)",
       "\\(21\\%\\)",
@@ -7329,7 +7329,7 @@
       "\\(60\\%\\)"
     ],
     "answerIndex": 0,
-    "explanation": "<div class='explanation-step'>Of all students, 35% play a sport. Of those, 60% play more than one sport, which means 40% play exactly one sport. To find the percent of the total student population that plays exactly one sport:</div><div class='explanation-math'>$$\\begin{aligned}35\\% \\times 40\\% = 0.35 \\times 0.40 = 0.14 = 14\\%\\end{aligned}$$</div><div class='explanation-step'>A common error is using 60% instead of 40% — but the question asks for students who play <em>exactly one</em> sport, which is the remaining 40% of student-athletes, not the 60% who play more than one.</div>"
+    "explanation": "<div class='explanation-step'>Of all students, 35% play a sport. Of those, 60% play more than one sport, which means 40% play exactly one sport. To find the percent of the total student population that plays exactly one sport:</div><div class='explanation-math'>$$\\begin{aligned} 35\\% \\times 40\\% = 0.35 \\times 0.40 = 0.14 = 14\\%\\end{aligned}$$</div><div class='explanation-step'>A common error is using \\(60\\%\\) instead of \\(40\\%\\) — but the question asks for students who play <em>exactly one</em> sport, which is the remaining \\(40\\%\\) of student-athletes, not the \\(60\\%\\) who play more than one.</div>"
   },
     {
       "id": "G-L1-001",
@@ -7588,7 +7588,7 @@
     "topic": "Triangles",
     "skill": "Triangle Sum"
 },
-  "stem": "In triangle DEF, the measure of angle D is \\(3n^\\circ\\), the measure of angle E is \\(n^\\circ\\), and the measure of angle F is \\(24^\\circ\\). What is the measure, in degrees, of angle E?",
+  "stem": "In triangle DEF, the measure of angle \\(D\\) is \\(3n^\\circ\\), the measure of angle \\(E\\) is \\(n^\\circ\\), and the measure of angle \\(F\\) is \\(24^\\circ\\). What is the measure, in degrees, of angle \\(E\\)?",
   "choices": [
     "\\(23\\)",
     "\\(39\\)",
@@ -7695,7 +7695,7 @@
       "set": "Geometry and Trigonometry Practice",
       "tags": ["arc length", "circles"],
 
-      "stem": "<div class='stem-image'><img src='assets/Geo2-4.png'></div><div class='stem-text'>The circle shown has center \\(O\\), circumference \\(160\\pi\\), and diameters \\(BD\\) and \\(AC\\). Then length of arc \\(BC\\) is one third the length of arc \\(CD\\).  What is the length of arc \\(AB\\)?</div>",
+      "stem": "<div class='stem-image'><img src='assets/Geo2-4.png'></div><div class='stem-text'>The circle shown has center \\(O\\), circumference \\(160\\pi\\), and diameters \\(BD\\) and \\(AC\\). The length of arc \\(BC\\) is one third the length of arc \\(CD\\).  What is the length of arc \\(AB\\)?</div>",
       "choices": [
         "\\(20\\pi\\)",
         "\\(60\\pi\\)",
@@ -7908,16 +7908,16 @@
       "set": "Geometry and Trigonometry Practice",
       "tags": ["cosine", "sine", "trigonometry"],
 
-      "stem": "<div class='stem-text'>In triangle ABC, \\(\\angle{B}\\) has a measure of \\(90^\\circ\\). What is the value of \\(\\sin(A)\\), if \\(\\cos(C)=\\frac{10}{11}\\).</div>",
+      "stem": "<div class='stem-text'>In triangle \\(ABC\\), \\(\\angle{B}\\) has a measure of \\(90^\\circ\\). What is the value of \\(\\sin(A)\\), if \\(\\cos(C)=\\frac{10}{11}\\).</div>",
 
       "choices": [
         "\\(\\frac{1}{11}\\)",
-        "\\(\\frac{\\sqrt{10}}{10}\\)",
-        "\\(\\frac{\\sqrt{10}}{11}\\)",
-        "\\(\\frac{11\\sqrt{10}}{10}\\)"
+        "\\(\\frac{\\sqrt{21}}{11}\\)",
+        "\\(\\frac{10}{11}\\)",
+        "\\(\\frac{11}{10}\\)"
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>Since angle \\(B\\) is a right angle in this triangle, angles \\(A\\) and \\(C\\) are complementary, meaning they have a sum of \\(90^\\circ\\).  In a right triangle, the \\(\\sin{(angle)}=\\cos{(90-angle)}\\). This means that the \\(\\sin(A)=\\cos(C)\\), or \\(\\sin(A)=\\frac{\\sqrt{10}}{11}\\).</div><div class='explanation-step'>If you aren't familiar with that theorem, draw triangle ABC with the right angle at vertex \\(B\\). You are given that \\(\\cos(C)=\\frac{\\sqrt{10}}{11}\\), and since cosine is the ratio of the adjacent side over the hypotenuse, label \\(BC=\\sqrt{10}\\) and \\(AC=11\\).  Then the \\(\\sin(A)=\\) the ratio of the opposite side over the hypotenuse, which is \\(\\frac{BC}{AC}\\) or \\(\\frac{\\sqrt{10}}{11}\\).</div>"
+      "explanation": "<div class='explanation-step'>Since angle \\(B\\) is a right angle in this triangle, angles \\(A\\) and \\(C\\) are complementary, meaning they have a sum of \\(90^\\circ\\).  In a right triangle, the \\(\\sin{(\\text{angle})}=\\cos{(90-\\text{angle})}\\). This means that the \\(\\sin(A)=\\cos(C)\\), or \\(\\sin(A)=\\frac{10}{11}\\).</div><div class='explanation-step'>If you aren't familiar with that theorem, draw triangle ABC with the right angle at vertex \\(B\\). You are given that \\(\\cos(C)=\\frac{10}{11}\\), and since cosine is the ratio of the adjacent side over the hypotenuse, label \\(BC=10\\) and \\(AC=11\\).  Then the \\(\\sin(A)=\\) the ratio of the opposite side over the hypotenuse, which is \\(\\frac{BC}{AC}\\) or \\(\\frac{10}{11}\\).</div>"
     },
     {
       "id": "G-L2-013",
@@ -7946,7 +7946,7 @@
         "maxChars": 6
       },
 
-      "explanation": "<div class='explanation-step'>To convert an angle from radians to degrees, multiply the angle by \\(\\frac{180}{\\pi}\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ &=\\frac{17 \\cancel{\\pi}}{36} \\times \\frac{180}{\\cancel{\\pi}}\\\\ &=\\frac{17 \\times 180}{36}=42\\end{aligned}$$</div><div class='explanation-step'>If you can't remember when to multiply by \\(\\frac{180}{\\pi}\\) as opposed to \\(\\frac{\\pi}{180}\\), think about what you are trying to accomplish in your answer.  Here, to go from radians to degrees, the \\(\\pi\\) must cancel out.  Since it is in the numerator, multiply it such that \\(\\pi\\) is in the denominator to cancel the \\(\\pi\\).</div>"
+      "explanation": "<div class='explanation-step'>To convert an angle from radians to degrees, multiply the angle by \\(\\frac{180}{\\pi}\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ &=\\frac{17 \\cancel{\\pi}}{36} \\times \\frac{180}{\\cancel{\\pi}}\\\\ &=\\frac{17 \\times 180}{36}=85\\end{aligned}$$</div><div class='explanation-step'>If you can't remember when to multiply by \\(\\frac{180}{\\pi}\\) as opposed to \\(\\frac{\\pi}{180}\\), think about what you are trying to accomplish in your answer.  Here, to go from radians to degrees, the \\(\\pi\\) must cancel out.  Since it is in the numerator, multiply it such that \\(\\pi\\) is in the denominator to cancel the \\(\\pi\\).</div>"
     },
     {
       "id": "G-L2-014",
@@ -8140,7 +8140,7 @@
     "topic": "Perimeter, Area, and Volume",
     "skill": "Volume"
 },
-  "stem": "A cylindrical barrel has a diameter of 12 feet and a volume of 252\\pi cubic feet. What is the height, in feet, of the barrel?",
+  "stem": "A cylindrical barrel has a diameter of \\(12\\) feet and a volume of \\(252\\pi\\) cubic feet. What is the height, in feet, of the barrel?",
   "choices": [
     "\\(6\\)",
     "\\(7\\)",
@@ -8475,7 +8475,7 @@
         "\\(\\text{1,809.6}\\)"
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>To find the volume of the entire toy, find the volume of the cylinder and the cone and add them together.  The volume of a cylinder is \\(V=\\pi r^2 h\\) and from the diagram, \\(h=12\\) and \\(r=6\\). The volume of a cone is \\(V=\\frac{1}{3} \\pi r^2 h\\) and from the diagram, \\(h=6\\) and \\(r=6\\).  Substitute the values to find the volumes.</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} \\text{Volume}_\\text{cylinder} &= \\pi (6)^2 \\times 12\\\\ &= \\pi 36 \\times 12\\\\ &=432 \\pi\\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} \\text{Volume}_\\text{cone} &= \\frac{1}{3}\\pi (6)^2 \\times 6 \\\\ &=\\frac{1}{3} \\pi \\times 216\\\\ &=72 \\pi\\end{aligned}$$</div></div></div><div class='explanation-step'>The volume of the toy is the sum of the volumes, so \\(432 \\pi + 72 \\pi = 504 \\pi \\approx \\text{1,584.4}\\).</div>"
+      "explanation": "<div class='explanation-step'>To find the volume of the entire toy, find the volume of the cylinder and the cone and add them together.  The volume of a cylinder is \\(V=\\pi r^2 h\\) and from the diagram, \\(h=12\\) and \\(r=6\\). The volume of a cone is \\(V=\\frac{1}{3} \\pi r^2 h\\) and from the diagram, \\(h=6\\) and \\(r=6\\).  Substitute the values to find the volumes.</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} \\text{Volume}_\\text{cylinder} &= \\pi (6)^2 \\times 12\\\\ &= \\pi 36 \\times 12\\\\ &=432 \\pi\\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} \\text{Volume}_\\text{cone} &= \\frac{1}{3}\\pi (6)^2 \\times 6 \\\\ &=\\frac{1}{3} \\pi \\times 216\\\\ &=72 \\pi\\end{aligned}$$</div></div></div><div class='explanation-step'>The volume of the toy is the sum of the volumes, so \\(432 \\pi + 72 \\pi = 504 \\pi \\approx \\text{1,583.4}\\).</div>"
     },
 {
       "id": "G-L3-013",
@@ -8495,7 +8495,7 @@
       "stem": "<div class='stem-text'>In a circle with center \\(O\\), central angle \\(COD\\) has a measure of \\(\\frac{5\\pi}{3}\\) radians.  The area of the sector formed by the central angle \\(COD\\) is what fraction of the area of the circle?</div>",
 
       "answer": "\\frac{5}{6}",
-      "answersAccepted": ["\\frac{5}{6}"],
+      "answersAccepted": ["\\frac{5}{6}", "5/6"],
 
       "validation": {
         "allowDecimal": false,
@@ -8716,8 +8716,8 @@
         "\\(40\\pi\\)",
         "\\(50\\pi\\)"
       ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>Draw and label the circle. If the inscribed angle is \\(54^\\circ\\), the measure of central angle \\(QTS=108^\\circ\\). This is the central angle that forms the sector in question.</div><div class='stem-image'><img src='assets/Geo3-21A.png.png'><div class='explanation-step'>The area of a sector of a circle \\(=\\frac{\\text{central angle}}{360} \\times \\text{area of the circle}\\). In order to find the area of the circle, you need to find the radius.  Use the arc length formula and the given arc length to solve for the circumference. <div class='explanation-math'>$$\\begin{aligned}\\ \\text{Arc length}&=\\frac{\\text{central angle}{360} \\times \\text{circumference} \\\\ 6\\pi &=\\frac{108}{360} \\times C \\\\6\\pi &=.3C \\\\ C&=20\\pi \\end{aligned}$$</div><div class='explanation-step'>The circumference is found by \\(C=2\\pi r\\), so \\(20\\pi=2\\pi r\\). Divide both sides by \\(2 \\pi\\) to get \\(r=10\\). Next, use the sector area formula to find the area of sector \\(QTS\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ \\text{Sector Area}&=.3 \\times \\pi r^2 \\\\ 6&=.3 \\times \\pi \\times 10^2 \\\\ &=.3 \\times 100 \\pi \\\\ &= 30 \\pi \\end{aligned}$$</div>"
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>Draw and label the circle. If the inscribed angle is \\(54^\\circ\\), the measure of central angle \\(QTS=108^\\circ\\). This is the central angle that forms the sector in question.</div><div class='stem-image'><img src='assets/Geo3-21A.png'></div><div class='explanation-step'>The area of a sector of a circle \\(=\\frac{\\text{central angle}}{360} \\times \\text{area of the circle}\\). In order to find the area of the circle, you need to find the radius.  Use the arc length formula and the given arc length to solve for the circumference.</div> <div class='explanation-math'>$$\\begin{aligned}\\ \\text{Arc length}&=\\frac{\\text{central angle}{360} \\times \\text{circumference} \\\\ 6\\pi &=\\frac{108}{360} \\times C \\\\6\\pi &=.3C \\\\ C&=20\\pi \\end{aligned}$$</div><div class='explanation-step'>The circumference is found by \\(C=2\\pi r\\), so \\(20\\pi=2\\pi r\\). Divide both sides by \\(2 \\pi\\) to get \\(r=10\\). Next, use the sector area formula to find the area of sector \\(QTS\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ \\text{Sector Area}&=.3 \\times \\pi r^2 \\\\ 6&=.3 \\times \\pi \\times 10^2 \\\\ &=.3 \\times 100 \\pi \\\\ &= 30 \\pi \\end{aligned}$$</div>"
     },
     {
     "id": "G-L3-022",
@@ -8728,7 +8728,7 @@
       "topic": "Geometry and Trigonometry",
       "skill": "Rates, Ratios, and Proportional Reasoning"
     },
-    "stem": "<div class='stem-text'>Two similar cylinders have radii in the ratio \\(3:5\\). If the volume of the smaller cylinder is \\(54\\pi\\) cubic inches, what is the volume of the larger cylinder in cubic inches?</div>",
+    "stem": "<div class='stem-text'>Two similar cylinders have radii in the ratio \\(3\\):\\(5\\). If the volume of the smaller cylinder is \\(54\\pi\\) cubic inches, what is the volume of the larger cylinder in cubic inches?</div>",
     "choices": [
       "\\(250\\pi\\)",
       "\\(90\\pi\\)",
@@ -8736,7 +8736,7 @@
       "\\(375\\pi\\)"
     ],
     "answerIndex": 0,
-    "explanation": "<div class='explanation-step'>For similar three-dimensional figures, volumes scale as the <strong>cube</strong> of the ratio of corresponding linear dimensions.</div><div class='explanation-math'>$$\\text{Volume ratio} = \\left(\\frac{5}{3}\\right)^3 = \\frac{125}{27}$$</div><div class='explanation-step'>The larger volume equals the smaller volume times this ratio:</div><div class='explanation-math'>$$V_{\\text{large}} = 54\\pi \\times \\frac{125}{27} = 2\\pi \\times 125 = 250\\pi$$</div><div class='explanation-step'>The correct answer is <strong>C</strong>: \\(250\\pi\\) cubic inches.</div>"
+    "explanation": "<div class='explanation-step'>For similar three-dimensional figures, volumes scale as the <strong>cube</strong> of the ratio of corresponding linear dimensions. If the smaller cylinder to the larger cylinder radii are in the ratio \\(3\\) to \\(5\\), the radius of the larger cylinder is \\(\\frac{5}{3}\\) the radius of the smaller cylinder, and the larger cylinder's volume to the smaller cylinder's volume is as follows:</div><div class='explanation-math'>$$\\text{Volume ratio} = \\left(\\frac{5}{3}\\right)^3 = \\frac{125}{27}$$</div><div class='explanation-step'>The larger volume equals the smaller volume times this ratio:</div><div class='explanation-math'>$$V_{\\text{large}} = 54\\pi \\times \\frac{125}{27} = 2\\pi \\times 125 = 250\\pi$$</div>"
   },
   {
     "id": "G-L3-023",
@@ -8747,7 +8747,7 @@
       "topic": "Geometry and Trigonometry",
       "skill": "Rates, Ratios, and Proportional Reasoning"
     },
-    "stem": "<div class='stem-text'>A map uses a scale of 1.5 inches to represent 40 miles. On the map, the distance between two cities measures 5.25 inches. A driver travels between the cities at an average speed of 60 miles per hour. How many minutes will the trip take?</div>",
+    "stem": "<div class='stem-text'>A map uses a scale of \\(1.5\\) inches to represent \\(40\\) miles. On the map, the distance between two cities measures \\(5.25\\) inches. A driver travels between the cities at an average speed of \\(60\\) miles per hour. How many minutes will the trip take?</div>",
     "answer": "140",
     "answersAccepted": [
       "140"
@@ -8770,7 +8770,7 @@
       "topic": "Geometry and Trigonometry",
       "skill": "Rates, Ratios, and Proportional Reasoning"
     },
-    "stem": "<div class='stem-text'>Rectangle \\(ABCD\\) is similar to rectangle \\(EFGH\\). The perimeter of \\(ABCD\\) is 36 and the perimeter of \\(EFGH\\) is 60. If the area of \\(ABCD\\) is 72, what is the area of \\(EFGH\\)?</div>",
+    "stem": "<div class='stem-text'>Rectangle \\(ABCD\\) is similar to rectangle \\(EFGH\\). The perimeter of \\(ABCD\\) is \\(36\\) and the perimeter of \\(EFGH\\) is \\(60\\). If the area of \\(ABCD\\) is \\(72\\), what is the area of \\(EFGH\\)?</div>",
     "choices": [
       "\\(120\\)",
       "\\(144\\)",
@@ -8789,7 +8789,7 @@
       "topic": "Geometry and Trigonometry",
       "skill": "Pythagorean Theorem"
     },
-    "stem": "<div class='stem-text'>A 25-foot ladder leans against a vertical wall with its foot 7 feet from the base of the wall. A rung of the ladder is located exactly 20 feet up the ladder from its foot (measured along the ladder). How many feet above the ground is that rung?</div>",
+    "stem": "<div class='stem-text'>A \\(25\\)-foot ladder leans against a vertical wall with its foot 7 feet from the base of the wall. A rung of the ladder is located exactly 20 feet up the ladder from its foot (measured along the ladder). How many feet above the ground is that rung?</div>",
     "choices": [
       "\\(\\dfrac{72}{5}\\)",
       "\\(\\dfrac{48}{5}\\)",
@@ -8801,29 +8801,6 @@
   },
   {
     "id": "G-L3-026",
-    "type": "gridin",
-    "level": 3,
-    "skill": {
-      "domain": "Geometry and Trigonometry",
-      "topic": "Geometry and Trigonometry",
-      "skill": "Pythagorean Theorem"
-    },
-    "stem": "<div class='stem-text'>In right triangle \\(ABC\\) with the right angle at \\(C\\), the altitude from \\(C\\) to hypotenuse \\(\\overline{AB}\\) meets \\(AB\\) at point \\(D\\). If \\(AD = 4\\) and \\(DB = 9\\), what is the length of \\(CD\\)?</div>",
-    "answer": "6",
-    "answersAccepted": [
-      "6"
-    ],
-    "validation": {
-      "format": "number",
-      "allowNegative": false,
-      "allowDecimal": false,
-      "allowFraction": false,
-      "maxChars": 4
-    },
-    "explanation": "<div class='explanation-step'>When an altitude is drawn from the right angle to the hypotenuse of a right triangle, the altitude is the geometric mean of the two segments it creates on the hypotenuse.</div><div class='explanation-math'>$$CD^2 = AD \\times DB = 4 \\times 9 = 36$$</div><div class='explanation-math'>$$CD = \\sqrt{36} = 6$$</div>"
-  },
-  {
-    "id": "G-L3-027",
     "type": "mcq",
     "level": 3,
     "skill": {
@@ -8842,26 +8819,7 @@
     "explanation": "<div class='explanation-step'>In right triangle \\(PQR\\) with right angle at \\(Q\\), side \\(PQ\\) is adjacent to \\(\\angle P\\) and \\(QR\\) is opposite \\(\\angle P\\).</div><div class='explanation-math'>$$\\sin(\\angle P) = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{QR}{PR} = \\frac{3}{5}$$</div><div class='explanation-math'>$$\\cos(\\angle P) = \\frac{PQ}{PR} = \\frac{4}{5}$$</div><div class='explanation-step'>Using \\(\\cos(\\angle P)\\) to find \\(PR\\):</div><div class='explanation-math'>$$\\frac{4}{5} = \\frac{7}{PR} \\implies PR = \\frac{35}{4}$$</div><div class='explanation-step'>Now find \\(QR\\):</div><div class='explanation-math'>$$QR = PR \\times \\sin(\\angle P) = \\frac{35}{4} \\times \\frac{3}{5} = \\frac{105}{20} = \\frac{21}{4}$$</div>"
   },
   {
-    "id": "G-L3-028",
-    "type": "mcq",
-    "level": 3,
-    "skill": {
-      "domain": "Geometry and Trigonometry",
-      "topic": "Geometry and Trigonometry",
-      "skill": "Special Right Triangles"
-    },
-    "stem": "<div class='stem-text'>A regular hexagon has a perimeter of 48. What is its area?</div>",
-    "choices": [
-      "\\(96\\sqrt{3}\\)",
-      "\\(48\\sqrt{3}\\)",
-      "\\(72\\sqrt{3}\\)",
-      "\\(144\\sqrt{3}\\)"
-    ],
-    "answerIndex": 0,
-    "explanation": "<div class='explanation-step'>A regular hexagon with perimeter 48 has side length \\(s = 48 \\div 6 = 8\\).</div><div class='explanation-step'>A regular hexagon is made up of 6 equilateral triangles, each with side length 8. Each equilateral triangle can be split into two 30-60-90 triangles.</div><div class='explanation-math'>$$\\text{Area of one equilateral triangle} = \\frac{\\sqrt{3}}{4}s^2 = \\frac{\\sqrt{3}}{4}(64) = 16\\sqrt{3}$$</div><div class='explanation-math'>$$\\text{Area of hexagon} = 6 \\times 16\\sqrt{3} = 96\\sqrt{3}$$</div>"
-  },
-  {
-    "id": "G-L3-029",
+    "id": "G-L3-027",
     "type": "gridin",
     "level": 3,
     "skill": {
@@ -8869,7 +8827,7 @@
       "topic": "Geometry and Trigonometry",
       "skill": "Special Right Triangles"
     },
-    "stem": "<div class='stem-text'>In a 45-45-90 triangle, the hypotenuse has length \\(10\\sqrt{2}\\). What is the area of a square whose side length equals one leg of the triangle?</div>",
+    "stem": "<div class='stem-text'>In a \\(45-45-90\\) triangle, the hypotenuse has length \\(10\\sqrt{2}\\). What is the area of a square whose side length equals one leg of the triangle?</div>",
     "answer": "100",
     "answersAccepted": [
       "100"
@@ -8884,7 +8842,7 @@
     "explanation": "<div class='explanation-step'>In a 45-45-90 triangle, the legs are equal and the hypotenuse is \\(\\sqrt{2}\\) times the leg length.</div><div class='explanation-math'>$$\\text{leg} = \\frac{10\\sqrt{2}}{\\sqrt{2}} = 10$$</div><div class='explanation-math'>$$\\text{Area of square} = 10^2 = 100$$</div>"
   },
   {
-    "id": "G-L3-030",
+    "id": "G-L3-028",
     "type": "mcq",
     "level": 3,
     "skill": {
@@ -8901,25 +8859,6 @@
     ],
     "answerIndex": 1,
     "explanation": "<div class='explanation-step'>The triangles are congruent by SAS (two sides and the included angle). The correspondence is \\(A \\leftrightarrow D\\), \\(B \\leftrightarrow E\\), \\(C \\leftrightarrow F\\).</div><div class='explanation-step'>Since \\(\\angle C \\cong \\angle F\\), we have \\(\\angle C = 47°\\). Use the triangle angle sum to find \\(\\angle A\\):</div><div class='explanation-math'>$$\\angle A + \\angle B + \\angle C = 180°$$</div><div class='explanation-math'>$$\\angle A + 65° + 47° = 180°$$</div><div class='explanation-math'>$$\\angle A = 68°$$</div><div class='explanation-step'>Since \\(\\angle D \\cong \\angle A\\), we have \\(\\angle D = 68°\\).</div>"
-  },
-  {
-    "id": "G-L3-031",
-    "type": "mcq",
-    "level": 3,
-    "skill": {
-      "domain": "Geometry and Trigonometry",
-      "topic": "Geometry and Trigonometry",
-      "skill": "Congruence"
-    },
-    "stem": "<div class='stem-text'>In the figure, \\(\\overline{AC}\\) bisects \\(\\angle BAD\\) and \\(\\overline{AC}\\) bisects \\(\\angle BCD\\). Which congruence theorem guarantees that \\(\\triangle ABC \\cong \\triangle ADC\\)?</div>",
-    "choices": [
-      "SSS",
-      "SAS",
-      "AAS",
-      "ASA"
-    ],
-    "answerIndex": 3,
-    "explanation": "<div class='explanation-step'>Since \\(\\overline{AC}\\) bisects \\(\\angle BAD\\), we have \\(\\angle BAC = \\angle DAC\\). Since \\(\\overline{AC}\\) bisects \\(\\angle BCD\\), we have \\(\\angle BCA = \\angle DCA\\). The side \\(\\overline{AC}\\) is shared by both triangles (\\(AC = AC\\)).</div><div class='explanation-step'>This gives us: \\(\\angle BAC = \\angle DAC\\), \\(AC = AC\\) (shared side), and \\(\\angle BCA = \\angle DCA\\).</div><div class='explanation-step'>The pattern is angle-side-angle (<strong>ASA</strong>): two angles and the included side are congruent. The included side \\(\\overline{AC}\\) lies between the two pairs of congruent angles.</div>"
   }
 
   ]
