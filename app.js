@@ -790,6 +790,8 @@ if (!options.forceFile && reviewAttemptId && !options.resume) {
 
     resultsSummaryHTML = buildTestSummaryHTML();
     document.body.innerHTML = resultsSummaryHTML;
+    document.body.classList.remove("practice-sidebar-ready");
+    document.body.classList.remove("practice-sidebar-open");
     renderScoreBanner();
     typesetMath();
     return;
@@ -999,6 +1001,8 @@ if (isPracticeMode) {
     </div>
   `;
   document.body.innerHTML = resultsSummaryHTML;
+    document.body.classList.remove("practice-sidebar-ready");
+    document.body.classList.remove("practice-sidebar-open");
   renderScoreBanner({
   title: "Cumulative Summary",
   showMissed: false
@@ -1080,6 +1084,8 @@ if (reviewMode === "summary") {
   `;
 
   document.body.innerHTML = resultsSummaryHTML;
+    document.body.classList.remove("practice-sidebar-ready");
+    document.body.classList.remove("practice-sidebar-open");
   renderScoreBanner();
   typesetMath();
   return;
@@ -2035,6 +2041,8 @@ function backToSummary() {
   }
 
   document.body.innerHTML = resultsSummaryHTML;
+    document.body.classList.remove("practice-sidebar-ready");
+    document.body.classList.remove("practice-sidebar-open");
   renderScoreBanner();
   typesetMath();
 }
@@ -2710,6 +2718,10 @@ localStorage.setItem("satLastTestSession", JSON.stringify({
   })();
 
   document.body.innerHTML = resultsSummaryHTML;
+    document.body.classList.remove("practice-sidebar-ready");
+    document.body.classList.remove("practice-sidebar-open");
+  document.body.classList.remove("practice-sidebar-ready");
+  document.body.classList.remove("practice-sidebar-open");
   if (!fullSATMode) renderScoreBanner();
   typesetMath();
 }
@@ -3018,6 +3030,8 @@ function endPracticeSession() {
   })();
 
   document.body.innerHTML = resultsSummaryHTML;
+    document.body.classList.remove("practice-sidebar-ready");
+    document.body.classList.remove("practice-sidebar-open");
   
 }
 function restartPractice() {
@@ -3516,7 +3530,11 @@ window.startPracticeMode = function () {
 // THEN your load starts AFTER this:
 const params = new URLSearchParams(window.location.search);
 const initialMode = params.get("mode");
-fullSATMode = params.get("subject") === "full";
+// Only set fullSATMode from URL on initial load — don't reset if already true
+// (URL loses subject=full after module transitions via updateUrlForMode)
+if (!fullSATMode) {
+  fullSATMode = params.get("subject") === "full";
+}
 if (fullSATMode && params.get("resume") !== "1" && currentAttemptId === null) {
   currentAttemptId = crypto.randomUUID();
 }
