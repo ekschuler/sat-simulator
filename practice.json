@@ -3326,7 +3326,7 @@
       "set": "Advanced Math Practice",
       "tags": ["intercepts", "exponential functions"],
 
-      "stem": "<div class='stem-image'><img src='assets/Adv1-4.png' style='max-width:25%'></div><div class='stem-text'>What is the \\(y\\)-intercept of the graph shown?</div>",
+      "stem": "<div class='stem-image'><img src='assets/Adv1-4.png' style='max-width:40%'></div><div class='stem-text'>What is the \\(y\\)-intercept of the graph shown?</div>",
       "choices": [
         "\\((0,0)\\)",
         "\\((4,0)\\)",
@@ -3351,7 +3351,7 @@
       "set": "Advanced Math Practice",
       "tags": ["functions"],
 
-      "stem": "<div class='stem-image'><img src='assets/Adv1-5.png' style='max-width:25%'></div><div class='stem-text'>The graph of \\(y=g(x)\\) is shown in the \\(xy\\)-plane.  What is the value of \\(g(0)\\)?</div>",
+      "stem": "<div class='stem-image'><img src='assets/Adv1-5.png' style='max-width:40%'></div><div class='stem-text'>The graph of \\(y=g(x)\\) is shown in the \\(xy\\)-plane.  What is the value of \\(g(0)\\)?</div>",
       "choices": [
         "\\(6\\)",
         "\\(\\frac{1}{2}\\)",
@@ -3561,16 +3561,16 @@
       "set": "Advanced Math Practice",
       "tags": ["systems", "linear"],
 
-      "stem": "<div class='stem-text'>Which expression is equivalent to \\((r s^4t^3 )^2(r^2 s^6 t^2)\\), where \\(r\\), \\(s\\), and \\(t\\) are positive?</div>",
+      "stem": "<div class='stem-text'>Which expression is equivalent to \\((r^2 s^6 t^2)(r s^4t^3 )^2\\), where \\(r\\), \\(s\\), and \\(t\\) are positive?</div>",
 
       "choices": [
         "\\(r^4s^{12}t^7\\)",
         "\\(r^3s^{36}t^{10}\\)",
         "\\(r^4s^{14}t^8\\)",
-        "\\(r^3s^{10}t^53\\)"
+        "\\(r^3s^{10}t^5\\)"
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>Use the laws of exponents to simplify the given expression.  Use the Power of a Product Rule for \\((r s^4t^3 )^2\\) by multiplying the exponents inside the parentheses by the exponent (\\(2\\)) outside the parentheses.  \\((r s^4t^3 )^2=r^2s^8t^3\\).  Next use the Product Rule; add the exponents of like bases.</div><div class='explanation-math'>$$\\begin{aligned}\\ &=(r^2s^8t^3)(r^2 s^6 t^2)\\\\&=r^2r^2s^8s^6t^3t^2=r^4s^{14}t^8\\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>Use the laws of exponents to simplify the given expression.  Use the Power of a Product Rule for \\((r s^4t^3 )^2\\) by multiplying the exponents inside the parentheses by the exponent (\\(2\\)) outside the parentheses.  \\((r s^4t^3 )^2=r^2s^8t^6\\).  Next use the Product Rule; add the exponents of like bases.</div><div class='explanation-math'>$$\\begin{aligned}\\ &=(r^2s^8t^6)(r^2 s^6 t^2)\\\\&=r^{(2+2)}s^{(8+6)}t^{(6+2)}=r^4s^{14}t^8\\end{aligned}$$</div>"
     },
     {
       "id": "AM-L1-014",
@@ -3612,7 +3612,7 @@
    "level": 1,
       "set": "Advanced Math Practice",
       "tags": ["functions", "evaluating"],
-  "stem": "The function \\(f\\) is defined by \\(f(x)=\\sqrt{1-6x}\\). What is the value of \\(f(-8\\)?",
+  "stem": "The function \\(f\\) is defined by \\(f(x)=\\sqrt{1-6x}\\). What is the value of \\(f(-8)\\)?",
   "choices": [
     "\\(-\\frac{6}{35}\\)",
     "\\(-\\frac{35}{6}\\)",

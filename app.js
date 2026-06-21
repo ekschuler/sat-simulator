@@ -2420,7 +2420,7 @@ function buildTestSummaryHTML() {
     const domain = getDomain(q.skill);
     return verbalDomains.includes(domain);
   });
-  const mathQs = data.questions.filter(q => !verbalQs.includes(q));
+  const mathQs = data.questions.filter(q => !verbalDomains.includes(getDomain(q.skill)));
 
   const verbalTree = {};
   verbalQs.forEach(q => {
@@ -2471,7 +2471,20 @@ function buildTestSummaryHTML() {
     <div class="appPage">
       <h1 class="appTitle">Full SAT Complete</h1>
       <p class="appSubtitle">Here&rsquo;s your performance summary.</p>
-      <div id="scoreSummary" class="scoreBanner appCard" style="margin-bottom:24px;"></div>
+      <div id="scoreSummary" class="scoreBanner appCard" style="margin-bottom:24px;">
+        <div style="display:flex;gap:32px;justify-content:center;flex-wrap:wrap;">
+          <div style="text-align:center;">
+            <div style="font-size:28px;font-weight:800;color:#4f46e5;">${verbalQs.length ? Math.round(verbalCorrect/verbalQs.length*100) : 0}%</div>
+            <div style="font-size:12px;font-weight:600;color:#6b7280;margin-top:2px;">Reading &amp; Writing</div>
+            <div style="font-size:13px;color:#374151;margin-top:2px;">${verbalCorrect} / ${verbalQs.length}</div>
+          </div>
+          <div style="text-align:center;">
+            <div style="font-size:28px;font-weight:800;color:#4f46e5;">${mathQs.length ? Math.round(mathCorrect/mathQs.length*100) : 0}%</div>
+            <div style="font-size:12px;font-weight:600;color:#6b7280;margin-top:2px;">Math</div>
+            <div style="font-size:13px;color:#374151;margin-top:2px;">${mathCorrect} / ${mathQs.length}</div>
+          </div>
+        </div>
+      </div>
 
       <h3 class="appSectionTitle">Reading &amp; Writing — ${verbalCorrect} / ${verbalQs.length} correct</h3>
       <div style="display:flex; gap:8px; margin-bottom:16px; flex-wrap:wrap;">
@@ -2690,7 +2703,7 @@ localStorage.setItem("satLastTestSession", JSON.stringify({
   })();
 
   document.body.innerHTML = resultsSummaryHTML;
-  renderScoreBanner();
+  if (!fullSATMode) renderScoreBanner();
   typesetMath();
 }
 function buildTree(questions) {

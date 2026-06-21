@@ -150,7 +150,7 @@
     "\\(1\\)"
   ],
   "answerIndex": 2,
-  "explanation": "<div class='explanation-step'>Draw a right triangle and label it with vertices \\(D\\), \\(E\\), and \\(F\\), where \\(D\\) is the right angle. \\(\\tan(E)=\\frac{16}{30}\\) gives information about the sides of this triangle.  Tangent is the opposite side over the adjacent side, so the side opposite angle \\(E\\), or \\(DF\\) is \\(16\\) and the side adjacent to angle \\(E\\) or \\(DE\\) is \\(30\\).</div><div class='stem-image'><img src='assets/Test1-2H-8A.png'></div><div class='explanation-step'>The cosine is the adjacent side over the hypotenuse, or \\(\\cos(F)=\\frac{DF}{EF}=\\frac{30}{EF}\\). Use the Pythagorean Theorem \\(a^2+b^2=c^2\\) where \\(c=\\) the length of the hypotenuse, to solve for \\(EF\\), the hypotenuse.</div><div class='explanation-math'>$$\\begin{aligned} a^2+b^2&=c^2\\\\ 16^2+30^2&={EF}^2 \\\\ 256+900&={EF}^2\\\\ \\sqrt{\\text{1,156}}&=\\sqrt{{EF}^2}\\\\ EF&=34\\end{aligned}$$</div><div class='explanation-step'>Substitute into \\(\\cos(F)=\\frac{30}{EF}\\) to get \\(\\cos(F)=\\frac{30}{34}\\)</div>"
+  "explanation": "<div class='explanation-step'>Draw a right triangle and label it with vertices \\(D\\), \\(E\\), and \\(F\\), where \\(D\\) is the right angle. \\(\\tan(E)=\\frac{16}{30}\\) gives information about the sides of this triangle.  Tangent is the opposite side over the adjacent side, so the side opposite angle \\(E\\), or \\(DF\\) is \\(16\\) and the side adjacent to angle \\(E\\) or \\(DE\\) is \\(30\\).</div><div class='stem-image'><img src='assets/Test1-2H-8A.png'></div><div class='explanation-step'>The cosine is the adjacent side over the hypotenuse, or \\(\\cos(F)=\\frac{DF}{EF}=\\frac{30}{EF}\\). Use the Pythagorean Theorem \\(a^2+b^2=c^2\\) where \\(c=\\) the length of the hypotenuse, to solve for \\(EF\\), the hypotenuse.</div><div class='explanation-math'>$$\\begin{aligned} a^2+b^2&=c^2\\\\ 16^2+30^2&={EF}^2 \\\\ 256+900&={EF}^2\\\\ \\sqrt{\\text{1,156}}&=\\sqrt{{EF}^2}\\\\ EF&=34\\end{aligned}$$</div><div class='explanation-step'>Substitute into \\(\\cos(F)=\\frac{30}{EF}\\) to get \\(\\cos(F)=\\frac{30}{34}\\).</div>"
 },
 {
   "id": "MathT1-2C-009",
@@ -224,7 +224,7 @@
     "\\(20\\)"
   ],
   "answerIndex": 3,
-  "explanation": "<div class='explanation-step'>Method \\(1\\): Squares M and N both have four right angles (definition of a square) and proportionate side lengths; this means they are similar (all squares are, in fact, similar).  In similar figures, the ratio of the areas of the two figures is the square of the ratio of their corresponding sides; \\(\\frac{\\text{Area of square N}}{\\text{Area of square M}}=\\left( \\frac{\\text{Side length of N}}{\\text{Side length of M}} \\right)^2\\). The \\(\\frac{\\text{Area of square N}}{\\text{Area of square M}}=4\\), so \\(4=\\left( \\frac{\\text{Side length of N}}{\\text{Side length of M}} \\right)^2\\) and \\(2=\\frac{\\text{Side length of N}}{\\text{Side length of M}}\\).  Substitute the side length of square M, \\(10\\) into the equation to solve for the side length of N.</div><div class='explanation-math'>$$\\begin{aligned}\\2 \\times 10&=\\frac{\\text{Side length of N}}{\\cancel{10}} \\times{\\cancel{10}}\\\\ 20&=\\text{Side length of N} \\end{aligned}$$</div><div class='explanation-step'>Method \\(2\\): If you don't know the relationship between the side length and area ratios of similar figures, this problem can still be solved.  The side length of square M is \\(10\\), so the area is \\(A=10^2=100\\).  Since the area of square N is \\(4\\) times the area of square M, its area is \\(400\\).  To find the side length of square N, take the square root of \\(400\\) (\\(400=s^2\\)), so the side length is \\(20\\).</div>"
+  "explanation": "<div class='explanation-step'>Method \\(1\\): Similarity. <br><br>Squares M and N both have four right angles (definition of a square) and proportionate side lengths; this means they are similar (all squares are, in fact, similar).  In similar figures, the ratio of the areas of the two figures is the square of the ratio of their corresponding sides; \\(\\frac{\\text{Area of square N}}{\\text{Area of square M}}=\\left( \\frac{\\text{Side length of N}}{\\text{Side length of M}} \\right)^2\\). The \\(\\frac{\\text{Area of square N}}{\\text{Area of square M}}=4\\), so \\(4=\\left( \\frac{\\text{Side length of N}}{\\text{Side length of M}} \\right)^2\\) and \\(2=\\frac{\\text{Side length of N}}{\\text{Side length of M}}\\).  Substitute the side length of square M, \\(10\\) into the equation to solve for the side length of N.</div><div class='explanation-math'>$$\\begin{aligned} \\2 \\times 10&=\\frac{\\text{Side length of N}}{\\cancel{10}} \\times{\\cancel{10}}\\\\ 20&=\\text{Side length of N} \\end{aligned}$$</div><div class='explanation-step'>Method \\(2\\): Solve directly. <br><br>If you don't know the relationship between the side length and area ratios of similar figures, this problem can still be solved.  The side length of square M is \\(10\\), so the area is \\(A=10^2=100\\).  Since the area of square N is \\(4\\) times the area of square M, its area is \\(400\\).  To find the side length of square N, take the square root of \\(400\\) (\\(400=s^2\\)), so the side length is \\(20\\).</div>"
     },
     {
   "id": "MathT1-2C-013",
@@ -242,7 +242,7 @@
     "\\(\\text{16,000}\\)"
   ],
   "answerIndex": 1,
-  "explanation": "<div class='explanation-step'>In the equation \\(I=N(\frac{1}{2})^{rt}\\), \\(N\\) is the starting value, so \\(N=\text{32,000}\\).  \\(I\\) is the number of residents after \\(t\\) years, so substitute \\(\text{16,000}\\) for \\(I\\) and \\(10\\) for \\(t\\).  Solve this equation for \\(r\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ I&=N(\frac{1}{2})^{rt}\\\\ \\text{16,000}&=\\text{32,000}{(\\frac{1}{2})}^{r(10)}\\\\ \\frac{\\text{16,000}}{\\text{32,000}}&=\\cancel{\\text{32,000}}{(\\frac{1}{2})}^{r(10)} \\div \\cancel{\\text{32,000}}\\\\ \\frac{1}{2}&={(\\frac{1}{2})}^{r(10)}\\end{aligned}$$</div><div class='explanation-step'>\\(\\frac{1}{2}\\) on the left hand side of the equation is equivalent to \\((\\frac{1}{2})^1\\), so \\((\\frac{1}{2})^1=(\\frac{1}{2})^{r(10)}\\).  The equal bases on each side of the equation means you can set the exponents equal, so \\(1=10r\\) and \\(r=\frac{1}{10}\\).</div>"
+  "explanation": "<div class='explanation-step'>In the equation \\(I=N(\\frac{1}{2})^{rt}\\), \\(N\\) is the starting value, so \\(N=\\text{32,000}\\).  \\(I\\) is the number of residents after \\(t\\) years, so substitute \\(\text{16,000}\\) for \\(I\\) and \\(10\\) for \\(t\\).  Solve this equation for \\(r\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ I&=N(\\frac{1}{2})^{rt}\\\\ \\text{16,000}&=\\text{32,000}{(\\frac{1}{2})}^{r(10)}\\\\ \\frac{\\text{16,000}}{\\text{32,000}}&=\\cancel{\\text{32,000}}{(\\frac{1}{2})}^{r(10)} \\div \\cancel{\\text{32,000}}\\\\ \\frac{1}{2}&={(\\frac{1}{2})}^{r(10)}\\end{aligned}$$</div><div class='explanation-step'>\\(\\frac{1}{2}\\) on the left hand side of the equation is equivalent to \\((\\frac{1}{2})^1\\), so \\((\\frac{1}{2})^1=(\\frac{1}{2})^{r(10)}\\).  The equal bases on each side of the equation means you can set the exponents equal, so \\(1=10r\\) and \\(r=\\frac{1}{10}\\).</div>"
 },
 {
   "id": "MathT1-2C-014",
@@ -290,7 +290,7 @@
     "topic": "Polynomial Functions",
     "skill": "Intercepts"
 },
-  "stem": "<div class='stem-image'><img src='assets/Test1-2C-16.png'></div><div class='stem-text'>The graph of \\(y=g(x)\\) is shown, where the function \\(g\\) is defined by \\(g(x)=ax^4+bx^3+cx^2+dx+e\\) and \\(a\\), \\(b\\), \\(c\\), \\(d\\), and \\(e\\) are constants.  For how many values of \\(x\\) does \\(g(x)=0\\)?</div>",
+  "stem": "<div class='stem-image'><img src='assets/Test1-2C-16.png' style='max-width:50%'></div><div class='stem-text'>The graph of \\(y=g(x)\\) is shown, where the function \\(g\\) is defined by \\(g(x)=ax^4+bx^3+cx^2+dx+e\\) and \\(a\\), \\(b\\), \\(c\\), \\(d\\), and \\(e\\) are constants.  For how many values of \\(x\\) does \\(g(x)=0\\)?</div>",
     "choices": [
       "One",
       "Two",
@@ -308,12 +308,12 @@
     "topic": "Similarity",
     "skill": "Proving Similar Triangles"
 },
-  "stem": "<div class='stem-text'>In triangles \\(ABC\\) and \\(DEF\\), angles \\(B\\) and \\(E\\) each have measure \\(20\\circ\\), \\(AB=20\\), and \\(DE=4\\).  Which additional piece of information is sufficient to prove that triangle \\(ABC\\) is similar to \\(DEF\\)?</div>",
+  "stem": "<div class='stem-text'>In triangles \\(ABC\\) and \\(DEF\\), angles \\(B\\) and \\(E\\) each have measure \\(20^\\circ\\), \\(AB=20\\), and \\(DE=4\\).  Which additional piece of information is sufficient to prove that triangle \\(ABC\\) is similar to \\(DEF\\)?</div>",
   "choices": [
-    "\\(BC=3 \\text{and} EF=3\\)",
-    "\\(AC=15 \\text{and} EF=3\\)",
-    "\\(\\text{The measures of angles} A \\text{and} F \\text{are} 60\\circ \\text{and} 100\\circ, \\text{respectively.}\\)",
-    "\\(\\text{The measures of angles} C \\text{and} F \\text{are} 20\\circ \\text{and} 100\\circ, \\text{respectively.}\\)"
+    "\\(BC=3\\) and \\(EF=3\\)",
+    "\\(AC=15\\) and \\(EF=3\\)",
+    "The measures of angles \\(A\\) and \\(F\\) are \\(60^\\circ\\) and \\(100^\\circ\\), respectively.",
+    "The measures of angles \\(C\\) and \\(F\\) are \\(20^\\circ\\) and \\(100^\\circ\\), respectively."
   ],
   "answerIndex": 2,
   "explanation": "<div class='explanation-step'>Similar triangles have corresponding sides that are proportional and corresponding angles that are congruent. To find what additional piece of information is necessary to conclude that the two triangles are similar, draw and label a diagram of similar triangles \\(ABC\\) and \\(DEF\\), and then test answers.</div><div class='stem-image'><img src='assets/Test1-2C-17A.png'></div><div class='explanation-step'>A) \\(BC=3\\) and \\(EF=3\\): If both \\(B\\) and \\(EF\\) are \\(3\\), the ratio of the sides of triangle \\(ABC\\) to triangle \\(DEF\\) is \\(1\\).  But from the given information, that \\(AB=20\\) and \\(DE=4\\), the ratio of the sides is \\(\\frac{20}{4}=5\\), so this answer is incorrect.</div><div class='explanation-step'>B) \\(AC=15\\) and \\(EF=3\\): this answer is incorrect because \\(AC\\) and \\(EF\\) are not corresponding sides, so this is not sufficient information to conclude that the triangles are similar.</div><div class='explanation-step'>C) The measures of angles \\(A\\) and \\(F\\) are \\(60^\\circ\\) and \\(100^\\circ\\), respectively: if \\(m \\angle{A}=60^\\circ\\), then  \\(m \\angle{C}=100^\\circ\\).  And angle \\(C\\) corresponds to angle \\(F\\), which is \\(100^\\circ\\). Since corresponding angles \\(B\\) and \\(E\\) are congruent, and a second pair of corresponding angles are congruent, the triangles are similar.</div>"
@@ -354,7 +354,7 @@
     "\\(y=-\\frac{1}{2}x-5\\)"
   ],
   "answerIndex": 2,
-  "explanation": "<div class='stem-image'><img src='assets/Test1-2C-19A.png'></div><div class='explanation-step'>The answers choices are all in slope-intercept form, \\(y=mx+b\\) where \\(m\\) is the slope and \\(b\\) is the \\(y\\)-intercept.  From the table, the \\(y\\)-intercept is \\((0,-3)\\).  Eliminate A and D because they have incorrect \\(y\\)-intercepts. From the remaining answers, determine whether the slope is \\(-3\\) or \\(-\\frac{1}{2}\\). In the table, when \\(x\\) increases by \\(4\\), \\(y\\) decreases by \\(2\\), so the slope is \\(m=\frac{-2}{4}=-\\frac{1}{2}\\), which means C is the correct answer.</div>"
+  "explanation": "<div class='stem-image'><img src='assets/Test1-2C-19A.png' style='max-width:40%'></div><div class='explanation-step'>The answers choices are all in slope-intercept form, \\(y=mx+b\\) where \\(m\\) is the slope and \\(b\\) is the \\(y\\)-intercept.  From the table, the \\(y\\)-intercept is \\((0,-3)\\).  Eliminate A and D because they have incorrect \\(y\\)-intercepts. From the remaining answers, determine whether the slope is \\(-3\\) or \\(-\\frac{1}{2}\\). In the table, when \\(x\\) increases by \\(4\\), \\(y\\) decreases by \\(2\\), so the slope is \\(m=\\frac{-2}{4}=-\\frac{1}{2}\\), which means C is the correct answer.</div>"
     },
     {
   "id": "MathT1-2C-020",
@@ -382,15 +382,15 @@
     "topic": "Linear Functions",
     "skill": "Modeling"
 },
-  "stem": "<div class='stem-equation'>$$P=\\frac{2}{3}(R-9)$$</div><div class='stem-text'>The equation above shows how a particular company measures \\(P\\), profit in dollars, to \\(R\\), revenue in dollars.  Based on this equation, which of the following must be true?</div><div class='stem-equation'>$$\\mathrm{I}. \\text{A revenue increase of} 1 \\text{dollar is equivalent to a profit increase of} \\frac{2}{3} \\text{dollars.}$$</div><div class='stem-equation'>$$\\mathrm{II}. \\text{A revenue increase of} \\frac{2}{3} \\text{dollars is equivalent to a profit increase of} 1 \\text{dollar.}$$</div><div class='stem-equation'>$$\\mathrm{III}. \\text{A profit increase of} 1 \\text{dollar is equivalent to a revenue increase of} 1.5 \\text{dollars.}$$</div>",
+  "stem": "<div class='stem-equation'>$$P=\\frac{2}{3}(R-9)$$</div><div class='stem-text'>The equation above shows how a particular company measures \\(P\\), profit in dollars, to \\(R\\), revenue in dollars.  Based on this equation, which of the following must be true?</div><div class='stem-equation'>$$\\mathrm{I}.\\text{ A revenue increase of 1 dollar is equivalent to a profit increase of }\\frac{2}{3}\\text{ dollars.}$$</div><div class='stem-equation'>$$\\mathrm{II}.\\text{ A revenue increase of }\\frac{2}{3}\\text{ dollars is equivalent to a profit increase of 1 dollar.}$$</div><div class='stem-equation'>$$\\mathrm{III}.\\text{ A profit increase of 1 dollar is equivalent to a revenue increase of 1.5 dollars.}$$</div>",
   "choices": [
-    "\\(\\mathrm{I}  \\text{and} \\mathrm{II} \\text{only}\\)",
-  "\\(\\mathrm{I}  \\text{and} \\mathrm{III} \\text{only}\\)",
-  "\\(\\mathrm{II}  \\text{and} \\mathrm{III} \\text{only}\\)",
-  "\\(\\mathrm{I},  \\mathrm{II}, \\text{and} \\mathrm{III}\\)"
+    "\\(\\mathrm{I}\\) and \\(\\mathrm{II}\\) only",
+  "\\(\\mathrm{I}\\) and \\(\\mathrm{III}\\) only",
+  "\\(\\mathrm{II}\\) and \\(\\mathrm{III}\\) only",
+  "\\(\\mathrm{I}\\),  \\(\\mathrm{II}\\), and \\(\\mathrm{III}\\)"
   ],
   "answerIndex": 1,
-  "explanation": "<div class='explanation-step'>Transfom equation into slope-intercept form as the answer choices relate to rates of change.  In slope-intercept form, \\(P=\\frac{2}{3}R-6\\), the slope is \\(\\frac{\\text{change in} \\, y}{\\text{change in}\\, x}\\) or \\(\\frac{\\text{change in profit}}{\\text{change in revenue}}=\\frac{2}{3}\\).</div><div class='explanation-step'>Test each statement:</div><div class='explanation-step'>\\(\\mathrm{I}\\).   A revenue increase of \\(1\\) dollar is equivalent to a profit increase of \\(\\frac{2}{3}\\) dollars:</div><div class='explanation-step'>The slope is \\(\\frac{\\text{change in profit}}{\\text{change in revenue}}=\\frac{2}{3}\\), so \\(\\frac{\\frac{2}{3}}{1}=\\frac{2}{3}\\), which is true. Eliminate C.</div><div class='explanation-step'>\\(\\mathrm{II}\\).  A revenue increase of \\(\frac{2}{3}\\) dollars is equivalent to a profit increase of \\(1\\) dollar.</div><div class='explanation-step'>Substitute into the same equation from statement \\(\\mathrm{I}\\), so \\(\\frac{1}{\\frac{2}{3}}=\\frac{2}{3}\\).  This is not a true equation, so the statement is not true.  Eliminate A and D, so B is the correct answer.  There is no need to test the third statement.</div>"
+  "explanation": "<div class='explanation-step'>Transfom equation into slope-intercept form as the answer choices relate to rates of change.  In slope-intercept form, \\(P=\\frac{2}{3}R-6\\), the slope is \\(\\frac{\\text{change in} \\, y}{\\text{change in}\\, x}\\) or \\(\\frac{\\text{change in profit}}{\\text{change in revenue}}=\\frac{2}{3}\\).</div><div class='explanation-step'>Test each statement:</div><div class='explanation-step'>\\(\\mathrm{I}\\).   A revenue increase of \\(1\\) dollar is equivalent to a profit increase of \\(\\frac{2}{3}\\) dollars:</div><div class='explanation-step'>The slope is \\(\\frac{\\text{change in profit}}{\\text{change in revenue}}=\\frac{2}{3}\\), so \\(\\frac{\\frac{2}{3}}{1}=\\frac{2}{3}\\), which is true. Eliminate C.</div><div class='explanation-step'>\\(\\mathrm{II}\\).  A revenue increase of \\(\\frac{2}{3}\\) dollars is equivalent to a profit increase of \\(1\\) dollar.</div><div class='explanation-step'>Substitute into the same equation from statement \\(\\mathrm{I}\\), so \\(\\frac{1}{\\frac{2}{3}}=\\frac{2}{3}\\).  This is not a true equation, so the statement is not true.  Eliminate A and D, so B is the correct answer.  There is no need to test the third statement.</div>"
 },
 {
   "id": "MathT1-2C-022",
@@ -408,7 +408,7 @@
     "\\(g(t)=5t+7\\)"
   ],
   "answerIndex": 0,
-  "explanation": "<div class='explanation-step'>The first \\(16\\) flowers cost \\(\\$7\\) each, so the total cost of the first \\(16\\) flowers is \\(16 \times 7=112\\).  Each additional flower costs \\(\\$5\\), but since \\(t \\geq 16\\), for flowers \\(17\\) and up, the total cost is \\(5(t-16)\\).  Add these together to write a total cost function, so \\(g(t)=5(t-16)+112\\).  Simplify this function to find the correct answer.</div><div class='explanation-math'>$$\\begin{aligned}\\ g(t)&=5(t-16)+112\\\\ g(t)&=5t-80+112\\\\ g(t)&=5t+32\\end{aligned}$$</div>"
+  "explanation": "<div class='explanation-step'>The first \\(16\\) flowers cost \\(\\$7\\) each, so the total cost of the first \\(16\\) flowers is \\(16 \\times 7=112\\).  Each additional flower costs \\(\\$5\\), but since \\(t \\geq 16\\), for flowers \\(17\\) and up, the total cost is \\(5(t-16)\\).  Add these together to write a total cost function, so \\(g(t)=5(t-16)+112\\).  Simplify this function to find the correct answer.</div><div class='explanation-math'>$$\\begin{aligned}\\ g(t)&=5(t-16)+112\\\\ g(t)&=5t-80+112\\\\ g(t)&=5t+32\\end{aligned}$$</div>"
 }
   ]
 }
