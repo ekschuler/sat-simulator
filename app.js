@@ -2904,6 +2904,7 @@ function buildBreakdownHTML(tree, questionPool, answerMap) {
 
     html += `</div>`;
   });
+  html += `</div>`;
   return html;
 }
 function showTopicMiniSummary(topic, domain, correct, total) {
