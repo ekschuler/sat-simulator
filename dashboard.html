@@ -312,6 +312,29 @@ console.log("Dashboard access status:", accessStatus);
       btn.style.padding = "8px 16px";
       btn.style.fontSize = "14px";
       btn.onclick = () => location.href = `simulator.html?mode=test&resume=1&subject=full&testVersion=${testVersion}`;
+      return;
+    }
+
+    const { data: completed } = await window.supabaseClient
+      .from("test_sessions")
+      .select("attempt_id")
+      .eq("user_id", user.id)
+      .eq("status", "completed")
+      .not("attempt_id", "is", null)
+      .ilike("test_id", `%${testVersion}%`)
+      .limit(1)
+      .maybeSingle();
+
+    if (completed) {
+      btn.textContent = "Retake";
+      btn.className = "secondaryBtn";
+      btn.style.padding = "8px 16px";
+      btn.style.fontSize = "14px";
+      btn.onclick = () => {
+        if (confirm("Starting a new attempt will begin a fresh test. Your previous results will remain in Test History. Continue?")) {
+          location.href = `simulator.html?mode=test&subject=full&testVersion=${testVersion}&fresh=1`;
+        }
+      };
     } else {
       btn.textContent = "Start";
       btn.onclick = () => location.href = `simulator.html?mode=test&subject=full&testVersion=${testVersion}`;
