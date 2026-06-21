@@ -2641,6 +2641,13 @@ localStorage.setItem("satLastTestSession", JSON.stringify({
   let reviewHTML;
 
   if (fullSATMode) {
+    console.log("=== FULL SAT SUMMARY DEBUG ===");
+    console.log("data.questions total:", data.questions.length);
+    console.log("verbal domains:", ["Craft and Structure","Information and Ideas","Standard English Conventions","Expression of Ideas"]);
+    const vCount = data.questions.filter(q => ["Craft and Structure","Information and Ideas","Standard English Conventions","Expression of Ideas"].includes((q.skill || {}).domain)).length;
+    const mCount = data.questions.filter(q => !["Craft and Structure","Information and Ideas","Standard English Conventions","Expression of Ideas"].includes((q.skill || {}).domain)).length;
+    console.log("verbal Q count:", vCount, "math Q count:", mCount);
+    console.log("sample math Q skill:", JSON.stringify(data.questions.find(q => !["Craft and Structure","Information and Ideas","Standard English Conventions","Expression of Ideas"].includes((q.skill||{}).domain))?.skill));
     reviewHTML = buildTestSummaryHTML();
   } else {
     const breakdownHTML = buildBreakdownHTML(flatTree, data.questions, answers);
