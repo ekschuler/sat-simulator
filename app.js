@@ -2475,7 +2475,7 @@ function buildTestSummaryHTML() {
   }
 
   return `
-    <div class="appPage">
+    <div class="appPage" style="padding-bottom:80px;">
       <h1 class="appTitle">Full SAT Complete</h1>
       <p class="appSubtitle">Here&rsquo;s your performance summary.</p>
       <div id="scoreSummary" class="scoreBanner appCard" style="margin-bottom:24px;">
@@ -2723,8 +2723,25 @@ localStorage.setItem("satLastTestSession", JSON.stringify({
 
   console.log("SETTING BODY HTML - summary length:", resultsSummaryHTML.length);
   console.log("About to set body - current body has sessionView:", !!document.getElementById("sessionView"));
+  
+  // Watch for anything that modifies the body after we set it
+  const observer = new MutationObserver((mutations) => {
+    for (const m of mutations) {
+      if (m.type === "childList" && m.removedNodes.length > 0) {
+        console.trace("BODY CHILDREN CHANGED - something overwrote the summary DOM");
+      }
+    }
+  });
+  observer.observe(document.body, { childList: true, subtree: false });
+
   document.body.innerHTML = resultsSummaryHTML;
+  window.scrollTo(0, 0);
   console.log("Body set - now has Math section:", document.body.innerHTML.includes("Math —"));
+  
+  setTimeout(() => {
+    observer.disconnect();
+    console.log("Observer disconnected after 2s");
+  }, 2000);
   document.body.classList.remove("practice-sidebar-ready");
   document.body.classList.remove("practice-sidebar-open");
   const _vd2 = ["Craft and Structure","Information and Ideas","Standard English Conventions","Expression of Ideas"];
