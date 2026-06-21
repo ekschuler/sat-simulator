@@ -2648,14 +2648,14 @@ localStorage.setItem("satLastTestSession", JSON.stringify({
 
   let reviewHTML;
 
-  if (fullSATMode) {
-    console.log("=== FULL SAT SUMMARY DEBUG ===");
-    console.log("data.questions total:", data.questions.length);
-    console.log("verbal domains:", ["Craft and Structure","Information and Ideas","Standard English Conventions","Expression of Ideas"]);
-    const vCount = data.questions.filter(q => ["Craft and Structure","Information and Ideas","Standard English Conventions","Expression of Ideas"].includes((q.skill || {}).domain)).length;
-    const mCount = data.questions.filter(q => !["Craft and Structure","Information and Ideas","Standard English Conventions","Expression of Ideas"].includes((q.skill || {}).domain)).length;
-    console.log("verbal Q count:", vCount, "math Q count:", mCount);
-    console.log("sample math Q skill:", JSON.stringify(data.questions.find(q => !["Craft and Structure","Information and Ideas","Standard English Conventions","Expression of Ideas"].includes((q.skill||{}).domain))?.skill));
+  // Detect full SAT from presence of both verbal and math questions
+  const _vDomains = ["Craft and Structure","Information and Ideas","Standard English Conventions","Expression of Ideas"];
+  const _hasVerbal = data.questions.some(q => _vDomains.includes((q.skill||{}).domain));
+  const _hasMath = data.questions.some(q => !_vDomains.includes((q.skill||{}).domain));
+  const isFullSAT = _hasVerbal && _hasMath;
+  console.log("isFullSAT:", isFullSAT, "fullSATMode:", fullSATMode, "questions:", data.questions.length);
+
+  if (isFullSAT) {
     reviewHTML = buildTestSummaryHTML();
   } else {
     const breakdownHTML = buildBreakdownHTML(flatTree, data.questions, answers);
@@ -2718,11 +2718,11 @@ localStorage.setItem("satLastTestSession", JSON.stringify({
   })();
 
   document.body.innerHTML = resultsSummaryHTML;
-    document.body.classList.remove("practice-sidebar-ready");
-    document.body.classList.remove("practice-sidebar-open");
   document.body.classList.remove("practice-sidebar-ready");
   document.body.classList.remove("practice-sidebar-open");
-  if (!fullSATMode) renderScoreBanner();
+  const _vd2 = ["Craft and Structure","Information and Ideas","Standard English Conventions","Expression of Ideas"];
+  const _isFullSAT2 = data.questions.some(q => _vd2.includes((q.skill||{}).domain)) && data.questions.some(q => !_vd2.includes((q.skill||{}).domain));
+  if (!_isFullSAT2) renderScoreBanner();
   typesetMath();
 }
 function buildTree(questions) {
