@@ -2722,7 +2722,9 @@ localStorage.setItem("satLastTestSession", JSON.stringify({
   })();
 
   console.log("SETTING BODY HTML - summary length:", resultsSummaryHTML.length);
+  console.log("About to set body - current body has sessionView:", !!document.getElementById("sessionView"));
   document.body.innerHTML = resultsSummaryHTML;
+  console.log("Body set - now has Math section:", document.body.innerHTML.includes("Math —"));
   document.body.classList.remove("practice-sidebar-ready");
   document.body.classList.remove("practice-sidebar-open");
   const _vd2 = ["Craft and Structure","Information and Ideas","Standard English Conventions","Expression of Ideas"];
