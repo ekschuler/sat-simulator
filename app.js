@@ -781,8 +781,7 @@ if (!options.forceFile && reviewAttemptId && !options.resume) {
     const jsons = await Promise.all(moduleFiles.map(f => fetch(f).then(r => r.json())));
     const allQuestions = jsons.flatMap(j => j.questions || []);
 
-    const answeredIds = Object.keys(answers);
-    data = { questions: allQuestions.filter(q => answeredIds.includes(String(q.id))) };
+    data = { questions: allQuestions };
     current = 0;
     fullSATMode = true;
 
@@ -1789,7 +1788,7 @@ function startReview(mode) {
     if (mode === "missed") {
     reviewIndices = data.questions
       .map((q, i) => ({ q, i }))
-      .filter(({ q }) => answers[q.id] && !isQuestionCorrect(q))
+      .filter(({ q }) => !isQuestionCorrect(q))
       .map(({ i }) => i);
 
     if (reviewIndices.length === 0) {
@@ -2505,6 +2504,7 @@ function buildTestSummaryHTML() {
       <div style="margin-top:28px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
         <button class="secondaryBtn" onclick="window.location.href='dashboard.html'">Home</button>
         <button class="secondaryBtn" onclick="window.location.href='test-history.html'">Test History</button>
+        <button class="secondaryBtn" onclick="if(confirm('Retaking this test will start a new attempt. Your current results will remain in Test History. Continue?')) { window.location.href='simulator.html?mode=test&subject=full&testVersion=${currentTestVersion}&fresh=1'; }">Retake Test</button>
       </div>
     </div>
   `;
@@ -2760,7 +2760,7 @@ function reviewMistakesByModule(subject, mod) {
   });
   const moduleQs = mod === 1 ? subjectQs.slice(0, subject === "verbal" ? 27 : 22) : subjectQs.slice(subject === "verbal" ? 27 : 22);
   const indices = moduleQs
-    .filter(mq => answers[mq.id] && !isQuestionCorrect(mq))
+    .filter(mq => !isQuestionCorrect(mq))
     .map(mq => data.questions.indexOf(mq))
     .filter(i => i !== -1);
   if (indices.length === 0) { alert("No mistakes in this module!"); return; }
