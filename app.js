@@ -2657,6 +2657,10 @@ localStorage.setItem("satLastTestSession", JSON.stringify({
 
   if (isFullSAT) {
     reviewHTML = buildTestSummaryHTML();
+    console.log("buildTestSummaryHTML result length:", reviewHTML.length);
+    console.log("contains Math section:", reviewHTML.includes("Math —"));
+    console.log("contains Home button:", reviewHTML.includes("dashboard.html"));
+    console.log("contains Retake:", reviewHTML.includes("Retake"));
   } else {
     const breakdownHTML = buildBreakdownHTML(flatTree, data.questions, answers);
     reviewHTML = `
