@@ -2721,6 +2721,7 @@ localStorage.setItem("satLastTestSession", JSON.stringify({
     }
   })();
 
+  console.log("SETTING BODY HTML - summary length:", resultsSummaryHTML.length);
   document.body.innerHTML = resultsSummaryHTML;
   document.body.classList.remove("practice-sidebar-ready");
   document.body.classList.remove("practice-sidebar-open");
@@ -2728,6 +2729,13 @@ localStorage.setItem("satLastTestSession", JSON.stringify({
   const _isFullSAT2 = data.questions.some(q => _vd2.includes((q.skill||{}).domain)) && data.questions.some(q => !_vd2.includes((q.skill||{}).domain));
   if (!_isFullSAT2) renderScoreBanner();
   typesetMath();
+  // Check body 500ms later to see if something overwrote it
+  setTimeout(() => {
+    console.log("BODY 500ms LATER - contains Math section:", document.body.innerHTML.includes("Math —"));
+    console.log("BODY 500ms LATER - contains Home button:", document.body.innerHTML.includes("dashboard.html"));
+    console.log("BODY 500ms LATER - body length:", document.body.innerHTML.length);
+    console.log("BODY 500ms LATER - has sessionView:", !!document.getElementById("sessionView"));
+  }, 500);
 }
 function buildTree(questions) {
   const tree = {};
