@@ -3567,11 +3567,9 @@ window.startPracticeMode = function () {
 // THEN your load starts AFTER this:
 const params = new URLSearchParams(window.location.search);
 const initialMode = params.get("mode");
-// Set fullSATMode from URL — preserve it only during test module transitions
-// For practice mode or fresh loads, always read from URL
-if (initialMode === "test" && fullSATMode) {
-  // keep fullSATMode=true during test module transitions (URL loses subject=full)
-} else {
+// Only set fullSATMode from URL on initial load — don't reset if already true
+// (URL loses subject=full after module transitions via updateUrlForMode)
+if (!fullSATMode) {
   fullSATMode = params.get("subject") === "full";
 }
 if (fullSATMode && params.get("resume") !== "1" && currentAttemptId === null) {
@@ -3583,7 +3581,7 @@ if (!initialMode) {
 } else if (fullSATMode && params.get("resume") === "1") {
   // Full SAT resume — let resumeSavedTest handle it
   (async () => {
-    const savedSession = await getLatestSavedTestSessionFromDB(testVersion || null);
+    const savedSession = await getLatestSavedTestSessionFromDB(params.get("testVersion") || null);
     if (savedSession) {
       currentAttemptId = savedSession.attempt_id || null;
       fullSATMode = !!savedSession.attempt_id;
