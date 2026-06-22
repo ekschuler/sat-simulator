@@ -102,7 +102,7 @@ async function getCurrentUserAccessStatus() {
 
   return data?.access_status || "demo";
 }
-async function getLatestSavedTestSessionFromDB(testVersion = null) {
+async function getLatestSavedTestSessionFromDB(tv = null) {
   const user = await getCurrentSupabaseUser();
 
   if (!user) {
@@ -117,8 +117,8 @@ async function getLatestSavedTestSessionFromDB(testVersion = null) {
     .order("created_at", { ascending: false })
     .limit(1);
 
-  if (testVersion) {
-    query = query.ilike("test_id", `%${testVersion}%`);
+  if (tv) {
+    query = query.ilike("test_id", `%${tv}%`);
   }
 
   const { data, error } = await query.maybeSingle();
@@ -3581,7 +3581,7 @@ if (!initialMode) {
 } else if (fullSATMode && params.get("resume") === "1") {
   // Full SAT resume — let resumeSavedTest handle it
   (async () => {
-    const savedSession = await getLatestSavedTestSessionFromDB(testVersion);
+    const savedSession = await getLatestSavedTestSessionFromDB(testVersion || null);
     if (savedSession) {
       currentAttemptId = savedSession.attempt_id || null;
       fullSATMode = !!savedSession.attempt_id;
