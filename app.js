@@ -3567,9 +3567,11 @@ window.startPracticeMode = function () {
 // THEN your load starts AFTER this:
 const params = new URLSearchParams(window.location.search);
 const initialMode = params.get("mode");
-// Only set fullSATMode from URL on initial load — don't reset if already true
-// (URL loses subject=full after module transitions via updateUrlForMode)
-if (!fullSATMode) {
+// Set fullSATMode from URL — preserve it only during test module transitions
+// For practice mode or fresh loads, always read from URL
+if (mode === "test" && fullSATMode) {
+  // keep fullSATMode=true during test module transitions (URL loses subject=full)
+} else {
   fullSATMode = params.get("subject") === "full";
 }
 if (fullSATMode && params.get("resume") !== "1" && currentAttemptId === null) {
