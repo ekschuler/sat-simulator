@@ -102,21 +102,26 @@ async function getCurrentUserAccessStatus() {
 
   return data?.access_status || "demo";
 }
-async function getLatestSavedTestSessionFromDB() {
+async function getLatestSavedTestSessionFromDB(testVersion = null) {
   const user = await getCurrentSupabaseUser();
 
   if (!user) {
     return null;
   }
 
-  const { data, error } = await window.supabaseClient
+  let query = window.supabaseClient
     .from("test_sessions")
     .select("*")
     .eq("user_id", user.id)
     .eq("status", "in_progress")
     .order("created_at", { ascending: false })
-    .limit(1)
-    .maybeSingle();
+    .limit(1);
+
+  if (testVersion) {
+    query = query.ilike("test_id", `%${testVersion}%`);
+  }
+
+  const { data, error } = await query.maybeSingle();
 
   if (error) {
     console.error("Failed to load saved test session:", error);
@@ -3576,7 +3581,7 @@ if (!initialMode) {
 } else if (fullSATMode && params.get("resume") === "1") {
   // Full SAT resume — let resumeSavedTest handle it
   (async () => {
-    const savedSession = await getLatestSavedTestSessionFromDB();
+    const savedSession = await getLatestSavedTestSessionFromDB(testVersion);
     if (savedSession) {
       currentAttemptId = savedSession.attempt_id || null;
       fullSATMode = !!savedSession.attempt_id;
