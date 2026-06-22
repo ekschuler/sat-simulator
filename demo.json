@@ -21,7 +21,7 @@
       "set": "Algegbra Practice",
       "tags": ["combining like terms"],
 
-  "stem": "Which expression is equivalent to \\(2x^2 - x + 7)-(x^2-1)\\)?",
+  "stem": "Which expression is equivalent to \\((2x^2 - x + 7)-(x^2-1)\\)?",
   "choices": [
     "\\(x^2-x+8\\)",
     "\\(x^2-x+6\\)",
@@ -56,7 +56,7 @@
         "\\(36\\)"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>Method \\(1\\): Squares A and B both have four right angles (definition of a square) and proportionate side lengths; this means they are similar.  In similar figures, the ratio of their areas is equal to the <strong>square</strong> of the ratio of their sides; since the area of square A is \\(\\frac{1}{9}\\) the area of square B, it can also be said that side length of \\(A=\\sqrt{\\frac{1}{9}}=\\frac{1}{3}\\) side length of \\(B\\).  Substitute \\(2\\) for the side length of square A and solve.</div><div class='explanation-math'>$$\\begin{aligned}\\ 2&=\\frac{1}{3}\\times \\text{side length of B}\\\\ 3 \\times 2&=\\frac{1}{\\cancel{3}}\\times \\text{side length of B} \\times \\cancel{3}\\\\ \\text{side length of B}&=6\\end{aligned}$$</div><div class='explanation-step'>Method \\(2\\): Find the area of square A; since square A has side lengths of \\(2\\), \\(A=2^2=4\\).  This is \\(\\frac{1}{9}\\) the area of Square B, so the area of square B is \\(9\\) times the area of square A, or \\(9 \\times 4=36\\).  To find a side length of square B, take the square root of the area of square B, so \\(\\sqrt{\\frac{36}}=6\\).</div>"
+      "explanation": "<div class='explanation-step'>Method \\(1\\): Squares A and B both have four right angles (definition of a square) and proportionate side lengths; this means they are similar.  In similar figures, the ratio of their areas is equal to the <strong>square</strong> of the ratio of their sides; since the area of square A is \\(\\frac{1}{9}\\) the area of square B, it can also be said that side length of \\(A=\\sqrt{\\frac{1}{9}}=\\frac{1}{3}\\) side length of \\(B\\).  Substitute \\(2\\) for the side length of square A and solve.</div><div class='explanation-math'>$$\\begin{aligned}\\ 2&=\\frac{1}{3}\\times \\text{side length of B}\\\\ 3 \\times 2&=\\frac{1}{\\cancel{3}}\\times \\text{side length of B} \\times \\cancel{3}\\\\ \\text{side length of B}&=6\\end{aligned}$$</div><div class='explanation-step'>Method \\(2\\): Find the area of square A; since square A has side lengths of \\(2\\), \\(A=2^2=4\\).  This is \\(\\frac{1}{9}\\) the area of Square B, so the area of square B is \\(9\\) times the area of square A, or \\(9 \\times 4=36\\).  To find a side length of square B, take the square root of the area of square B, so \\(\\sqrt{36}=6\\).</div>"
 },
 {
   "id": "Demo-3",
@@ -71,7 +71,7 @@
       "set": "Advanced Math Practice",
       "tags": ["discriminant", "intercepts"],
 
-  "stem": "In the \\(xy\\)-plane, a parabola with equation \\(y=4x^2+bx\\)where \\(b\\) is a positive constant is intersected at exactly one point by a line. If the line has equation \\(y=-4\\), what is the value of \\(b\\)?",
+  "stem": "In the \\(xy\\)-plane, a parabola with equation \\(y=4x^2+bx\\) where \\(b\\) is a positive constant is intersected at exactly one point by a line. If the line has equation \\(y=-4\\), what is the value of \\(b\\)?",
  "answer": "16",
       "answersAccepted": ["16"],
       "validation": {
@@ -81,7 +81,7 @@
         "allowFraction": false,
         "maxChars": 8
       },
-  "explanation": "<div class='explanation-step'>This is a non-linear system of equations. Since \\(y\\) has a constant value of \\(-4\\), substitute \\(-4\\) into the second equation for \\(y\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ -4&=4x^2+bx\\end{aligned}$$</div><div class='explanation-step'>Since this is a system in which the graphs intersect once, treat the equation above like a quadratic equation with one solution. If a quadratic equation has one real solution, the discriminant, \\(b^2-4ac\\) must equal \\(0\\).  Put the equation into \\(y=ax^2+bx+c\\) form in order to determine the values of \\(a\\), \\(b\\), and \\(c\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ \\cancel{-4}+\\cancel{4}&=4x^2+bx+4\\\\ 0&=4x^2+bx+4 \\end{aligned}$$</div>div class='explanation-step'>In this equation, \\(a=4\\), \\(b=b\\) and \\(c=4\\).  Use the discriminant to solve for \\(b\\):</div><div class='explanation-math'>$$\\begin{aligned}\\ b^2-4ac&=0\\\\ b^2-4(4)(4)&=0\\\\ b^-256=0\\\\ b^2-\\cancel{256}+\\cancel{256}&=0+256\\\\ b^&=256\\\\ \\sqrt{b}&=\\sqrt{256}=16\\end{aligned}$$</div>"
+  "explanation": "<div class='explanation-step'>This is a non-linear system of equations. Since \\(y\\) has a constant value of \\(-4\\), substitute \\(-4\\) into the second equation for \\(y\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ -4&=4x^2+bx\\end{aligned}$$</div><div class='explanation-step'>Since this is a system in which the graphs intersect once, treat the equation above like a quadratic equation with one solution. If a quadratic equation has one real solution, the discriminant, \\(b^2-4ac\\) must equal \\(0\\).  Put the equation into \\(y=ax^2+bx+c\\) form in order to determine the values of \\(a\\), \\(b\\), and \\(c\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ \\cancel{-4}+\\cancel{4}&=4x^2+bx+4\\\\ 0&=4x^2+bx+4 \\end{aligned}$$</div><div class='explanation-step'>In this equation, \\(a=4\\), \\(b=b\\) and \\(c=4\\).  Use the discriminant to solve for \\(b\\):</div><div class='explanation-math'>$$\\begin{aligned}\\ b^2-4ac&=0 \\\\ b^2-4(4)(4)&=0 \\\\ b^-256=0 \\\\ b^2-\\cancel{256}+\\cancel{256}&=0+256 \\\\ b^&=256 \\\\ \\sqrt{b}&=\\sqrt{256}=16 \\end{aligned}$$</div>"
 },
 {
       "id": "Demo-4",
@@ -98,7 +98,7 @@
       "set": "Problem-solving and Data Analysis Practice",
       "tags": ["average", "mean", "statistics"],
 
-      "stem": "<div class='stem-text'>A shoe store sold \\(38\\) pairs of shoes on one day with a mean price of \\(\\$157\\). On a second day they sold\\(24\\) pairs of shoes with a mean price of \\(\\$219\\). What is the mean price of shoes sold over the two days?</div>",
+      "stem": "<div class='stem-text'>A shoe store sold \\(38\\) pairs of shoes on one day with a mean price of \\(\\$157\\). On a second day they sold \\(24\\) pairs of shoes with a mean price of \\(\\$219\\). What is the mean price of shoes sold over the two days?</div>",
 
       "choices": [
         "\\(\\$31\\)",
@@ -107,7 +107,7 @@
         "\\(\\$\\text{6,480}\\)"
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>To find a combined mean, first find the sum of the individual data sets.  Since the \\(\\text{mean}=\\frac{\\text{sum of values}}{\\text{number of values in the set}}\\), the sum of the values \\(=\\) the mean \\(\\times\\) the number of values in the set.  Find the sum of the total dollars earned each day in shoe sales.</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} 38 \\times 157=\\text{5,966}\\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} 24 \\times 219=\\text{5,256}\\end{aligned}$$</div></div></div><div class='explanation-step'>Find the combined mean by dividing the sum of these total sales by the total number of pairs of shoes sold, so \\(38+24=62\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ &= \\frac{\\text{5,966}+\\text{5,256}}{62}= 181\\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>To find a combined mean, first find the sum of the individual data sets.  Since the \\(\\text{mean}=\\frac{\\text{sum of values}}{\\text{number of values in the set}}\\), the sum of the values \\(=\\) the mean \\(\\times\\) the number of values in the set.  Find the sum of the total dollars earned each day in shoe sales.</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} 38 \\times 157=\\text{5,966}\\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} 24 \\times 219=\\text{5,256}\\end{aligned}$$</div></div></div><div class='explanation-step'>Find the combined mean by dividing the sum of these total sales by the total number of pairs of shoes sold, so \\(38+24=62\\).</div><div class='explanation-math'>$$\\begin{aligned}\\  \\frac{\\text{5,966}+\\text{5,256}}{62}= 181\\end{aligned}$$</div>"
     },
     {
       "id": "Demo-5",
