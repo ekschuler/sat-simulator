@@ -3569,7 +3569,7 @@ const params = new URLSearchParams(window.location.search);
 const initialMode = params.get("mode");
 // Set fullSATMode from URL — preserve it only during test module transitions
 // For practice mode or fresh loads, always read from URL
-if (mode === "test" && fullSATMode) {
+if (initialMode === "test" && fullSATMode) {
   // keep fullSATMode=true during test module transitions (URL loses subject=full)
 } else {
   fullSATMode = params.get("subject") === "full";
