@@ -8725,7 +8725,7 @@
     "level": 3,
     "skill": {
       "domain": "Geometry and Trigonometry",
-      "topic": "Geometry and Trigonometry",
+      "topic": "Rates and Proportional Reasoning",
       "skill": "Rates, Ratios, and Proportional Reasoning"
     },
     "stem": "<div class='stem-text'>Two similar cylinders have radii in the ratio \\(3\\):\\(5\\). If the volume of the smaller cylinder is \\(54\\pi\\) cubic inches, what is the volume of the larger cylinder in cubic inches?</div>",
@@ -8744,7 +8744,7 @@
     "level": 3,
     "skill": {
       "domain": "Geometry and Trigonometry",
-      "topic": "Geometry and Trigonometry",
+      "topic": "Rates and Proportional Reasoning",
       "skill": "Rates, Ratios, and Proportional Reasoning"
     },
     "stem": "<div class='stem-text'>A map uses a scale of \\(1.5\\) inches to represent \\(40\\) miles. On the map, the distance between two cities measures \\(5.25\\) inches. A driver travels between the cities at an average speed of \\(60\\) miles per hour. How many minutes will the trip take?</div>",
@@ -8767,7 +8767,7 @@
     "level": 3,
     "skill": {
       "domain": "Geometry and Trigonometry",
-      "topic": "Geometry and Trigonometry",
+      "topic": "Rates and Proportional Reasoning",
       "skill": "Rates, Ratios, and Proportional Reasoning"
     },
     "stem": "<div class='stem-text'>Rectangle \\(ABCD\\) is similar to rectangle \\(EFGH\\). The perimeter of \\(ABCD\\) is \\(36\\) and the perimeter of \\(EFGH\\) is \\(60\\). If the area of \\(ABCD\\) is \\(72\\), what is the area of \\(EFGH\\)?</div>",
@@ -8786,7 +8786,7 @@
     "level": 3,
     "skill": {
       "domain": "Geometry and Trigonometry",
-      "topic": "Geometry and Trigonometry",
+      "topic": "Pythagorean Theorem",
       "skill": "Pythagorean Theorem"
     },
     "stem": "<div class='stem-text'>A \\(25\\)-foot ladder leans against a vertical wall with its foot 7 feet from the base of the wall. A rung of the ladder is located exactly 20 feet up the ladder from its foot (measured along the ladder). How many feet above the ground is that rung?</div>",
@@ -8805,7 +8805,7 @@
     "level": 3,
     "skill": {
       "domain": "Geometry and Trigonometry",
-      "topic": "Geometry and Trigonometry",
+      "topic": "Trigonometry",
       "skill": "Trigonometry"
     },
     "stem": "<div class='stem-text'>In right triangle \\(PQR\\), the right angle is at \\(Q\\). If \\(PQ = 7\\) and \\(\\sin(\\angle P) = \\dfrac{3}{5}\\), what is the length of \\(QR\\)?</div>",
@@ -8824,7 +8824,7 @@
     "level": 3,
     "skill": {
       "domain": "Geometry and Trigonometry",
-      "topic": "Geometry and Trigonometry",
+      "topic": "Special Right Triangles",
       "skill": "Special Right Triangles"
     },
     "stem": "<div class='stem-text'>In a \\(45-45-90\\) triangle, the hypotenuse has length \\(10\\sqrt{2}\\). What is the area of a square whose side length equals one leg of the triangle?</div>",
@@ -8847,7 +8847,7 @@
     "level": 3,
     "skill": {
       "domain": "Geometry and Trigonometry",
-      "topic": "Geometry and Trigonometry",
+      "topic": "Triangle Congruence",
       "skill": "Congruence"
     },
     "stem": "<div class='stem-text'>Triangles \\(ABC\\) and \\(DEF\\) are congruent, with \\(AB \\cong DE\\), \\(BC \\cong EF\\), and \\(\\angle B \\cong \\angle E\\). If \\(\\angle B = 65°\\) and \\(\\angle F = 47°\\), what is the measure of \\(\\angle D\\)?</div>",

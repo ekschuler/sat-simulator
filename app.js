@@ -1402,10 +1402,6 @@ if (flagBtn) {
   }
 }
   renderProgress();
-  if (isPracticeMode && practiceFullPool.length > 0) {
-    practiceSidebarTree = buildPracticeSidebarTree(practiceFullPool, { ...sessionAnswers, ...answers });
-    renderPracticeSidebar();
-  }
   const levelBadgeHTML = buildPracticeLevelBadgeHTML(q);
 
 const stemHTML = q.stemSegments
@@ -1514,6 +1510,17 @@ function renderGridIn(q, container) {
     e.preventDefault();
     e.stopPropagation();
     prevQuestion();
+    return;
+  }
+
+  // Allow: control keys, backspace, delete, tab, arrows
+  const controlKeys = ["Backspace", "Delete", "Tab", "ArrowUp", "ArrowDown", "Home", "End"];
+  if (controlKeys.includes(e.key) || e.ctrlKey || e.metaKey) return;
+
+  // Allow: digits, minus, decimal point, slash (for fractions)
+  const allowed = /^[0-9.\-\/]$/;
+  if (!allowed.test(e.key)) {
+    e.preventDefault();
   }
 });
   input.type = "text";
