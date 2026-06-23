@@ -3968,7 +3968,7 @@
       "stem": "<div class='stem-equation'>$$g(x)=-6x^2+30x+72$$</div><div class='stem-text'>The given function, \\(g(x)\\) defines \\(x\\). For what value of \\(x\\) does the function reach its maximum?</div>",
 
       "answer": "\\frac{5}{2}",
-      "answersAccepted": ["\\frac{5}{2}", "2.5"],
+      "answersAccepted": ["\\frac{5}{2}", "2.5", "5/2"],
 
       "validation": {
         "allowDecimal": false,
@@ -4265,7 +4265,7 @@
         "\\(\\text{144,000}\\)"
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>Method \\(1\\): Write an equation that models the situation.  In the exponential function \\(y=a\\times b^{x}\\) \\(a\\) is the starting population, \\(b\\) is the growth or decay multiplier, \\(x\\) is the number of halving periods, and \\(y\\) is the population of bees.  The equation is \\(y=\\text{9,000,000} \\times \\left(\\frac{1}{2}\\right)^x\\).  \\(b=\\frac{1}{2}\\) because the population halves each period of time.  This occurs every \\(6\\) hours, so after \\(24\\) hours, there are \\(\\frac{24}{6}=4\\) halving periods. Substitute \\(x=4\\) into the equation to find the bee population.</div><div class='explanation-math'>$$\\begin{aligned}\\ y&=\\text{9,000,000} \\times \\left(\\frac{1}{2}\\right)^4\\\\ y&=\\text{9,000,000} \\times \\left(\\frac{1}{16}\\right)\\\\ y&=\\text{562,500}\\end{aligned}$$</div><div class='explanation-step'>Method \\(2\\): Since the halving occurs every \\(6\\) hours and you are asked to find the population after \\(24\\) hours, use \\(\\frac{24}{6}=4\\) as the number of halving periods. Cut the population in half (divide by \\(2\\)) \\(4\\) times.</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}\\frac{\\text{9,000,000}}{2}=\\text{4,500,000}\\\\ \\frac{\\text{4,500,000}}{2}=\\text{2,250,000}\\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned}\\frac{\\text{2,250,000}}{2}=\\text{1,125,000}\\\\ \\frac{\\text{1,125,000}}{2}=\\text{562,500}\\end{aligned}$$</div></div></div>"
+      "explanation": "<div class='explanation-step'>Method \\(1\\): Write an equation that models the situation.  In the exponential function \\(y=a\\times b^{x}\\) \\(a\\) is the starting population, \\(b\\) is the growth or decay multiplier, \\(x\\) is the number of halving periods, and \\(y\\) is the population of bees.  The equation is \\(y=\\text{9,000,000} \\times \\left(\\frac{1}{2}\\right)^x\\).  \\(b=\\frac{1}{2}\\) because the population halves each period of time.  This occurs every \\(6\\) hours, so after \\(24\\) hours, there are \\(\\frac{24}{6}=4\\) halving periods. Substitute \\(x=4\\) into the equation to find the bee population.</div><div class='explanation-math'>$$\\begin{aligned}\\ y&=\\text{9,000,000} \\times \\left(\\frac{1}{2}\\right)^4\\\\ y&=\\text{9,000,000} \\times \\left(\\frac{1}{16}\\right)\\\\ y&=\\text{562,500}\\end{aligned}$$</div><div class='explanation-step'>Method \\(2\\): Since the halving occurs every \\(6\\) hours and you are asked to find the population after \\(24\\) hours, use \\(\\frac{24}{6}=4\\) as the number of halving periods. Cut the population in half (divide by \\(2\\)) \\(4\\) times.</div><div class='stem-side-by-side'><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} \\frac{\\text{9,000,000}}{2}&=\\text{4,500,000}\\\\ \\frac{\\text{4,500,000}}{2}&=\\text{2,250,000}\\end{aligned}$$</div></div><div class='side-box'><div class='stem-equation'>$$\\begin{aligned} \\frac{\\text{2,250,000}}{2}&=\\text{1,125,000}\\\\ \\frac{\\text{1,125,000}}{2}&=\\text{562,500}\\end{aligned}$$</div></div></div>"
     },
 {
       "id": "AM-L2-025",
@@ -4347,7 +4347,7 @@
         "\\(C(t)=\\text{8,857.01}(0.92)^t\\)"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>In the exponential function \\(y=a \\times b^x\\), \\(a\\) is the starting value and \\(b\\) is the growth or decay factor. In this situation, the initial value of the car is \\$22,500.00, so \\(a=\\text{22,500.00}\\). Eliminate C and D.  The car decreases in value, and in an exponential decay (decrease) function \\(0\\lt b\\lt 1\\).</div>"
+      "explanation": "<div class='explanation-step'>In the exponential function \\(y=a \\times b^x\\), \\(a\\) is the starting value and \\(b\\) is the growth or decay factor. In this situation, the initial value of the car is \\(\\$22,500.00\\), so \\(a=\\text{22,500.00}\\). Eliminate C and D.  The car decreases in value, and in an exponential decay (decrease) function \\(0\\lt b\\lt 1\\).</div>"
     },
 {
       "id": "AM-L2-028",
@@ -4479,7 +4479,7 @@
         "\\(\\text{1,000,000}\\)",
         "\\(\\text{3,200,000}\\)",
         "\\(\\text{4,000,000}\\)",
-        "\\(\\text{6,000,000}\\)"
+        "\\(\\text{6,400,000}\\)"
       ],
       "answerIndex": 3,
       "explanation": "<div class='explanation-step'>Method \\(1\\): Start by writing an equation that models the situation.  In the exponential function \\(y=a\\times b^{x}\\) \\(a\\) is the initial investment, \\(b\\) is the growth or decay multiplier, \\(x\\) is the number of doubling periods, and \\(y\\) is the value of the investment.  The equation is \\(y=\\text{200,000} \\times (2)^x\\).  \\(b=2\\) because the fund doubles each given period of time.  Since the doubling occurs every \\(4\\) years and you are asked to find the value of the investment after \\(20\\) years, use \\(\\frac{20}{4}=5\\) as the \\(x\\)-value. Substitute \\(x=5\\) into the equation and evaluate to find the value of the investment.</div><div class='explanation-math'>$$\\begin{aligned}\\ y&=\\text{200,000} \\times (2)^5\\\\ y&=\\text{200,000} \\times 32\\\\ y&=\\text{6,400,000}\\end{aligned}$$</div><div class='explanation-step'>Method \\(2\\): Since the doubling occurs every \\(4\\) years and you are asked to find the value of the fund after \\(20\\) years, use \\(\\frac{20}{4}=5\\) as the number of doubling periods. Double the investment \\(5\\) times.</div><div class='explanation-math'>$$\\begin{aligned}\\ \\text{200,000}\\times2=\\text{400,000}\\\\ \\text{400,000}\\times2=\\text{800,000}\\\\ \\text{800,000}\\times2=\\text{1,600,000}\\\\ \\text{1,600,000}\\times2=\\text{3,200,000}\\\\ \\text{3,200,000}\\times2=\\text{6,400,000}\\end{aligned}$$</div>"
@@ -4502,7 +4502,7 @@
       "stem": "<div class='stem-equation'>$$h(x)=-2x^2+70x-46$$</div><div class='stem-text'>The given equation defines the function \\(h\\).  What is the value of \\(x\\) for which \\(h(x)\\) reaches its maximum?</div>",
 
       "answer": "\\frac{35}{2}",
-      "answersAccepted": ["\\frac{35}{2}", "\\frac{70}{4}", "17.5"],
+      "answersAccepted": ["\\frac{35}{2}", "\\frac{70}{4}", "17.5", "35/2", "70/4"],
 
       "validation": {
         "allowDecimal": false,
@@ -4739,7 +4739,7 @@
       "set": "Advanced Math Practice",
       "tags": ["systems", "linear", "foundation"],
 
-      "stem": "<div class='stem-equation'>$$p(m)=\\text{12,800}(0.75)^m$$</div><div class='stem-text'>The given function \\(p\\) models the number of people who visited a ski resort each month, where \\(m\\) represents the number of months since the end of January, and \\(0\\leq{m}\\leq4\\). If \\(y=p(m)\\) is graphed in the \\(xy\\)-plane, which of the following it the best interpretation of the \\(y\\)-intercept of the graph in this context?</div>",
+      "stem": "<div class='stem-equation'>$$p(m)=\\text{12,800}(0.75)^m$$</div><div class='stem-text'>The given function \\(p\\) models the number of people who visited a ski resort each month, where \\(m\\) represents the number of months since the end of January, and \\(0\\leq{m}\\leq4\\). If \\(y=p(m)\\) is graphed in the \\(xy\\)-plane, which of the following is the best interpretation of the \\(y\\)-intercept of the graph in this context?</div>",
 
       "choices": [
         "The minimum estimated number of people who visited the ski resort during the \\(4\\) months was \\(\\text{5,400}.\\)",
@@ -5041,7 +5041,7 @@
 
       "answerIndex": 1,
 
-      "explanation": "<div class='explanation-step'>\\(g(x-8)\\) is the original function \\(g(x)\\) shifted to the right \\(8\\), so the \\(x\\)-values increase by \\(8\\). The minimum value of \\(x\\) occurs at the vertex of the parabola.  To find the vertex, use \\(x=-\\frac{b}{2a}\\) where \\(y=ax^2+bx+c\\).  In the function \\(g(x)=3x^2+42x-98\\), \\(a=3\\) and \\(b=42\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ x&= -\\frac{42}{2(3)}\\\\ x&= -\\frac{42}{6)}= -7 \\end{aligned}$$</div><div class='explanation-step'>Add \\(8\\) to this value to shift to the right by \\(8\\); \\(-7+8=1\\).</div>"
+      "explanation": "<div class='explanation-step'>\\(g(x-8)\\) is the original function \\(g(x)\\) shifted to the right \\(8\\), so the \\(x\\)-values increase by \\(8\\). The minimum value of \\(x\\) occurs at the vertex of the parabola.  To find the vertex, use \\(x=-\\frac{b}{2a}\\) where \\(y=ax^2+bx+c\\).  In the function \\(g(x)=3x^2+42x-98\\), \\(a=3\\) and \\(b=42\\).</div><div class='explanation-math'>$$\\begin{aligned}\\ x&= -\\frac{42}{2(3)}\\\\ x&= -\\frac{42}{6}= -7 \\end{aligned}$$</div><div class='explanation-step'>Add \\(8\\) to this value to shift to the right by \\(8\\); \\(-7+8=1\\).</div>"
     },
 {
       "id": "AM-L3-005",
@@ -5247,7 +5247,7 @@
       "stem": "<div class='stem-text'>In the \\(xy\\)-plane, a parabola has the equation \\(y=3x^2-5x\\) and intersects a line at exactly one point.  If the line has equation \\(6y=k\\) for constant \\(k\\),  what is the value of \\(k\\)?</div>",
 
       "answer": "-\\frac{25}{2}",
-      "answersAccepted": ["-\\frac{25}{2}", "-12.5"],
+      "answersAccepted": ["-\\frac{25}{2}", "-12.5", "-25/2"],
 
       "validation": {
         "allowDecimal": false,
@@ -5331,7 +5331,7 @@
       "stem": "<div class='stem-text'>In the exponential function \\(h(x)=118b^x\\), \\(b\\) is a positive constant.  If \\(h(4)=\\text{1,888}\\), what is the value of \\(h(5)\\)?</div>",
 
       "answer": "\\text{3,776}",
-      "answersAccepted": ["\\text{3,776}"],
+      "answersAccepted": ["\\text{3,776}", "3776"],
 
       "validation": {
         "allowDecimal": false,
@@ -5408,7 +5408,7 @@
       "set": "Advanced Math Practice",
       "tags": ["functions", "linear", "exponential"],
 
-      "stem": "<div class='stem-text'>For \\(x>0\\), the function \\(g\\) is defined as follows:</div><div class='stem-equation'>$$g(x)\\, \\text{is equal to}\\, 52\\% \\text{of}\\, x$$</div><div class='stem-text'>Which of the following could describe this function?</div>",
+      "stem": "<div class='stem-text'>For \\(x>0\\), the function \\(g\\) is defined as follows:</div><div class='stem-equation'>$$g(x)\\, \\text{is equal to}\\, 52\\% \\, \\text{of}\\, x$$</div><div class='stem-text'>Which of the following could describe this function?</div>",
 
       "choices": [
         "Increasing exponential",
@@ -5573,7 +5573,7 @@
       "stem": "<div class='stem-equation'>$$3x(2x +5)-20= 4x(x+3)$$</div><div class='stem-text'>What is the sum of the solutions to the given equation?</div>",
 
       "answer": "-\\frac{3}{2}",
-      "answersAccepted": ["-\\frac{3}{2}", "-1.5"],
+      "answersAccepted": ["-\\frac{3}{2}", "-1.5", "-3/2", "3/-2"],
 
       "validation": {
         "allowDecimal": false,
@@ -5869,11 +5869,11 @@
       "choices": [
         "\\(12n\\)",
         "\\(-4n\\)",
-        "\\(-20n\\)",
-        "\\(-28n\\)"
+        "\\(-28n\\)",
+        "\\(-36n\\)"
       ],
       "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>This question asks you to find the \\(y-\\)value of the vertex, \\(k\\). For all parabolas, the \\(x\\)-value of the vertex is \\(x=\\frac{-b}{2a}\\) where \\(y=ax^2+bx+c\\). In the given equation, you do not need to distribute the \\(n\\) because it does not effect the \\(x-\\)value of the vertex.  Instead, use \\(a=1\\) and \\(b=-4\\), so \\(x=\\frac{-(-4)}{2(1)}=2\\). Substitute \\(2\\) into the given equation to find the \\(y-\\)value of the vertex, \\(k\\):</div><div class='explanation-math'>$$\\begin{aligned}\\ y&=n(2^2-4(2)-32)\\\\ k&=n(4-8-32)\\\\ k&=n(-28)=-28n\\end{aligned}$$</div><div class='explanation-step'>The \\(y-\\)value of the vertex is \\(k=-28n\\).</div>"
+      "explanation": "<div class='explanation-step'>This question asks you to find the \\(y-\\)value of the vertex, \\(k\\). For all parabolas, the \\(x\\)-value of the vertex is \\(x=\\frac{-b}{2a}\\) where \\(y=ax^2+bx+c\\). In the given equation, you do not need to distribute the \\(n\\) because it does not effect the \\(x-\\)value of the vertex.  Instead, use \\(a=1\\) and \\(b=-4\\), so \\(x=\\frac{-(-4)}{2(1)}=2\\). Substitute \\(2\\) into the given equation to find the \\(y-\\)value of the vertex, \\(k\\):</div><div class='explanation-math'>$$\\begin{aligned}\\ y&=n(2^2-4(2)-32)\\\\ k&=n(4-8-32)\\\\ k&=n(-36)=-36n\\end{aligned}$$</div><div class='explanation-step'>The \\(y-\\)value of the vertex is \\(k=-28n\\).</div>"
     },
 {
       "id": "AM-L3-036",
@@ -5899,7 +5899,7 @@
         "\\(5ax+6\\)"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>Use factoring and the process of elimination to answer this question.  Find the factor pair for each and check whether the middle term can be produced with a positive integer value of \\(a\\).</div><div class='explanation-step'>A)  \\(5ax^2+36x+12=(ax+2)( \\quad )\\). To find the factor pair, find the factor such that \\(ax \\times (          )=5ax^2\\), so \\(5x\\).  Likewise, find the factor such that \\(2 \times (          )=12\\), so \\(6\\).  The factorization is \\((ax+2)(5x+6)\\).  Multiply the outer and inner terms, so \\(6ax+10x\\).  The sum of these must be \\(36x\\).  Set them equal and solve for \\(a\\) to see whether it is a positive integer.</div><div class='explanation-math'>$$\\begin{aligned}\\ 6ax+10x&=36x\\\\ 6ax&=26x\\\\ a&=\\frac{26}{6}\\end{aligned}$$</div><div class='explanation-step'>Since \\(a\\) is not an integer, \\(ax+2\\) is not a factor, and A is incorrect.</div><div class='explanation-step'>B)  \\(5ax^2+36x+12=(ax+1)( \\quad )\\). Using the same method from answer A, the factorization is \\((ax+1)(5x+12)\\).  The sum of the outer and inner terms is \\(12ax+5x\\).  Set this expression equal to \\(36x\\) and solve for \\(a\\) to see whether it is a positive integer. </div><div class='explanation-math'>$$\\begin{aligned}\\ 12ax+5x&=36x\\\\ 12ax&=31x\\\\ a&=\\frac{31}{12}\\end{aligned}$$</div><div class='explanation-step'>Since \\(a\\) is not an integer, B is incorrect.</div><div class='explanation-step'>C)  \\(5ax^2+36x+12=(5ax+2)( \\quad )\\). Using the same method from answer A, the factorization is \\((5ax+2)(x+6)\\).  The sum of the outer and inner terms is \\(30ax+2x\\).  Set this expression equal to \\(36x\\) and solve for \\(a\\) to see whether it is a positive integer. </div><div class='explanation-math'>$$\\begin{aligned}\\ 30ax+2x&=36x\\\\ 30ax&=34x\\\\ a&=\\frac{34}{30}\\end{aligned}$$</div><div class='explanation-step'>Since \\(a\\) is not an integer, C is incorrect.</div><div class='explanation-step'>D)  \\(5ax^2+36x+12=(5ax+6)( \\quad )\\). Using the same method from answer A, the factorization is \\((5ax+6)(x+2)\\).  The sum of the outer and inner terms is \\(10ax+6x\\).  Set this expression equal to \\(36x\\) and solve for \\(a\\) to see whether it is a positive integer.</div><div class='explanation-math'>$$\\begin{aligned}\\ 10ax+6x&=36x\\\\ 10ax&=30x\\\\ a&=\\frac{30}{10}=3\\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>Use factoring and the process of elimination to answer this question.  Find the factor pair for each and check whether the middle term can be produced with a positive integer value of \\(a\\).</div><div class='explanation-step'>A)  \\(5ax^2+36x+12=(ax+2)( \\quad )\\). To find the factor pair, find the factor such that \\(ax \\times (          )=5ax^2\\), so \\(5x\\).  Likewise, find the factor such that \\(2 \\times (          )=12\\), so \\(6\\).  The factorization is \\((ax+2)(5x+6)\\).  Multiply the outer and inner terms, so \\(6ax+10x\\).  The sum of these must be \\(36x\\).  Set them equal and solve for \\(a\\) to see whether it is a positive integer.</div><div class='explanation-math'>$$\\begin{aligned}\\ 6ax+10x&=36x\\\\ 6ax&=26x\\\\ a&=\\frac{26}{6}\\end{aligned}$$</div><div class='explanation-step'>Since \\(a\\) is not an integer, \\(ax+2\\) is not a factor, and A is incorrect.</div><div class='explanation-step'>B)  \\(5ax^2+36x+12=(ax+1)( \\quad )\\). Using the same method from answer A, the factorization is \\((ax+1)(5x+12)\\).  The sum of the outer and inner terms is \\(12ax+5x\\).  Set this expression equal to \\(36x\\) and solve for \\(a\\) to see whether it is a positive integer. </div><div class='explanation-math'>$$\\begin{aligned}\\ 12ax+5x&=36x\\\\ 12ax&=31x\\\\ a&=\\frac{31}{12}\\end{aligned}$$</div><div class='explanation-step'>Since \\(a\\) is not an integer, B is incorrect.</div><div class='explanation-step'>C)  \\(5ax^2+36x+12=(5ax+2)( \\quad )\\). Using the same method from answer A, the factorization is \\((5ax+2)(x+6)\\).  The sum of the outer and inner terms is \\(30ax+2x\\).  Set this expression equal to \\(36x\\) and solve for \\(a\\) to see whether it is a positive integer. </div><div class='explanation-math'>$$\\begin{aligned}\\ 30ax+2x&=36x\\\\ 30ax&=34x\\\\ a&=\\frac{34}{30}\\end{aligned}$$</div><div class='explanation-step'>Since \\(a\\) is not an integer, C is incorrect.</div><div class='explanation-step'>D)  \\(5ax^2+36x+12=(5ax+6)( \\quad )\\). Using the same method from answer A, the factorization is \\((5ax+6)(x+2)\\).  The sum of the outer and inner terms is \\(10ax+6x\\).  Set this expression equal to \\(36x\\) and solve for \\(a\\) to see whether it is a positive integer.</div><div class='explanation-math'>$$\\begin{aligned}\\ 10ax+6x&=36x\\\\ 10ax&=30x\\\\ a&=\\frac{30}{10}=3\\end{aligned}$$</div><div class='explanation-step'>Since \\(a\\) <em>is</em> an integer, D is correct.</div>"
     },
 {
       "id": "AM-L3-037",
@@ -5943,8 +5943,8 @@
       "tags": ["solutions", "quadratics"],
 
       "stem": "<div class='stem-equation'>$$x(x+6)-60=3x(3x-4)-65$$</div><div class='stem-text'>What is the product of the solutions to the given equation?</div>",
-      "answer": "-\\frac{5}{8}",
-      "answersAccepted": ["-\\frac{5}{8}", "\\frac{-5}{8}", "\\frac{5}{-8}", "-0.625", "-.625"],
+      "answer": "-.625",
+      "answersAccepted": ["-\\frac{5}{8}", "\\frac{-5}{8}", "\\frac{5}{-8}", "-0.625", "-.625", "-5/8", "5/-8"],
 
       "validation": {
         "allowDecimal": false,
@@ -5953,7 +5953,7 @@
         "maxChars": 6
       },
 
-      "explanation": "<div class='explanation-step'>Begin by distributing on both sides</div><div class='explanation-math'>$$\\begin{aligned}\\ x(x+6)-60&=3x(3x-4)-65\\\\ x^2+6x-60&=9x^2-12x-65 \\end{aligned}$$</div><div class='explanation-step'>This is a quadratic equation, so to find the solutions, set the equation equal to \\(0\\) and factor.</div><div class='explanation-math'>$$\\begin{aligned}\\ x^2+6x-60&=9x^2-12x-65 \\\\x^2-x^2+6x-6x-60+60&=9x^2-12x-65-x^2-6x+60\\\\0&=8x^2-18x-5\\end{aligned}$$</div>Use factoring by grouping to factor (since \\(a=8\\). To begin factoring by gropuing, multiply \\(a \\times c\\), so \\(8 \\times -5=-40\\). Next, determine factors of \\(-40\\) that have a sum of \\(-18\\).  The factors are \\(-20\\) and \\(2\\) because \\(-20 \\times 2= -40\\) and \\(-20 +2=-18\\).  Re-write the given quadratic expression with these factors.</div><div class='explanation-math'>$$\\begin{aligned}\\ 0&=8x^2-18x-5\\\\ &=8x^2-20x+2x-5\\end{aligned}$$</div><div class='explanation-step'>Factor the greatest common factor from \\(8x^2-20x\\) and \\(2x-5\\):</div><div class='explanation-math'>$$\\begin{aligned}\\ 0&=4x(2x-5)+1(2x-5)\\end{aligned}$$</div><div class='explanation-step'>Re-write the expression as the product of two binomials, so \\4x(2x-5)+1(2x-5)=(4x+1)(2x-5)\\).</div><div class='explanation-step'>Use the Zero Product Property to solve: \\(4x+1=0\\) and \\(2x-5=0\\), so \\(x=-\\frac{1}{4}\\) or \\(x=\\frac{5}{2}\\).  The answer is the product of these solutions, so \\(-\\frac{1}{4} \\times \\frac{5}{2} = -\\frac{5}{8}.</div>"
+      "explanation": "<div class='explanation-step'>Begin by distributing on both sides</div><div class='explanation-math'>$$\\begin{aligned}\\ x(x+6)-60&=3x(3x-4)-65\\\\ x^2+6x-60&=9x^2-12x-65 \\end{aligned}$$</div><div class='explanation-step'>This is a quadratic equation, so to find the solutions, set the equation equal to \\(0\\) and factor.</div><div class='explanation-math'>$$\\begin{aligned}\\ x^2+6x-60&=9x^2-12x-65 \\\\x^2-x^2+6x-6x-60+60&=9x^2-12x-65-x^2-6x+60\\\\0&=8x^2-18x-5\\end{aligned}$$</div>Use factoring by grouping to factor (since \\(a=8\\). To begin factoring by gropuing, multiply \\(a \\times c\\), so \\(8 \\times -5=-40\\). Next, determine factors of \\(-40\\) that have a sum of \\(-18\\).  The factors are \\(-20\\) and \\(2\\) because \\(-20 \\times 2= -40\\) and \\(-20 +2=-18\\).  Re-write the given quadratic expression with these factors.</div><div class='explanation-math'>$$\\begin{aligned}\\ 0&=8x^2-18x-5\\\\ &=8x^2-20x+2x-5\\end{aligned}$$</div><div class='explanation-step'>Factor the greatest common factor from \\(8x^2-20x\\) and \\(2x-5\\):</div><div class='explanation-math'>$$\\begin{aligned}\\ 0&=4x(2x-5)+1(2x-5)\\end{aligned}$$</div><div class='explanation-step'>Re-write the expression as the product of two binomials, so \\(4x(2x-5)+1(2x-5)=(4x+1)(2x-5)\\).</div><div class='explanation-step'>Use the Zero Product Property to solve: \\(4x+1=0\\) and \\(2x-5=0\\), so \\(x=-\\frac{1}{4}\\) or \\(x=\\frac{5}{2}\\).  The answer is the product of these solutions, so \\(-\\frac{1}{4} \\times \\frac{5}{2} = -\\frac{5}{8}\\).</div>"
     },
     {
       "id": "AM-L3-039",
@@ -5996,7 +5996,7 @@
       "set": "Advanced Math Practice",
       "tags": ["solutions", "quadratics"],
 
-      "stem": "<div class='stem-equation'>$$x(x+6)-60=3x(3x-4)-65$$</div><div class='stem-text'>The function \\(f\\) is defined by \\(f(x)=-3(x+1)^2+12\\). In the \\(xy\\)-plane, the graph of \\(y=f(x)\\)intersects the \\(x\\)-axis at the points \\((n,0)\\), where \\(n\\) is a constant, and \\((1,0)\\). What is the value of \\(n\\)?</div>",
+      "stem": "<div class='stem-text'>The function \\(f\\) is defined by \\(f(x)=-3(x+1)^2+12\\). In the \\(xy\\)-plane, the graph of \\(y=f(x)\\)intersects the \\(x\\)-axis at the points \\((n,0)\\), where \\(n\\) is a constant, and \\((1,0)\\). What is the value of \\(n\\)?</div>",
       "answer": "-3",
       "answersAccepted": ["-3"],
 
@@ -6024,7 +6024,7 @@
       "set": "Advanced Math Practice",
       "tags": ["functions", "evaluating"],
 
-      "stem": "<div class='stem-text'>A quadratic function passes through the point \\((-n,0)\\), has a factor of \\(x-8.6\\), and a vertex at \\((3.4, 8)\\), where \\(n\\) is a positive constant. What is the value of \\(n\\)?</div>",
+      "stem": "<div class='stem-text'>A quadratic function passes through the point \\((-n,0)\\), has a factor of \\((x-8.6)\\), and a vertex at \\((3.4, 8)\\), where \\(n\\) is a positive constant. What is the value of \\(n\\)?</div>",
 
       "choices": [
         "\\(8.6\\)",

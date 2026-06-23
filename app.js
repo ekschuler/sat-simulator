@@ -745,6 +745,7 @@ const fresh = params.get("fresh") === "1";
 const resume = params.get("resume") === "1";
 reviewMode = params.get("review");
 const reviewSessionId = params.get("sessionId");
+const reviewTopic = params.get("topic") ? decodeURIComponent(params.get("topic")) : null;
 const reviewAttemptId = params.get("attemptId");
 const testVersion = params.get("testVersion") || "T1";
 currentTestVersion = testVersion;
@@ -1050,6 +1051,14 @@ if (isPracticeMode) {
     let reviewQuestions = sessionPool.filter(q =>
       answeredQuestionIds.includes(String(q.id))
     );
+
+    // Filter by topic if specified (from practice history topic click)
+    if (reviewTopic) {
+      reviewQuestions = reviewQuestions.filter(q => {
+        const topic = q.skill?.topic || (typeof q.skill === "string" ? q.skill : "General");
+        return topic === reviewTopic;
+      });
+    }
 if (reviewMode === "summary") {
   practiceQuestionPool = fullPracticePool.filter(q =>
     answeredQuestionIds.includes(String(q.id))
