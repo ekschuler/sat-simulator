@@ -265,6 +265,10 @@
 
         <p class="auth-status" id="authStatus"></p>
 
+        <p id="forgotPasswordLink" style="display:none; text-align:center; margin-top:12px;">
+          <a href="#" id="forgotPasswordBtn" style="font-size:14px; color:#888; text-decoration:none;">Forgot your password?</a>
+        </p>
+
       </div>
 
       <a class="back-link" href="index.html">← Back to 2xMath</a>
@@ -302,6 +306,8 @@
         logInBtn.style.display = 'none';
         authPassword.placeholder = 'Create a password';
         authPassword.autocomplete = 'new-password';
+        const forgotLink = document.getElementById('forgotPasswordLink');
+        if (forgotLink) forgotLink.style.display = 'none';
       } else {
         logInToggle.classList.add('active');
         signUpToggle.classList.remove('active');
@@ -311,6 +317,8 @@
         signUpBtn.style.display = 'none';
         authPassword.placeholder = 'Your password';
         authPassword.autocomplete = 'current-password';
+        const forgotLink = document.getElementById('forgotPasswordLink');
+        if (forgotLink) forgotLink.style.display = 'block';
       }
 
       document.getElementById('authStatus').textContent = '';
@@ -325,6 +333,28 @@
         setMode('signup');
       }
     });
+
+    // Forgot password handler
+    const forgotBtn = document.getElementById('forgotPasswordBtn');
+    if (forgotBtn) {
+      forgotBtn.addEventListener('click', async (e) => {
+        e.preventDefault();
+        const email = document.getElementById('authEmail').value.trim();
+        const statusEl = document.getElementById('authStatus');
+        if (!email) {
+          statusEl.textContent = 'Enter your email address first.';
+          return;
+        }
+        const { error } = await window.supabaseClient.auth.resetPasswordForEmail(email, {
+          redirectTo: window.location.origin + '/reset-password.html'
+        });
+        if (error) {
+          statusEl.textContent = 'Error: ' + error.message;
+        } else {
+          statusEl.textContent = 'Password reset email sent — check your inbox.';
+        }
+      });
+    }
 
     // Redirect already-logged-in paid users
     window.addEventListener('load', async () => {
