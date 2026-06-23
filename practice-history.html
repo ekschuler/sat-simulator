@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Practice History | SAT Practice</title>
+  <title>Practice Progress | SAT Practice</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -21,47 +21,32 @@
     .secondaryBtn { border:none; border-radius:10px; padding:12px 18px; font-size:15px; font-weight:700; cursor:pointer; background:white; color:#2563eb; border:1px solid #dbe6ff; }
     .secondaryBtn:hover { background:#eef4ff; }
     .primaryBtn { border:none; border-radius:10px; padding:12px 18px; font-size:15px; font-weight:700; cursor:pointer; background:#4f46e5; color:white; }
-    .filterRow { display:flex; gap:8px; margin-bottom:20px; flex-wrap:wrap; }
+    .filterRow { display:flex; gap:8px; margin-bottom:24px; flex-wrap:wrap; }
     .filterPill { padding:6px 14px; border-radius:20px; border:1px solid #e5e7eb; background:white; font-size:13px; font-weight:600; cursor:pointer; color:#374151; }
     .filterPill.active { background:#4f46e5; color:white; border-color:#4f46e5; }
-    .sessionList { display:flex; flex-direction:column; gap:16px; }
 
-    /* Session card */
-    .sessionCard { background:white; border:1px solid #e5e7eb; border-radius:14px; box-shadow:0 2px 8px rgba(0,0,0,0.03); overflow:hidden; transition:border-color 0.15s; }
-    .sessionCard:hover { border-color:#c7d2fe; }
-    .sessionHeader { padding:14px 18px; display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap; cursor:pointer; }
-    .sessionInfo { flex:1; min-width:0; }
-    .sessionDate { font-weight:700; font-size:15px; color:#111; margin-bottom:3px; }
-    .sessionMeta { font-size:13px; color:#666; display:flex; flex-wrap:wrap; gap:6px; align-items:center; }
-    .subjectPill { display:inline-block; padding:2px 10px; border-radius:20px; font-size:12px; font-weight:700; }
-    .subjectPill.math { background:#dbeafe; color:#1e40af; }
-    .subjectPill.verbal { background:#ede9fe; color:#4f46e5; }
-    .scorePill { display:inline-block; padding:2px 10px; border-radius:20px; font-size:12px; font-weight:700; }
-    .scorePill.high { background:#dcfce7; color:#166534; }
-    .scorePill.mid { background:#fef9c3; color:#854d0e; }
-    .scorePill.low { background:#fee2e2; color:#991b1b; }
-    .scorePill.inprogress { background:#f3f4f6; color:#6b7280; }
-    .sessionActions { display:flex; gap:8px; flex-shrink:0; align-items:center; }
-    .reviewBtn { background:white; color:#4f46e5; border:1px solid #ede9fe; border-radius:8px; padding:7px 14px; font-size:13px; font-weight:700; cursor:pointer; white-space:nowrap; text-decoration:none; display:inline-block; }
-    .reviewBtn:hover { background:#f5f3ff; }
-    .chevron { font-size:12px; color:#9ca3af; transition:transform 0.2s; margin-left:4px; }
-    .chevron.open { transform:rotate(180deg); }
+    /* Summary banner */
+    .summaryBanner { background:white; border:1px solid #e5e7eb; border-radius:14px; padding:20px 24px; margin-bottom:24px; display:flex; gap:32px; flex-wrap:wrap; box-shadow:0 2px 8px rgba(0,0,0,0.03); }
+    .summaryBanner .stat { text-align:center; }
+    .summaryBanner .statNum { font-size:28px; font-weight:800; color:#4f46e5; }
+    .summaryBanner .statLabel { font-size:12px; font-weight:600; color:#6b7280; margin-top:2px; text-transform:uppercase; letter-spacing:0.05em; }
 
-    /* Breakdown */
-    .sessionBreakdown { border-top:1px solid #f3f4f6; padding:16px 18px; display:none; }
-    .sessionBreakdown.open { display:block; }
-    .domainSection { margin-bottom:16px; }
-    .domainSection:last-child { margin-bottom:0; }
-    .domainLabel { font-size:11px; font-weight:700; color:#6b7280; text-transform:uppercase; letter-spacing:0.08em; margin-bottom:8px; }
-    .topicRow { display:flex; align-items:center; gap:10px; padding:6px 0; border-bottom:1px solid #f9fafb; cursor:pointer; border-radius:6px; transition:background 0.1s; }
-    .topicRow:hover { background:#f5f3ff; padding-left:6px; }
+    /* Domain cards */
+    .domainCard { background:white; border:1px solid #e5e7eb; border-radius:14px; padding:20px 24px; margin-bottom:16px; box-shadow:0 2px 8px rgba(0,0,0,0.03); }
+    .domainHeader { display:flex; justify-content:space-between; align-items:center; margin-bottom:16px; }
+    .domainName { font-size:11px; font-weight:700; color:#6b7280; text-transform:uppercase; letter-spacing:0.08em; }
+    .domainScore { font-size:13px; font-weight:600; color:#374151; }
+
+    /* Topic rows */
+    .topicRow { display:flex; align-items:center; gap:12px; padding:8px 0; border-bottom:1px solid #f9fafb; cursor:pointer; border-radius:6px; transition:background 0.1s; }
+    .topicRow:hover { background:#f5f3ff; padding-left:8px; margin-left:-8px; }
     .topicRow:last-child { border-bottom:none; }
-    .topicName { font-size:13px; color:#111; flex:1; min-width:0; }
-    .topicBarWrap { width:80px; height:6px; background:#f0f0f0; border-radius:99px; overflow:hidden; flex-shrink:0; }
-    .topicBar { height:100%; border-radius:99px; }
-    .topicPct { font-size:12px; font-weight:700; color:#374151; width:32px; text-align:right; flex-shrink:0; }
-    .topicFraction { font-size:12px; color:#9ca3af; width:40px; text-align:right; flex-shrink:0; }
-    .breakdownActions { display:flex; gap:8px; margin-top:12px; padding-top:12px; border-top:1px solid #f3f4f6; }
+    .topicName { font-size:14px; color:#111; flex:1; min-width:0; }
+    .topicBarWrap { width:120px; height:7px; background:#f0f0f0; border-radius:99px; overflow:hidden; flex-shrink:0; }
+    .topicBar { height:100%; border-radius:99px; transition:width 0.4s ease; }
+    .topicPct { font-size:13px; font-weight:700; color:#374151; width:36px; text-align:right; flex-shrink:0; }
+    .topicFraction { font-size:12px; color:#9ca3af; width:48px; text-align:right; flex-shrink:0; }
+    .topicArrow { font-size:12px; color:#c7d2fe; flex-shrink:0; }
 
     .emptyState { text-align:center; padding:60px 20px; color:#666; }
     .emptyState h2 { font-size:20px; margin-bottom:8px; color:#333; }
@@ -69,9 +54,8 @@
 
     @media (max-width:600px) {
       .appTitle { font-size:24px; }
-      .sessionHeader { flex-direction:column; align-items:flex-start; }
-      .sessionActions { width:100%; }
-      .reviewBtn { flex:1; text-align:center; }
+      .topicBarWrap { width:60px; }
+      .summaryBanner { gap:16px; }
     }
   </style>
 </head>
@@ -87,8 +71,8 @@
   </nav>
 
   <div class="appPage">
-    <h1 class="appTitle">Practice History</h1>
-    <p class="appSubtitle">All past practice sessions — click any session to see topic breakdown.</p>
+    <h1 class="appTitle">Practice Progress</h1>
+    <p class="appSubtitle">Your cumulative progress across all practice sessions.</p>
 
     <div class="topActions">
       <button class="secondaryBtn" onclick="window.location.href='dashboard.html'">← Home</button>
@@ -100,11 +84,11 @@
       <button class="filterPill" onclick="setFilter('verbal', this)">Reading & Writing</button>
     </div>
 
-    <div id="loadingState">Loading sessions...</div>
-    <div class="sessionList" id="sessionList" style="display:none;"></div>
+    <div id="loadingState">Loading progress...</div>
+    <div id="progressContent" style="display:none;"></div>
     <div class="emptyState" id="emptyState" style="display:none;">
-      <h2>No practice sessions yet</h2>
-      <p>Start a practice session to see it here.</p>
+      <h2>No practice yet</h2>
+      <p>Start a practice session to track your progress here.</p>
       <button class="primaryBtn" onclick="window.location.href='dashboard.html'">Go to Home</button>
     </div>
   </div>
@@ -120,10 +104,11 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="supabase-config.js"></script>
   <script>
-    let allSessions = [];
+    let allMathQs = [];
+    let allVerbalQs = [];
+    let mergedMathAnswers = {};
+    let mergedVerbalAnswers = {};
     let currentFilter = "all";
-    let questionBankMath = null;
-    let questionBankVerbal = null;
 
     (async () => {
       const { data } = await window.supabaseClient.auth.getSession();
@@ -138,208 +123,125 @@
       window.location.href = "index.html";
     });
 
-    // Load question banks lazily
-    async function getQuestionBank(subject) {
-      if (subject === "verbal") {
-        if (questionBankVerbal) return questionBankVerbal;
-        try {
-          const files = ["VerbalT1-Mod1.json","VerbalT1-Mod2E.json","VerbalT1-Mod2H.json","VerbalT2-Mod1.json","VerbalT2-Mod2E.json","VerbalT2-Mod2H.json"];
-          const results = await Promise.all(files.map(f => fetch(f).then(r => r.json()).catch(() => ({questions:[]}))));
-          questionBankVerbal = results.flatMap(r => r.questions || []);
-          return questionBankVerbal;
-        } catch(e) { return []; }
-      } else {
-        if (questionBankMath) return questionBankMath;
-        try {
-          const files = ["MathT1-Mod1.json","MathT1-Mod2E.json","MathT1-Mod2H.json","MathT2-Mod1.json","MathT2-Mod2E.json","MathT2-Mod2H.json"];
-          const results = await Promise.all(files.map(f => fetch(f).then(r => r.json()).catch(() => ({questions:[]}))));
-          questionBankMath = results.flatMap(r => r.questions || []);
-          return questionBankMath;
-        } catch(e) { return []; }
-      }
-    }
-
     function getDomain(skill) {
       if (!skill) return "Uncategorized";
       if (typeof skill === "string") return skill;
       return skill.domain || "Uncategorized";
     }
-
     function getTopic(skill) {
       if (!skill || typeof skill === "string") return "General";
       return skill.topic || "General";
     }
 
-    function getScoreClass(correct, total) {
-      if (!total) return "";
-      const pct = correct / total;
-      if (pct >= 0.8) return "high";
-      if (pct >= 0.5) return "mid";
-      return "low";
+    function isCorrect(q, a) {
+      if (!a) return false;
+      if (q.type === "mcq") return a.value === q.answerIndex;
+      if (q.type === "gridin") {
+        const accepted = (q.answersAccepted || [String(q.answer)]).map(v => String(v).trim().toLowerCase());
+        return accepted.includes(String(a.value || "").trim().toLowerCase());
+      }
+      return false;
     }
 
-    function formatDate(dateStr) {
-      const date = new Date(dateStr);
-      const now = new Date();
-      const yesterday = new Date(now); yesterday.setDate(now.getDate() - 1);
-      const timeStr = date.toLocaleTimeString([], { hour:"numeric", minute:"2-digit" });
-      if (date.toDateString() === now.toDateString()) return `Today at ${timeStr}`;
-      if (date.toDateString() === yesterday.toDateString()) return `Yesterday at ${timeStr}`;
-      return date.toLocaleDateString([], { month:"short", day:"numeric", year:"numeric" }) + ` at ${timeStr}`;
-    }
-
-    function buildBreakdown(answers, questions) {
+    function buildTree(questions, answers) {
       const tree = {};
       questions.forEach(q => {
         const a = answers[String(q.id)];
-        if (!a) return; // not answered in this session
+        if (!a) return;
         const domain = getDomain(q.skill);
         const topic = getTopic(q.skill);
         if (!tree[domain]) tree[domain] = {};
-        if (!tree[domain][topic]) tree[domain][topic] = { correct: 0, total: 0, qids: [] };
+        if (!tree[domain][topic]) tree[domain][topic] = { correct:0, total:0 };
         tree[domain][topic].total++;
-        tree[domain][topic].qids.push(String(q.id));
-        // Check if correct
-        if (q.type === "mcq" && a.value === q.answerIndex) tree[domain][topic].correct++;
-        else if (q.type === "gridin") {
-          const accepted = (q.answersAccepted || [String(q.answer)]).map(v => String(v).trim().toLowerCase());
-          if (accepted.includes(String(a.value || "").trim().toLowerCase())) tree[domain][topic].correct++;
-        }
+        if (isCorrect(q, a)) tree[domain][topic].correct++;
       });
       return tree;
-    }
-
-    function renderBreakdownHTML(tree, sessionId, subject) {
-      let html = "";
-      Object.entries(tree).forEach(([domain, topics]) => {
-        html += `<div class="domainSection"><div class="domainLabel">${domain}</div>`;
-        Object.entries(topics).forEach(([topic, stats]) => {
-          const pct = stats.total ? Math.round((stats.correct / stats.total) * 100) : 0;
-          const barColor = pct >= 80 ? "#22c55e" : pct >= 50 ? "#f59e0b" : "#ef4444";
-          html += `
-            <div class="topicRow" onclick="reviewTopic('${encodeURIComponent(topic)}', '${sessionId}', '${subject}')">
-              <span class="topicName">${topic}</span>
-              <div class="topicBarWrap"><div class="topicBar" style="width:${pct}%;background:${barColor};"></div></div>
-              <span class="topicPct">${pct}%</span>
-              <span class="topicFraction">${stats.correct}/${stats.total}</span>
-            </div>`;
-        });
-        html += `</div>`;
-      });
-      return html;
-    }
-
-    function reviewTopic(encodedTopic, sessionId, subject) {
-      const topic = decodeURIComponent(encodedTopic);
-      window.location.href = `simulator.html?mode=practice&review=all&sessionId=${sessionId}&subject=${subject}&topic=${encodeURIComponent(topic)}`;
     }
 
     function setFilter(filter, btn) {
       currentFilter = filter;
       document.querySelectorAll(".filterPill").forEach(p => p.classList.remove("active"));
       btn.classList.add("active");
-      renderSessions();
+      renderProgress();
     }
 
-    async function toggleBreakdown(sessionId, subject, answers, cardEl) {
-      const breakdown = cardEl.querySelector(".sessionBreakdown");
-      const chevron = cardEl.querySelector(".chevron");
+    function renderProgress() {
+      const content = document.getElementById("progressContent");
 
-      if (breakdown.classList.contains("open")) {
-        breakdown.classList.remove("open");
-        chevron.classList.remove("open");
+      const mathTree = buildTree(allMathQs, mergedMathAnswers);
+      const verbalTree = buildTree(allVerbalQs, mergedVerbalAnswers);
+
+      // Merge for "all" view
+      const trees = {};
+      if (currentFilter === "all" || currentFilter === "math") {
+        Object.entries(mathTree).forEach(([d, t]) => { trees[d] = {...(trees[d]||{}), ...t}; });
+      }
+      if (currentFilter === "all" || currentFilter === "verbal") {
+        Object.entries(verbalTree).forEach(([d, t]) => { trees[d] = {...(trees[d]||{}), ...t}; });
+      }
+
+      if (Object.keys(trees).length === 0) {
+        content.style.display = "none";
+        document.getElementById("emptyState").style.display = "block";
         return;
       }
 
-      // Load if not already loaded
-      if (!breakdown.dataset.loaded) {
-        breakdown.innerHTML = `<div style="color:#666;font-size:13px;padding:8px 0;">Loading breakdown...</div>`;
-        breakdown.classList.add("open");
-        chevron.classList.add("open");
-
-        const questions = await getQuestionBank(subject);
-        const tree = buildBreakdown(answers, questions);
-
-        if (Object.keys(tree).length === 0) {
-          breakdown.innerHTML = `<div style="color:#666;font-size:13px;padding:8px 0;">No breakdown available for this session.</div>`;
-        } else {
-          const breakdownHTML = renderBreakdownHTML(tree, sessionId, subject);
-          breakdown.innerHTML = `
-            ${breakdownHTML}
-            <div class="breakdownActions">
-              <a href="simulator.html?mode=practice&review=missed&sessionId=${sessionId}&subject=${subject}" class="reviewBtn">Review Mistakes</a>
-              <a href="simulator.html?mode=practice&review=all&sessionId=${sessionId}&subject=${subject}" class="reviewBtn">Review All</a>
-            </div>`;
-        }
-        breakdown.dataset.loaded = "1";
-      } else {
-        breakdown.classList.add("open");
-        chevron.classList.add("open");
-      }
-    }
-
-    function renderSessions() {
-      const list = document.getElementById("sessionList");
-      const empty = document.getElementById("emptyState");
-      const filtered = currentFilter === "all"
-        ? allSessions
-        : allSessions.filter(s => s.subject === currentFilter);
-
-      list.innerHTML = "";
-
-      if (filtered.length === 0) {
-        list.style.display = "none";
-        empty.style.display = "block";
-        return;
-      }
-
-      list.style.display = "flex";
-      empty.style.display = "none";
-
-      filtered.forEach(s => {
-        const isInProgress = s.status === "in_progress";
-        const subject = s.subject === "verbal" ? "Reading & Writing" : "Math";
-        const subjectClass = s.subject === "verbal" ? "verbal" : "math";
-        const dateStr = formatDate(s.updated_at);
-        const total = s.total_count || Object.keys(s.answers || {}).length || 0;
-        const correct = s.correct_count || 0;
-
-        let scoreHTML = "";
-        if (isInProgress) {
-          scoreHTML = `<span class="scorePill inprogress">In Progress · ${total} answered</span>`;
-        } else if (total) {
-          scoreHTML = `<span class="scorePill ${getScoreClass(correct, total)}">${correct}/${total} correct</span>`;
-        }
-
-        const card = document.createElement("div");
-        card.className = "sessionCard";
-        card.innerHTML = `
-          <div class="sessionHeader" onclick="toggleBreakdown('${s.id}', '${s.subject}', ${JSON.stringify(JSON.stringify(s.answers || {}))}, this.closest('.sessionCard'))">
-            <div class="sessionInfo">
-              <div class="sessionDate">${dateStr}</div>
-              <div class="sessionMeta">
-                <span class="subjectPill ${subjectClass}">${subject}</span>
-                ${scoreHTML ? `<span style="color:#d1d5db;">·</span>${scoreHTML}` : ""}
-              </div>
-            </div>
-            <div class="sessionActions">
-              <span class="chevron">▼</span>
-            </div>
-          </div>
-          <div class="sessionBreakdown"></div>
-        `;
-
-        // Fix: pass answers properly via data attribute to avoid JSON injection
-        const header = card.querySelector(".sessionHeader");
-        const answersData = s.answers || {};
-        header.addEventListener("click", () => {
-          toggleBreakdown(s.id, s.subject, answersData, card);
+      // Summary stats
+      let totalCorrect = 0, totalAnswered = 0;
+      Object.values(trees).forEach(topics => {
+        Object.values(topics).forEach(s => {
+          totalCorrect += s.correct;
+          totalAnswered += s.total;
         });
-        // Remove inline onclick since we're using addEventListener
-        header.removeAttribute("onclick");
-
-        list.appendChild(card);
       });
+      const overallPct = totalAnswered ? Math.round(totalCorrect/totalAnswered*100) : 0;
+
+      let html = `
+        <div class="summaryBanner">
+          <div class="stat"><div class="statNum">${totalAnswered}</div><div class="statLabel">Questions Answered</div></div>
+          <div class="stat"><div class="statNum">${totalCorrect}</div><div class="statLabel">Correct</div></div>
+          <div class="stat"><div class="statNum">${overallPct}%</div><div class="statLabel">Overall</div></div>
+        </div>`;
+
+      Object.entries(trees).forEach(([domain, topics]) => {
+        const domainCorrect = Object.values(topics).reduce((a,s) => a+s.correct, 0);
+        const domainTotal = Object.values(topics).reduce((a,s) => a+s.total, 0);
+        const domainPct = domainTotal ? Math.round(domainCorrect/domainTotal*100) : 0;
+
+        html += `<div class="domainCard">
+          <div class="domainHeader">
+            <span class="domainName">${domain}</span>
+            <span class="domainScore">${domainCorrect}/${domainTotal} · ${domainPct}%</span>
+          </div>`;
+
+        Object.entries(topics).sort((a,b) => a[0].localeCompare(b[0])).forEach(([topic, stats]) => {
+          const pct = stats.total ? Math.round(stats.correct/stats.total*100) : 0;
+          const barColor = pct >= 80 ? "#22c55e" : pct >= 50 ? "#f59e0b" : "#ef4444";
+          const subject = currentFilter === "verbal" ? "verbal" : 
+                          (currentFilter === "math" ? "math" :
+                          (Object.keys(mathTree).includes(domain) ? "math" : "verbal"));
+
+          html += `
+            <div class="topicRow" onclick="reviewTopic('${encodeURIComponent(topic)}', '${subject}')">
+              <span class="topicName">${topic}</span>
+              <div class="topicBarWrap"><div class="topicBar" style="width:${pct}%;background:${barColor};"></div></div>
+              <span class="topicPct">${pct}%</span>
+              <span class="topicFraction">${stats.correct}/${stats.total}</span>
+              <span class="topicArrow">›</span>
+            </div>`;
+        });
+
+        html += `</div>`;
+      });
+
+      content.innerHTML = html;
+      content.style.display = "block";
+      document.getElementById("emptyState").style.display = "none";
+    }
+
+    function reviewTopic(encodedTopic, subject) {
+      const topic = decodeURIComponent(encodedTopic);
+      window.location.href = `simulator.html?mode=practice&review=all&subject=${subject}&topic=${encodeURIComponent(topic)}`;
     }
 
     async function init() {
@@ -347,22 +249,39 @@
       const user = userData?.user;
       if (!user) return;
 
-      const { data: sessions, error } = await window.supabaseClient
-        .from("practice_sessions")
-        .select("*")
-        .eq("user_id", user.id)
-        .in("status", ["completed", "in_progress"])
-        .order("updated_at", { ascending: false });
+      // Load question banks and sessions in parallel
+      const [mathRes, verbalRes, sessionsRes] = await Promise.all([
+        fetch("practice.json").then(r => r.json()).catch(() => ({questions:[]})),
+        fetch("verbal-practice.json").then(r => r.json()).catch(() => ({questions:[]})),
+        window.supabaseClient
+          .from("practice_sessions")
+          .select("answers, subject, status")
+          .eq("user_id", user.id)
+          .in("status", ["completed", "in_progress"])
+      ]);
 
       document.getElementById("loadingState").style.display = "none";
 
-      if (error || !sessions || sessions.length === 0) {
+      allMathQs = mathRes.questions || [];
+      allVerbalQs = verbalRes.questions || [];
+
+      const sessions = sessionsRes.data || [];
+
+      if (sessions.length === 0) {
         document.getElementById("emptyState").style.display = "block";
         return;
       }
 
-      allSessions = sessions;
-      renderSessions();
+      // Merge all answers across sessions
+      sessions.forEach(s => {
+        if (s.subject === "verbal") {
+          Object.assign(mergedVerbalAnswers, s.answers || {});
+        } else {
+          Object.assign(mergedMathAnswers, s.answers || {});
+        }
+      });
+
+      renderProgress();
     }
   </script>
 </body>
