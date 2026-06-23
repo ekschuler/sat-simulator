@@ -36,6 +36,7 @@ let missedPointer = -1;
 let isPracticeMode = false;
 let currentSubject = "math";
 let practiceQuestionPool = [];
+let practiceFullPool = [];
 let practiceSidebarTree = {};
 let practiceSelectionLabel = "";
 let practiceCurrentDomain = "";
@@ -1123,14 +1124,16 @@ if (reviewMode === "summary") {
       }
 
       practiceQuestionPool = reviewQuestions;
-      practiceSidebarTree = buildPracticeSidebarTree(practiceQuestionPool);
+      practiceFullPool = fullPracticePool;
+      practiceSidebarTree = buildPracticeSidebarTree(fullPracticePool, answers);
       collapsedPracticeDomains = {};
 
       data.questions = reviewQuestions;
       current = 0;
     } else {
       practiceQuestionPool = fullPracticePool;
-      practiceSidebarTree = buildPracticeSidebarTree(practiceQuestionPool);
+      practiceFullPool = fullPracticePool;
+      practiceSidebarTree = buildPracticeSidebarTree(fullPracticePool, answers);
       collapsedPracticeDomains = {};
 
       setPracticeView(shuffleArray([...practiceQuestionPool]), {
@@ -1171,7 +1174,8 @@ if (reviewMode === "summary") {
         : fullPracticePool;
     }
 
-    practiceSidebarTree = buildPracticeSidebarTree(practiceQuestionPool);
+    practiceFullPool = fullPracticePool;
+    practiceSidebarTree = buildPracticeSidebarTree(fullPracticePool, answers);
     collapsedPracticeDomains = {};
 
     setPracticeView(shuffleArray([...practiceQuestionPool]), {
@@ -1398,6 +1402,10 @@ if (flagBtn) {
   }
 }
   renderProgress();
+  if (isPracticeMode && practiceFullPool.length > 0) {
+    practiceSidebarTree = buildPracticeSidebarTree(practiceFullPool, { ...sessionAnswers, ...answers });
+    renderPracticeSidebar();
+  }
   const levelBadgeHTML = buildPracticeLevelBadgeHTML(q);
 
 const stemHTML = q.stemSegments
@@ -2150,7 +2158,7 @@ function closeCalculator() {
   if (!drawer) return;
   drawer.classList.remove("open");
 }
-function buildPracticeSidebarTree(questions) {
+function buildPracticeSidebarTree(questions, answerMap = {}) {
   const tree = {};
 
   questions.forEach((q, index) => {
@@ -2159,10 +2167,21 @@ function buildPracticeSidebarTree(questions) {
     const level = `Level ${q.level ?? "?"}`;
 
     if (!tree[domain]) tree[domain] = {};
-    if (!tree[domain][topic]) tree[domain][topic] = {};
-    if (!tree[domain][topic][level]) tree[domain][topic][level] = [];
+    if (!tree[domain][topic]) tree[domain][topic] = { total: 0, answered: 0, correct: 0, levels: {} };
+    if (!tree[domain][topic].levels[level]) tree[domain][topic].levels[level] = [];
 
-    tree[domain][topic][level].push({
+    tree[domain][topic].total++;
+
+    const a = answerMap[q.id];
+    if (a != null) {
+      tree[domain][topic].answered++;
+      const isCorrect = q.type === "mcq"
+        ? a.value === q.answerIndex
+        : (q.type === "gridin" ? isGridInCorrect(q, a.value) : false);
+      if (isCorrect) tree[domain][topic].correct++;
+    }
+
+    tree[domain][topic].levels[level].push({
       index,
       id: q.id,
       question: q
@@ -2217,8 +2236,8 @@ html += `
 
   Object.entries(practiceSidebarTree).forEach(([domain, topics]) => {
     const isCollapsed = !!collapsedPracticeDomains[domain];
-    const domainCount = Object.values(topics).reduce((domainSum, levelMap) => {
-      return domainSum + Object.values(levelMap).reduce((topicSum, arr) => topicSum + arr.length, 0);
+    const domainCount = Object.values(topics).reduce((domainSum, topicData) => {
+      return domainSum + topicData.total;
     }, 0);
 
     const isDomainActive =
@@ -2249,12 +2268,21 @@ html += `
     <div class="sidebar-domain-topics" style="display:${isCollapsed ? "none" : "block"};">
 `;
 
-   Object.entries(topics).sort(([a], [b]) => a.localeCompare(b)).forEach(([topic, levels]) => {
-      const topicCount = Object.values(levels).reduce((sum, arr) => sum + arr.length, 0);
+   Object.entries(topics).sort(([a], [b]) => a.localeCompare(b)).forEach(([topic, topicData]) => {
+      const { total, answered, correct } = topicData;
 
       const isTopicActive =
         practiceCurrentDomain === domain &&
         practiceCurrentTopic === topic;
+
+      const pct = answered > 0 ? Math.round(correct / answered * 100) : null;
+      const masteryBadge = answered === 0
+        ? `<span class="sidebar-topic-count" style="color:#d0d0d0;">${total}</span>`
+        : pct >= 80
+          ? `<span class="sidebar-topic-count" style="color:#16a34a;">${correct}/${answered}</span>`
+          : pct >= 50
+            ? `<span class="sidebar-topic-count" style="color:#d97706;">${correct}/${answered}</span>`
+            : `<span class="sidebar-topic-count" style="color:#dc2626;">${correct}/${answered}</span>`;
 
       html += `
         <button
@@ -2263,7 +2291,7 @@ html += `
           onclick='selectPracticeTopic(${JSON.stringify(domain)}, ${JSON.stringify(topic)})'
         >
           <span class="sidebar-topic-name">${topic}</span>
-          <span class="sidebar-topic-count">${topicCount}</span>
+          ${masteryBadge}
         </button>
       `;
     });
@@ -2318,8 +2346,8 @@ function selectPracticeDomain(domain) {
 
   let domainQuestions = [];
 
-  Object.values(topics).forEach(levelMap => {
-    Object.values(levelMap).forEach(levelArr => {
+  Object.values(topics).forEach(topicData => {
+    Object.values(topicData.levels).forEach(levelArr => {
       levelArr.forEach(q => domainQuestions.push(q.question));
     });
   });
@@ -2335,13 +2363,13 @@ function selectPracticeDomain(domain) {
 function selectPracticeTopic(domain, topic) {
   console.log("Clicked topic:", domain, topic);
 
-  const topicLevels = practiceSidebarTree?.[domain]?.[topic];
-  if (!topicLevels) return;
+  const topicData = practiceSidebarTree?.[domain]?.[topic];
+  if (!topicData) return;
   collapsedPracticeDomains[domain] = false;
 
   let topicQuestions = [];
 
-  Object.values(topicLevels).forEach(levelArr => {
+  Object.values(topicData.levels).forEach(levelArr => {
     levelArr.forEach(q => topicQuestions.push(q.question));
   });
 
@@ -2392,7 +2420,8 @@ function selectPracticeLevelFilter(level) {
   let label = "";
 
   if (practiceCurrentDomain && practiceCurrentTopic) {
-    const topicLevels = practiceSidebarTree?.[practiceCurrentDomain]?.[practiceCurrentTopic];
+    const topicData = practiceSidebarTree?.[practiceCurrentDomain]?.[practiceCurrentTopic];
+    const topicLevels = topicData?.levels;
     if (!topicLevels) return;
 
     label = `${practiceCurrentDomain} → ${practiceCurrentTopic}`;
@@ -2412,7 +2441,8 @@ function selectPracticeLevelFilter(level) {
 
     label = practiceCurrentDomain;
 
-    Object.values(domainTopics).forEach(topicLevels => {
+    Object.values(domainTopics).forEach(topicData => {
+      const topicLevels = topicData.levels;
       if (level === "All") {
         Object.values(topicLevels).forEach(levelArr => {
           levelArr.forEach(q => filteredQuestions.push(q.question));
