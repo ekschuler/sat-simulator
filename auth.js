@@ -22,34 +22,34 @@ async function signUp() {
     return;
   }
 
-statusEl.textContent = "Sign up successful.";
+  statusEl.textContent = "Sign up successful.";
 
-if (window.location.pathname.includes("checkout.html")) {
-  const { data: profile, error: profileError } = await window.supabaseClient
-    .from("profiles")
-    .select("access_status")
-    .eq("id", data.user.id)
-    .maybeSingle();
+  if (window.location.pathname.includes("checkout.html")) {
+    const { data: profile, error: profileError } = await window.supabaseClient
+      .from("profiles")
+      .select("access_status")
+      .eq("id", data.user.id)
+      .maybeSingle();
 
-  if (profileError) {
-    console.error("Failed to load profile after login:", profileError);
+    if (profileError) {
+      console.error("Failed to load profile after login:", profileError);
+      window.location.href = "index.html";
+      return;
+    }
+
+    if (profile?.access_status === "paid") {
+      window.location.href = "dashboard.html";
+      return;
+    }
+
     window.location.href = "index.html";
-    return;
+  } else {
+    setTimeout(() => {
+      window.location.href = "dashboard.html";
+    }, 700);
   }
 
-  if (profile?.access_status === "paid") {
-    window.location.href = "dashboard.html";
-    return;
-  }
-
-  window.location.href = "index.html";
-} else {
-  setTimeout(() => {
-    window.location.href = "dashboard.html";
-  }, 700);
-}
-
-console.log("signUp data:", data);
+  console.log("signUp data:", data);
 }
 
 async function logIn() {
@@ -78,32 +78,56 @@ async function logIn() {
 
   statusEl.textContent = `Logged in as ${data.user.email}`;
 
-if (window.location.pathname.includes("checkout.html")) {
-  const { data: profile, error: profileError } = await window.supabaseClient
-    .from("profiles")
-    .select("access_status")
-    .eq("id", data.user.id)
-    .maybeSingle();
+  if (window.location.pathname.includes("checkout.html")) {
+    const { data: profile, error: profileError } = await window.supabaseClient
+      .from("profiles")
+      .select("access_status")
+      .eq("id", data.user.id)
+      .maybeSingle();
 
-  if (profileError) {
-    console.error("Failed to load profile after login:", profileError);
+    if (profileError) {
+      console.error("Failed to load profile after login:", profileError);
+      window.location.href = "index.html";
+      return;
+    }
+
+    if (profile?.access_status === "paid") {
+      window.location.href = "dashboard.html";
+      return;
+    }
+
     window.location.href = "index.html";
-    return;
+  } else {
+    setTimeout(() => {
+      window.location.href = "dashboard.html";
+    }, 700);
   }
 
-  if (profile?.access_status === "paid") {
-    window.location.href = "dashboard.html";
-    return;
-  }
-
-  window.location.href = "index.html";
-} else {
-  setTimeout(() => {
-    window.location.href = "dashboard.html";
-  }, 700);
+  console.log("login data:", data);
 }
 
-console.log("login data:", data);
+async function forgotPassword() {
+  const emailInput = document.getElementById("authEmail");
+  const statusEl = document.getElementById("authStatus");
+
+  const email = emailInput.value.trim();
+
+  if (!email) {
+    statusEl.textContent = "Enter your email address above, then click Forgot Password.";
+    return;
+  }
+
+  const { error } = await window.supabaseClient.auth.resetPasswordForEmail(email, {
+    redirectTo: window.location.origin + "/reset-password.html"
+  });
+
+  if (error) {
+    statusEl.textContent = `Error: ${error.message}`;
+    console.error(error);
+    return;
+  }
+
+  statusEl.textContent = "Password reset email sent — check your inbox.";
 }
 
 async function logOut() {
@@ -126,68 +150,92 @@ async function checkCurrentUser() {
   const { data } = await window.supabaseClient.auth.getUser();
 
   if (data?.user) {
-  statusEl.textContent = `Already logged in as ${data.user.email}`;
+    statusEl.textContent = `Already logged in as ${data.user.email}`;
 
-  if (
-  !window.location.pathname.includes("checkout.html") &&
-  !window.location.pathname.includes("index.html")
-) {
-  setTimeout(() => {
-    window.location.href = "dashboard.html";
-  }, 700);
-}
-} else {
-  statusEl.textContent = "";
-}
+    if (
+      !window.location.pathname.includes("checkout.html") &&
+      !window.location.pathname.includes("index.html")
+    ) {
+      setTimeout(() => {
+        window.location.href = "dashboard.html";
+      }, 700);
+    }
+  } else {
+    statusEl.textContent = "";
+  }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
   const signUpBtn = document.getElementById("signUpBtn");
   const logInBtn = document.getElementById("logInBtn");
-  let currentAuthMode = "login";
-  const emailInput = document.getElementById("authEmail");
-  const passwordInput = document.getElementById("authPassword");
+  const submitBtn = document.getElementById("authSubmitBtn");
+  const forgotBtn = document.getElementById("forgotPasswordBtn");
   const authModeTitle = document.getElementById("authModeTitle");
   const authModeText = document.getElementById("authModeText");
   const authBtns = document.querySelectorAll(".authBtn");
+  const emailInput = document.getElementById("authEmail");
+  const passwordInput = document.getElementById("authPassword");
 
-if (signUpBtn) {
-  signUpBtn.addEventListener("click", () => {
-    currentAuthMode = "signup";
+  let currentAuthMode = "login";
 
-    if (authModeTitle) authModeTitle.textContent = "Create your account";
-    if (authModeText) authModeText.textContent = "Start your SAT prep and unlock the full experience.";
-  authBtns.forEach(btn => btn.classList.remove("active"));
-  signUpBtn.classList.add("active");
-    signUp();
-  });
-}
-if (logInBtn) {
-  logInBtn.addEventListener("click", () => {
-    currentAuthMode = "login";
+  function setMode(mode) {
+    currentAuthMode = mode;
+    authBtns.forEach(btn => btn.classList.remove("active"));
 
-    if (authModeTitle) authModeTitle.textContent = "Welcome back";
-    if (authModeText) authModeText.textContent = "Log in to continue your prep.";
-  authBtns.forEach(btn => btn.classList.remove("active"));
-  logInBtn.classList.add("active");
-    logIn();
-  });
-}
-
-  function handleEnterToLogin(e) {
-  if (e.key === "Enter") {
-    e.preventDefault();
-
-    if (currentAuthMode === "signup") {
-      signUp();
+    if (mode === "signup") {
+      if (authModeTitle) authModeTitle.textContent = "Create your account";
+      if (authModeText) authModeText.textContent = "Start your SAT prep and unlock the full experience.";
+      if (signUpBtn) signUpBtn.classList.add("active");
+      if (submitBtn) submitBtn.textContent = "Sign Up";
+      if (forgotBtn) forgotBtn.style.display = "none";
     } else {
-      logIn();
+      if (authModeTitle) authModeTitle.textContent = "Welcome back";
+      if (authModeText) authModeText.textContent = "Log in to continue your prep.";
+      if (logInBtn) logInBtn.classList.add("active");
+      if (submitBtn) submitBtn.textContent = "Log In";
+      if (forgotBtn) forgotBtn.style.display = "block";
     }
   }
-}
 
-  if (emailInput) emailInput.addEventListener("keydown", handleEnterToLogin);
-  if (passwordInput) passwordInput.addEventListener("keydown", handleEnterToLogin);
+  // Switch mode on tab click — do NOT submit yet
+  if (signUpBtn) {
+    signUpBtn.addEventListener("click", () => setMode("signup"));
+  }
+  if (logInBtn) {
+    logInBtn.addEventListener("click", () => setMode("login"));
+  }
 
+  // Submit button actually runs the auth
+  if (submitBtn) {
+    submitBtn.addEventListener("click", () => {
+      if (currentAuthMode === "signup") {
+        signUp();
+      } else {
+        logIn();
+      }
+    });
+  }
+
+  // Forgot password
+  if (forgotBtn) {
+    forgotBtn.addEventListener("click", forgotPassword);
+  }
+
+  function handleEnterKey(e) {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      if (currentAuthMode === "signup") {
+        signUp();
+      } else {
+        logIn();
+      }
+    }
+  }
+
+  if (emailInput) emailInput.addEventListener("keydown", handleEnterKey);
+  if (passwordInput) passwordInput.addEventListener("keydown", handleEnterKey);
+
+  // Default to login mode
+  setMode("login");
   checkCurrentUser();
 });
