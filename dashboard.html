@@ -200,10 +200,8 @@ Full SAT practice and tests are locked. Upgrade to unlock full access, or contin
       <button id="startOverMathBtn" class="secondaryBtn" type="button" style="display:none;">Start Over Math</button>
       <button id="startOverVerbalBtn" class="secondaryBtn" type="button" style="display:none;">Start Over Reading and Writing</button>
     </div>
-    <div id="recentPracticeSessions" style="display:none;">
-      <div style="font-size:12px; font-weight:700; color:#6b7280; text-transform:uppercase; letter-spacing:0.05em; margin-bottom:8px;">Recent Sessions</div>
-      <div id="recentSessionsList"></div>
-      <a href="practice-history.html" style="display:block; margin-top:12px; font-size:13px; font-weight:600; color:#4f46e5; text-decoration:none;">View all sessions →</a>
+    <div style="margin-top:4px;">
+      <a href="practice-history.html" class="secondaryBtn" style="display:inline-block; text-decoration:none; padding:10px 16px; font-size:14px;">Practice Progress</a>
     </div>
   </div>
 
@@ -342,43 +340,6 @@ console.log("Dashboard access status:", accessStatus);
   setupTestButton("startT1Btn", "T1");
   setupTestButton("startT2Btn", "T2");
 
-  // Load recent practice sessions
-  const { data: recentSessions } = await window.supabaseClient
-    .from("practice_sessions")
-    .select("id, subject, set_id, correct_count, total_count, status, updated_at, answers")
-    .eq("user_id", user.id)
-    .in("status", ["completed", "in_progress"])
-    .order("updated_at", { ascending: false })
-    .limit(3);
-
-  if (recentSessions && recentSessions.length > 0) {
-    const recentDiv = document.getElementById("recentPracticeSessions");
-    const listDiv = document.getElementById("recentSessionsList");
-    if (recentDiv && listDiv) {
-      recentDiv.style.display = "block";
-      listDiv.innerHTML = recentSessions.map(s => {
-        const date = new Date(s.updated_at);
-        const dateStr = date.toLocaleDateString([], { month: "short", day: "numeric" });
-        const subject = s.subject === "verbal" ? "R&W" : "Math";
-        const total = s.total_count || Object.keys(s.answers || {}).length || 0;
-        const correct = s.correct_count || 0;
-        const score = total ? `${correct}/${total}` : "";
-        const isInProgress = s.status === "in_progress";
-        const reviewUrl = isInProgress
-          ? `simulator.html?mode=practice&subject=${s.subject}&resume=1`
-          : `simulator.html?mode=practice&review=all&sessionId=${s.id}&subject=${s.subject}`;
-        const btnLabel = isInProgress ? "Resume" : "Review";
-        const btnClass = isInProgress ? "primaryBtn" : "secondaryBtn";
-        return `<div style="display:flex; justify-content:space-between; align-items:center; padding:8px 0; border-top:1px solid #f0f0f0; font-size:13px;">
-          <div>
-            <span style="font-weight:600; color:#111;">${subject}</span>
-            <span style="color:#6b7280; margin-left:8px;">${dateStr}${score ? " · " + score : ""}</span>
-          </div>
-          <a href="${reviewUrl}" style="font-size:12px; font-weight:700; color:#4f46e5; text-decoration:none; padding:4px 10px; border:1px solid #ede9fe; border-radius:6px; background:white;">${btnLabel}</a>
-        </div>`;
-      }).join("");
-    }
-  }
 
   const startMathPracticeBtn = document.getElementById("startMathPracticeBtn");
 const startVerbalPracticeBtn = document.getElementById("startVerbalPracticeBtn");
