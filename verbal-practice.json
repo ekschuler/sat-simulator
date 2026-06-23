@@ -217,9 +217,9 @@
       "subject": "verbal",
 
       "skill": {
-        "domain": "Craft and Structure",
-        "topic": "Words in Context",
-        "skill": "Text Completion"
+       "domain": "Information and Ideas",
+      "topic": "Inference",
+      "skill": "Logical Completion"
       },
 
       "level": 1,
@@ -244,8 +244,8 @@
 
       "skill": {
         "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "topic": "Pronoun Usage",
+        "skill": "Pronoun-Antecedent Agreement"
       },
 
       "level": 1,
@@ -270,8 +270,8 @@
 
       "skill": {
         "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "topic": "Sentence Structure",
+        "skill": "Run-ons and Fragments"
       },
 
       "level": 1,
@@ -296,8 +296,8 @@
 
       "skill": {
                 "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "topic": "Verb Tense and Form",
+        "skill": "Verb Form"
       },
 
       "level": 1,
@@ -322,13 +322,13 @@
 
       "skill": {
                 "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "topic": "Verb Tense and Form",
+        "skill": "Subject-verb Agreement"
       },
 
       "level": 1,
       "set": "Verbal Practice",
-      "tags": ["grammar", "verb tense", "noun-verb agreement"],
+      "tags": ["grammar", "verb tense", "noun-verb agreement", "subject-verb agreement"],
 
       "stem": "The laws about the sale and use of fireworks vary greatly around the world. In very few countries, fireworks can be used freely without restriction; most countries <span class='blank'>_______</span> the sale and use of at least the most dangerous classes of fireworks while allowing people to buy and use sparklers.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
   "choices": [
@@ -348,8 +348,8 @@
 
       "skill": {
                "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "topic": "Sentence Structure",
+        "skill": "Run-ons and Fragments"
       },
 
       "level": 1,
@@ -374,8 +374,8 @@
 
       "skill": {
                 "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "topic": "Verb Tense and Form",
+        "skill": "Verb Form"
       },
 
       "level": 1,
@@ -400,8 +400,8 @@
 
       "skill": {
                 "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "topic": "Verb Tense and Form",
+        "skill": "Verb Form"
       },
 
       "level": 1,
@@ -426,8 +426,8 @@
 
       "skill": {
         "domain": "Expression of Ideas",
-        "topic": "Transitions",
-        "skill": "Logical Transition"
+        "topic": "Logical Transitions",
+        "skill": "Sequence"
       },
 
       "level": 1,
@@ -452,8 +452,8 @@
 
       "skill": {
         "domain": "Expression of Ideas",
-        "topic": "Transitions",
-        "skill": "Logical Transition"
+        "topic": "Logical Transitions",
+        "skill": "Contrast"
       },
 
       "level": 1,
@@ -478,8 +478,8 @@
 
       "skill": {
         "domain": "Expression of Ideas",
-        "topic": "Transitions",
-        "skill": "Logical Transition"
+        "topic": "Logical Transitions",
+        "skill": "Contrast"
       },
 
       "level": 1,
@@ -504,8 +504,8 @@
 
       "skill": {
        "domain": "Expression of Ideas",
-        "topic": "Transitions",
-        "skill": "Logical Transition"
+        "topic": "Logical Transitions",
+        "skill": "Contrast"
       },
 
       "level": 1,
@@ -552,8 +552,8 @@
     "subject": "verbal",
     "skill": {
       "domain": "Standard English Conventions",
-      "topic": "Form, Structure, and Sense",
-      "skill": "Standard English Conventions"
+      "topic": "Verb Tense and Form",
+      "skill": "Verb Form"
     },
     "level": 1,
     "set": "Verbal Practice",
@@ -572,9 +572,9 @@
       "id": "V-L1-022",
       "type": "mcq",
       "skill": {
-        "domain": "Information and Ideas",
-"topic": "Command of Evidence",
-"skill": "Textual Evidence"
+        "domain": "Expression of Ideas",
+        "topic": "Rhetorical Synthesis",
+        "skill": "Illustrating a Claim"
       },
 
       "level": 1,
@@ -596,8 +596,8 @@
       "type": "mcq",
       "skill": {
        "domain": "Expression of Ideas",
-        "topic": "Transitions",
-        "skill": "Logical Transition"
+        "topic": "Logical Transitions",
+        "skill": "Specificity"
       },
 
       "level": 1,
@@ -619,8 +619,8 @@
       "type": "mcq",
       "skill": {
        "domain": "Expression of Ideas",
-        "topic": "Transitions",
-        "skill": "Logical Transition"
+        "topic": "Logical Transitions",
+        "skill": "Contrast"
       },
 
       "level": 1,
@@ -861,7 +861,7 @@
       "skill": {
         "domain": "Information and Ideas",
         "topic": "Central Ideas and Details",
-        "skill": "Key Details"
+        "skill": "Key Detail"
       },
 
       "level": 2,
@@ -944,8 +944,8 @@
 
       "skill": {
         "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "topic": "Pronoun Usage",
+        "skill": "Pronoun-Antecedent Agreement"
       },
 
       "level": 2,
@@ -970,8 +970,8 @@
 
       "skill": {
                 "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "topic": "Pronoun Usage",
+        "skill": "Pronoun-Antecedent Agreement"
       },
 
       "level": 2,
@@ -996,8 +996,8 @@
 
       "skill": {
                 "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "topic": "Sentence Structure",
+        "skill": "Modifier Placement"
       },
 
       "level": 2,
@@ -1022,8 +1022,8 @@
 
       "skill": {
                "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "topic": "Verb Tense and Form",
+        "skill": "Verb Form"
       },
 
       "level": 2,
@@ -1048,8 +1048,8 @@
 
       "skill": {
                 "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "topic": "Sentence Structure",
+        "skill": "Run-ons and Fragments"
       },
 
       "level": 2,
@@ -1074,8 +1074,8 @@
 
       "skill": {
                 "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "topic": "Verb Tense and Form",
+        "skill": "Subject-verb Agreement"
       },
 
       "level": 2,
@@ -1100,8 +1100,8 @@
 
       "skill": {
         "domain": "Expression of Ideas",
-        "topic": "Transitions",
-        "skill": "Logical Transition"
+        "topic": "Logical Transitions",
+        "skill": "Sequence"
       },
 
       "level": 2,
@@ -1126,8 +1126,8 @@
 
       "skill": {
         "domain": "Expression of Ideas",
-        "topic": "Transitions",
-        "skill": "Logical Transition"
+        "topic": "Logical Transitions",
+        "skill": "Sequence"
       },
 
       "level": 2,
@@ -1201,7 +1201,7 @@
     "skill": {
       "domain": "Information and Ideas",
       "topic": "Central Ideas and Details",
-      "skill": "Details and Evidence"
+      "skill": "Supporting Detail"
     },
     "level": 2,
     "set": "Verbal Practice",
@@ -1302,22 +1302,33 @@
     "subject": "verbal",
     "skill": {
       "domain": "Standard English Conventions",
-      "topic": "Form, Structure, and Sense",
-      "skill": "Standard English Conventions"
+      "topic": "Punctuation",
+      "skill": "Colon Usage"
     },
     "level": 2,
     "set": "Verbal Practice",
     "tags": ["grammar", "punctuation", "colon"],
-    "stem": "The philosopher Simone de Beauvoir is widely regarded as a founding figure of modern feminist theory <span class='blank'>_______</span> 1949 work <em>The Second Sex</em> challenged foundational assumptions about gender and identity that had gone largely unquestioned in Western philosophy.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
-    "choices": [
-      "; her",
-      ": her",
-      ", her",
-      "and her"
+    "stemSegments": [
+      {
+        "style": "passage",
+        "align": "left",
+        "text": "The philosopher Simone de Beauvoir is widely regarded as a founding figure of modern feminist theory. Her 1949 work <em>The Second Sex</em> challenged foundational assumptions about gender and identity that had gone largely unquestioned in Western philosophy. De Beauvoir argued that femininity is not a biological given but a social construction, famously summarizing her position as follows: <span class='blank'>_______</span>"
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "Which choice completes the text so that it conforms to the conventions of Standard English?"
+      }
     ],
-    "answerIndex": 1,
-    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices offer different ways to connect two clauses, so this question tests <strong>Colon and Semicolon Usage</strong>.</div><div class='explanation-step'>The first clause makes a general claim about de Beauvoir (she is regarded as a founding figure of feminist theory). The second clause directly explains why — her 1949 work challenged foundational assumptions about gender. When an independent clause is followed by another clause that explains or elaborates on it, a colon is the correct punctuation.</div><div class='explanation-step'><strong>A)</strong> A semicolon joins two independent clauses of equal weight but does not signal the explanatory relationship between them. Less precise here. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> A colon correctly signals that what follows explains or supports the preceding claim. Keep B.</div><div class='explanation-step'><strong>C)</strong> A comma between two independent clauses creates a comma splice. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;And her&rdquo; creates a run-on by joining two independent clauses with only a conjunction and no punctuation. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
-  },
+    "choices": [
+      "\"One is not born, but rather becomes, a woman.\"",
+      "\"One is not born, but rather becomes, a woman\"",
+      "one is not born, but rather becomes, a woman.",
+      "one is not born, but rather becomes, a woman"
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices all contain the same quoted material with differences in capitalization, quotation marks, and punctuation, so this question tests <strong>Colon and Quotation Punctuation</strong>.</div><div class='explanation-step'>The passage introduces a direct quote with the phrase &ldquo;famously summarizing her position as follows,&rdquo; followed by a colon. A colon used to introduce a direct quotation requires the quotation to begin with a capital letter and be enclosed in quotation marks, with the period inside the closing quotation mark.</div><div class='explanation-step'><strong>A)</strong> Correctly uses quotation marks, capitalizes the first word of the quote, and places the period inside the closing quotation mark. Keep A.</div><div class='explanation-step'><strong>B)</strong> Uses quotation marks and capitalizes correctly but places the period outside the closing quotation mark, which violates standard punctuation conventions. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Omits quotation marks entirely and does not capitalize, which is incorrect for a direct quote. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Omits quotation marks, does not capitalize, and has no end punctuation. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+},
   {
     "id": "V-L2-024",
     "type": "mcq",
@@ -1325,8 +1336,8 @@
     "subject": "verbal",
     "skill": {
       "domain": "Standard English Conventions",
-      "topic": "Form, Structure, and Sense",
-      "skill": "Standard English Conventions"
+      "topic": "Verb Tense and Form",
+      "skill": "Verb Form"
     },
     "level": 2,
     "set": "Verbal Practice",
@@ -1348,8 +1359,8 @@
     "subject": "verbal",
     "skill": {
       "domain": "Expression of Ideas",
-      "topic": "Transitions",
-      "skill": "Logical Transition"
+      "topic": "Logical Transitions",
+      "skill": "Contrast"
     },
     "level": 2,
     "set": "Verbal Practice",
@@ -1821,13 +1832,13 @@
 
       "skill": {
         "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "topic": "Sentence Structure",
+        "skill": "Appositive Punctuation"
       },
 
       "level": 3,
       "set": "Verbal Practice",
-      "tags": ["grammar", "possessive pronouns"],
+      "tags": ["grammar", "Appositive Punctuation"],
 
       "stem": "In 1944, Black singer and electric guitarist Sister Rosetta Tharpe, who pioneered pop gospel and greatly influenced early rock and roll, recorded and released what became a mainstream hit, &ldquo;Strange Things Happening Everyday,&rdquo; a song that <span class='blank'>_______</span>  &ldquo;is considered by most musicologists to be the first rock and roll song ever recorded.&rdquo; <br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
   "choices": [
@@ -1847,13 +1858,13 @@
 
       "skill": {
                 "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "topic": "Sentence Structure",
+        "skill": "Run-ons and Fragments"
       },
 
       "level": 3,
       "set": "Verbal Practice",
-      "tags": ["grammar", "pronouns"],
+      "tags": ["grammar", "run-ons and fragments"],
 
       "stem": "Studies of psychoacoustics have hypothesized that students can improve their academic performance when, while studying, they listen to <span class='blank'>_______</span> the positive feelings associated with the music convert to positive feelings about the experience of studying, and in turn, this produces more correct answers on tests corresponding to the material studied.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
   "choices": [
@@ -1872,24 +1883,35 @@
       "subject": "verbal",
 
       "skill": {
-                "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "domain": "Standard English Conventions",
+        "topic": "Sentence Structure",
+        "skill": "Punctuation"
       },
 
       "level": 3,
       "set": "Verbal Practice",
-      "tags": ["grammar", "sentence structure"],
+      "tags": ["grammar", "sentence structure", "dependent clauses"],
 
-      "stem": "In the late 14th century, ending a dynasty that had lasted more than 400 years, military leader Yi Seong-gye became the leader of a new dynasty, the Joseon Dynasty.  Yi’s reign was marked by the peaceful teachings of <span class='blank'>_______</span> in 1392, Yi worked with Confucian scholars to create a political structure with neo-Confucian principles.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
-  "choices": [
-    "Confucius, when:",
-    "Confucius when,",
-    "Confucius. When,",
-    "Confucius; when"
-  ],
-  "answerIndex": 1,
-  "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. Here, the answer choices differ in punctuation and structure, so this question focuses on <strong>Sentence Structure (Run-ons and Fragments)</strong>.</div><div class='explanation-step'>To answer, determine whether the clauses before and after &ldquo;Confucius&rdquo; are independent or dependent. The first clause, &ldquo;Yi’s reign was marked by the peaceful teachings of Confucius,&rdquo; has a subject (<em>reign</em>) and a verb (<em>was marked</em>), so it’s an independent clause. The next clause begins with &ldquo;when&rdquo; (or other words such as although, if), which is used to introduce a dependent clause. An independent clause followed by a dependent clause should not be separated by a period, colon, or semicolon. It can be joined directly or by using a comma when appropriate.</div><div class='explanation-step'><strong>A)</strong>&ldquo;Confucius, when:&rdquo; uses a colon, which shifts &ldquo;when&rdquo; to the first clause, making it dependent. A colon can only follow an independent clause. Since the <em>first</em> clause is dependent with this answer choice, it's incorrect. Eliminate A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;Confucius when,&rdquo; correctly joins the clauses without creating a fragment or run-on. Keep B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;Confucius. When,&rdquo; incorrectly separates the dependent clause with a period, creating a fragment. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;Confucius; when&rdquo; incorrectly joins an independent and dependent clause with a semicolon, which is only used between two independent clauses. Eliminate D.</div><br><br>This means <strong>B</strong> is the correct answer.</div>"
+      "stemSegments": [
+        {
+          "style": "passage",
+          "align": "left",
+          "text": "In the late 14th century, military leader Yi Seong-gye founded the Joseon Dynasty, ending a royal line that had lasted more than 400 years. Yi worked closely with Confucian scholars to restructure Korean society around neo-Confucian principles. <span class='blank'>_______</span> these reforms reshaped Korean governance, education, and social hierarchy for nearly five centuries."
+        },
+        {
+          "style": "question",
+          "align": "left",
+          "text": "Which choice completes the text so that it conforms to the conventions of Standard English?"
+        }
+      ],
+      "choices": [
+        "Implemented gradually across Yi's reign,",
+        "Implemented gradually across Yi's reign;",
+        "Because implemented gradually across Yi's reign,",
+        "Implementing gradually across Yi's reign;"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices differ in how an introductory phrase connects to the main clause, so this question tests <strong>Clauses and Subordination</strong>.</div><div class='explanation-step'>The blank introduces a modifying phrase followed by an independent clause: &ldquo;these reforms reshaped Korean governance, education, and social hierarchy for nearly five centuries.&rdquo; An introductory participial phrase modifying the subject of the main clause should be followed by a comma — not a semicolon, which would require an independent clause on both sides.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Implemented gradually across Yi's reign,&rdquo; is a correctly formed participial phrase followed by a comma, which properly introduces the independent clause that follows. Keep A.</div><div class='explanation-step'><strong>B)</strong> A semicolon after an introductory phrase is incorrect — a semicolon must be preceded by an independent clause, and &ldquo;Implemented gradually across Yi's reign&rdquo; is not one. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Because&rdquo; introduces a dependent clause, but the phrase &ldquo;implemented gradually&rdquo; is not a full clause — it has no subject. This creates a grammatically incomplete construction. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Implementing&rdquo; changes the meaning and grammatical role of the phrase, and the semicolon following it is incorrect for the same reason as B. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
 },
 {
       "id": "V-L3-011",
@@ -1899,13 +1921,13 @@
 
       "skill": {
                "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "topic": "Sentence Structure",
+        "skill": "Appositive Punctuation"
       },
 
       "level": 3,
       "set": "Verbal Practice",
-      "tags": ["grammar", "verb form", "verb tense"],
+      "tags": ["grammar", "punctuation"],
 
       "stem": "White-crowned shrikes, a tiny white bird with a brown back and wings, and black tail have been misclassified as shrikes for hundreds of years.  In a 2022 paper, an aviary <span class='blank'>_______</span> discovered that these shrikes are, in fact, not shrikes at all, and this led to an entirely new family classification of the birds.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
   "choices": [
@@ -1925,8 +1947,8 @@
 
       "skill": {
                 "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
+        "topic": "Sentence Structure",
+        "skill": "Modifier Placement"
       },
 
       "level": 3,
@@ -2389,12 +2411,12 @@
     ],
     "choices": [
       "costly",
-      "beloved",
+      "expensive",
       "precious",
       "scarce"
     ],
     "answerIndex": 2,
-    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, two or more choices may seem plausible — the correct answer requires careful attention to what the word is doing in the sentence. Here, Thoreau says &ldquo;living is so dear&rdquo; immediately after expressing his fear of dying without having truly lived. The word must capture why life is too valuable to be wasted on &ldquo;what was not life.&rdquo;</div><div class='explanation-step'><strong>A)</strong> &ldquo;Costly&rdquo; is a surface reading of &ldquo;dear,&rdquo; which can mean expensive. But Thoreau is not discussing the financial cost of living — he is expressing the value of life as something not to be squandered. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Beloved&rdquo; captures warmth and affection but misses the sense of value that drives Thoreau&rsquo;s argument — the point is that life is too valuable to waste, not merely that he loves it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;precious&rdquo; captures the high value Thoreau places on life. This fits the context precisely: living is so precious. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Scarce&rdquo; suggests limited quantity, not high value. Thoreau&rsquo;s concern is about quality of life, not its duration. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, two or more choices may seem plausible — the correct answer requires careful attention to what the word is doing in the sentence. Here, Thoreau says &ldquo;living is so dear&rdquo; immediately after expressing his fear of dying without having truly lived. The word must capture why life is too valuable to be wasted on &ldquo;what was not life.&rdquo;</div><div class='explanation-step'><strong>A)</strong> &ldquo;costly&rdquo; is a surface reading of &ldquo;dear,&rdquo; which can mean expensive. But Thoreau is not discussing the financial cost of living — he is expressing the value of life as something not to be squandered. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;expensive&rdquo; means costing a lot of money, so like A, this is not the meaning of the underlined word. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;precious&rdquo; captures the high value Thoreau places on life. This fits the context precisely: living is so precious. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;scarce&rdquo; suggests limited quantity, not high value. Thoreau&rsquo;s concern is about quality of life, not its duration. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
   },
   {
     "id": "V-L3-025",
@@ -2403,8 +2425,8 @@
     "subject": "verbal",
     "skill": {
       "domain": "Standard English Conventions",
-      "topic": "Form, Structure, and Sense",
-      "skill": "Standard English Conventions"
+      "topic": "Sentence Structure",
+      "skill": "Modifier Placement"
     },
     "level": 3,
     "set": "Verbal Practice",
@@ -2426,8 +2448,8 @@
     "subject": "verbal",
     "skill": {
       "domain": "Expression of Ideas",
-      "topic": "Transitions",
-      "skill": "Logical Transition"
+      "topic": "Logical Transitions",
+      "skill": "Contrast"
     },
     "level": 3,
     "set": "Verbal Practice",
