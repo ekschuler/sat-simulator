@@ -784,6 +784,58 @@
     "answerIndex": 0,
     "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices offer different punctuation marks after &ldquo;years,&rdquo; so this question tests <strong>Comma Usage</strong> with participial phrases.</div><div class='explanation-step'>The phrase &ldquo;making them among the oldest living organisms ever recorded&rdquo; is a participial phrase that modifies the subject of the previous clause. A participial phrase that follows an independent clause should be preceded by a comma.</div><div class='explanation-step'><strong>A)</strong> A comma correctly introduces the participial phrase that follows. Keep A.</div><div class='explanation-step'><strong>B)</strong> A semicolon must be followed by an independent clause, but &ldquo;making them among the oldest living organisms ever recorded&rdquo; is a participial phrase, not an independent clause. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> A colon must also be followed by an independent clause, a list, or a direct quotation. A participial phrase does not qualify. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;And&rdquo; would join two independent clauses or two parallel elements, but &ldquo;making them among the oldest living organisms ever recorded&rdquo; is a participial phrase, not a clause, so this creates an awkward and grammatically incorrect construction. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
   },
+  {
+    "id": "V-L1-030",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Subject-Verb Agreement",
+      "skill": "Subject-Verb Agreement"
+    },
+    "level": 1,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "subject-verb agreement"
+    ],
+    "stem": "The collection of artifacts recovered from the shipwreck <span class='blank'>_______</span> now on permanent display at the maritime museum in Halifax, Nova Scotia.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "are",
+      "were",
+      "is",
+      "have been"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices are different verb forms, so this question tests <strong>Subject-Verb Agreement</strong>.</div><div class='explanation-step'>To find the subject, ignore the prepositional phrase &ldquo;of artifacts recovered from the shipwreck,&rdquo; which interrupts the subject and verb. The true subject is &ldquo;collection,&rdquo; which is singular. The verb must agree with &ldquo;collection,&rdquo; not with &ldquo;artifacts.&rdquo;</div><div class='explanation-step'><strong>A)</strong> &ldquo;Are&rdquo; is plural and does not agree with the singular subject &ldquo;collection.&rdquo; Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Were&rdquo; is plural past tense and does not agree with &ldquo;collection.&rdquo; Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Is&rdquo; is singular present tense and correctly agrees with &ldquo;collection.&rdquo; Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Have been&rdquo; is plural and does not agree with the singular subject &ldquo;collection.&rdquo; Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L1-031",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Logical Transitions",
+      "skill": "Sequence"
+    },
+    "level": 1,
+    "set": "Verbal Practice",
+    "tags": [
+      "logical transition",
+      "sequence"
+    ],
+    "stem": "The process of making traditional Japanese lacquerware is painstaking and slow. Craftspeople apply dozens of thin layers of raw lacquer to a wooden base, allowing each coat to cure in a humid environment before adding the next. <span class='blank'>_______</span> the piece is sanded and polished to produce its characteristic smooth, glossy surface.<br><br>Which choice completes the text with the most logical transition?",
+    "choices": [
+      "However,",
+      "For example,",
+      "Finally,",
+      "In contrast,"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas. To find the correct answer, find how the ideas connect; the second idea is usually a cause, result, contrast, or example of the first.</div><div class='explanation-step'>The passage describes a multi-step process. The final sentence describes the last step in the sequence. The correct transition must signal that this is the concluding step in an ordered process.</div><div class='explanation-step'><strong>A)</strong> &ldquo;However,&rdquo; signals contrast, but the final step does not contrast with the previous steps. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;For example,&rdquo; introduces a specific instance of a general claim, but the final sentence is the last step in the process, not an example. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Finally,&rdquo; correctly signals that sanding and polishing is the concluding step in the sequence. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;In contrast,&rdquo; signals a difference between two ideas, but the final step is part of the same process. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
 {
       "id": "V-L2-001",
       "type": "mcq",
@@ -2067,6 +2119,128 @@
     ],
     "answerIndex": 2,
     "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The blank follows a list of two actions (&ldquo;lobbying politicians&rdquo; and &ldquo;writing essays&rdquo;), so this question tests <strong>Parallelism</strong>.</div><div class='explanation-step'>In a parallel list, all items must share the same grammatical form. The first two items in the list are gerund phrases: &ldquo;lobbying politicians&rdquo; and &ldquo;writing essays for national publications.&rdquo; The third item must also be a gerund phrase.</div><div class='explanation-step'><strong>A)</strong> &ldquo;The organization of grassroots campaigns&rdquo; is a noun phrase, not a gerund phrase, so it breaks the parallel structure. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;To organize&rdquo; is an infinitive, not a gerund, so it does not match the form of the other list items. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Organizing grassroots campaigns&rdquo; is a gerund phrase that matches the form of &ldquo;lobbying politicians&rdquo; and &ldquo;writing essays.&rdquo; Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;He organized grassroots campaigns&rdquo; is an independent clause, which cannot be a list item alongside gerund phrases. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L2-042",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Subject-Verb Agreement",
+      "skill": "Subject-Verb Agreement"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "subject-verb agreement",
+      "neither-nor"
+    ],
+    "stem": "Neither the lead researcher nor her graduate students <span class='blank'>_______</span> able to replicate the results of the original experiment, raising questions about the validity of the initial findings.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "was",
+      "were",
+      "has been",
+      "is"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices are different verb forms, so this question tests <strong>Subject-Verb Agreement</strong> with correlative conjunctions.</div><div class='explanation-step'>When a sentence uses &ldquo;neither...nor,&rdquo; the verb agrees with the noun closest to it. The two subjects are &ldquo;the lead researcher&rdquo; (singular) and &ldquo;her graduate students&rdquo; (plural). Because &ldquo;her graduate students&rdquo; is closest to the verb, the verb must be plural.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Was&rdquo; is singular and would agree with &ldquo;the lead researcher,&rdquo; but the subject closest to the verb is the plural &ldquo;graduate students.&rdquo; Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Were&rdquo; is plural and correctly agrees with &ldquo;graduate students,&rdquo; the noun closest to the verb. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Has been&rdquo; is singular and does not agree with the plural subject closest to the verb. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Is&rdquo; is singular and does not agree with the plural subject closest to the verb. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L2-043",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Central Ideas and Details",
+      "skill": "Supporting Detail"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "central ideas",
+      "according to the text",
+      "history"
+    ],
+    "stem": "The Roman road network, which eventually stretched over 250,000 miles across three continents, was engineered for durability as much as speed. Roads were built in layers, with a foundation of large stones topped by gravel and then finished with fitted paving stones. Drainage ditches ran alongside most roads to prevent water from eroding the surface. This combination of careful construction and systematic maintenance allowed many Roman roads to remain in use for centuries after the collapse of the empire itself.<br><br>According to the text, what allowed Roman roads to remain functional long after the empire collapsed?",
+    "choices": [
+      "The sheer length of the road network made it impossible for later civilizations to abandon entirely.",
+      "Roman engineers used locally sourced materials well suited to each region&rsquo;s climate.",
+      "The roads were built in layers with attention to drainage, and they were systematically maintained.",
+      "Later civilizations continued to invest in repairing and expanding the Roman road network."
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Central Ideas and Details</em> questions, the correct answer will be directly stated in the passage.</div><div class='explanation-step'>The passage states that &ldquo;a combination of careful construction and systematic maintenance allowed many Roman roads to remain in use for centuries after the collapse of the empire itself.&rdquo;</div><div class='explanation-step'><strong>A)</strong> The passage mentions the length of the network but does not suggest it is what kept roads in use after the collapse. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The passage does not mention locally sourced materials or climate adaptation. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This directly paraphrases the passage: layered construction with drainage plus systematic maintenance. Keep C.</div><div class='explanation-step'><strong>D)</strong> The passage does not say later civilizations repaired or expanded the roads. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L2-044",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Textual Evidence"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "command of evidence",
+      "textual evidence"
+    ],
+    "stem": "Historian Judith Thurman has argued that the Belgian-born writer Marguerite Yourcenar deserves more recognition than she typically receives in English-speaking countries, despite being the first woman elected to the Acad&eacute;mie fran&ccedil;aise in 1980. Thurman contends that Yourcenar&rsquo;s historical novels, particularly <em>Memoirs of Hadrian</em>, demonstrate a depth of research and psychological insight rarely matched in twentieth-century fiction.<br><br>Which quotation from a literary scholar would most directly support Thurman&rsquo;s argument?",
+    "choices": [
+      "&ldquo;Yourcenar&rsquo;s election to the Acad&eacute;mie fran&ccedil;aise was a landmark moment for women in French intellectual life, though her work remains outside the standard curriculum in many countries.&rdquo;",
+      "&ldquo;Memoirs of Hadrian is a remarkable achievement: Yourcenar spent decades researching the period and produced a portrait of the emperor that feels psychologically true in a way few historical novels manage.&rdquo;",
+      "&ldquo;Yourcenar was a prolific writer whose output included novels, essays, poetry, and translations, making her one of the most versatile literary figures of the twentieth century.&rdquo;",
+      "&ldquo;The Acad&eacute;mie fran&ccedil;aise has historically been slow to recognize writers working outside the French mainstream, which may explain why Yourcenar&rsquo;s election took so long.&rdquo;"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Command of Evidence</em> questions, the correct answer provides a quotation that most directly supports the specific claim being made. Thurman&rsquo;s argument is that Yourcenar&rsquo;s historical novels demonstrate exceptional research and psychological insight.</div><div class='explanation-step'><strong>A)</strong> This addresses Yourcenar&rsquo;s election and lack of recognition but does not speak to the quality of her novels. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This directly supports Thurman&rsquo;s claim by praising the depth of research behind <em>Memoirs of Hadrian</em> and its psychological insight. Keep B.</div><div class='explanation-step'><strong>C)</strong> This addresses versatility but not the depth of her historical novels specifically. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> This discusses the Acad&eacute;mie&rsquo;s recognition patterns and does not address the quality of Yourcenar&rsquo;s work. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L2-045",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Rhetorical Synthesis",
+      "skill": "Illustrating with an Example"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "rhetorical synthesis",
+      "notes"
+    ],
+    "stemSegments": [
+      {
+        "style": "intro",
+        "align": "left",
+        "text": "A student is writing a report about how migratory birds navigate. The student wants to illustrate that birds use multiple cues to orient themselves during migration."
+      },
+      {
+        "style": "notes",
+        "align": "left",
+        "text": "&#8226; Many migratory birds use the position of the sun as a primary navigational cue during the day.\n&#8226; At night, some species orient using star patterns, particularly the position of the North Star.\n&#8226; Birds also detect Earth&rsquo;s magnetic field using magnetite crystals found in their beaks and inner ears.\n&#8226; Studies show that birds deprived of magnetic field access in overcast conditions show significantly impaired navigation.\n&#8226; Some species also rely on landmarks, wind patterns, and olfactory cues."
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "Which choice most effectively uses relevant information from the notes to accomplish this goal?"
+      }
+    ],
+    "choices": [
+      "Migratory birds are remarkably capable navigators, able to travel thousands of miles and return to the same locations year after year.",
+      "Research on migratory birds has revealed that disrupting access to magnetic field information significantly impairs their ability to navigate.",
+      "Migratory birds draw on a range of navigational tools, including the position of the sun during the day, star patterns at night, and the detection of Earth&rsquo;s magnetic field.",
+      "Scientists have identified magnetite crystals in the beaks and inner ears of migratory birds, suggesting a biological mechanism for magnetic navigation."
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the correct answer uses specific information from the notes to accomplish the stated goal. Here, the goal is to illustrate that birds use multiple navigational cues.</div><div class='explanation-step'><strong>A)</strong> This makes a general claim without listing any specific cues. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This presents one finding but focuses on a single cue rather than multiple. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This names three distinct navigational cues from the notes, directly illustrating the use of multiple systems. Keep C.</div><div class='explanation-step'><strong>D)</strong> This describes the biological mechanism for one cue but does not illustrate multiple cues. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
   },
 {
       "id": "V-L3-001",
@@ -3567,6 +3741,115 @@
     ],
     "answerIndex": 2,
     "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The blank completes a list introduced by &ldquo;not by their aesthetic ambition but by,&rdquo; so this question tests <strong>Parallelism</strong>.</div><div class='explanation-step'>The list contains two items so far: &ldquo;to expose structural systems honestly&rdquo; and &ldquo;to treat interior space as fluid rather than fixed.&rdquo; Both are infinitive phrases beginning with &ldquo;to.&rdquo; The third item must also be an infinitive phrase to maintain parallel structure. At level 3, the distractor choices are designed to sound natural even though they break the pattern.</div><div class='explanation-step'><strong>A)</strong> &ldquo;The integration of industrial materials&rdquo; is a noun phrase, not an infinitive. It breaks the parallel structure established by the first two items. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Industrial materials being integrated&rdquo; uses a participial construction that does not match the infinitive form of the other list items. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;To integrate industrial materials honestly into the construction process&rdquo; is an infinitive phrase that matches the form of &ldquo;to expose&rdquo; and &ldquo;to treat.&rdquo; Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Integrating industrial materials&rdquo; is a gerund phrase, not an infinitive. Despite sounding natural, it does not match the parallel structure. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L3-049",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Verb Tense and Form",
+      "skill": "Tense Consistency"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "verb tense",
+      "tense consistency"
+    ],
+    "stem": "By the time the expedition reached the summit, the weather had already deteriorated significantly; winds that <span class='blank'>_______</span> manageable at base camp had intensified into dangerous gusts, and the temperature had dropped well below what the team&rsquo;s equipment was designed to withstand.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "seem",
+      "seemed",
+      "have seemed",
+      "were seeming"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices are different verb tenses, so this question tests <strong>Tense Consistency</strong>.</div><div class='explanation-step'>The passage describes a sequence of past events. The winds seeming manageable at base camp refers to a past state preceding the worsening conditions. The verb must be simple past tense to remain consistent with the surrounding narrative.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Seem&rdquo; is present tense, which is inconsistent with the past tense narrative. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Seemed&rdquo; is simple past tense and correctly describes the past state of the winds at base camp. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Have seemed&rdquo; is present perfect, which implies a connection to the present moment. The sentence describes a completed past event. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Were seeming&rdquo; is past progressive. &ldquo;Seem&rdquo; is a stative verb and is not typically used in progressive form. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-050",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Pronoun Usage",
+      "skill": "Pronoun Clarity"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "pronoun usage",
+      "pronoun clarity",
+      "ambiguity"
+    ],
+    "stem": "When researchers compared the performance of the new algorithm against the existing model on a standardized benchmark, <span class='blank'>_______</span> outperformed expectations by a significant margin, particularly on tasks requiring contextual reasoning.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "it",
+      "they",
+      "the new algorithm",
+      "the latter"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices offer different ways to refer to a subject, so this question tests <strong>Pronoun Clarity</strong>.</div><div class='explanation-step'>The sentence contains two potential antecedents: &ldquo;the new algorithm&rdquo; and &ldquo;the existing model.&rdquo; Any pronoun in the blank would be ambiguous. To eliminate the ambiguity, the specific noun must be used.</div><div class='explanation-step'><strong>A)</strong> &ldquo;It&rdquo; is ambiguous because it could refer to either the new algorithm or the existing model. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;They&rdquo; is plural and does not clearly refer to either singular antecedent. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;The new algorithm&rdquo; eliminates the ambiguity by naming the subject explicitly. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;The latter&rdquo; refers to the second item mentioned, which is &ldquo;the existing model,&rdquo; not the new algorithm. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L3-051",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Sentence Structure",
+      "skill": "Parallelism"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "sentence structure",
+      "parallelism"
+    ],
+    "stem": "The composer Clara Schumann was celebrated throughout Europe not only for her technical mastery at the keyboard but also for <span class='blank'>_______</span> at a time when female composers were rarely taken seriously by the musical establishment.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "she wrote original compositions of remarkable sophistication",
+      "the remarkable sophistication of her original compositions",
+      "writing original compositions that were remarkably sophisticated",
+      "having written original compositions with remarkable sophistication"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The sentence uses &ldquo;not only...but also,&rdquo; so this question tests <strong>Parallelism</strong>.</div><div class='explanation-step'>After &ldquo;not only,&rdquo; the sentence has &ldquo;for her technical mastery at the keyboard&rdquo; — a prepositional phrase with a noun phrase object. After &ldquo;but also for,&rdquo; the blank must also be a noun phrase to maintain parallel structure.</div><div class='explanation-step'><strong>A)</strong> &ldquo;She wrote original compositions&rdquo; is an independent clause, not a noun phrase. It cannot follow &ldquo;for&rdquo; in a parallel prepositional phrase. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;The remarkable sophistication of her original compositions&rdquo; is a noun phrase that matches the structure of &ldquo;her technical mastery at the keyboard.&rdquo; Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Writing original compositions&rdquo; is a gerund phrase, not a noun phrase parallel to &ldquo;her technical mastery.&rdquo; Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Having written original compositions&rdquo; is a perfect participial phrase that does not match the required noun phrase structure. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-052",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Inference",
+      "skill": "Logical Completion"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "inference",
+      "logical completion",
+      "economics"
+    ],
+    "stem": "Economists studying the effects of minimum wage increases have found that outcomes vary significantly depending on local labor market conditions. In regions where the minimum wage is raised to a level close to the prevailing market wage, employment effects tend to be minimal because most employers are already paying at or above the new floor. In regions where the minimum wage is raised well above the prevailing market wage, however, economists observe more pronounced reductions in hours and employment. These findings suggest that <span class='blank'>_______</span>.<br><br>Which choice most logically completes the text?",
+    "choices": [
+      "minimum wage increases are more likely to reduce employment in high-wage regions than in low-wage regions.",
+      "the economic impact of a minimum wage increase depends significantly on how the new wage compares to existing market wages in that region.",
+      "minimum wage increases reliably reduce employment regardless of local labor market conditions.",
+      "economists broadly agree that minimum wage increases are harmful to low-wage workers in most economic contexts."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions, the correct answer follows directly from the evidence without overstating it. At level 3, wrong answers distort the finding by reversing the logic, overgeneralizing, or introducing unsupported claims.</div><div class='explanation-step'>The passage contrasts two scenarios: when the new minimum wage is close to the market wage (minimal effects) versus when it is well above the market wage (more pronounced effects). The conclusion must capture the relationship between that gap and the size of the employment effect.</div><div class='explanation-step'><strong>A)</strong> This reverses the logic. Effects are more pronounced when the minimum wage is raised well above the market wage, which is more likely in low-wage regions, not high-wage ones. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This directly captures the finding: the impact depends on how the new minimum compares to existing market wages. Keep B.</div><div class='explanation-step'><strong>C)</strong> This contradicts the passage, which shows effects are minimal when the new minimum is close to the market wage. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The passage does not characterize economists as broadly agreeing that increases are harmful. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
   }
 ]
 }
