@@ -638,6 +638,153 @@
   "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas, either between sentences or within a single sentence. To find the correct answer, find how the ideas connect; the second idea is usually a cause, result, contrast, or example of the first.</div><div class='explanation-step'>Here, the first sentence explains that the German Bahaus movement was rejected at first. The next sentence reverses this idea, stating that the movement was later &ldquo;celebrated.&rdquo; Because the passage shifts in direction, the best transition word should signal contrast—something like <em>However</em>.</div><div class='explanation-step'><strong>A)</strong>&ldquo;However,&rdquo; correctly signals contrast, showing that reception of the Bauhaus movement changed from rejection to celebration. Keep A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;Secondly,&rdquo; indicates a parallel or continuing idea, but the third sentence contrasts with the earlier ones. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>&ldquo;For instance,&rdquo; indicates that the second idea is an example of the first, which isn’t the relationship between these ideas. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;Therefore,&rdquo; suggests a cause-and-effect relationship, and this text does not state that the earlier <em>rejection</em> of the movement <em>caused</em> its celebration later.  Eliminate D.</div><br><br>This means the correct answer is <strong>A</strong>."
 },
 {
+    "id": "V-L1-025",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Logical Transitions",
+      "skill": "Contrast"
+    },
+    "level": 1,
+    "set": "Verbal Practice",
+    "tags": [
+      "logical transition",
+      "contrast"
+    ],
+    "stem": "Early astronomers believed that the universe was static and unchanging, a view that dominated scientific thinking for centuries. <span class='blank'>_______</span> Edwin Hubble&rsquo;s 1929 observations revealed that distant galaxies are moving away from Earth, providing the first evidence that the universe is expanding.<br><br>Which choice completes the text with the most logical transition?",
+    "choices": [
+      "However,",
+      "Therefore,",
+      "Similarly,",
+      "In addition,"
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas, either between sentences or within a single sentence. To find the correct answer, find how the ideas connect; the second idea is usually a cause, result, contrast, or example of the first.</div><div class='explanation-step'>The first sentence states that astronomers believed the universe was static. The second sentence introduces Hubble&rsquo;s discovery that the universe is actually expanding. These two ideas are in direct opposition, so the correct transition must signal contrast.</div><div class='explanation-step'><strong>A)</strong> &ldquo;However,&rdquo; correctly signals contrast between the prevailing belief and Hubble&rsquo;s contradicting discovery. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Therefore,&rdquo; signals a conclusion or result, but Hubble&rsquo;s findings did not follow from the belief in a static universe. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Similarly,&rdquo; signals that two ideas are alike, but the two sentences describe opposing views. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;In addition,&rdquo; signals that the second idea adds to the first, but the second sentence contradicts rather than extends the first. Eliminate D.</div><br><br>This means the correct answer is <strong>A</strong>."
+  },
+  {
+    "id": "V-L1-026",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Central Ideas and Details",
+      "skill": "Central Claim"
+    },
+    "level": 1,
+    "set": "Verbal Practice",
+    "tags": [
+      "central ideas",
+      "main idea"
+    ],
+    "stem": "In the mid-nineteenth century, the city of Chicago faced a severe public health crisis: its streets and buildings had been constructed at ground level, leaving the city with no drainage system and making it vulnerable to repeated outbreaks of cholera and typhoid. To solve the problem, city engineers devised an unprecedented plan to raise the entire city several feet above its original elevation by using hydraulic jacks to lift buildings while new sewer infrastructure was laid beneath them. The project, completed over several decades, transformed Chicago into one of the most sanitary cities in the United States.<br><br>Which choice best states the main idea of the text?",
+    "choices": [
+      "Chicago suffered from repeated disease outbreaks in the nineteenth century due to poor urban planning.",
+      "Chicago engineers solved a public health crisis by physically raising the city to install an effective drainage system.",
+      "Hydraulic jacks were an important technological innovation that made large-scale construction projects possible.",
+      "The completion of Chicago&rsquo;s sewer system made it a model of urban sanitation for other American cities."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Central Ideas and Details</em> questions, the correct answer captures what the entire passage is about, not just one part of it.</div><div class='explanation-step'>The passage describes a problem (poor drainage causing disease outbreaks), the solution (raising the city to install sewers), and the result (Chicago became a sanitary city). The main idea encompasses all three parts.</div><div class='explanation-step'><strong>A)</strong> This captures only the problem described in the first sentence, not the solution or outcome. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This captures the problem, the engineering solution, and the public health outcome. It reflects the full arc of the passage. Keep B.</div><div class='explanation-step'><strong>C)</strong> Hydraulic jacks are a detail in the passage, not its main focus. The passage is about Chicago&rsquo;s public health problem and solution, not about the technology itself. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> This captures the outcome but ignores the problem and the engineering solution that are central to the passage. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L1-027",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Rhetorical Synthesis",
+      "skill": "Supporting a Claim"
+    },
+    "level": 1,
+    "set": "Verbal Practice",
+    "tags": [
+      "rhetorical synthesis",
+      "notes"
+    ],
+    "stemSegments": [
+      {
+        "style": "intro",
+        "align": "left",
+        "text": "A student is writing a report about urban heat islands. The student wants to present a finding from the notes."
+      },
+      {
+        "style": "notes",
+        "align": "left",
+        "text": "&#8226; Urban heat islands occur when cities are significantly warmer than surrounding rural areas.\n&#8226; Dark surfaces such as asphalt and rooftops absorb more heat than natural vegetation.\n&#8226; A 2020 study found that urban areas in the United States are on average 2 to 5 degrees Fahrenheit warmer than nearby rural areas.\n&#8226; Planting trees and installing reflective rooftops can reduce urban heat island effects by up to 3 degrees Fahrenheit.\n&#8226; Heat islands increase energy consumption by raising demand for air conditioning."
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "Which choice most effectively uses relevant information from the notes to accomplish this goal?"
+      }
+    ],
+    "choices": [
+      "Urban heat islands are a growing concern for city planners, who are exploring a variety of strategies to address rising temperatures.",
+      "According to a 2020 study, urban areas in the United States are on average 2 to 5 degrees Fahrenheit warmer than nearby rural areas.",
+      "Cities can reduce the effects of urban heat islands by planting trees and using reflective rooftops, which may also lower energy costs.",
+      "Dark surfaces like asphalt absorb more heat than vegetation, which is one reason why cities tend to be warmer than rural areas."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the correct answer uses specific information from the notes to accomplish the stated goal. Here, the goal is to present a finding from the notes.</div><div class='explanation-step'><strong>A)</strong> This is a general statement that does not present any specific finding from the notes. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This cites a specific study and presents a concrete, quantified finding directly from the notes. Keep B.</div><div class='explanation-step'><strong>C)</strong> This describes a solution from the notes but does not present a research finding. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> This explains a cause of urban heat islands but does not present a specific finding or cite any data. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L1-028",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Textual Evidence"
+    },
+    "level": 1,
+    "set": "Verbal Practice",
+    "tags": [
+      "command of evidence",
+      "textual evidence"
+    ],
+    "stem": "Geologist Marie Tharp spent years in the 1950s analyzing sonar data collected from the Atlantic Ocean floor. Her work produced the first detailed maps of the mid-ocean ridge system, a vast underwater mountain range stretching tens of thousands of miles. Tharp&rsquo;s maps provided some of the earliest visual evidence supporting the theory of plate tectonics, a theory that was initially dismissed by many of her male colleagues.<br><br>Which finding, if true, would most directly support the claim that Tharp&rsquo;s work contributed to the acceptance of plate tectonics?",
+    "choices": [
+      "Sonar technology became widely available to researchers in the years following World War II.",
+      "Several prominent geologists cited Tharp&rsquo;s maps as key evidence when publicly endorsing plate tectonics in the 1960s.",
+      "Tharp faced significant professional obstacles as a woman working in a field dominated by men.",
+      "The mid-ocean ridge system is one of the longest geological formations on Earth."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Command of Evidence</em> questions, the correct answer provides specific evidence that directly supports the claim stated in the question. Here, the claim is that Tharp&rsquo;s work contributed to the acceptance of plate tectonics.</div><div class='explanation-step'><strong>A)</strong> This provides context about sonar technology but does not connect Tharp&rsquo;s maps to the acceptance of plate tectonics. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This directly supports the claim: if geologists cited Tharp&rsquo;s maps when endorsing plate tectonics, her work clearly contributed to the theory&rsquo;s acceptance. Keep B.</div><div class='explanation-step'><strong>C)</strong> This addresses the professional challenges Tharp faced, which is mentioned in the passage but does not support the claim about her contribution to plate tectonics. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> This is a fact about the mid-ocean ridge but does not connect Tharp&rsquo;s work to the acceptance of plate tectonics. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L1-029",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Punctuation",
+      "skill": "Comma Usage"
+    },
+    "level": 1,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "punctuation",
+      "commas"
+    ],
+    "stem": "The giant sequoia, native to the western slopes of the Sierra Nevada in California, is the largest tree species on Earth by volume. Some individual trees have survived for more than 3,000 years <span class='blank'>_______</span> making them among the oldest living organisms ever recorded.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "years,",
+      "years;",
+      "years:",
+      "years and"
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices offer different punctuation marks after &ldquo;years,&rdquo; so this question tests <strong>Comma Usage</strong> with participial phrases.</div><div class='explanation-step'>The phrase &ldquo;making them among the oldest living organisms ever recorded&rdquo; is a participial phrase that modifies the subject of the previous clause. A participial phrase that follows an independent clause should be preceded by a comma.</div><div class='explanation-step'><strong>A)</strong> A comma correctly introduces the participial phrase that follows. Keep A.</div><div class='explanation-step'><strong>B)</strong> A semicolon must be followed by an independent clause, but &ldquo;making them among the oldest living organisms ever recorded&rdquo; is a participial phrase, not an independent clause. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> A colon must also be followed by an independent clause, a list, or a direct quotation. A participial phrase does not qualify. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;And&rdquo; would join two independent clauses or two parallel elements, but &ldquo;making them among the oldest living organisms ever recorded&rdquo; is a participial phrase, not a clause, so this creates an awkward and grammatically incorrect construction. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+  },
+{
       "id": "V-L2-001",
       "type": "mcq",
       "mode": "practice",
@@ -995,7 +1142,7 @@
       "subject": "verbal",
 
       "skill": {
-                "domain": "Standard English Conventions",
+        "domain": "Standard English Conventions",
         "topic": "Sentence Structure",
         "skill": "Modifier Placement"
       },
@@ -1608,6 +1755,318 @@
     ],
     "answerIndex": 0,
     "explanation": "<div class='explanation-step'>For <em>Supporting a Claim</em> questions, identify the claim precisely. Dr. Reyes claims that code-switching reflects sophisticated cognitive control and linguistic competence, not confusion or deficiency. The correct answer must provide evidence that code-switching is associated with high cognitive ability.</div><div class='explanation-step'><strong>A)</strong> Executive function is the set of cognitive skills that includes attention control, cognitive flexibility, and working memory — precisely the &ldquo;sophisticated cognitive control&rdquo; Dr. Reyes describes. If frequent code-switchers score higher on these tests, it directly supports her claim. Keep A.</div><div class='explanation-step'><strong>B)</strong> Later speech onset in bilingual children could suggest developmental delay, which would actually support the view that bilingualism causes confusion — the opposite of Reyes&rsquo;s claim. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This describes who code-switches more frequently but does not address whether code-switching reflects competence or deficiency. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Stronger literacy skills in bilingual school environments support bilingual education broadly, but do not specifically address code-switching or the cognitive control claim. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+  },
+  {
+    "id": "V-L2-032",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Logical Transitions",
+      "skill": "Causation"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "logical transition",
+      "causation"
+    ],
+    "stem": "The construction of the transcontinental railroad in the 1860s required an enormous labor force that American-born workers were unwilling to supply at the wages offered. Railroad companies recruited tens of thousands of workers from China, many of whom had originally emigrated to California during the Gold Rush. <span class='blank'>_______</span> Chinese immigrants came to represent the majority of the Central Pacific Railroad&rsquo;s workforce, completing some of the most dangerous segments of the route through the Sierra Nevada mountains.<br><br>Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Nonetheless,",
+      "For instance,",
+      "As a result,",
+      "In contrast,"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas, either between sentences or within a single sentence. To find the correct answer, find how the ideas connect; the second idea is usually a cause, result, contrast, or example of the first.</div><div class='explanation-step'>The first two sentences explain that railroad companies needed workers and recruited Chinese immigrants. The third sentence states that Chinese immigrants became the majority of the workforce. This outcome follows directly from the recruitment described in the previous sentences, so the correct transition must signal a cause-and-effect relationship.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Nonetheless,&rdquo; signals that something happened despite an obstacle, but there is no obstacle being overcome in this passage. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;For instance,&rdquo; introduces a specific example of a more general claim, but the third sentence is not an example; it is the outcome of the situation described. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;As a result,&rdquo; correctly signals that Chinese immigrants becoming the majority of the workforce was a direct outcome of the recruitment efforts described. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;In contrast,&rdquo; signals a difference between two ideas, but the third sentence continues and extends the logic of the previous sentences rather than opposing it. Eliminate D.</div><br><br>This means the correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L2-033",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Rhetorical Synthesis",
+      "skill": "Supporting a Claim"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "rhetorical synthesis",
+      "notes"
+    ],
+    "stemSegments": [
+      {
+        "style": "intro",
+        "align": "left",
+        "text": "A student is writing a report about the relationship between sleep and academic performance. The student wants to include a claim supported by specific evidence from the notes. Which choice most effectively uses relevant information from the notes to accomplish this goal?"
+      },
+      {
+        "style": "notes",
+        "align": "left",
+        "text": "&#8226; A 2019 study by researchers at MIT followed 100 undergraduate students over an academic semester.\n&#8226; Students who slept fewer than 6 hours per night averaged a full letter grade lower than students who slept 8 or more hours.\n&#8226; Sleep-deprived students also showed reduced performance on timed assessments compared to well-rested peers.\n&#8226; The study controlled for factors including prior GPA, course difficulty, and study hours per week."
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "Which choice most effectively uses relevant information from the notes to accomplish this goal?"
+      }
+    ],
+    "choices": [
+      "Sleep duration has long been considered an important factor in student wellbeing, and researchers continue to study its effects on academic outcomes.",
+      "According to a controlled MIT study, undergraduates who slept fewer than 6 hours per night earned grades a full letter lower than those who slept 8 or more hours.",
+      "Students who do not get enough sleep tend to struggle academically, suggesting that universities should implement policies to promote healthy sleep habits.",
+      "The MIT researchers found that sleep-deprived students underperformed on timed assessments, though the reasons for this pattern are not yet fully understood."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the correct answer uses specific information from the notes to accomplish the stated goal. Here, the goal is to make a claim supported by specific evidence.</div><div class='explanation-step'><strong>A)</strong> This choice is too general and vague. It references sleep and academics broadly without using any specific data from the notes. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This choice cites the MIT study directly, names the specific threshold (fewer than 6 hours vs. 8 or more), and quantifies the result (a full letter grade). It makes a clear claim supported by specific evidence from the notes. Keep B.</div><div class='explanation-step'><strong>C)</strong> This choice draws a conclusion not directly supported by the notes and makes a policy recommendation that goes beyond what the notes say. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> This choice uses a detail from the notes but adds information not found there (&ldquo;the reasons for this pattern are not yet fully understood&rdquo;) and does not present the strongest evidence for the main claim. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L2-034",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Rhetorical Synthesis",
+      "skill": "Supporting a Claim"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "rhetorical synthesis",
+      "notes"
+    ],
+    "stemSegments": [
+      {
+        "style": "intro",
+        "align": "left",
+        "text": "A student is writing a report about the economic impact of public libraries. The student wants to present a claim with supporting evidence from the notes."
+      },
+      {
+        "style": "notes",
+        "align": "left",
+        "text": "&#8226; A 2021 report by the American Library Association estimated that public libraries generate $5 in economic value for every $1 of public funding they receive.\n&#8226; Libraries provide free access to job search tools, resume assistance, and professional development resources.\n&#8226; In 2020, over 4 million library cardholders used digital job search services offered through their local library system.\n&#8226; Libraries also serve as community anchors, hosting small business workshops and financial literacy programs."
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "Which choice most effectively uses relevant information from the notes to accomplish this goal?"
+      }
+    ],
+    "choices": [
+      "Public libraries offer a wide range of services to community members, including access to books, digital resources, and professional development programs.",
+      "Libraries have long played an important role in American civic life, providing resources that benefit individuals and communities alike.",
+      "According to the American Library Association, public libraries return approximately $5 in economic value for every $1 of public funding, making them one of the most cost-effective public investments available.",
+      "More than 4 million people used library job search services in 2020, and libraries also host small business and financial literacy programs."
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the correct answer uses specific information from the notes to accomplish the stated goal. Here, the goal is to present a claim supported by evidence.</div><div class='explanation-step'><strong>A)</strong> This choice describes library services generally without making a specific economic claim or citing any data. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This choice is vague and does not use any specific data from the notes. It makes a general statement about libraries rather than a supported economic claim. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This choice cites the specific $5 return per $1 invested figure from the ALA report and frames it as a clear economic claim. It is specific, evidence-based, and directly accomplishes the goal. Keep C.</div><div class='explanation-step'><strong>D)</strong> This choice combines two details from the notes but does not frame them as a coherent claim about economic impact. It reads as a list of facts rather than a supported argument. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L2-035",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Rhetorical Synthesis",
+      "skill": "Illustrating with an Example"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "rhetorical synthesis",
+      "notes"
+    ],
+    "stemSegments": [
+      {
+        "style": "intro",
+        "align": "left",
+        "text": "A student is writing a report about architectural preservation in American cities. The student wants to illustrate a general claim with a specific example from the notes."
+      },
+      {
+        "style": "notes",
+        "align": "left",
+        "text": "&#8226; Adaptive reuse refers to repurposing an existing building for a new use rather than demolishing and replacing it.\n&#8226; The High Line in New York City was converted from an abandoned elevated freight rail line into a public park, opening in 2009.\n&#8226; The conversion attracted over $2 billion in private investment to the surrounding neighborhood within a decade.\n&#8226; Preservation advocates argue that adaptive reuse projects maintain neighborhood character while generating economic activity.\n&#8226; Similar projects have been completed in Chicago (The 606 trail) and Philadelphia (Reading Viaduct)."
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "Which choice most effectively uses relevant information from the notes to accomplish this goal?"
+      }
+    ],
+    "choices": [
+      "Adaptive reuse has become increasingly popular in American cities, with preservation advocates noting its economic and cultural benefits.",
+      "The High Line in New York City exemplifies how adaptive reuse can transform neglected infrastructure: the conversion of an abandoned freight rail line into a public park attracted over $2 billion in private investment to the surrounding neighborhood.",
+      "Cities such as New York, Chicago, and Philadelphia have all completed adaptive reuse projects, suggesting that the approach is gaining broad acceptance among urban planners.",
+      "Preservation advocates argue that repurposing existing buildings rather than demolishing them helps maintain neighborhood character while also stimulating economic growth."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the correct answer uses specific information from the notes to accomplish the stated goal. Here, the goal is to illustrate a general claim with a specific example.</div><div class='explanation-step'><strong>A)</strong> This choice makes a general claim about adaptive reuse but does not provide a specific illustrative example. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This choice names a specific project (the High Line), describes what it was before and after conversion, and provides a concrete data point ($2 billion in investment). It effectively illustrates the general claim with a specific example. Keep B.</div><div class='explanation-step'><strong>C)</strong> This choice mentions multiple cities but does not describe any single project in enough detail to serve as a meaningful illustration. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> This choice restates the general claim made by preservation advocates without providing a specific example to illustrate it. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L2-036",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Inference",
+      "skill": "Logical Completion"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "inference",
+      "logical completion"
+    ],
+    "stem": "In the early twentieth century, the passenger pigeon became the first bird species in recorded history to go extinct due to human activity. Once numbering in the billions, the species was decimated by commercial hunting and widespread habitat destruction. Conservation laws passed in the final years of the species&rsquo; decline came too late to reverse the damage, suggesting that <span class='blank'>_______</span>.<br><br>Which choice most logically completes the text?",
+    "choices": [
+      "commercial hunting is the primary driver of species extinction in North America.",
+      "conservation legislation is rarely an effective tool for protecting endangered species.",
+      "protective measures for vulnerable species are most effective when implemented before populations reach critical lows.",
+      "the passenger pigeon could have survived if habitat destruction had been addressed earlier than hunting restrictions."
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions, the correct answer follows directly from the evidence in the passage without overstating or distorting it.</div><div class='explanation-step'>The passage establishes that the passenger pigeon went extinct despite conservation laws being passed, because those laws came too late. The logical conclusion is about timing, not about whether conservation laws work at all.</div><div class='explanation-step'><strong>A)</strong> The passage mentions commercial hunting as one factor but also cites habitat destruction. Identifying hunting as the &ldquo;primary driver&rdquo; of extinction broadly goes beyond what the passage supports. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This overstates the conclusion. The passage says the laws came too late in this case, not that conservation legislation is rarely effective. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This directly follows from the passage: because the laws came too late to save the pigeon, the logical conclusion is that early intervention is key. Keep C.</div><div class='explanation-step'><strong>D)</strong> The passage does not compare the relative impact of habitat destruction versus hunting restrictions or suggest that addressing one earlier than the other would have made a difference. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L2-037",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Central Ideas and Details",
+      "skill": "Supporting Detail"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "central ideas",
+      "according to the text"
+    ],
+    "stem": "The development of the Haber-Bosch process in the early twentieth century transformed global agriculture by making it possible to synthesize ammonia from atmospheric nitrogen on an industrial scale. Before this process existed, farmers relied primarily on organic sources of nitrogen such as manure and guano to fertilize crops, which severely limited agricultural output. The synthetic fertilizers made possible by the Haber-Bosch process allowed farmers to dramatically increase crop yields, supporting a rapid expansion of the global population throughout the twentieth century. Historians estimate that nearly half of the nitrogen found in the bodies of people alive today came originally from the Haber-Bosch process.<br><br>According to the text, what was one limitation of agriculture before the Haber-Bosch process?",
+    "choices": [
+      "Farmers lacked access to atmospheric nitrogen, which is an essential nutrient for crop growth.",
+      "Synthetic fertilizers were too expensive for most farmers to use on a large scale.",
+      "Reliance on organic nitrogen sources such as manure and guano restricted how much food could be produced.",
+      "The global population grew faster than agricultural output could support."
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Central Ideas and Details</em> questions with &ldquo;according to the text&rdquo; phrasing, the correct answer will be directly stated in the passage.</div><div class='explanation-step'>The passage states that before the Haber-Bosch process, farmers &ldquo;relied primarily on organic sources of nitrogen such as manure and guano to fertilize crops, which severely limited agricultural output.&rdquo;</div><div class='explanation-step'><strong>A)</strong> The passage does not say farmers lacked access to atmospheric nitrogen; the problem was that they lacked a way to convert it into a usable form. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The passage does not mention the cost of synthetic fertilizers. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This directly paraphrases the passage&rsquo;s statement that reliance on organic nitrogen sources &ldquo;severely limited agricultural output.&rdquo; Keep C.</div><div class='explanation-step'><strong>D)</strong> The passage says the Haber-Bosch process supported population growth, not that population outpaced food supply before it. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L2-038",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Punctuation",
+      "skill": "Semicolons and Colons"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "punctuation",
+      "semicolon"
+    ],
+    "stem": "The Apollo 11 mission depended on contributions from thousands of engineers, mathematicians, and scientists working across dozens of institutions <span class='blank'>_______</span> the guidance software alone was written by a team of programmers at MIT led by Margaret Hamilton, whose code had to function flawlessly in real time with no opportunity for error correction.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "; however,",
+      "; for example,",
+      ", and",
+      ": nevertheless,"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices offer different ways to connect two independent clauses, so this question tests <strong>Semicolons and Colons</strong>.</div><div class='explanation-step'>The first clause makes a broad claim about the mission&rsquo;s many contributors. The second clause gives a specific example of one contribution: the guidance software written by Margaret Hamilton&rsquo;s team. The correct punctuation must join two independent clauses and signal that the second is an example of the first.</div><div class='explanation-step'><strong>A)</strong> &ldquo;However&rdquo; signals contrast, but the second clause does not contradict the first. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> A semicolon correctly joins two independent clauses, and &ldquo;for example&rdquo; correctly signals that the second clause provides a specific instance of the general claim in the first. Keep B.</div><div class='explanation-step'><strong>C)</strong> A comma with &ldquo;and&rdquo; joins the clauses but does not signal the example relationship between them, making the connection between the two ideas less clear. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Nevertheless&rdquo; signals contrast or concession, which does not fit the relationship between these two clauses. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L2-039",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Inference",
+      "skill": "Logical Completion"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "inference",
+      "logical completion"
+    ],
+    "stem": "Researchers studying the foraging behavior of bumblebees found that bees consistently chose flowers offering higher nectar rewards, even when those flowers were harder to access. When the researchers artificially altered the nectar content of flowers without changing their appearance, bees quickly adjusted their preferences, abandoning previously favored flowers and shifting to those now offering greater rewards. This pattern of behavior suggests that <span class='blank'>_______</span>.<br><br>Which choice most logically completes the text?",
+    "choices": [
+      "bumblebees rely primarily on visual cues such as color and shape when selecting which flowers to visit.",
+      "bumblebees are capable of rapidly updating their foraging preferences based on actual nectar content rather than appearance alone.",
+      "bumblebees prefer flowers that are difficult to access because the challenge signals a higher nectar reward.",
+      "the foraging behavior of bumblebees is largely instinctive and resistant to change based on experience."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions, the correct answer follows directly from the evidence without overstating it.</div><div class='explanation-step'>The key finding is that bees changed their preferences when nectar content changed but appearance did not. This shows the bees were responding to actual nectar content, not visual appearance, and that they updated their behavior quickly.</div><div class='explanation-step'><strong>A)</strong> The experiment shows the opposite: bees did not rely on visual cues when the appearance stayed the same but nectar changed. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This directly reflects the finding: bees updated their preferences based on nectar content, not appearance. Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage says bees chose harder-to-access flowers when they offered higher rewards, not that difficulty itself signals reward. This distorts the finding. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The experiment shows the opposite: bees changed behavior rapidly based on experience. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L2-040",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Pronoun Usage",
+      "skill": "Pronoun Clarity"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "pronoun usage",
+      "pronoun clarity",
+      "ambiguity"
+    ],
+    "stem": "When the city council reviewed the proposal submitted by the developers, <span class='blank'>_______</span> contained several provisions that members found difficult to accept.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "they",
+      "it",
+      "the proposal",
+      "those"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. Here, the answer choices offer different ways to refer back to a noun, so this question tests <strong>Pronoun Clarity</strong>.</div><div class='explanation-step'>The sentence contains two potential pronoun antecedents: &ldquo;the city council&rdquo; and &ldquo;the proposal.&rdquo; A pronoun in the blank would be ambiguous because a reader could not determine whether it referred to the council or the proposal. To eliminate the ambiguity, the noun itself must be used.</div><div class='explanation-step'><strong>A)</strong> &ldquo;They&rdquo; is ambiguous because it could refer to the city council or to the developers. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;It&rdquo; is ambiguous because it could refer to the proposal or to the council (considered as a collective). Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;The proposal&rdquo; eliminates the ambiguity by explicitly naming the noun being referred to. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Those&rdquo; is plural and does not clearly refer to any single antecedent in the sentence. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L2-041",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Sentence Structure",
+      "skill": "Parallelism"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "sentence structure",
+      "parallelism"
+    ],
+    "stem": "The early conservationist John Muir believed that experiencing wilderness firsthand was essential to understanding it, and he spent decades lobbying politicians, writing essays for national publications, and <span class='blank'>_______</span> to protect the lands he loved.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "the organization of grassroots campaigns",
+      "to organize grassroots campaigns",
+      "organizing grassroots campaigns",
+      "he organized grassroots campaigns"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The blank follows a list of two actions (&ldquo;lobbying politicians&rdquo; and &ldquo;writing essays&rdquo;), so this question tests <strong>Parallelism</strong>.</div><div class='explanation-step'>In a parallel list, all items must share the same grammatical form. The first two items in the list are gerund phrases: &ldquo;lobbying politicians&rdquo; and &ldquo;writing essays for national publications.&rdquo; The third item must also be a gerund phrase.</div><div class='explanation-step'><strong>A)</strong> &ldquo;The organization of grassroots campaigns&rdquo; is a noun phrase, not a gerund phrase, so it breaks the parallel structure. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;To organize&rdquo; is an infinitive, not a gerund, so it does not match the form of the other list items. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Organizing grassroots campaigns&rdquo; is a gerund phrase that matches the form of &ldquo;lobbying politicians&rdquo; and &ldquo;writing essays.&rdquo; Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;He organized grassroots campaigns&rdquo; is an independent clause, which cannot be a list item alongside gerund phrases. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
   },
 {
       "id": "V-L3-001",
@@ -3002,6 +3461,112 @@
     ],
     "answerIndex": 0,
     "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal is to convey scale using the most specific and striking evidence. The correct answer must combine quantitative specificity with the most impressive scale indicators.</div><div class='explanation-step'><strong>A)</strong> Describes the mechanism (feeding at night, avoiding predators) — relevant but conveys behavior, not scale. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Combines the superlative claim (largest daily animal migration on Earth by biomass) with the most striking specific measurement (up to 1,000 meters per day) — the most effective combination for conveying scale. Keep B.</div><div class='explanation-step'><strong>C)</strong> The carbon transport statistic (tens of millions of tons) is impressive and specific, but it describes an indirect effect of the migration rather than the scale of the migration itself. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> States global significance vaguely without any specific quantitative evidence. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-045",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Logical Transitions",
+      "skill": "Concession"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "logical transition",
+      "concession"
+    ],
+    "stem": "Proponents of rewilding programs argue that reintroducing apex predators such as wolves to ecosystems from which they have been absent can restore ecological balance by regulating prey populations and allowing vegetation to recover. <span class='blank'>_______</span> the reintroduction of wolves to Yellowstone National Park in 1995 produced measurable improvements in riverbank vegetation and stream stability, the long-term effects of rewilding in more densely populated regions remain poorly understood and difficult to predict.<br><br>Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Because",
+      "Although",
+      "Therefore,",
+      "In addition,"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas, either between sentences or within a single sentence. To find the correct answer, find how the ideas connect; the second idea is usually a cause, result, contrast, or example of the first.</div><div class='explanation-step'>This sentence presents two contrasting ideas: a positive example of rewilding (Yellowstone) and an acknowledgment that long-term effects remain uncertain. The structure concedes a point before introducing a limiting qualification. The correct transition must introduce the conceded point while setting up the contrasting limitation that follows.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Because&rdquo; would signal that the Yellowstone results caused the uncertainty, but the sentence is not a causal chain. It is acknowledging a success while noting a separate concern. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Although&rdquo; correctly introduces a concession, acknowledging that Yellowstone produced positive results while signaling that this does not resolve all concerns. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Therefore,&rdquo; signals a conclusion that follows logically from what came before, but the sentence introduces a limitation rather than a conclusion. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;In addition,&rdquo; signals that two ideas are additive, but the second clause limits rather than extends the first. Eliminate D.</div><br><br>This means the correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-046",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Inference",
+      "skill": "Logical Completion"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "inference",
+      "logical completion"
+    ],
+    "stem": "Researchers studying confirmation bias have found that individuals presented with mixed evidence on a contested topic tend to rate studies supporting their existing beliefs as more methodologically rigorous than studies that contradict them, even when the studies are identical in design. Participants in one study were shown the same research summary but told it either confirmed or challenged their prior views; those who believed the study supported them gave it significantly higher credibility ratings. These findings suggest that <span class='blank'>_______</span>.<br><br>Which choice most logically completes the text?",
+    "choices": [
+      "people are generally unable to evaluate research methodology without formal scientific training.",
+      "confirmation bias affects only individuals with strongly held political opinions.",
+      "perceived alignment between evidence and prior beliefs can distort judgments of that evidence&rsquo;s quality.",
+      "researchers should avoid presenting participants with studies that contradict their existing views."
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions, the correct answer follows directly from the evidence in the passage without overstating or distorting it. At level 3, wrong answers are designed to seem plausible by using words from the passage or making reasonable-sounding generalizations.</div><div class='explanation-step'>The passage describes a specific pattern: people judge identical studies as more or less rigorous depending on whether they believe the study supports their views. The conclusion must capture this relationship between perceived alignment and quality judgment.</div><div class='explanation-step'><strong>A)</strong> The passage does not address scientific training or suggest that the bias is related to a lack of expertise. This distorts the finding by introducing an unrelated variable. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The passage does not limit the findings to people with political opinions. The study describes a general cognitive pattern, not a politically specific one. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This directly captures the finding: when people believe evidence aligns with their views, they rate it as higher quality, meaning perceived alignment distorts quality judgments. Keep C.</div><div class='explanation-step'><strong>D)</strong> This is a methodological recommendation that does not follow from the findings. The passage describes a cognitive bias, not a flaw in research design. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L3-047",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Inference",
+      "skill": "Logical Completion"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "inference",
+      "logical completion",
+      "science"
+    ],
+    "stem": "Studies of antibiotic resistance have found that bacteria exposed to sub-lethal concentrations of antibiotics, doses too low to kill them outright, develop resistance far more rapidly than bacteria exposed to no antibiotics at all. Researchers hypothesize that low-level antibiotic exposure places bacteria under enough stress to trigger accelerated mutation rates without eliminating the population, allowing resistant variants to emerge and proliferate. This finding has significant implications for medical practice, suggesting that <span class='blank'>_______</span>.<br><br>Which choice most logically completes the text?",
+    "choices": [
+      "patients who complete a full course of antibiotics are more likely to develop resistant infections than those who stop early.",
+      "antibiotic resistance is an inevitable outcome of any antibiotic treatment, regardless of dosage.",
+      "incomplete antibiotic courses, which expose bacteria to sub-lethal doses, may accelerate the development of resistant strains.",
+      "the mutation rate of bacteria is determined primarily by the frequency of antibiotic use rather than the concentration of the drug."
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions, the correct answer follows directly from the evidence without overstating or distorting it. At level 3, wrong answers are crafted to seem plausible by misapplying or exaggerating the passage&rsquo;s logic.</div><div class='explanation-step'>The passage establishes that sub-lethal antibiotic exposure accelerates resistance. The medical implication must connect this finding to a real-world practice that produces sub-lethal exposure. Incomplete antibiotic courses are the clearest example: stopping early means bacteria survive at lower drug concentrations.</div><div class='explanation-step'><strong>A)</strong> This reverses the logic. The passage suggests sub-lethal (incomplete) courses are more dangerous, not full courses. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This overstates the conclusion. The passage says sub-lethal exposure accelerates resistance, not that resistance is inevitable with any dosage. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This directly connects the research finding (sub-lethal exposure accelerates resistance) to the relevant medical practice (incomplete antibiotic courses). Keep C.</div><div class='explanation-step'><strong>D)</strong> The passage focuses on concentration, not frequency of use. This introduces a variable not supported by the passage. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+   {
+    "id": "V-L3-048",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Sentence Structure",
+      "skill": "Parallelism"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "sentence structure",
+      "parallelism"
+    ],
+    "stem": "Architectural historian Sigfried Giedion argued that the most significant buildings of the twentieth century were defined not by their aesthetic ambition but by their willingness to expose structural systems honestly, to treat interior space as fluid rather than fixed, and <span class='blank'>_______</span>.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "the integration of new industrial materials into the construction process",
+      "industrial materials being integrated into the construction process",
+      "to integrate industrial materials honestly into the construction process",
+      "integrating industrial materials into the construction process honestly"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The blank completes a list introduced by &ldquo;not by their aesthetic ambition but by,&rdquo; so this question tests <strong>Parallelism</strong>.</div><div class='explanation-step'>The list contains two items so far: &ldquo;to expose structural systems honestly&rdquo; and &ldquo;to treat interior space as fluid rather than fixed.&rdquo; Both are infinitive phrases beginning with &ldquo;to.&rdquo; The third item must also be an infinitive phrase to maintain parallel structure. At level 3, the distractor choices are designed to sound natural even though they break the pattern.</div><div class='explanation-step'><strong>A)</strong> &ldquo;The integration of industrial materials&rdquo; is a noun phrase, not an infinitive. It breaks the parallel structure established by the first two items. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Industrial materials being integrated&rdquo; uses a participial construction that does not match the infinitive form of the other list items. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;To integrate industrial materials honestly into the construction process&rdquo; is an infinitive phrase that matches the form of &ldquo;to expose&rdquo; and &ldquo;to treat.&rdquo; Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Integrating industrial materials&rdquo; is a gerund phrase, not an infinitive. Despite sounding natural, it does not match the parallel structure. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
   }
 ]
 }
