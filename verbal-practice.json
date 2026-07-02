@@ -836,6 +836,32 @@
     "answerIndex": 2,
     "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas. To find the correct answer, find how the ideas connect; the second idea is usually a cause, result, contrast, or example of the first.</div><div class='explanation-step'>The passage describes a multi-step process. The final sentence describes the last step in the sequence. The correct transition must signal that this is the concluding step in an ordered process.</div><div class='explanation-step'><strong>A)</strong> &ldquo;However,&rdquo; signals contrast, but the final step does not contrast with the previous steps. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;For example,&rdquo; introduces a specific instance of a general claim, but the final sentence is the last step in the process, not an example. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Finally,&rdquo; correctly signals that sanding and polishing is the concluding step in the sequence. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;In contrast,&rdquo; signals a difference between two ideas, but the final step is part of the same process. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
   },
+  {
+    "id": "V-L1-032",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Text Structure and Purpose",
+      "skill": "Function of a Detail"
+    },
+    "level": 1,
+    "set": "Verbal Practice",
+    "tags": [
+      "text structure",
+      "function of a detail"
+    ],
+    "stem": "Historians have long debated the causes of the Bronze Age Collapse, a period around 1200 BCE when several major civilizations in the eastern Mediterranean suddenly declined or disappeared. Some scholars point to invasions by the so-called Sea Peoples, a confederation of migrating groups whose origins remain unclear. Others emphasize internal factors such as drought, famine, and the breakdown of long-distance trade networks that had connected these civilizations for centuries. Most contemporary historians argue that no single cause is sufficient to explain the collapse and that it resulted from a combination of stresses that overwhelmed societies already under strain.<br><br>What is the main purpose of the final sentence?",
+    "choices": [
+      "To argue that the Sea Peoples were not responsible for the Bronze Age Collapse.",
+      "To introduce a new explanation for the collapse that contradicts the ones described earlier.",
+      "To present the prevailing scholarly view that the collapse had multiple contributing causes.",
+      "To suggest that historians will never be able to fully explain the Bronze Age Collapse."
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Function of a Detail</em> questions, identify what role the specific sentence or detail plays within the larger passage. Ask: why did the author include this?</div><div class='explanation-step'>The passage presents two competing explanations (Sea Peoples vs. internal factors) and then ends with a sentence stating that most historians now believe the collapse had multiple causes. The final sentence synthesizes the debate rather than taking one side.</div><div class='explanation-step'><strong>A)</strong> The final sentence does not dismiss the Sea Peoples explanation; it says no single cause is sufficient. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The final sentence does not introduce a new contradicting explanation; it represents a consensus view that incorporates multiple causes. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This correctly identifies the sentence's role: it presents the current scholarly consensus that multiple factors contributed to the collapse. Keep C.</div><div class='explanation-step'><strong>D)</strong> The sentence does not suggest the collapse is unexplainable; it offers a framework (multiple causes) for understanding it. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
 {
       "id": "V-L2-001",
       "type": "mcq",
@@ -2241,6 +2267,162 @@
     ],
     "answerIndex": 2,
     "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the correct answer uses specific information from the notes to accomplish the stated goal. Here, the goal is to illustrate that birds use multiple navigational cues.</div><div class='explanation-step'><strong>A)</strong> This makes a general claim without listing any specific cues. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This presents one finding but focuses on a single cue rather than multiple. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This names three distinct navigational cues from the notes, directly illustrating the use of multiple systems. Keep C.</div><div class='explanation-step'><strong>D)</strong> This describes the biological mechanism for one cue but does not illustrate multiple cues. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L2-046",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Words in Context",
+      "skill": "Vocabulary in Context"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "vocabulary",
+      "words in context"
+    ],
+    "stemSegments": [
+      {
+        "style": "passage",
+        "align": "left",
+        "text": "The committee&rsquo;s report was thorough, citing dozens of studies and interviewing hundreds of stakeholders over the course of two years. Its conclusions, however, were <u>tepid</u>: rather than recommending bold action, it called for further review and additional consultation."
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "As used in the text, &ldquo;tepid&rdquo; most nearly means"
+      }
+    ],
+    "choices": [
+      "controversial",
+      "delayed",
+      "cautious",
+      "incomplete"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, do not rely on the most common definition of the word. Instead, use the surrounding context to determine what the word means as it is used in this passage.</div><div class='explanation-step'>The passage contrasts the committee&rsquo;s thorough process with its conclusions, which fell short of &ldquo;bold action.&rdquo; The word &ldquo;tepid&rdquo; describes conclusions that recommended further review rather than decisive steps &mdash; the opposite of bold.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Controversial&rdquo; implies disagreement or conflict, but the passage focuses on the conclusions being weak, not disputed. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Delayed&rdquo; refers to timing, but the passage is describing the nature of the conclusions, not when they arrived. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Cautious&rdquo; captures the sense of holding back from bold action, which fits the contrast the passage draws. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Incomplete&rdquo; suggests something is missing or unfinished, but the conclusions are described as deliberately restrained, not unfinished. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L2-047",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Command of Evidence",
+      "skill": "Quantitative Evidence"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "command of evidence",
+      "quantitative evidence",
+      "table"
+    ],
+    "stemSegments": [
+      {
+        "style": "passage",
+        "align": "left",
+        "text": "A researcher studying urban tree canopy coverage collected data from five neighborhoods in a mid-sized American city. She hypothesized that neighborhoods with higher median household incomes would have greater tree canopy coverage, reflecting historical differences in municipal investment and private landscaping.\n\n<table style='border-collapse:collapse; width:100%; font-size:14px; margin-top:12px;'><thead><tr style='background:#f3f4f6;'><th style='border:1px solid #d1d5db; padding:8px; text-align:left;'>Neighborhood</th><th style='border:1px solid #d1d5db; padding:8px; text-align:left;'>Median Household Income</th><th style='border:1px solid #d1d5db; padding:8px; text-align:left;'>Tree Canopy Coverage</th></tr></thead><tbody><tr><td style='border:1px solid #d1d5db; padding:8px;'>Ardmore</td><td style='border:1px solid #d1d5db; padding:8px;'>$38,000</td><td style='border:1px solid #d1d5db; padding:8px;'>12%</td></tr><tr><td style='border:1px solid #d1d5db; padding:8px;'>Bellhaven</td><td style='border:1px solid #d1d5db; padding:8px;'>$54,000</td><td style='border:1px solid #d1d5db; padding:8px;'>19%</td></tr><tr><td style='border:1px solid #d1d5db; padding:8px;'>Crestwood</td><td style='border:1px solid #d1d5db; padding:8px;'>$71,000</td><td style='border:1px solid #d1d5db; padding:8px;'>31%</td></tr><tr><td style='border:1px solid #d1d5db; padding:8px;'>Dunmore</td><td style='border:1px solid #d1d5db; padding:8px;'>$89,000</td><td style='border:1px solid #d1d5db; padding:8px;'>28%</td></tr><tr><td style='border:1px solid #d1d5db; padding:8px;'>Eastgate</td><td style='border:1px solid #d1d5db; padding:8px;'>$103,000</td><td style='border:1px solid #d1d5db; padding:8px;'>34%</td></tr></tbody></table>"
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "Which finding from the table, if true, would most directly challenge the researcher&rsquo;s hypothesis?"
+      }
+    ],
+    "choices": [
+      "Ardmore, the lowest-income neighborhood, also has the lowest tree canopy coverage.",
+      "Eastgate, the highest-income neighborhood, has the highest tree canopy coverage.",
+      "Dunmore has a higher median income than Crestwood but lower tree canopy coverage.",
+      "Bellhaven has nearly double the tree canopy coverage of Ardmore despite a modest income difference."
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Command of Evidence (Quantitative)</em> questions, use the data in the table to evaluate the claim. The researcher&rsquo;s hypothesis is that higher income predicts greater tree canopy coverage.</div><div class='explanation-step'>A finding that challenges this hypothesis must show a case where a higher-income neighborhood has less tree coverage than a lower-income one.</div><div class='explanation-step'><strong>A)</strong> This supports the hypothesis: the lowest-income neighborhood also has the least coverage. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This also supports the hypothesis: the highest-income neighborhood has the most coverage. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Dunmore ($89,000) has higher income than Crestwood ($71,000) but lower tree coverage (28% vs. 31%). This directly contradicts the hypothesis that higher income predicts greater coverage. Keep C.</div><div class='explanation-step'><strong>D)</strong> This is consistent with the hypothesis since Bellhaven does have higher income and higher coverage than Ardmore. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L2-048",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Central Ideas and Details",
+      "skill": "Supporting Detail"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "central ideas",
+      "quantitative evidence",
+      "table"
+    ],
+    "stemSegments": [
+      {
+        "style": "passage",
+        "align": "left",
+        "text": "A nutritionist studying dietary patterns collected data on the average daily consumption of four food groups among adults in three countries.\n\n<table style='border-collapse:collapse; width:100%; font-size:14px; margin-top:12px;'><thead><tr style='background:#f3f4f6;'><th style='border:1px solid #d1d5db; padding:8px; text-align:left;'>Country</th><th style='border:1px solid #d1d5db; padding:8px; text-align:left;'>Vegetables (g)</th><th style='border:1px solid #d1d5db; padding:8px; text-align:left;'>Dairy (g)</th><th style='border:1px solid #d1d5db; padding:8px; text-align:left;'>Meat (g)</th><th style='border:1px solid #d1d5db; padding:8px; text-align:left;'>Grains (g)</th></tr></thead><tbody><tr><td style='border:1px solid #d1d5db; padding:8px;'>Country A</td><td style='border:1px solid #d1d5db; padding:8px;'>320</td><td style='border:1px solid #d1d5db; padding:8px;'>180</td><td style='border:1px solid #d1d5db; padding:8px;'>95</td><td style='border:1px solid #d1d5db; padding:8px;'>210</td></tr><tr><td style='border:1px solid #d1d5db; padding:8px;'>Country B</td><td style='border:1px solid #d1d5db; padding:8px;'>140</td><td style='border:1px solid #d1d5db; padding:8px;'>220</td><td style='border:1px solid #d1d5db; padding:8px;'>180</td><td style='border:1px solid #d1d5db; padding:8px;'>310</td></tr><tr><td style='border:1px solid #d1d5db; padding:8px;'>Country C</td><td style='border:1px solid #d1d5db; padding:8px;'>95</td><td style='border:1px solid #d1d5db; padding:8px;'>310</td><td style='border:1px solid #d1d5db; padding:8px;'>240</td><td style='border:1px solid #d1d5db; padding:8px;'>180</td></tr></tbody></table>"
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "According to the table, which country has the highest daily consumption of vegetables relative to meat?"
+      }
+    ],
+    "choices": [
+      "Country A, because it has the highest vegetable consumption of the three countries.",
+      "Country B, because it consumes more grains than any other country.",
+      "Country C, because it has the highest dairy consumption.",
+      "Country A, because its vegetable consumption is more than three times its meat consumption."
+    ],
+    "answerIndex": 3,
+    "explanation": "<div class='explanation-step'>For questions asking about data from a table, read the question carefully and use only the relevant columns. The question asks about vegetable consumption <em>relative to</em> meat consumption, so compare the ratio of vegetables to meat for each country.</div><div class='explanation-step'>Country A: 320g vegetables, 95g meat &mdash; ratio of about 3.4 to 1.<br>Country B: 140g vegetables, 180g meat &mdash; ratio less than 1 to 1.<br>Country C: 95g vegetables, 240g meat &mdash; ratio less than 1 to 1.</div><div class='explanation-step'><strong>A)</strong> Country A does have the highest vegetable consumption, but this choice does not address the ratio to meat. It is incomplete. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Grain consumption is irrelevant to the question. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Dairy consumption is irrelevant to the question. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Country A consumes 320g of vegetables and 95g of meat, meaning its vegetable consumption is more than three times its meat consumption &mdash; the highest ratio of any country in the table. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+  },
+   {
+    "id": "V-L2-049",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Cross-Text Connections",
+      "skill": "Comparing Perspectives"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "cross-text connections",
+      "paired texts",
+      "comparing perspectives"
+    ],
+    "stemSegments": [
+      {
+        "style": "passage",
+        "align": "left",
+        "text": "<strong>Text 1</strong><br>The widespread adoption of remote work has been largely positive for knowledge workers. Employees report greater autonomy, reduced commute times, and improved work-life balance. Studies suggest that many workers are as productive at home as they are in the office, and some research indicates productivity gains in roles that require sustained, focused work. The flexibility of remote arrangements has also expanded the talent pool available to employers, who can now hire from virtually anywhere."
+      },
+      {
+        "style": "passage",
+        "align": "left",
+        "text": "<strong>Text 2</strong><br>The enthusiasm for remote work overlooks significant costs that do not appear in productivity metrics. Junior employees, in particular, lose access to the informal mentorship and spontaneous collaboration that office environments provide. The subtle lessons learned by observing experienced colleagues &mdash; how to navigate a difficult client call, how to read a room during a negotiation &mdash; cannot be replicated through scheduled video meetings. Organizations that embrace remote work fully may find that they are producing output efficiently in the short term while quietly eroding the tacit knowledge that sustains long-term performance."
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "Based on the texts, how would the author of Text 2 most likely respond to the claim in Text 1 that remote work has expanded the talent pool available to employers?"
+      }
+    ],
+    "choices": [
+      "By arguing that a larger talent pool does not compensate for the loss of informal knowledge transfer that occurs in office settings.",
+      "By agreeing that expanding the talent pool is the most significant benefit of remote work arrangements.",
+      "By contending that productivity metrics overstate the benefits of remote work for experienced employees.",
+      "By suggesting that junior employees benefit more from remote work than senior employees do."
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Cross-Text Connections</em> questions, use what you know about the author&rsquo;s argument in Text 2 to predict how they would respond to a specific claim from Text 1. The author of Text 2 does not directly address the talent pool claim, so you must infer based on their overall position.</div><div class='explanation-step'>The author of Text 2 argues that remote work&rsquo;s costs &mdash; particularly the loss of informal mentorship and tacit knowledge transfer &mdash; are not captured in standard productivity metrics. Their core concern is that short-term gains mask long-term organizational erosion.</div><div class='explanation-step'><strong>A)</strong> This is consistent with the author&rsquo;s argument: even if remote work offers benefits like an expanded talent pool, those benefits do not address the author&rsquo;s central concern about the erosion of tacit knowledge. Keep A.</div><div class='explanation-step'><strong>B)</strong> The author of Text 2 is skeptical of remote work benefits, not enthusiastic about them. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Text 2 focuses on junior employees, not experienced ones, and does not claim productivity metrics overstate benefits for senior workers. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Text 2 argues that junior employees are harmed by remote work, not that they benefit more from it. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
   },
 {
       "id": "V-L3-001",
@@ -3850,6 +4032,168 @@
     ],
     "answerIndex": 1,
     "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions, the correct answer follows directly from the evidence without overstating it. At level 3, wrong answers distort the finding by reversing the logic, overgeneralizing, or introducing unsupported claims.</div><div class='explanation-step'>The passage contrasts two scenarios: when the new minimum wage is close to the market wage (minimal effects) versus when it is well above the market wage (more pronounced effects). The conclusion must capture the relationship between that gap and the size of the employment effect.</div><div class='explanation-step'><strong>A)</strong> This reverses the logic. Effects are more pronounced when the minimum wage is raised well above the market wage, which is more likely in low-wage regions, not high-wage ones. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This directly captures the finding: the impact depends on how the new minimum compares to existing market wages. Keep B.</div><div class='explanation-step'><strong>C)</strong> This contradicts the passage, which shows effects are minimal when the new minimum is close to the market wage. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The passage does not characterize economists as broadly agreeing that increases are harmful. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-053",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Inference",
+      "skill": "Logical Completion"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "inference",
+      "logical completion",
+      "quantitative evidence",
+      "table"
+    ],
+    "stemSegments": [
+      {
+        "style": "passage",
+        "align": "left",
+        "text": "A sociologist studying social mobility examined income data across three generations of families in four regions. She was particularly interested in whether a parent&rsquo;s income level predicted the income level of their adult children.\n\n<table style='border-collapse:collapse; width:100%; font-size:14px; margin-top:12px;'><thead><tr style='background:#f3f4f6;'><th style='border:1px solid #d1d5db; padding:8px; text-align:left;'>Region</th><th style='border:1px solid #d1d5db; padding:8px; text-align:left;'>% Low-income parents with low-income children</th><th style='border:1px solid #d1d5db; padding:8px; text-align:left;'>% High-income parents with high-income children</th></tr></thead><tbody><tr><td style='border:1px solid #d1d5db; padding:8px;'>Region 1</td><td style='border:1px solid #d1d5db; padding:8px;'>71%</td><td style='border:1px solid #d1d5db; padding:8px;'>68%</td></tr><tr><td style='border:1px solid #d1d5db; padding:8px;'>Region 2</td><td style='border:1px solid #d1d5db; padding:8px;'>58%</td><td style='border:1px solid #d1d5db; padding:8px;'>52%</td></tr><tr><td style='border:1px solid #d1d5db; padding:8px;'>Region 3</td><td style='border:1px solid #d1d5db; padding:8px;'>43%</td><td style='border:1px solid #d1d5db; padding:8px;'>41%</td></tr><tr><td style='border:1px solid #d1d5db; padding:8px;'>Region 4</td><td style='border:1px solid #d1d5db; padding:8px;'>39%</td><td style='border:1px solid #d1d5db; padding:8px;'>37%</td></tr></tbody></table>"
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "Based on the table, which conclusion is most strongly supported by the data?"
+      }
+    ],
+    "choices": [
+      "High-income parents are more successful at passing their income level to their children than low-income parents are.",
+      "Social mobility is equally limited for both high-income and low-income families across all regions.",
+      "The degree to which parental income predicts children&rsquo;s income varies significantly by region, with some regions showing considerably stronger intergenerational persistence than others.",
+      "Region 4 has the most equitable economic system of the four regions because it has the lowest rates of income persistence for both groups."
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions with a table, the correct answer must follow directly from what the data actually shows, without overstating or introducing outside assumptions.</div><div class='explanation-step'>The table shows two things: first, the percentages of income persistence vary widely by region (from ~39% in Region 4 to ~71% in Region 1); second, within each region, the rates for low-income and high-income families are similar to each other.</div><div class='explanation-step'><strong>A)</strong> In every region, the percentage for low-income families is slightly higher than for high-income families, which would suggest the opposite. But the differences are small and the data does not establish that one group is meaningfully more successful. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Social mobility is not equally limited across all regions &mdash; Region 1 shows much higher persistence (around 70%) than Region 4 (around 38%). Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This directly reflects the data: the rates of intergenerational income persistence vary substantially by region, from roughly 38&ndash;39% in Region 4 to 68&ndash;71% in Region 1. Keep C.</div><div class='explanation-step'><strong>D)</strong> The table shows income persistence rates, not whether an economic system is equitable. Drawing a conclusion about equity goes beyond what the data supports. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L3-054",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Cross-Text Connections",
+      "skill": "Identifying Agreement and Disagreement"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "cross-text connections",
+      "paired texts",
+      "agreement disagreement"
+    ],
+    "stemSegments": [
+      {
+        "style": "passage",
+        "align": "left",
+        "text": "<strong>Text 1</strong><br>Proponents of universal basic income (UBI) argue that providing all citizens with an unconditional cash payment would reduce poverty more effectively than existing welfare programs. Because UBI places no restrictions on how funds are spent, it respects the autonomy of recipients and avoids the bureaucratic inefficiencies that plague means-tested programs. Pilot studies conducted in Finland, Kenya, and several American cities have shown that recipients generally use cash transfers responsibly, investing in food, education, and small businesses rather than discretionary spending."
+      },
+      {
+        "style": "passage",
+        "align": "left",
+        "text": "<strong>Text 2</strong><br>The appeal of universal basic income rests on an empirical claim that deserves scrutiny: that unconditional cash transfers produce better outcomes than targeted assistance. The pilot studies frequently cited by UBI advocates are methodologically limited. They involve small, self-selected populations observed over short time horizons, making it difficult to draw conclusions about how a permanent, universal program would function at scale. A program that appears to work for a few hundred participants in a controlled study may generate very different behavioral responses when implemented across an entire economy."
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "Which statement best describes a point on which the authors of Text 1 and Text 2 would most likely agree?"
+      }
+    ],
+    "choices": [
+      "UBI pilot studies demonstrate that recipients spend cash transfers responsibly.",
+      "The effectiveness of UBI as a policy depends at least in part on how recipients actually use the funds they receive.",
+      "Existing welfare programs are less efficient than a universal basic income system would be.",
+      "UBI should be implemented gradually to allow researchers to study its effects at scale before full adoption."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Cross-Text Connections</em> questions asking about agreement, find a claim that both authors would accept based on what each text actually says. Be careful: the correct answer does not have to be stated explicitly in both texts, but it must be consistent with both authors&rsquo; positions.</div><div class='explanation-step'>Text 1 cites pilot studies showing recipients use funds for food, education, and small businesses &mdash; responsible uses. Text 2 questions whether those pilot results scale, but does not deny that recipient behavior matters. Both authors treat how recipients use funds as relevant to evaluating UBI.</div><div class='explanation-step'><strong>A)</strong> The author of Text 2 explicitly questions the pilot studies, so they would not agree that the studies demonstrate responsible spending conclusively. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Both authors treat recipient behavior as central to evaluating UBI: Text 1 cites responsible spending as evidence for UBI; Text 2 raises questions about whether spending behavior at scale would differ. Both implicitly agree that how recipients use funds matters for assessing the policy. Keep B.</div><div class='explanation-step'><strong>C)</strong> The author of Text 2 does not make this claim and might not agree with it, as their concern is about UBI&rsquo;s scalability, not a comparison to existing programs. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Neither text recommends a gradual implementation strategy. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-055",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Logical Transitions",
+      "skill": "Concession"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "logical transition",
+      "concession"
+    ],
+    "stem": "Scholars have documented that the printing press accelerated the spread of scientific ideas across Europe in the sixteenth century by making texts far cheaper and more widely available than handwritten manuscripts. <span class='blank'>_______</span> the press also enabled the rapid dissemination of misinformation, astrology, and sensationalist pamphlets, complicating any straightforward account of its role in advancing rational inquiry.<br><br>Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Therefore,",
+      "Similarly,",
+      "Nevertheless,",
+      "At the same time,"
+    ],
+    "answerIndex": 3,
+    "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas. To find the correct answer, find how the ideas connect.</div><div class='explanation-step'>The first sentence presents a positive effect of the printing press (spreading scientific ideas). The second sentence adds a complicating factor (spreading misinformation) that exists alongside the positive effect, not instead of it. The relationship is additive and qualifying, not a simple contrast or result.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Therefore&rdquo; signals a conclusion that follows from the first sentence, but the second sentence does not follow logically from the first &mdash; it adds a complicating parallel point. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Similarly&rdquo; signals that the two ideas are alike, but spreading misinformation is not similar to spreading scientific ideas &mdash; it complicates the picture. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Nevertheless&rdquo; signals that something happened despite an obstacle, implying the second idea overcomes the first. But the second sentence does not overcome the first &mdash; both effects coexisted. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;At the same time&rdquo; signals that two things occurred simultaneously and that the second complicates or qualifies the first without negating it. This correctly captures the relationship. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+  },
+  {
+    "id": "V-L3-056",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Subject-Verb Agreement",
+      "skill": "Subject-Verb Agreement"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "subject-verb agreement"
+    ],
+    "stem": "The extent to which early childhood interventions, including structured literacy programs and subsidized preschool enrollment, <span class='blank'>_______</span> long-term educational outcomes remains a subject of active debate among economists and developmental psychologists.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "improve",
+      "improves",
+      "have improved",
+      "are improving"
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices are different verb forms, so this question tests <strong>Subject-Verb Agreement</strong>.</div><div class='explanation-step'>At level 3, the subject is buried under multiple layers of modifying phrases. Strip them away: &ldquo;The extent to which early childhood interventions [including structured literacy programs and subsidized preschool enrollment] _______ long-term educational outcomes remains a subject of debate.&rdquo; The subject of the verb in the blank is &ldquo;interventions,&rdquo; which is plural. The main verb of the sentence is &ldquo;remains,&rdquo; which agrees with &ldquo;extent&rdquo; &mdash; but the blank verb must agree with &ldquo;interventions.&rdquo;</div><div class='explanation-step'><strong>A)</strong> &ldquo;Improve&rdquo; is plural and correctly agrees with the plural subject &ldquo;interventions.&rdquo; Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Improves&rdquo; is singular and would agree with a singular subject, but &ldquo;interventions&rdquo; is plural. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Have improved&rdquo; is plural present perfect, which implies the interventions already improved outcomes &mdash; but the sentence is about the ongoing debate over whether they do, not a settled conclusion. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Are improving&rdquo; is present progressive, which implies an ongoing action currently in progress rather than a general relationship. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+  },
+  {
+    "id": "V-L3-057",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Punctuation",
+      "skill": "Semicolons and Colons"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "punctuation",
+      "colon",
+      "semicolon"
+    ],
+    "stem": "The geologist&rsquo;s findings overturned a long-held assumption about the age of the rock formation <span class='blank'>_______</span> the layers that previous researchers had dated to the Jurassic period were in fact more than twice as old, placing their origin in the Triassic.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      ", and",
+      "; however,",
+      ":",
+      ";"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices offer different ways to connect two clauses, so this question tests <strong>Semicolons and Colons</strong>.</div><div class='explanation-step'>The first clause makes a general claim: the findings overturned a long-held assumption. The second clause specifies exactly what that overturned assumption was. When an independent clause is followed by a clause that directly explains or specifies what came before, a colon is the correct punctuation.</div><div class='explanation-step'><strong>A)</strong> A comma with &ldquo;and&rdquo; joins two equal independent clauses but does not signal the explanatory relationship between them. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;However&rdquo; signals contrast, but the second clause is not contrasting with the first &mdash; it is explaining it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> A colon correctly signals that what follows explains or specifies the overturned assumption mentioned in the first clause. Keep C.</div><div class='explanation-step'><strong>D)</strong> A semicolon joins two independent clauses of equal weight but does not signal the explanatory relationship as precisely as a colon does here. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
   }
 ]
 }
