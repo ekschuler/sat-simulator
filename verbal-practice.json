@@ -862,6 +862,74 @@
     "answerIndex": 2,
     "explanation": "<div class='explanation-step'>For <em>Function of a Detail</em> questions, identify what role the specific sentence or detail plays within the larger passage. Ask: why did the author include this?</div><div class='explanation-step'>The passage presents two competing explanations (Sea Peoples vs. internal factors) and then ends with a sentence stating that most historians now believe the collapse had multiple causes. The final sentence synthesizes the debate rather than taking one side.</div><div class='explanation-step'><strong>A)</strong> The final sentence does not dismiss the Sea Peoples explanation; it says no single cause is sufficient. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The final sentence does not introduce a new contradicting explanation; it represents a consensus view that incorporates multiple causes. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This correctly identifies the sentence's role: it presents the current scholarly consensus that multiple factors contributed to the collapse. Keep C.</div><div class='explanation-step'><strong>D)</strong> The sentence does not suggest the collapse is unexplainable; it offers a framework (multiple causes) for understanding it. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
   },
+  {
+    "id": "V-L1-033",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Inference",
+      "skill": "Logical Completion"
+    },
+    "level": 1,
+    "set": "Verbal Practice",
+    "tags": [
+      "inference",
+      "logical completion"
+    ],
+    "stem": "Honeybees communicate the location of food sources to other members of their colony through a series of movements known as the waggle dance. The angle of the dance relative to vertical indicates the direction of the food source relative to the sun, while the duration of the waggle run indicates the distance. Bees that observe the dance are able to fly directly to the food source without having visited it before, suggesting that <span class='blank'>_______</span>.<br><br>Which choice most logically completes the text?",
+    "choices": [
+      "honeybees are capable of communicating precise spatial information to one another through movement.",
+      "honeybees rely exclusively on the waggle dance to find food and cannot locate sources on their own.",
+      "the waggle dance evolved as a response to competition from other insect species for food sources.",
+      "bees that perform the waggle dance are more experienced foragers than those that observe it."
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions, the correct answer follows directly from the evidence in the passage without overstating it.</div><div class='explanation-step'>The passage describes how the waggle dance encodes direction and distance, and how observing bees can fly directly to the food source. The logical conclusion is that the dance successfully transmits precise location information.</div><div class='explanation-step'><strong>A)</strong> This directly follows from the evidence: bees communicate direction and distance through movement and other bees act on it accurately. Keep A.</div><div class='explanation-step'><strong>B)</strong> The passage does not say bees cannot find food on their own. This overstates the conclusion. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> The passage does not mention competition with other species. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The passage does not compare the experience levels of dancers vs. observers. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+  },
+  {
+    "id": "V-L1-034",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Rhetorical Synthesis",
+      "skill": "Supporting a Claim"
+    },
+    "level": 1,
+    "set": "Verbal Practice",
+    "tags": [
+      "rhetorical synthesis",
+      "notes"
+    ],
+    "stemSegments": [
+      {
+        "style": "intro",
+        "align": "left",
+        "text": "A student is writing a report about the benefits of bilingual education. The student wants to present a specific finding from the notes."
+      },
+      {
+        "style": "notes",
+        "align": "left",
+        "text": "&#8226; Bilingual education programs teach students academic content in two languages simultaneously.\n&#8226; A 2018 study found that students in bilingual programs outperformed peers in monolingual programs on standardized reading tests by an average of 12 percentile points.\n&#8226; Bilingual students show stronger performance on tasks requiring mental flexibility and attention switching.\n&#8226; The cognitive benefits of bilingualism appear to increase over time, with larger advantages observed in students who began bilingual programs before age 6.\n&#8226; Critics argue that bilingual programs slow English acquisition in the short term."
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "Which choice most effectively uses relevant information from the notes to accomplish this goal?"
+      }
+    ],
+    "choices": [
+      "Bilingual education programs have been shown to benefit students in a variety of ways, including academically and cognitively.",
+      "According to a 2018 study, students in bilingual programs scored 12 percentile points higher on standardized reading tests than students in monolingual programs.",
+      "Students who begin bilingual programs before age 6 appear to gain the greatest cognitive advantages over time.",
+      "Although critics argue that bilingual programs slow English acquisition, research suggests the long-term benefits outweigh this concern."
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the correct answer uses specific information from the notes to accomplish the stated goal. Here, the goal is to present a specific finding.</div><div class='explanation-step'><strong>A)</strong> This is too general and does not cite any specific finding from the notes. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This cites a specific study with a concrete, quantified finding directly from the notes. Keep B.</div><div class='explanation-step'><strong>C)</strong> This presents a detail from the notes but not the most specific finding — it does not include any data. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> This addresses the critics&rsquo; concern and makes a comparative claim not directly stated in the notes. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
 {
       "id": "V-L2-001",
       "type": "mcq",
@@ -2424,6 +2492,451 @@
     "answerIndex": 0,
     "explanation": "<div class='explanation-step'>For <em>Cross-Text Connections</em> questions, use what you know about the author&rsquo;s argument in Text 2 to predict how they would respond to a specific claim from Text 1. The author of Text 2 does not directly address the talent pool claim, so you must infer based on their overall position.</div><div class='explanation-step'>The author of Text 2 argues that remote work&rsquo;s costs &mdash; particularly the loss of informal mentorship and tacit knowledge transfer &mdash; are not captured in standard productivity metrics. Their core concern is that short-term gains mask long-term organizational erosion.</div><div class='explanation-step'><strong>A)</strong> This is consistent with the author&rsquo;s argument: even if remote work offers benefits like an expanded talent pool, those benefits do not address the author&rsquo;s central concern about the erosion of tacit knowledge. Keep A.</div><div class='explanation-step'><strong>B)</strong> The author of Text 2 is skeptical of remote work benefits, not enthusiastic about them. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Text 2 focuses on junior employees, not experienced ones, and does not claim productivity metrics overstate benefits for senior workers. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Text 2 argues that junior employees are harmed by remote work, not that they benefit more from it. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
   },
+  {
+    "id": "V-L2-050",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Subject-Verb Agreement",
+      "skill": "Subject-Verb Agreement"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "subject-verb agreement",
+      "inverted sentence"
+    ],
+    "stem": "Among the most striking features of the deep-sea anglerfish <span class='blank'>_______</span> the bioluminescent lure that protrudes from its forehead and attracts prey in the otherwise lightless ocean depths.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "are",
+      "is",
+      "were",
+      "have been"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices are different verb forms, so this question tests <strong>Subject-Verb Agreement</strong> in an inverted sentence.</div><div class='explanation-step'>The sentence begins with a prepositional phrase (&ldquo;Among the most striking features of the deep-sea anglerfish&rdquo;) followed by the verb. In an inverted sentence like this, the subject comes after the verb. The true subject is &ldquo;the bioluminescent lure,&rdquo; which is singular. The verb must agree with this singular subject.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Are&rdquo; is plural and does not agree with the singular subject &ldquo;the bioluminescent lure.&rdquo; Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Is&rdquo; is singular and correctly agrees with &ldquo;the bioluminescent lure.&rdquo; Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Were&rdquo; is plural past tense and does not agree with the singular subject. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Have been&rdquo; is plural and does not agree with the singular subject. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L2-051",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Inference",
+      "skill": "Logical Completion"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "inference",
+      "logical completion"
+    ],
+    "stem": "Studies of language acquisition in children have found that toddlers who are exposed to a wider variety of sentence structures and vocabulary during parent-child interactions develop stronger language skills by age five than those who hear more limited language input. Crucially, the quality of the interaction matters more than the quantity: children whose caregivers respond to their vocalizations and expand on their utterances make greater linguistic gains than those who are simply exposed to background speech from television or radio. These findings suggest that <span class='blank'>_______</span>.<br><br>Which choice most logically completes the text?",
+    "choices": [
+      "the total number of words a child hears before age five is the strongest predictor of later language ability.",
+      "children who watch educational television programs develop language skills at the same rate as those who interact with responsive caregivers.",
+      "active, responsive engagement between caregivers and children is more important for language development than passive exposure to speech.",
+      "children raised in multilingual households develop stronger language skills than those raised in monolingual households."
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions, the correct answer follows directly from the evidence without overstating it.</div><div class='explanation-step'>The passage distinguishes between the quality of interaction (responsive caregivers who expand on utterances) and passive exposure (background speech from TV or radio), finding that quality matters more. The conclusion must capture this distinction.</div><div class='explanation-step'><strong>A)</strong> The passage says quality matters more than quantity, which contradicts the idea that the total number of words is the strongest predictor. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The passage explicitly says background speech from TV produces fewer gains than responsive interaction, so this contradicts the evidence. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This directly captures the passage&rsquo;s central finding: active, responsive engagement outperforms passive speech exposure. Keep C.</div><div class='explanation-step'><strong>D)</strong> The passage does not address multilingual households. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L2-052",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Punctuation",
+      "skill": "Comma Usage"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "punctuation",
+      "commas",
+      "introductory phrase"
+    ],
+    "stem": "Frustrated by years of failed diplomatic negotiations over fishing rights in the disputed coastal waters <span class='blank'>_______</span> the two nations finally agreed to submit the dispute to an international arbitration panel.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "waters;",
+      "waters,",
+      "waters:",
+      "waters and"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The blank follows a long introductory phrase, so this question tests <strong>Comma Usage</strong> with introductory elements.</div><div class='explanation-step'>The opening phrase &ldquo;Frustrated by years of failed diplomatic negotiations over fishing rights in the disputed coastal waters&rdquo; is an introductory participial phrase modifying &ldquo;the two nations.&rdquo; An introductory phrase must be followed by a comma before the main clause.</div><div class='explanation-step'><strong>A)</strong> A semicolon must be preceded by an independent clause, but the introductory phrase is not an independent clause. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> A comma correctly separates the introductory participial phrase from the main clause. Keep B.</div><div class='explanation-step'><strong>C)</strong> A colon must also be preceded by an independent clause. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;And&rdquo; attempts to join two elements as if they are parallel, but the introductory phrase is not parallel to the main clause. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L2-053",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Rhetorical Synthesis",
+      "skill": "Supporting a Claim"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "rhetorical synthesis",
+      "notes"
+    ],
+    "stemSegments": [
+      {
+        "style": "intro",
+        "align": "left",
+        "text": "A student is writing a report about the declining population of monarch butterflies. The student wants to present evidence that habitat loss is a significant factor in the decline."
+      },
+      {
+        "style": "notes",
+        "align": "left",
+        "text": "&#8226; The monarch butterfly population in North America has declined by more than 80% over the past two decades.\n&#8226; Milkweed, the only plant monarch caterpillars can eat, has been eliminated from approximately 165 million acres of monarch habitat due to herbicide use and land development.\n&#8226; Climate change has disrupted the timing of monarch migration, causing mismatches between butterfly arrival and milkweed availability.\n&#8226; Illegal logging in the monarch&rsquo;s Mexican wintering grounds destroyed roughly 45% of the forest area the butterflies depend on between 2018 and 2022.\n&#8226; Conservation programs planting milkweed along roadsides and in gardens have shown early success in some regions."
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "Which choice most effectively uses relevant information from the notes to accomplish this goal?"
+      }
+    ],
+    "choices": [
+      "The monarch butterfly population has declined dramatically over the past two decades, raising concerns among conservationists and scientists.",
+      "Climate change has disrupted monarch migration patterns, suggesting that environmental factors beyond habitat loss may also be driving the decline.",
+      "Herbicide use and land development have eliminated milkweed from approximately 165 million acres of monarch habitat, removing the only food source available to monarch caterpillars.",
+      "Conservation programs that plant milkweed in roadsides and gardens have shown early success, though the overall monarch population continues to decline."
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the correct answer uses specific information from the notes to accomplish the stated goal. Here, the goal is to present evidence that habitat loss is a significant factor in the decline.</div><div class='explanation-step'><strong>A)</strong> This states that the population has declined but does not provide evidence about habitat loss specifically. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This focuses on climate change, not habitat loss, and actually introduces an alternative explanation rather than supporting the stated goal. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This cites a specific, quantified example of habitat loss (165 million acres of milkweed eliminated) and explains why it matters (milkweed is the only food source for caterpillars). It directly supports the claim that habitat loss is a significant factor. Keep C.</div><div class='explanation-step'><strong>D)</strong> This focuses on conservation efforts and acknowledges continued decline but does not present evidence about habitat loss as a cause. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L2-054",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Words in Context",
+      "skill": "Vocabulary in Context"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "vocabulary",
+      "words in context"
+    ],
+    "stemSegments": [
+      {
+        "style": "passage",
+        "align": "left",
+        "text": "The archaeologist's initial excitement gave way to frustration as the dig site yielded only <u>fragmentary</u> evidence — a few shards of pottery, a corroded coin, and some animal bones — making it impossible to draw firm conclusions about who had inhabited the settlement or when."
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "As used in the text, &ldquo;fragmentary&rdquo; most nearly means"
+      }
+    ],
+    "choices": [
+      "misleading",
+      "ancient",
+      "incomplete",
+      "scattered"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use the surrounding context rather than the most common definition of the word.</div><div class='explanation-step'>The passage describes evidence consisting of only a few items — shards, a coin, some bones — and states this makes firm conclusions impossible. The word &ldquo;fragmentary&rdquo; describes evidence that is insufficient because it is only partial.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Misleading&rdquo; implies the evidence pointed in a wrong direction, but the passage says only that conclusions were impossible, not that the evidence was deceptive. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Ancient&rdquo; describes the age of the evidence, not its quantity or quality. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Incomplete&rdquo; captures the sense that the evidence was only partial — not enough to draw conclusions. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Scattered&rdquo; refers to physical distribution, not to the insufficiency of the evidence. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L2-055",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Words in Context",
+      "skill": "Vocabulary in Context"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "vocabulary",
+      "words in context"
+    ],
+    "stemSegments": [
+      {
+        "style": "passage",
+        "align": "left",
+        "text": "The urban planning commission had spent months developing a proposal that all parties initially seemed to support. When the vote finally came, however, two council members who had expressed enthusiasm for the project <u>abstained</u>, leaving its future uncertain."
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "As used in the text, &ldquo;abstained&rdquo; most nearly means"
+      }
+    ],
+    "choices": [
+      "objected",
+      "declined to vote",
+      "changed their position",
+      "voted in favor"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use the surrounding context to determine what the word means as used in this passage.</div><div class='explanation-step'>The passage sets up a contrast between the council members&rsquo; earlier enthusiasm and their behavior at the vote, which left the project&rsquo;s future uncertain. The word &ldquo;abstained&rdquo; describes what they did instead of voting yes or no.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Objected&rdquo; implies active opposition, but the passage says the future was left uncertain — not that it was blocked. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Declined to vote&rdquo; accurately captures abstaining — choosing not to cast a vote either way — which would explain why the outcome was uncertain. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Changed their position&rdquo; implies they moved from support to opposition, but the passage does not say they voted against it. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> If they had voted in favor, the proposal would likely have passed and the future would not be uncertain. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L2-056",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Words in Context",
+      "skill": "Vocabulary in Context"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "vocabulary",
+      "words in context"
+    ],
+    "stemSegments": [
+      {
+        "style": "passage",
+        "align": "left",
+        "text": "The novelist&rsquo;s latest work was praised for its <u>unflinching</u> portrayal of life in postwar Europe, depicting poverty, displacement, and moral ambiguity without softening the harsh realities that survivors faced."
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "As used in the text, &ldquo;unflinching&rdquo; most nearly means"
+      }
+    ],
+    "choices": [
+      "critical",
+      "unsparing",
+      "pessimistic",
+      "detailed"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use the surrounding context to determine what the word means as used in this passage.</div><div class='explanation-step'>The passage says the portrayal depicts harsh realities &ldquo;without softening&rdquo; them. The word &ldquo;unflinching&rdquo; describes the author&rsquo;s willingness to face and present difficult subject matter directly.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Critical&rdquo; implies passing negative judgment, but the passage describes depicting reality honestly, not critiquing it. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Unsparing&rdquo; means holding nothing back and not softening difficult truths — exactly what the passage describes. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Pessimistic&rdquo; implies a negative outlook or expectation, but the passage is about honest depiction, not attitude toward the future. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Detailed&rdquo; refers to thoroughness of description, not the author&rsquo;s willingness to confront difficult material without softening it. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L2-057",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Words in Context",
+      "skill": "Vocabulary in Context"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "vocabulary",
+      "words in context"
+    ],
+    "stemSegments": [
+      {
+        "style": "passage",
+        "align": "left",
+        "text": "Although the two researchers had reached the same conclusion, their methods were entirely <u>divergent</u>: one relied on large-scale survey data collected over a decade, while the other drew exclusively on close readings of historical documents."
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "As used in the text, &ldquo;divergent&rdquo; most nearly means"
+      }
+    ],
+    "choices": [
+      "unreliable",
+      "innovative",
+      "distinct",
+      "controversial"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use the surrounding context to determine what the word means as used in this passage.</div><div class='explanation-step'>The passage contrasts two methods — one using survey data, one using historical documents — making clear they are very different from each other. &ldquo;Divergent&rdquo; describes how the methods differ.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Unreliable&rdquo; would imply the methods were flawed, but the passage does not question their validity. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Innovative&rdquo; implies novelty, but the passage is about the difference between the two methods, not their originality. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Distinct&rdquo; captures the sense that the methods were clearly different from each other, which matches the contrast described. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Controversial&rdquo; implies disagreement or debate about the methods, but the passage only describes their differences, not any dispute. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L2-058",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Words in Context",
+      "skill": "Vocabulary in Context"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "vocabulary",
+      "words in context"
+    ],
+    "stemSegments": [
+      {
+        "style": "passage",
+        "align": "left",
+        "text": "The administration&rsquo;s new housing policy was <u>contentious</u> from the start: tenant advocates argued it would accelerate displacement in low-income neighborhoods, while developers insisted it would increase the overall supply of affordable units."
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "As used in the text, &ldquo;contentious&rdquo; most nearly means"
+      }
+    ],
+    "choices": [
+      "ineffective",
+      "widely debated",
+      "poorly designed",
+      "politically motivated"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use the surrounding context to determine what the word means as used in this passage.</div><div class='explanation-step'>The passage immediately follows &ldquo;contentious&rdquo; with a colon introducing two opposing viewpoints — tenant advocates on one side, developers on the other. This directly shows the policy was disputed.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Ineffective&rdquo; implies the policy failed to work, but the passage describes a debate about its effects, not evidence that it failed. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Widely debated&rdquo; captures the sense that opposing groups disagreed about the policy, which is exactly what the passage illustrates. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Poorly designed&rdquo; is a judgment about quality, but the passage presents two competing interpretations rather than a verdict. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Politically motivated&rdquo; implies a hidden agenda, which the passage does not suggest. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+    {
+    "id": "V-L2-059",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Boundaries",
+      "skill": "Run-ons and Fragments"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "boundaries",
+      "run-on",
+      "comma splice"
+    ],
+    "stem": "The new transit line reduced average commute times by nearly 40 percent <span class='blank'>_______</span> ridership on the existing bus routes declined sharply as a result.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      ", and",
+      ", but",
+      ", so",
+      ", however,"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. Both clauses are independent, so this question tests how to correctly join them.</div><div class='explanation-step'>The first clause describes a cause (reduced commute times) and the second describes an effect (declining bus ridership). A comma alone between two independent clauses creates a comma splice, so a coordinating conjunction is needed. The relationship is causal: the transit line&rsquo;s success caused riders to switch.</div><div class='explanation-step'><strong>A)</strong> &ldquo;And&rdquo; signals addition but does not capture the cause-and-effect relationship between the two clauses. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;But&rdquo; signals contrast, but the second clause is a result of the first, not a contradiction of it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;So&rdquo; correctly signals that the second clause is a consequence of the first, joining two independent clauses with a comma and coordinating conjunction. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;However&rdquo; is a conjunctive adverb, not a coordinating conjunction. A comma followed by &ldquo;however&rdquo; creates a comma splice. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L2-060",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Boundaries",
+      "skill": "Nonessential Phrase Punctuation"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "boundaries",
+      "nonessential phrase",
+      "appositive"
+    ],
+    "stem": "The documentary focuses on Nikola Tesla <span class='blank'>_______</span> the Serbian-American inventor whose rivalry with Thomas Edison shaped the development of modern electrical systems.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "Tesla,",
+      "Tesla:",
+      "Tesla;",
+      "Tesla —"
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The phrase following the blank is a nonessential appositive describing Tesla, so this question tests <strong>Nonessential Phrase Punctuation</strong>.</div><div class='explanation-step'>The phrase &ldquo;the Serbian-American inventor whose rivalry with Thomas Edison shaped the development of modern electrical systems&rdquo; adds extra information about Tesla but is not essential to identify who is being discussed. It must be set off with matching punctuation. Since the phrase ends the sentence with a period, the opening punctuation should be a comma.</div><div class='explanation-step'><strong>A)</strong> A comma before the appositive correctly opens the nonessential phrase, which closes naturally at the period. Keep A.</div><div class='explanation-step'><strong>B)</strong> A colon must be preceded by an independent clause and introduces a list or explanation, not an appositive. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> A semicolon must be followed by an independent clause. The appositive phrase is not an independent clause. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> A dash would require a matching dash at the end of the phrase, but the sentence ends with a period, making the punctuation asymmetric. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+  },
+  {
+    "id": "V-L2-061",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Form, Structure, and Sense",
+      "skill": "Subject-Verb Agreement"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "form structure sense",
+      "subject-verb agreement"
+    ],
+    "stem": "The presence of rare earth minerals in the region, combined with the recently discovered oil deposits, <span class='blank'>_______</span> drawn significant interest from international energy companies.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "have",
+      "has",
+      "having",
+      "are"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices are different verb forms, so this question tests <strong>Subject-Verb Agreement</strong>.</div><div class='explanation-step'>The subject is &ldquo;the presence,&rdquo; which is singular. The phrase &ldquo;combined with the recently discovered oil deposits&rdquo; is a participial phrase modifying the subject — it does not create a compound subject. The verb must agree with the singular &ldquo;the presence.&rdquo;</div><div class='explanation-step'><strong>A)</strong> &ldquo;Have&rdquo; is plural and would agree with a plural subject, but &ldquo;the presence&rdquo; is singular. The phrase &ldquo;combined with&rdquo; is a common trap — it looks like &ldquo;and&rdquo; but does not create a compound subject. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Has&rdquo; is singular and correctly agrees with &ldquo;the presence.&rdquo; Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Having&rdquo; is a participle, not a conjugated verb, so it cannot serve as the main verb of the sentence. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Are&rdquo; is plural and does not agree with the singular subject. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L2-062",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Form, Structure, and Sense",
+      "skill": "Subject-Verb Agreement"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "form structure sense",
+      "subject-verb agreement"
+    ],
+    "stem": "Each of the studies included in the meta-analysis <span class='blank'>_______</span> a different population, making direct comparisons between them difficult but not impossible.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "examine",
+      "examined",
+      "examining",
+      "have examined"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices are different verb forms, so this question tests <strong>Subject-Verb Agreement</strong> and tense.</div><div class='explanation-step'>The subject is &ldquo;each,&rdquo; which is always singular. The phrase &ldquo;of the studies included in the meta-analysis&rdquo; is a prepositional phrase — ignore it when identifying the subject. The passage is written in past tense, so the verb must be singular past tense.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Examine&rdquo; is singular present tense, but the passage context calls for past tense. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Examined&rdquo; is singular past tense and correctly agrees with &ldquo;each&rdquo; while matching the past tense context. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Examining&rdquo; is a participle and cannot serve as the main verb. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Have examined&rdquo; is plural present perfect and does not agree with the singular &ldquo;each.&rdquo; Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L2-063",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Form, Structure, and Sense",
+      "skill": "Verb Tense and Form"
+    },
+    "level": 2,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "form structure sense",
+      "verb tense"
+    ],
+    "stem": "By the time the rescue team arrived at the remote research station, the storm <span class='blank'>_______</span> already knocked out the facility&rsquo;s communications equipment, leaving the scientists inside with no way to contact the outside world.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "has",
+      "had",
+      "was",
+      "have"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices are different verb forms, so this question tests <strong>Verb Tense</strong>.</div><div class='explanation-step'>The sentence describes two past events: the storm knocking out communications, and the rescue team arriving. The storm&rsquo;s action happened before the team arrived. When one past action precedes another, the earlier action takes the past perfect tense: &ldquo;had + past participle.&rdquo;</div><div class='explanation-step'><strong>A)</strong> &ldquo;Has&rdquo; is present perfect and refers to an action connected to the present, not to a sequence of past events. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Had&rdquo; correctly forms the past perfect (&ldquo;had knocked&rdquo;), indicating the storm&rsquo;s action was completed before the team arrived. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Was&rdquo; forms a past progressive (&ldquo;was knocked&rdquo;), which implies the action was ongoing at a point in the past rather than completed before another past event. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Have&rdquo; is plural present perfect and does not agree with the singular subject &ldquo;the storm.&rdquo; Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
 {
       "id": "V-L3-001",
       "type": "mcq",
@@ -2450,7 +2963,6 @@
   "answerIndex": 0,
   "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word or phrase fits in the blank. Look for signal words that show whether the blank should be a synonym, an antonym, or a cause-and-effect relationship to another part of the sentence.</div><div class='explanation-step'>Here, the passage says that Professor Ghanem &ldquo;challenged conventional beliefs&rdquo; and sought to correct &ldquo;a long-held misconception.&rdquo; These clues indicate that his goal was to <em>contradict</em>, or <em>disprove</em> an existing idea.</div><div class='explanation-step'><strong>A)</strong> &ldquo;debunk&rdquo; means to expose or disprove something false, which fits perfectly with the idea of challenging a misconception. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;validate&rdquo; means to confirm or support, which is the opposite of what the professor was doing. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;overlook&rdquo; means to ignore or fail to notice, which doesn’t make sense in the context of actively challenging beliefs. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;trivialize&rdquo; means to make something seem less important, which doesn’t fit as well as debunk’’ because the professor wasn’t minimizing the misconception—he was disproving it. Eliminate D.</div><br><br>This means <strong>A</strong> is the correct answer."
 },
-
 {
       "id": "V-L3-002",
       "type": "mcq",
@@ -4194,6 +4706,409 @@
     ],
     "answerIndex": 2,
     "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices offer different ways to connect two clauses, so this question tests <strong>Semicolons and Colons</strong>.</div><div class='explanation-step'>The first clause makes a general claim: the findings overturned a long-held assumption. The second clause specifies exactly what that overturned assumption was. When an independent clause is followed by a clause that directly explains or specifies what came before, a colon is the correct punctuation.</div><div class='explanation-step'><strong>A)</strong> A comma with &ldquo;and&rdquo; joins two equal independent clauses but does not signal the explanatory relationship between them. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;However&rdquo; signals contrast, but the second clause is not contrasting with the first &mdash; it is explaining it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> A colon correctly signals that what follows explains or specifies the overturned assumption mentioned in the first clause. Keep C.</div><div class='explanation-step'><strong>D)</strong> A semicolon joins two independent clauses of equal weight but does not signal the explanatory relationship as precisely as a colon does here. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L3-058",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Expression of Ideas",
+      "topic": "Logical Transitions",
+      "skill": "Addition"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "logical transition",
+      "addition"
+    ],
+    "stem": "Scholars have long noted that medieval European monasteries served as centers of intellectual life, preserving classical texts and producing illuminated manuscripts that would otherwise have been lost. <span class='blank'>_______</span> monasteries functioned as the primary providers of healthcare in many regions, operating infirmaries that treated the sick and maintaining extensive gardens of medicinal herbs whose cultivation represented a sophisticated body of botanical knowledge.<br><br>Which choice completes the text with the most logical transition?",
+    "choices": [
+      "However,",
+      "As a result,",
+      "Beyond their scholarly role,",
+      "In contrast to this,"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas. At level 3, the correct answer may be a phrase rather than a single word, and the wrong answers are designed to seem plausible.</div><div class='explanation-step'>The first sentence describes monasteries as intellectual centers. The second sentence adds a separate, additional role: healthcare providers. The transition must signal that this is an additional function beyond the one already described, not a contrast or result.</div><div class='explanation-step'><strong>A)</strong> &ldquo;However&rdquo; signals contrast, but the second sentence is not opposing the first &mdash; it is adding to it. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;As a result&rdquo; signals causation, implying the healthcare role resulted from the scholarly role. The passage does not suggest this causal relationship. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Beyond their scholarly role&rdquo; correctly signals that the healthcare function is an additional role beyond what was already described, perfectly bridging the two sentences. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;In contrast to this&rdquo; signals opposition, but the healthcare role is not contrasted with the scholarly role &mdash; both are presented as functions of monasteries. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L3-059",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Subject-Verb Agreement",
+      "skill": "Subject-Verb Agreement"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "subject-verb agreement",
+      "complex sentence"
+    ],
+    "stem": "The question of whether the economic benefits generated by large-scale tourism in historically significant cities such as Venice and Dubrovnik <span class='blank'>_______</span> the social and infrastructural costs imposed on permanent residents has become a central concern of urban policy researchers.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "outweigh",
+      "outweighs",
+      "have outweighed",
+      "are outweighing"
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices are different verb forms, so this question tests <strong>Subject-Verb Agreement</strong> in a highly complex sentence.</div><div class='explanation-step'>The sentence is structured as: &ldquo;The question of whether [the economic benefits] _______ the costs has become a concern.&rdquo; Strip away the intervening phrases: &ldquo;generated by large-scale tourism in historically significant cities such as Venice and Dubrovnik&rdquo; modifies &ldquo;the economic benefits,&rdquo; which is the subject of the blank verb. &ldquo;The economic benefits&rdquo; is plural, so the verb must be plural.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Outweigh&rdquo; is plural and correctly agrees with &ldquo;the economic benefits.&rdquo; Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Outweighs&rdquo; is singular. A common trap here is agreeing with &ldquo;tourism&rdquo; or &ldquo;the question,&rdquo; but neither is the subject of the blank verb. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Have outweighed&rdquo; is present perfect plural, which implies a completed action with present relevance. The sentence is describing an ongoing question, not a settled conclusion. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Are outweighing&rdquo; is present progressive, which implies a temporary ongoing action rather than a general relationship. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+  },
+  {
+    "id": "V-L3-060",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Information and Ideas",
+      "topic": "Inference",
+      "skill": "Logical Completion"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "inference",
+      "logical completion",
+      "psychology"
+    ],
+    "stem": "Psychologists studying decision-making under uncertainty have found that people evaluate potential losses and gains asymmetrically: the emotional impact of losing a given amount of money is roughly twice as powerful as the emotional impact of gaining the same amount. This phenomenon, known as loss aversion, leads individuals to make choices that prioritize avoiding losses over acquiring equivalent gains, even when the expected value of both options is identical. Researchers have noted that loss aversion is particularly pronounced when individuals are asked to make decisions quickly and under pressure, suggesting that <span class='blank'>_______</span>.<br><br>Which choice most logically completes the text?",
+    "choices": [
+      "loss aversion is a learned behavior that diminishes with experience in high-pressure environments.",
+      "people who make financial decisions quickly tend to achieve better outcomes than those who deliberate at length.",
+      "loss aversion may be amplified when deliberate reasoning is limited, pointing to a role for more automatic cognitive processes.",
+      "the emotional impact of financial losses is greater for individuals with lower incomes than for those with higher incomes."
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions, the correct answer follows directly from the evidence without overstating it. At level 3, wrong answers are designed to use plausible language while misapplying or extending the passage&rsquo;s logic.</div><div class='explanation-step'>The key finding is that loss aversion is more pronounced under time pressure and stress &mdash; conditions that limit deliberate, careful thinking. The conclusion must connect this observation to what it implies about the cognitive mechanisms involved.</div><div class='explanation-step'><strong>A)</strong> The passage does not say loss aversion is learned or that it diminishes with experience. This introduces ideas not supported by the passage. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The passage does not compare outcomes of quick vs. deliberate decisions. This distorts the finding. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This directly follows from the evidence: if loss aversion intensifies when people are under pressure and have less time to think, it suggests that automatic (rather than deliberate) cognitive processes play a role in driving it. Keep C.</div><div class='explanation-step'><strong>D)</strong> Income levels are not mentioned in the passage. This introduces an unsupported variable. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L3-061",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Words in Context",
+      "skill": "Vocabulary in Context"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "vocabulary",
+      "words in context"
+    ],
+    "stemSegments": [
+      {
+        "style": "passage",
+        "align": "left",
+        "text": "The philosopher argued that most political disagreements are not rooted in differences of fact but in differences of value — and that these value conflicts are, in an important sense, <u>intractable</u>, since no amount of evidence or argument can bridge a fundamental disagreement about what ultimately matters."
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "As used in the text, &ldquo;intractable&rdquo; most nearly means"
+      }
+    ],
+    "choices": [
+      "misunderstood",
+      "irresolvable",
+      "widespread",
+      "harmful"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, two or more choices may seem plausible. The correct answer must fit the precise meaning the word carries in context.</div><div class='explanation-step'>The passage argues that value conflicts cannot be resolved through evidence or argument. &ldquo;Intractable&rdquo; describes conflicts that resist resolution — they cannot be worked through or overcome.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Misunderstood&rdquo; would imply the conflicts stem from a failure of comprehension, but the philosopher argues they are genuine and deep, not merely miscommunications. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Irresolvable&rdquo; precisely captures the meaning: no evidence or argument can bridge these conflicts, so they cannot be resolved. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Widespread&rdquo; refers to how common the conflicts are, not to whether they can be resolved. The passage is about their nature, not their frequency. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Harmful&rdquo; describes consequences, but the passage focuses on whether the conflicts can be resolved, not on their effects. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-062",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Words in Context",
+      "skill": "Vocabulary in Context"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "vocabulary",
+      "words in context"
+    ],
+    "stemSegments": [
+      {
+        "style": "passage",
+        "align": "left",
+        "text": "The biographer faced an unusual challenge: her subject had been <u>prodigious</u> in his output, leaving behind over forty novels, hundreds of essays, and thousands of letters, yet had said almost nothing in any of them about his own inner life or motivations."
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "As used in the text, &ldquo;prodigious&rdquo; most nearly means"
+      }
+    ],
+    "choices": [
+      "influential",
+      "prolific",
+      "disciplined",
+      "celebrated"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, the correct answer requires careful attention to what the word is doing in context rather than relying on its most familiar meaning.</div><div class='explanation-step'>&ldquo;Prodigious&rdquo; here modifies &ldquo;output,&rdquo; and the passage immediately specifies that output: forty novels, hundreds of essays, thousands of letters. The word describes the sheer quantity of what was produced.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Influential&rdquo; describes the impact of the work on others, but the passage is about the volume of the output, not its effect. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Prolific&rdquo; means producing a large quantity of work, which fits precisely: the passage lists an enormous body of writing. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Disciplined&rdquo; refers to the writer&rsquo;s work habits or self-control, not to the quantity of what he produced. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Celebrated&rdquo; refers to how the work was received, not to how much of it existed. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-063",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Words in Context",
+      "skill": "Vocabulary in Context"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "vocabulary",
+      "words in context"
+    ],
+    "stemSegments": [
+      {
+        "style": "passage",
+        "align": "left",
+        "text": "The senator&rsquo;s speech was widely praised for its <u>measured</u> tone: rather than inflaming an already tense debate with accusations, she acknowledged the concerns of both sides and proposed a framework for negotiation."
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "As used in the text, &ldquo;measured&rdquo; most nearly means"
+      }
+    ],
+    "choices": [
+      "calculated",
+      "restrained",
+      "formal",
+      "persuasive"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, two choices may seem plausible. The correct answer must fit the specific meaning in context.</div><div class='explanation-step'>The passage contrasts a &ldquo;measured&rdquo; tone with &ldquo;inflaming&rdquo; the debate — the senator chose not to escalate but instead acknowledged both sides. The word describes careful, controlled speech that avoids excess.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Calculated&rdquo; implies deliberate strategy for personal gain, which has a somewhat negative connotation not present in the passage. The passage praises the tone, not criticizes it. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Restrained&rdquo; captures the sense of holding back from inflammatory language and speaking in a controlled, even-handed way. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Formal&rdquo; refers to register or style, not to the quality of emotional control the passage describes. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Persuasive&rdquo; refers to effectiveness at changing minds, but the passage focuses on tone and approach, not outcome. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-064",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Words in Context",
+      "skill": "Vocabulary in Context"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "vocabulary",
+      "words in context"
+    ],
+    "stemSegments": [
+      {
+        "style": "passage",
+        "align": "left",
+        "text": "The committee was initially skeptical of the proposal, but after three hours of testimony from engineers, economists, and community representatives, their resistance gradually <u>eroded</u>, and by the end of the session they had agreed to fund a pilot program."
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "As used in the text, &ldquo;eroded&rdquo; most nearly means"
+      }
+    ],
+    "choices": [
+      "collapsed",
+      "transformed",
+      "weakened",
+      "disappeared"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, pay close attention to degree and process. The correct answer must match not just the direction of change but how it happened.</div><div class='explanation-step'>The passage describes resistance that &ldquo;gradually eroded&rdquo; — a slow, incremental process of wearing away. The committee did not become enthusiastic supporters; they agreed to a pilot program, suggesting their resistance weakened but did not vanish entirely.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Collapsed&rdquo; implies a sudden, complete breakdown — but &ldquo;gradually&rdquo; signals a slow process, not an abrupt one. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Transformed&rdquo; implies the resistance changed into something else entirely, but the passage describes it diminishing, not converting into enthusiasm. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Weakened&rdquo; captures the gradual, partial nature of the change — the resistance diminished enough to allow agreement, without necessarily disappearing. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Disappeared&rdquo; implies the resistance was completely gone, but the passage only says they agreed to a pilot program — a cautious step, not full endorsement. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  },
+  {
+    "id": "V-L3-065",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Craft and Structure",
+      "topic": "Words in Context",
+      "skill": "Vocabulary in Context"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "vocabulary",
+      "words in context"
+    ],
+    "stemSegments": [
+      {
+        "style": "passage",
+        "align": "left",
+        "text": "The anthropologist cautioned against reading the ritual as purely symbolic. In her view, the ceremony served a <u>pragmatic</u> function within the community: it established alliances between families, redistributed food resources, and provided a structured opportunity to resolve ongoing disputes."
+      },
+      {
+        "style": "question",
+        "align": "left",
+        "text": "As used in the text, &ldquo;pragmatic&rdquo; most nearly means"
+      }
+    ],
+    "choices": [
+      "cultural",
+      "practical",
+      "political",
+      "economic"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, the correct answer must capture the precise meaning as used, not just a related idea.</div><div class='explanation-step'>The anthropologist contrasts a &ldquo;purely symbolic&rdquo; reading with a &ldquo;pragmatic&rdquo; function. The examples that follow — establishing alliances, redistributing food, resolving disputes — are all real-world, functional outcomes, not symbolic meanings.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Cultural&rdquo; describes the context of the ritual but does not capture the contrast with symbolic that &ldquo;pragmatic&rdquo; is drawing. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Practical&rdquo; directly captures the meaning: the ceremony accomplishes real, concrete purposes in the world rather than only carrying symbolic meaning. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Political&rdquo; might describe one aspect (alliances, dispute resolution), but &ldquo;pragmatic&rdquo; is broader than political and encompasses the food redistribution as well. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Economic&rdquo; captures the food redistribution aspect but not the full meaning of &ldquo;pragmatic,&rdquo; which encompasses all the practical functions listed. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-066",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Boundaries",
+      "skill": "Run-ons and Fragments"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "boundaries",
+      "run-on",
+      "subordinate clause"
+    ],
+    "stem": "The committee approved the revised budget proposal, <span class='blank'>_______</span> several members had expressed reservations about the projected revenue figures during earlier discussions.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "however",
+      "although",
+      "therefore",
+      "and"
+    ],
+    "answerIndex": 1,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices offer different ways to connect the two clauses, so this question tests <strong>Boundaries</strong> and subordination.</div><div class='explanation-step'>The two clauses express a contrast: the committee approved the proposal despite members having reservations. The connecting word must signal this concession and create a grammatically correct sentence. A subordinating conjunction turns the second clause into a dependent clause, which can follow a comma.</div><div class='explanation-step'><strong>A)</strong> &ldquo;However&rdquo; is a conjunctive adverb. Using it after a comma creates a comma splice — it cannot join two independent clauses with only a comma. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Although&rdquo; is a subordinating conjunction that correctly signals concession and turns the second clause into a dependent clause, making the sentence grammatically correct. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Therefore&rdquo; signals a conclusion or result, but approving a proposal despite reservations is not a logical result of having reservations. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;And&rdquo; signals addition and does not capture the contrast between the approval and the reservations. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  },
+  {
+    "id": "V-L3-067",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Boundaries",
+      "skill": "Nonessential Phrase Punctuation"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "boundaries",
+      "nonessential phrase",
+      "em dash"
+    ],
+    "stem": "The treaty, signed in 1648 after decades of conflict <span class='blank'>_______</span> established a framework for state sovereignty that would influence international relations for centuries.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "conflict,",
+      "conflict;",
+      "conflict —",
+      "conflict:"
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. This question tests <strong>Nonessential Phrase Punctuation</strong>.</div><div class='explanation-step'>The phrase &ldquo;signed in 1648 after decades of conflict&rdquo; is a nonessential modifier set off after &ldquo;The treaty&rdquo; with a comma. The phrase must be closed with matching punctuation before the main verb &ldquo;established.&rdquo; Since the phrase opened with a comma, it must close with a comma.</div><div class='explanation-step'><strong>A)</strong> A comma closes the nonessential phrase symmetrically, matching the opening comma after &ldquo;The treaty.&rdquo; Keep A.</div><div class='explanation-step'><strong>B)</strong> A semicolon here would separate what comes before it from what comes after as two independent clauses, but &ldquo;signed in 1648 after decades of conflict&rdquo; is not an independent clause. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> A dash would require the phrase to have opened with a dash, not a comma. Mixing punctuation types to set off the same phrase is incorrect. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> A colon introduces what follows as an explanation or list, which does not fit here — &ldquo;established a framework&rdquo; is the main verb of the sentence, not a list. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+  },
+  {
+    "id": "V-L3-068",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Form, Structure, and Sense",
+      "skill": "Subject-Verb Agreement"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "form structure sense",
+      "subject-verb agreement"
+    ],
+    "stem": "Neither the long-term projections published by the research institute nor the preliminary data gathered by the independent auditors <span class='blank'>_______</span> the administration&rsquo;s claim that the program had achieved its stated cost-reduction targets.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "support",
+      "supports",
+      "have supported",
+      "is supporting"
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The sentence uses &ldquo;neither...nor,&rdquo; so this question tests <strong>Subject-Verb Agreement</strong> with correlative conjunctions.</div><div class='explanation-step'>When a sentence uses &ldquo;neither...nor,&rdquo; the verb agrees with the subject closest to it. The two subjects are &ldquo;the long-term projections&rdquo; (plural) and &ldquo;the preliminary data&rdquo; (singular, but here &ldquo;data&rdquo; functions as plural in academic contexts — more importantly, &ldquo;the preliminary data gathered by the independent auditors&rdquo; is the closer subject). In standard SAT usage, &ldquo;data&rdquo; is treated as plural, making the closer subject plural.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Support&rdquo; is plural and agrees with the plural subject closest to the verb. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Supports&rdquo; is singular. While &ldquo;data&rdquo; can sometimes be treated as singular colloquially, on the SAT it is treated as plural, and the neither/nor rule requires agreement with the closer subject. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Have supported&rdquo; is present perfect plural, which implies a completed action with present relevance rather than a general ongoing state. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Is supporting&rdquo; is singular present progressive and does not agree with the plural subject closest to the verb. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+  },
+  {
+    "id": "V-L3-069",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Form, Structure, and Sense",
+      "skill": "Subject-Verb Agreement"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "form structure sense",
+      "subject-verb agreement",
+      "relative clause"
+    ],
+    "stem": "The series of paintings that <span class='blank'>_______</span> the centerpiece of the retrospective was acquired by the museum over a decade ago from a private collector in Zurich.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "form",
+      "forms",
+      "formed",
+      "have formed"
+    ],
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices are different verb forms, so this question tests <strong>Subject-Verb Agreement</strong> within a relative clause.</div><div class='explanation-step'>The relative clause is &ldquo;that _______ the centerpiece of the retrospective.&rdquo; The relative pronoun &ldquo;that&rdquo; refers back to its antecedent, which is &ldquo;The series of paintings.&rdquo; The key question is whether &ldquo;that&rdquo; refers to &ldquo;series&rdquo; (singular) or &ldquo;paintings&rdquo; (plural). Because &ldquo;paintings&rdquo; is the noun immediately before &ldquo;that,&rdquo; and it is the paintings (not the series as a concept) that form the centerpiece, the verb agrees with the plural &ldquo;paintings.&rdquo;</div><div class='explanation-step'><strong>A)</strong> &ldquo;Form&rdquo; is plural present tense and correctly agrees with &ldquo;paintings&rdquo; as the antecedent of &ldquo;that.&rdquo; Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Forms&rdquo; is singular and would agree with &ldquo;series,&rdquo; but the more natural antecedent of &ldquo;that&rdquo; here is &ldquo;paintings.&rdquo; Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Formed&rdquo; is past tense, but the sentence uses present tense (&ldquo;was acquired&rdquo; refers to a past acquisition, but the paintings currently form the centerpiece). Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Have formed&rdquo; is present perfect and implies the paintings formed the centerpiece at some point in the past with present relevance — the sentence describes their current role. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+  },
+  {
+    "id": "V-L3-070",
+    "type": "mcq",
+    "mode": "practice",
+    "subject": "verbal",
+    "skill": {
+      "domain": "Standard English Conventions",
+      "topic": "Form, Structure, and Sense",
+      "skill": "Parallelism"
+    },
+    "level": 3,
+    "set": "Verbal Practice",
+    "tags": [
+      "grammar",
+      "form structure sense",
+      "parallelism"
+    ],
+    "stem": "The foundation&rsquo;s annual report outlined three strategic priorities for the coming decade: expanding access to early childhood education in underserved communities, strengthening partnerships with local government agencies, and <span class='blank'>_______</span>.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "a new endowment fund will be established to support long-term research initiatives",
+      "the establishment of a new endowment fund to support long-term research initiatives",
+      "establishing a new endowment fund to support long-term research initiatives",
+      "to establish a new endowment fund that would support long-term research initiatives"
+    ],
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The blank completes a list introduced by a colon, so this question tests <strong>Parallelism</strong>.</div><div class='explanation-step'>The list contains two items already: &ldquo;expanding access to early childhood education&rdquo; and &ldquo;strengthening partnerships with local government agencies.&rdquo; Both are gerund phrases. The third item must also be a gerund phrase.</div><div class='explanation-step'><strong>A)</strong> This is an independent clause, not a gerund phrase. It cannot be a list item parallel to the other two. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;The establishment of&rdquo; is a noun phrase, not a gerund phrase. It does not match &ldquo;expanding&rdquo; and &ldquo;strengthening.&rdquo; Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Establishing a new endowment fund&rdquo; is a gerund phrase that matches the form of the other two list items. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;To establish&rdquo; is an infinitive, not a gerund. It does not match the gerund form established by the other list items. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
   }
 ]
 }
