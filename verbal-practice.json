@@ -2106,33 +2106,29 @@
     "answerIndex": 2,
     "explanation": "<div class='explanation-step'>For <em>Central Ideas and Details</em> questions with &ldquo;according to the text&rdquo; phrasing, the correct answer will be directly stated in the passage.</div><div class='explanation-step'>The passage states that before the Haber-Bosch process, farmers &ldquo;relied primarily on organic sources of nitrogen such as manure and guano to fertilize crops, which severely limited agricultural output.&rdquo;</div><div class='explanation-step'><strong>A)</strong> The passage does not say farmers lacked access to atmospheric nitrogen; the problem was that they lacked a way to convert it into a usable form. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The passage does not mention the cost of synthetic fertilizers. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This directly paraphrases the passage&rsquo;s statement that reliance on organic nitrogen sources &ldquo;severely limited agricultural output.&rdquo; Keep C.</div><div class='explanation-step'><strong>D)</strong> The passage says the Haber-Bosch process supported population growth, not that population outpaced food supply before it. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
   },
-  {
+{
     "id": "V-L2-038",
     "type": "mcq",
     "mode": "practice",
     "subject": "verbal",
     "skill": {
       "domain": "Standard English Conventions",
-      "topic": "Punctuation",
-      "skill": "Semicolons and Colons"
+      "topic": "Sentence Structure",
+      "skill": "Run-ons and Fragments"
     },
     "level": 2,
     "set": "Verbal Practice",
-    "tags": [
-      "grammar",
-      "punctuation",
-      "semicolon"
-    ],
-    "stem": "The Apollo 11 mission depended on contributions from thousands of engineers, mathematicians, and scientists working across dozens of institutions <span class='blank'>_______</span> the guidance software alone was written by a team of programmers at MIT led by Margaret Hamilton, whose code had to function flawlessly in real time with no opportunity for error correction.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "tags": ["grammar", "boundaries", "run-on"],
+    "stem": "The Apollo 11 mission depended on contributions from thousands of engineers, mathematicians, and scientists working across dozens of <span class='blank'>_______</span> the guidance software alone was written by a team of programmers at MIT led by Margaret Hamilton, whose code had to function flawlessly in real time with no opportunity for error correction.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
-      "; however,",
-      "; for example,",
-      ", and",
-      ": nevertheless,"
+      "institutions, and",
+      "institutions;",
+      "institutions.",
+      "institutions, but"
     ],
     "answerIndex": 1,
-    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices offer different ways to connect two independent clauses, so this question tests <strong>Semicolons and Colons</strong>.</div><div class='explanation-step'>The first clause makes a broad claim about the mission&rsquo;s many contributors. The second clause gives a specific example of one contribution: the guidance software written by Margaret Hamilton&rsquo;s team. The correct punctuation must join two independent clauses and signal that the second is an example of the first.</div><div class='explanation-step'><strong>A)</strong> &ldquo;However&rdquo; signals contrast, but the second clause does not contradict the first. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> A semicolon correctly joins two independent clauses, and &ldquo;for example&rdquo; correctly signals that the second clause provides a specific instance of the general claim in the first. Keep B.</div><div class='explanation-step'><strong>C)</strong> A comma with &ldquo;and&rdquo; joins the clauses but does not signal the example relationship between them, making the connection between the two ideas less clear. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Nevertheless&rdquo; signals contrast or concession, which does not fit the relationship between these two clauses. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
-  },
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. Both parts of the sentence are independent clauses, so this question tests <strong>Sentence Boundaries</strong>.</div><div class='explanation-step'>The first clause makes a general claim about Apollo 11&rsquo;s many contributors. The second clause provides a specific example. Both are independent clauses, so they need punctuation strong enough to join them. A semicolon correctly joins two independent clauses without implying addition or contrast.</div><div class='explanation-step'><strong>A)</strong> &ldquo;And&rdquo; signals addition, but the second clause is a specific example of the first, not simply an additional fact. Less precise here. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> A semicolon correctly joins two independent clauses. Keep B.</div><div class='explanation-step'><strong>C)</strong> A period would create two separate sentences, which is grammatically acceptable but awkward given that the second sentence begins with &ldquo;the guidance software alone,&rdquo; which requires context from the first. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;But&rdquo; signals contrast, but the second clause supports rather than contradicts the first. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+},
   {
     "id": "V-L2-039",
     "type": "mcq",
@@ -2470,12 +2466,12 @@
       {
         "style": "passage",
         "align": "left",
-        "text": "<strong>Text 1</strong><br>The widespread adoption of remote work has been largely positive for knowledge workers. Employees report greater autonomy, reduced commute times, and improved work-life balance. Studies suggest that many workers are as productive at home as they are in the office, and some research indicates productivity gains in roles that require sustained, focused work. The flexibility of remote arrangements has also expanded the talent pool available to employers, who can now hire from virtually anywhere."
+        "text": "<strong>Text 1</strong><br>The widespread adoption of remote work has been largely positive for workers in professional and office-based roles. Many employees report greater autonomy, reduced commute times, and improved work-life balance. Studies suggest that many workers are as productive at home as they are in the office, and some research indicates productivity gains in roles that require sustained, focused work. Remote worke has also expanded the talent pool available to employers, who can now hire from virtually anywhere."
       },
       {
         "style": "passage",
         "align": "left",
-        "text": "<strong>Text 2</strong><br>The enthusiasm for remote work overlooks significant costs that do not appear in productivity metrics. Junior employees, in particular, lose access to the informal mentorship and spontaneous collaboration that office environments provide. The subtle lessons learned by observing experienced colleagues &mdash; how to navigate a difficult client call, how to read a room during a negotiation &mdash; cannot be replicated through scheduled video meetings. Organizations that embrace remote work fully may find that they are producing output efficiently in the short term while quietly eroding the tacit knowledge that sustains long-term performance."
+        "text": "<strong>Text 2</strong><br>The enthusiasm for remote work overlooks significant costs that do not appear in measures of productivity. Junior employees, in particular, lose access to the informal mentorship and spontaneous collaboration that office environments provide. The subtle lessons learned by observing experienced colleagues, such as how to navigate a difficult client call or how to read a room during a negotiation, cannot be replicated through virtual meetings. Organizations that rely heavily on remote work may find that higher levels of productivity in the short term while neglecting the soft skills and critical knowledge that sustain long-term employee performance."
       },
       {
         "style": "question",
@@ -3453,7 +3449,7 @@
         "style": "table"
       },
       {
-        "text": "A researcher analyzing national health survey data argues that among the age groups surveyed, higher screen time is associated with shorter sleep duration, and that this relationship is most pronounced in the youngest age group. The researcher notes that this pattern suggests screen time may be disrupting sleep habits, and that it is plausible, for example, that <span class='blank'>_______</span>",
+        "text": "A researcher analyzing national health survey data argues that among the age groups surveyed, higher screen time is associated with shorter sleep duration, and that this relationship is most pronounced in the youngest age group. The researcher notes that this pattern suggests screen time may be disrupting sleep habits, as illustrated, for example, by the fact that <span class='blank'>_______</span>",
         "align": "left",
         "style": "passage"
       },
@@ -4084,12 +4080,12 @@
       "vocabulary",
       "sentence completion"
     ],
-    "stem": "Though celebrated for her meticulous scholarship, the historian's critics argued that her apparent objectivity was itself a pose — that her selection of sources and framing of events reflected commitments far from <span class='blank'>_______</span>, however neutral her prose style appeared on the surface.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+    "stem": "Though celebrated for her rigorous research, the historian was also criticized by those who argued that her apparent objectivity was fabricated and that her selection of sources and framing of events reflected commitments far from <span class='blank'>_______</span>, however neutral her prose style appeared on the surface.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
-      "disinterested",
+      "transparent",
       "impartial",
-      "detached",
-      "rigorous"
+      "consistent",
+      "detached"
     ],
     "answerIndex": 1,
     "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, the blank must capture a precise quality the critics say the historian lacks. The critics argue her &ldquo;apparent objectivity was itself a pose&rdquo; — her source selection and framing revealed underlying commitments despite a neutral prose surface. The blank must mean something like genuinely neutral or free from bias.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Impartial&rdquo; means treating all sides equally — close, but the key distinction is that &ldquo;disinterested&rdquo; specifically means having no personal stake or vested interest in the outcome, which is the quality critics say her source selection undermines. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Disinterested&rdquo; means free from personal interest or bias — precisely what the critics argue she is not, since her framing reveals underlying commitments. This is also a classic vocabulary trap: students often confuse &ldquo;disinterested&rdquo; (unbiased) with &ldquo;uninterested&rdquo; (indifferent). Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Detached&rdquo; means emotionally removed — the critics are questioning her intellectual bias, not her emotional involvement. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Rigorous&rdquo; means thorough and demanding — her scholarship is described as meticulous, so calling it &ldquo;far from rigorous&rdquo; would contradict the passage. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
