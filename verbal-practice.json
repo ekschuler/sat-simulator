@@ -2352,12 +2352,12 @@
       {
         "style": "passage",
         "align": "left",
-        "text": "The committee&rsquo;s report was thorough, citing dozens of studies and interviewing hundreds of stakeholders over the course of two years. Its conclusions, however, were <u>tepid</u>: rather than recommending bold action, it called for further review and additional consultation."
+        "text": "The committee&rsquo;s report was thorough, citing dozens of studies and interviewing hundreds of stakeholders over the course of two years. Its conclusions, however, were <span class='blank'>_______</span>: rather than recommending bold action, it called for further review and additional consultation."
       },
       {
         "style": "question",
         "align": "left",
-        "text": "As used in the text, &ldquo;tepid&rdquo; most nearly means"
+        "text": "Which choice completes the text with the most logical and precise word or phrase?"
       }
     ],
     "choices": [
@@ -2367,7 +2367,7 @@
       "incomplete"
     ],
     "answerIndex": 2,
-    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, do not rely on the most common definition of the word. Instead, use the surrounding context to determine what the word means as it is used in this passage.</div><div class='explanation-step'>The passage contrasts the committee&rsquo;s thorough process with its conclusions, which fell short of &ldquo;bold action.&rdquo; The word &ldquo;tepid&rdquo; describes conclusions that recommended further review rather than decisive steps &mdash; the opposite of bold.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Controversial&rdquo; implies disagreement or conflict, but the passage focuses on the conclusions being weak, not disputed. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Delayed&rdquo; refers to timing, but the passage is describing the nature of the conclusions, not when they arrived. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Cautious&rdquo; captures the sense of holding back from bold action, which fits the contrast the passage draws. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Incomplete&rdquo; suggests something is missing or unfinished, but the conclusions are described as deliberately restrained, not unfinished. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+    "explanation": "<div class='explanation-step'>For <em>Words in Context</em> questions, use the surrounding context to determine which word or phrase most logically and precisely completes the text.</div><div class='explanation-step'>The passage contrasts the committee&rsquo;s thorough process with its conclusions, which fell short of &ldquo;bold action.&rdquo; The word &ldquo;tepid&rdquo; describes conclusions that recommended further review rather than decisive steps &mdash; the opposite of bold.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Controversial&rdquo; implies disagreement or conflict, but the passage focuses on the conclusions being weak, not disputed. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Delayed&rdquo; refers to timing, but the passage is describing the nature of the conclusions, not when they arrived. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Cautious&rdquo; captures the sense of holding back from bold action, which fits the contrast the passage draws. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Incomplete&rdquo; suggests something is missing or unfinished, but the conclusions are described as deliberately restrained, not unfinished. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
   },
   {
     "id": "V-L2-047",
@@ -2611,7 +2611,7 @@
     "answerIndex": 2,
     "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the correct answer uses specific information from the notes to accomplish the stated goal. Here, the goal is to present evidence that habitat loss is a significant factor in the decline.</div><div class='explanation-step'><strong>A)</strong> This states that the population has declined but does not provide evidence about habitat loss specifically. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This focuses on climate change, not habitat loss, and actually introduces an alternative explanation rather than supporting the stated goal. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This cites a specific, quantified example of habitat loss (165 million acres of milkweed eliminated) and explains why it matters (milkweed is the only food source for caterpillars). It directly supports the claim that habitat loss is a significant factor. Keep C.</div><div class='explanation-step'><strong>D)</strong> This focuses on conservation efforts and acknowledges continued decline but does not present evidence about habitat loss as a cause. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
   },
-  {
+{
     "id": "V-L2-054",
     "type": "mcq",
     "mode": "practice",
@@ -2631,12 +2631,12 @@
       {
         "style": "passage",
         "align": "left",
-        "text": "The archaeologist's initial excitement gave way to frustration as the dig site yielded only <u>fragmentary</u> evidence — a few shards of pottery, a corroded coin, and some animal bones — making it impossible to draw firm conclusions about who had inhabited the settlement or when."
+        "text": "The archaeologist's initial excitement gave way to frustration as the dig site yielded only <span class='blank'>_______</span> evidence — a few shards of pottery, a corroded coin, and some animal bones — making it impossible to draw firm conclusions about who had inhabited the settlement or when."
       },
       {
         "style": "question",
         "align": "left",
-        "text": "As used in the text, &ldquo;fragmentary&rdquo; most nearly means"
+        "text": "Which choice completes the text with the most logical and precise word or phrase?"
       }
     ],
     "choices": [
@@ -2648,7 +2648,7 @@
     "answerIndex": 2,
     "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use the surrounding context rather than the most common definition of the word.</div><div class='explanation-step'>The passage describes evidence consisting of only a few items — shards, a coin, some bones — and states this makes firm conclusions impossible. The word &ldquo;fragmentary&rdquo; describes evidence that is insufficient because it is only partial.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Misleading&rdquo; implies the evidence pointed in a wrong direction, but the passage says only that conclusions were impossible, not that the evidence was deceptive. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Ancient&rdquo; describes the age of the evidence, not its quantity or quality. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Incomplete&rdquo; captures the sense that the evidence was only partial — not enough to draw conclusions. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Scattered&rdquo; refers to physical distribution, not to the insufficiency of the evidence. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
   },
-  {
+{
     "id": "V-L2-055",
     "type": "mcq",
     "mode": "practice",
@@ -2668,12 +2668,12 @@
       {
         "style": "passage",
         "align": "left",
-        "text": "The urban planning commission had spent months developing a proposal that all parties initially seemed to support. When the vote finally came, however, two council members who had expressed enthusiasm for the project <u>abstained</u>, leaving its future uncertain."
+        "text": "The urban planning commission had spent months developing a proposal that all parties initially seemed to support. When the vote finally came, however, two council members who had expressed enthusiasm for the project <span class='blank'>_______</span>, leaving its future uncertain."
       },
       {
         "style": "question",
         "align": "left",
-        "text": "As used in the text, &ldquo;abstained&rdquo; most nearly means"
+        "text": "Which choice completes the text with the most logical and precise word or phrase?"
       }
     ],
     "choices": [
@@ -2683,7 +2683,7 @@
       "voted in favor"
     ],
     "answerIndex": 1,
-    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use the surrounding context to determine what the word means as used in this passage.</div><div class='explanation-step'>The passage sets up a contrast between the council members&rsquo; earlier enthusiasm and their behavior at the vote, which left the project&rsquo;s future uncertain. The word &ldquo;abstained&rdquo; describes what they did instead of voting yes or no.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Objected&rdquo; implies active opposition, but the passage says the future was left uncertain — not that it was blocked. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Declined to vote&rdquo; accurately captures abstaining — choosing not to cast a vote either way — which would explain why the outcome was uncertain. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Changed their position&rdquo; implies they moved from support to opposition, but the passage does not say they voted against it. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> If they had voted in favor, the proposal would likely have passed and the future would not be uncertain. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    "explanation": "<div class='explanation-step'>For <em>Words in Context</em> questions, use the surrounding context to determine which word or phrase most logically and precisely completes the text.</div><div class='explanation-step'>The passage sets up a contrast between the council members&rsquo; earlier enthusiasm and their behavior at the vote, which left the project&rsquo;s future uncertain. The word &ldquo;abstained&rdquo; describes what they did instead of voting yes or no.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Objected&rdquo; implies active opposition, but the passage says the future was left uncertain — not that it was blocked. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Declined to vote&rdquo; accurately captures abstaining — choosing not to cast a vote either way — which would explain why the outcome was uncertain. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Changed their position&rdquo; implies they moved from support to opposition, but the passage does not say they voted against it. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> If they had voted in favor, the proposal would likely have passed and the future would not be uncertain. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
   },
   {
     "id": "V-L2-056",
@@ -2705,12 +2705,12 @@
       {
         "style": "passage",
         "align": "left",
-        "text": "The novelist&rsquo;s latest work was praised for its <u>unflinching</u> portrayal of life in postwar Europe, depicting poverty, displacement, and moral ambiguity without softening the harsh realities that survivors faced."
+        "text": "The novelist&rsquo;s latest work was praised for its <span class='blank'>_______</span> portrayal of life in postwar Europe, depicting poverty, displacement, and moral ambiguity without softening the harsh realities that survivors faced."
       },
       {
         "style": "question",
         "align": "left",
-        "text": "As used in the text, &ldquo;unflinching&rdquo; most nearly means"
+        "text": "Which choice completes the text with the most logical and precise word or phrase?"
       }
     ],
     "choices": [
@@ -2720,7 +2720,7 @@
       "detailed"
     ],
     "answerIndex": 1,
-    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use the surrounding context to determine what the word means as used in this passage.</div><div class='explanation-step'>The passage says the portrayal depicts harsh realities &ldquo;without softening&rdquo; them. The word &ldquo;unflinching&rdquo; describes the author&rsquo;s willingness to face and present difficult subject matter directly.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Critical&rdquo; implies passing negative judgment, but the passage describes depicting reality honestly, not critiquing it. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Unsparing&rdquo; means holding nothing back and not softening difficult truths — exactly what the passage describes. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Pessimistic&rdquo; implies a negative outlook or expectation, but the passage is about honest depiction, not attitude toward the future. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Detailed&rdquo; refers to thoroughness of description, not the author&rsquo;s willingness to confront difficult material without softening it. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    "explanation": "<div class='explanation-step'>For <em>Words in Context</em> questions, use the surrounding context to determine which word or phrase most logically and precisely completes the text.</div><div class='explanation-step'>The passage says the portrayal depicts harsh realities &ldquo;without softening&rdquo; them. The word &ldquo;unflinching&rdquo; describes the author&rsquo;s willingness to face and present difficult subject matter directly.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Critical&rdquo; implies passing negative judgment, but the passage describes depicting reality honestly, not critiquing it. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Unsparing&rdquo; means holding nothing back and not softening difficult truths — exactly what the passage describes. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Pessimistic&rdquo; implies a negative outlook or expectation, but the passage is about honest depiction, not attitude toward the future. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Detailed&rdquo; refers to thoroughness of description, not the author&rsquo;s willingness to confront difficult material without softening it. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
   },
   {
     "id": "V-L2-057",
@@ -2742,12 +2742,12 @@
       {
         "style": "passage",
         "align": "left",
-        "text": "Although the two researchers had reached the same conclusion, their methods were entirely <u>divergent</u>: one relied on large-scale survey data collected over a decade, while the other drew exclusively on close readings of historical documents."
+        "text": "Although the two researchers had reached the same conclusion, their methods were entirely <span class='blank'>_______</span>: one relied on large-scale survey data collected over a decade, while the other drew exclusively on close readings of historical documents."
       },
       {
         "style": "question",
         "align": "left",
-        "text": "As used in the text, &ldquo;divergent&rdquo; most nearly means"
+        "text": "Which choice completes the text with the most logical and precise word or phrase?"
       }
     ],
     "choices": [
@@ -2757,7 +2757,7 @@
       "controversial"
     ],
     "answerIndex": 2,
-    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use the surrounding context to determine what the word means as used in this passage.</div><div class='explanation-step'>The passage contrasts two methods — one using survey data, one using historical documents — making clear they are very different from each other. &ldquo;Divergent&rdquo; describes how the methods differ.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Unreliable&rdquo; would imply the methods were flawed, but the passage does not question their validity. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Innovative&rdquo; implies novelty, but the passage is about the difference between the two methods, not their originality. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Distinct&rdquo; captures the sense that the methods were clearly different from each other, which matches the contrast described. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Controversial&rdquo; implies disagreement or debate about the methods, but the passage only describes their differences, not any dispute. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+    "explanation": "<div class='explanation-step'>For <em>Words in Context</em> questions, use the surrounding context to determine which word or phrase most logically and precisely completes the text.</div><div class='explanation-step'>The passage contrasts two methods — one using survey data, one using historical documents — making clear they are very different from each other. &ldquo;Divergent&rdquo; describes how the methods differ.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Unreliable&rdquo; would imply the methods were flawed, but the passage does not question their validity. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Innovative&rdquo; implies novelty, but the passage is about the difference between the two methods, not their originality. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Distinct&rdquo; captures the sense that the methods were clearly different from each other, which matches the contrast described. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Controversial&rdquo; implies disagreement or debate about the methods, but the passage only describes their differences, not any dispute. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
   },
   {
     "id": "V-L2-058",
@@ -2779,12 +2779,12 @@
       {
         "style": "passage",
         "align": "left",
-        "text": "The administration&rsquo;s new housing policy was <u>contentious</u> from the start: tenant advocates argued it would accelerate displacement in low-income neighborhoods, while developers insisted it would increase the overall supply of affordable units."
+        "text": "The administration&rsquo;s new housing policy was <span class='blank'>_______</span> from the start: tenant advocates argued it would accelerate displacement in low-income neighborhoods, while developers insisted it would increase the overall supply of affordable units."
       },
       {
         "style": "question",
         "align": "left",
-        "text": "As used in the text, &ldquo;contentious&rdquo; most nearly means"
+        "text": "Which choice completes the text with the most logical and precise word or phrase?"
       }
     ],
     "choices": [
@@ -2794,7 +2794,7 @@
       "politically motivated"
     ],
     "answerIndex": 1,
-    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use the surrounding context to determine what the word means as used in this passage.</div><div class='explanation-step'>The passage immediately follows &ldquo;contentious&rdquo; with a colon introducing two opposing viewpoints — tenant advocates on one side, developers on the other. This directly shows the policy was disputed.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Ineffective&rdquo; implies the policy failed to work, but the passage describes a debate about its effects, not evidence that it failed. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Widely debated&rdquo; captures the sense that opposing groups disagreed about the policy, which is exactly what the passage illustrates. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Poorly designed&rdquo; is a judgment about quality, but the passage presents two competing interpretations rather than a verdict. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Politically motivated&rdquo; implies a hidden agenda, which the passage does not suggest. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    "explanation": "<div class='explanation-step'>For <em>Words in Context</em> questions, use the surrounding context to determine which word or phrase most logically and precisely completes the text.</div><div class='explanation-step'>The passage immediately follows &ldquo;contentious&rdquo; with a colon introducing two opposing viewpoints — tenant advocates on one side, developers on the other. This directly shows the policy was disputed.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Ineffective&rdquo; implies the policy failed to work, but the passage describes a debate about its effects, not evidence that it failed. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Widely debated&rdquo; captures the sense that opposing groups disagreed about the policy, which is exactly what the passage illustrates. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Poorly designed&rdquo; is a judgment about quality, but the passage presents two competing interpretations rather than a verdict. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Politically motivated&rdquo; implies a hidden agenda, which the passage does not suggest. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
   },
     {
     "id": "V-L2-059",
@@ -4783,7 +4783,7 @@
     "answerIndex": 2,
     "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions, the correct answer follows directly from the evidence without overstating it. At level 3, wrong answers are designed to use plausible language while misapplying or extending the passage&rsquo;s logic.</div><div class='explanation-step'>The key finding is that loss aversion is more pronounced under time pressure and stress &mdash; conditions that limit deliberate, careful thinking. The conclusion must connect this observation to what it implies about the cognitive mechanisms involved.</div><div class='explanation-step'><strong>A)</strong> The passage does not say loss aversion is learned or that it diminishes with experience. This introduces ideas not supported by the passage. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The passage does not compare outcomes of quick vs. deliberate decisions. This distorts the finding. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This directly follows from the evidence: if loss aversion intensifies when people are under pressure and have less time to think, it suggests that automatic (rather than deliberate) cognitive processes play a role in driving it. Keep C.</div><div class='explanation-step'><strong>D)</strong> Income levels are not mentioned in the passage. This introduces an unsupported variable. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
   },
-  {
+ {
     "id": "V-L3-061",
     "type": "mcq",
     "mode": "practice",
@@ -4803,12 +4803,12 @@
       {
         "style": "passage",
         "align": "left",
-        "text": "The philosopher argued that most political disagreements are not rooted in differences of fact but in differences of value — and that these value conflicts are, in an important sense, <u>intractable</u>, since no amount of evidence or argument can bridge a fundamental disagreement about what ultimately matters."
+        "text": "The philosopher argued that most political disagreements are not rooted in differences of fact but in differences of value — and that these value conflicts are, in an important sense, <span class='blank'>_______</span>, since no amount of evidence or argument can bridge a fundamental disagreement about what ultimately matters."
       },
       {
         "style": "question",
         "align": "left",
-        "text": "As used in the text, &ldquo;intractable&rdquo; most nearly means"
+        "text": "Which choice completes the text with the most logical and precise word or phrase?"
       }
     ],
     "choices": [
@@ -4818,7 +4818,7 @@
       "harmful"
     ],
     "answerIndex": 1,
-    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, two or more choices may seem plausible. The correct answer must fit the precise meaning the word carries in context.</div><div class='explanation-step'>The passage argues that value conflicts cannot be resolved through evidence or argument. &ldquo;Intractable&rdquo; describes conflicts that resist resolution — they cannot be worked through or overcome.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Misunderstood&rdquo; would imply the conflicts stem from a failure of comprehension, but the philosopher argues they are genuine and deep, not merely miscommunications. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Irresolvable&rdquo; precisely captures the meaning: no evidence or argument can bridge these conflicts, so they cannot be resolved. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Widespread&rdquo; refers to how common the conflicts are, not to whether they can be resolved. The passage is about their nature, not their frequency. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Harmful&rdquo; describes consequences, but the passage focuses on whether the conflicts can be resolved, not on their effects. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    "explanation": "<div class='explanation-step'>For <em>Words in Context</em> questions at level 3, two or more choices may seem plausible. The correct answer must be the most logical and precise fit given the surrounding context.</div><div class='explanation-step'>The passage argues that value conflicts cannot be resolved through evidence or argument. &ldquo;Intractable&rdquo; describes conflicts that resist resolution — they cannot be worked through or overcome.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Misunderstood&rdquo; would imply the conflicts stem from a failure of comprehension, but the philosopher argues they are genuine and deep, not merely miscommunications. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Irresolvable&rdquo; precisely captures the meaning: no evidence or argument can bridge these conflicts, so they cannot be resolved. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Widespread&rdquo; refers to how common the conflicts are, not to whether they can be resolved. The passage is about their nature, not their frequency. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Harmful&rdquo; describes consequences, but the passage focuses on whether the conflicts can be resolved, not on their effects. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
   },
   {
     "id": "V-L3-062",
@@ -4840,12 +4840,12 @@
       {
         "style": "passage",
         "align": "left",
-        "text": "The biographer faced an unusual challenge: her subject had been <u>prodigious</u> in his output, leaving behind over forty novels, hundreds of essays, and thousands of letters, yet had said almost nothing in any of them about his own inner life or motivations."
+        "text": "The biographer faced an unusual challenge: her subject had been <span class='blank'>_______</span> in his output, leaving behind over forty novels, hundreds of essays, and thousands of letters, yet had said almost nothing in any of them about his own inner life or motivations."
       },
       {
         "style": "question",
         "align": "left",
-        "text": "As used in the text, &ldquo;prodigious&rdquo; most nearly means"
+        "text": "Which choice completes the text with the most logical and precise word or phrase?"
       }
     ],
     "choices": [
@@ -4855,7 +4855,7 @@
       "celebrated"
     ],
     "answerIndex": 1,
-    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, the correct answer requires careful attention to what the word is doing in context rather than relying on its most familiar meaning.</div><div class='explanation-step'>&ldquo;Prodigious&rdquo; here modifies &ldquo;output,&rdquo; and the passage immediately specifies that output: forty novels, hundreds of essays, thousands of letters. The word describes the sheer quantity of what was produced.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Influential&rdquo; describes the impact of the work on others, but the passage is about the volume of the output, not its effect. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Prolific&rdquo; means producing a large quantity of work, which fits precisely: the passage lists an enormous body of writing. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Disciplined&rdquo; refers to the writer&rsquo;s work habits or self-control, not to the quantity of what he produced. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Celebrated&rdquo; refers to how the work was received, not to how much of it existed. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    "explanation": "<div class='explanation-step'>For <em>Words in Context</em> questions at level 3, the correct answer requires careful attention to what the word is doing in context rather than relying on its most familiar meaning.</div><div class='explanation-step'>&ldquo;Prodigious&rdquo; here modifies &ldquo;output,&rdquo; and the passage immediately specifies that output: forty novels, hundreds of essays, thousands of letters. The word describes the sheer quantity of what was produced.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Influential&rdquo; describes the impact of the work on others, but the passage is about the volume of the output, not its effect. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Prolific&rdquo; means producing a large quantity of work, which fits precisely: the passage lists an enormous body of writing. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Disciplined&rdquo; refers to the writer&rsquo;s work habits or self-control, not to the quantity of what he produced. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Celebrated&rdquo; refers to how the work was received, not to how much of it existed. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
   },
   {
     "id": "V-L3-063",
@@ -4877,12 +4877,12 @@
       {
         "style": "passage",
         "align": "left",
-        "text": "The senator&rsquo;s speech was widely praised for its <u>measured</u> tone: rather than inflaming an already tense debate with accusations, she acknowledged the concerns of both sides and proposed a framework for negotiation."
+        "text": "The senator&rsquo;s speech was widely praised for its <span class='blank'>_______</span> tone: rather than inflaming an already tense debate with accusations, she acknowledged the concerns of both sides and proposed a framework for negotiation."
       },
       {
         "style": "question",
         "align": "left",
-        "text": "As used in the text, &ldquo;measured&rdquo; most nearly means"
+        "text": "Which choice completes the text with the most logical and precise word or phrase?"
       }
     ],
     "choices": [
@@ -4914,12 +4914,12 @@
       {
         "style": "passage",
         "align": "left",
-        "text": "The committee was initially skeptical of the proposal, but after three hours of testimony from engineers, economists, and community representatives, their resistance gradually <u>eroded</u>, and by the end of the session they had agreed to fund a pilot program."
+        "text": "The committee was initially skeptical of the proposal, but after three hours of testimony from engineers, economists, and community representatives, their resistance gradually <span class='blank'>_______</span>, and by the end of the session they had agreed to fund a pilot program."
       },
       {
         "style": "question",
         "align": "left",
-        "text": "As used in the text, &ldquo;eroded&rdquo; most nearly means"
+        "text": "Which choice completes the text with the most logical and precise word or phrase?"
       }
     ],
     "choices": [
@@ -4929,7 +4929,7 @@
       "disappeared"
     ],
     "answerIndex": 2,
-    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, pay close attention to degree and process. The correct answer must match not just the direction of change but how it happened.</div><div class='explanation-step'>The passage describes resistance that &ldquo;gradually eroded&rdquo; — a slow, incremental process of wearing away. The committee did not become enthusiastic supporters; they agreed to a pilot program, suggesting their resistance weakened but did not vanish entirely.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Collapsed&rdquo; implies a sudden, complete breakdown — but &ldquo;gradually&rdquo; signals a slow process, not an abrupt one. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Transformed&rdquo; implies the resistance changed into something else entirely, but the passage describes it diminishing, not converting into enthusiasm. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Weakened&rdquo; captures the gradual, partial nature of the change — the resistance diminished enough to allow agreement, without necessarily disappearing. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Disappeared&rdquo; implies the resistance was completely gone, but the passage only says they agreed to a pilot program — a cautious step, not full endorsement. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+    "explanation": "<div class='explanation-step'>For <em>Words in Context</em> questions at level 3, pay close attention to degree and process. The correct answer must match not just the direction of change but how it happened.</div><div class='explanation-step'>The passage describes resistance that &ldquo;gradually eroded&rdquo; — a slow, incremental process of wearing away. The committee did not become enthusiastic supporters; they agreed to a pilot program, suggesting their resistance weakened but did not vanish entirely.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Collapsed&rdquo; implies a sudden, complete breakdown — but &ldquo;gradually&rdquo; signals a slow process, not an abrupt one. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Transformed&rdquo; implies the resistance changed into something else entirely, but the passage describes it diminishing, not converting into enthusiasm. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Weakened&rdquo; captures the gradual, partial nature of the change — the resistance diminished enough to allow agreement, without necessarily disappearing. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Disappeared&rdquo; implies the resistance was completely gone, but the passage only says they agreed to a pilot program — a cautious step, not full endorsement. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
   },
   {
     "id": "V-L3-065",
@@ -4951,12 +4951,12 @@
       {
         "style": "passage",
         "align": "left",
-        "text": "The anthropologist cautioned against reading the ritual as purely symbolic. In her view, the ceremony served a <u>pragmatic</u> function within the community: it established alliances between families, redistributed food resources, and provided a structured opportunity to resolve ongoing disputes."
+        "text": "The anthropologist cautioned against reading the ritual as purely symbolic. In her view, the ceremony served a <span class='blank'>_______</span> function within the community: it established alliances between families, redistributed food resources, and provided a structured opportunity to resolve ongoing disputes."
       },
       {
         "style": "question",
         "align": "left",
-        "text": "As used in the text, &ldquo;pragmatic&rdquo; most nearly means"
+        "text": "Which choice completes the text with the most logical and precise word or phrase?"
       }
     ],
     "choices": [
@@ -4966,7 +4966,7 @@
       "economic"
     ],
     "answerIndex": 1,
-    "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, the correct answer must capture the precise meaning as used, not just a related idea.</div><div class='explanation-step'>The anthropologist contrasts a &ldquo;purely symbolic&rdquo; reading with a &ldquo;pragmatic&rdquo; function. The examples that follow — establishing alliances, redistributing food, resolving disputes — are all real-world, functional outcomes, not symbolic meanings.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Cultural&rdquo; describes the context of the ritual but does not capture the contrast with symbolic that &ldquo;pragmatic&rdquo; is drawing. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Practical&rdquo; directly captures the meaning: the ceremony accomplishes real, concrete purposes in the world rather than only carrying symbolic meaning. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Political&rdquo; might describe one aspect (alliances, dispute resolution), but &ldquo;pragmatic&rdquo; is broader than political and encompasses the food redistribution as well. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Economic&rdquo; captures the food redistribution aspect but not the full meaning of &ldquo;pragmatic,&rdquo; which encompasses all the practical functions listed. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    "explanation": "<div class='explanation-step'>For <em>Words in Context</em> questions at level 3, the correct answer must be the most precise fit given the context, not just a related idea.</div><div class='explanation-step'>The anthropologist contrasts a &ldquo;purely symbolic&rdquo; reading with a &ldquo;pragmatic&rdquo; function. The examples that follow — establishing alliances, redistributing food, resolving disputes — are all real-world, functional outcomes, not symbolic meanings.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Cultural&rdquo; describes the context of the ritual but does not capture the contrast with symbolic that &ldquo;pragmatic&rdquo; is drawing. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Practical&rdquo; directly captures the meaning: the ceremony accomplishes real, concrete purposes in the world rather than only carrying symbolic meaning. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Political&rdquo; might describe one aspect (alliances, dispute resolution), but &ldquo;pragmatic&rdquo; is broader than political and encompasses the food redistribution as well. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Economic&rdquo; captures the food redistribution aspect but not the full meaning of &ldquo;pragmatic,&rdquo; which encompasses all the practical functions listed. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
   },
   {
     "id": "V-L3-066",
