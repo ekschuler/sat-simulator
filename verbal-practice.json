@@ -252,7 +252,7 @@
       "set": "Verbal Practice",
       "tags": ["grammar", "possessive pronouns"],
 
-      "stem": "Labor laws that outline paid break requirements for companies, are, unbeknownst to employees, often violated, says labor attorney Curtis Jones of Labor Justice for California (LJC). Jones argues that frequently the flaw lies not in the law itself, but in its not going far enough by requiring employers to explicitly inform employees of <span class='blank'>_______</span> right to paid breaks.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "stem": "Labor laws that outline paid break requirements for companies are, unbeknownst to employees, often violated, says labor attorney Curtis Jones of Labor Justice for California (LJC). Jones argues that frequently the flaw lies not in the law itself, but in its not going far enough by requiring employers to explicitly inform employees of <span class='blank'>_______</span> right to paid breaks.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
   "choices": [
     "your",
     "ones",
@@ -283,10 +283,10 @@
     "consideration,&rdquo; suggests",
     "consideration&rdquo;: suggests",
     "consideration&rdquo;; suggests",
-    "consideration.&rdquo; suggests"
+    "consideration.&rdquo; Suggests"
   ],
   "answerIndex": 0,
-  "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. Here, the answer choices offer different ways of joining two clauses, so this question focuses on <strong>Sentence Structure (Run-ons and Fragments)</strong>.</div><div class='explanation-step'>To answer, determine whether the clause before the blank is independent or dependent. The first clause, &ldquo;His claim that 'laws are executed by men who have absolutely no motive for treating Black people <em>with</em> courtesy or blank' &rdquo; has the subject <em>claim</em> but no verb, so it is a dependent clause, or not a complete sentence.   The verb from the answer choices, &ldquo;suggests&rdquo;, completes the thought. This means the correct punctuation must connect the quotation by including suggests in the first sentence. </div><div class='explanation-step'><strong>A)</strong>&ldquo;'consideration,'  suggests&rdquo; correctly keeps the quotation within the same sentence. The comma indicates the sentence continues with the verb suggests. Keep A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;'consideration': suggests&rdquo; incorrectly uses a colon, which can only follow an independent clause. It ends the first clause off so it never gets a verb. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>&ldquo; 'consideration'; suggests&rdquo; incorrectly uses a semicolon, which also joins two independent clauses. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;'consideration.' suggests&rdquo; ends the sentence too early, creating a fragment before the verb. Eliminate D.</div><br><br>This means the correct answer is <strong>A</strong>."
+  "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. Here, the answer choices offer different ways of joining two clauses, so this question focuses on <strong>Sentence Structure (Run-ons and Fragments)</strong>.</div><div class='explanation-step'>To answer, determine whether the clause before the blank is independent or dependent. The first clause, &ldquo;His claim that 'laws are executed by men who have absolutely no motive for treating Black people <em>with</em> courtesy or blank' &rdquo; has the subject <em>claim</em> but no verb, so it is a dependent clause, or not a complete sentence.   The verb from the answer choices, &ldquo;suggests&rdquo;, completes the thought. This means the correct punctuation must connect the quotation by including suggests in the first sentence. </div><div class='explanation-step'><strong>A)</strong>&ldquo;'consideration,'  suggests&rdquo; correctly keeps the quotation within the same sentence. The comma indicates the sentence continues with the verb suggests. Keep A.</div><div class='explanation-step'><strong>B)</strong>&ldquo;'consideration': suggests&rdquo; incorrectly uses a colon, which can only follow an independent clause. It ends the first clause off so it never gets a verb. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>&ldquo; 'consideration'; suggests&rdquo; incorrectly uses a semicolon, which also joins two independent clauses. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>&ldquo;'consideration.' Suggests&rdquo; ends the sentence too early, creating a fragment before the verb. Eliminate D.</div><br><br>This means the correct answer is <strong>A</strong>."
 },
 {
       "id": "V-L1-011",
@@ -774,12 +774,12 @@
       "punctuation",
       "commas"
     ],
-    "stem": "The giant sequoia, native to the western slopes of the Sierra Nevada in California, is the largest tree species on Earth by volume. Some individual trees have survived for more than 3,000 years <span class='blank'>_______</span> making them among the oldest living organisms ever recorded.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "stem": "The giant sequoia, native to the western slopes of the Sierra Nevada in California, is the largest tree species on Earth by volume. Some individual trees have survived for more than 3,000 <span class='blank'>_______</span> them among the oldest living organisms ever recorded.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
-      "years,",
-      "years;",
-      "years:",
-      "years and"
+      "years, making",
+      "years; making",
+      "years. Making",
+      "years making"
     ],
     "answerIndex": 0,
     "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices offer different punctuation marks after &ldquo;years,&rdquo; so this question tests <strong>Comma Usage</strong> with participial phrases.</div><div class='explanation-step'>The phrase &ldquo;making them among the oldest living organisms ever recorded&rdquo; is a participial phrase that modifies the subject of the previous clause. A participial phrase that follows an independent clause should be preceded by a comma.</div><div class='explanation-step'><strong>A)</strong> A comma correctly introduces the participial phrase that follows. Keep A.</div><div class='explanation-step'><strong>B)</strong> A semicolon must be followed by an independent clause, but &ldquo;making them among the oldest living organisms ever recorded&rdquo; is a participial phrase, not an independent clause. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> A colon must also be followed by an independent clause, a list, or a direct quotation. A participial phrase does not qualify. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;And&rdquo; would join two independent clauses or two parallel elements, but &ldquo;making them among the oldest living organisms ever recorded&rdquo; is a participial phrase, not a clause, so this creates an awkward and grammatically incorrect construction. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
@@ -852,7 +852,7 @@
       "text structure",
       "function of a detail"
     ],
-    "stem": "Historians have long debated the causes of the Bronze Age Collapse, a period around 1200 BCE when several major civilizations in the eastern Mediterranean suddenly declined or disappeared. Some scholars point to invasions by the so-called Sea Peoples, a coalition of migrating groups whose origins remain unclear. Others emphasize internal factors such as drought, famine, and the breakdown of long-distance trade networks that had connected these civilizations for centuries. Most contemporary historians argue that no single cause is sufficient to explain the collapse and that it resulted from a combination of stresses that overwhelmed societies already under strain.<br><br>What is the main purpose of the final sentence?",
+    "stem": "Historians have long debated the causes of the Bronze Age Collapse, a period around 1200 BCE when several major civilizations in the eastern Mediterranean suddenly declined or disappeared. Some scholars point to invasions by the so-called Sea Peoples, a coalition of migrating groups whose origins remain unclear. Others emphasize internal factors such as drought, famine, and the breakdown of long-distance trade networks that had connected these civilizations for centuries. Most contemporary historians argue that no single cause is sufficient to explain the collapse and that it resulted from a combination of stresses that overwhelmed societies already under strain.<br><br>Which choice best describes the function of the last sentence in the overall structure of the text?",
     "choices": [
       "To argue that the Sea Peoples were not responsible for the Bronze Age Collapse.",
       "To introduce a new explanation for the collapse that contradicts the ones described earlier.",
@@ -860,7 +860,7 @@
       "To suggest that historians will never be able to fully explain the Bronze Age Collapse."
     ],
     "answerIndex": 2,
-    "explanation": "<div class='explanation-step'>For <em>Function of a Detail</em> questions, identify what role the specific sentence or detail plays within the larger passage. Ask: why did the author include this?</div><div class='explanation-step'>The passage presents two competing explanations (Sea Peoples vs. internal factors) and then ends with a sentence stating that most historians now believe the collapse had multiple causes. The final sentence synthesizes the debate rather than taking one side.</div><div class='explanation-step'><strong>A)</strong> The final sentence does not dismiss the Sea Peoples explanation; it says no single cause is sufficient. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The final sentence does not introduce a new contradicting explanation; it represents a consensus view that incorporates multiple causes. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This correctly identifies the sentence's role: it presents the current scholarly consensus that multiple factors contributed to the collapse. Keep C.</div><div class='explanation-step'><strong>D)</strong> The sentence does not suggest the collapse is unexplainable; it offers a framework (multiple causes) for understanding it. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+    "explanation": "<div class='explanation-step'>For <em>Text Structure and Purpose</em> questions asking about the function of a specific sentence, identify what role that sentence plays within the larger passage. Ask: why did the author include this?</div><div class='explanation-step'>The passage presents two competing explanations (Sea Peoples vs. internal factors) and then ends with a sentence stating that most historians now believe the collapse had multiple causes. The final sentence synthesizes the debate rather than taking one side.</div><div class='explanation-step'><strong>A)</strong> The final sentence does not dismiss the Sea Peoples explanation; it says no single cause is sufficient. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The final sentence does not introduce a new contradicting explanation; it represents a consensus view that incorporates multiple causes. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This correctly identifies the sentence's role: it presents the current scholarly consensus that multiple factors contributed to the collapse. Keep C.</div><div class='explanation-step'><strong>D)</strong> The sentence does not suggest the collapse is unexplainable; it offers a framework (multiple causes) for understanding it. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
   },
   {
     "id": "V-L1-033",
@@ -1212,7 +1212,7 @@
     {
       "text": "Recent census data on highest education levels attained by populations in the United States indicate that certain states have similar population sizes for high school (or equivalent) graduates as they do for bachelor's and graduate degrees. Since these figures include people born in other states, some of the data for bachelor's and graduate degrees might be inflated whereas the data for high school graduates might accurately represent the state population; it's plausible, for example, that <span class='blank'>_______</span>",
       "align": "left",
-      "style": "passage"
+      "style": "default"
     },
     {
       "text": "Which choice most effectively uses data from the table to complete the example?",
@@ -1297,7 +1297,7 @@
       "set": "Verbal Practice",
       "tags": ["grammar", "sentence structure"],
 
-      "stem": "In the early 1800s, the United Kingdom, Spain, Portugal, and France were entangled in what became known as the Peninsular War.  Spain formed an alliance with France to invade Portugal. While at first allied with France, upon realizing that this alliance was simply a plot to control it,  <span class='blank'>_______</span> engaging in a war that ultimately resulted in the Napolean’s downfall.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "stem": "In the early 1800s, the United Kingdom, Spain, Portugal, and France were entangled in what became known as the Peninsular War.  While at first allied with France, upon realizing that this alliance was simply a plot to control it,  <span class='blank'>_______</span> engaging in a war that ultimately resulted in the Napolean’s downfall.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
   "choices": [
     "Spain took up arms against France,",
     "the French military was fought by Spain",
@@ -1453,7 +1453,7 @@
       "set": "Verbal Practice",
       "tags": ["logical transition"],
 
-      "stem": "&ldquo;To the Driving Cloud&rdquo; is an 1866 poem by Henry Wadsworth Longfellow.  In the poem, Longfellow speaks directly to a Native American about the impact of European colonization and the urbanization of the natural landscapes of the chief’s past, writing, <span class='blank'>_______</span>.<br><br>Which quotation from &ldquo;To the Driving Cloud&rdquo; most effectively illustrates the claim?",
+      "stem": "&ldquo;To the Driving Cloud&rdquo; is an 1866 poem by Henry Wadsworth Longfellow. In the poem, Longfellow speaks directly to a Native American chief about the impact of European colonization and the urbanization of the natural landscapes of the chief's past.<br><br>Which quotation from &ldquo;To the Driving Cloud&rdquo; most effectively illustrates the claim?",
   "choices": [
     "&ldquo;Gloomy and dark art thou, O chief of the mighty Omahas;/Gloomy and dark as the driving cloud, whose name thou hast taken!&rdquo;",
     "&ldquo;How canst thou walk these streets, who hast trod the green turf of the prairies!/How canst thou breathe this air, who hast breathed the sweet air of the mountains!&rdquo;",
@@ -1498,7 +1498,7 @@
     },
     "level": 2,
     "set": "Verbal Practice",
-    "tags": ["according to the text", "social science", "urban planning"],
+    "tags": ["according to the text", "social science"],
     "stem": "In the mid-twentieth century, urban planners in the United States prioritized highway construction through city centers, a policy that displaced hundreds of thousands of residents, disproportionately from low-income and minority communities. Planners at the time argued that highways would stimulate economic growth and reduce traffic congestion. Decades later, many cities have begun removing urban highways, citing studies showing that their removal often revitalizes surrounding neighborhoods and reduces rather than increases traffic through a phenomenon known as induced demand reversal.<br><br>According to the text, why have some cities begun removing urban highways?",
     "choices": [
       "Highway removal has been shown to increase property values in wealthy neighborhoods.",
@@ -1585,32 +1585,21 @@
     "subject": "verbal",
     "skill": {
       "domain": "Standard English Conventions",
-      "topic": "Punctuation",
-      "skill": "Colon Usage"
+      "topic": "Sentence Structure",
+      "skill": "Run-ons and Fragments"
     },
     "level": 2,
     "set": "Verbal Practice",
-    "tags": ["grammar", "punctuation", "colon"],
-    "stemSegments": [
-      {
-        "style": "passage",
-        "align": "left",
-        "text": "The philosopher Simone de Beauvoir is widely regarded as a founding figure of modern feminist theory. Her 1949 work <em>The Second Sex</em> challenged foundational assumptions about gender and identity that had gone largely unquestioned in Western philosophy. De Beauvoir argued that femininity is not a biological given but a social construction, famously summarizing her position as follows: <span class='blank'>_______</span>"
-      },
-      {
-        "style": "question",
-        "align": "left",
-        "text": "Which choice completes the text so that it conforms to the conventions of Standard English?"
-      }
-    ],
+    "tags": ["grammar", "boundaries", "run-on"],
+    "stem": "The philosopher Simone de Beauvoir is widely regarded as a founding figure of modern feminist theory <span class='blank'>_______</span> her 1949 work <em>The Second Sex</em> challenged foundational assumptions about gender and identity that had gone largely unquestioned in Western philosophy.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
-      "\"One is not born, but rather becomes, a woman.\"",
-      "\"One is not born, but rather becomes, a woman\"",
-      "one is not born, but rather becomes, a woman.",
-      "one is not born, but rather becomes, a woman"
+      "theory, her",
+      "theory her",
+      "theory; her",
+      "theory, and her"
     ],
-    "answerIndex": 0,
-    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices all contain the same quoted material with differences in capitalization, quotation marks, and punctuation, so this question tests <strong>Colon and Quotation Punctuation</strong>.</div><div class='explanation-step'>The passage introduces a direct quote with the phrase &ldquo;famously summarizing her position as follows,&rdquo; followed by a colon. A colon used to introduce a direct quotation requires the quotation to begin with a capital letter and be enclosed in quotation marks, with the period inside the closing quotation mark.</div><div class='explanation-step'><strong>A)</strong> Correctly uses quotation marks, capitalizes the first word of the quote, and places the period inside the closing quotation mark. Keep A.</div><div class='explanation-step'><strong>B)</strong> Uses quotation marks and capitalizes correctly but places the period outside the closing quotation mark, which violates standard punctuation conventions. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Omits quotation marks entirely and does not capitalize, which is incorrect for a direct quote. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Omits quotation marks, does not capitalize, and has no end punctuation. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+    "answerIndex": 2,
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. Both parts of the sentence are independent clauses, so this question tests <strong>Sentence Boundaries</strong>.</div><div class='explanation-step'>The first clause makes a general claim about de Beauvoir. The second clause provides evidence for that claim. Both are independent clauses and must be joined with punctuation strong enough to connect them without creating a run-on.</div><div class='explanation-step'><strong>A)</strong> A comma alone between two independent clauses creates a comma splice. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> No punctuation between two independent clauses creates a run-on sentence. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> A semicolon correctly joins two independent clauses. Keep C.</div><div class='explanation-step'><strong>D)</strong> A comma with &ldquo;and&rdquo; joins the clauses but implies the two ideas are equal additions rather than the second supporting the first. Less precise here. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
 },
   {
     "id": "V-L2-024",
@@ -1675,7 +1664,7 @@
       {
         "text": "Archaeologist Dr. Lena Ashworth argues that the widespread appearance of similar geometric patterns in cave art across Europe and Africa suggests that early humans shared cognitive abilities for symbolic thinking earlier than previously believed, and that these abilities may have developed independently in multiple populations rather than spreading through migration.",
         "align": "left",
-        "style": "passage"
+        "style": "default"
       },
       {
         "text": "Which finding, if true, would most directly support Dr. Ashworth&rsquo;s claim?",
@@ -1797,7 +1786,7 @@
       {
         "style": "default",
         "align": "left",
-        "text": "The documentary's director was praised for her <span class='blank'>_______</span> handling of a sensitive subject: she presented the facts clearly and allowed viewers to draw their own conclusions rather than steering them toward a particular interpretation.<br><br>Which choice completes the text with the most logical and precise word or phrase?"
+        "text": "The documentary's director was praised for her <span class='blank'>_______</span> handling of a sensitive subject. She presented the facts clearly and allowed viewers to draw their own conclusions rather than steering them toward a particular interpretation.<br><br>Which choice completes the text with the most logical and precise word or phrase?"
       }
     ],
     "choices": [
@@ -2091,9 +2080,9 @@
     "tags": ["grammar", "boundaries", "run-on"],
     "stem": "The Apollo 11 mission depended on contributions from thousands of engineers, mathematicians, and scientists working across dozens of <span class='blank'>_______</span> the guidance software alone was written by a team of programmers at MIT led by Margaret Hamilton, whose code had to function flawlessly in real time with no opportunity for error correction.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
-      "institutions, and",
+      "institutions and",
       "institutions;",
-      "institutions.",
+      "institutions,",
       "institutions, but"
     ],
     "answerIndex": 1,
@@ -2125,7 +2114,7 @@
     "answerIndex": 1,
     "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions, the correct answer follows directly from the evidence without overstating it.</div><div class='explanation-step'>The key finding is that bees changed their preferences when nectar content changed but appearance did not. This shows the bees were responding to actual nectar content, not visual appearance, and that they updated their behavior quickly.</div><div class='explanation-step'><strong>A)</strong> The experiment shows the opposite: bees did not rely on visual cues when the appearance stayed the same but nectar changed. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This directly reflects the finding: bees updated their preferences based on nectar content, not appearance. Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage says bees chose harder-to-access flowers when they offered higher rewards, not that difficulty itself signals reward. This distorts the finding. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The experiment shows the opposite: bees changed behavior rapidly based on experience. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
   },
-  {
+{
     "id": "V-L2-040",
     "type": "mcq",
     "mode": "practice",
@@ -2137,22 +2126,17 @@
     },
     "level": 2,
     "set": "Verbal Practice",
-    "tags": [
-      "grammar",
-      "pronoun usage",
-      "pronoun clarity",
-      "ambiguity"
-    ],
-    "stem": "When the city council reviewed the proposal submitted by the developers, <span class='blank'>_______</span> contained several provisions that members found difficult to accept.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "tags": ["grammar", "pronoun usage", "pronoun clarity", "ambiguity"],
+    "stem": "The foundation reviewed the grant application submitted by the institute, and <span class='blank'>_______</span> contained several requirements that administrators found difficult to meet.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "they",
       "it",
-      "the proposal",
+      "the grant application",
       "those"
     ],
     "answerIndex": 2,
-    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. Here, the answer choices offer different ways to refer back to a noun, so this question tests <strong>Pronoun Clarity</strong>.</div><div class='explanation-step'>The sentence contains two potential pronoun antecedents: &ldquo;the city council&rdquo; and &ldquo;the proposal.&rdquo; A pronoun in the blank would be ambiguous because a reader could not determine whether it referred to the council or the proposal. To eliminate the ambiguity, the noun itself must be used.</div><div class='explanation-step'><strong>A)</strong> &ldquo;They&rdquo; is ambiguous because it could refer to the city council or to the developers. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;It&rdquo; is ambiguous because it could refer to the proposal or to the council (considered as a collective). Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;The proposal&rdquo; eliminates the ambiguity by explicitly naming the noun being referred to. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Those&rdquo; is plural and does not clearly refer to any single antecedent in the sentence. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
-  },
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices offer different ways to refer back to a noun, so this question tests <strong>Pronoun Clarity</strong>.</div><div class='explanation-step'>The sentence contains two singular nouns that could serve as the antecedent: &ldquo;the foundation&rdquo; and &ldquo;the grant application.&rdquo; A pronoun in the blank would be ambiguous because a reader could not determine with certainty which noun it referred to. To eliminate the ambiguity, the specific noun must be used.</div><div class='explanation-step'><strong>A)</strong> &ldquo;They&rdquo; is plural and does not agree with either singular antecedent. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;It&rdquo; is ambiguous because it could refer to either &ldquo;the foundation&rdquo; or &ldquo;the grant application&rdquo; — both are singular nouns that could plausibly contain requirements. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;The grant application&rdquo; eliminates the ambiguity by explicitly naming the noun being referred to. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Those&rdquo; is plural and does not clearly refer to any single antecedent in the sentence. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+},
   {
     "id": "V-L2-041",
     "type": "mcq",
@@ -2320,7 +2304,7 @@
     ],
     "stemSegments": [
       {
-        "style": "passage",
+        "style": "default",
         "align": "left",
         "text": "The committee&rsquo;s report was thorough, citing dozens of studies and interviewing hundreds of stakeholders over the course of two years. Its conclusions, however, were <span class='blank'>_______</span>: rather than recommending bold action, it called for further review and additional consultation."
       },
@@ -2337,7 +2321,7 @@
       "incomplete"
     ],
     "answerIndex": 2,
-    "explanation": "<div class='explanation-step'>For <em>Words in Context</em> questions, use the surrounding context to determine which word or phrase most logically and precisely completes the text.</div><div class='explanation-step'>The passage contrasts the committee&rsquo;s thorough process with its conclusions, which fell short of &ldquo;bold action.&rdquo; The word &ldquo;tepid&rdquo; describes conclusions that recommended further review rather than decisive steps &mdash; the opposite of bold.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Controversial&rdquo; implies disagreement or conflict, but the passage focuses on the conclusions being weak, not disputed. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Delayed&rdquo; refers to timing, but the passage is describing the nature of the conclusions, not when they arrived. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Cautious&rdquo; captures the sense of holding back from bold action, which fits the contrast the passage draws. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Incomplete&rdquo; suggests something is missing or unfinished, but the conclusions are described as deliberately restrained, not unfinished. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+    "explanation": "<div class='explanation-step'>For <em>Words in Context</em> questions, use the surrounding context to determine which word or phrase most logically and precisely completes the text.</div><div class='explanation-step'>The passage contrasts the committee&rsquo;s thorough process with its conclusions, which fell short of &ldquo;bold action.&rdquo;</div><div class='explanation-step'><strong>A)</strong> &ldquo;Controversial&rdquo; implies disagreement or conflict, but the passage focuses on the conclusions being weak, not disputed. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Delayed&rdquo; refers to timing, but the passage is describing the nature of the conclusions, not when they arrived. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Cautious&rdquo; captures the sense of holding back from bold action, which fits the contrast the passage draws. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Incomplete&rdquo; suggests something is missing or unfinished, but the conclusions are described as deliberately restrained, not unfinished. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
   },
   {
     "id": "V-L2-047",
@@ -2392,7 +2376,7 @@
     "tags": ["command of evidence", "quantitative evidence", "table"],
     "stemSegments": [
       {
-        "style": "passage",
+        "style": "default",
         "align": "left",
         "text": "A nutritionist studying the relationship between diet and cardiovascular health analyzed average daily food consumption patterns among adults in three countries. She argued that of the three countries surveyed, Country A showed the dietary profile most consistent with guidelines recommending high vegetable intake and limited meat consumption as strategies for reducing cardiovascular disease risk."
       },
@@ -2532,7 +2516,7 @@
     ],
     "stem": "Frustrated by years of failed diplomatic negotiations over fishing rights in the disputed coastal <span class='blank'>_______</span> the two nations finally agreed to submit the dispute to an international arbitration panel.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
-      "waters;",
+      "waters",
       "waters,",
       "waters:",
       "waters and"
@@ -2631,31 +2615,23 @@
     },
     "level": 2,
     "set": "Verbal Practice",
-    "tags": [
-      "vocabulary",
-      "words in context"
-    ],
+    "tags": ["vocabulary", "words in context"],
     "stemSegments": [
       {
-        "style": "passage",
+        "style": "default",
         "align": "left",
-        "text": "The urban planning commission had spent months developing a proposal that all parties initially seemed to support. When the vote finally came, however, two council members who had expressed enthusiasm for the project <span class='blank'>_______</span>, leaving its future uncertain."
-      },
-      {
-        "style": "question",
-        "align": "left",
-        "text": "Which choice completes the text with the most logical and precise word or phrase?"
+        "text": "The urban planning commission had spent months developing a proposal that all parties initially seemed to support. When the vote finally came, however, two council members who had expressed enthusiasm for the project <span class='blank'>_______</span>, casting the deciding votes against it.<br><br>Which choice completes the text with the most logical and precise word or phrase?"
       }
     ],
     "choices": [
+      "abstained",
       "objected",
-      "declined to vote",
-      "changed their position",
-      "voted in favor"
+      "relented",
+      "capitulated"
     ],
     "answerIndex": 1,
-    "explanation": "<div class='explanation-step'>For <em>Words in Context</em> questions, use the surrounding context to determine which word or phrase most logically and precisely completes the text.</div><div class='explanation-step'>The passage sets up a contrast between the council members&rsquo; earlier enthusiasm and their behavior at the vote, which left the project&rsquo;s future uncertain. The word &ldquo;abstained&rdquo; describes what they did instead of voting yes or no.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Objected&rdquo; implies active opposition, but the passage says the future was left uncertain — not that it was blocked. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Declined to vote&rdquo; accurately captures abstaining — choosing not to cast a vote either way — which would explain why the outcome was uncertain. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Changed their position&rdquo; implies they moved from support to opposition, but the passage does not say they voted against it. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> If they had voted in favor, the proposal would likely have passed and the future would not be uncertain. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
-  },
+    "explanation": "<div class='explanation-step'>For <em>Words in Context</em> questions, use the surrounding context to determine which word most logically and precisely completes the text.</div><div class='explanation-step'>The passage describes council members who had been enthusiastic but then cast the deciding votes against the proposal. The blank must capture this act of active opposition that directly contradicts their earlier support.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Abstained&rdquo; means declined to vote either way. The passage says they cast deciding votes against it, so they did not abstain. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Objected&rdquo; means actively opposed, which fits: they voted against the proposal despite having expressed enthusiasm for it. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Relented&rdquo; means gave in after resistance, implying they ultimately voted in favor — the opposite of what the passage describes. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Capitulated&rdquo; also means gave in or surrendered, implying they voted in favor under pressure. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+},
   {
     "id": "V-L2-056",
     "type": "mcq",
@@ -2674,7 +2650,7 @@
     ],
     "stemSegments": [
       {
-        "style": "passage",
+        "style": "default",
         "align": "left",
         "text": "The novelist&rsquo;s latest work was praised for its <span class='blank'>_______</span> portrayal of life in postwar Europe, depicting poverty, displacement, and moral ambiguity without softening the harsh realities that survivors faced."
       },
@@ -2749,7 +2725,7 @@
     "stemSegments": [
       {
         "style": "passage",
-        "align": "left",
+        "align": "default",
         "text": "The administration&rsquo;s new housing policy was <span class='blank'>_______</span> from the start: tenant advocates argued it would accelerate displacement in low-income neighborhoods, while developers insisted it would increase the overall supply of affordable units."
       },
       {
@@ -2767,7 +2743,7 @@
     "answerIndex": 1,
     "explanation": "<div class='explanation-step'>For <em>Words in Context</em> questions, use the surrounding context to determine which word or phrase most logically and precisely completes the text.</div><div class='explanation-step'>The passage immediately follows &ldquo;contentious&rdquo; with a colon introducing two opposing viewpoints — tenant advocates on one side, developers on the other. This directly shows the policy was disputed.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Ineffective&rdquo; implies the policy failed to work, but the passage describes a debate about its effects, not evidence that it failed. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Widely debated&rdquo; captures the sense that opposing groups disagreed about the policy, which is exactly what the passage illustrates. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Poorly designed&rdquo; is a judgment about quality, but the passage presents two competing interpretations rather than a verdict. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Politically motivated&rdquo; implies a hidden agenda, which the passage does not suggest. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
   },
-    {
+{
     "id": "V-L2-059",
     "type": "mcq",
     "mode": "practice",
@@ -2779,22 +2755,17 @@
     },
     "level": 2,
     "set": "Verbal Practice",
-    "tags": [
-      "grammar",
-      "boundaries",
-      "run-on",
-      "comma splice"
-    ],
-    "stem": "The new transit line reduced average commute times by nearly 40 percent <span class='blank'>_______</span> ridership on the existing bus routes declined sharply as a result.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "tags": ["grammar", "boundaries", "run-on", "comma splice"],
+    "stem": "The new transit line reduced average commute times by nearly 40 percent, <span class='blank'>_______</span> ridership on the existing bus routes declined sharply as a result.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
-      ", and",
-      ", but",
-      ", so",
-      ", however,"
+      "and",
+      "but",
+      "so",
+      "however,"
     ],
     "answerIndex": 2,
-    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. Both clauses are independent, so this question tests how to correctly join them.</div><div class='explanation-step'>The first clause describes a cause (reduced commute times) and the second describes an effect (declining bus ridership). A comma alone between two independent clauses creates a comma splice, so a coordinating conjunction is needed. The relationship is causal: the transit line&rsquo;s success caused riders to switch.</div><div class='explanation-step'><strong>A)</strong> &ldquo;And&rdquo; signals addition but does not capture the cause-and-effect relationship between the two clauses. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;But&rdquo; signals contrast, but the second clause is a result of the first, not a contradiction of it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;So&rdquo; correctly signals that the second clause is a consequence of the first, joining two independent clauses with a comma and coordinating conjunction. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;However&rdquo; is a conjunctive adverb, not a coordinating conjunction. A comma followed by &ldquo;however&rdquo; creates a comma splice. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
-  },
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. Both clauses are independent, so this question tests how to correctly join them with a coordinating conjunction.</div><div class='explanation-step'>The first clause describes a cause (reduced commute times) and the second describes an effect (declining bus ridership). The relationship is causal — the transit line&rsquo;s success caused riders to switch from bus routes.</div><div class='explanation-step'><strong>A)</strong> &ldquo;And&rdquo; signals addition but does not capture the cause-and-effect relationship between the two clauses. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;But&rdquo; signals contrast, but the second clause is a result of the first, not a contradiction of it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;So&rdquo; correctly signals that the second clause is a consequence of the first. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;However,&rdquo; is a conjunctive adverb, not a coordinating conjunction. Using it after a comma creates a comma splice. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+},
   {
     "id": "V-L2-060",
     "type": "mcq",
@@ -2813,12 +2784,12 @@
       "nonessential phrase",
       "appositive"
     ],
-    "stem": "The documentary focuses on Nikola Tesla <span class='blank'>_______</span> the Serbian-American inventor whose rivalry with Thomas Edison shaped the development of modern electrical systems.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "stem": "The documentary focuses on Nikola <span class='blank'>_______</span> Serbian-American inventor whose rivalry with Thomas Edison shaped the development of modern electrical systems.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
-      "Tesla,",
-      "Tesla:",
-      "Tesla;",
-      "Tesla —"
+      "Tesla, the",
+      "Tesla the",
+      "Tesla; the",
+      "Tesla. The"
     ],
     "answerIndex": 0,
     "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The phrase following the blank is a nonessential appositive describing Tesla, so this question tests <strong>Nonessential Phrase Punctuation</strong>.</div><div class='explanation-step'>The phrase &ldquo;the Serbian-American inventor whose rivalry with Thomas Edison shaped the development of modern electrical systems&rdquo; adds extra information about Tesla but is not essential to identify who is being discussed. It must be set off with matching punctuation. Since the phrase ends the sentence with a period, the opening punctuation should be a comma.</div><div class='explanation-step'><strong>A)</strong> A comma before the appositive correctly opens the nonessential phrase, which closes naturally at the period. Keep A.</div><div class='explanation-step'><strong>B)</strong> A colon must be preceded by an independent clause and introduces a list or explanation, not an appositive. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> A semicolon must be followed by an independent clause. The appositive phrase is not an independent clause. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> A dash would require a matching dash at the end of the phrase, but the sentence ends with a period, making the punctuation asymmetric. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
@@ -2850,7 +2821,7 @@
     "answerIndex": 1,
     "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices are different verb forms, so this question tests <strong>Subject-Verb Agreement</strong>.</div><div class='explanation-step'>The subject is &ldquo;the presence,&rdquo; which is singular. The phrase &ldquo;combined with the recently discovered oil deposits&rdquo; is a participial phrase modifying the subject — it does not create a compound subject. The verb must agree with the singular &ldquo;the presence.&rdquo;</div><div class='explanation-step'><strong>A)</strong> &ldquo;Have&rdquo; is plural and would agree with a plural subject, but &ldquo;the presence&rdquo; is singular. The phrase &ldquo;combined with&rdquo; is a common trap — it looks like &ldquo;and&rdquo; but does not create a compound subject. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Has&rdquo; is singular and correctly agrees with &ldquo;the presence.&rdquo; Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Having&rdquo; is a participle, not a conjugated verb, so it cannot serve as the main verb of the sentence. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Are&rdquo; is plural and does not agree with the singular subject. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
   },
-  {
+{
     "id": "V-L2-062",
     "type": "mcq",
     "mode": "practice",
@@ -2862,12 +2833,8 @@
     },
     "level": 2,
     "set": "Verbal Practice",
-    "tags": [
-      "grammar",
-      "form structure sense",
-      "subject-verb agreement"
-    ],
-    "stem": "Each of the studies included in the meta-analysis <span class='blank'>_______</span> a different population, making direct comparisons between them difficult but not impossible.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "tags": ["grammar", "form structure sense", "subject-verb agreement"],
+    "stem": "Each of the studies included in the meta-analysis <span class='blank'>_______</span> a different population, and researchers noted that direct comparisons between them were difficult but not impossible.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "examine",
       "examined",
@@ -2875,8 +2842,8 @@
       "have examined"
     ],
     "answerIndex": 1,
-    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices are different verb forms, so this question tests <strong>Subject-Verb Agreement</strong> and tense.</div><div class='explanation-step'>The subject is &ldquo;each,&rdquo; which is always singular. The phrase &ldquo;of the studies included in the meta-analysis&rdquo; is a prepositional phrase — ignore it when identifying the subject. The passage is written in past tense, so the verb must be singular past tense.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Examine&rdquo; is singular present tense, but the passage context calls for past tense. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Examined&rdquo; is singular past tense and correctly agrees with &ldquo;each&rdquo; while matching the past tense context. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Examining&rdquo; is a participle and cannot serve as the main verb. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Have examined&rdquo; is plural present perfect and does not agree with the singular &ldquo;each.&rdquo; Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
-  },
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices are different verb forms, so this question tests <strong>Subject-Verb Agreement</strong> and tense.</div><div class='explanation-step'>The subject is &ldquo;each,&rdquo; which is always singular. The phrase &ldquo;of the studies included in the meta-analysis&rdquo; is a prepositional phrase — ignore it when identifying the subject. The second clause establishes past tense with &ldquo;researchers noted&rdquo; and &ldquo;were,&rdquo; so the verb must be singular past tense.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Examine&rdquo; is singular present tense, which is inconsistent with the past tense established by &ldquo;noted&rdquo; and &ldquo;were&rdquo; in the second clause. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Examined&rdquo; is singular past tense and correctly agrees with &ldquo;each&rdquo; while matching the past tense context. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Examining&rdquo; is a participle and cannot serve as the main verb of the clause. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Have examined&rdquo; is plural present perfect and does not agree with the singular subject &ldquo;each.&rdquo; Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+},
   {
     "id": "V-L2-063",
     "type": "mcq",
@@ -3131,7 +3098,7 @@
       "level": 3,
       "set": "Verbal Practice",
       "tags": ["grammar", "appositive punctuation"],
-      "stem": "In 1944, Black singer and electric guitarist Sister Rosetta Tharpe, who pioneered pop gospel and greatly influenced early rock and roll, recorded and released what became a mainstream hit, &ldquo;Strange Things Happening Everyday,&rdquo; a song that, in the years following its release and despite its significant influence on the emerging rock and roll genre, <span class='blank'>_______</span> has called &ldquo;the first rock and roll song ever recorded.&rdquo;<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "stem": "In 1944, Black singer and electric guitarist Sister Rosetta Tharpe, who pioneered pop gospel and greatly influenced early rock and roll, recorded and released what became a mainstream hit, &ldquo;Strange Things Happening Everyday.&rdquo; Despite its significant influence on the emerging rock and roll genre, the song went largely unrecognized by mainstream music historians for decades. According to <span class='blank'>_______</span> &ldquo;Strange Things Happening Everyday&rdquo; is considered by most musicologists to be the first rock and roll song ever recorded.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
       "choices": [
         "blogger, Dawn Boyer,",
         "blogger, Dawn Boyer",
@@ -3139,7 +3106,7 @@
         "blogger Dawn Boyer"
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices vary in comma placement around &ldquo;Dawn Boyer,&rdquo; so this question tests <strong>Appositive Punctuation</strong> and the punctuation required before a direct quotation.</div><div class='explanation-step'>There are two punctuation decisions here. First, does &ldquo;Dawn Boyer&rdquo; need commas around it? &ldquo;Blogger&rdquo; alone is too vague to identify the source — &ldquo;Dawn Boyer&rdquo; is essential to specifying which blogger is being cited. Essential appositives are not set off by commas, so no comma should appear before &ldquo;Dawn Boyer.&rdquo; Second, does a comma follow &ldquo;Boyer&rdquo;? Yes — the attributive phrase &ldquo;blogger Dawn Boyer&rdquo; must be followed by a comma before the direct quotation. The long interrupting phrase &ldquo;in the years following its release and despite its significant influence on the emerging rock and roll genre&rdquo; is designed to make it harder to isolate the relevant punctuation decision.</div><div class='explanation-step'><strong>A)</strong> &ldquo;blogger, Dawn Boyer,&rdquo; incorrectly treats Dawn Boyer as nonessential, implying her name could be removed without changing the meaning. It cannot — without her name, we do not know which blogger is being cited. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;blogger, Dawn Boyer&rdquo; makes the same error of treating the name as nonessential and also omits the required comma before the direct quotation. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;blogger Dawn Boyer,&rdquo; correctly omits commas around the essential appositive and includes the required comma before the direct quotation. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;blogger Dawn Boyer&rdquo; correctly omits commas around the name but omits the required comma before the direct quotation. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices vary in comma placement around &ldquo;Dawn Boyer,&rdquo; so this question tests <strong>Appositive Punctuation</strong> and the punctuation required after an attributive phrase.</div><div class='explanation-step'>There are two punctuation decisions here. First, does &ldquo;Dawn Boyer&rdquo; need commas around it? &ldquo;Blogger&rdquo; alone is too vague to identify the source — &ldquo;Dawn Boyer&rdquo; is essential to specifying which blogger is being cited. Essential appositives are not set off by commas, so no comma before &ldquo;Dawn Boyer.&rdquo; Second, does a comma follow &ldquo;Boyer&rdquo;? Yes — an &ldquo;According to [source]&rdquo; phrase must be followed by a comma before the statement being attributed.</div><div class='explanation-step'><strong>A)</strong> &ldquo;blogger, Dawn Boyer,&rdquo; incorrectly treats Dawn Boyer as nonessential. Without her name, we do not know which blogger is being cited, making the name essential. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;blogger, Dawn Boyer&rdquo; makes the same error of treating the name as nonessential and also omits the required comma after the attributive phrase. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;blogger Dawn Boyer,&rdquo; correctly omits commas around the essential appositive and includes the required comma after the attributive phrase. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;blogger Dawn Boyer&rdquo; correctly omits commas around the name but omits the required comma after the attributive phrase. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
 },
 {
       "id": "V-L3-009",
@@ -3185,7 +3152,7 @@
 
       "stemSegments": [
         {
-          "style": "passage",
+          "style": "default",
           "align": "left",
           "text": "In the late 14th century, military leader Yi Seong-gye founded the Joseon Dynasty, ending a royal line that had lasted more than 400 years. Yi worked closely with Confucian scholars to restructure Korean society around neo-Confucian principles. <span class='blank'>_______</span> these reforms reshaped Korean governance, education, and social hierarchy for nearly five centuries."
         },
@@ -3199,7 +3166,7 @@
         "Implemented gradually across Yi's reign,",
         "Implemented gradually across Yi's reign;",
         "Because implemented gradually across Yi's reign,",
-        "Implementing gradually across Yi's reign;"
+        "Implementing gradually across Yi's reign,"
       ],
       "answerIndex": 0,
       "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices differ in how an introductory phrase connects to the main clause, so this question tests <strong>Clauses and Subordination</strong>.</div><div class='explanation-step'>The blank introduces a modifying phrase followed by an independent clause: &ldquo;these reforms reshaped Korean governance, education, and social hierarchy for nearly five centuries.&rdquo; An introductory participial phrase modifying the subject of the main clause should be followed by a comma — not a semicolon, which would require an independent clause on both sides.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Implemented gradually across Yi's reign,&rdquo; is a correctly formed participial phrase followed by a comma, which properly introduces the independent clause that follows. Keep A.</div><div class='explanation-step'><strong>B)</strong> A semicolon after an introductory phrase is incorrect — a semicolon must be preceded by an independent clause, and &ldquo;Implemented gradually across Yi's reign&rdquo; is not one. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Because&rdquo; introduces a dependent clause, but the phrase &ldquo;implemented gradually&rdquo; is not a full clause — it has no subject. This creates a grammatically incomplete construction. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Implementing&rdquo; changes the meaning and grammatical role of the phrase, and the semicolon following it is incorrect for the same reason as B. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
@@ -3273,7 +3240,7 @@
       {
         "text": "Researchers studying coral reef ecosystems in the Indo-Pacific region argue that water temperature alone does not determine coral bleaching events. Rather, they claim that the combination of elevated temperature and reduced water flow is the primary driver of bleaching, and that reef systems with strong tidal currents are more resilient to bleaching even in warmer waters.",
         "align": "left",
-        "style": "passage"
+        "style": "default"
       },
       {
         "text": "Which finding, if true, would most directly support the researchers' claim?",
@@ -3324,7 +3291,7 @@
     "answerIndex": 0,
     "explanation": "<div class='explanation-step'>For <em>Supporting a Claim</em> questions, identify the claim precisely. Dr. Nair claims two things: (1) raising the minimum wage in urban areas does not cause significant restaurant job losses, and (2) owners absorb costs through price increases rather than layoffs. The correct answer must support both parts of this claim.</div><div class='explanation-step'><strong>A)</strong> states that urban restaurant owners raised menu prices by about 4% while employment remained stable. This directly supports both parts of Dr. Nair's claim — prices went up, jobs did not go down. Keep A.</div><div class='explanation-step'><strong>B)</strong> describes rural restaurant chains reducing staff. Dr. Nair's claim is specifically about <em>urban</em> areas; this evidence comes from a different context and could actually be used to argue against her claim. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> provides background data about labor costs as a share of expenses. This does not address how owners responded to a wage increase or whether jobs were lost. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> states that consumer spending increased after minimum wage increases. While this is somewhat consistent with Dr. Nair's view, it does not directly address the mechanism she describes — price increases instead of layoffs. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
   },
-  {
+{
     "id": "V-L3-015",
     "type": "mcq",
     "mode": "practice",
@@ -3339,9 +3306,9 @@
     "tags": ["quotation", "poetry", "Dickinson"],
     "stemSegments": [
       {
-        "text": "&ldquo;Because I could not stop for Death&rdquo; is an Emily Dickinson poem first published in 1890. In the poem, Dickinson portrays death not as a terrifying force but as a courteous, unhurried companion who gently guides the speaker toward eternity, writing <span class='blank'>_______</span>.",
+        "text": "&ldquo;Because I could not stop for Death&rdquo; is an Emily Dickinson poem first published in 1890. In the poem, Dickinson portrays death not as a terrifying force but as a courteous, unhurried companion who gently guides the speaker toward eternity.",
         "align": "left",
-        "style": "passage"
+        "style": "default"
       },
       {
         "text": "Which quotation from &ldquo;Because I could not stop for Death&rdquo; most effectively illustrates the claim?",
@@ -3356,9 +3323,9 @@
       "&ldquo;Since then &ndash; &lsquo;tis Centuries &ndash; and yet / Feels shorter than the Day / I first surmised the Horses&rsquo; Heads / Were toward Eternity.&rdquo;"
     ],
     "answerIndex": 0,
-    "explanation": "<div class='explanation-step'>For <em>Illustrating Claims with Quotations</em> questions, identify the precise claim in the stem and find the quotation that directly and completely illustrates it. The claim here is that Dickinson portrays death as a <em>courteous, unhurried companion</em> who <em>gently guides</em> the speaker toward eternity.</div><div class='explanation-step'><strong>A)</strong> states that Death &ldquo;kindly stopped&rdquo; for the speaker and that the carriage holds Death, the speaker, and Immortality. The word &ldquo;kindly&rdquo; directly supports &ldquo;courteous,&rdquo; and Death stopping for the speaker — rather than forcing her — supports &ldquo;unhurried companion.&rdquo; Keep A.</div><div class='explanation-step'><strong>B)</strong> describes scenes the speaker and Death pass during their carriage ride — a school, fields, the setting sun. This establishes the journey but says nothing about Death's character or demeanor. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> describes what appears to be a grave, focusing on the destination rather than on Death as a companion. It does not address Death's courteous or gentle qualities. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> reflects on the passage of time after death and the sense of moving toward eternity, but it does not portray Death as a companion or describe his demeanor. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
-  },
-  {
+    "explanation": "<div class='explanation-step'>For <em>Command of Evidence</em> questions asking for a supporting quotation, identify the precise claim and find the quotation that most directly illustrates it. The claim is that Dickinson portrays death as a <em>courteous, unhurried companion</em> who <em>gently guides</em> the speaker toward eternity.</div><div class='explanation-step'><strong>A)</strong> States that Death &ldquo;kindly stopped&rdquo; for the speaker and that the carriage holds Death, the speaker, and Immortality. &ldquo;Kindly&rdquo; directly supports &ldquo;courteous,&rdquo; and Death stopping for the speaker rather than forcing her supports &ldquo;unhurried companion.&rdquo; Keep A.</div><div class='explanation-step'><strong>B)</strong> Describes scenes the speaker and Death pass during their carriage ride. This establishes the journey but says nothing about Death&rsquo;s character or demeanor. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Describes what appears to be a grave, focusing on the destination rather than on Death as a companion. It does not address Death&rsquo;s courteous or gentle qualities. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Reflects on the passage of time after death and the sense of moving toward eternity, but does not portray Death as a companion or describe his demeanor. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+},
+{
     "id": "V-L3-016",
     "type": "mcq",
     "mode": "practice",
@@ -3373,9 +3340,9 @@
     "tags": ["quotation", "science prose", "Darwin"],
     "stemSegments": [
       {
-        "text": "Charles Darwin's <em>On the Origin of Species</em>, first published in 1859, is the foundational text of evolutionary biology. In the work, Darwin argues that natural selection operates gradually and incrementally, accumulating small advantageous variations over vast stretches of time rather than producing sudden or dramatic leaps, writing <span class='blank'>_______</span>.",
+        "text": "Charles Darwin&rsquo;s <em>On the Origin of Species</em>, first published in 1859, is the foundational text of evolutionary biology. In the work, Darwin argues that natural selection operates gradually and incrementally, accumulating small advantageous variations over vast stretches of time rather than producing sudden or dramatic leaps.",
         "align": "left",
-        "style": "passage"
+        "style": "default"
       },
       {
         "text": "Which quotation from <em>On the Origin of Species</em> most effectively illustrates the claim?",
@@ -3390,8 +3357,8 @@
       "&ldquo;A grain in the balance will determine which individual shall live and which shall die &ndash; which variety or species shall increase in number, and which shall decrease, or finally become extinct.&rdquo;"
     ],
     "answerIndex": 0,
-    "explanation": "<div class='explanation-step'>For <em>Illustrating Claims with Quotations</em> questions, identify the precise claim. Here, the claim is that Darwin argues natural selection operates <em>gradually and incrementally</em>, accumulating <em>small</em> variations over time rather than producing <em>sudden or dramatic leaps</em>.</div><div class='explanation-step'><strong>A)</strong> states that natural selection &ldquo;can never take a great and sudden leap, but must advance by short and sure, though slow steps.&rdquo; This directly mirrors the claim's language about gradual accumulation and the absence of sudden change. Keep A.</div><div class='explanation-step'><strong>B)</strong> compares the geological record to an imperfectly kept history. While this relates to Darwin's broader argument about deep time, it does not address the pace or mechanism of natural selection itself. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> is a statement about adaptability and survival, but it is commonly misattributed to Darwin and does not appear in <em>On the Origin of Species</em>. It also does not address the gradual nature of natural selection. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> describes how small advantages determine survival but focuses on the competitive outcome rather than the gradual, step-by-step pace of natural selection. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
-  },
+    "explanation": "<div class='explanation-step'>For <em>Command of Evidence</em> questions asking for a supporting quotation, identify the precise claim and find the quote that most directly illustrates it. Here, the claim is that Darwin argues natural selection operates <em>gradually and incrementally</em>, accumulating <em>small</em> variations over time rather than producing <em>sudden or dramatic leaps</em>.</div><div class='explanation-step'><strong>A)</strong> States that natural selection &ldquo;can never take a great and sudden leap, but must advance by short and sure, though slow steps.&rdquo; This directly mirrors the claim&rsquo;s language about gradual accumulation and the absence of sudden change. Keep A.</div><div class='explanation-step'><strong>B)</strong> Compares the geological record to an imperfectly kept history. While this relates to Darwin&rsquo;s broader argument about deep time, it does not address the pace or mechanism of natural selection itself. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Addresses adaptability and survival but does not appear in <em>On the Origin of Species</em> and does not address the gradual nature of natural selection. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Describes how small advantages determine survival but focuses on competitive outcome rather than the gradual, step-by-step pace of natural selection. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+},
   {
     "id": "V-L3-017",
     "type": "mcq",
@@ -3419,10 +3386,10 @@
       {
         "text": "A researcher analyzing national health survey data argues that among the age groups surveyed, higher screen time is associated with shorter sleep duration, and that this relationship is most pronounced in the youngest age group. The researcher notes that this pattern suggests screen time may be disrupting sleep habits, as illustrated, for example, by the fact that <span class='blank'>_______</span>",
         "align": "left",
-        "style": "passage"
+        "style": "default"
       },
       {
-        "text": "Which choice most effectively uses data from the table to complete the example?",
+        "text": "Which choice most effectively uses data from the table to complete the text?",
         "align": "left",
         "style": "question"
       }
@@ -3507,7 +3474,7 @@
       {
         "text": "Sociologist Dr. Marcus Webb argues that the shift to remote work following 2020 was not uniform across industries. Sectors requiring physical presence saw far smaller increases in remote work adoption than those where tasks could be fully digitized. Webb further claims that among digitizable sectors, the technology industry experienced the most dramatic transformation of any sector studied.",
         "align": "left",
-        "style": "passage"
+        "style": "default"
       },
       {
         "text": "Which choice best uses data from the table to support Dr. Webb's claim?",
@@ -3544,14 +3511,14 @@
         "style": "intro"
       },
       {
-        "text": "<table class='stem-table'><tr><th>Forest</th><th>Avg Annual Temp (&deg;C)</th><th>Species Richness</th></tr><tr><td>Forest A</td><td>3</td><td>112</td></tr><tr><td>Forest B</td><td>8</td><td>187</td></tr><tr><td>Forest C</td><td>15</td><td>304</td></tr><tr><td>Forest D</td><td>22</td><td>498</td></tr><tr><td>Forest E</td><td>27</td><td>612</td></tr></table>",
+        "text": "<table class='stem-table'><tr><th>Forest</th><th>Avg Annual Temp (&deg;C)</th><th>Number of Species</th></tr><tr><td>Forest A</td><td>3</td><td>112</td></tr><tr><td>Forest B</td><td>8</td><td>187</td></tr><tr><td>Forest C</td><td>15</td><td>304</td></tr><tr><td>Forest D</td><td>22</td><td>498</td></tr><tr><td>Forest E</td><td>27</td><td>612</td></tr></table>",
         "align": "center",
         "style": "table"
       },
       {
         "text": "Ecologist Dr. Amara Osei argues that temperature is a primary driver of biodiversity in forest ecosystems, with warmer forests consistently supporting greater species richness. She further claims that this relationship holds across a wide range of temperatures, from subarctic to tropical conditions.",
         "align": "left",
-        "style": "passage"
+        "style": "default"
       },
       {
         "text": "Which choice best uses data from the table to support Dr. Osei's claim?",
@@ -3799,9 +3766,9 @@
     "tags": ["quotation", "poetry", "Whitman"],
     "stemSegments": [
       {
-        "text": "In his 1855 poem &ldquo;Song of Myself,&rdquo; Walt Whitman presents the self as expansive and fundamentally contradictory &mdash; capable of containing opposing ideas and impulses without the need for internal consistency, writing <span class='blank'>_______</span>.",
+        "text": "In his 1855 poem &ldquo;Song of Myself,&rdquo; Walt Whitman presents the self as expansive and fundamentally contradictory, capable of containing opposing ideas and impulses without the need for internal consistency.",
         "align": "left",
-        "style": "passage"
+        "style": "default"
       },
       {
         "text": "Which quotation from &ldquo;Song of Myself&rdquo; most effectively illustrates the claim?",
@@ -3975,7 +3942,7 @@
       {
         "text": "Historian Dr. James Okafor argues that the Harlem Renaissance of the 1920s was not primarily a literary movement, as it is most commonly characterized, but rather a visual arts movement whose impact on American culture has been systematically undervalued by scholars who prioritize written texts. He contends that the painters, sculptors, and photographers of the period reached broader audiences and had more immediate cultural influence than the writers who have received the bulk of scholarly attention.",
         "align": "left",
-        "style": "passage"
+        "style": "default"
       },
       {
         "text": "Which finding, if true, would most directly undermine Dr. Okafor&rsquo;s claim?",
@@ -4424,13 +4391,13 @@
     ],
     "stem": "When researchers compared the performance of the new algorithm against the existing model on a standardized benchmark, <span class='blank'>_______</span> outperformed expectations by a significant margin, particularly on tasks requiring contextual reasoning.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
-      "it",
+      "this",
       "they",
       "the new algorithm",
       "the latter"
     ],
     "answerIndex": 2,
-    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices offer different ways to refer to a subject, so this question tests <strong>Pronoun Clarity</strong>.</div><div class='explanation-step'>The sentence contains two potential antecedents: &ldquo;the new algorithm&rdquo; and &ldquo;the existing model.&rdquo; Any pronoun in the blank would be ambiguous. To eliminate the ambiguity, the specific noun must be used.</div><div class='explanation-step'><strong>A)</strong> &ldquo;It&rdquo; is ambiguous because it could refer to either the new algorithm or the existing model. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;They&rdquo; is plural and does not clearly refer to either singular antecedent. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;The new algorithm&rdquo; eliminates the ambiguity by naming the subject explicitly. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;The latter&rdquo; refers to the second item mentioned, which is &ldquo;the existing model,&rdquo; not the new algorithm. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices offer different ways to refer to a subject, so this question tests <strong>Pronoun Clarity</strong>.</div><div class='explanation-step'>The sentence contains two potential antecedents: &ldquo;the new algorithm&rdquo; and &ldquo;the existing model.&rdquo; Any pronoun in the blank would be ambiguous. To eliminate the ambiguity, the specific noun must be used.</div><div class='explanation-step'><strong>A)</strong> &ldquo;this&rdquo; is ambiguous because it could refer to either the new algorithm or the existing model. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;they&rdquo; is plural and does not clearly refer to either singular antecedent. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;the new algorithm&rdquo; eliminates the ambiguity by naming the subject explicitly. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;the latter&rdquo; refers to the second item mentioned, which is &ldquo;the existing model,&rdquo; not the new algorithm. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
   },
   {
     "id": "V-L3-051",
@@ -4633,10 +4600,10 @@
     "level": 3,
     "set": "Verbal Practice",
     "tags": ["grammar", "punctuation", "colon", "semicolon"],
-    "stem": "The geologist&rsquo;s findings overturned a long-held assumption about the age of the rock formation <span class='blank'>_______</span> previous researchers had dated to the Jurassic period were in fact more than twice as old, placing their origin in the Triassic.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "stem": "The geologist&rsquo;s findings overturned a long-held assumption about the age of the rock <span class='blank'>_______</span> previous researchers had dated to the Jurassic period were in fact more than twice as old, placing their origin in the Triassic.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "formation, and the layers",
-      "formation; the layers",
+      "formation so the layers",
       "formation: the layers",
       "formation, the layers"
     ],
@@ -4741,7 +4708,7 @@
     ],
     "stemSegments": [
       {
-        "style": "passage",
+        "style": "default",
         "align": "left",
         "text": "The philosopher argued that most political disagreements are not rooted in differences of fact but in differences of value, and that these value conflicts are, in an important sense, <span class='blank'>_______</span>, since no amount of evidence or argument can bridge a fundamental disagreement about what ultimately matters."
       },
@@ -4778,7 +4745,7 @@
     ],
     "stemSegments": [
       {
-        "style": "passage",
+        "style": "default",
         "align": "left",
         "text": "The biographer faced an unusual challenge: her subject had been <span class='blank'>_______</span> in his output, leaving behind over forty novels, hundreds of essays, and thousands of letters, yet had said almost nothing in any of them about his own inner life or motivations."
       },
@@ -4834,7 +4801,7 @@
     "answerIndex": 1,
     "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, two choices may seem plausible. The correct answer must fit the specific meaning in context.</div><div class='explanation-step'>The passage contrasts a &ldquo;measured&rdquo; tone with &ldquo;inflaming&rdquo; the debate — the senator chose not to escalate but instead acknowledged both sides. The word describes careful, controlled speech that avoids excess.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Calculated&rdquo; implies deliberate strategy for personal gain, which has a somewhat negative connotation not present in the passage. The passage praises the tone, not criticizes it. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Restrained&rdquo; captures the sense of holding back from inflammatory language and speaking in a controlled, even-handed way. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Formal&rdquo; refers to register or style, not to the quality of emotional control the passage describes. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Persuasive&rdquo; refers to effectiveness at changing minds, but the passage focuses on tone and approach, not outcome. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
   },
-  {
+{
     "id": "V-L3-064",
     "type": "mcq",
     "mode": "practice",
@@ -4846,31 +4813,23 @@
     },
     "level": 3,
     "set": "Verbal Practice",
-    "tags": [
-      "vocabulary",
-      "words in context"
-    ],
+    "tags": ["vocabulary", "words in context"],
     "stemSegments": [
       {
-        "style": "passage",
+        "style": "default",
         "align": "left",
-        "text": "The committee was initially skeptical of the proposal, but after three hours of testimony from engineers, economists, and community representatives, their resistance gradually <span class='blank'>_______</span>, and by the end of the session they had agreed to fund a pilot program."
-      },
-      {
-        "style": "question",
-        "align": "left",
-        "text": "Which choice completes the text with the most logical and precise word or phrase?"
+        "text": "The committee was initially skeptical of the proposal, but after three hours of testimony from engineers, economists, and community representatives, their resistance gradually <span class='blank'>_______</span>, and by the end of the session they had agreed to fund a pilot program.<br><br>Which choice completes the text with the most logical and precise word or phrase?"
       }
     ],
     "choices": [
-      "collapsed",
-      "transformed",
       "weakened",
-      "disappeared"
+      "dissipated",
+      "intensified",
+      "transformed"
     ],
-    "answerIndex": 2,
-    "explanation": "<div class='explanation-step'>For <em>Words in Context</em> questions at level 3, pay close attention to degree and process. The correct answer must match not just the direction of change but how it happened.</div><div class='explanation-step'>The passage describes resistance that &ldquo;gradually eroded&rdquo; — a slow, incremental process of wearing away. The committee did not become enthusiastic supporters; they agreed to a pilot program, suggesting their resistance weakened but did not vanish entirely.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Collapsed&rdquo; implies a sudden, complete breakdown — but &ldquo;gradually&rdquo; signals a slow process, not an abrupt one. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Transformed&rdquo; implies the resistance changed into something else entirely, but the passage describes it diminishing, not converting into enthusiasm. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Weakened&rdquo; captures the gradual, partial nature of the change — the resistance diminished enough to allow agreement, without necessarily disappearing. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Disappeared&rdquo; implies the resistance was completely gone, but the passage only says they agreed to a pilot program — a cautious step, not full endorsement. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
-  },
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'>For <em>Words in Context</em> questions at level 3, pay close attention to degree. The correct answer must match not just the direction of change but how complete that change was.</div><div class='explanation-step'>The committee agreed to fund a pilot program — a cautious step that suggests their resistance diminished but did not vanish entirely. The blank must capture a partial, gradual reduction.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Weakened&rdquo; captures the gradual, partial nature of the change — the resistance diminished enough to allow agreement without necessarily disappearing. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Dissipated&rdquo; is a strong trap because it also suggests a gradual process, but it implies the resistance vanished completely. The committee&rsquo;s cautious agreement to only a pilot program suggests some skepticism remained. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Intensified&rdquo; means grew stronger, which is the opposite of what the passage describes. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Transformed&rdquo; implies the resistance changed into something else entirely rather than simply diminishing. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+},
   {
     "id": "V-L3-065",
     "type": "mcq",
@@ -4889,7 +4848,7 @@
     ],
     "stemSegments": [
       {
-        "style": "passage",
+        "style": "default",
         "align": "left",
         "text": "The anthropologist cautioned against reading the ritual as purely symbolic. In her view, the ceremony served a <span class='blank'>_______</span> function within the community: it established alliances between families, redistributed food resources, and provided a structured opportunity to resolve ongoing disputes."
       },
@@ -4908,34 +4867,29 @@
     "answerIndex": 1,
     "explanation": "<div class='explanation-step'>For <em>Words in Context</em> questions at level 3, the correct answer must be the most precise fit given the context, not just a related idea.</div><div class='explanation-step'>The anthropologist contrasts a &ldquo;purely symbolic&rdquo; reading with a &ldquo;pragmatic&rdquo; function. The examples that follow — establishing alliances, redistributing food, resolving disputes — are all real-world, functional outcomes, not symbolic meanings.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Cultural&rdquo; describes the context of the ritual but does not capture the contrast with symbolic that &ldquo;pragmatic&rdquo; is drawing. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Practical&rdquo; directly captures the meaning: the ceremony accomplishes real, concrete purposes in the world rather than only carrying symbolic meaning. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Political&rdquo; might describe one aspect (alliances, dispute resolution), but &ldquo;pragmatic&rdquo; is broader than political and encompasses the food redistribution as well. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Economic&rdquo; captures the food redistribution aspect but not the full meaning of &ldquo;pragmatic,&rdquo; which encompasses all the practical functions listed. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
   },
-  {
+{
     "id": "V-L3-066",
     "type": "mcq",
     "mode": "practice",
     "subject": "verbal",
     "skill": {
-      "domain": "Standard English Conventions",
-      "topic": "Boundaries",
-      "skill": "Run-ons and Fragments"
+      "domain": "Expression of Ideas",
+      "topic": "Logical Transitions",
+      "skill": "Concession"
     },
     "level": 3,
     "set": "Verbal Practice",
-    "tags": [
-      "grammar",
-      "boundaries",
-      "run-on",
-      "subordinate clause"
-    ],
-    "stem": "The committee approved the revised budget proposal, <span class='blank'>_______</span> several members had expressed reservations about the projected revenue figures during earlier discussions.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "tags": ["logical transition", "concession"],
+    "stem": "Several members of the committee had expressed reservations about the projected revenue figures during earlier discussions. <span class='blank'>_______</span> the committee approved the revised budget proposal by a majority vote.<br><br>Which choice completes the text with the most logical transition?",
     "choices": [
-      "however",
-      "although",
-      "therefore",
-      "and"
+      "Nevertheless,",
+      "However,",
+      "Consequently,",
+      "Similarly,"
     ],
-    "answerIndex": 1,
-    "explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. The answer choices offer different ways to connect the two clauses, so this question tests <strong>Boundaries</strong> and subordination.</div><div class='explanation-step'>The two clauses express a contrast: the committee approved the proposal despite members having reservations. The connecting word must signal this concession and create a grammatically correct sentence. A subordinating conjunction turns the second clause into a dependent clause, which can follow a comma.</div><div class='explanation-step'><strong>A)</strong> &ldquo;However&rdquo; is a conjunctive adverb. Using it after a comma creates a comma splice — it cannot join two independent clauses with only a comma. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Although&rdquo; is a subordinating conjunction that correctly signals concession and turns the second clause into a dependent clause, making the sentence grammatically correct. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Therefore&rdquo; signals a conclusion or result, but approving a proposal despite reservations is not a logical result of having reservations. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;And&rdquo; signals addition and does not capture the contrast between the approval and the reservations. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
-  },
+    "answerIndex": 0,
+    "explanation": "<div class='explanation-step'><em>Logical Transition</em> questions ask you to select the best transition word or phrase to show the relationship between two ideas. To find the correct answer, find how the ideas connect.</div><div class='explanation-step'>The first sentence describes reservations that stood as an obstacle to approval. The second sentence says the committee approved the proposal anyway — not simply in contrast to the first idea, but specifically in spite of it. The correct transition must signal that the approval happened despite an obstacle, not merely that it differed from what came before.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Nevertheless,&rdquo; signals that something happened despite an obstacle or complication, which precisely captures the committee approving the proposal in spite of the reservations expressed. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;However,&rdquo; signals a general contrast between two ideas but does not carry the specific sense of overcoming an obstacle. The relationship here is not simply that the two sentences differ — the approval happened <em>despite</em> the reservations, which requires a stronger concessive signal. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Consequently,&rdquo; signals that the second idea follows as a result of the first. Approving a proposal is not a logical consequence of having reservations about it. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Similarly,&rdquo; signals that two ideas are alike, but the second sentence contrasts with rather than mirrors the first. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+},
   {
     "id": "V-L3-067",
     "type": "mcq",
