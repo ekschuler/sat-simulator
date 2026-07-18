@@ -2982,7 +2982,7 @@
       "set": "Algebra Practice",
       "tags": ["tables", "writing equations"],
 
-      "stem": "<div class='stem-table-wrap'><table class='stem-table'><tr><th>\\(x\\)</th><th>\\(g(x)\\)</th></tr><tr><td>\\(20\\)</td><td>\\(21\\)</td></tr><tr><td>\\(-10\\)</td><td>\\(-39\\)</td></tr></table></div><div class='stem-text'>The table shows values of the linear function \\(g\\). The graph of \\(y=g(x)\\) also passes through the point \\((\\frac{1}{5}, c)\\). What is the value of \\(c\\)</div>",
+      "stem": "<div class='stem-table-wrap'><table class='stem-table'><tr><th>\\(x\\)</th><th>\\(g(x)\\)</th></tr><tr><td>\\(20\\)</td><td>\\(21\\)</td></tr><tr><td>\\(-10\\)</td><td>\\(-39\\)</td></tr></table></div><div class='stem-text'>The table shows values of the linear function \\(g\\). The graph of \\(y=g(x)\\) also passes through the point \\((\\frac{1}{5}, c)\\). What is the value of \\(c\\)?</div>",
       "answer": "-18.6",
       "answersAccepted": ["-18.6", "-\\frac{93}{5}", "\\frac{-93}{5}", "\\frac{93}{-5}"],
 
@@ -3144,7 +3144,7 @@
       "intercepts",
       "graphing"
     ],
-    "stem": "<div class='stem-text'>In the \\(xy\\)-plane, line \\(p\\) has a slope of \\(-\\dfrac{3}{4}\\) and passes through the point \\((8, -1)\\). Line \\(q\\) is perpendicular to line \\(p\\) and passes through the point \\((0, -5)\\). What is the \\(x\\)-intercept of line \\(q\\)?</div>",
+    "stem": "<div class='stem-text'>In the \\(xy\\)-plane, line \\(p\\) has a slope of \\(-\\dfrac{3}{4}\\). Line \\(q\\) is perpendicular to line \\(p\\) and passes through the point \\((0, -5)\\). What is the \\(x\\)-intercept of line \\(q\\)?</div>",
     "choices": [
       "\\(\\left(-\\dfrac{15}{4}, 0\\right)\\)",
       "\\(\\left(\\dfrac{3}{4}, 0\\right)\\)",
@@ -6426,7 +6426,7 @@
   "choices": [
     "\\(\\$\\text{4,320}\\)",
     "\\(\\$\\text{2,160}\\)",
-    "\\(\\$1,380\\)",
+    "\\(\\$\\text{1,380}\\)",
     "\\(\\$432\\)"
   ],
   "answerIndex": 0,
