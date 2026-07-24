@@ -1023,7 +1023,7 @@ if (isPracticeMode) {
   return;
 }
 
-  if (reviewMode) {
+  if (reviewMode && reviewSessionId) {
   const reviewSession = await getPracticeSessionById(reviewSessionId);
 
   if (reviewSession && reviewSession.answers) {
@@ -2069,9 +2069,14 @@ function backToSummary() {
     return;
   }
 
+  if (params.get("topic")) {
+    window.location.href = "practice-history.html";
+    return;
+  }
+
   document.body.innerHTML = resultsSummaryHTML;
-    document.body.classList.remove("practice-sidebar-ready");
-    document.body.classList.remove("practice-sidebar-open");
+  document.body.classList.remove("practice-sidebar-ready");
+  document.body.classList.remove("practice-sidebar-open");
   renderScoreBanner();
   typesetMath();
 }
@@ -2999,15 +3004,16 @@ function showTopicMiniSummary(topic, domain, correct, total) {
       </div>
     </div>
   `;
-document.getElementById("backFromTopicBtn").addEventListener("click", () => {
-  if (window.__prevSummaryHTML) {
-    document.body.innerHTML = window.__prevSummaryHTML;
-  } else {
-    window.location.href = "history.html";
-  }
-});
-  window.__prevSummaryHTML = cameFromHistory ? null : prev;
+window.__prevSummaryHTML = prev;
   window.__topicReviewQuestions = topicQuestions;
+
+  document.getElementById("backFromTopicBtn").addEventListener("click", () => {
+    if (window.__prevSummaryHTML) {
+      document.body.innerHTML = window.__prevSummaryHTML;
+    } else {
+      window.location.href = "history.html";
+    }
+  });
 }
 
 function reviewTopicQuestions(mode) {
