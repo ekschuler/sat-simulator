@@ -1,0 +1,435 @@
+{
+  "moduleId": "MathT3-1",
+  "subject": "math",
+  "timeSeconds": 1920,
+  "title": "Math Test 3 — Module 1",
+  "questions": [
+    {
+      "id": "MathT3-1-001",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Equations and Inequalities",
+        "skill": "Equivalent Expressions"
+      },
+      "stem": "<div style='margin-top:12px;'>If \\(5x - 6 = 19\\), what is the value of \\(3x\\)?</div>",
+      "choices": [
+        "\\(5\\)",
+        "\\(10\\)",
+        "\\(15\\)",
+        "\\(25\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>There is no need to find \\(x\\) first. Solve for \\(5x\\), then scale.</div><div class='explanation-math'>$$\\begin{aligned}5x - 6 &= 19 \\\\ 5x &= 25 \\\\ x &= 5\\end{aligned}$$</div><div class='explanation-step'>Therefore \\(3x = 3(5) = 15\\).</div>"
+    },
+    {
+      "id": "MathT3-1-002",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Equations and Inequalities",
+        "skill": "Solving Equations"
+      },
+      "stem": "<div style='text-align:center;'>$$3(x-4) = 2x+5$$</div><div style='margin-top:12px;'>What value of \\(x\\) is the solution to the given equation?</div>",
+      "choices": [
+        "\\(7\\)",
+        "\\(11\\)",
+        "\\(17\\)",
+        "\\(23\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Distribute and collect like terms.</div><div class='explanation-math'>$$\\begin{aligned}3x - 12 &= 2x + 5 \\\\ x &= 17\\end{aligned}$$</div>"
+    },
+    {
+      "id": "MathT3-1-003",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Quadratic Functions",
+        "skill": "Factoring"
+      },
+      "stem": "Which expression is equivalent to \\(x^2 + 2x - 15\\)?",
+      "choices": [
+        "\\((x+5)(x-3)\\)",
+        "\\((x-5)(x+3)\\)",
+        "\\((x+15)(x-1)\\)",
+        "\\((x+3)(x+5)\\)"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>Find two numbers that multiply to \\(-15\\) and add to \\(2\\). Those numbers are \\(5\\) and \\(-3\\).</div><div class='explanation-math'>$$x^2 + 2x - 15 = (x+5)(x-3)$$</div>"
+    },
+    {
+      "id": "MathT3-1-004",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Quadratic Functions",
+        "skill": "Solving Quadratic Equations"
+      },
+      "stem": "<div style='text-align:center;'>$$x^2-5x=14$$</div><div style='margin-top:12px;'>Which of the following is a solution to the given equation?</div>",
+      "choices": [
+        "\\(-7\\)",
+        "\\(-2\\)",
+        "\\(5\\)",
+        "\\(7\\)"
+      ],
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>Set the equation equal to zero and factor.</div><div class='explanation-math'>$$\\begin{aligned}x^2 - 5x - 14 &= 0 \\\\ (x-7)(x+2) &= 0\\end{aligned}$$</div><div class='explanation-step'>By the Zero Product Property, \\(x = 7\\) or \\(x = -2\\). Of the answer choices, \\(x = 7\\) is a solution.</div>"
+    },
+    {
+      "id": "MathT3-1-005",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Problem Solving and Data Analysis",
+        "topic": "Statistics",
+        "skill": "Median"
+      },
+      "stem": "<div style='margin-top:12px;'>The values in the data set shown represent the number of hours several students spent studying for an exam.</div><div style='text-align:center;'>$$3,\\ 8,\\ 12,\\ 5,\\ 9,\\ 1,\\ 7$$</div><div style='margin-top:12px;'>What is the median number of hours spent studying?</div>",
+      "choices": [
+        "\\(6\\)",
+        "\\(7\\)",
+        "\\(8\\)",
+        "\\(9\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>To find the median, arrange the values in order from least to greatest and identify the middle value.</div><div class='explanation-math'>$$1,\\ 3,\\ 5,\\ \\mathbf{7},\\ 8,\\ 9,\\ 12$$</div><div class='explanation-step'>There are \\(7\\) values, so the median is the \\(4\\)th value: \\(7\\).</div>"
+    },
+    {
+      "id": "MathT3-1-006",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Geometry and Trigonometry",
+        "topic": "Lines and Angles",
+        "skill": "Parallel Lines and Transversals"
+      },
+      "stem": "<div class='stem-image'><img src='assets/PT3_1_6.png' style='max-width:320px;'></div><div class='stem-text'>In the figure, lines \\(l\\) and \\(m\\) are parallel. What is the value of \\(x\\)?</div>",
+      "choices": [
+        "\\(62\\)",
+        "\\(72\\)",
+        "\\(108\\)",
+        "\\(118\\)"
+      ],
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>Lines \\(l\\) and \\(m\\) are parallel. The angle marked \\(x°\\) and the angle marked \\(62°\\) are same-side interior angles (co-interior angles), which are supplementary when lines are parallel.</div><div class='explanation-math'>$$x + 62 = 180 \\implies x = 118$$</div>"
+    },
+    {
+      "id": "MathT3-1-007",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Linear Functions",
+        "skill": "Modeling with Linear Functions"
+      },
+      "stem": "Clare drives at a constant speed. After \\(2\\) hours of driving, she has traveled \\(90\\) miles. After \\(5\\) hours, she has traveled \\(225\\) miles. Which of the following equations models the distance \\(d\\), in miles, Clare has traveled after \\(h\\) hours of driving?",
+      "choices": [
+        "\\(d = 40h\\)",
+        "\\(d = 45h\\)",
+        "\\(d = 50h\\)",
+        "\\(d = 90h\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>Since the speed is constant, find the rate of change.</div><div class='explanation-math'>$$\\text{speed} = \\frac{225-90}{5-2} = \\frac{135}{3} = 45\\text{ mph}$$</div><div class='explanation-step'>Since Clare starts from a distance of \\(0\\) miles, the equation is \\(d = 45h\\).</div>"
+    },
+    {
+      "id": "MathT3-1-008",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Exponential Functions",
+        "skill": "Matching Exponential Equations to Graphs"
+      },
+      "stem": "<div class='stem-image'><img src='assets/PT3_1_8.png' style='max-width:320px;'></div><div class='stem-text'>The graph of a function is shown in the \\(xy\\)-plane. Which of the following could be an equation for the function?</div>",
+      "choices": [
+        "\\(y = 50(1.3)^x\\)",
+        "\\(y = 50(0.8)^x\\)",
+        "\\(y = 100(0.7)^x\\)",
+        "\\(y = 100(1.2)^x\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>The graph shows a decreasing exponential function. This eliminates any equation with a base greater than \\(1\\), since those are increasing.</div><div class='explanation-step'><strong>A)</strong> \\(y = 50(1.3)^x\\) has base \\(1.3 > 1\\) &mdash; increasing. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \\(y = 50(0.8)^x\\) has base \\(0.8 < 1\\) &mdash; decreasing, with initial value \\(50\\). Keep B.</div><div class='explanation-step'><strong>C)</strong> \\(y = 100(0.7)^x\\) is decreasing but has initial value \\(100\\), which does not match the graph. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \\(y = 100(1.2)^x\\) has base \\(1.2 > 1\\) &mdash; increasing, and wrong initial value. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    },
+    {
+      "id": "MathT3-1-009",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Linear Functions",
+        "skill": "Finding x-intercept"
+      },
+      "stem": "The function \\(f\\) is defined by \\(f(x) = \\dfrac{3}{4}x - 6\\). The graph of \\(y = f(x)\\) in the \\(xy\\)-plane has an \\(x\\)-intercept at \\((a, 0)\\). What is the value of \\(a\\)?",
+      "choices": [
+        "\\(6\\)",
+        "\\(7\\)",
+        "\\(8\\)",
+        "\\(9\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Set \\(f(x) = 0\\) and solve for \\(x\\).</div><div class='explanation-math'>$$\\begin{aligned}\\frac{3}{4}x - 6 &= 0 \\\\ \\frac{3}{4}x &= 6 \\\\ x &= 8\\end{aligned}$$</div>"
+    },
+    {
+      "id": "MathT3-1-010",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Equations and Inequalities",
+        "skill": "Inequalities in Context"
+      },
+      "stem": "Two research labs are collecting water samples for an environmental study. Lab A collects \\(120\\) samples per day and Lab B collects \\(85\\) samples per day. The study requires a combined total of at least \\(2{,}000\\) samples. If Lab A works for exactly \\(10\\) days, what is the minimum number of whole days Lab B must work to meet the study's requirement?",
+      "choices": [
+        "\\(8\\)",
+        "\\(9\\)",
+        "\\(10\\)",
+        "\\(11\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>First find how many samples Lab A contributes after 10 days.</div><div class='explanation-math'>$$120 \\times 10 = 1{,}200 \\text{ samples}$$</div><div class='explanation-step'>Let \\(d\\) = the number of days Lab B works. Write and solve an inequality.</div><div class='explanation-math'>$$\\begin{aligned}1{,}200 + 85d &\\geq 2{,}000 \\\\ 85d &\\geq 800 \\\\ d &\\geq 9.41...\\end{aligned}$$</div><div class='explanation-step'>The minimum number of whole days is \\(10\\).</div>"
+    },
+    {
+      "id": "MathT3-1-011",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Functions",
+        "skill": "Transformation of Functions"
+      },
+      "stem": "The function \\(f\\) is defined by \\(f(x) = x^2 + 3\\). The function \\(g\\) is defined by \\(g(x) = f(x-2)\\). What is the value of \\(g(5)\\)?",
+      "choices": [
+        "\\(10\\)",
+        "\\(12\\)",
+        "\\(14\\)",
+        "\\(28\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>To find \\(g(5)\\), substitute \\(x = 5\\) into \\(g(x) = f(x-2)\\).</div><div class='explanation-math'>$$g(5) = f(5-2) = f(3) = 3^2 + 3 = 9 + 3 = 12$$</div>"
+    },
+    {
+      "id": "MathT3-1-012",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Exponential Functions",
+        "skill": "Exponential Decay"
+      },
+      "stem": "A car purchased for \\$24{,}000 loses \\(15\\%\\) of its value each year. Which of the following functions gives the value \\(V\\), in dollars, of the car \\(t\\) years after purchase?",
+      "choices": [
+        "\\(V(t) = 24{,}000(0.15)^t\\)",
+        "\\(V(t) = 24{,}000(0.85)^t\\)",
+        "\\(V(t) = 24{,}000(1.15)^t\\)",
+        "\\(V(t) = 24{,}000 - 0.15t\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>A \\(15\\%\\) decrease each year means the car retains \\(85\\%\\) of its value, so it is multiplied by \\(0.85\\) each year.</div><div class='explanation-math'>$$V(t) = 24{,}000(0.85)^t$$</div><div class='explanation-step'>Check: at \\(t=1\\), \\(V = 24{,}000(0.85) = 20{,}400\\), a decrease of \\(\\$3{,}600\\) which is \\(15\\%\\) of \\(24{,}000\\) ✓.</div>"
+    },
+    {
+      "id": "MathT3-1-013",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Polynomial Functions",
+        "skill": "Zeros of Polynomial Functions"
+      },
+      "stem": "The function \\(f\\) is defined by \\(f(x) = x^2(x-4)\\). How many distinct zeros does \\(f\\) have?",
+      "choices": [
+        "\\(1\\)",
+        "\\(2\\)",
+        "\\(3\\)",
+        "\\(4\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>To find the zeros, set \\(f(x) = 0\\).</div><div class='explanation-math'>$$x^2(x-4) = 0$$</div><div class='explanation-step'>By the Zero Product Property: \\(x^2 = 0 \\Rightarrow x = 0\\) (a double root) or \\(x - 4 = 0 \\Rightarrow x = 4\\).</div><div class='explanation-step'>Although \\(x = 0\\) is a double root, it counts as only one <em>distinct</em> zero. The function has exactly \\(2\\) distinct zeros: \\(x = 0\\) and \\(x = 4\\).</div>"
+    },
+    {
+      "id": "MathT3-1-014",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Problem Solving and Data Analysis",
+        "topic": "Probability",
+        "skill": "Two-way Table Probability"
+      },
+      "stem": "<div class='stem-text'>The table summarizes data for \\(50\\) students based on whether they play a sport and whether they are a member of a school club.</div><div class='stem-table-wrap'><table class='stem-table'><tr><th></th><th>\\(\\text{Club Member}\\)</th><th>\\(\\text{Not a Club Member}\\)</th><th>\\(\\text{Total}\\)</th></tr><tr><td>\\(\\text{Plays Sport}\\)</td><td>\\(12\\)</td><td>\\(8\\)</td><td>\\(20\\)</td></tr><tr><td>\\(\\text{Does Not Play Sport}\\)</td><td>\\(18\\)</td><td>\\(12\\)</td><td>\\(30\\)</td></tr><tr><td>\\(\\text{Total}\\)</td><td>\\(30\\)</td><td>\\(20\\)</td><td>\\(50\\)</td></tr></table></div><div style='margin-top:12px;'>A student who plays a sport is selected at random. What is the probability that this student is a club member?</div>",
+      "choices": [
+        "\\(\\dfrac{2}{5}\\)",
+        "\\(\\dfrac{1}{2}\\)",
+        "\\(\\dfrac{3}{5}\\)",
+        "\\(\\dfrac{2}{3}\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Since the student plays a sport, restrict to the \\(20\\) students in the &ldquo;Plays Sport&rdquo; row. Of those, \\(12\\) are club members.</div><div class='explanation-math'>$$P(\\text{club member} \\mid \\text{plays sport}) = \\frac{12}{20} = \\frac{3}{5}$$</div>"
+    },
+    {
+      "id": "MathT3-1-015",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Problem Solving and Data Analysis",
+        "topic": "Percents",
+        "skill": "Percent of a Total"
+      },
+      "stem": "A quality control inspector examined \\(4{,}800\\) items produced at a factory. Of these, \\(312\\) items were found to be defective. What percent of the items inspected were defective?",
+      "choices": [
+        "\\(5.5\\%\\)",
+        "\\(6.5\\%\\)",
+        "\\(7.5\\%\\)",
+        "\\(8.5\\%\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>Divide the number of defective items by the total number of items inspected.</div><div class='explanation-math'>$$\\frac{312}{4{,}800} = 0.065 = 6.5\\%$$</div>"
+    },
+    {
+      "id": "MathT3-1-016",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Geometry and Trigonometry",
+        "topic": "Similarity",
+        "skill": "Proportional Sides in Similar Triangles"
+      },
+      "stem": "Triangle \\(RST\\) is similar to triangle \\(XYZ\\), where angle \\(R\\) corresponds to angle \\(X\\). If \\(RS = 9\\), \\(ST = 12\\), and \\(XY = 15\\), what is the length of \\(YZ\\)?",
+      "choices": [
+        "\\(16\\)",
+        "\\(18\\)",
+        "\\(20\\)",
+        "\\(24\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>The ratio of corresponding sides is \\(\\dfrac{XY}{RS} = \\dfrac{15}{9} = \\dfrac{5}{3}\\). Apply this ratio to find \\(YZ\\).</div><div class='explanation-math'>$$YZ = 12 \\times \\frac{5}{3} = 20$$</div>"
+    },
+    {
+      "id": "MathT3-1-017",
+      "type": "gridin",
+      "level": 2,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Systems of Equations",
+        "skill": "Solving Linear Systems"
+      },
+      "stem": "<div style='text-align:center;'>$$2x + 3y = 17$$</div><div style='text-align:center;'>$$x + y = 7$$</div><div style='margin-top:12px;'>The solution to the given system of equations is \\((x, y)\\). What is the value of \\(x + y\\)?</div>",
+      "answer": "7",
+      "answersAccepted": [
+        "7"
+      ],
+      "validation": {
+        "allowDecimal": false,
+        "allowFraction": false,
+        "allowNegative": false,
+        "maxChars": 4
+      },
+      "explanation": "<div class='explanation-step'>Multiply the second equation by \\(2\\) and subtract from the first.</div><div class='explanation-math'>$$\\begin{aligned}2x+3y &= 17 \\\\ -(2x+2y &= 14) \\\\ y &= 3\\end{aligned}$$</div><div class='explanation-step'>Substitute \\(y = 3\\) into \\(x + y = 7\\): \\(x = 4\\).</div><div class='explanation-math'>$$x + y = 4 + 3 = 7$$</div>"
+    },
+    {
+      "id": "MathT3-1-018",
+      "type": "gridin",
+      "level": 2,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Quadratic Functions",
+        "skill": "Sum of Roots"
+      },
+      "stem": "<div style='text-align:center;'>$$2x^2 - 10x + 8 = 0$$</div><div style='margin-top:12px;'>What is the sum of all solutions to the given equation?</div>",
+      "answer": "5",
+      "answersAccepted": [
+        "5"
+      ],
+      "validation": {
+        "allowDecimal": false,
+        "allowFraction": false,
+        "allowNegative": false,
+        "maxChars": 4
+      },
+      "explanation": "<div class='explanation-step'>Divide the equation by \\(2\\) to simplify, then apply Vieta&rsquo;s formula: for \\(x^2 + bx + c = 0\\), the sum of the roots is \\(-b\\).</div><div class='explanation-math'>$$x^2 - 5x + 4 = 0$$</div><div class='explanation-math'>$$\\text{Sum of roots} = -(-5) = 5$$</div>"
+    },
+    {
+      "id": "MathT3-1-019",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Systems of Equations",
+        "skill": "Infinitely Many Solutions"
+      },
+      "stem": "<div style='text-align:center;'>$$6x - 9y = 15$$</div><div style='text-align:center;'>$$-4x + ky = -10$$</div><div style='margin-top:12px;'>In the given system of equations, \\(k\\) is a constant. For what value of \\(k\\) does the system have infinitely many solutions?</div>",
+      "choices": [
+        "\\(-9\\)",
+        "\\(-6\\)",
+        "\\(6\\)",
+        "\\(9\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>A system has infinitely many solutions when both equations represent the same line. Divide the first equation by \\(-\\frac{3}{2}\\) to match the second.</div><div class='explanation-math'>$$\\frac{6x - 9y}{-3/2} = \\frac{15}{-3/2} \\implies -4x + 6y = -10$$</div><div class='explanation-step'>Comparing with \\(-4x + ky = -10\\), the value of \\(k\\) must be \\(6\\).</div>"
+    },
+    {
+      "id": "MathT3-1-020",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Functions",
+        "skill": "Evaluating Functions from Conditions"
+      },
+      "stem": "The function \\(f\\) is defined by \\(f(x) = ax^2 + bx\\), where \\(a\\) and \\(b\\) are constants. If \\(f(1) = 7\\) and \\(f(2) = 18\\), what is the value of \\(f(3)\\)?",
+      "choices": [
+        "\\(27\\)",
+        "\\(30\\)",
+        "\\(33\\)",
+        "\\(36\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Use the two conditions to set up a system of equations.</div><div class='explanation-math'>$$\\begin{aligned}f(1) = a + b &= 7 \\\\ f(2) = 4a + 2b &= 18\\end{aligned}$$</div><div class='explanation-step'>From the first equation, \\(b = 7 - a\\). Substitute into the second.</div><div class='explanation-math'>$$\\begin{aligned}4a + 2(7-a) &= 18 \\\\ 2a &= 4 \\\\ a &= 2,\\ b = 5\\end{aligned}$$</div><div class='explanation-math'>$$f(3) = 2(9) + 5(3) = 18 + 15 = 33$$</div>"
+    },
+    {
+      "id": "MathT3-1-021",
+      "type": "gridin",
+      "level": 3,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Quadratic Functions",
+        "skill": "System with Discriminant"
+      },
+      "stem": "<div style='text-align:center;'>$$y = 3$$</div><div style='text-align:center;'>$$y = x^2 - 8x + a$$</div><div style='margin-top:12px;'>In the given system of equations, \\(a\\) is a positive constant. The system has exactly one distinct real solution. What is the value of \\(a\\)?</div>",
+      "answer": "19",
+      "answersAccepted": [
+        "19"
+      ],
+      "validation": {
+        "allowDecimal": false,
+        "allowFraction": false,
+        "allowNegative": false,
+        "maxChars": 4
+      },
+      "explanation": "<div class='explanation-step'>Substitute \\(y = 3\\) into the second equation and set equal to zero.</div><div class='explanation-math'>$$0 = x^2 - 8x + (a-3)$$</div><div class='explanation-step'>For exactly one real solution, the discriminant equals zero.</div><div class='explanation-math'>$$\\begin{aligned}(-8)^2 - 4(1)(a-3) &= 0 \\\\ 64 - 4a + 12 &= 0 \\\\ a &= 19\\end{aligned}$$</div>"
+    },
+    {
+      "id": "MathT3-1-022",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Geometry and Trigonometry",
+        "topic": "Circle Equations",
+        "skill": "Radius from Center and Point"
+      },
+      "stem": "A circle in the \\(xy\\)-plane has center \\((2, -3)\\). If the point \\((6, 0)\\) lies on the circle, what is the radius of the circle?",
+      "choices": [
+        "\\(3\\)",
+        "\\(4\\)",
+        "\\(5\\)",
+        "\\(\\sqrt{7}\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>The radius is the distance from the center to any point on the circle. Use the distance formula.</div><div class='explanation-math'>$$\\begin{aligned}r &= \\sqrt{(6-2)^2 + (0-(-3))^2} \\\\ &= \\sqrt{16 + 9} \\\\ &= \\sqrt{25} = 5\\end{aligned}$$</div>"
+    }
+  ]
+}

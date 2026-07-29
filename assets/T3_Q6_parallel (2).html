@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  body { background: white; margin: 40px; font-family: 'Georgia', serif; }
+  svg { display: block; }
+</style>
+</head>
+<body>
+<svg width="400" height="380" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Line l (top, nearly horizontal, slight downward right) -->
+  <line x1="20" y1="110" x2="380" y2="125" stroke="black" stroke-width="2.5"/>
+  <!-- Label l -->
+  <text x="8" y="115" font-size="18" font-style="italic" font-family="Georgia">l</text>
+
+  <!-- Line m (bottom, same angle) -->
+  <line x1="20" y1="245" x2="380" y2="260" stroke="black" stroke-width="2.5"/>
+  <!-- Label m -->
+  <text x="8" y="268" font-size="18" font-style="italic" font-family="Georgia">m</text>
+
+  <!-- Transversal (steep, crossing both) -->
+  <!-- Intersects l around (220, 118), intersects m around (175, 249) -->
+  <line x1="140" y1="20" x2="255" y2="340" stroke="black" stroke-width="2.5"/>
+
+  <!-- x° — exterior angle at top intersection, above line l, LEFT of transversal -->
+  <!-- Intersection approx (220, 118). x° is upper-left of this point -->
+  <text x="185" y="108" font-size="16" font-style="italic" font-family="Georgia">x°</text>
+
+  <!-- 62° — interior angle at bottom intersection, above line m, RIGHT of transversal -->
+  <!-- Intersection approx (175, 249). 62° is upper-right of this point -->
+  <text x="183" y="243" font-size="16" font-family="Georgia">62°</text>
+
+  <!-- Note -->
+  <text x="200" y="370" font-size="13" font-style="italic" font-family="Georgia" text-anchor="middle">Note: Figure not drawn to scale.</text>
+
+</svg>
+</body>
+</html>
