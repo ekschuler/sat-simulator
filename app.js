@@ -1868,6 +1868,12 @@ function handleReviewKeydown(e) {
 function renderReviewScreen(mode) {
   const index = reviewIndices[reviewPointer];
   const q = data.questions[index];
+  
+  if (!q) {
+    console.error("renderReviewScreen: question undefined at index", index, "reviewPointer", reviewPointer, "reviewIndices", reviewIndices);
+    return;
+  }
+  
   const correct = isQuestionCorrect(q);
   const userAnswer = getUserAnswerText(q);
 
