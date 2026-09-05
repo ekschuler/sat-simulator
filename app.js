@@ -2608,7 +2608,7 @@ if ((data?.moduleId || "").trim().includes("Mod1")) {
   return;
 }
 
-console.log("FULL SAT CHECK:", fullSATMode, currentSubject, data?.moduleId);
+console.log("FULL SAT CHECK:", fullSATMode, currentSubject, data?.moduleId, "testVersion:", currentTestVersion);
 if (fullSATMode && currentSubject === "verbal" && (data?.moduleId || "").trim().includes("Mod2")) {
   window.__verbalQuestions = [
     ...(window.__testModule1Questions || []),
