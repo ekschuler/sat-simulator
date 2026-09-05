@@ -67,11 +67,13 @@ function getSavedTestSession() {
 }
 
 function updateUrlForMode(mode) {
-  const next = mode === "home"
-    ? window.location.pathname
-    : `${window.location.pathname}?mode=${encodeURIComponent(mode)}`;
-
-  window.history.replaceState({}, "", next);
+  if (mode === "home") {
+    window.history.replaceState({}, "", window.location.pathname);
+    return;
+  }
+  const params = new URLSearchParams(window.location.search);
+  params.set("mode", mode);
+  window.history.replaceState({}, "", `${window.location.pathname}?${params.toString()}`);
 }
 async function getCurrentSupabaseUser() {
   const { data, error } = await window.supabaseClient.auth.getUser();
