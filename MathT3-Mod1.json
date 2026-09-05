@@ -1,5 +1,5 @@
 {
-  "moduleId": "MathT3-1",
+  "moduleId": "MathT3-Mod1",
   "subject": "math",
   "timeSeconds": 1920,
   "title": "Math Test 3 — Module 1",
@@ -66,25 +66,6 @@
       "type": "mcq",
       "level": 1,
       "skill": {
-        "domain": "Advanced Math",
-        "topic": "Quadratic Functions",
-        "skill": "Solving Quadratic Equations"
-      },
-      "stem": "<div style='text-align:center;'>$$x^2-5x=14$$</div><div style='margin-top:12px;'>Which of the following is a solution to the given equation?</div>",
-      "choices": [
-        "\\(-7\\)",
-        "\\(-2\\)",
-        "\\(5\\)",
-        "\\(7\\)"
-      ],
-      "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>Set the equation equal to zero and factor.</div><div class='explanation-math'>$$\\begin{aligned}x^2 - 5x - 14 &= 0 \\\\ (x-7)(x+2) &= 0\\end{aligned}$$</div><div class='explanation-step'>By the Zero Product Property, \\(x = 7\\) or \\(x = -2\\). Of the answer choices, \\(x = 7\\) is a solution.</div>"
-    },
-    {
-      "id": "MathT3-1-005",
-      "type": "mcq",
-      "level": 1,
-      "skill": {
         "domain": "Problem Solving and Data Analysis",
         "topic": "Statistics",
         "skill": "Median"
@@ -100,7 +81,7 @@
       "explanation": "<div class='explanation-step'>To find the median, arrange the values in order from least to greatest and identify the middle value.</div><div class='explanation-math'>$$1,\\ 3,\\ 5,\\ \\mathbf{7},\\ 8,\\ 9,\\ 12$$</div><div class='explanation-step'>There are \\(7\\) values, so the median is the \\(4\\)th value: \\(7\\).</div>"
     },
     {
-      "id": "MathT3-1-006",
+      "id": "MathT3-1-005",
       "type": "mcq",
       "level": 1,
       "skill": {
@@ -119,6 +100,26 @@
       "explanation": "<div class='explanation-step'>Lines \\(l\\) and \\(m\\) are parallel. The angle marked \\(x°\\) and the angle marked \\(62°\\) are same-side interior angles (co-interior angles), which are supplementary when lines are parallel.</div><div class='explanation-math'>$$x + 62 = 180 \\implies x = 118$$</div>"
     },
     {
+      "id": "MathT3-1-006",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Quadratic Functions",
+        "skill": "Solving Quadratic Equations"
+      },
+      "stem": "<div style='text-align:center;'>$$x^2-5x=14$$</div><div style='margin-top:12px;'>Which of the following is a solution to the given equation?</div>",
+      "choices": [
+        "\\(-7\\)",
+        "\\(-2\\)",
+        "\\(2\\)",
+        "\\(5\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>Set the equation equal to zero and factor.</div><div class='explanation-math'>$$\\begin{aligned}x^2 - 5x - 14 &= 0 \\\\ (x-7)(x+2) &= 0\\end{aligned}$$</div><div class='explanation-step'>By the Zero Product Property, \\(x = 7\\) or \\(x = -2\\). Of the answer choices, \\(x = -2\\) is a solution.</div>"
+    },
+    
+    {
       "id": "MathT3-1-007",
       "type": "mcq",
       "level": 2,
@@ -127,7 +128,7 @@
         "topic": "Linear Functions",
         "skill": "Modeling with Linear Functions"
       },
-      "stem": "Clare drives at a constant speed. After \\(2\\) hours of driving, she has traveled \\(90\\) miles. After \\(5\\) hours, she has traveled \\(225\\) miles. Which of the following equations models the distance \\(d\\), in miles, Clare has traveled after \\(h\\) hours of driving?",
+      "stem": "Amber drives at a constant speed. After \\(2\\) hours of driving, she has traveled \\(90\\) miles. After \\(5\\) hours, she has traveled \\(225\\) miles. Which of the following equations models the distance \\(d\\), in miles, Amber has traveled after \\(h\\) hours of driving?",
       "choices": [
         "\\(d = 40h\\)",
         "\\(d = 45h\\)",
@@ -222,14 +223,14 @@
         "topic": "Exponential Functions",
         "skill": "Exponential Decay"
       },
-      "stem": "A car purchased for \\$24{,}000 loses \\(15\\%\\) of its value each year. Which of the following functions gives the value \\(V\\), in dollars, of the car \\(t\\) years after purchase?",
+      "stem": "A car purchased for \\$\\(24{,}000\\) loses \\(15\\%\\) of its value each year. Which of the following functions gives the value \\(V\\), in dollars, of the car \\(t\\) years after purchase?",
       "choices": [
-        "\\(V(t) = 24{,}000(0.15)^t\\)",
         "\\(V(t) = 24{,}000(0.85)^t\\)",
+        "\\(V(t) = 24{,}000(0.15)^t\\)",
         "\\(V(t) = 24{,}000(1.15)^t\\)",
         "\\(V(t) = 24{,}000 - 0.15t\\)"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "<div class='explanation-step'>A \\(15\\%\\) decrease each year means the car retains \\(85\\%\\) of its value, so it is multiplied by \\(0.85\\) each year.</div><div class='explanation-math'>$$V(t) = 24{,}000(0.85)^t$$</div><div class='explanation-step'>Check: at \\(t=1\\), \\(V = 24{,}000(0.85) = 20{,}400\\), a decrease of \\(\\$3{,}600\\) which is \\(15\\%\\) of \\(24{,}000\\) ✓.</div>"
     },
     {
@@ -243,12 +244,12 @@
       },
       "stem": "The function \\(f\\) is defined by \\(f(x) = x^2(x-4)\\). How many distinct zeros does \\(f\\) have?",
       "choices": [
+        "\\(0\\)",
         "\\(1\\)",
         "\\(2\\)",
-        "\\(3\\)",
-        "\\(4\\)"
+        "\\(3\\)"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "<div class='explanation-step'>To find the zeros, set \\(f(x) = 0\\).</div><div class='explanation-math'>$$x^2(x-4) = 0$$</div><div class='explanation-step'>By the Zero Product Property: \\(x^2 = 0 \\Rightarrow x = 0\\) (a double root) or \\(x - 4 = 0 \\Rightarrow x = 4\\).</div><div class='explanation-step'>Although \\(x = 0\\) is a double root, it counts as only one <em>distinct</em> zero. The function has exactly \\(2\\) distinct zeros: \\(x = 0\\) and \\(x = 4\\).</div>"
     },
     {
@@ -281,12 +282,12 @@
       },
       "stem": "A quality control inspector examined \\(4{,}800\\) items produced at a factory. Of these, \\(312\\) items were found to be defective. What percent of the items inspected were defective?",
       "choices": [
+        "\\(0.65\\%\\)",
+        "\\(1.5\\%\\)",
         "\\(5.5\\%\\)",
-        "\\(6.5\\%\\)",
-        "\\(7.5\\%\\)",
-        "\\(8.5\\%\\)"
+        "\\(6.5\\%\\)"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "<div class='explanation-step'>Divide the number of defective items by the total number of items inspected.</div><div class='explanation-math'>$$\\frac{312}{4{,}800} = 0.065 = 6.5\\%$$</div>"
     },
     {
@@ -298,7 +299,7 @@
         "topic": "Similarity",
         "skill": "Proportional Sides in Similar Triangles"
       },
-      "stem": "Triangle \\(RST\\) is similar to triangle \\(XYZ\\), where angle \\(R\\) corresponds to angle \\(X\\). If \\(RS = 9\\), \\(ST = 12\\), and \\(XY = 15\\), what is the length of \\(YZ\\)?",
+      "stem": "Triangle \\(RST\\) is similar to triangle \\(XYZ\\), where angle \\(R\\) corresponds to angle \\(X\\), angle \\(S\\) corresponds to angle \\(Y\\), and angle \\(T\\) corresponds to angle \\(Z\\). If \\(RS = 9\\), \\(ST = 12\\), and \\(XY = 15\\), what is the length of \\(YZ\\)?",
       "choices": [
         "\\(16\\)",
         "\\(18\\)",
@@ -317,10 +318,10 @@
         "topic": "Systems of Equations",
         "skill": "Solving Linear Systems"
       },
-      "stem": "<div style='text-align:center;'>$$2x + 3y = 17$$</div><div style='text-align:center;'>$$x + y = 7$$</div><div style='margin-top:12px;'>The solution to the given system of equations is \\((x, y)\\). What is the value of \\(x + y\\)?</div>",
-      "answer": "7",
+      "stem": "<div style='text-align:center;'>$$2x + 3y = 17$$</div><div style='text-align:center;'>$$x + 2y = -7$$</div><div style='margin-top:12px;'>The solution to the given system of equations is \\((x, y)\\). What is the value of \\(x + y\\)?</div>",
+      "answer": "24",
       "answersAccepted": [
-        "7"
+        "24"
       ],
       "validation": {
         "allowDecimal": false,
@@ -328,7 +329,7 @@
         "allowNegative": false,
         "maxChars": 4
       },
-      "explanation": "<div class='explanation-step'>Multiply the second equation by \\(2\\) and subtract from the first.</div><div class='explanation-math'>$$\\begin{aligned}2x+3y &= 17 \\\\ -(2x+2y &= 14) \\\\ y &= 3\\end{aligned}$$</div><div class='explanation-step'>Substitute \\(y = 3\\) into \\(x + y = 7\\): \\(x = 4\\).</div><div class='explanation-math'>$$x + y = 4 + 3 = 7$$</div>"
+      "explanation": "<div class='explanation-step'>There is no need to solve this system directly. Instead, subtract the second equation from the first to get \\(x+y\\) on the left hand side.</div><div class='explanation-math'>$$\\begin{aligned}2x+3y &= 17 \\\\ -(x+2y) &= -7) \\\\ x+y &= 17 - (-7)=24\\end{aligned}$$</div>"
     },
     {
       "id": "MathT3-1-018",
