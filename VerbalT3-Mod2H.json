@@ -1,0 +1,678 @@
+{
+  "moduleId": "VerbalT1_Mod2H",
+  "subject": "verbal",
+  "timeSeconds": 1920,
+  "title": "SAT Reading and Writing — Module 2",
+  "questions": [
+    {
+      "id": "VerbalT1-2H-001",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Craft and Structure",
+        "topic": "Words in Context",
+        "skill": "Vocabulary in Context"
+      },
+      "tags": [
+        "vocabulary",
+        "sentence completion"
+      ],
+      "stem": "While some financial analysts downplay daily fluctuations in the market, few would dispute that the impact of price swings on public trust has been <span class='blank'>_______</span>, fundamentally changing how many investors view the long-term reliability of financial markets.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        "magnified",
+        "mundane",
+        "impervious",
+        "indelible"
+      ],
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage. The word &ldquo;While&rdquo; signals a direction change: analysts downplay the impact, but the blank describes the actual impact as something much more significant. The clue that follows — &ldquo;fundamentally changing how many investors view the long-term reliability of financial markets&rdquo; — tells us this change is permanent and lasting.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Magnified&rdquo; means made to appear larger — while the impact is significant, the passage emphasizes permanence, not amplification. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Mundane&rdquo; means ordinary or boring — the opposite of what the passage describes. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Impervious&rdquo; means unaffected or resistant — this makes no grammatical sense as a description of impact. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Indelible&rdquo; means permanent and leaving a lasting mark — consistent with an impact that has &ldquo;fundamentally changed&rdquo; investor views. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+    },
+    {
+      "id": "VerbalT1-2H-002",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Craft and Structure",
+        "topic": "Words in Context",
+        "skill": "Vocabulary in Context"
+      },
+      "tags": [
+        "vocabulary",
+        "sentence completion"
+      ],
+      "stem": "Accounts of Arctic explorations are often written to strike a balance between the bravery and the <span class='blank'>_______</span> exhibited by their explorers, seeking to honor the intrepid voyagers while also capturing the recklessness that often led to perilous endings.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        "foolhardiness",
+        "frugality",
+        "cowardice",
+        "modesty"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage. The blank is paired with &ldquo;bravery&rdquo; as the two qualities that accounts seek to balance. Later in the sentence this is restated as honoring &ldquo;intrepid voyagers&rdquo; (bravery) while capturing &ldquo;the recklessness that often led to perilous endings&rdquo; (the blank).</div><div class='explanation-step'><strong>A)</strong> &ldquo;Foolhardiness&rdquo; means reckless boldness or rashness — synonymous with the &ldquo;recklessness&rdquo; the passage describes. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Frugality&rdquo; means cautiousness with resources — unrelated to the recklessness that caused perilous endings. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Cowardice&rdquo; means lack of bravery — this would make &ldquo;bravery and cowardice,&rdquo; but the passage describes recklessness, not timidity. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Modesty&rdquo; means reservedness or restraint — the opposite of recklessness. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+    },
+    {
+      "id": "VerbalT1-2H-003",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Craft and Structure",
+        "topic": "Words in Context",
+        "skill": "Vocabulary in Context"
+      },
+      "tags": [
+        "vocabulary",
+        "sentence completion"
+      ],
+      "stem": "Naturalist Donald Culross Peattie called his essay on the near extermination of the American chestnut tree an elegy; the fungal disease that spread through North American forests in the early twentieth century, killing an estimated four billion trees within decades, was to Peattie not only an ecological <span class='blank'>_______</span>, but also a profound cultural loss that he felt compelled to mourn in prose.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        "plight",
+        "occurrence",
+        "blight",
+        "anomaly"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, the blank describes the fungal disease from an ecological standpoint — contrasted with the &ldquo;cultural loss&rdquo; that follows. The word should be scientific in register and convey large-scale destruction.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Plight&rdquo; means a difficult situation — while the disease was devastating, &ldquo;plight&rdquo; is too vague and non-scientific for an ecological description. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Occurrence&rdquo; means an event — far too neutral for a disease that killed four billion trees. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Blight&rdquo; means something that destroys or causes ruin, and specifically refers to plant diseases — an exact ecological match for a fungal disease that devastated a tree species. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Anomaly&rdquo; means a deviation from the norm — while the disease was unusual, this word doesn&rsquo;t capture the scale of destruction. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+    },
+    {
+  "id": "VerbalT1-2H-004",
+  "type": "mcq",
+  "level": 3,
+  "skill": {
+    "domain": "Craft and Structure",
+    "topic": "Words in Context",
+    "skill": "Vocabulary in Context"
+  },
+  "tags": ["vocabulary", "sentence completion"],
+  "stem": "Though the administration had initially dismissed the investigative report as sensationalist, its findings proved surprisingly <span class='blank'>_______</span>: within months, three independent audits had reached nearly identical conclusions, and a congressional committee cited the report's central claims without qualification.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "contentious",
+    "prescient",
+    "credulous",
+    "durable"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, the direction change is key. The administration &ldquo;initially dismissed&rdquo; the report as sensationalist — but the blank describes what the findings &ldquo;proved.&rdquo; The word &ldquo;though&rdquo; signals a reversal. What follows confirms the blank: three independent audits reached identical conclusions and Congress cited the claims without qualification. The blank must mean something like accurate or vindicated in advance.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Contentious&rdquo; means causing disagreement — the passage describes the findings being confirmed, not disputed further. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Prescient&rdquo; means having accurate foresight — a report dismissed as sensationalist that was later confirmed by independent audits and cited by Congress proved prescient. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Credulous&rdquo; means too willing to believe things — this describes a person, not a report's findings. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Durable&rdquo; means long-lasting — while related, it doesn&rsquo;t capture the specific quality of being proven accurate after being dismissed. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+},
+    {
+      "id": "VerbalT1-2H-005",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Craft and Structure",
+        "topic": "Text Structure and Purpose",
+        "skill": "Function of a Sentence"
+      },
+      "stemSegments": [
+        {
+          "text": "The following text is from Willa Cather&rsquo;s 1918 novel <em>My &Aacute;ntonia</em>. Jim, the narrator, is traveling by wagon across the Nebraska prairie as a young boy.",
+          "align": "left",
+          "style": "default"
+        },
+        {
+          "text": "I tried to go to sleep, but the jolting made me bite my tongue, and I soon began to ache all over. When the straw settled down I had a hard bed. Cautiously I slipped from under the buffalo hide, got up on my knees and peered over the side of the wagon. There seemed to be nothing to see; no fences, no creeks or trees, no hills or fields. If there was a road, I could not make it out in the faint starlight. <u>There was nothing but land: not a country at all, but the material out of which countries are made.</u> No, there was nothing but land&mdash;slightly undulating, I knew, because often our wheels ground against the brake as we went down into a hollow and lurched up again on the other side. I had the feeling that the world was left behind, that we had got over the edge of it, and were outside man&rsquo;s jurisdiction.",
+          "align": "left",
+          "style": "passage"
+        },
+        {
+          "text": "Which choice best states the function of the underlined sentence in the overall structure of the text?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+      "choices": [
+        "It contrasts the barrenness of the prairie with the civilization Jim left behind.",
+        "It shifts from describing what Jim observes to offering a philosophical interpretation of the landscape.",
+        "It provides a factual description of the Nebraska terrain to ground the reader in the setting.",
+        "It foreshadows Jim&rsquo;s eventual sense of belonging in his new home."
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Function of a Sentence</em> questions, read what comes before and after the underlined sentence. Before: Jim describes what he physically cannot see — no fences, trees, hills, road. This is pure observation. The underlined sentence then shifts register: &ldquo;not a country at all, but the material out of which countries are made&rdquo; is an interpretation, not an observation.</div><div class='explanation-step'><strong>A)</strong> The sentence does not contrast the prairie with civilization — it redefines what the prairie is. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Precisely captures the shift: from physical observation (nothing to see) to philosophical interpretation (land as raw material, pre-civilizational). Keep B.</div><div class='explanation-step'><strong>C)</strong> The sentence is not factual description — &ldquo;material out of which countries are made&rdquo; is metaphorical and interpretive. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Nothing in the underlined sentence suggests Jim&rsquo;s future belonging. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    },
+    {
+      "id": "VerbalT1-2H-006",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Information and Ideas",
+        "topic": "Command of Evidence",
+        "skill": "Textual Evidence"
+      },
+      "stem": "Tardigrades, microscopic invertebrates rarely exceeding one millimeter in length, have been the subject of considerable scientific fascination due to their capacity for survival under conditions fatal to virtually all other known animals. Takekazu Kunieda, a molecular biologist at the University of Tokyo, has studied the apparatus underlying one of the tardigrade&rsquo;s most extraordinary traits: the ability to survive complete dehydration for up to decades. Kunieda&rsquo;s research found that when deprived of water, tardigrades produce a glass-like protein that encloses their cells, effectively suspending all biological activity until triggered by the reintroduction of moisture. This process, cryptobiosis, allows tardigrades to withstand not only prolonged drought but also radiation exposure and extreme temperatures — conditions that have made them a subject of particular interest to astrobiologists seeking to understand the limits of life beyond Earth.<br><br>According to the text, why have tardigrades been of interest to researchers studying life in space?",
+      "choices": [
+        "Their ability to survive conditions such as radiation and extreme temperatures makes them useful for studying the boundaries of life outside Earth.",
+        "Their production of a glass-like protein has potential applications for preserving human cells during long space voyages.",
+        "Their small size makes them practical test subjects for experiments conducted in the limited space of spacecraft.",
+        "Their capacity to survive without water for decades makes them a model for developing drought-resistant crops."
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>According to the Text</em> questions, the correct answer is directly stated. The passage says cryptobiosis allows tardigrades to withstand &ldquo;radiation exposure and extreme temperatures — conditions that have made them a subject of particular interest to astrobiologists seeking to understand the limits of life beyond Earth.&rdquo;</div><div class='explanation-step'><strong>A)</strong> Directly matches the passage: radiation and extreme temperatures → useful for studying limits of life outside Earth. Keep A.</div><div class='explanation-step'><strong>B)</strong> Potential applications for human cell preservation are not mentioned in the passage. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Small size as a practical advantage for spacecraft experiments is not mentioned. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Drought-resistant crops are not mentioned — the passage focuses on space research. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+    },
+    {
+      "id": "VerbalT1-2H-007",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Information and Ideas",
+        "topic": "Command of Evidence",
+        "skill": "Textual Evidence"
+      },
+      "stem": "The true identity of who authored Shakespeare&rsquo;s plays is still debated in academic circles. Scholars generally fall into two main camps: the traditionalists, who attribute the works to William Shakespeare of Stratford-upon-Avon, and the anti-Stratfordians, who argue that another writer must have been responsible. The existence of these opposing camps stems largely from Shakespeare&rsquo;s modest background, which anti-Stratfordians believe contrasts too sharply with the extensive knowledge of aristocratic life and distant settings reflected in the plays.<br><br>Which finding, if true, would most directly undermine the anti-Stratfordians&rsquo; claim?",
+      "choices": [
+        "Scholars have identified a number of factual errors in Shakespeare&rsquo;s depictions of Italian geography in plays set in cities such as Venice and Verona.",
+        "Several of Shakespeare&rsquo;s contemporaries who came from similarly modest backgrounds produced works that also depicted aristocratic life with considerable accuracy.",
+        "Records from the period indicate that theatrical troupes, including those Shakespeare performed with, frequently toured the estates of aristocrats and nobles, providing performers direct exposure to upper-class customs and settings.",
+        "Documents recovered from Stratford-upon-Avon confirm that Shakespeare owned property and accumulated significant wealth over the course of his lifetime."
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>For <em>Weakening a Claim</em> questions, identify the precise claim. Anti-Stratfordians argue that Shakespeare&rsquo;s modest background makes it impossible for him to have had the knowledge of aristocratic life reflected in the plays. To undermine this, the correct answer must show how someone with a modest background could have acquired that knowledge.</div><div class='explanation-step'><strong>A)</strong> Factual errors in Italian settings would actually support anti-Stratfordians by suggesting the author lacked firsthand knowledge. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Other modest-background authors depicting aristocratic life is relevant but indirect — it doesn&rsquo;t explain how Shakespeare specifically gained his knowledge. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> If theatrical troupes toured aristocratic estates, Shakespeare would have had direct exposure to upper-class customs — directly explaining how a person of modest background could have acquired the knowledge anti-Stratfordians say he couldn&rsquo;t have had. Keep C.</div><div class='explanation-step'><strong>D)</strong> Wealth and property ownership address Shakespeare&rsquo;s financial success, not his knowledge of aristocratic life. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+    },
+    {
+      "id": "VerbalT1-2H-008",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Information and Ideas",
+        "topic": "Command of Evidence",
+        "skill": "Quantitative Evidence"
+      },
+      "stemSegments": [
+        {
+          "text": "The following graph and table are from a 2021 urban planning study on the relationship between tree coverage and summer temperatures in residential neighborhoods.",
+          "align": "left",
+          "style": "default"
+        },
+        {
+          "text": "<img src='assets/VerbalT1-2H-008.png' style='width:100%; display:block;'>",
+          "align": "left",
+          "style": "default"
+        },
+        {
+          "text": "A team of urban ecologists at the University of Texas conducted a 2021 study examining whether tree coverage meaningfully affects average summer temperatures across residential neighborhoods. Selecting five neighborhoods within a single Texas municipality, the researchers recorded daily high temperatures over three summer months and calculated tree coverage as a percentage of total land area for each site. Based on their findings, the team concluded that greater tree coverage is associated with measurably lower average summer temperatures, suggesting that urban forestry may serve as a practical tool for mitigating heat in densely populated areas.",
+          "align": "left",
+          "style": "default"
+        },
+        {
+          "text": "Which choice best describes data from the graph and table that support the team&rsquo;s conclusion?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+      "choices": [
+        "Tree coverage percentages varied significantly across all five neighborhoods, ranging from 8% to 42% of total land area.",
+        "Camden Plains and Riverside had similar tree coverage percentages and therefore recorded nearly identical average summer temperatures.",
+        "The neighborhoods with the highest temperatures were located in the eastern part of the municipality, regardless of tree coverage.",
+        "West Oaks, which had the highest tree coverage at 42%, recorded the lowest average summer temperature, while Woodland, with only 8% tree coverage, recorded the highest."
+      ],
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>For <em>Quantitative Evidence</em> questions, the correct answer must directly support the team&rsquo;s conclusion: greater tree coverage is associated with lower summer temperatures. The correct answer needs to cite specific data showing this relationship.</div><div class='explanation-step'><strong>A)</strong> Variation in tree coverage percentages is true but doesn&rsquo;t connect coverage to temperature — it only describes one variable. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Camden Plains (23%) and Riverside (31%) have different tree coverage percentages, not similar ones. This is factually inaccurate. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Geographic location (eastern vs western) is not shown in the graph or table — this introduces information not in the data. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> West Oaks (42% coverage, lowest temperature) and Woodland (8% coverage, highest temperature) directly illustrate the inverse relationship between tree coverage and temperature — supporting the conclusion. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+    },
+    {
+      "id": "VerbalT1-2H-009",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Information and Ideas",
+        "topic": "Command of Evidence",
+        "skill": "Textual Evidence"
+      },
+      "stem": "Neuroscientist Dr. Priya Anand argues that even mild sleep deprivation — defined as consistently getting one to two hours less sleep than recommended — significantly impairs the brain&rsquo;s ability to evaluate risk accurately, leading to systematically overoptimistic assessments of potential negative outcomes in decision-making contexts ranging from financial choices to medical judgments.<br><br>Which finding, if true, would most directly support Dr. Anand&rsquo;s claim?",
+      "choices": [
+        "Adults who report sleeping fewer than six hours per night also report higher levels of daily stress than those who sleep seven to nine hours.",
+        "In a controlled study, participants who slept six hours per night for two weeks rated identical financial scenarios as significantly less risky than a fully rested control group rating the same scenarios.",
+        "Neuroscientists have identified a region of the prefrontal cortex that is activated during risk assessment and is also associated with emotional regulation.",
+        "People who describe themselves as &ldquo;short sleepers&rdquo; — requiring fewer than six hours of sleep to feel rested — show no significant impairment on standard cognitive tests."
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Supporting a Claim</em> questions, identify the precise claim. Dr. Anand argues that mild sleep deprivation causes overoptimistic (underestimating) risk assessments. The correct answer must show sleep-deprived people making systematically overoptimistic risk judgments.</div><div class='explanation-step'><strong>A)</strong> Higher stress in short sleepers is related to sleep but doesn&rsquo;t address risk assessment accuracy. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Sleep-deprived participants rating financial scenarios as less risky than fully rested participants directly supports the claim that mild deprivation leads to overoptimistic risk assessment. Keep B.</div><div class='explanation-step'><strong>C)</strong> Identifying a brain region involved in risk assessment is background neuroscience, not evidence that sleep deprivation impairs that region&rsquo;s function. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Short sleepers without impairment would actually suggest the opposite — some people are unaffected — weakening the claim. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    },
+    {
+      "id": "VerbalT1-2H-010",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Information and Ideas",
+        "topic": "Central Ideas and Details",
+        "skill": "Main Idea"
+      },
+      "stem": "Maps have long been regarded as neutral representations of geographic reality, but historians of cartography argue that this view obscures the deeply political nature of mapmaking. Every map involves choices — what to include, what to omit, how to name places, which territory to center — and these choices reflect the priorities, assumptions, and ambitions of the societies that produce them. Colonial-era maps, for example, frequently depicted indigenous territories as empty or unnamed, a visual erasure that reinforced narratives of settlement and civilization. Even contemporary digital maps embed political assumptions: which borders to recognize, which disputed territories to shade, which place names to privilege. To examine a map is therefore not simply to read geography but to read power.<br><br>Which choice best states the main idea of the text?",
+      "choices": [
+        "Colonial-era maps were deliberately designed to mislead viewers about the nature of indigenous territories.",
+        "Digital mapping technology has introduced new forms of political bias that were absent from historical cartography.",
+        "Historians of cartography have recently developed new methods for detecting political bias in historical and contemporary maps.",
+        "Maps are not neutral representations of geography but reflect the political assumptions and priorities of those who create them."
+      ],
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>For <em>Main Idea</em> questions, the correct answer must cover the full scope of the passage. The passage argues throughout that maps are political — not neutral — and that this applies across historical and contemporary examples.</div><div class='explanation-step'><strong>A)</strong> Colonial maps are one example used to illustrate the broader argument — the passage is not primarily about colonial maps. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Digital maps are mentioned briefly — the passage argues bias has always been present, not that digital technology introduced it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> No new methods are mentioned — the passage is about the argument itself, not historiographical methodology. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Captures the full argument: maps are not neutral but reflect political assumptions — illustrated through both historical and contemporary examples. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+    },
+    {
+      "id": "VerbalT1-2H-011",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Craft and Structure",
+        "topic": "Text Structure and Purpose",
+        "skill": "Overall Structure"
+      },
+      "stem": "For most of human history, surgical operations were performed without effective pain management, relying on alcohol, opium, or simply speed to minimize suffering. The introduction of ether anesthesia in 1846 transformed surgery from an ordeal to be endured into a procedure patients could sleep through, and the decades that followed saw rapid refinement of anesthetic agents and techniques. Yet the history of anesthesia is not a simple story of progress: early practitioners had little understanding of dosing, and deaths from anesthetic overdose were common well into the twentieth century. Only with the development of monitoring technologies — devices that could track a patient&rsquo;s vital signs in real time — did anesthesia become reliably safe. Today, death from general anesthesia occurs in fewer than one in 100,000 cases.<br><br>Which choice best describes the overall structure of the text?",
+      "choices": [
+        "It traces the development of anesthesia from a dangerous innovation to a reliably safe practice, acknowledging the complications that accompanied its early use.",
+        "It argues that modern anesthesia is the result of technological innovation rather than advances in pharmacological understanding.",
+        "It presents the history of anesthesia as a cautionary tale about the dangers of adopting new medical technologies before they are fully understood.",
+        "It compares pre-modern surgical practices with contemporary techniques to argue that patient safety has always been the primary concern of medicine."
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>Overall Structure</em> questions, map each part. Part 1: surgery before anesthesia was an ordeal. Part 2: ether in 1846 transformed surgery. Part 3: BUT early anesthesia was dangerous (overdose deaths). Part 4: monitoring technology made it reliably safe. Part 5: today it is extremely safe (1 in 100,000).</div><div class='explanation-step'><strong>A)</strong> Accurately traces the full arc: dangerous innovation (early deaths) → reliably safe practice (1 in 100,000), acknowledging early complications. Keep A.</div><div class='explanation-step'><strong>B)</strong> The passage does not argue technology trumped pharmacology — both are described as contributing. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> The passage is not a cautionary tale — it ends with anesthesia becoming reliably safe. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The passage does not argue patient safety has always been the primary concern — it describes a history in which safety improved over time. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+    },
+    {
+      "id": "VerbalT1-2H-012",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Information and Ideas",
+        "topic": "Command of Evidence",
+        "skill": "Textual Evidence"
+      },
+      "stemSegments": [
+        {
+          "text": "In <em>Walden</em> (1854), Henry David Thoreau argues that most people spend their lives laboring to maintain a standard of living that ultimately impoverishes rather than enriches them — that the pursuit of material comfort actively prevents genuine freedom, writing <span class='blank'>_______</span>.",
+          "align": "left",
+          "style": "default"
+        },
+        {
+          "text": "Which quotation from <em>Walden</em> most effectively illustrates the claim?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+      "choices": [
+        "&ldquo;I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived.&rdquo;",
+        "&ldquo;The mass of men lead lives of quiet desperation. What is called resignation is confirmed desperation.&rdquo;",
+        "&ldquo;The man who goes alone can start today; but he who travels with another must wait till that other is ready.&rdquo;",
+        "&ldquo;It is not enough to be busy; so are the ants. The question is: what are we busy about?&rdquo;"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Illustrating Claims with Quotations</em> questions, the correct quotation must directly illustrate the specific claim. The claim is that most people&rsquo;s labor impoverishes rather than enriches them — that pursuing material comfort prevents genuine freedom. The quotation must show people trapped in this condition.</div><div class='explanation-step'><strong>A)</strong> This is about Thoreau&rsquo;s personal motivation for going to the woods — about living deliberately, not about the trap of labor and material pursuit. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Lives of quiet desperation&rdquo; and &ldquo;confirmed desperation&rdquo; directly illustrate that most people are trapped and impoverished by their condition — the exact claim being made. Keep B.</div><div class='explanation-step'><strong>C)</strong> This is about the advantages of solitude and independence — not about labor or material pursuit trapping people. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> This raises a question about the value of busyness — related but not specifically about labor impoverishing people through material pursuit. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    },
+    {
+      "id": "VerbalT1-2H-013",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Information and Ideas",
+        "topic": "Command of Evidence",
+        "skill": "Textual Evidence"
+      },
+      "stem": "Ecologist Dr. Fatima Osei argues that monarch butterflies navigate their annual migration of up to 3,000 miles using the sun as their primary compass, calibrated by an internal circadian clock that adjusts for the sun&rsquo;s changing position throughout the day. She further claims that magnetic field sensitivity plays, at most, a minor supplementary role in monarch navigation — insufficient on its own to account for the precision of their routes.<br><br>Which finding, if true, would most directly undermine Dr. Osei&rsquo;s claim?",
+      "choices": [
+        "Monarchs raised in laboratory conditions without exposure to magnetic fields show the same migratory orientation as wild-caught monarchs.",
+        "Monarchs exposed to overcast conditions that obscure the sun for multiple consecutive days continue to maintain accurate directional orientation.",
+        "The circadian clocks of monarchs captured mid-migration have been found to be synchronized with local sunrise and sunset times.",
+        "Monarchs fitted with radio transmitters have been tracked completing their full migratory route without significant deviations."
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Weakening a Claim</em> questions, identify the precise claim. Dr. Osei argues the sun is the primary compass — magnetic fields are at most supplementary. To undermine this, the correct answer must show monarchs navigating accurately without the sun.</div><div class='explanation-step'><strong>A)</strong> Monarchs navigating without magnetic field exposure actually supports Dr. Osei&rsquo;s claim that magnetic fields are not primary. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> If monarchs maintain accurate orientation under overcast skies (no sun visible), something other than the sun must be guiding them — directly undermining the claim that the sun is the primary compass. Keep B.</div><div class='explanation-step'><strong>C)</strong> Circadian clocks synchronized with sunrise/sunset supports the sun-calibration mechanism Dr. Osei describes. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Completing migration without deviation supports the accuracy of monarch navigation but doesn&rsquo;t tell us which mechanism is responsible. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+    },
+    {
+      "id": "VerbalT1-2H-014",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Information and Ideas",
+        "topic": "Central Ideas and Details",
+        "skill": "Logical Completion"
+      },
+      "stem": "Quorum sensing is the mechanism by which bacterial populations coordinate collective behavior through the release and detection of chemical signaling molecules. As these molecules accumulate and surpass a critical threshold, coordinated responses are triggered across the population — including biofilm formation and toxin production. Researchers studying <em>Pseudomonas aeruginosa</em>, a bacterium responsible for persistent infections in immunocompromised patients, have found that disrupting the quorum sensing threshold prevents the population from mounting a unified defense, leaving individual cells vulnerable to antimicrobial agents that would otherwise be ineffective against the colony as a whole. These findings suggest that _______.<br><br>Which choice most logically completes the text?",
+      "choices": [
+        "targeting quorum sensing pathways may offer a promising strategy for treating infections that have proven resistant to conventional antimicrobial therapies",
+        "bacterial populations are fundamentally cooperative organisms that sacrifice individual cells for the survival of the colony",
+        "autoinducer molecules could be synthetically replicated and used to enhance immune responses in healthy patients",
+        "the virulence of <em>Pseudomonas aeruginosa</em> is determined primarily by the size of the bacterial population rather than by the strength of individual cells"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions, the blank must follow directly from the passage&rsquo;s logic. The passage describes how disrupting quorum sensing makes resistant bacteria vulnerable to antimicrobial agents. The conclusion must follow from this finding.</div><div class='explanation-step'><strong>A)</strong> If disrupting quorum sensing makes resistant bacteria vulnerable to treatment, then targeting quorum sensing pathways is a promising strategy for resistant infections — directly following from the evidence. Keep A.</div><div class='explanation-step'><strong>B)</strong> The passage describes coordination, not sacrifice of individuals. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Using autoinducers to enhance immunity is not implied by the passage, which focuses on disrupting quorum sensing. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Population size is not discussed — the passage focuses on signaling thresholds and collective defense. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+    },
+    {
+      "id": "VerbalT1-2H-015",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
+      },
+      "stem": "When the population of a top predator is either reintroduced to or diminished in an ecosystem, the effects on the rest of the environment can be drastic. This <em>trophic cascade</em> was demonstrated when wolves were reintroduced to Yellowstone National Park; the wolves helped control the elk population, <span class='blank'>_______</span> proliferation of plants necessary to animals further down the food chain.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "they allowed",
+        "allowed",
+        "allowing",
+        "which allowed for the"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>The sentence has a main verb (&ldquo;helped control&rdquo;) and needs to express the result of that action. A participial phrase using a gerund (&ldquo;allowing&rdquo;) correctly attaches the result to the main clause without creating a run-on or fragment.</div><div class='explanation-step'><strong>A)</strong> &ldquo;They allowed&rdquo; creates a comma splice — two independent clauses joined only by a comma. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Allowed&rdquo; as a simple past verb creates a run-on sentence without a proper conjunction. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Allowing&rdquo; is a present participle that correctly creates a participial phrase expressing the result of the wolves controlling elk. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Which allowed for the&rdquo; creates a relative clause — but &ldquo;for the&rdquo; creates an awkward and grammatically strained construction. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+    },
+    {
+      "id": "VerbalT1-2H-016",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
+      },
+      "stem": "The discovery of the double-helix structure of DNA in 1953, <span class='blank'>_______</span> James Watson and Francis Crick published their findings in <em>Nature</em> with a model based substantially on X-ray crystallography data produced by Rosalind Franklin, transformed the study of heredity and laid the foundation for modern molecular biology.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "when",
+        "in which",
+        "where",
+        "by which"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>This question tests <strong>Relative Pronouns and Clauses</strong>. The blank introduces a relative clause modifying &ldquo;1953&rdquo; — a year, which is a point in time. Relative clauses referring to points in time use &ldquo;when.&rdquo;</div><div class='explanation-step'><strong>A)</strong> &ldquo;When&rdquo; correctly introduces a relative clause referring to the time (1953) in which the publication occurred. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;In which&rdquo; would refer to the discovery itself, not the year — creating ambiguity. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Where&rdquo; refers to a place, not a time. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;By which&rdquo; implies means or method — grammatically incorrect here. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+    },
+    {
+      "id": "VerbalT1-2H-017",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
+      },
+      "stem": "By the time the international conservation coalition <span class='blank'>_______</span> its final report on the status of critically endangered freshwater fish species, over a dozen populations had already fallen below the threshold considered viable for long-term survival.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "released",
+        "having released",
+        "releases",
+        "was releasing"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>This question tests <strong>Verb Tense Sequence</strong>. The phrase &ldquo;by the time&rdquo; introduces the later past action, while &ldquo;had already fallen&rdquo; uses the past perfect to indicate what happened earlier. The blank describes the later action, which takes simple past.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Released&rdquo; is simple past — correctly describes the report release as the later past action. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Having released&rdquo; is a participial phrase — it cannot serve as the main verb of the clause. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Releases&rdquo; is present tense — incorrect in a past-tense sentence. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Was releasing&rdquo; is past progressive — implies an ongoing action rather than a completed one. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+    },
+    {
+      "id": "VerbalT1-2H-018",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
+      },
+      "stem": "Having spent nearly two decades advocating for stricter emissions standards in the transportation sector, <span class='blank'>_______</span><br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "the landmark legislation was finally signed by the environmental coalition into law.",
+        "the environmental coalition&rsquo;s landmark legislation was finally signed into law.",
+        "the environmental coalition finally saw its landmark legislation signed into law.",
+        "it was the environmental coalition that finally had its landmark legislation signed into law."
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>A sentence beginning with a participial phrase tests <strong>Modifier Placement</strong>. The phrase &ldquo;Having spent nearly two decades advocating for stricter emissions standards&rdquo; describes whoever did the advocating — only a person or organization can advocate. The subject immediately after the comma must be the environmental coalition.</div><div class='explanation-step'><strong>A)</strong> &ldquo;The landmark legislation&rdquo; cannot have spent two decades advocating. Dangling modifier. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;The environmental coalition&rsquo;s landmark legislation&rdquo; — the possessive makes legislation the subject, but legislation cannot advocate. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;The environmental coalition&rdquo; is the subject immediately after the comma — correctly identifies who spent two decades advocating. Keep C.</div><div class='explanation-step'><strong>D)</strong> The expletive &ldquo;it was&rdquo; construction buries the true subject and creates an awkward sentence. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+    },
+    {
+  "id": "VerbalT1-2H-019",
+  "type": "mcq",
+  "level": 3,
+  "skill": {
+    "domain": "Standard English Conventions",
+    "topic": "Form, Structure, and Sense",
+    "skill": "Standard English Conventions"
+  },
+  "stem": "The Silk Road served not only as a conduit for goods such as silk, spices, and glassware but also as <span class='blank'>_______</span>, allowing Buddhism, Islam, and Christianity to spread far beyond their regions of origin.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "religious and philosophical ideas found a pathway",
+    "religious and philosophical ideas traveled along it",
+    "the traveling of religious and philosophical ideas",
+    "a vehicle for the transmission of religious and philosophical ideas"
+  ],
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>This question tests <strong>Parallel Structure</strong> with a correlative conjunction. The construction &ldquo;not only X but also Y&rdquo; requires X and Y to be grammatically parallel. X is &ldquo;a conduit for goods&rdquo; — a noun phrase beginning with an article. Y must follow the same pattern.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Religious and philosophical ideas found a pathway&rdquo; — a full clause with its own subject and verb, not a noun phrase parallel to &ldquo;a conduit for goods.&rdquo; Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Religious and philosophical ideas traveled along it&rdquo; — a full clause, not a noun phrase parallel to &ldquo;a conduit for goods.&rdquo; Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;The traveling of religious and philosophical ideas&rdquo; — a gerund phrase, not parallel to the noun phrase in X. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;A vehicle for the transmission of religious and philosophical ideas&rdquo; — a clean noun phrase beginning with an article, parallel to &ldquo;a conduit for goods.&rdquo; Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+},
+    {
+      "id": "VerbalT1-2H-020",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Transitions",
+        "skill": "Logical Transition"
+      },
+      "stem": "Early astronomers assumed that the orbits of planets were perfect circles, a belief that aligned with philosophical and religious ideas about the harmony of the heavens. <span class='blank'>_______</span> Johannes Kepler, working from Tycho Brahe&rsquo;s meticulous observational data, demonstrated that planetary orbits are ellipses — a finding that contradicted centuries of received wisdom but proved far more consistent with observed motion.<br><br>Which choice completes the text with the most logical transition?",
+      "choices": [
+        "Consequently,",
+        "Similarly,",
+        "Nevertheless,",
+        "Eventually,"
+      ],
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>For <em>Logical Transition</em> questions, determine the relationship between the ideas. The first sentence describes an old assumption. The second describes how Kepler eventually overturned it. The relationship is temporal — the correction came later, after a period of the old belief persisting.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Consequently&rdquo; implies the second event results from the first — Kepler&rsquo;s discovery did not result from the circular orbit assumption. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Similarly&rdquo; implies parallel ideas — Kepler&rsquo;s finding contradicts the first, not parallels it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Nevertheless&rdquo; implies Kepler&rsquo;s finding persisted despite an obstacle — but the passage describes a temporal sequence, not persistence against opposition. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Eventually&rdquo; signals that the second event happened after a period — Kepler eventually overturned the long-held assumption. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+    },
+    {
+      "id": "VerbalT1-2H-021",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Transitions",
+        "skill": "Logical Transition"
+      },
+      "stem": "Proponents of nuclear energy argue that it produces far lower greenhouse gas emissions per kilowatt-hour than fossil fuels and can generate large amounts of reliable baseload power that intermittent renewables like wind and solar cannot consistently provide. <span class='blank'>_______</span> the unresolved question of long-term nuclear waste storage — spent fuel that remains radioactive for tens of thousands of years — continues to present a practical and political obstacle that no country has yet fully solved.<br><br>Which choice completes the text with the most logical transition?",
+      "choices": [
+        "Therefore,",
+        "Furthermore,",
+        "That said,",
+        "In contrast,"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>For <em>Logical Transition</em> questions at level 3, precision matters. The first sentence presents nuclear energy&rsquo;s advantages. The second introduces a significant unresolved problem. The relationship is not simple contrast but acknowledgment of the first point while introducing a complication.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Therefore&rdquo; implies causation — the waste problem does not result from nuclear energy&rsquo;s advantages. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Furthermore&rdquo; implies the second point adds to or supports the first — the waste problem complicates rather than supports the case for nuclear. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;That said&rdquo; acknowledges the previous point while introducing a significant qualification or complication — precisely the relationship here. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;In contrast&rdquo; implies direct opposition — the waste problem is a complication of the nuclear case, not a contrasting topic. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+    },
+    {
+      "id": "VerbalT1-2H-022",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Rhetorical Synthesis",
+        "skill": "Using Notes"
+      },
+      "stemSegments": [
+        {
+          "text": "While researching a topic, a student has taken the following notes:",
+          "align": "left",
+          "style": "default"
+        },
+        {
+          "text": "• In 1854, physician John Snow mapped cases of cholera in London&rsquo;s Soho neighborhood and traced the outbreak to a contaminated water pump on Broad Street.\n• Snow&rsquo;s map was one of the first uses of geographic data visualization to identify a disease source.\n• At the time, the dominant theory held that cholera spread through bad air (&ldquo;miasma&rdquo;), not contaminated water.\n• Snow&rsquo;s findings were initially rejected by medical authorities who favored the miasma theory.\n• Snow&rsquo;s work is now considered a founding moment of modern epidemiology.",
+          "align": "left",
+          "style": "notes"
+        },
+        {
+          "text": "The student wants to introduce John Snow and explain why his work was significant. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+      "choices": [
+        "John Snow traced a cholera outbreak to a contaminated water pump in London&rsquo;s Soho neighborhood in 1854, using geographic data visualization in a way that is now considered a founding moment of modern epidemiology.",
+        "John Snow&rsquo;s findings about cholera transmission were initially rejected by medical authorities who favored the miasma theory of disease.",
+        "In 1854, John Snow created a map of cholera cases in London, which was one of the first uses of geographic data visualization to identify a disease source.",
+        "John Snow believed that cholera spread through contaminated water rather than through bad air, contradicting the dominant miasma theory of his time."
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is to introduce Snow and explain his significance. The correct answer must identify who he was, what he did, and why it mattered.</div><div class='explanation-step'><strong>A)</strong> identifies Snow, describes what he did (traced outbreak to contaminated pump using geographic visualization), and explains significance (founding moment of epidemiology). All three elements needed for a correct answer are present. Keep A.</div><div class='explanation-step'><strong>B)</strong> describes the initial rejection. This is relevant context but doesn&rsquo;t explain why the work was significant. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> describes the map as an early data visualization but omits its significance to epidemiology. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> states Snow's belief about transmission but doesn&rsquo;t explain his method or lasting significance. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+    },
+{
+  "id": "VerbalT1-2H-023",
+  "type": "mcq",
+  "level": 1,
+  "skill": {
+    "domain": "Expression of Ideas",
+    "topic": "Rhetorical Synthesis",
+    "skill": "Using Notes"
+  },
+  "stemSegments": [
+    {
+      "text": "While researching a topic, a student has taken the following notes:",
+      "align": "left",
+      "style": "default"
+    },
+    {
+      "text": "• Monarch butterflies travel up to 3,000 miles from Canada and the northern United States to overwintering sites in central Mexico each fall.\n• Unlike most migratory species, in which individual animals complete the round trip, the monarch migration spans multiple generations: the southward journey is completed by one generation, while the return north requires three to four more.\n• Scientists believe monarchs use the sun&rsquo;s position and an internal circadian clock to navigate.\n• Monarch populations have declined by more than 80% since the 1980s, primarily due to habitat loss and pesticide use.\n• Conservation efforts include planting milkweed, the only plant monarch caterpillars can eat, along migratory corridors.",
+      "align": "left",
+      "style": "notes"
+    },
+    {
+      "text": "The student wants to highlight what makes the monarch butterfly migration biologically unusual. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "align": "left",
+      "style": "question"
+    }
+  ],
+  "choices": [
+    "Monarch butterflies migrate up to 3,000 miles each fall to overwintering sites in central Mexico.",
+    "No individual monarch butterfly completes the round trip — the southward journey is accomplished by one generation, while the return north requires three to four more.",
+    "Monarch populations have declined by more than 80% since the 1980s, making conservation of their migratory routes increasingly urgent.",
+    "Scientists believe monarchs navigate using the sun\u2019s position and an internal circadian clock."
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is to highlight what makes the migration biologically unusual. The notes explicitly flag the multigenerational nature of the migration as distinctive: &ldquo;Unlike most migratory species, in which individual animals complete the round trip, the monarch migration spans multiple generations.&rdquo; The correct answer must use that information.</div><div class='explanation-step'><strong>A)</strong> The 3,000-mile distance is notable but not identified in the notes as biologically unusual. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Directly uses the note that distinguishes monarchs from most migratory species — no individual completes the round trip. Keep B.</div><div class='explanation-step'><strong>C)</strong> Population decline is ecologically important but the notes do not identify it as what makes the migration biologically unusual. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Sun-based navigation is mentioned in the notes but not flagged as unusual or distinctive. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+},
+    {
+  "id": "VerbalT1-2H-024",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Expression of Ideas",
+    "topic": "Rhetorical Synthesis",
+    "skill": "Using Notes"
+  },
+  "stemSegments": [
+    {
+      "text": "While researching a topic, a student has taken the following notes:",
+      "align": "left",
+      "style": "default"
+    },
+    {
+      "text": "• Polio paralyzed tens of thousands of Americans annually in the early twentieth century, with the 1952 epidemic being the worst in U.S. history — nearly 58,000 cases reported.\n• Jonas Salk developed the first effective polio vaccine, announced in 1955 after a nationwide trial involving 1.8 million children known as &ldquo;Polio Pioneers.&rdquo;\n• The Salk vaccine used inactivated (killed) poliovirus; Albert Sabin later developed an oral vaccine using weakened live virus, which became the global standard.\n• By 1979, polio was eliminated from the United States; global eradication efforts have reduced cases worldwide by more than 99% since 1988.\n• Some communities resisted vaccination campaigns, slowing eradication efforts in parts of Africa and Asia.",
+      "align": "left",
+      "style": "notes"
+    },
+    {
+      "text": "The student wants to convey both the scale of polio&rsquo;s impact and the magnitude of the achievement in controlling it. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "align": "left",
+      "style": "question"
+    }
+  ],
+  "choices": [
+    "Jonas Salk announced the first effective polio vaccine in 1955 following a trial involving 1.8 million children, one of the largest medical trials in history.",
+    "Albert Sabin&rsquo;s oral vaccine, which used weakened live virus rather than the killed virus in Salk&rsquo;s vaccine, eventually became the global standard for polio prevention.",
+    "A disease that paralyzed nearly 58,000 Americans in its worst single year has been reduced by more than 99% globally since 1988, representing one of the most dramatic public health achievements in modern history.",
+    "Despite the success of vaccination campaigns, resistance in parts of Africa and Asia has prevented the complete global eradication of polio."
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal requires conveying both the scale of polio&rsquo;s impact AND the magnitude of the achievement in controlling it. The correct answer must include both elements.</div><div class='explanation-step'><strong>A)</strong> Describes the trial scale but focuses only on the achievement side — doesn&rsquo;t convey the scale of polio&rsquo;s impact as a disease. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Describes the difference between two vaccines — relevant context but addresses neither the disease&rsquo;s impact nor the magnitude of controlling it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Captures both: the scale of impact (58,000 cases in one year) and the magnitude of the achievement (99% reduction globally). Keep C.</div><div class='explanation-step'><strong>D)</strong> Focuses on remaining obstacles to eradication — acknowledges the limits of the achievement rather than its magnitude. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+},
+    {
+  "id": "VerbalT1-2H-025",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Expression of Ideas",
+    "topic": "Rhetorical Synthesis",
+    "skill": "Using Notes"
+  },
+  "stemSegments": [
+    {
+      "text": "While researching a topic, a student has taken the following notes:",
+      "align": "left",
+      "style": "default"
+    },
+    {
+      "text": "• CRISPR-Cas9 is a gene-editing technology that allows scientists to precisely alter DNA sequences in living organisms.\n• It was adapted from a natural defense mechanism found in bacteria, which use it to cut and disable viral DNA.\n• Since its development in 2012, CRISPR has been used to treat sickle cell disease in clinical trials and to engineer crops resistant to disease.\n• Critics raise concerns about the ethical implications of editing human germline cells — changes that would be inherited by future generations.\n• Proponents argue that germline editing could eliminate heritable diseases and that regulatory frameworks can address ethical concerns.",
+      "align": "left",
+      "style": "notes"
+    },
+    {
+      "text": "The student wants to present a balanced view of CRISPR technology that acknowledges both its potential and the concerns it raises. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "align": "left",
+      "style": "question"
+    }
+  ],
+  "choices": [
+    "CRISPR-Cas9, adapted from a bacterial defense mechanism, has been used since 2012 to treat sickle cell disease and engineer disease-resistant crops.",
+    "CRISPR-Cas9 offers remarkable potential for eliminating heritable diseases and improving crop resilience, though questions about the ethics of germline editing remain unresolved.",
+    "Critics argue that editing human germline cells raises profound ethical concerns because changes would be inherited by future generations — concerns that proponents have not adequately addressed.",
+    "CRISPR was developed in 2012 and has already shown clinical promise, suggesting that concerns about its ethical implications may be overblown."
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is a balanced view — acknowledging both potential and concerns. The correct answer must present both dimensions clearly.</div><div class='explanation-step'><strong>A)</strong> Describes only CRISPR&rsquo;s applications and origins — covers potential but says nothing about the ethical concerns the goal requires. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Acknowledges both the potential (&ldquo;eliminating heritable diseases and improving crop resilience&rdquo;) and the unresolved ethical concerns (&ldquo;questions about the ethics of germline editing remain unresolved&rdquo;) — balanced and integrated. Keep B.</div><div class='explanation-step'><strong>C)</strong> Presents only critics&rsquo; concerns and misrepresents proponents by implying they have not adequately addressed those concerns — not balanced, and goes beyond what the notes support. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Suggests ethical concerns may be overblown — dismisses rather than acknowledges them, which is the opposite of balanced. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+},
+    {
+      "id": "VerbalT1-2H-026",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Rhetorical Synthesis",
+        "skill": "Using Notes"
+      },
+      "stemSegments": [
+        {
+          "text": "While researching a topic, a student has taken the following notes:",
+          "align": "left",
+          "style": "default"
+        },
+        {
+          "text": "• Proponents of nuclear energy argue it produces far lower greenhouse gas emissions per kilowatt-hour than fossil fuels.\n• Nuclear power can generate large amounts of reliable baseload power, unlike intermittent renewables such as wind and solar.\n• Critics argue that the risk of catastrophic accidents, as seen at Chernobyl and Fukushima, makes nuclear energy unacceptably dangerous.\n• No country has yet developed a permanent solution for storing high-level nuclear waste, which remains radioactive for tens of thousands of years.\n• A 2022 report by the IPCC included nuclear energy as one component of a portfolio of low-carbon energy sources needed to limit global warming.",
+          "align": "left",
+          "style": "notes"
+        },
+        {
+          "text": "The student wants to explain why nuclear energy remains controversial despite its low-carbon advantages. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+      "choices": [
+        "Nuclear energy produces far lower greenhouse gas emissions than fossil fuels and can provide reliable baseload power, making it an attractive option for reducing carbon emissions.",
+        "The IPCC included nuclear energy in its 2022 report as one component of the low-carbon energy portfolio needed to address global warming.",
+        "Although nuclear energy offers significant low-carbon advantages, concerns about catastrophic accident risk and the still-unresolved problem of permanent nuclear waste storage continue to make it a source of intense debate.",
+        "Critics of nuclear energy point to accidents at Chernobyl and Fukushima as evidence that the technology carries risks too severe to justify its deployment."
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal is to explain why nuclear remains controversial <em>despite</em> its low-carbon advantages — both elements must be present, with the controversy framed as persisting alongside the advantages.</div><div class='explanation-step'><strong>A)</strong> States the advantages without explaining the controversy. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The IPCC report supports nuclear energy — this explains recognition of its value, not the source of controversy. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Explicitly frames the controversy (&ldquo;although... advantages&rdquo;) as persisting alongside the low-carbon benefits, citing both accident risk and waste storage as the specific sources of debate. Keep C.</div><div class='explanation-step'><strong>D)</strong> States critics&rsquo; view without acknowledging the low-carbon advantages or the &ldquo;despite&rdquo; framing the goal requires. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+    },
+    {
+  "id": "VerbalT1-2H-027",
+  "type": "mcq",
+  "level": 3,
+  "skill": {
+    "domain": "Expression of Ideas",
+    "topic": "Rhetorical Synthesis",
+    "skill": "Using Notes"
+  },
+  "stemSegments": [
+    {
+      "text": "While researching a topic, a student has taken the following notes:",
+      "align": "left",
+      "style": "default"
+    },
+    {
+      "text": "• Food deserts are defined as low-income areas where residents live more than one mile from a supermarket in urban settings or more than ten miles in rural ones.\n• Approximately 19 million Americans live in food deserts, disproportionately in communities of color.\n• Research has linked food desert residence to higher rates of obesity, type 2 diabetes, and cardiovascular disease.\n• Some scholars argue that the food desert framework is flawed — studies show that simply opening supermarkets in underserved areas does not reliably improve residents&rsquo; diets, suggesting cost and cultural factors matter more than proximity.\n• Policy responses have included mobile markets, community gardens, and subsidized grocery delivery programs, with mixed results.",
+      "align": "left",
+      "style": "notes"
+    },
+    {
+      "text": "The student wants to explain why addressing food deserts is more complicated than simply increasing residents&rsquo; physical access to supermarkets. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "align": "left",
+      "style": "question"
+    }
+  ],
+  "choices": [
+    "Approximately 19 million Americans live in food deserts, disproportionately in communities of color, making food access a significant issue of racial and economic equity.",
+    "Policy responses to food deserts have included mobile markets, community gardens, and subsidized grocery delivery programs, reflecting the range of approaches governments have tried.",
+    "Research links food desert residence to higher rates of obesity, type 2 diabetes, and cardiovascular disease, demonstrating the serious public health consequences of limited food access.",
+    "Studies show that opening supermarkets in underserved areas does not reliably improve residents\u2019 diets, suggesting that cost and cultural factors shape food choices in ways that physical proximity alone cannot address."
+  ],
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal is to explain why addressing food deserts is more complicated than increasing physical access. The correct answer must specifically challenge the assumption that proximity is sufficient.</div><div class='explanation-step'><strong>A)</strong> Establishes the scale and equity dimensions of the problem but doesn&rsquo;t address why physical access alone is insufficient. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Describes the range of policy responses without explaining why proximity-based solutions are inadequate. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Demonstrates health consequences of food deserts but doesn&rsquo;t address the complication the goal requires — why physical access alone doesn&rsquo;t solve the problem. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Directly explains the complication: opening supermarkets doesn&rsquo;t reliably improve diets, because cost and cultural factors matter beyond mere proximity. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+}
+  ]
+}
