@@ -750,6 +750,7 @@ const reviewTopic = params.get("topic") ? decodeURIComponent(params.get("topic")
 const reviewAttemptId = params.get("attemptId");
 const testVersion = params.get("testVersion") || "T1";
 currentTestVersion = testVersion;
+console.log("Boot: URL testVersion param:", params.get("testVersion"), "-> set to:", currentTestVersion);
 const mode = forcedMode || params.get("mode") || "home";
 const accessAllowed = await guardSimulatorAccess(params);
 if (!accessAllowed) return;
