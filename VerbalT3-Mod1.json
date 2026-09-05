@@ -18,7 +18,7 @@
         "set": "Verbal Practice",
         "tags": ["vocabulary", "sentence completion"],
 
-        "stem": "The <span class='blank'>_______</span> between the two opposing candidates overshadowed the actual content of the debate.  Additionally, the lack of interest the candidates showed in hiding their animosity towards each other made the tone of the debate unprofessional and immature.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+        "stem": "The <span class='blank'>_______</span> doctor said the medicine is fine to take.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       "esteem",
       "antipathy",
