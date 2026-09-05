@@ -2643,7 +2643,8 @@ if (fullSATMode && currentSubject === "verbal" && (data?.moduleId || "").trim().
   currentMode = "test";
 
   setAppView("session");
-  loadData("test", { forceFile: `Math${currentTestVersion}-Mod1.json` });
+  console.log("Loading math with testVersion:", currentTestVersion);
+loadData("test", { forceFile: `Math${currentTestVersion}-Mod1.json` });
   return;
 }
 // combine all questions and answers (verbal + math in full SAT mode)
