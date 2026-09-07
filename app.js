@@ -773,6 +773,8 @@ if (!options.forceFile && reviewAttemptId && !options.resume) {
   if (attemptSessions && attemptSessions.length > 0) {
     const combinedAnswers = {};
     attemptSessions.forEach(s => Object.assign(combinedAnswers, s.answers || {}));
+    console.log("attemptSessions count:", attemptSessions.length, "combinedAnswers count:", Object.keys(combinedAnswers).length);
+    attemptSessions.forEach(s => console.log("session:", s.id, "answers:", Object.keys(s.answers || {}).length));
     answers = combinedAnswers;
     reviewReveal = true;
 
@@ -799,6 +801,9 @@ if (!options.forceFile && reviewAttemptId && !options.resume) {
     if (loadingOverlay) loadingOverlay.style.display = "none";
 
     resultsSummaryHTML = buildTestSummaryHTML();
+    window.__testReviewAnswers = combinedAnswers;
+    window.__testReviewQuestions = allQuestions;
+    window.__SAT_SIM_LOAD_IN_FLIGHT__ = false;
     document.body.innerHTML = resultsSummaryHTML;
     document.body.classList.remove("practice-sidebar-ready");
     document.body.classList.remove("practice-sidebar-open");
@@ -2092,6 +2097,7 @@ function backToSummary() {
 window.startReview = startReview;
 window.backToSummary = backToSummary;
 window.revealReviewAnswer = revealReviewAnswer;
+window.reviewTopicQuestions = reviewTopicQuestions;
 window.reviewPrev = reviewPrev;
 window.reviewNext = reviewNext;
 window.jumpToReviewQuestion = jumpToReviewQuestion;
@@ -2974,11 +2980,21 @@ function buildBreakdownHTML(tree, questionPool, answerMap) {
   return html;
 }
 function showTopicMiniSummary(topic, domain, correct, total) {
+  // Restore answers and questions if cleared by a subsequent loadData call
+  if (Object.keys(answers).length === 0 && window.__testReviewAnswers) {
+    answers = window.__testReviewAnswers;
+    reviewReveal = true;
+  }
+  if (data.questions.length === 0 && window.__testReviewQuestions) {
+    data = { questions: window.__testReviewQuestions };
+  }
   const pct = Math.round((correct / total) * 100);
   const barColor = pct >= 80 ? "#22c55e" : pct >= 50 ? "#f59e0b" : "#ef4444";
 
-  // filter data.questions to just this topic
-  const topicQuestions = data.questions.filter(q => getTopic(q.skill) === topic);
+  // filter data.questions to just this topic, only answered questions
+  const topicQuestions = data.questions.filter(q => 
+    getTopic(q.skill) === topic && answers[String(q.id)]
+  );
 
   const prev = document.body.innerHTML;
   const cameFromHistory = !!new URLSearchParams(window.location.search).get("sessionId") || !!new URLSearchParams(window.location.search).get("attemptId");
@@ -3029,8 +3045,9 @@ window.__prevSummaryHTML = prev;
 function reviewTopicQuestions(mode) {
   const topicQs = window.__topicReviewQuestions;
   if (!topicQs || !topicQs.length) return;
-
+  window.__topicReviewQuestions = null;
   data.questions = topicQs;
+  reviewReveal = true;
   startReview(mode);
 }
 function endPracticeSession() {
@@ -3511,7 +3528,7 @@ async function loadNextModule(file) {
   if (activeTestSessionId) {
     const { error: completeError } = await window.supabaseClient
       .from("test_sessions")
-      .update({ status: "completed" })
+      .update({ status: "completed", answers: answers })
       .eq("id", activeTestSessionId);
 
     if (completeError) {
@@ -3663,15 +3680,19 @@ if (!initialMode) {
   })();
 } else {
   loadData(initialMode);
-  document.addEventListener("click", (e) => {
+}
+
+document.addEventListener("click", (e) => {
   const row = e.target.closest(".topicRow");
   if (!row) return;
+  e.preventDefault();
+  e.stopPropagation();
 
   const topic = row.dataset.topic;
   const domain = row.dataset.domain;
   const correct = parseInt(row.dataset.correct);
   const total = parseInt(row.dataset.total);
 
+  console.log("topicRow clicked:", topic, domain);
   showTopicMiniSummary(topic, domain, correct, total);
 });
-}
