@@ -2807,6 +2807,9 @@ localStorage.setItem("satLastTestSession", JSON.stringify({
   observer.observe(document.body, { childList: true, subtree: false });
 
   document.body.innerHTML = resultsSummaryHTML;
+  // Save state for topic mini summary navigation
+  window.__testReviewAnswers = { ...answers };
+  window.__testReviewQuestions = [...data.questions];
   window.scrollTo(0, 0);
   console.log("Body set - now has Math section:", document.body.innerHTML.includes("Math —"));
   
@@ -2980,12 +2983,12 @@ function buildBreakdownHTML(tree, questionPool, answerMap) {
   return html;
 }
 function showTopicMiniSummary(topic, domain, correct, total) {
-  // Restore answers and questions if cleared by a subsequent loadData call
-  if (Object.keys(answers).length === 0 && window.__testReviewAnswers) {
+  // Always restore full question pool and answers for topic filtering
+  if (window.__testReviewAnswers) {
     answers = window.__testReviewAnswers;
     reviewReveal = true;
   }
-  if (data.questions.length === 0 && window.__testReviewQuestions) {
+  if (window.__testReviewQuestions) {
     data = { questions: window.__testReviewQuestions };
   }
   const pct = Math.round((correct / total) * 100);
@@ -2995,6 +2998,7 @@ function showTopicMiniSummary(topic, domain, correct, total) {
   const topicQuestions = data.questions.filter(q => 
     getTopic(q.skill) === topic && answers[String(q.id)]
   );
+  console.log("topicQuestions for", topic, ":", topicQuestions.length, "answers keys sample:", Object.keys(answers).slice(0,3));
 
   const prev = document.body.innerHTML;
   const cameFromHistory = !!new URLSearchParams(window.location.search).get("sessionId") || !!new URLSearchParams(window.location.search).get("attemptId");
@@ -3036,6 +3040,15 @@ window.__prevSummaryHTML = prev;
   document.getElementById("backFromTopicBtn").addEventListener("click", () => {
     if (window.__prevSummaryHTML) {
       document.body.innerHTML = window.__prevSummaryHTML;
+      // Restore state so topic rows keep working
+      if (window.__testReviewAnswers) {
+        answers = window.__testReviewAnswers;
+        reviewReveal = true;
+      }
+      if (window.__testReviewQuestions) {
+        data = { questions: window.__testReviewQuestions };
+      }
+      typesetMath();
     } else {
       window.location.href = "history.html";
     }
