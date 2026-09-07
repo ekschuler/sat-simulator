@@ -3526,6 +3526,7 @@ async function loadNextModule(file) {
   }
 
   if (activeTestSessionId) {
+    console.log("loadNextModule: saving answers count:", Object.keys(answers).length, "to session:", activeTestSessionId);
     const { error: completeError } = await window.supabaseClient
       .from("test_sessions")
       .update({ status: "completed", answers: answers })
@@ -3682,17 +3683,26 @@ if (!initialMode) {
   loadData(initialMode);
 }
 
-document.addEventListener("click", (e) => {
-  const row = e.target.closest(".topicRow");
-  if (!row) return;
-  e.preventDefault();
-  e.stopPropagation();
+if (!window.__topicRowListenerAttached) {
+  window.__topicRowListenerAttached = true;
+  let lastTopicClickTime = 0;
+  document.addEventListener("click", (e) => {
+    const row = e.target.closest(".topicRow");
+    if (!row) return;
 
-  const topic = row.dataset.topic;
-  const domain = row.dataset.domain;
-  const correct = parseInt(row.dataset.correct);
-  const total = parseInt(row.dataset.total);
+    // Debounce — ignore if fired within 200ms of last topic click
+    const now = Date.now();
+    if (now - lastTopicClickTime < 200) return;
+    lastTopicClickTime = now;
 
-  console.log("topicRow clicked:", topic, domain);
-  showTopicMiniSummary(topic, domain, correct, total);
-});
+    e.preventDefault();
+    e.stopPropagation();
+
+    const topic = row.dataset.topic;
+    const domain = row.dataset.domain;
+    const correct = parseInt(row.dataset.correct);
+    const total = parseInt(row.dataset.total);
+
+    showTopicMiniSummary(topic, domain, correct, total);
+  });
+}
