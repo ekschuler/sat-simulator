@@ -799,13 +799,13 @@ if (!options.forceFile && reviewAttemptId && !options.resume) {
     if (loadingOverlay) loadingOverlay.style.display = "none";
 
     resultsSummaryHTML = buildTestSummaryHTML();
+    window.__testSummaryHTML = resultsSummaryHTML;
     window.__testReviewAnswers = combinedAnswers;
     window.__testReviewQuestions = allQuestions;
     window.__SAT_SIM_LOAD_IN_FLIGHT__ = false;
     document.body.innerHTML = resultsSummaryHTML;
     document.body.classList.remove("practice-sidebar-ready");
     document.body.classList.remove("practice-sidebar-open");
-    renderScoreBanner();
     typesetMath();
     return;
   }
@@ -2075,6 +2075,7 @@ function jumpToReviewQuestion(mode) {
 }
 function backToSummary() {
   document.removeEventListener("keydown", handleReviewKeydown);
+  console.log("backToSummary: resultsSummaryHTML length:", resultsSummaryHTML.length);
   
   const params = new URLSearchParams(window.location.search);
   if (params.get("sessionId")) {
@@ -2871,7 +2872,7 @@ function showModuleReview(subject, mod) {
 
   document.body.innerHTML = `
     <div class="appPage" style="padding-bottom:80px;">
-      <button class="summaryAction secondary" id="backFromModuleBtn" style="margin-bottom:24px;">← Back to Summary</button>
+      <button class="summaryAction secondary" id="backFromModuleBtn" style="margin-bottom:24px;" onclick="backFromModule()">← Back to Summary</button>
       <h1 class="appTitle">${subjectLabel} — Module ${mod}</h1>
 
       <div class="appCard" style="margin-bottom:24px;">
@@ -2894,21 +2895,22 @@ function showModuleReview(subject, mod) {
     </div>
   `;
 
-  document.getElementById("backFromModuleBtn").addEventListener("click", () => {
-    window.__moduleReviewQuestions = null;
-    document.body.innerHTML = window.__testSummaryHTML || resultsSummaryHTML;
-    if (window.__testReviewAnswers) {
-      answers = window.__testReviewAnswers;
-      reviewReveal = true;
-    }
-    if (window.__testReviewQuestions) {
-      data = { questions: window.__testReviewQuestions };
-    }
-    typesetMath();
-  });
-
   typesetMath();
 }
+
+function backFromModule() {
+  window.__moduleReviewQuestions = null;
+  document.body.innerHTML = window.__testSummaryHTML || resultsSummaryHTML;
+  if (window.__testReviewAnswers) {
+    answers = window.__testReviewAnswers;
+    reviewReveal = true;
+  }
+  if (window.__testReviewQuestions) {
+    data = { questions: window.__testReviewQuestions };
+  }
+  typesetMath();
+}
+window.backFromModule = backFromModule;
 
 function reviewAllByModule(subject, mod) {
   const verbalDomains = ["Craft and Structure", "Information and Ideas", "Standard English Conventions", "Expression of Ideas"];
