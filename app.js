@@ -773,8 +773,6 @@ if (!options.forceFile && reviewAttemptId && !options.resume) {
   if (attemptSessions && attemptSessions.length > 0) {
     const combinedAnswers = {};
     attemptSessions.forEach(s => Object.assign(combinedAnswers, s.answers || {}));
-    console.log("attemptSessions count:", attemptSessions.length, "combinedAnswers count:", Object.keys(combinedAnswers).length);
-    attemptSessions.forEach(s => console.log("session:", s.id, "answers:", Object.keys(s.answers || {}).length));
     answers = combinedAnswers;
     reviewReveal = true;
 
@@ -1854,9 +1852,11 @@ function startReview(mode) {
       return;
     }
    } else {
+    // In test review mode include unanswered questions; in practice mode only show answered
+    const isTestReview = !isPracticeMode || reviewReveal;
     reviewIndices = data.questions
       .map((q, i) => ({ q, i }))
-      .filter(({ q }) => answers[q.id])
+      .filter(({ q }) => isTestReview ? true : answers[q.id])
       .map(({ i }) => i);
   }
 
@@ -2088,16 +2088,29 @@ function backToSummary() {
     return;
   }
 
-  document.body.innerHTML = resultsSummaryHTML;
+  document.body.innerHTML = window.__testSummaryHTML || resultsSummaryHTML;
   document.body.classList.remove("practice-sidebar-ready");
   document.body.classList.remove("practice-sidebar-open");
-  renderScoreBanner();
+  // Only call renderScoreBanner for single-module tests, not full SAT
+  if (!window.__testSummaryHTML) renderScoreBanner();
+  // Restore state for topic navigation
+  if (window.__testReviewAnswers) {
+    answers = window.__testReviewAnswers;
+    reviewReveal = true;
+  }
+  if (window.__testReviewQuestions) {
+    data = { questions: window.__testReviewQuestions };
+  }
+  window.__moduleReviewQuestions = null;
   typesetMath();
 }
 window.startReview = startReview;
 window.backToSummary = backToSummary;
 window.revealReviewAnswer = revealReviewAnswer;
 window.reviewTopicQuestions = reviewTopicQuestions;
+window.showModuleReview = showModuleReview;
+window.reviewAllByModule = reviewAllByModule;
+window.reviewMistakesByModule = reviewMistakesByModule;
 window.reviewPrev = reviewPrev;
 window.reviewNext = reviewNext;
 window.jumpToReviewQuestion = jumpToReviewQuestion;
@@ -2494,91 +2507,91 @@ function selectPracticeLevelFilter(level) {
 }
 function buildTestSummaryHTML() {
   const verbalDomains = ["Craft and Structure", "Information and Ideas", "Standard English Conventions", "Expression of Ideas"];
-  const verbalQs = data.questions.filter(q => {
-    const domain = getDomain(q.skill);
-    return verbalDomains.includes(domain);
-  });
+  const verbalQs = data.questions.filter(q => verbalDomains.includes(getDomain(q.skill)));
   const mathQs = data.questions.filter(q => !verbalDomains.includes(getDomain(q.skill)));
 
-  const verbalTree = {};
-  verbalQs.forEach(q => {
-    const domain = getDomain(q.skill);
-    const topic = getTopic(q.skill);
-    if (!verbalTree[domain]) verbalTree[domain] = {};
-    if (!verbalTree[domain][topic]) verbalTree[domain][topic] = { correct: 0, total: 0 };
-    verbalTree[domain][topic].total++;
-    if (isQuestionCorrect(q)) verbalTree[domain][topic].correct++;
-  });
-
-  const mathTree = {};
-  mathQs.forEach(q => {
-    const domain = getDomain(q.skill);
-    const topic = getTopic(q.skill);
-    if (!mathTree[domain]) mathTree[domain] = {};
-    if (!mathTree[domain][topic]) mathTree[domain][topic] = { correct: 0, total: 0 };
-    mathTree[domain][topic].total++;
-    if (isQuestionCorrect(q)) mathTree[domain][topic].correct++;
-  });
-
-  const verbalBreakdown = buildBreakdownHTML(verbalTree, verbalQs, answers);
-  const mathBreakdown = buildBreakdownHTML(mathTree, mathQs, answers);
-  const verbalCorrect = verbalQs.filter(q => isQuestionCorrect(q)).length;
-  const mathCorrect = mathQs.filter(q => isQuestionCorrect(q)).length;
-
-  // Split by module using question index
-  // Verbal: first 27 = Mod1, next 27 = Mod2
-  // Math: first 22 = Mod1, next 22 = Mod2
   const verbalMod1Qs = verbalQs.slice(0, 27);
   const verbalMod2Qs = verbalQs.slice(27);
   const mathMod1Qs = mathQs.slice(0, 22);
   const mathMod2Qs = mathQs.slice(22);
 
+  const verbalCorrect = verbalQs.filter(q => isQuestionCorrect(q)).length;
+  const mathCorrect = mathQs.filter(q => isQuestionCorrect(q)).length;
   const verbalMod1Correct = verbalMod1Qs.filter(q => isQuestionCorrect(q)).length;
   const verbalMod2Correct = verbalMod2Qs.filter(q => isQuestionCorrect(q)).length;
   const mathMod1Correct = mathMod1Qs.filter(q => isQuestionCorrect(q)).length;
   const mathMod2Correct = mathMod2Qs.filter(q => isQuestionCorrect(q)).length;
 
-  function moduleReviewBtns(subject, mod) {
-    return `<div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap;">
-      <button class="secondaryBtn" style="font-size:13px;padding:8px 14px;" onclick="reviewMistakesByModule('${subject}', ${mod})">Review Mistakes</button>
-      <button class="secondaryBtn" style="font-size:13px;padding:8px 14px;" onclick="reviewAllByModule('${subject}', ${mod})">Review All</button>
-    </div>`;
-  }
+  const verbalPct = verbalQs.length ? Math.round(verbalCorrect / verbalQs.length * 100) : 0;
+  const mathPct = mathQs.length ? Math.round(mathCorrect / mathQs.length * 100) : 0;
+  const verbalMod1Pct = verbalMod1Qs.length ? Math.round(verbalMod1Correct / verbalMod1Qs.length * 100) : 0;
+  const verbalMod2Pct = verbalMod2Qs.length ? Math.round(verbalMod2Correct / verbalMod2Qs.length * 100) : 0;
+  const mathMod1Pct = mathMod1Qs.length ? Math.round(mathMod1Correct / mathMod1Qs.length * 100) : 0;
+  const mathMod2Pct = mathMod2Qs.length ? Math.round(mathMod2Correct / mathMod2Qs.length * 100) : 0;
+
+  const verbalBreakdown = buildBreakdownHTML(buildTree(verbalQs), verbalQs, answers);
+  const mathBreakdown = buildBreakdownHTML(buildTree(mathQs), mathQs, answers);
 
   return `
     <div class="appPage" style="padding-bottom:80px;">
       <h1 class="appTitle">Full SAT Complete</h1>
       <p class="appSubtitle">Here&rsquo;s your performance summary.</p>
+
+      <!-- Score Summary Box -->
       <div id="scoreSummary" class="scoreBanner appCard" style="margin-bottom:24px;">
-        <div style="display:flex;gap:32px;justify-content:center;flex-wrap:wrap;">
-          <div style="text-align:center;">
-            <div style="font-size:28px;font-weight:800;color:#4f46e5;">${verbalQs.length ? Math.round(verbalCorrect/verbalQs.length*100) : 0}%</div>
-            <div style="font-size:12px;font-weight:600;color:#6b7280;margin-top:2px;">Reading &amp; Writing</div>
-            <div style="font-size:13px;color:#374151;margin-top:2px;">${verbalCorrect} / ${verbalQs.length}</div>
+
+        <!-- Verbal -->
+        <div style="margin-bottom:16px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+            <div style="font-size:13px;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:.06em;">Reading &amp; Writing</div>
+            <div style="font-size:18px;font-weight:800;color:#4f46e5;">${verbalCorrect}/${verbalQs.length} &nbsp;·&nbsp; ${verbalPct}%</div>
           </div>
-          <div style="text-align:center;">
-            <div style="font-size:28px;font-weight:800;color:#4f46e5;">${mathQs.length ? Math.round(mathCorrect/mathQs.length*100) : 0}%</div>
-            <div style="font-size:12px;font-weight:600;color:#6b7280;margin-top:2px;">Math</div>
-            <div style="font-size:13px;color:#374151;margin-top:2px;">${mathCorrect} / ${mathQs.length}</div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;">
+            <button onclick="showModuleReview('verbal', 1)" style="flex:1;min-width:120px;padding:8px 14px;border-radius:10px;border:1.5px solid #e5e7eb;background:white;font-size:13px;font-weight:600;color:#374151;cursor:pointer;text-align:left;">
+              <span style="display:block;font-size:11px;color:#9ca3af;font-weight:700;text-transform:uppercase;letter-spacing:.06em;">Module 1</span>
+              <span style="font-size:15px;font-weight:800;color:#111;">${verbalMod1Correct}/${verbalMod1Qs.length}</span>
+              <span style="font-size:12px;color:#6b7280;"> · ${verbalMod1Pct}%</span>
+              <span style="float:right;color:#4f46e5;font-size:12px;font-weight:700;margin-top:2px;">Review →</span>
+            </button>
+            <button onclick="showModuleReview('verbal', 2)" style="flex:1;min-width:120px;padding:8px 14px;border-radius:10px;border:1.5px solid #e5e7eb;background:white;font-size:13px;font-weight:600;color:#374151;cursor:pointer;text-align:left;">
+              <span style="display:block;font-size:11px;color:#9ca3af;font-weight:700;text-transform:uppercase;letter-spacing:.06em;">Module 2</span>
+              <span style="font-size:15px;font-weight:800;color:#111;">${verbalMod2Correct}/${verbalMod2Qs.length}</span>
+              <span style="font-size:12px;color:#6b7280;"> · ${verbalMod2Pct}%</span>
+              <span style="float:right;color:#4f46e5;font-size:12px;font-weight:700;margin-top:2px;">Review →</span>
+            </button>
           </div>
         </div>
+
+        <!-- Math -->
+        <div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+            <div style="font-size:13px;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:.06em;">Math</div>
+            <div style="font-size:18px;font-weight:800;color:#4f46e5;">${mathCorrect}/${mathQs.length} &nbsp;·&nbsp; ${mathPct}%</div>
+          </div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;">
+            <button onclick="showModuleReview('math', 1)" style="flex:1;min-width:120px;padding:8px 14px;border-radius:10px;border:1.5px solid #e5e7eb;background:white;font-size:13px;font-weight:600;color:#374151;cursor:pointer;text-align:left;">
+              <span style="display:block;font-size:11px;color:#9ca3af;font-weight:700;text-transform:uppercase;letter-spacing:.06em;">Module 1</span>
+              <span style="font-size:15px;font-weight:800;color:#111;">${mathMod1Correct}/${mathMod1Qs.length}</span>
+              <span style="font-size:12px;color:#6b7280;"> · ${mathMod1Pct}%</span>
+              <span style="float:right;color:#4f46e5;font-size:12px;font-weight:700;margin-top:2px;">Review →</span>
+            </button>
+            <button onclick="showModuleReview('math', 2)" style="flex:1;min-width:120px;padding:8px 14px;border-radius:10px;border:1.5px solid #e5e7eb;background:white;font-size:13px;font-weight:600;color:#374151;cursor:pointer;text-align:left;">
+              <span style="display:block;font-size:11px;color:#9ca3af;font-weight:700;text-transform:uppercase;letter-spacing:.06em;">Module 2</span>
+              <span style="font-size:15px;font-weight:800;color:#111;">${mathMod2Correct}/${mathMod2Qs.length}</span>
+              <span style="font-size:12px;color:#6b7280;"> · ${mathMod2Pct}%</span>
+              <span style="float:right;color:#4f46e5;font-size:12px;font-weight:700;margin-top:2px;">Review →</span>
+            </button>
+          </div>
+        </div>
+
       </div>
 
-      <h3 class="appSectionTitle">Reading &amp; Writing — ${verbalCorrect} / ${verbalQs.length} correct</h3>
-      <div style="display:flex; gap:8px; margin-bottom:16px; flex-wrap:wrap;">
-        <button class="filterModuleBtn active" onclick="showModulePanel('rw1', this)" style="padding:7px 16px;border-radius:20px;border:1.5px solid #4f46e5;background:#4f46e5;color:white;font-size:13px;font-weight:700;cursor:pointer;">Module 1 &nbsp;${verbalMod1Correct}/${verbalMod1Qs.length}</button>
-        <button class="filterModuleBtn" onclick="showModulePanel('rw2', this)" style="padding:7px 16px;border-radius:20px;border:1.5px solid #4f46e5;background:white;color:#4f46e5;font-size:13px;font-weight:700;cursor:pointer;">Module 2 &nbsp;${verbalMod2Correct}/${verbalMod2Qs.length}</button>
-      </div>
-      <div id="panel-rw1">${buildBreakdownHTML(buildTree(verbalMod1Qs), verbalMod1Qs, answers)}${moduleReviewBtns('verbal', 1)}</div>
-      <div id="panel-rw2" style="display:none;">${buildBreakdownHTML(buildTree(verbalMod2Qs), verbalMod2Qs, answers)}${moduleReviewBtns('verbal', 2)}</div>
+      <!-- Full Skill Breakdown -->
+      <h3 class="appSectionTitle">Reading &amp; Writing — by skill</h3>
+      ${verbalBreakdown}
 
-      <h3 class="appSectionTitle" style="margin-top:32px;">Math — ${mathCorrect} / ${mathQs.length} correct</h3>
-      <div style="display:flex; gap:8px; margin-bottom:16px; flex-wrap:wrap;">
-        <button class="filterModuleBtn active" onclick="showModulePanel('math1', this)" style="padding:7px 16px;border-radius:20px;border:1.5px solid #4f46e5;background:#4f46e5;color:white;font-size:13px;font-weight:700;cursor:pointer;">Module 1 &nbsp;${mathMod1Correct}/${mathMod1Qs.length}</button>
-        <button class="filterModuleBtn" onclick="showModulePanel('math2', this)" style="padding:7px 16px;border-radius:20px;border:1.5px solid #4f46e5;background:white;color:#4f46e5;font-size:13px;font-weight:700;cursor:pointer;">Module 2 &nbsp;${mathMod2Correct}/${mathMod2Qs.length}</button>
-      </div>
-      <div id="panel-math1">${buildBreakdownHTML(buildTree(mathMod1Qs), mathMod1Qs, answers)}${moduleReviewBtns('math', 1)}</div>
-      <div id="panel-math2" style="display:none;">${buildBreakdownHTML(buildTree(mathMod2Qs), mathMod2Qs, answers)}${moduleReviewBtns('math', 2)}</div>
+      <h3 class="appSectionTitle" style="margin-top:32px;">Math — by skill</h3>
+      ${mathBreakdown}
 
       <div style="margin-top:28px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
         <button class="secondaryBtn" onclick="window.location.href='dashboard.html'">Home</button>
@@ -2725,14 +2738,9 @@ localStorage.setItem("satLastTestSession", JSON.stringify({
   const _hasVerbal = data.questions.some(q => _vDomains.includes((q.skill||{}).domain));
   const _hasMath = data.questions.some(q => !_vDomains.includes((q.skill||{}).domain));
   const isFullSAT = _hasVerbal && _hasMath;
-  console.log("isFullSAT:", isFullSAT, "fullSATMode:", fullSATMode, "questions:", data.questions.length);
 
   if (isFullSAT) {
     reviewHTML = buildTestSummaryHTML();
-    console.log("buildTestSummaryHTML result length:", reviewHTML.length);
-    console.log("contains Math section:", reviewHTML.includes("Math —"));
-    console.log("contains Home button:", reviewHTML.includes("dashboard.html"));
-    console.log("contains Retake:", reviewHTML.includes("Retake"));
   } else {
     const breakdownHTML = buildBreakdownHTML(flatTree, data.questions, answers);
     reviewHTML = `
@@ -2793,43 +2801,19 @@ localStorage.setItem("satLastTestSession", JSON.stringify({
     }
   })();
 
-  console.log("SETTING BODY HTML - summary length:", resultsSummaryHTML.length);
-  console.log("About to set body - current body has sessionView:", !!document.getElementById("sessionView"));
-  
-  // Watch for anything that modifies the body after we set it
-  const observer = new MutationObserver((mutations) => {
-    for (const m of mutations) {
-      if (m.type === "childList" && m.removedNodes.length > 0) {
-        console.trace("BODY CHILDREN CHANGED - something overwrote the summary DOM");
-      }
-    }
-  });
-  observer.observe(document.body, { childList: true, subtree: false });
-
   document.body.innerHTML = resultsSummaryHTML;
+  // Save test summary HTML separately so practice sessions can't overwrite it
+  window.__testSummaryHTML = resultsSummaryHTML;
   // Save state for topic mini summary navigation
   window.__testReviewAnswers = { ...answers };
   window.__testReviewQuestions = [...data.questions];
   window.scrollTo(0, 0);
-  console.log("Body set - now has Math section:", document.body.innerHTML.includes("Math —"));
-  
-  setTimeout(() => {
-    observer.disconnect();
-    console.log("Observer disconnected after 2s");
-  }, 2000);
   document.body.classList.remove("practice-sidebar-ready");
   document.body.classList.remove("practice-sidebar-open");
   const _vd2 = ["Craft and Structure","Information and Ideas","Standard English Conventions","Expression of Ideas"];
   const _isFullSAT2 = data.questions.some(q => _vd2.includes((q.skill||{}).domain)) && data.questions.some(q => !_vd2.includes((q.skill||{}).domain));
   if (!_isFullSAT2) renderScoreBanner();
   typesetMath();
-  // Check body 500ms later to see if something overwrote it
-  setTimeout(() => {
-    console.log("BODY 500ms LATER - contains Math section:", document.body.innerHTML.includes("Math —"));
-    console.log("BODY 500ms LATER - contains Home button:", document.body.innerHTML.includes("dashboard.html"));
-    console.log("BODY 500ms LATER - body length:", document.body.innerHTML.length);
-    console.log("BODY 500ms LATER - has sessionView:", !!document.getElementById("sessionView"));
-  }, 500);
 }
 function buildTree(questions) {
   const tree = {};
@@ -2857,6 +2841,73 @@ function showModulePanel(panelId, btn) {
   });
   btn.style.background = '#4f46e5';
   btn.style.color = 'white';
+}
+
+function showModuleReview(subject, mod) {
+  const verbalDomains = ["Craft and Structure", "Information and Ideas", "Standard English Conventions", "Expression of Ideas"];
+  const subjectQs = data.questions.filter(q => {
+    const isVerbal = verbalDomains.includes(getDomain(q.skill));
+    return subject === "verbal" ? isVerbal : !isVerbal;
+  });
+  const moduleSize = subject === "verbal" ? 27 : 22;
+  const moduleQs = mod === 1 ? subjectQs.slice(0, moduleSize) : subjectQs.slice(moduleSize);
+
+  const correct = moduleQs.filter(q => isQuestionCorrect(q)).length;
+  const total = moduleQs.length;
+  const pct = total ? Math.round(correct / total * 100) : 0;
+  const barColor = pct >= 80 ? "#22c55e" : pct >= 50 ? "#f59e0b" : "#ef4444";
+  const subjectLabel = subject === "verbal" ? "Reading & Writing" : "Math";
+
+  const tree = buildTree(moduleQs);
+  const breakdownHTML = buildBreakdownHTML(tree, moduleQs, answers);
+
+  // Save current questions for topic mini summary
+  window.__moduleReviewQuestions = moduleQs;
+  window.__moduleReviewSubject = subject;
+  window.__moduleReviewMod = mod;
+
+  const prev = document.body.innerHTML;
+  window.__prevSummaryHTML = prev;
+
+  document.body.innerHTML = `
+    <div class="appPage" style="padding-bottom:80px;">
+      <button class="summaryAction secondary" id="backFromModuleBtn" style="margin-bottom:24px;">← Back to Summary</button>
+      <h1 class="appTitle">${subjectLabel} — Module ${mod}</h1>
+
+      <div class="appCard" style="margin-bottom:24px;">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+          <div style="font-size:28px;font-weight:800;color:#111;">${pct}%</div>
+          <div style="font-size:14px;color:#666;">${correct} of ${total} correct</div>
+        </div>
+        <div style="height:8px;background:#f0f0f0;border-radius:99px;overflow:hidden;">
+          <div style="width:${pct}%;height:100%;background:${barColor};border-radius:99px;"></div>
+        </div>
+      </div>
+
+      <div style="display:flex;gap:10px;margin-bottom:24px;flex-wrap:wrap;">
+        <button class="summaryAction" onclick="reviewMistakesByModule('${subject}', ${mod})">Review Mistakes</button>
+        <button class="summaryAction" onclick="reviewAllByModule('${subject}', ${mod})">Review All</button>
+      </div>
+
+      <h3 class="appSectionTitle">Skills Breakdown</h3>
+      ${breakdownHTML}
+    </div>
+  `;
+
+  document.getElementById("backFromModuleBtn").addEventListener("click", () => {
+    window.__moduleReviewQuestions = null;
+    document.body.innerHTML = window.__testSummaryHTML || resultsSummaryHTML;
+    if (window.__testReviewAnswers) {
+      answers = window.__testReviewAnswers;
+      reviewReveal = true;
+    }
+    if (window.__testReviewQuestions) {
+      data = { questions: window.__testReviewQuestions };
+    }
+    typesetMath();
+  });
+
+  typesetMath();
 }
 
 function reviewAllByModule(subject, mod) {
@@ -2991,14 +3042,17 @@ function showTopicMiniSummary(topic, domain, correct, total) {
   if (window.__testReviewQuestions) {
     data = { questions: window.__testReviewQuestions };
   }
+
+  // If we're in module review, filter to just that module's questions
+  const questionPool = window.__moduleReviewQuestions || data.questions;
   const pct = Math.round((correct / total) * 100);
   const barColor = pct >= 80 ? "#22c55e" : pct >= 50 ? "#f59e0b" : "#ef4444";
 
-  // filter data.questions to just this topic, only answered questions
-  const topicQuestions = data.questions.filter(q => 
-    getTopic(q.skill) === topic && answers[String(q.id)]
-  );
-  console.log("topicQuestions for", topic, ":", topicQuestions.length, "answers keys sample:", Object.keys(answers).slice(0,3));
+  // filter to just this topic, only answered questions (use module pool if in module review)
+  const topicQuestions = questionPool.filter(q => {
+    if (getTopic(q.skill) !== topic) return false;
+    return reviewReveal ? true : !!answers[String(q.id)];
+  });
 
   const prev = document.body.innerHTML;
   const cameFromHistory = !!new URLSearchParams(window.location.search).get("sessionId") || !!new URLSearchParams(window.location.search).get("attemptId");
@@ -3539,8 +3593,7 @@ async function loadNextModule(file) {
   }
 
   if (activeTestSessionId) {
-    console.log("loadNextModule: saving answers count:", Object.keys(answers).length, "to session:", activeTestSessionId);
-    const { error: completeError } = await window.supabaseClient
+      const { error: completeError } = await window.supabaseClient
       .from("test_sessions")
       .update({ status: "completed", answers: answers })
       .eq("id", activeTestSessionId);
