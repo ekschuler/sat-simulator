@@ -190,18 +190,29 @@ Full SAT practice and tests are locked. Upgrade to unlock full access, or contin
 
 <div class="dashboardGrid">
 
-  <!-- Practice by Topic Card -->
+  <!-- Math Practice Card -->
   <div class="appCard">
-    <h2 class="cardTitle">Practice by Topic</h2>
-    <p class="cardText">Choose a topic, filter by level, and work through targeted SAT practice.</p>
+    <h2 class="cardTitle">Math Practice</h2>
+    <p class="cardText">Work through targeted SAT Math questions by topic and level.</p>
     <div style="display:flex; flex-direction:column; gap:8px; margin-bottom:16px;">
       <button id="startMathPracticeBtn" class="primaryBtn" type="button" style="display:none;">Upgrade to Unlock</button>
-      <button id="startVerbalPracticeBtn" class="primaryBtn" type="button" style="display:none;">Upgrade to Unlock</button>
-      <button id="startOverMathBtn" class="secondaryBtn" type="button" style="display:none;">Start Over Math</button>
-      <button id="startOverVerbalBtn" class="secondaryBtn" type="button" style="display:none;">Start Over Reading and Writing</button>
     </div>
-    <div style="display:flex; flex-direction:column; gap:8px; margin-top:4px;">
-      <a href="practice-history.html" class="secondaryBtn" style="display:block; text-decoration:none; padding:10px 16px; font-size:14px; text-align:center;">Practice Progress</a>
+    <div style="display:flex; flex-direction:column; gap:6px; margin-top:4px;">
+      <button id="startOverMathBtn" class="secondaryBtn" type="button" style="display:none; font-size:13px;">Start Over Math</button>
+      <button id="reviewLastMathBtn" class="secondaryBtn" type="button" style="display:none; font-size:13px;">Review Last Math Session</button>
+    </div>
+  </div>
+
+  <!-- R&W Practice Card -->
+  <div class="appCard">
+    <h2 class="cardTitle">Reading &amp; Writing Practice</h2>
+    <p class="cardText">Work through targeted SAT Reading &amp; Writing questions by topic and level.</p>
+    <div style="display:flex; flex-direction:column; gap:8px; margin-bottom:16px;">
+      <button id="startVerbalPracticeBtn" class="primaryBtn" type="button" style="display:none;">Upgrade to Unlock</button>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:6px; margin-top:4px;">
+      <button id="startOverVerbalBtn" class="secondaryBtn" type="button" style="display:none; font-size:13px;">Start Over Reading &amp; Writing</button>
+      <button id="reviewLastVerbalBtn" class="secondaryBtn" type="button" style="display:none; font-size:13px;">Review Last R&amp;W Session</button>
     </div>
   </div>
 
@@ -220,6 +231,16 @@ Full SAT practice and tests are locked. Upgrade to unlock full access, or contin
       </div>
     </div>
     <a href="test-history.html" style="display:block; margin-top:16px; font-size:13px; font-weight:600; color:#4f46e5; text-decoration:none;">View test history →</a>
+  </div>
+
+  <!-- History & Progress Card -->
+  <div class="appCard">
+    <h2 class="cardTitle">History &amp; Progress</h2>
+    <p class="cardText">Review your practice progress and past sessions.</p>
+    <div style="display:flex; flex-direction:column; gap:8px; margin-top:4px;">
+      <a href="practice-history.html" class="secondaryBtn" style="display:block; text-decoration:none; padding:10px 16px; font-size:14px; text-align:center;">Practice Progress</a>
+      <a href="history.html" class="secondaryBtn" style="display:block; text-decoration:none; padding:10px 16px; font-size:14px; text-align:center;">Session History</a>
+    </div>
   </div>
 
 </div>
@@ -435,6 +456,45 @@ if (startOverVerbalBtn) {
       .eq("status", "in_progress")
       .eq("set_id", "verbal_practice_bank");
     location.href = "simulator.html?mode=practice&subject=verbal&fresh=1";
+  };
+}
+
+// Review Last Session buttons
+const reviewLastMathBtn = document.getElementById("reviewLastMathBtn");
+const reviewLastVerbalBtn = document.getElementById("reviewLastVerbalBtn");
+
+async function getLastCompletedSession(subject) {
+  const { data: authData } = await window.supabaseClient.auth.getUser();
+  const user = authData?.user;
+  if (!user) return null;
+  const { data } = await window.supabaseClient
+    .from("practice_sessions")
+    .select("id")
+    .eq("user_id", user.id)
+    .eq("set_id", "session_snapshot")
+    .eq("subject", subject)
+    .eq("status", "completed")
+    .order("created_at", { ascending: false })
+    .limit(1)
+    .maybeSingle();
+  return data;
+}
+
+if (reviewLastMathBtn) {
+  reviewLastMathBtn.style.display = "";
+  reviewLastMathBtn.onclick = async () => {
+    const session = await getLastCompletedSession("math");
+    if (!session) { alert("No completed math sessions found."); return; }
+    location.href = `simulator.html?mode=practice&review=all&subject=math&sessionId=${session.id}`;
+  };
+}
+
+if (reviewLastVerbalBtn) {
+  reviewLastVerbalBtn.style.display = "";
+  reviewLastVerbalBtn.onclick = async () => {
+    const session = await getLastCompletedSession("verbal");
+    if (!session) { alert("No completed reading & writing sessions found."); return; }
+    location.href = `simulator.html?mode=practice&review=all&subject=verbal&sessionId=${session.id}`;
   };
 }
   } else {
