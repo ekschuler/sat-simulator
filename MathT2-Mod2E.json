@@ -42,27 +42,27 @@
       "answerIndex": 0,
       "explanation": "<div class='explanation-step'>The total pages read is the 45 already read plus \\(p\\) pages per hour for up to 9 hours. This must be at least 180.</div><div class='explanation-math'>$$45 + 9p \\geq 180$$</div><div class='explanation-step'>Subtract 45 from both sides: \\(9p \\geq 135\\).</div>"
     },
-    {
-      "id": "MathT2-2E-003",
-      "type": "gridin",
-      "level": 1,
-      "skill": {
-        "domain": "Algebra",
-        "topic": "Linear Functions",
-        "skill": "Modeling"
-      },
-      "stem": "A plumber charges a flat fee of \\$75 plus \\$50 per hour of work. A customer received a bill of \\$275. How many hours did the plumber work?",
-      "answer": "4",
-      "answersAccepted": ["4"],
-      "validation": {
-        "format": "number",
-        "allowNegative": true,
-        "allowDecimal": true,
-        "allowFraction": false,
-        "maxChars": 8
-      },
-      "explanation": "<div class='explanation-step'>Let \\(h\\) = number of hours worked. Set up and solve an equation.</div><div class='explanation-math'>$$\\begin{aligned}75 + 50h &= 275 \\\\ 50h &= 200 \\\\ h &= 4\\end{aligned}$$</div>"
-    },
+{
+  "id": "MathT2-2E-003",
+  "type": "gridin",
+  "level": 1,
+  "skill": {
+    "domain": "Geometry and Trigonometry",
+    "topic": "Area and Volume",
+    "skill": "Area of a Rectangle"
+  },
+  "stem": "What is the area, in square meters, of a rectangle with a length of 23 meters and a width of 17 meters?",
+  "answer": "391",
+  "answersAccepted": ["391"],
+  "validation": {
+    "format": "number",
+    "allowNegative": false,
+    "allowDecimal": false,
+    "allowFraction": false,
+    "maxChars": 5
+  },
+  "explanation": "<div class='explanation-step'>Multiply the length by the width.</div><div class='explanation-math'>$$23 \\times 17 = 391$$</div>"
+},
     {
       "id": "MathT2-2E-004",
       "type": "mcq",
@@ -102,24 +102,24 @@
       "explanation": "<div class='explanation-step'>In the equation \\(C = 0.15m + 40\\), this is slope-intercept form where the coefficient of \\(m\\) is the rate of change. Since \\(m\\) represents miles driven, \\(0.15\\) is the cost per mile — for each additional mile driven, the total cost increases by \\$0.15.</div>"
     },
     {
-      "id": "MathT2-2E-006",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Algebra",
-        "topic": "Equations and Inequalities",
-        "skill": "Solving Multi-Step Equations"
-      },
-      "stem": "What is the solution to \\(3(2x - 4) = 2(x + 6)\\)?",
-      "choices": [
-        "\\(3\\)",
-        "\\(4\\)",
-        "\\(5\\)",
-        "\\(6\\)"
-      ],
-      "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>Distribute on both sides, then solve for \\(x\\).</div><div class='explanation-math'>$$\\begin{aligned}3(2x - 4) &= 2(x + 6) \\\\ 6x - 12 &= 2x + 12 \\\\ 4x &= 24 \\\\ x &= 6\\end{aligned}$$</div>"
-    },
+  "id": "MathT2-2E-006",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Equations and Inequalities",
+    "skill": "Solving Multi-Step Equations"
+  },
+  "stem": "What value of \\(x\\) satisfies \\(\\dfrac{2}{3}(x+9) - \\dfrac{1}{6}(x+9) = 15\\)?",
+  "choices": [
+    "\\(15\\)",
+    "\\(19\\)",
+    "\\(21\\)",
+    "\\(25\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>Notice that \\((x+9)\\) appears in both terms. Let \\(u = x + 9\\) and substitute.</div><div class='explanation-math'>$$\\frac{2}{3}u - \\frac{1}{6}u = 15$$</div><div class='explanation-step'>Combine the fractions on the left.</div><div class='explanation-math'>$$\\frac{4}{6}u - \\frac{1}{6}u = \\frac{3}{6}u = \\frac{1}{2}u = 15 \\implies u = 30$$</div><div class='explanation-step'>Since \\(u = x + 9 = 30\\), solve for \\(x\\).</div><div class='explanation-math'>$$x = 30 - 9 = 21$$</div>"
+},
     {
       "id": "MathT2-2E-007",
       "type": "mcq",
@@ -197,26 +197,25 @@
       "explanation": "<div class='explanation-step'>The \\(x\\)-intercepts of the graph occur at \\(x = -2\\), \\(x = 1\\), and \\(x = 4\\). Each \\(x\\)-intercept corresponds to a factor: if \\(x = -2\\) is a root, then \\((x + 2)\\) is a factor; if \\(x = 1\\) is a root, then \\((x - 1)\\) is a factor; if \\(x = 4\\) is a root, then \\((x - 4)\\) is a factor.</div><div class='explanation-math'>$$f(x) = (x + 2)(x - 1)(x - 4)$$</div>",
       "imageNote": "Coordinate plane showing a cubic polynomial with x-intercepts at x = -2, x = 1, and x = 4. Curve has positive leading coefficient (goes from bottom-left to top-right). Y-intercept is positive (approximately y = 8). Grid lines visible, axes labeled from -4 to 6 on x-axis."
     },
-    {
-      "id": "MathT2-2E-011",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Advanced Math",
-        "topic": "Functions",
-        "skill": "Interpreting Function Values from Graph"
-      },
-      "stem": "<div class='stem-image'><img src='assets/MathT2-2E-011.png'></div><div class='stem-text'>The graph of the function \\(f\\) is shown. What is the value of \\(f(3)\\)?</div>",
-      "choices": [
-        "\\(2\\)",
-        "\\(3\\)",
-        "\\(5\\)",
-        "\\(7\\)"
-      ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>To find \\(f(3)\\), locate \\(x = 3\\) on the horizontal axis and read the corresponding \\(y\\)-value from the graph. The graph passes through the point \\((3, 5)\\), so \\(f(3) = 5\\).</div>",
-      "imageNote": "Coordinate plane showing a smooth curve passing through the following clearly labeled points: (-1, 0), (0, 2), (3, 5), (5, 3). Grid lines visible, x-axis from -2 to 6, y-axis from -1 to 8. Axes labeled."
-    },
+{
+  "id": "MathT2-2E-011",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Functions",
+    "skill": "Interpreting Function Graphs"
+  },
+  "stem": "<div class='stem-image'><img src='assets/MathT2-2E-011.png'></div><div class='stem-text'>The graph of \\(y = f(x)\\) is shown in the \\(xy\\)-plane. What is the value of \\(f(0)\\)?</div>",
+  "choices": [
+    "\\(1\\)",
+    "\\(2\\)",
+    "\\(3\\)",
+    "\\(4\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>\\(f(0)\\) is the \\(y\\)-value where the graph crosses the \\(y\\)-axis. The graph crosses the \\(y\\)-axis at \\(y = 3\\), so \\(f(0) = 3\\).</div>"
+},
     {
       "id": "MathT2-2E-012",
       "type": "gridin",
@@ -238,25 +237,25 @@
       },
       "explanation": "<div class='explanation-step'>The function is in vertex form \\(f(x) = a(x - h)^2 + k\\), where the vertex is at \\((h, k)\\). Here \\(h = 4\\) and \\(k = 3\\).</div><div class='explanation-step'>Since \\(a = 1 > 0\\), the parabola opens upward, so the vertex is a minimum. The minimum value is \\(k = 3\\), occurring at \\(x = 4\\).</div>"
     },
-    {
-      "id": "MathT2-2E-013",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Advanced Math",
-        "topic": "Functions",
-        "skill": "Function Transformations"
-      },
-      "stem": "The graph of \\(g(x) = f(x - 3)\\) is the graph of \\(f\\) shifted in which direction?",
-      "choices": [
-        "3 units to the left",
-        "3 units to the right",
-        "3 units up",
-        "3 units down"
-      ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>When a function is written as \\(g(x) = f(x - c)\\) where \\(c > 0\\), the graph shifts \\(c\\) units to the right. This is a horizontal shift — replacing \\(x\\) with \\(x - 3\\) moves every point on the graph 3 units to the right.</div><div class='explanation-step'>A common error is thinking \\(x - 3\\) shifts left because of the minus sign. Remember: horizontal shifts go in the opposite direction of the sign inside the function.</div>"
-    },
+{
+  "id": "MathT2-2E-013",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Linear Functions",
+    "skill": "Transformations of Linear Equations"
+  },
+  "stem": "The graph of \\(4x + 3y = 24\\) is translated 3 units to the right in the \\(xy\\)-plane. What is the \\(y\\)-intercept of the resulting graph?",
+  "choices": [
+    "\\(4\\)",
+    "\\(8\\)",
+    "\\(12\\)",
+    "\\(16\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>Translating a graph 3 units to the right replaces every \\(x\\) with \\((x - 3)\\).</div><div class='explanation-math'>$$4(x - 3) + 3y = 24$$</div><div class='explanation-step'>To find the \\(y\\)-intercept, substitute \\(x = 0\\).</div><div class='explanation-math'>$$\\begin{aligned}4(0 - 3) + 3y &= 24 \\\\ -12 + 3y &= 24 \\\\ 3y &= 36 \\\\ y &= 12\\end{aligned}$$</div><div class='explanation-step'>A common error is using the original equation's \\(y\\)-intercept of \\(8\\) without applying the translation.</div>"
+},
     {
       "id": "MathT2-2E-014",
       "type": "mcq",
@@ -295,25 +294,25 @@
       "answerIndex": 1,
       "explanation": "<div class='explanation-step'>The total number of marbles is \\(5 + 3 + 2 = 10\\). The probability of drawing a blue marble is the number of blue marbles divided by the total.</div><div class='explanation-math'>$$P(\\text{blue}) = \\frac{3}{10}$$</div>"
     },
-    {
-      "id": "MathT2-2E-016",
-      "type": "mcq",
-      "level": 1,
-      "skill": {
-        "domain": "Problem Solving and Data Analysis",
-        "topic": "Statistics",
-        "skill": "Weighted Average"
-      },
-      "stem": "A student scores 80 on a test worth 40% of the final grade and 90 on a test worth 60% of the final grade. What is the student's weighted average?",
-      "choices": [
-        "\\(84\\)",
-        "\\(85\\)",
-        "\\(86\\)",
-        "\\(87\\)"
-      ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>Multiply each score by its weight and add the results.</div><div class='explanation-math'>$$\\begin{aligned}\\text{Weighted average} &= 0.40(80) + 0.60(90) \\\\ &= 32 + 54 \\\\ &= 86\\end{aligned}$$</div><div class='explanation-step'>A common error is taking the simple average: \\(\\frac{80 + 90}{2} = 85\\). This ignores the different weights.</div>"
-    },
+{
+  "id": "MathT2-2E-016",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Problem Solving and Data Analysis",
+    "topic": "Statistics",
+    "skill": "Combined Mean"
+  },
+  "stem": "<div class='stem-text'>The table shows the number of customers and the mean purchase amount for two locations of the same store on a given day.</div><div class='stem-table-wrap'><table class='stem-table'><tr><th>Location</th><th>Number of customers</th><th>Mean purchase amount</th></tr><tr><td>Downtown</td><td>40</td><td>$28</td></tr><tr><td>Westside</td><td>60</td><td>$43</td></tr></table></div><div style='margin-top:12px;'>What was the mean purchase amount, in dollars, for all customers at both locations combined?</div>",
+  "choices": [
+    "\\$31",
+    "\\$34",
+    "\\$37",
+    "\\$40"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>Find the total purchase amount for each location, then divide by the total number of customers.</div><div class='explanation-math'>$$\\begin{aligned}\\text{Downtown total} &= 40 \\times 28 = 1{,}120 \\\\ \\text{Westside total} &= 60 \\times 43 = 2{,}580 \\\\ \\text{Combined mean} &= \\frac{1{,}120 + 2{,}580}{100} = \\frac{3{,}700}{100} = 37\\end{aligned}$$</div><div class='explanation-step'>A common error is taking the simple average of the two means: \\(\\frac{28 + 43}{2} = 35.5\\), which ignores the different numbers of customers at each location.</div>"
+},
     {
       "id": "MathT2-2E-017",
       "type": "mcq",
@@ -335,65 +334,64 @@
       "imageNote": "Scatterplot with x-axis labeled 'Hours Studied' ranging from 0 to 10, y-axis labeled 'Test Score' ranging from 50 to 100. Approximately 10-12 data points scattered showing positive correlation. Line of best fit drawn through the data. Line passes through approximately (0, 52) and (10, 97), giving a value of approximately 82 at x = 6. Grid lines visible."
     },
     {
-      "id": "MathT2-2E-018",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Problem Solving and Data Analysis",
-        "topic": "Ratios and Proportional Reasoning",
-        "skill": "Scale and Proportional Reasoning"
-      },
-      "stem": "A map uses a scale of 1 inch = 25 miles. Two cities are \\(3.5\\) inches apart on the map. What is the actual distance, in miles, between the two cities?",
-      "choices": [
-        "\\(71.5\\)",
-        "\\(82.5\\)",
-        "\\(87.5\\)",
-        "\\(92.5\\)"
-      ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>Use the scale to set up a proportion.</div><div class='explanation-math'>$$\\frac{1 \\text{ inch}}{25 \\text{ miles}} = \\frac{3.5 \\text{ inches}}{d \\text{ miles}}$$</div><div class='explanation-step'>Cross multiply: \\(d = 3.5 \\times 25 = 87.5\\) miles.</div>"
-    },
+  "id": "MathT2-2E-018",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Problem Solving and Data Analysis",
+    "topic": "Statistics",
+    "skill": "Interpreting Box Plots"
+  },
+  "stem": "<div class='stem-image'><img src='assets/MathT2-2E-018.png'></div><div class='stem-text'>The box plots summarize the total distances, in miles, run in one week by members of two track teams. Based on the box plots, which of the following statements must be true?</div>",
+  "choices": [
+    "The mean distance of Team A is greater than the mean distance of Team B.",
+    "The mean distance of Team A is less than the mean distance of Team B.",
+    "The median distance of Team A is greater than the median distance of Team B.",
+    "The median distance of Team A is less than the median distance of Team B."
+  ],
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>Box plots display the five-number summary: minimum, Q1, median, Q3, and maximum. The median is the vertical line inside the box.</div><div class='explanation-step'>The median for Team A is 22 miles and the median for Team B is 25 miles. Since 22 &lt; 25, the median distance of Team A is less than the median distance of Team B. This must be true.</div><div class='explanation-step'>The mean cannot be determined from a box plot alone — the distribution of values within each section is unknown. Any statement about the mean cannot be confirmed, so choices A and B cannot be determined.</div>"
+},
     {
-      "id": "MathT2-2E-019",
-      "type": "gridin",
-      "level": 3,
-      "skill": {
-        "domain": "Problem Solving and Data Analysis",
-        "topic": "Statistics",
-        "skill": "Finding a Missing Value from Mean"
-      },
-      "stem": "The mean of five numbers is 12. Four of the numbers are 8, 10, 15, and 17. What is the fifth number?",
-      "answer": "10",
-      "answersAccepted": ["10"],
-      "validation": {
-        "format": "number",
-        "allowNegative": true,
-        "allowDecimal": true,
-        "allowFraction": false,
-        "maxChars": 8
-      },
-      "explanation": "<div class='explanation-step'>The mean of five numbers is 12, so their sum is \\(12 \\times 5 = 60\\).</div><div class='explanation-math'>$$8 + 10 + 15 + 17 = 50$$</div><div class='explanation-step'>The fifth number is \\(60 - 50 = 10\\).</div>"
-    },
-    {
-      "id": "MathT2-2E-020",
-      "type": "mcq",
-      "level": 1,
-      "skill": {
-        "domain": "Geometry and Trigonometry",
-        "topic": "Triangles",
-        "skill": "Similar Triangles"
-      },
-      "stem": "<div class='stem-image'><img src='assets/MathT2-2E-020.png'></div><div class='stem-text'>The two triangles shown are similar. What is the length of the longest side of the larger triangle?</div>",
-      "choices": [
-        "\\(12\\)",
-        "\\(13\\)",
-        "\\(15\\)",
-        "\\(18\\)"
-      ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>Find the scale factor by comparing the shortest sides of the two triangles.</div><div class='explanation-math'>$$\\text{Scale factor} = \\frac{9}{3} = 3$$</div><div class='explanation-step'>Multiply the longest side of the smaller triangle by the scale factor: \\(5 \\times 3 = 15\\).</div>",
-      "imageNote": "Two right triangles side by side. Smaller triangle has sides labeled 3 (shortest), 4, and 5 (hypotenuse/longest), with right angle marked. Larger triangle has shortest side labeled 9, other sides unlabeled except longest side marked with '?'. Right angle marked on larger triangle."
-    },
+  "id": "MathT2-2E-019",
+  "type": "gridin",
+  "level": 3,
+  "skill": {
+    "domain": "Problem Solving and Data Analysis",
+    "topic": "Ratios and Proportional Reasoning",
+    "skill": "Rate Conversion"
+  },
+  "stem": "A sprinter runs at a speed of 44 feet per second. What is this speed in miles per hour? (1 mile = 5,280 feet)",
+  "answer": "30",
+  "answersAccepted": ["30"],
+  "validation": {
+    "format": "number",
+    "allowNegative": false,
+    "allowDecimal": true,
+    "allowFraction": false,
+    "maxChars": 6
+  },
+  "explanation": "<div class='explanation-step'>Convert feet per second to miles per hour using dimensional analysis. Multiply by conversion factors so that unwanted units cancel.</div><div class='explanation-math'>$$44 \\frac{\\text{ft}}{\\text{sec}} \\times \\frac{3{,}600 \\text{ sec}}{1 \\text{ hr}} \\times \\frac{1 \\text{ mile}}{5{,}280 \\text{ ft}} = \\frac{44 \\times 3{,}600}{5{,}280} = \\frac{158{,}400}{5{,}280} = 30 \\frac{\\text{miles}}{\\text{hr}}$$</div>"
+},
+{
+  "id": "MathT2-2E-020",
+  "type": "mcq",
+  "level": 1,
+  "skill": {
+    "domain": "Geometry and Trigonometry",
+    "topic": "Triangles",
+    "skill": "Similar Triangles"
+  },
+  "stem": "<div class='stem-image'><img src='assets/MathT2-2E-020.png'></div><div class='stem-text'>Right triangles \\(ABC\\) and \\(DEF\\) are similar, where \\(A\\) corresponds to \\(D\\), \\(B\\) corresponds to \\(E\\), and \\(C\\) corresponds to \\(F\\). The lengths of \\(AB\\), \\(BC\\), \\(AC\\), and \\(DE\\) are \\(10\\), \\(15\\), \\(18\\), and \\(8\\), respectively. What is the length of \\(EF\\)?</div>",
+  "choices": [
+    "\\(10\\)",
+    "\\(12\\)",
+    "\\(14\\)",
+    "\\(16\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>Since \\(A\\) corresponds to \\(D\\) and \\(B\\) corresponds to \\(E\\), side \\(AB\\) corresponds to side \\(DE\\) and side \\(BC\\) corresponds to side \\(EF\\). Find the scale factor.</div><div class='explanation-math'>$$\\text{Scale factor} = \\frac{DE}{AB} = \\frac{8}{10} = \\frac{4}{5}$$</div><div class='explanation-step'>Apply the scale factor to find \\(EF\\).</div><div class='explanation-math'>$$EF = BC \\times \\frac{4}{5} = 15 \\times \\frac{4}{5} = 12$$</div>"
+},
     {
       "id": "MathT2-2E-021",
       "type": "mcq",

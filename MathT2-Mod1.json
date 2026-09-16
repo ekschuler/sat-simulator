@@ -34,10 +34,10 @@
       },
       "stem": "Which of the following values of \\(x\\) satisfies \\(3x - 7 > 2\\)?",
       "choices": [
-        "\\(x = 1\\)",
-        "\\(x = 2\\)",
-        "\\(x = 3\\)",
-        "\\(x = 4\\)"
+        "\\(1\\)",
+        "\\(2\\)",
+        "\\(3\\)",
+        "\\(4\\)"
       ],
       "answerIndex": 3,
       "explanation": "<div class='explanation-step'>Solve the inequality for \\(x\\).</div><div class='explanation-math'>$$\\begin{aligned}3x - 7 &> 2 \\\\ 3x &> 9 \\\\ x &> 3\\end{aligned}$$</div><div class='explanation-step'>The solution is \\(x > 3\\). Of the choices, only \\(x = 4\\) satisfies this condition. Note that \\(x = 3\\) does not work because the inequality is strict (\\(>\\), not \\(\\geq\\)).</div>"
@@ -89,85 +89,28 @@
         "topic": "Percents",
         "skill": "Percent Change"
       },
-      "stem": "A jacket originally costs \\$80. It is on sale for \\$60. What is the percent decrease in price?",
+      "stem": "A data analyst researching the demand for ferry tickets in a certain city recorded ferry ticket sales for 31 days. On August 31, there were 851 ferry tickets sold. The percent decrease in the number of ferry tickets sold from August 1 to August 31 was 8%. How many ferry tickets were sold on August 1?",
       "choices": [
-        "\\(20\\%\\)",
-        "\\(25\\%\\)",
-        "\\(30\\%\\)",
-        "\\(33\\%\\)"
+        "\\(783\\)",
+        "\\(859\\)",
+        "\\(925\\)",
+        "\\(1{,}531\\)"
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>Percent decrease is calculated using the original price as the denominator.</div><div class='explanation-math'>$$\\text{Percent decrease} = \\frac{80 - 60}{80} \\times 100 = \\frac{20}{80} \\times 100 = 25\\%$$</div><div class='explanation-step'>A common error is dividing by the new price: \\(\\frac{20}{60} \\approx 33\\%\\). Always use the original value when calculating percent change.</div>"
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>This is a percent decrease of an unknown original value. Translate the information from words to an equation to solve. \\(851\\) is tickets sold after an \\(8\\)% decrease from the another amount of tickets sold, so the equation is \\(851=x-.08x) </div><div class='explanation-math'>$$\\begin{aligned} 851=.92x \\\\ x=\\frac{851}{.92) &= 925 \\end{aligned}$$</div>"
     },
     {
       "id": "MathT2-1-006",
-      "type": "mcq",
+      "type": "gridin",
       "level": 2,
       "skill": {
         "domain": "Algebra",
         "topic": "Linear Functions",
-        "skill": "Slope-Intercept Form"
+        "skill": "Slope"
       },
-      "stem": "Line \\(l\\) is defined by the equation \\(4x - 2y = 10\\). Which of the following correctly describes line \\(l\\)?",
-      "choices": [
-        "Slope \\(= 2\\) and \\(y\\)-intercept \\(= -5\\)",
-        "Slope \\(= 4\\) and \\(y\\)-intercept \\(= -10\\)",
-        "Slope \\(= 2\\) and \\(y\\)-intercept \\(= 5\\)",
-        "Slope \\(= -2\\) and \\(y\\)-intercept \\(= 5\\)"
-      ],
-      "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>Rewrite the equation in slope-intercept form \\(y = mx + b\\).</div><div class='explanation-math'>$$\\begin{aligned}4x - 2y &= 10 \\\\ -2y &= -4x + 10 \\\\ y &= 2x - 5\\end{aligned}$$</div><div class='explanation-step'>The slope is \\(2\\) and the \\(y\\)-intercept is \\(-5\\).</div>"
-    },
-    {
-      "id": "MathT2-1-007",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Advanced Math",
-        "topic": "Polynomials",
-        "skill": "Polynomial Division"
-      },
-      "stem": "Which of the following is equivalent to \\(\\dfrac{x^3 - 2x^2 - 5x + 6}{x - 3}\\), for \\(x \\neq 3\\)?",
-      "choices": [
-        "\\(x^2 + x - 2\\)",
-        "\\(x^2 - x - 2\\)",
-        "\\(x^2 + x + 2\\)",
-        "\\(x^2 - x + 2\\)"
-      ],
-      "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>Use synthetic division to divide \\(x^3 - 2x^2 - 5x + 6\\) by \\(x - 3\\).</div><div class='explanation-math'>$$\\begin{array}{r|rrrr} 3 & 1 & -2 & -5 & 6 \\\\ & & 3 & 3 & -6 \\\\ \\hline & 1 & 1 & -2 & 0 \\end{array}$$</div><div class='explanation-step'>The remainder is \\(0\\), confirming \\(x = 3\\) is a root. The quotient is \\(x^2 + x - 2\\).</div>"
-    },
-    {
-      "id": "MathT2-1-008",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Algebra",
-        "topic": "Systems of Equations",
-        "skill": "Word Problem Setup"
-      },
-      "stem": "A farmer has only chickens and cows. There are 20 heads and 56 legs in total. How many cows does the farmer have?",
-      "choices": [
-        "\\(6\\)",
-        "\\(7\\)",
-        "\\(8\\)",
-        "\\(10\\)"
-      ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>Let \\(c\\) = number of cows and \\(k\\) = number of chickens. Each animal has 1 head; cows have 4 legs, chickens have 2.</div><div class='explanation-math'>$$\\begin{aligned}c + k &= 20 \\\\ 4c + 2k &= 56\\end{aligned}$$</div><div class='explanation-step'>From the first equation, \\(k = 20 - c\\). Substitute into the second equation.</div><div class='explanation-math'>$$\\begin{aligned}4c + 2(20 - c) &= 56 \\\\ 4c + 40 - 2c &= 56 \\\\ 2c &= 16 \\\\ c &= 8\\end{aligned}$$</div>"
-    },
-    {
-      "id": "MathT2-1-009",
-      "type": "gridin",
-      "level": 2,
-      "skill": {
-        "domain": "Advanced Math",
-        "topic": "Functions",
-        "skill": "Composition of Functions"
-      },
-      "stem": "The functions \\(f\\) and \\(g\\) are defined by \\(f(x) = 2x + 1\\) and \\(g(x) = x^2 - 3\\). What is the value of \\(f(g(2))\\)?",
-      "answer": "3",
-      "answersAccepted": ["3"],
+      "stem": "Line \\(l\\) is defined by the equation \\(4x + 2y = 10\\). Line \\(m\\) is perpendicular to line \\(l\\) in the \\(xy\\)-plane. What is the slope of line \\(m\\)?",
+       "answer": "\\frac{1}{2}",
+      "answersAccepted": ["\\frac{1}{2}", "1/2", ".5"],
       "validation": {
         "format": "number",
         "allowNegative": true,
@@ -175,27 +118,86 @@
         "allowFraction": false,
         "maxChars": 8
       },
-      "explanation": "<div class='explanation-step'>First evaluate \\(g(2)\\), then substitute the result into \\(f\\).</div><div class='explanation-math'>$$\\begin{aligned}g(2) &= (2)^2 - 3 = 4 - 3 = 1 \\\\ f(g(2)) &= f(1) = 2(1) + 1 = 3\\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>Rewrite the equation in slope-intercept form \\(y = mx + b\\).</div><div class='explanation-math'>$$\\begin{aligned}4x + 2y &= 10 \\\\ 2y &= -4x + 10 \\\\ y &= -2x + 5\\end{aligned}$$</div><div class='explanation-step'>The slope of line \\(l\\) is \\(-2\\), so the slope of perpendicular line \\(m\\) is the negative reciprocal, or \\(\\frac{1}{2}\\).</div>"
     },
     {
-      "id": "MathT2-1-010",
+      "id": "MathT2-1-007",
       "type": "mcq",
       "level": 2,
       "skill": {
-        "domain": "Algebra",
-        "topic": "Equations and Inequalities",
-        "skill": "Literal Equations"
+        "domain": "Advanced Math",
+        "topic": "Circles",
+        "skill": "Circle Equations"
       },
-      "stem": "The perimeter of a rectangle is given by \\(P = 2l + 2w\\), where \\(l\\) is the length and \\(w\\) is the width. Which of the following expresses \\(l\\) in terms of \\(P\\) and \\(w\\)?",
+      "stem": "A circle in the \\(xy\\)-plane has a diameter with endpoints \\((-1,-8)\\) and \\((-1,4)\\). An equation for this circle is \\((x+1)^2+(y+2)^2=r^2)\\), where \\(r\\) is a positive constant. What is the value of \\(r\\)?",
       "choices": [
-        "\\(l = P - 2w\\)",
-        "\\(l = \\dfrac{P - 2w}{2}\\)",
-        "\\(l = \\dfrac{P}{2} + w\\)",
-        "\\(l = 2P - w\\)"
+        "\\(4\\)",
+        "\\(6\\)",
+        "\\(12\\)",
+        "\\(36\\)"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>Solve the formula for \\(l\\).</div><div class='explanation-math'>$$\\begin{aligned}P &= 2l + 2w \\\\ P - 2w &= 2l \\\\ l &= \\frac{P - 2w}{2}\\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>The question asks for the value of \\(r\\). In the equation \\((x+1)^2+(y+2)^2=r^2\\), \\(r\\) represents the radius of the circle, so this problem asks you to find the radius of the circle.</div><div class='explanation-step'>The radius is half the length of the diameter. The given endpoints share the same \\(x\\)-coordinate, so the diameter is simply the vertical distance between them.</div><div class='explanation-math'>$$d = 4-(-8) = 12 \\implies r = \\frac{12}{2} = 6$$</div>"
     },
+    {
+  "id": "MathT2-1-008",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Systems of Equations",
+    "skill": "Systems of Linear Equations in Context"
+  },
+  "stem": "A recreation center offers swimming classes and dance classes. Last Tuesday, 3 swimming classes and 1 dance class were held, with a total of 49 participants. Last Wednesday, 1 swimming class and 2 dance classes were held, with a total of 38 participants. Each class of the same type had the same number of participants. How many participants attended each swimming class?",
+  "choices": [
+    "\\(10\\)",
+    "\\(12\\)",
+    "\\(13\\)",
+    "\\(15\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>Let \\(s\\) = number of participants in each swimming class and \\(d\\) = number of participants in each dance class.</div><div class='explanation-math'>$$\\begin{aligned}3s + d &= 49 \\\\ s + 2d &= 38\\end{aligned}$$</div><div class='explanation-step'>From the first equation, \\(d = 49 - 3s\\). Substitute into the second equation.</div><div class='explanation-math'>$$\\begin{aligned}s + 2(49 - 3s) &= 38 \\\\ s + 98 - 6s &= 38 \\\\ -5s &= -60 \\\\ s &= 12\\end{aligned}$$</div><div class='explanation-step'>Each swimming class had \\(12\\) participants.</div>"
+},
+  {
+  "id": "MathT2-1-009",
+  "type": "gridin",
+  "level": 2,
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Functions",
+    "skill": "Rational Functions"
+  },
+  "stem": "The function \\(f\\) is defined by \\(f(x) = \\dfrac{x^2 - 9}{x - 3}\\) for \\(x \\neq 3\\). For what value of \\(x\\) does \\(f(x) = 10\\)?",
+  "answer": "7",
+  "answersAccepted": ["7"],
+  "validation": {
+    "format": "number",
+    "allowNegative": true,
+    "allowDecimal": false,
+    "allowFraction": false,
+    "maxChars": 4
+  },
+  "explanation": "<div class='explanation-step'>First simplify \\(f(x)\\) by factoring the numerator.</div><div class='explanation-math'>$$f(x) = \\frac{x^2 - 9}{x - 3} = \\frac{(x+3)(x-3)}{x-3} = x + 3$$</div><div class='explanation-step'>Now set \\(f(x) = 10\\) and solve.</div><div class='explanation-math'>$$x + 3 = 10 \\implies x = 7$$</div>"
+},
+    {
+  "id": "MathT2-1-010",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Equations and Inequalities",
+    "skill": "Transforming Literal Equations"
+  },
+  "stem": "<div class='stem-equation'>$$\\dfrac{3m}{4n} = \\dfrac{5}{k}$$</div><div class='stem-text'>The given equation relates the positive numbers \\(m\\), \\(n\\), and \\(k\\). Which equation correctly expresses \\(m\\) in terms of \\(n\\) and \\(k\\)?</div>",
+  "choices": [
+    "\\(m = \\dfrac{20n}{3k}\\)",
+    "\\(m = \\dfrac{20k}{3n}\\)",
+    "\\(m = \\dfrac{3k}{20n}\\)",
+    "\\(m = 20nk\\)"
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>Cross-multiply to eliminate the fractions.</div><div class='explanation-math'>$$\\begin{aligned}3mk &= 20n \\\\ m &= \\frac{20n}{3k}\\end{aligned}$$</div>"
+},
     {
       "id": "MathT2-1-011",
       "type": "mcq",
@@ -208,7 +210,7 @@
       "stem": "A population of bacteria doubles every 3 hours. If there are initially 500 bacteria, which of the following functions gives the population \\(P\\) after \\(t\\) hours?",
       "choices": [
         "\\(P(t) = 500 \\cdot 2^t\\)",
-        "\\(P(t) = 500 \\cdot 2^{t/3}\\)",
+        "\\(P(t) = 500 \\cdot 2^{\\frac{t/3}}\\)",
         "\\(P(t) = 500 \\cdot 3^t\\)",
         "\\(P(t) = 500 + 2t\\)"
       ],
@@ -216,64 +218,64 @@
       "explanation": "<div class='explanation-step'>Since the population doubles every 3 hours, the exponent must equal 1 when \\(t = 3\\). This means the exponent is \\(\\frac{t}{3}\\), giving \\(P(t) = 500 \\cdot 2^{t/3}\\).</div><div class='explanation-step'>Check: at \\(t = 0\\), \\(P = 500\\) ✓. At \\(t = 3\\), \\(P = 500 \\cdot 2^1 = 1000\\) ✓ (doubled). At \\(t = 6\\), \\(P = 500 \\cdot 2^2 = 2000\\) ✓ (doubled again).</div>"
     },
     {
-      "id": "MathT2-1-012",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Geometry and Trigonometry",
-        "topic": "Circles",
-        "skill": "Arc Length"
-      },
-      "stem": "A circle has a radius of 6. A central angle measures \\(120°\\). What is the length of the arc intercepted by this angle?",
-      "choices": [
-        "\\(2\\pi\\)",
-        "\\(3\\pi\\)",
-        "\\(4\\pi\\)",
-        "\\(6\\pi\\)"
-      ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>Arc length is a fraction of the total circumference, determined by the central angle.</div><div class='explanation-math'>$$\\text{Arc length} = \\frac{120}{360} \\times 2\\pi(6) = \\frac{1}{3} \\times 12\\pi = 4\\pi$$</div>"
-    },
+  "id": "MathT2-1-012",
+  "type": "gridin",
+  "level": 2,
+  "skill": {
+    "domain": "Geometry and Trigonometry",
+    "topic": "Circles",
+    "skill": "Arc Measure and Central Angles"
+  },
+  "stem": "Point \\(O\\) is the center of a circle. The measure of arc \\(RS\\) on this circle is \\(124°\\). What is the measure, in degrees, of angle \\(ROS\\)?",
+  "answer": "124",
+  "answersAccepted": ["124"],
+  "validation": {
+    "format": "number",
+    "allowNegative": false,
+    "allowDecimal": false,
+    "allowFraction": false,
+    "maxChars": 4
+  },
+  "explanation": "<div class='explanation-step'>A central angle and its intercepted arc have the same measure. Since arc \\(RS\\) measures \\(124°\\), angle \\(ROS\\) also measures \\(124°\\).</div>"
+},
+{
+  "id": "MathT2-1-013",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Linear Functions",
+    "skill": "Linear Equations in Context"
+  },
+  "stem": "Priya started a new job with 40 hours of paid vacation time. She also accrues additional paid vacation hours at a constant rate each month. Priya did not use any of the vacation time, and at the end of 8 months she has a total of 136 paid vacation hours. Which equation can be used to find \\(h\\), the number of vacation hours Priya accrues each month?",
+  "choices": [
+    "\\(8h = 136\\)",
+    "\\(40h + 8 = 136\\)",
+    "\\(40 + 8h = 136\\)",
+    "\\(8 + 40h = 136\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>Priya starts with 40 hours and accrues \\(h\\) hours per month for 8 months. Her total after 8 months is:</div><div class='explanation-math'>$$40 + 8h = 136$$</div>"
+},
     {
-      "id": "MathT2-1-013",
-      "type": "gridin",
-      "level": 2,
-      "skill": {
-        "domain": "Algebra",
-        "topic": "Linear Functions",
-        "skill": "Parallel and Perpendicular Lines"
-      },
-      "stem": "Line \\(m\\) has equation \\(y = 3x - 2\\). Line \\(n\\) is perpendicular to line \\(m\\) and passes through the point \\((0, 1)\\). What is the \\(y\\)-coordinate of the point on line \\(n\\) where \\(x = 3\\)?",
-      "answer": "0",
-      "answersAccepted": ["0"],
-      "validation": {
-        "format": "number",
-        "allowNegative": true,
-        "allowDecimal": true,
-        "allowFraction": false,
-        "maxChars": 8
-      },
-      "explanation": "<div class='explanation-step'>The slope of a line perpendicular to line \\(m\\) is the negative reciprocal of \\(3\\), which is \\(-\\frac{1}{3}\\). Line \\(n\\) passes through \\((0, 1)\\), so its equation is \\(y = -\\frac{1}{3}x + 1\\).</div><div class='explanation-math'>$$y = -\\frac{1}{3}(3) + 1 = -1 + 1 = 0$$</div>"
-    },
-    {
-      "id": "MathT2-1-014",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Problem Solving and Data Analysis",
-        "topic": "Ratios and Proportional Reasoning",
-        "skill": "Setting Up Proportions"
-      },
-      "stem": "A recipe calls for 3 cups of flour for every 2 cups of sugar. If a baker uses 9 cups of flour, how many cups of sugar are needed?",
-      "choices": [
-        "\\(4\\)",
-        "\\(5\\)",
-        "\\(6\\)",
-        "\\(8\\)"
-      ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>Set up a proportion using the given ratio of flour to sugar.</div><div class='explanation-math'>$$\\frac{3}{2} = \\frac{9}{x} \\implies 3x = 18 \\implies x = 6$$</div>"
-    },
+  "id": "MathT2-1-014",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Problem Solving and Data Analysis",
+    "topic": "Ratios and Proportional Reasoning",
+    "skill": "Unit Conversion"
+  },
+  "stem": "A cyclist travels at a speed of 480 meters per minute. What is the cyclist's speed, in kilometers per hour? (1 kilometer = 1,000 meters)",
+  "choices": [
+    "\\(8\\)",
+    "\\(28.8\\)",
+    "\\(480\\)",
+    "\\(2{,}880\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>Convert meters per minute to kilometers per hour using the given conversion factor and the fact that there are 60 minutes in 1 hour.</div><div class='explanation-math'>$$480 \\frac{\\text{m}}{\\text{min}} \\times \\frac{60 \\text{ min}}{1 \\text{ hr}} \\times \\frac{1 \\text{ km}}{1{,}000 \\text{ m}} = 28.8 \\frac{\\text{km}}{\\text{hr}}$$</div>"
+},
     {
       "id": "MathT2-1-015",
       "type": "mcq",
@@ -313,24 +315,24 @@
       "explanation": "<div class='explanation-step'>Distribute the negative sign and combine like terms.</div><div class='explanation-math'>$$\\begin{aligned}&(3x^2 - 2x + 5) - (x^2 + 4x - 3) \\\\ &= 3x^2 - 2x + 5 - x^2 - 4x + 3 \\\\ &= 2x^2 - 6x + 8\\end{aligned}$$</div><div class='explanation-step'>A common error is forgetting to distribute the negative sign to all terms in the second polynomial, especially the \\(-3\\), which becomes \\(+3\\).</div>"
     },
     {
-      "id": "MathT2-1-017",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Algebra",
-        "topic": "Systems of Equations",
-        "skill": "System Word Problem"
-      },
-      "stem": "Ana and Ben together have \\$120. Ana has \\$30 more than Ben. How much money does Ben have?",
-      "choices": [
-        "\\$40",
-        "\\$45",
-        "\\$50",
-        "\\$55"
-      ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>Let \\(a\\) = Ana's amount and \\(b\\) = Ben's amount. Write a system of equations.</div><div class='explanation-math'>$$\\begin{aligned}a + b &= 120 \\\\ a &= b + 30\\end{aligned}$$</div><div class='explanation-step'>Substitute the second equation into the first.</div><div class='explanation-math'>$$\\begin{aligned}(b + 30) + b &= 120 \\\\ 2b + 30 &= 120 \\\\ 2b &= 90 \\\\ b &= 45\\end{aligned}$$</div>"
-    },
+  "id": "MathT2-1-017",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Systems of Equations",
+    "skill": "Systems of Linear Equations"
+  },
+  "stem": "$$3x + 2y = 17$$$$-3x + 5y = 11$$The solution to the given system of equations is \\((x, y)\\). What is the value of \\(21y\\)?",
+  "choices": [
+    "\\(63\\)",
+    "\\(77\\)",
+    "\\(84\\)",
+    "\\(91\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>Add the two equations directly to eliminate \\(x\\).</div><div class='explanation-math'>$$\\begin{aligned}3x + 2y &= 17 \\\\ + \\quad (-3x + 5y) &= 11 \\\\ \\hline 7y &= 28\\end{aligned}$$</div><div class='explanation-step'>The question asks for \\(21y\\), which is \\(3 \\times 7y\\).</div><div class='explanation-math'>$$21y = 3(7y) = 3(28) = 84$$</div>"
+},
     {
       "id": "MathT2-1-018",
       "type": "gridin",
@@ -353,82 +355,82 @@
       "explanation": "<div class='explanation-step'>The function is written in vertex form \\(f(x) = a(x - h)^2 + k\\), where the vertex is at \\((h, k)\\). Here \\(a = -1\\), \\(h = 2\\), and \\(k = 9\\).</div><div class='explanation-step'>Since \\(a = -1 < 0\\), the parabola opens downward, so the vertex represents a maximum. The maximum value of \\(f(x)\\) is \\(\\mathbf{9}\\), occurring at \\(x = 2\\).</div>"
     },
     {
-      "id": "MathT2-1-019",
-      "type": "mcq",
-      "level": 1,
-      "skill": {
-        "domain": "Algebra",
-        "topic": "Equations and Inequalities",
-        "skill": "Absolute Value Inequalities"
-      },
-      "stem": "Which of the following represents all solutions to \\(|x - 3| \\leq 5\\)?",
-      "choices": [
-        "\\(-2 \\leq x \\leq 8\\)",
-        "\\(x \\leq -2\\) or \\(x \\geq 8\\)",
-        "\\(-5 \\leq x \\leq 5\\)",
-        "\\(0 \\leq x \\leq 8\\)"
-      ],
-      "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>For \\(|x - 3| \\leq 5\\), rewrite as a compound inequality.</div><div class='explanation-math'>$$-5 \\leq x - 3 \\leq 5$$</div><div class='explanation-step'>Add 3 to all parts.</div><div class='explanation-math'>$$-2 \\leq x \\leq 8$$</div>"
-    },
-    {
-      "id": "MathT2-1-020",
-      "type": "mcq",
-      "level": 3,
-      "skill": {
-        "domain": "Geometry and Trigonometry",
-        "topic": "Right Triangles",
-        "skill": "Special Right Triangles"
-      },
-      "stem": "In a \\(30°\\)-\\(60°\\)-\\(90°\\) triangle, the length of the shorter leg is 5. What is the length of the hypotenuse?",
-      "choices": [
-        "\\(5\\sqrt{2}\\)",
-        "\\(5\\sqrt{3}\\)",
-        "\\(10\\)",
-        "\\(10\\sqrt{3}\\)"
-      ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>In a \\(30°\\)-\\(60°\\)-\\(90°\\) triangle, the side lengths are in the ratio \\(1 : \\sqrt{3} : 2\\), where the shortest side is opposite the \\(30°\\) angle and the hypotenuse is twice the shorter leg.</div><div class='explanation-math'>$$\\text{Hypotenuse} = 2 \\times 5 = 10$$</div><div class='explanation-step'>Common errors: choosing \\(5\\sqrt{2}\\) confuses this with a \\(45°\\)-\\(45°\\)-\\(90°\\) triangle, and \\(5\\sqrt{3}\\) is the longer leg, not the hypotenuse.</div>"
-    },
-    {
-      "id": "MathT2-1-021",
-      "type": "gridin",
-      "level": 1,
-      "skill": {
-        "domain": "Algebra",
-        "topic": "Linear Functions",
-        "skill": "Rate of Change in Context"
-      },
-      "stem": "A car travels at a constant speed. After 2 hours, the car has traveled 110 miles. After 5 hours, the car has traveled 275 miles. What is the car's speed in miles per hour?",
-      "answer": "55",
-      "answersAccepted": ["55"],
-      "validation": {
-        "format": "number",
-        "allowNegative": true,
-        "allowDecimal": true,
-        "allowFraction": false,
-        "maxChars": 8
-      },
-      "explanation": "<div class='explanation-step'>Since speed is constant, use the slope formula to find the rate of change.</div><div class='explanation-math'>$$\\text{Speed} = \\frac{275 - 110}{5 - 2} = \\frac{165}{3} = 55 \\text{ mph}$$</div>"
-    },
-    {
-      "id": "MathT2-1-022",
-      "type": "mcq",
-      "level": 3,
-      "skill": {
-        "domain": "Advanced Math",
-        "topic": "Quadratic Functions",
-        "skill": "Quadratic Word Problem"
-      },
-      "stem": "A ball is thrown upward from a height of 4 feet. Its height \\(h\\), in feet, after \\(t\\) seconds is given by \\(h(t) = -16t^2 + 48t + 4\\). What is the maximum height, in feet, that the ball reaches?",
-      "choices": [
-        "\\(36\\)",
-        "\\(40\\)",
-        "\\(44\\)",
-        "\\(52\\)"
-      ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>The maximum height occurs at the vertex. Find the \\(t\\)-value of the vertex using \\(t = -\\frac{b}{2a}\\).</div><div class='explanation-math'>$$t = -\\frac{48}{2(-16)} = -\\frac{48}{-32} = \\frac{3}{2} = 1.5 \\text{ seconds}$$</div><div class='explanation-step'>Substitute \\(t = 1.5\\) into \\(h(t)\\).</div><div class='explanation-math'>$$\\begin{aligned}h(1.5) &= -16(1.5)^2 + 48(1.5) + 4 \\\\ &= -16(2.25) + 72 + 4 \\\\ &= -36 + 72 + 4 \\\\ &= 40\\end{aligned}$$</div>"
-    }
+  "id": "MathT2-1-019",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Problem Solving and Data Analysis",
+    "topic": "Inference",
+    "skill": "Making Inferences from Sample Data"
+  },
+  "stem": "<div class='stem-text'>A city surveyed 480 randomly selected residents about their preferred activity at the local park. The results are shown in the table below.</div><div class='stem-table-wrap'><table class='stem-table'><tr><th>Preferred Activity</th><th>Number of Residents</th></tr><tr><td>Walking or jogging</td><td>312</td></tr><tr><td>Team sports</td><td>168</td></tr><tr><td>Total</td><td>480</td></tr></table></div><div style='margin-top:12px;'>The city has 12,000 residents. Based on the survey results, how many more residents would be expected to prefer walking or jogging than team sports?</div>",
+  "choices": [
+    "\\(1{,}600\\)",
+    "\\(2{,}600\\)",
+    "\\(3{,}600\\)",
+    "\\(4{,}600\\)"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>Find the expected number of residents who prefer each activity by applying the sample proportions to the full population of 12,000.</div><div class='explanation-math'>$$\\begin{aligned}\\text{Walking/jogging: } \\frac{312}{480} \\times 12{,}000 &= 7{,}800 \\\\ \\text{Team sports: } \\frac{168}{480} \\times 12{,}000 &= 4{,}200\\end{aligned}$$</div><div class='explanation-step'>Subtract to find the expected difference.</div><div class='explanation-math'>$$7{,}800 - 4{,}200 = 3{,}600$$</div>"
+},
+{
+  "id": "MathT2-1-020",
+  "type": "mcq",
+  "level": 3,
+  "skill": {
+    "domain": "Geometry and Trigonometry",
+    "topic": "Right Triangles",
+    "skill": "Special Right Triangles"
+  },
+  "stem": "In right triangle \\(ABC\\), angle \\(B\\) measures \\(90°\\) and angle \\(A\\) measures \\(30°\\). If the length of \\(AC\\) is \\(12\\), what is the area of triangle \\(ABC\\)?",
+  "choices": [
+    "\\(12\\sqrt{3}\\)",
+    "\\(18\\sqrt{3}\\)",
+    "\\(24\\sqrt{3}\\)",
+    "\\(36\\sqrt{3}\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>Since angle \\(B = 90°\\) and angle \\(A = 30°\\), angle \\(C = 60°\\). Side \\(AC\\) is the hypotenuse. In a \\(30°\\)-\\(60°\\)-\\(90°\\) triangle, the shorter leg is half the hypotenuse and the longer leg is \\(\\sqrt{3}\\) times the shorter leg.</div><div class='explanation-math'>$$BC = \\frac{12}{2} = 6 \\qquad AB = 6\\sqrt{3}$$</div><div class='explanation-step'>The legs \\(BC\\) and \\(AB\\) are the base and height of the triangle.</div><div class='explanation-math'>$$\\text{Area} = \\frac{1}{2} \\times 6 \\times 6\\sqrt{3} = 18\\sqrt{3}$$</div>"
+},
+{
+  "id": "MathT2-1-021",
+  "type": "gridin",
+  "level": 1,
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Linear Functions",
+    "skill": "Evaluating Linear Functions in Context"
+  },
+  "stem": "$$f(x) = 45x + 1{,}200$$The function \\(f\\) gives the elevation \\(f(x)\\), in feet, of a hiker after climbing \\(x\\) flights of stairs from a starting elevation of 1,200 feet. What is the hiker's elevation, in feet, after climbing 16 flights of stairs?",
+  "answer": "1920",
+  "answersAccepted": ["1920"],
+  "validation": {
+    "format": "number",
+    "allowNegative": false,
+    "allowDecimal": false,
+    "allowFraction": false,
+    "maxChars": 5
+  },
+  "explanation": "<div class='explanation-step'>Substitute \\(x = 16\\) into the function.</div><div class='explanation-math'>$$f(16) = 45(16) + 1{,}200 = 720 + 1{,}200 = 1{,}920$$</div>"
+},
+{
+  "id": "MathT2-1-022",
+  "type": "mcq",
+  "level": 3,
+  "skill": {
+    "domain": "Advanced Math",
+    "topic": "Quadratic Functions",
+    "skill": "Interpreting Graphs of Quadratic Functions"
+  },
+  "stem": "<div class='stem-image'><img src='assets/T2M_M1_22.png' style='max-width:320px;'></div><div class='stem-text'>The graph of a quadratic function is shown. Which of the following could be an equation for the function?</div>",
+  "choices": [
+    "\\(y = (x-2)^2\\)",
+    "\\(y = (x+2)^2\\)",
+    "\\(y = (x+2)(x-2)\\)",
+    "\\(y = (x+2)(x+4)\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>The graph touches the \\(x\\)-axis at exactly one point, \\((-2, 0)\\), and does not cross it. This means the function has a double root at \\(x = -2\\).</div><div class='explanation-step'><strong>A)</strong> \\(y = (x-2)^2\\) has a double root at \\(x = 2\\), not \\(x = -2\\). Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \\(y = (x+2)^2\\) has a double root at \\(x = -2\\) and a \\(y\\)-intercept of \\(4\\), which matches the graph. Keep B.</div><div class='explanation-step'><strong>C)</strong> \\(y = (x+2)(x-2)\\) has two distinct \\(x\\)-intercepts at \\(-2\\) and \\(2\\) — the graph would cross the \\(x\\)-axis twice. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \\(y = (x+2)(x+4)\\) has two distinct \\(x\\)-intercepts at \\(-2\\) and \\(-4\\). Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+}
   ]
 }
