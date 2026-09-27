@@ -51,15 +51,15 @@
         "topic": "Quadratic Functions",
         "skill": "Completing the Square"
       },
-      "stem": "Which of the following is equivalent to \\(x^2 + 6x + 5\\) and reveals the minimum value of the expression?",
+      "stem": "The function \\(f(x)=x^2 + 6x + 5\\) is graphed in the \\(xy\\)-plane, where \\(y=f(x)\\). Which of the following is equivalent to \\(f(x)\\)? ",
       "choices": [
-        "\\((x + 3)^2 - 4\\)",
-        "\\((x + 3)^2 + 4\\)",
-        "\\((x - 3)^2 - 4\\)",
-        "\\((x + 6)^2 - 4\\)"
+        "\\(y=(x + 3)^2 - 4\\)",
+        "\\(y=(x + 3)^2 + 4\\)",
+        "\\(y=(x - 3)^2 - 4\\)",
+        "\\(y=(x + 6)^2 - 4\\)"
       ],
       "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>Complete the square to rewrite the expression in vertex form.</div><div class='explanation-math'>$$\\begin{aligned}x^2 + 6x + 5 &= x^2 + 6x + 9 - 9 + 5 \\\\ &= (x + 3)^2 - 4\\end{aligned}$$</div><div class='explanation-step'>The expression \\((x+3)^2 - 4\\) reveals that the minimum value is \\(-4\\), occurring when \\(x = -3\\) (since \\((x+3)^2 \\geq 0\\) for all real \\(x\\)).</div>"
+      "explanation": "<div class='explanation-step'>Complete the square to rewrite the expression in vertex form.</div><div class='explanation-math'>$$\\begin{aligned}y=x^2 + 6x + 5 &= x^2 + 6x + 9 - 9 + 5 \\\\ &= (x + 3)^2 - 4\\end{aligned}$$</div><div class='explanation-step'>The equivalent function is \\(y=(x+3)^2 - 4\\).</div>"
     },
     {
       "id": "MathT2-1-004",
@@ -210,7 +210,7 @@
       "stem": "A population of bacteria doubles every 3 hours. If there are initially 500 bacteria, which of the following functions gives the population \\(P\\) after \\(t\\) hours?",
       "choices": [
         "\\(P(t) = 500 \\cdot 2^t\\)",
-        "\\(P(t) = 500 \\cdot 2^{\\frac{t/3}}\\)",
+        "\\(P(t) = 500 \\cdot 2^{\\frac{t}{3}\\)",
         "\\(P(t) = 500 \\cdot 3^t\\)",
         "\\(P(t) = 500 + 2t\\)"
       ],
@@ -403,7 +403,7 @@
   },
   "stem": "$$f(x) = 45x + 1{,}200$$The function \\(f\\) gives the elevation \\(f(x)\\), in feet, of a hiker after climbing \\(x\\) flights of stairs from a starting elevation of 1,200 feet. What is the hiker's elevation, in feet, after climbing 16 flights of stairs?",
   "answer": "1920",
-  "answersAccepted": ["1920"],
+  "answersAccepted": ["1920", "1,920"],
   "validation": {
     "format": "number",
     "allowNegative": false,
