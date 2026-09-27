@@ -225,9 +225,9 @@
         "topic": "Quadratic Functions",
         "skill": "Vertex Form"
       },
-      "stem": "The function \\(f\\) is defined by \\(f(x) = (x - 4)^2 + 3\\). What is the minimum value of \\(f(x)\\)?",
-      "answer": "3",
-      "answersAccepted": ["3"],
+      "stem": "The function \\(f\\) is defined by \\(f(x) = (x - 4)^2 + 3\\). If \\(y=f(x)\\) is graphed in the \\(xy\\)-plane, What is the \\(y\\)-intercept of \\(f(x)\\)?",
+      "answer": "19",
+      "answersAccepted": ["19"],
       "validation": {
         "format": "number",
         "allowNegative": true,
@@ -235,7 +235,7 @@
         "allowFraction": false,
         "maxChars": 8
       },
-      "explanation": "<div class='explanation-step'>The function is in vertex form \\(f(x) = a(x - h)^2 + k\\), where the vertex is at \\((h, k)\\). Here \\(h = 4\\) and \\(k = 3\\).</div><div class='explanation-step'>Since \\(a = 1 > 0\\), the parabola opens upward, so the vertex is a minimum. The minimum value is \\(k = 3\\), occurring at \\(x = 4\\).</div>"
+      "explanation": "<div class='explanation-step'>To find the \\(y\\)-intercept, substitute \\(x = 0\\) into the function.</div><div class='explanation-math'>$$f(0) = (0 - 4)^2 + 3 = 16 + 3 = 19$$</div>"
     },
 {
   "id": "MathT2-2E-013",
@@ -393,45 +393,44 @@
   "explanation": "<div class='explanation-step'>Since \\(A\\) corresponds to \\(D\\) and \\(B\\) corresponds to \\(E\\), side \\(AB\\) corresponds to side \\(DE\\) and side \\(BC\\) corresponds to side \\(EF\\). Find the scale factor.</div><div class='explanation-math'>$$\\text{Scale factor} = \\frac{DE}{AB} = \\frac{8}{10} = \\frac{4}{5}$$</div><div class='explanation-step'>Apply the scale factor to find \\(EF\\).</div><div class='explanation-math'>$$EF = BC \\times \\frac{4}{5} = 15 \\times \\frac{4}{5} = 12$$</div>"
 },
     {
-      "id": "MathT2-2E-021",
-      "type": "mcq",
-      "level": 3,
-      "skill": {
-        "domain": "Geometry and Trigonometry",
-        "topic": "Right Triangles",
-        "skill": "Trigonometric Ratios"
-      },
-      "stem": "<div class='stem-image'><img src='assets/MathT2-2E-021.png'></div><div class='stem-text'>In the right triangle shown, what is \\(\\sin(A)\\)?</div>",
-      "choices": [
-        "\\(\\dfrac{5}{12}\\)",
-        "\\(\\dfrac{5}{13}\\)",
-        "\\(\\dfrac{12}{13}\\)",
-        "\\(\\dfrac{12}{5}\\)"
-      ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>The sine of an angle is the ratio of the length of the opposite side to the hypotenuse.</div><div class='explanation-math'>$$\\sin(A) = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{5}{13}$$</div><div class='explanation-step'>Common errors: \\(\\frac{12}{13}\\) is \\(\\cos(A)\\) (adjacent over hypotenuse), and \\(\\frac{5}{12}\\) is \\(\\tan(A)\\) (opposite over adjacent).</div>",
-      "imageNote": "Right triangle with right angle marked at bottom right. Vertical leg labeled 5, horizontal leg labeled 12, hypotenuse labeled 13. Angle A marked at bottom left vertex. Labels clearly visible."
-    },
+  "id": "MathT2-2E-021",
+  "type": "mcq",
+  "level": 3,
+  "skill": {
+    "domain": "Geometry and Trigonometry",
+    "topic": "Right Triangles",
+    "skill": "Trigonometric Ratios"
+  },
+  "stem": "In right triangle \\(ABC\\), angle \\(B\\) is the right angle. The length of \\(AB\\) is \\(15\\) and the length of \\(BC\\) is \\(8\\). What is \\(\\sin(A)\\)?",
+  "choices": [
+    "\\(\\dfrac{8}{15}\\)",
+    "\\(\\dfrac{8}{17}\\)",
+    "\\(\\dfrac{15}{17}\\)",
+    "\\(\\dfrac{17}{15}\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>First find the hypotenuse using the Pythagorean theorem.</div><div class='explanation-math'>$$AC = \\sqrt{AB^2 + BC^2} = \\sqrt{15^2 + 8^2} = \\sqrt{225 + 64} = \\sqrt{289} = 17$$</div><div class='explanation-step'>The sine of angle \\(A\\) is the ratio of the opposite side to the hypotenuse. Side \\(BC\\) is opposite angle \\(A\\).</div><div class='explanation-math'>$$\\sin(A) = \\frac{BC}{AC} = \\frac{8}{17}$$</div><div class='explanation-step'>Common errors: \\(\\frac{8}{15}\\) is \\(\\tan(A)\\), and \\(\\frac{15}{17}\\) is \\(\\cos(A)\\).</div>"
+},
     {
-      "id": "MathT2-2E-022",
-      "type": "gridin",
-      "level": 3,
-      "skill": {
-        "domain": "Geometry and Trigonometry",
-        "topic": "Coordinate Geometry",
-        "skill": "Distance Between Two Points"
-      },
-      "stem": "What is the distance between the points \\((1, 2)\\) and \\((4, 6)\\) in the \\(xy\\)-plane?",
-      "answer": "5",
-      "answersAccepted": ["5"],
-      "validation": {
-        "format": "number",
-        "allowNegative": true,
-        "allowDecimal": true,
-        "allowFraction": false,
-        "maxChars": 8
-      },
-      "explanation": "<div class='explanation-step'>Use the distance formula.</div><div class='explanation-math'>$$\\begin{aligned}d &= \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \\\\ &= \\sqrt{(4-1)^2 + (6-2)^2} \\\\ &= \\sqrt{9 + 16} \\\\ &= \\sqrt{25} = 5\\end{aligned}$$</div>"
-    }
+  "id": "MathT2-2E-022",
+  "type": "gridin",
+  "level": 3,
+  "skill": {
+    "domain": "Geometry and Trigonometry",
+    "topic": "Circles",
+    "skill": "Radian and Degree Conversion"
+  },
+  "stem": "The measure of angle \\(J\\) is \\(\\dfrac{3\\pi}{4}\\) radians. The measure of angle \\(K\\) is \\(\\dfrac{7\\pi}{12}\\) radians greater than the measure of angle \\(J\\). What is the measure of angle \\(K\\), in degrees?",
+  "answer": "240",
+  "answersAccepted": ["240"],
+  "validation": {
+    "format": "number",
+    "allowNegative": false,
+    "allowDecimal": false,
+    "allowFraction": false,
+    "maxChars": 4
+  },
+  "explanation": "<div class='explanation-step'>First find the measure of angle \\(K\\) in radians.</div><div class='explanation-math'>$$\\frac{3\\pi}{4} + \\frac{7\\pi}{12} = \\frac{9\\pi}{12} + \\frac{7\\pi}{12} = \\frac{16\\pi}{12} = \\frac{4\\pi}{3} \\text{ radians}$$</div><div class='explanation-step'>Convert to degrees by multiplying by \\(\\dfrac{180}{\\pi}\\).</div><div class='explanation-math'>$$\\frac{4\\pi}{3} \\times \\frac{180}{\\pi} = \\frac{4 \\times 180}{3} = 240°$$</div>"
+}
   ]
 }
