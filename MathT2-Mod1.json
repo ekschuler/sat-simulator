@@ -129,7 +129,7 @@
         "topic": "Circles",
         "skill": "Circle Equations"
       },
-      "stem": "A circle in the \\(xy\\)-plane has a diameter with endpoints \\((-1,-8)\\) and \\((-1,4)\\). An equation for this circle is \\((x+1)^2+(y+2)^2=r^2)\\), where \\(r\\) is a positive constant. What is the value of \\(r\\)?",
+      "stem": "A circle in the \\(xy\\)-plane has a diameter with endpoints \\((-1,-8)\\) and \\((-1,4)\\). An equation for this circle is \\((x+1)^2+(y+2)^2=r^2\\), where \\(r\\) is a positive constant. What is the value of \\(r\\)?",
       "choices": [
         "\\(4\\)",
         "\\(6\\)",
@@ -148,7 +148,7 @@
     "topic": "Systems of Equations",
     "skill": "Systems of Linear Equations in Context"
   },
-  "stem": "A recreation center offers swimming classes and dance classes. Last Tuesday, 3 swimming classes and 1 dance class were held, with a total of 49 participants. Last Wednesday, 1 swimming class and 2 dance classes were held, with a total of 38 participants. Each class of the same type had the same number of participants. How many participants attended each swimming class?",
+  "stem": "A recreation center offers swimming classes and dance classes. On Tuesday, \\(3\\) swimming classes and 1 dance class were held, with a total of \\(49 participants. On Wednesday, \\(1\\) swimming class and \\(2\\) dance classes were held, with a total of \\(38\\) participants. Each class of the same type had the same number of participants. How many participants attended each swimming class?",
   "choices": [
     "\\(10\\)",
     "\\(12\\)",
@@ -190,12 +190,12 @@
   },
   "stem": "<div class='stem-equation'>$$\\dfrac{3m}{4n} = \\dfrac{5}{k}$$</div><div class='stem-text'>The given equation relates the positive numbers \\(m\\), \\(n\\), and \\(k\\). Which equation correctly expresses \\(m\\) in terms of \\(n\\) and \\(k\\)?</div>",
   "choices": [
-    "\\(m = \\dfrac{20n}{3k}\\)",
+    "\\(m = 20nk\\)",
     "\\(m = \\dfrac{20k}{3n}\\)",
     "\\(m = \\dfrac{3k}{20n}\\)",
-    "\\(m = 20nk\\)"
+    "\\(m = \\dfrac{20n}{3k}\\)"
   ],
-  "answerIndex": 0,
+  "answerIndex": 3,
   "explanation": "<div class='explanation-step'>Cross-multiply to eliminate the fractions.</div><div class='explanation-math'>$$\\begin{aligned}3mk &= 20n \\\\ m &= \\frac{20n}{3k}\\end{aligned}$$</div>"
 },
     {
@@ -210,7 +210,7 @@
       "stem": "A population of bacteria doubles every 3 hours. If there are initially 500 bacteria, which of the following functions gives the population \\(P\\) after \\(t\\) hours?",
       "choices": [
         "\\(P(t) = 500 \\cdot 2^t\\)",
-        "\\(P(t) = 500 \\cdot 2^{\\frac{t}{3}\\)",
+        "\\(P(t) = 500 \\cdot 2^{\\frac{t}{3}}\\)",
         "\\(P(t) = 500 \\cdot 3^t\\)",
         "\\(P(t) = 500 + 2t\\)"
       ],
@@ -251,10 +251,10 @@
   "choices": [
     "\\(8h = 136\\)",
     "\\(40h + 8 = 136\\)",
-    "\\(40 + 8h = 136\\)",
-    "\\(8 + 40h = 136\\)"
+    "\\(8 + 40h = 136\\)",
+    "\\(40 + 8h = 136\\)"
   ],
-  "answerIndex": 2,
+  "answerIndex": 3,
   "explanation": "<div class='explanation-step'>Priya starts with 40 hours and accrues \\(h\\) hours per month for 8 months. Her total after 8 months is:</div><div class='explanation-math'>$$40 + 8h = 136$$</div>"
 },
     {
@@ -424,13 +424,13 @@
   },
   "stem": "<div class='stem-image'><img src='assets/T2M_M1_22.png' style='max-width:320px;'></div><div class='stem-text'>The graph of a quadratic function is shown. Which of the following could be an equation for the function?</div>",
   "choices": [
-    "\\(y = (x-2)^2\\)",
-    "\\(y = (x+2)^2\\)",
     "\\(y = (x+2)(x-2)\\)",
-    "\\(y = (x+2)(x+4)\\)"
+    "\\(y = (x+2)(x+4)\\)",
+    "\\(y = (x-2)^2\\)",
+    "\\(y = (x+2)^2\\)"
   ],
-  "answerIndex": 1,
-  "explanation": "<div class='explanation-step'>The graph touches the \\(x\\)-axis at exactly one point, \\((-2, 0)\\), and does not cross it. This means the function has a double root at \\(x = -2\\).</div><div class='explanation-step'><strong>A)</strong> \\(y = (x-2)^2\\) has a double root at \\(x = 2\\), not \\(x = -2\\). Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \\(y = (x+2)^2\\) has a double root at \\(x = -2\\) and a \\(y\\)-intercept of \\(4\\), which matches the graph. Keep B.</div><div class='explanation-step'><strong>C)</strong> \\(y = (x+2)(x-2)\\) has two distinct \\(x\\)-intercepts at \\(-2\\) and \\(2\\) — the graph would cross the \\(x\\)-axis twice. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \\(y = (x+2)(x+4)\\) has two distinct \\(x\\)-intercepts at \\(-2\\) and \\(-4\\). Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>The graph touches the \\(x\\)-axis at exactly one point, \\((-2, 0)\\), and does not cross it. This means the function has a double root at \\(x = -2\\).</div><div class='explanation-step'><strong>A)</strong> \\(y = (x+2)(x-2)\\) has two distinct \\(x\\)-intercepts at \\(-2\\) and \\(2\\) — the graph would cross the \\(x\\)-axis twice. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \\(y = (x+2)(x+4)\\) has two distinct \\(x\\)-intercepts at \\(-2\\) and \\(-4\\). Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \\(y = (x-2)^2\\) has a double root at \\(x = 2\\), not \\(x = -2\\). Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \\(y = (x+2)^2\\) has a double root at \\(x = -2\\) and a \\(y\\)-intercept of \\(4\\), which matches the graph. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
 }
   ]
 }

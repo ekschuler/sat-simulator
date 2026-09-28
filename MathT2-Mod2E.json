@@ -42,6 +42,7 @@
       "answerIndex": 0,
       "explanation": "<div class='explanation-step'>The total pages read is the 45 already read plus \\(p\\) pages per hour for up to 9 hours. This must be at least 180.</div><div class='explanation-math'>$$45 + 9p \\geq 180$$</div><div class='explanation-step'>Subtract 45 from both sides: \\(9p \\geq 135\\).</div>"
     },
+    
 {
   "id": "MathT2-2E-003",
   "type": "gridin",
@@ -63,8 +64,27 @@
   },
   "explanation": "<div class='explanation-step'>Multiply the length by the width.</div><div class='explanation-math'>$$23 \\times 17 = 391$$</div>"
 },
-    {
+ {
       "id": "MathT2-2E-004",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Quadratic Functions",
+        "skill": "Factoring to Find Roots"
+      },
+      "stem": "What is the sum of the solutions to \\(x^2 - 7x + 12 = 0\\)?",
+      "choices": [
+        "\\(3\\)",
+        "\\(4\\)",
+        "\\(7\\)",
+        "\\(12\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Factor the quadratic.</div><div class='explanation-math'>$$x^2 - 7x + 12 = (x - 3)(x - 4) = 0$$</div><div class='explanation-step'>The solutions are \\(x = 3\\) and \\(x = 4\\). Their sum is \\(3 + 4 = 7\\).</div>"
+    },
+    {
+      "id": "MathT2-2E-005",
       "type": "mcq",
       "level": 2,
       "skill": {
@@ -83,45 +103,48 @@
       "explanation": "<div class='explanation-step'>Substitute \\(y = 2x + 1\\) into the second equation.</div><div class='explanation-math'>$$\\begin{aligned}3x + (2x + 1) &= 16 \\\\ 5x + 1 &= 16 \\\\ 5x &= 15 \\\\ x &= 3\\end{aligned}$$</div><div class='explanation-step'>Substitute \\(x = 3\\) back: \\(y = 2(3) + 1 = 7\\). Therefore \\(x + y = 3 + 7 = 10\\).</div>"
     },
     {
-      "id": "MathT2-2E-005",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Algebra",
-        "topic": "Linear Functions",
-        "skill": "Interpreting Slope in Context"
-      },
-      "stem": "A car rental company charges a daily fee plus a per-mile charge. The total cost \\(C\\), in dollars, for renting a car for one day and driving \\(m\\) miles is given by \\(C = 0.15m + 40\\). What does \\(0.15\\) represent in this equation?",
-      "choices": [
-        "The total cost of renting the car for one day",
-        "The cost in dollars per mile driven",
-        "The flat daily fee charged by the company",
-        "The total number of miles driven"
-      ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>In the equation \\(C = 0.15m + 40\\), this is slope-intercept form where the coefficient of \\(m\\) is the rate of change. Since \\(m\\) represents miles driven, \\(0.15\\) is the cost per mile — for each additional mile driven, the total cost increases by \\$0.15.</div>"
-    },
-    {
   "id": "MathT2-2E-006",
   "type": "mcq",
-  "level": 2,
+  "level": 1,
   "skill": {
-    "domain": "Algebra",
-    "topic": "Equations and Inequalities",
-    "skill": "Solving Multi-Step Equations"
+    "domain": "Geometry and Trigonometry",
+    "topic": "Triangles",
+    "skill": "Similar Triangles"
   },
-  "stem": "What value of \\(x\\) satisfies \\(\\dfrac{2}{3}(x+9) - \\dfrac{1}{6}(x+9) = 15\\)?",
+  "stem": "<div class='stem-image'><img src='assets/MathT2-2E-020.png'></div><div class='stem-text'>Right triangles \\(ABC\\) and \\(DEF\\) are similar, where \\(A\\) corresponds to \\(D\\), \\(B\\) corresponds to \\(E\\), and \\(C\\) corresponds to \\(F\\). The lengths of \\(AB\\), \\(BC\\), \\(AC\\), and \\(DE\\) are \\(10\\), \\(15\\), \\(18\\), and \\(8\\), respectively. What is the length of \\(EF\\)?</div>",
   "choices": [
-    "\\(15\\)",
-    "\\(19\\)",
-    "\\(21\\)",
-    "\\(25\\)"
+    "\\(10\\)",
+    "\\(12\\)",
+    "\\(14\\)",
+    "\\(16\\)"
   ],
-  "answerIndex": 2,
-  "explanation": "<div class='explanation-step'>Notice that \\((x+9)\\) appears in both terms. Let \\(u = x + 9\\) and substitute.</div><div class='explanation-math'>$$\\frac{2}{3}u - \\frac{1}{6}u = 15$$</div><div class='explanation-step'>Combine the fractions on the left.</div><div class='explanation-math'>$$\\frac{4}{6}u - \\frac{1}{6}u = \\frac{3}{6}u = \\frac{1}{2}u = 15 \\implies u = 30$$</div><div class='explanation-step'>Since \\(u = x + 9 = 30\\), solve for \\(x\\).</div><div class='explanation-math'>$$x = 30 - 9 = 21$$</div>"
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>Since \\(A\\) corresponds to \\(D\\) and \\(B\\) corresponds to \\(E\\), side \\(AB\\) corresponds to side \\(DE\\) and side \\(BC\\) corresponds to side \\(EF\\). Find the scale factor.</div><div class='explanation-math'>$$\\text{Scale factor} = \\frac{DE}{AB} = \\frac{8}{10} = \\frac{4}{5}$$</div><div class='explanation-step'>Apply the scale factor to find \\(EF\\).</div><div class='explanation-math'>$$EF = BC \\times \\frac{4}{5} = 15 \\times \\frac{4}{5} = 12$$</div>"
 },
-    {
+
+        {
       "id": "MathT2-2E-007",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Problem Solving and Data Analysis",
+        "topic": "Graphs and Tables",
+        "skill": "Interpreting Line of Best Fit"
+      },
+      "stem": "<div class='stem-image'><img src='assets/MathT2-2E-017.png'></div><div class='stem-text'>The scatterplot shows the relationship between hours studied and test scores for a group of students, along with a line of best fit. Based on the line of best fit, what score would be predicted for a student who studied for 6 hours?</div>",
+      "choices": [
+        "\\(74\\)",
+        "\\(78\\)",
+        "\\(82\\)",
+        "\\(88\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Locate \\(x = 6\\) on the horizontal axis, then read the corresponding \\(y\\)-value from the line of best fit. The line passes through approximately \\((6, 82)\\).</div>",
+      "imageNote": "Scatterplot with x-axis labeled 'Hours Studied' ranging from 0 to 10, y-axis labeled 'Test Score' ranging from 50 to 100. Approximately 10-12 data points scattered showing positive correlation. Line of best fit drawn through the data. Line passes through approximately (0, 52) and (10, 97), giving a value of approximately 82 at x = 6. Grid lines visible."
+    },
+
+    {
+      "id": "MathT2-2E-008",
       "type": "mcq",
       "level": 2,
       "skill": {
@@ -139,25 +162,7 @@
       "answerIndex": 0,
       "explanation": "<div class='explanation-step'>This is a difference of squares: \\(a^2 - b^2 = (a+b)(a-b)\\). Here \\(a = 2x\\) and \\(b = 5\\).</div><div class='explanation-math'>$$4x^2 - 25 = (2x)^2 - 5^2 = (2x + 5)(2x - 5)$$</div>"
     },
-    {
-      "id": "MathT2-2E-008",
-      "type": "mcq",
-      "level": 1,
-      "skill": {
-        "domain": "Advanced Math",
-        "topic": "Quadratic Functions",
-        "skill": "Factoring to Find Roots"
-      },
-      "stem": "What is the sum of the solutions to \\(x^2 - 7x + 12 = 0\\)?",
-      "choices": [
-        "\\(3\\)",
-        "\\(4\\)",
-        "\\(7\\)",
-        "\\(12\\)"
-      ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>Factor the quadratic.</div><div class='explanation-math'>$$x^2 - 7x + 12 = (x - 3)(x - 4) = 0$$</div><div class='explanation-step'>The solutions are \\(x = 3\\) and \\(x = 4\\). Their sum is \\(3 + 4 = 7\\).</div>"
-    },
+   
     {
       "id": "MathT2-2E-009",
       "type": "mcq",
@@ -178,25 +183,24 @@
       "explanation": "<div class='explanation-step'>Losing 15% of its value each year means the car retains \\(100\\% - 15\\% = 85\\%\\) of its value each year. The base of the exponential function is \\(0.85\\).</div><div class='explanation-math'>$$V(t) = 24{,}000(0.85)^t$$</div><div class='explanation-step'>Check: at \\(t=1\\), \\(V = 24{,}000(0.85) = 20{,}400\\), which is \\$24,000 minus 15%. ✓</div>"
     },
     {
-      "id": "MathT2-2E-010",
-      "type": "mcq",
-      "level": 1,
-      "skill": {
-        "domain": "Advanced Math",
-        "topic": "Polynomial Functions",
-        "skill": "Roots from Graph"
-      },
-      "stem": "<div class='stem-image'><img src='assets/MathT2-2E-010.png'></div><div class='stem-text'>The graph of a polynomial function \\(f\\) is shown. Which of the following could be an equation for \\(f\\)?</div>",
-      "choices": [
-        "\\(f(x) = (x + 2)(x - 1)(x - 4)\\)",
-        "\\(f(x) = (x - 2)(x + 1)(x + 4)\\)",
-        "\\(f(x) = (x + 2)(x + 1)(x - 4)\\)",
-        "\\(f(x) = (x - 2)(x - 1)(x - 4)\\)"
-      ],
-      "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>The \\(x\\)-intercepts of the graph occur at \\(x = -2\\), \\(x = 1\\), and \\(x = 4\\). Each \\(x\\)-intercept corresponds to a factor: if \\(x = -2\\) is a root, then \\((x + 2)\\) is a factor; if \\(x = 1\\) is a root, then \\((x - 1)\\) is a factor; if \\(x = 4\\) is a root, then \\((x - 4)\\) is a factor.</div><div class='explanation-math'>$$f(x) = (x + 2)(x - 1)(x - 4)$$</div>",
-      "imageNote": "Coordinate plane showing a cubic polynomial with x-intercepts at x = -2, x = 1, and x = 4. Curve has positive leading coefficient (goes from bottom-left to top-right). Y-intercept is positive (approximately y = 8). Grid lines visible, axes labeled from -4 to 6 on x-axis."
-    },
+  "id": "MathT2-2E-010",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Problem Solving and Data Analysis",
+    "topic": "Statistics",
+    "skill": "Combined Mean"
+  },
+  "stem": "<div class='stem-text'>The table shows the number of customers and the mean purchase amount for two locations of the same store on a given day.</div><div class='stem-table-wrap'><table class='stem-table'><tr><th>Location</th><th>Number of customers</th><th>Mean purchase amount</th></tr><tr><td>Downtown</td><td>40</td><td>$28</td></tr><tr><td>Westside</td><td>60</td><td>$43</td></tr></table></div><div style='margin-top:12px;'>What was the mean purchase amount, in dollars, for all customers at both locations combined?</div>",
+  "choices": [
+    "\\$31",
+    "\\$34",
+    "\\$37",
+    "\\$40"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>Find the total purchase amount for each location, then divide by the total number of customers.</div><div class='explanation-math'>$$\\begin{aligned}\\text{Downtown total} &= 40 \\times 28 = 1{,}120 \\\\ \\text{Westside total} &= 60 \\times 43 = 2{,}580 \\\\ \\text{Combined mean} &= \\frac{1{,}120 + 2{,}580}{100} = \\frac{3{,}700}{100} = 37\\end{aligned}$$</div><div class='explanation-step'>A common error is taking the simple average of the two means: \\(\\frac{28 + 43}{2} = 35.5\\), which ignores the different numbers of customers at each location.</div>"
+},
 {
   "id": "MathT2-2E-011",
   "type": "mcq",
@@ -216,29 +220,9 @@
   "answerIndex": 2,
   "explanation": "<div class='explanation-step'>\\(f(0)\\) is the \\(y\\)-value where the graph crosses the \\(y\\)-axis. The graph crosses the \\(y\\)-axis at \\(y = 3\\), so \\(f(0) = 3\\).</div>"
 },
-    {
-      "id": "MathT2-2E-012",
-      "type": "gridin",
-      "level": 2,
-      "skill": {
-        "domain": "Advanced Math",
-        "topic": "Quadratic Functions",
-        "skill": "Vertex Form"
-      },
-      "stem": "The function \\(f\\) is defined by \\(f(x) = (x - 4)^2 + 3\\). If \\(y=f(x)\\) is graphed in the \\(xy\\)-plane, What is the \\(y\\)-intercept of \\(f(x)\\)?",
-      "answer": "19",
-      "answersAccepted": ["19"],
-      "validation": {
-        "format": "number",
-        "allowNegative": true,
-        "allowDecimal": true,
-        "allowFraction": false,
-        "maxChars": 8
-      },
-      "explanation": "<div class='explanation-step'>To find the \\(y\\)-intercept, substitute \\(x = 0\\) into the function.</div><div class='explanation-math'>$$f(0) = (0 - 4)^2 + 3 = 16 + 3 = 19$$</div>"
-    },
+   
 {
-  "id": "MathT2-2E-013",
+  "id": "MathT2-2E-012",
   "type": "mcq",
   "level": 2,
   "skill": {
@@ -257,7 +241,7 @@
   "explanation": "<div class='explanation-step'>Translating a graph 3 units to the right replaces every \\(x\\) with \\((x - 3)\\).</div><div class='explanation-math'>$$4(x - 3) + 3y = 24$$</div><div class='explanation-step'>To find the \\(y\\)-intercept, substitute \\(x = 0\\).</div><div class='explanation-math'>$$\\begin{aligned}4(0 - 3) + 3y &= 24 \\\\ -12 + 3y &= 24 \\\\ 3y &= 36 \\\\ y &= 12\\end{aligned}$$</div><div class='explanation-step'>A common error is using the original equation's \\(y\\)-intercept of \\(8\\) without applying the translation.</div>"
 },
     {
-      "id": "MathT2-2E-014",
+      "id": "MathT2-2E-013",
       "type": "mcq",
       "level": 3,
       "skill": {
@@ -275,85 +259,8 @@
       "answerIndex": 1,
       "explanation": "<div class='explanation-step'>If the population decreases by 12% each year, it retains \\(100\\% - 12\\% = 88\\%\\) of its value each year. The base \\(b\\) represents the fraction of the population that remains after each year.</div><div class='explanation-math'>$$b = 1 - 0.12 = 0.88$$</div><div class='explanation-step'>Common errors: choosing \\(0.12\\) (the rate itself rather than what remains) or \\(1.12\\) (which would model 12% growth, not decay).</div>"
     },
-    {
-      "id": "MathT2-2E-015",
-      "type": "mcq",
-      "level": 1,
-      "skill": {
-        "domain": "Problem Solving and Data Analysis",
-        "topic": "Probability",
-        "skill": "Simple Probability"
-      },
-      "stem": "A bag contains 5 red marbles, 3 blue marbles, and 2 green marbles. If one marble is drawn at random, what is the probability that it is blue?",
-      "choices": [
-        "\\(\\dfrac{1}{3}\\)",
-        "\\(\\dfrac{3}{10}\\)",
-        "\\(\\dfrac{3}{5}\\)",
-        "\\(\\dfrac{7}{10}\\)"
-      ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>The total number of marbles is \\(5 + 3 + 2 = 10\\). The probability of drawing a blue marble is the number of blue marbles divided by the total.</div><div class='explanation-math'>$$P(\\text{blue}) = \\frac{3}{10}$$</div>"
-    },
-{
-  "id": "MathT2-2E-016",
-  "type": "mcq",
-  "level": 2,
-  "skill": {
-    "domain": "Problem Solving and Data Analysis",
-    "topic": "Statistics",
-    "skill": "Combined Mean"
-  },
-  "stem": "<div class='stem-text'>The table shows the number of customers and the mean purchase amount for two locations of the same store on a given day.</div><div class='stem-table-wrap'><table class='stem-table'><tr><th>Location</th><th>Number of customers</th><th>Mean purchase amount</th></tr><tr><td>Downtown</td><td>40</td><td>$28</td></tr><tr><td>Westside</td><td>60</td><td>$43</td></tr></table></div><div style='margin-top:12px;'>What was the mean purchase amount, in dollars, for all customers at both locations combined?</div>",
-  "choices": [
-    "\\$31",
-    "\\$34",
-    "\\$37",
-    "\\$40"
-  ],
-  "answerIndex": 2,
-  "explanation": "<div class='explanation-step'>Find the total purchase amount for each location, then divide by the total number of customers.</div><div class='explanation-math'>$$\\begin{aligned}\\text{Downtown total} &= 40 \\times 28 = 1{,}120 \\\\ \\text{Westside total} &= 60 \\times 43 = 2{,}580 \\\\ \\text{Combined mean} &= \\frac{1{,}120 + 2{,}580}{100} = \\frac{3{,}700}{100} = 37\\end{aligned}$$</div><div class='explanation-step'>A common error is taking the simple average of the two means: \\(\\frac{28 + 43}{2} = 35.5\\), which ignores the different numbers of customers at each location.</div>"
-},
-    {
-      "id": "MathT2-2E-017",
-      "type": "mcq",
-      "level": 1,
-      "skill": {
-        "domain": "Problem Solving and Data Analysis",
-        "topic": "Graphs and Tables",
-        "skill": "Interpreting Line of Best Fit"
-      },
-      "stem": "<div class='stem-image'><img src='assets/MathT2-2E-017.png'></div><div class='stem-text'>The scatterplot shows the relationship between hours studied and test scores for a group of students, along with a line of best fit. Based on the line of best fit, what score would be predicted for a student who studied for 6 hours?</div>",
-      "choices": [
-        "\\(74\\)",
-        "\\(78\\)",
-        "\\(82\\)",
-        "\\(88\\)"
-      ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>Locate \\(x = 6\\) on the horizontal axis, then read the corresponding \\(y\\)-value from the line of best fit. The line passes through approximately \\((6, 82)\\).</div>",
-      "imageNote": "Scatterplot with x-axis labeled 'Hours Studied' ranging from 0 to 10, y-axis labeled 'Test Score' ranging from 50 to 100. Approximately 10-12 data points scattered showing positive correlation. Line of best fit drawn through the data. Line passes through approximately (0, 52) and (10, 97), giving a value of approximately 82 at x = 6. Grid lines visible."
-    },
-    {
-  "id": "MathT2-2E-018",
-  "type": "mcq",
-  "level": 2,
-  "skill": {
-    "domain": "Problem Solving and Data Analysis",
-    "topic": "Statistics",
-    "skill": "Interpreting Box Plots"
-  },
-  "stem": "<div class='stem-image'><img src='assets/MathT2-2E-018.png'></div><div class='stem-text'>The box plots summarize the total distances, in miles, run in one week by members of two track teams. Based on the box plots, which of the following statements must be true?</div>",
-  "choices": [
-    "The mean distance of Team A is greater than the mean distance of Team B.",
-    "The mean distance of Team A is less than the mean distance of Team B.",
-    "The median distance of Team A is greater than the median distance of Team B.",
-    "The median distance of Team A is less than the median distance of Team B."
-  ],
-  "answerIndex": 3,
-  "explanation": "<div class='explanation-step'>Box plots display the five-number summary: minimum, Q1, median, Q3, and maximum. The median is the vertical line inside the box.</div><div class='explanation-step'>The median for Team A is 22 miles and the median for Team B is 25 miles. Since 22 &lt; 25, the median distance of Team A is less than the median distance of Team B. This must be true.</div><div class='explanation-step'>The mean cannot be determined from a box plot alone — the distribution of values within each section is unknown. Any statement about the mean cannot be confirmed, so choices A and B cannot be determined.</div>"
-},
-    {
-  "id": "MathT2-2E-019",
+     {
+  "id": "MathT2-2E-014",
   "type": "gridin",
   "level": 3,
   "skill": {
@@ -373,24 +280,125 @@
   },
   "explanation": "<div class='explanation-step'>Convert feet per second to miles per hour using dimensional analysis. Multiply by conversion factors so that unwanted units cancel.</div><div class='explanation-math'>$$44 \\frac{\\text{ft}}{\\text{sec}} \\times \\frac{3{,}600 \\text{ sec}}{1 \\text{ hr}} \\times \\frac{1 \\text{ mile}}{5{,}280 \\text{ ft}} = \\frac{44 \\times 3{,}600}{5{,}280} = \\frac{158{,}400}{5{,}280} = 30 \\frac{\\text{miles}}{\\text{hr}}$$</div>"
 },
+    {
+      "id": "MathT2-2E-015",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Polynomial Functions",
+        "skill": "Roots from Graph"
+      },
+      "stem": "<div class='stem-image'><img src='assets/MathT2-2E-010.png'></div><div class='stem-text'>The graph of a polynomial function \\(f\\) is shown. Which of the following could be an equation for \\(f\\)?</div>",
+      "choices": [
+        "\\(f(x) = (x + 2)(x - 1)(x - 4)\\)",
+        "\\(f(x) = (x - 2)(x + 1)(x + 4)\\)",
+        "\\(f(x) = (x + 2)(x + 1)(x - 4)\\)",
+        "\\(f(x) = (x - 2)(x - 1)(x - 4)\\)"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>The \\(x\\)-intercepts of the graph occur at \\(x = -2\\), \\(x = 1\\), and \\(x = 4\\). Each \\(x\\)-intercept corresponds to a factor: if \\(x = -2\\) is a root, then \\((x + 2)\\) is a factor; if \\(x = 1\\) is a root, then \\((x - 1)\\) is a factor; if \\(x = 4\\) is a root, then \\((x - 4)\\) is a factor.</div><div class='explanation-math'>$$f(x) = (x + 2)(x - 1)(x - 4)$$</div>",
+      "imageNote": "Coordinate plane showing a cubic polynomial with x-intercepts at x = -2, x = 1, and x = 4. Curve has positive leading coefficient (goes from bottom-left to top-right). Y-intercept is positive (approximately y = 8). Grid lines visible, axes labeled from -4 to 6 on x-axis."
+    },
+    {
+      "id": "MathT2-2E-016",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Problem Solving and Data Analysis",
+        "topic": "Probability",
+        "skill": "Simple Probability"
+      },
+      "stem": "A bag contains 5 red marbles, 3 blue marbles, and 2 green marbles. If one marble is drawn at random, what is the probability that it is blue?",
+      "choices": [
+        "\\(\\dfrac{1}{3}\\)",
+        "\\(\\dfrac{3}{10}\\)",
+        "\\(\\dfrac{3}{5}\\)",
+        "\\(\\dfrac{7}{10}\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>The total number of marbles is \\(5 + 3 + 2 = 10\\). The probability of drawing a blue marble is the number of blue marbles divided by the total.</div><div class='explanation-math'>$$P(\\text{blue}) = \\frac{3}{10}$$</div>"
+    },
+
 {
-  "id": "MathT2-2E-020",
-  "type": "mcq",
-  "level": 1,
+  "id": "MathT2-2E-017",
+  "type": "gridin",
+  "level": 3,
   "skill": {
     "domain": "Geometry and Trigonometry",
-    "topic": "Triangles",
-    "skill": "Similar Triangles"
+    "topic": "Circles",
+    "skill": "Radian and Degree Conversion"
   },
-  "stem": "<div class='stem-image'><img src='assets/MathT2-2E-020.png'></div><div class='stem-text'>Right triangles \\(ABC\\) and \\(DEF\\) are similar, where \\(A\\) corresponds to \\(D\\), \\(B\\) corresponds to \\(E\\), and \\(C\\) corresponds to \\(F\\). The lengths of \\(AB\\), \\(BC\\), \\(AC\\), and \\(DE\\) are \\(10\\), \\(15\\), \\(18\\), and \\(8\\), respectively. What is the length of \\(EF\\)?</div>",
+  "stem": "The measure of angle \\(J\\) is \\(\\dfrac{3\\pi}{4}\\) radians. The measure of angle \\(K\\) is \\(\\dfrac{7\\pi}{12}\\) radians greater than the measure of angle \\(J\\). What is the measure of angle \\(K\\), in degrees?",
+  "answer": "240",
+  "answersAccepted": ["240"],
+  "validation": {
+    "format": "number",
+    "allowNegative": false,
+    "allowDecimal": false,
+    "allowFraction": false,
+    "maxChars": 4
+  },
+  "explanation": "<div class='explanation-step'>First find the measure of angle \\(K\\) in radians.</div><div class='explanation-math'>$$\\frac{3\\pi}{4} + \\frac{7\\pi}{12} = \\frac{9\\pi}{12} + \\frac{7\\pi}{12} = \\frac{16\\pi}{12} = \\frac{4\\pi}{3} \\text{ radians}$$</div><div class='explanation-step'>Convert to degrees by multiplying by \\(\\dfrac{180}{\\pi}\\).</div><div class='explanation-math'>$$\\frac{4\\pi}{3} \\times \\frac{180}{\\pi} = \\frac{4 \\times 180}{3} = 240°$$</div>"
+},
+    {
+  "id": "MathT2-2E-018",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Equations and Inequalities",
+    "skill": "Solving Multi-Step Equations"
+  },
+  "stem": "What value of \\(x\\) satisfies \\(\\dfrac{2}{3}(x+9) - \\dfrac{1}{6}(x+9) = 15\\)?",
   "choices": [
-    "\\(10\\)",
-    "\\(12\\)",
-    "\\(14\\)",
-    "\\(16\\)"
+    "\\(15\\)",
+    "\\(19\\)",
+    "\\(21\\)",
+    "\\(25\\)"
   ],
-  "answerIndex": 1,
-  "explanation": "<div class='explanation-step'>Since \\(A\\) corresponds to \\(D\\) and \\(B\\) corresponds to \\(E\\), side \\(AB\\) corresponds to side \\(DE\\) and side \\(BC\\) corresponds to side \\(EF\\). Find the scale factor.</div><div class='explanation-math'>$$\\text{Scale factor} = \\frac{DE}{AB} = \\frac{8}{10} = \\frac{4}{5}$$</div><div class='explanation-step'>Apply the scale factor to find \\(EF\\).</div><div class='explanation-math'>$$EF = BC \\times \\frac{4}{5} = 15 \\times \\frac{4}{5} = 12$$</div>"
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>Notice that \\((x+9)\\) appears in both terms. Let \\(u = x + 9\\) and substitute.</div><div class='explanation-math'>$$\\frac{2}{3}u - \\frac{1}{6}u = 15$$</div><div class='explanation-step'>Combine the fractions on the left.</div><div class='explanation-math'>$$\\frac{4}{6}u - \\frac{1}{6}u = \\frac{3}{6}u = \\frac{1}{2}u = 15 \\implies u = 30$$</div><div class='explanation-step'>Since \\(u = x + 9 = 30\\), solve for \\(x\\).</div><div class='explanation-math'>$$x = 30 - 9 = 21$$</div>"
+},
+ {
+      "id": "MathT2-2E-019",
+      "type": "gridin",
+      "level": 2,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Quadratic Functions",
+        "skill": "Vertex Form"
+      },
+      "stem": "The function \\(f\\) is defined by \\(f(x) = (x - 4)^2 + 3\\). If \\(y=f(x)\\) is graphed in the \\(xy\\)-plane, what is the \\(y\\)-intercept of \\(f(x)\\)?",
+      "answer": "19",
+      "answersAccepted": ["19"],
+      "validation": {
+        "format": "number",
+        "allowNegative": true,
+        "allowDecimal": true,
+        "allowFraction": false,
+        "maxChars": 8
+      },
+      "explanation": "<div class='explanation-step'>To find the \\(y\\)-intercept, substitute \\(x = 0\\) into the function.</div><div class='explanation-math'>$$f(0) = (0 - 4)^2 + 3 = 16 + 3 = 19$$</div>"
+    },
+    {
+  "id": "MathT2-2E-020",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Problem Solving and Data Analysis",
+    "topic": "Statistics",
+    "skill": "Interpreting Box Plots"
+  },
+  "stem": "<div class='stem-image'><img src='assets/MathT2-2E-018.png'></div><div class='stem-text'>The box plots summarize the total distances, in miles, run in one week by members of two track teams. Based on the box plots, which of the following statements must be true?</div>",
+  "choices": [
+    "The mean distance of Team A is greater than the mean distance of Team B.",
+    "The mean distance of Team A is less than the mean distance of Team B.",
+    "The median distance of Team A is greater than the median distance of Team B.",
+    "The median distance of Team A is less than the median distance of Team B."
+  ],
+  "answerIndex": 3,
+  "explanation": "<div class='explanation-step'>Box plots display the five-number summary: minimum, Q1, median, Q3, and maximum. The median is the vertical line inside the box.</div><div class='explanation-step'>The median for Team A is 22 miles and the median for Team B is 25 miles. Since 22 &lt; 25, the median distance of Team A is less than the median distance of Team B. This must be true.</div><div class='explanation-step'>The mean cannot be determined from a box plot alone — the distribution of values within each section is unknown. Any statement about the mean cannot be confirmed, so choices A and B cannot be determined.</div>"
 },
     {
   "id": "MathT2-2E-021",
@@ -412,25 +420,24 @@
   "explanation": "<div class='explanation-step'>First find the hypotenuse using the Pythagorean theorem.</div><div class='explanation-math'>$$AC = \\sqrt{AB^2 + BC^2} = \\sqrt{15^2 + 8^2} = \\sqrt{225 + 64} = \\sqrt{289} = 17$$</div><div class='explanation-step'>The sine of angle \\(A\\) is the ratio of the opposite side to the hypotenuse. Side \\(BC\\) is opposite angle \\(A\\).</div><div class='explanation-math'>$$\\sin(A) = \\frac{BC}{AC} = \\frac{8}{17}$$</div><div class='explanation-step'>Common errors: \\(\\frac{8}{15}\\) is \\(\\tan(A)\\), and \\(\\frac{15}{17}\\) is \\(\\cos(A)\\).</div>"
 },
     {
-  "id": "MathT2-2E-022",
-  "type": "gridin",
-  "level": 3,
-  "skill": {
-    "domain": "Geometry and Trigonometry",
-    "topic": "Circles",
-    "skill": "Radian and Degree Conversion"
-  },
-  "stem": "The measure of angle \\(J\\) is \\(\\dfrac{3\\pi}{4}\\) radians. The measure of angle \\(K\\) is \\(\\dfrac{7\\pi}{12}\\) radians greater than the measure of angle \\(J\\). What is the measure of angle \\(K\\), in degrees?",
-  "answer": "240",
-  "answersAccepted": ["240"],
-  "validation": {
-    "format": "number",
-    "allowNegative": false,
-    "allowDecimal": false,
-    "allowFraction": false,
-    "maxChars": 4
-  },
-  "explanation": "<div class='explanation-step'>First find the measure of angle \\(K\\) in radians.</div><div class='explanation-math'>$$\\frac{3\\pi}{4} + \\frac{7\\pi}{12} = \\frac{9\\pi}{12} + \\frac{7\\pi}{12} = \\frac{16\\pi}{12} = \\frac{4\\pi}{3} \\text{ radians}$$</div><div class='explanation-step'>Convert to degrees by multiplying by \\(\\dfrac{180}{\\pi}\\).</div><div class='explanation-math'>$$\\frac{4\\pi}{3} \\times \\frac{180}{\\pi} = \\frac{4 \\times 180}{3} = 240°$$</div>"
-}
+      "id": "MathT2-2E-022",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Linear Functions",
+        "skill": "Interpreting Slope in Context"
+      },
+      "stem": "A car rental company charges a daily fee plus a per-mile charge. The total cost \\(C\\), in dollars, for renting a car for one day and driving \\(m\\) miles is given by \\(C = 0.15m + 40\\). What does \\(0.15\\) represent in this equation?",
+      "choices": [
+        "The total cost of renting the car for one day",
+        "The cost in dollars per mile driven",
+        "The flat daily fee charged by the company",
+        "The total number of miles driven"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>In the equation \\(C = 0.15m + 40\\), this is slope-intercept form where the coefficient of \\(m\\) is the rate of change. Since \\(m\\) represents miles driven, \\(0.15\\) is the cost per mile — for each additional mile driven, the total cost increases by \\$0.15.</div>"
+    }
+    
   ]
 }
