@@ -24,7 +24,7 @@
       "explanation": "<div class='explanation-step'>An absolute value equation has two cases.</div><div class='explanation-math'>$$\\begin{aligned}2x - 3 &= 7 & 2x - 3 &= -7 \\\\ 2x &= 10 & 2x &= -4 \\\\ x &= 5 & x &= -2\\end{aligned}$$</div><div class='explanation-step'>The sum of all solutions is \\(5 + (-2) = 3\\).</div>"
     },
     {
-      "id": "MathT2-2H-009",
+      "id": "MathT2-2H-002",
       "type": "gridin",
       "level": 2,
       "skill": {
@@ -47,64 +47,45 @@
       "explanation": "<div class='explanation-step'>Substitute \\(x = -2\\) into the function.</div><div class='explanation-math'>$$g(-2) = 2(-2)^3 - 5 = 2(-8) - 5 = -16 - 5 = -21$$</div>"
     },
     {
-      "id": "MathT2-2H-019",
+      "id": "MathT2-2H-003",
       "type": "mcq",
       "level": 2,
       "skill": {
         "domain": "Problem Solving and Data Analysis",
-        "topic": "Inference",
-        "skill": "Analyzing Studies"
+        "topic": "Probability",
+        "skill": "Calculating Conditional Probability"
       },
-      "stem": "A researcher surveys 150 randomly selected customers at a grocery store chain and finds that 60% of them prefer paper bags over plastic bags. Which of the following conclusions is best supported by this data?",
+      "stem": "<div class='stem-text'>The table shows data for 120 employees at a company based on their work location and employment type.</div><div class='stem-table-wrap'><table class='stem-table'><tr><th></th><th>Full-time</th><th>Part-time</th><th>Total</th></tr><tr><td>Remote</td><td>35</td><td>25</td><td>60</td></tr><tr><td>In-office</td><td>40</td><td>20</td><td>60</td></tr><tr><td>Total</td><td>75</td><td>45</td><td>120</td></tr></table></div><div style='margin-top:12px;'>A full-time employee is selected at random. What is the probability that this employee works remotely?</div>",
       "choices": [
-        "All customers at the chain prefer paper bags over plastic bags.",
-        "Approximately 60% of all customers at the chain likely prefer paper bags.",
-        "The researcher should have surveyed more stores before drawing any conclusion.",
-        "Exactly 60% of all customers at the chain prefer paper bags."
+        "\\(\\dfrac{35}{120}\\)",
+        "\\(\\dfrac{35}{75}\\)",
+        "\\(\\dfrac{35}{60}\\)",
+        "\\(\\dfrac{60}{120}\\)"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>A random sample can be used to make an inference about the population from which it was drawn. The word <em>approximately</em> correctly reflects that a sample estimate may differ slightly from the true population value.</div><div class='explanation-step'><strong>A)</strong> Too strong &mdash; a sample cannot establish a universal claim. <strong>C)</strong> Random selection is already sufficient. <strong>D)</strong> &ldquo;Exactly&rdquo; is never supported by a sample estimate.</div>"
+      "explanation": "<div class='explanation-step'>Since the employee is known to be full-time, restrict to the 75 full-time employees. Of those, 35 work remotely.</div><div class='explanation-math'>$$P(\\text{remote} \\mid \\text{full-time}) = \\frac{35}{75}$$</div><div class='explanation-step'>The other choices use incorrect denominators: 120 (total employees), 60 (total remote), or represent the wrong probability entirely.</div>"
+    },
+    {
+      "id": "MathT2-2H-004",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Equations and Inequalities",
+        "skill": "Modeling"
+      },
+      "stem": "A scientist needs to collect at least 500 water samples for a study. She has already collected 95 samples and can collect 45 additional samples each day. What is the minimum number of days she must continue collecting to meet her goal?",
+      "choices": [
+        "\\(8\\)",
+        "\\(9\\)",
+        "\\(10\\)",
+        "\\(11\\)"
+      ],
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>Let \\(d\\) = number of additional days. She needs at least 500 total.</div><div class='explanation-math'>$$95 + 45d \\geq 500 \\implies 45d \\geq 405 \\implies d \\geq 9$$</div><div class='explanation-step'>After 8 days: \\(95 + 45(8) = 455 < 500\\). After 9 days: \\(95 + 45(9) = 500 \\geq 500\\). The minimum is \\(9\\) days.</div>"
     },
     {
       "id": "MathT2-2H-005",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Algebra",
-        "topic": "Linear Functions",
-        "skill": "Modeling"
-      },
-      "stem": "The function \\(f\\) is defined by \\(f(x) = -3x + 120\\), where \\(f(x)\\) represents the number of items remaining in a warehouse after \\(x\\) days. For what value of \\(x\\) does \\(f(x) = 48\\)?",
-      "choices": [
-        "\\(20\\)",
-        "\\(24\\)",
-        "\\(28\\)",
-        "\\(32\\)"
-      ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>Set \\(f(x) = 48\\) and solve for \\(x\\).</div><div class='explanation-math'>$$\\begin{aligned}-3x + 120 &= 48 \\\\ -3x &= -72 \\\\ x &= 24\\end{aligned}$$</div>"
-    },
-    {
-      "id": "MathT2-2H-017",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Problem Solving and Data Analysis",
-        "topic": "Percents",
-        "skill": "Percent Change"
-      },
-      "stem": "A store reduced the price of a jacket from \\$240 to \\$180. What was the percent decrease in the price of the jacket?",
-      "choices": [
-        "\\(20\\%\\)",
-        "\\(25\\%\\)",
-        "\\(30\\%\\)",
-        "\\(33\\%\\)"
-      ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>Percent decrease \\(= \\dfrac{\\text{original} - \\text{new}}{\\text{original}} \\times 100\\).</div><div class='explanation-math'>$$\\frac{240 - 180}{240} \\times 100 = \\frac{60}{240} \\times 100 = 25\\%$$</div>"
-    },
-    {
-      "id": "MathT2-2H-002",
       "type": "mcq",
       "level": 2,
       "skill": {
@@ -124,44 +105,29 @@
     },
     {
       "id": "MathT2-2H-006",
-      "type": "mcq",
-      "level": 2,
+      "type": "gridin",
+      "level": 3,
       "skill": {
-        "domain": "Algebra",
-        "topic": "Equations and Inequalities",
-        "skill": "Solving Systems of Inequalities"
+        "domain": "Geometry and Trigonometry",
+        "topic": "Right Triangles",
+        "skill": "Finding Sides in Special Right Triangles"
       },
-      "stem": "$$y > 2x - 1$$$$y \\leq -x + 8$$Which of the following points \\((x, y)\\) is a solution to the given system of inequalities?",
-      "choices": [
-        "\\((3, 5)\\)",
-        "\\((2, 4)\\)",
-        "\\((4, 3)\\)",
-        "\\((5, 2)\\)"
+      "stem": "The perimeter of an equilateral triangle is 486 feet. The height of the triangle is \\(n\\sqrt{3}\\) feet, where \\(n\\) is a positive constant. What is the value of \\(n\\)?",
+      "answer": "81",
+      "answersAccepted": [
+        "81"
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>Test each point in both inequalities.</div><div class='explanation-step'><strong>B) (2, 4):</strong> \\(4 > 2(2)-1 = 3\\) &#10003; and \\(4 \\leq -(2)+8 = 6\\) &#10003;. Keep B.</div><div class='explanation-step'><strong>A) (3, 5):</strong> \\(5 > 2(3)-1 = 5\\) &mdash; not strictly greater. Eliminate A.</div><div class='explanation-step'><strong>C) (4, 3):</strong> \\(3 > 2(4)-1 = 7\\) &mdash; false. Eliminate C.</div><div class='explanation-step'><strong>D) (5, 2):</strong> \\(2 > 2(5)-1 = 9\\) &mdash; false. Eliminate D.</div>"
+      "validation": {
+        "format": "number",
+        "allowNegative": false,
+        "allowDecimal": false,
+        "allowFraction": false,
+        "maxChars": 4
+      },
+      "explanation": "<div class='explanation-step'>Each side of the equilateral triangle has length \\(\\frac{486}{3} = 162\\) feet.</div><div class='explanation-step'>Dropping a perpendicular from one vertex to the opposite side creates a 30-60-90 triangle with hypotenuse 162. The height (opposite the 60° angle) is \\(\\frac{162\\sqrt{3}}{2} = 81\\sqrt{3}\\).</div><div class='explanation-math'>$$n = 81$$</div>"
     },
     {
-      "id": "MathT2-2H-018",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Problem Solving and Data Analysis",
-        "topic": "Probability",
-        "skill": "Calculating Conditional Probability"
-      },
-      "stem": "<div class='stem-text'>The table shows data for 120 employees at a company based on their work location and employment type.</div><div class='stem-table-wrap'><table class='stem-table'><tr><th></th><th>Full-time</th><th>Part-time</th><th>Total</th></tr><tr><td>Remote</td><td>35</td><td>25</td><td>60</td></tr><tr><td>In-office</td><td>40</td><td>20</td><td>60</td></tr><tr><td>Total</td><td>75</td><td>45</td><td>120</td></tr></table></div><div style='margin-top:12px;'>A full-time employee is selected at random. What is the probability that this employee works remotely?</div>",
-      "choices": [
-        "\\(\\dfrac{7}{15}\\)",
-        "\\(\\dfrac{35}{120}\\)",
-        "\\(\\dfrac{1}{2}\\)",
-        "\\(\\dfrac{35}{60}\\)"
-      ],
-      "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>Since the employee is known to be full-time, restrict to the 75 full-time employees. Of those, 35 work remotely.</div><div class='explanation-math'>$$P(\\text{remote} \\mid \\text{full-time}) = \\frac{35}{75} = \\frac{7}{15}$$</div>"
-    },
-    {
-      "id": "MathT2-2H-003",
+      "id": "MathT2-2H-007",
       "type": "mcq",
       "level": 2,
       "skill": {
@@ -180,26 +146,26 @@
       "explanation": "<div class='explanation-step'>A system has no solution when the lines are parallel — same slope but different \\(y\\)-intercepts. Write each equation in slope-intercept form.</div><div class='explanation-math'>$$\\begin{aligned}2x + 4y &= 8 \\implies y = -\\tfrac{1}{2}x + 2 \\\\ kx + 2y &= 3 \\implies y = -\\tfrac{k}{2}x + \\tfrac{3}{2}\\end{aligned}$$</div><div class='explanation-step'>Set slopes equal: \\(-\\frac{1}{2} = -\\frac{k}{2} \\implies k = 1\\). Check: the \\(y\\)-intercepts are 2 and \\(\\frac{3}{2}\\), which are different, confirming no solution.</div>"
     },
     {
-      "id": "MathT2-2H-020",
+      "id": "MathT2-2H-008",
       "type": "mcq",
       "level": 3,
       "skill": {
-        "domain": "Problem Solving and Data Analysis",
-        "topic": "Statistics",
-        "skill": "Interpreting Linear Regression"
+        "domain": "Algebra",
+        "topic": "Functions",
+        "skill": "Function Transformations"
       },
-      "stem": "A line of best fit for data comparing years of work experience \\((x)\\) and annual salary in thousands of dollars \\((y)\\) has the equation \\(y = 3.2x + 42\\). What does \\(3.2\\) represent in this context?",
+      "stem": "<div class='stem-table-wrap'><table class='stem-table'><tr><th>\\(x\\)</th><th>\\(f(x)\\)</th></tr><tr><td>1</td><td>3</td></tr><tr><td>2</td><td>7</td></tr><tr><td>3</td><td>11</td></tr><tr><td>4</td><td>15</td></tr></table></div><div style='margin-top:12px;'>The table shows selected values of the function \\(f\\). If \\(g(x) = f(2x) - 3\\), what is the value of \\(g(2)\\)?</div>",
       "choices": [
-        "The predicted starting salary in thousands of dollars with no experience",
-        "The number of years needed to reach a salary of \\$42,000",
-        "The predicted increase in annual salary, in thousands of dollars, for each additional year of experience",
-        "The total salary in thousands of dollars after 3.2 years"
+        "\\(4\\)",
+        "\\(8\\)",
+        "\\(12\\)",
+        "\\(18\\)"
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>In the equation \\(y = 3.2x + 42\\), the coefficient \\(3.2\\) is the slope. In context, the slope represents the rate of change — for each additional year of experience (increase of 1 in \\(x\\)), the predicted salary increases by 3.2 thousand dollars, or \\$3,200.</div><div class='explanation-step'>The constant 42 represents the \\(y\\)-intercept — the predicted starting salary of \\$42,000 with zero years of experience.</div>"
+      "explanation": "<div class='explanation-step'>To find \\(g(2)\\), substitute \\(x = 2\\) into \\(g(x) = f(2x) - 3\\).</div><div class='explanation-math'>$$g(2) = f(2 \\cdot 2) - 3 = f(4) - 3$$</div><div class='explanation-step'>From the table, \\(f(4) = 15\\).</div><div class='explanation-math'>$$g(2) = 15 - 3 = 12$$</div><div class='explanation-step'>A common error is computing \\(f(2) - 3 = 7 - 3 = 4\\), forgetting to apply the transformation inside the function first.</div>"
     },
     {
-      "id": "MathT2-2H-004",
+      "id": "MathT2-2H-009",
       "type": "mcq",
       "level": 2,
       "skill": {
@@ -218,7 +184,50 @@
       "explanation": "<div class='explanation-step'>Factor the numerator as a difference of squares.</div><div class='explanation-math'>$$\\frac{x^2 - 9}{x - 3} = \\frac{(x+3)(x-3)}{x-3} = x + 3$$</div><div class='explanation-step'>The factor \\((x - 3)\\) cancels, leaving \\(x + 3\\). Note that \\(x \\neq 3\\) because the original expression is undefined at \\(x = 3\\).</div>"
     },
     {
-      "id": "MathT2-2H-007",
+      "id": "MathT2-2H-010",
+      "type": "gridin",
+      "level": 3,
+      "skill": {
+        "domain": "Problem Solving and Data Analysis",
+        "topic": "Percents",
+        "skill": "Percent of a Percent"
+      },
+      "stem": "The regular price of a shirt at a store is \\$11.70. The sale price of the shirt is 80% less than the regular price, and the sale price is 30% greater than the store's cost for the shirt. What was the store's cost, in dollars, for the shirt? (Disregard the \\$ sign when entering your answer.)",
+      "answer": "1.80",
+      "answersAccepted": [
+        "1.80",
+        "1.8"
+      ],
+      "validation": {
+        "format": "number",
+        "allowNegative": false,
+        "allowDecimal": true,
+        "allowFraction": false,
+        "maxChars": 6
+      },
+      "explanation": "<div class='explanation-step'>Find the sale price: 80% less than \\$11.70 means the sale price is 20% of \\$11.70.</div><div class='explanation-math'>$$\\text{Sale price} = 0.20 \\times 11.70 = \\$2.34$$</div><div class='explanation-step'>The sale price is 30% greater than the store's cost, so \\$2.34 = 1.30 × cost.</div><div class='explanation-math'>$$\\text{Cost} = \\frac{2.34}{1.30} = \\$1.80$$</div>"
+    },
+    {
+      "id": "MathT2-2H-011",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Problem Solving and Data Analysis",
+        "topic": "Statistics",
+        "skill": "Calculating Mean"
+      },
+      "stem": "<div class='stem-table-wrap'><table class='stem-table'><tr><th>Value</th><th>Frequency</th></tr><tr><td>1</td><td>2</td></tr><tr><td>3</td><td>\\(n\\)</td></tr><tr><td>5</td><td>4</td></tr><tr><td>7</td><td>2</td></tr></table></div><div style='margin-top:12px;'>The table shows the frequency distribution of a data set. If the mean of the data set is 4, what is the value of \\(n\\)?</div>",
+      "choices": [
+        "\\(2\\)",
+        "\\(3\\)",
+        "\\(4\\)",
+        "\\(5\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>The mean is total sum divided by total count.</div><div class='explanation-math'>$$\\text{Sum} = 1(2) + 3n + 5(4) + 7(2) = 2 + 3n + 20 + 14 = 36 + 3n$$</div><div class='explanation-math'>$$\\text{Count} = 2 + n + 4 + 2 = 8 + n$$</div><div class='explanation-step'>Set mean equal to 4 and solve.</div><div class='explanation-math'>$$\\frac{36 + 3n}{8 + n} = 4 \\implies 36 + 3n = 32 + 4n \\implies n = 4$$</div>"
+    },
+    {
+      "id": "MathT2-2H-012",
       "type": "mcq",
       "level": 3,
       "skill": {
@@ -237,87 +246,7 @@
       "explanation": "<div class='explanation-step'>Find the slope using the two given points.</div><div class='explanation-math'>$$m = \\frac{16 - 7}{5 - 2} = \\frac{9}{3} = 3$$</div><div class='explanation-step'>Use point-slope form to find the \\(y\\)-intercept: \\(f(x) = 3x + b\\). Substitute \\(f(2) = 7\\): \\(7 = 6 + b \\implies b = 1\\). Therefore \\(f(0) = 3(0) + 1 = 1\\).</div>"
     },
     {
-      "id": "MathT2-2H-012",
-      "type": "mcq",
-      "level": 3,
-      "skill": {
-        "domain": "Advanced Math",
-        "topic": "Exponential Functions",
-        "skill": "Writing Exponential Functions"
-      },
-      "stem": "A town had a population of \\(5{,}000\\) at the start of 2010. The population grew at a constant rate of \\(4\\%\\) per year. Which of the following expressions gives the population of the town \\(t\\) years after the start of 2010?",
-      "choices": [
-        "\\(5{,}000(0.04)^t\\)",
-        "\\(5{,}000(0.96)^t\\)",
-        "\\(5{,}000(1.04)^t\\)",
-        "\\(5{,}000 + 1.04t\\)"
-      ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>A constant percent growth of \\(4\\%\\) per year means the population is multiplied by \\(1.04\\) each year. Starting at \\(5{,}000\\), after \\(t\\) years the population is \\(5{,}000(1.04)^t\\).</div><div class='explanation-step'><strong>A)</strong> \\(0.04^t\\) decays to zero. <strong>B)</strong> \\(0.96^t\\) models a \\(4\\%\\) decrease. <strong>D)</strong> Linear, not exponential.</div>"
-    },
-    {
-      "id": "MathT2-2H-008",
-      "type": "gridin",
-      "level": 3,
-      "skill": {
-        "domain": "Advanced Math",
-        "topic": "Quadratic Functions",
-        "skill": "Solving Quadratic Equations"
-      },
-      "stem": "If \\(x^2 - 7x + 10 = 0\\), what is the positive difference between the two solutions?",
-      "answer": "3",
-      "answersAccepted": [
-        "3"
-      ],
-      "validation": {
-        "format": "number",
-        "allowNegative": false,
-        "allowDecimal": false,
-        "allowFraction": false,
-        "maxChars": 4
-      },
-      "explanation": "<div class='explanation-step'>Factor the quadratic.</div><div class='explanation-math'>$$x^2 - 7x + 10 = (x-2)(x-5) = 0$$</div><div class='explanation-step'>The solutions are \\(x = 2\\) and \\(x = 5\\). The positive difference is \\(5 - 2 = 3\\).</div>"
-    },
-    {
-      "id": "MathT2-2H-016",
-      "type": "mcq",
-      "level": 3,
-      "skill": {
-        "domain": "Advanced Math",
-        "topic": "Exponential Functions",
-        "skill": "Laws of Exponents"
-      },
-      "stem": "Which of the following is equivalent to \\(x^{\\frac{2}{3}} \\cdot x^{\\frac{1}{6}}\\) for \\(x > 0\\)?",
-      "choices": [
-        "\\(x^{\\frac{1}{3}}\\)",
-        "\\(x^{\\frac{5}{9}}\\)",
-        "\\(x^{\\frac{5}{6}}\\)",
-        "\\(x^{\\frac{2}{18}}\\)"
-      ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>When multiplying expressions with the same base, add the exponents.</div><div class='explanation-math'>$$x^{\\frac{2}{3}} \\cdot x^{\\frac{1}{6}} = x^{\\frac{4}{6} + \\frac{1}{6}} = x^{\\frac{5}{6}}$$</div>"
-    },
-    {
       "id": "MathT2-2H-013",
-      "type": "mcq",
-      "level": 3,
-      "skill": {
-        "domain": "Algebra",
-        "topic": "Equations and Inequalities",
-        "skill": "Equivalent Equations"
-      },
-      "stem": "If \\(5(2x-3) = 7(2x-3) - 8\\), what is the value of \\(2x - 3\\)?",
-      "choices": [
-        "\\(-4\\)",
-        "\\(2\\)",
-        "\\(4\\)",
-        "\\(6\\)"
-      ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>Let \\(u = 2x - 3\\). The equation becomes:</div><div class='explanation-math'>$$\\begin{aligned}5u &= 7u - 8 \\\\ -2u &= -8 \\\\ u &= 4\\end{aligned}$$</div><div class='explanation-step'>So \\(2x - 3 = 4\\).</div>"
-    },
-    {
-      "id": "MathT2-2H-010",
       "type": "mcq",
       "level": 3,
       "skill": {
@@ -336,7 +265,26 @@
       "explanation": "<div class='explanation-step'>Cross-multiply to eliminate the fractions.</div><div class='explanation-math'>$$5pr = 6q$$</div><div class='explanation-step'>Divide both sides by \\(5r\\).</div><div class='explanation-math'>$$p = \\frac{6q}{5r}$$</div>"
     },
     {
-      "id": "MathT2-2H-011",
+      "id": "MathT2-2H-014",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Exponential Functions",
+        "skill": "Writing Exponential Functions"
+      },
+      "stem": "A town had a population of \\(5{,}000\\) at the start of 2010. The population grew such that each year the population was \\(4\\%\\) greater than it was the previous year. Which of the following expressions gives the population of the town \\(t\\) years after the start of 2010?",
+      "choices": [
+        "\\(5{,}000(0.04)^t\\)",
+        "\\(5{,}000(0.96)^t\\)",
+        "\\(5{,}000(1.04)^t\\)",
+        "\\(5{,}000 + 1.04t\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>A constant percent growth of \\(4\\%\\) per year means the population is multiplied by \\(1.04\\) each year. Starting at \\(5{,}000\\), after \\(t\\) years the population is \\(5{,}000(1.04)^t\\).</div><div class='explanation-step'><strong>A)</strong> \\(0.04^t\\) decays to zero. <strong>B)</strong> \\(0.96^t\\) models a \\(4\\%\\) decrease. <strong>D)</strong> Linear, not exponential.</div>"
+    },
+    {
+      "id": "MathT2-2H-015",
       "type": "gridin",
       "level": 3,
       "skill": {
@@ -359,7 +307,45 @@
       "explanation": "<div class='explanation-step'>Complete the square to write the function in vertex form.</div><div class='explanation-math'>$$\\begin{aligned}f(x) &= x^2 - 8x + 7 \\\\ &= x^2 - 8x + 16 - 16 + 7 \\\\ &= (x - 4)^2 - 9\\end{aligned}$$</div><div class='explanation-step'>The vertex is at \\((4, -9)\\). Since the parabola opens upward (\\(a = 1 > 0\\)), the minimum value is \\(-9\\).</div>"
     },
     {
-      "id": "MathT2-2H-014",
+      "id": "MathT2-2H-016",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Advanced Math",
+        "topic": "Exponential Functions",
+        "skill": "Radical and Exponential Form"
+      },
+      "stem": "Which of the following is equivalent to \\(\\sqrt[3]{x^2} \\cdot \\sqrt{x^3}\\) for \\(x > 0\\)?",
+      "choices": [
+        "\\(x^{\\frac{5}{6}}\\)",
+        "\\(x^3\\)",
+        "\\(x^{\\frac{13}{6}}\\)",
+        "\\(x^{\\frac{6}{13}}\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Convert each radical to exponential form.</div><div class='explanation-math'>$$\\sqrt[3]{x^2} = x^{\\frac{2}{3}} \\qquad \\sqrt{x^3} = x^{\\frac{3}{2}}$$</div><div class='explanation-step'>Multiply by adding exponents.</div><div class='explanation-math'>$$x^{\\frac{2}{3}} \\cdot x^{\\frac{3}{2}} = x^{\\frac{4}{6} + \\frac{9}{6}} = x^{\\frac{13}{6}}$$</div><div class='explanation-step'>Common errors: adding \\(\\frac{2}{3} + \\frac{1}{2} = \\frac{5}{6}\\) (wrong — uses wrong exponent for \\(\\sqrt{x^3}\\)), or multiplying the exponents instead of adding.</div>"
+    },
+    {
+      "id": "MathT2-2H-017",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Algebra",
+        "topic": "Equations and Inequalities",
+        "skill": "Equivalent Equations"
+      },
+      "stem": "If \\(5(2x-3) = 7(2x-3) - 8\\), what is the value of \\(2x - 3\\)?",
+      "choices": [
+        "\\(-4\\)",
+        "\\(2\\)",
+        "\\(4\\)",
+        "\\(6\\)"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>Let \\(u = 2x - 3\\). The equation becomes:</div><div class='explanation-math'>$$\\begin{aligned}5u &= 7u - 8 \\\\ -2u &= -8 \\\\ u &= 4\\end{aligned}$$</div><div class='explanation-step'>So \\(2x - 3 = 4\\).</div>"
+    },
+    {
+      "id": "MathT2-2H-018",
       "type": "mcq",
       "level": 3,
       "skill": {
@@ -378,7 +364,7 @@
       "explanation": "<div class='explanation-step'>By the Factor Theorem, \\((x - k)\\) is a factor of \\(p(x)\\) if and only if \\(p(k) = 0\\). Test each choice.</div><div class='explanation-math'>$$\\begin{aligned}p(4) &= 64 - 28 + 6 = 42 \\neq 0 \\\\ p(-1) &= -1 + 7 + 6 = 12 \\neq 0 \\\\ p(2) &= 8 - 14 + 6 = 0 \\checkmark \\\\ p(5) &= 125 - 35 + 6 = 96 \\neq 0\\end{aligned}$$</div>"
     },
     {
-      "id": "MathT2-2H-015",
+      "id": "MathT2-2H-019",
       "type": "mcq",
       "level": 3,
       "skill": {
@@ -395,6 +381,25 @@
       ],
       "answerIndex": 0,
       "explanation": "<div class='explanation-step'>Use the discriminant \\(b^2 - 4ac\\).</div><div class='explanation-math'>$$(-6)^2 - 4(3)(4) = 36 - 48 = -12$$</div><div class='explanation-step'>Since the discriminant is negative, the equation has no real solutions.</div>"
+    },
+    {
+      "id": "MathT2-2H-020",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Geometry and Trigonometry",
+        "topic": "Circles",
+        "skill": "Circle Equations"
+      },
+      "stem": "Which of the following equations represents a circle in the \\(xy\\)-plane that does not intersect the \\(y\\)-axis?",
+      "choices": [
+        "\\((x-3)^2 + (y-2)^2 = 4\\)",
+        "\\((x-2)^2 + (y-3)^2 = 9\\)",
+        "\\((x+1)^2 + (y-4)^2 = 4\\)",
+        "\\((x-4)^2 + (y+2)^2 = 25\\)"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>A circle does not intersect the \\(y\\)-axis when the distance from its center to the \\(y\\)-axis is greater than its radius. For a circle centered at \\((h, k)\\), the distance to the \\(y\\)-axis is \\(|h|\\). The circle does not intersect the \\(y\\)-axis when \\(|h| > r\\).</div><div class='explanation-step'><strong>A)</strong> Center \\((3, 2)\\), radius \\(2\\): \\(|3| = 3 > 2\\). Does not intersect. &#10003;</div><div class='explanation-step'><strong>B)</strong> Center \\((2, 3)\\), radius \\(3\\): \\(|2| = 2 < 3\\). Intersects. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Center \\((-1, 4)\\), radius \\(2\\): \\(|-1| = 1 < 2\\). Intersects. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Center \\((4, -2)\\), radius \\(5\\): \\(|4| = 4 < 5\\). Intersects. Eliminate D.</div>"
     },
     {
       "id": "MathT2-2H-021",
