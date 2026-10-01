@@ -299,158 +299,6 @@
       "type": "mcq",
       "level": 1,
       "skill": {
-        "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
-      },
-      "stem": "The deep-sea exploration team made a remarkable discovery when <span class='blank'>_______</span> submersible captured footage of hydrothermal vents teeming with previously undocumented species of tube worms and crustaceans.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
-      "choices": [
-        "their",
-        "its",
-        "the team's",
-        "them"
-      ],
-      "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>This question tests <strong>Pronoun-Antecedent Agreement</strong>. The pronoun in the blank must agree with its antecedent &ldquo;team.&rdquo; The submersible belongs to the team.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Their&rdquo; is plural and refers to the team — collective nouns like &ldquo;team&rdquo; can take &ldquo;their&rdquo; when referring to the members acting collectively. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Its&rdquo; is singular and could refer to the team as a unit, but &ldquo;its submersible&rdquo; sounds less natural than &ldquo;their submersible&rdquo; for a team of people. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;The team&rsquo;s&rdquo; is grammatically correct but redundant — the team is already established as the subject, and repeating the noun is unnecessarily wordy. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Them&rdquo; is an object pronoun — it cannot modify a noun. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
-    },
-    {
-      "id": "VerbalT2-2E-015",
-      "type": "mcq",
-      "level": 1,
-      "skill": {
-        "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
-      },
-      "stem": "The history of vaccination includes milestones such as Edward Jenner's development of the smallpox vaccine, Louis Pasteur's creation of the rabies vaccine, and <span class='blank'>_______</span> polio vaccine in the 1950s.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
-      "choices": [
-        "Jonas Salk developed the",
-        "the development of Jonas Salk's",
-        "Jonas Salk's development of the",
-        "when Jonas Salk developed the"
-      ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>This question tests <strong>Parallel Structure</strong>. The sentence lists three items after \"such as\": \"Edward Jenner's development of...,\" \"Louis Pasteur's creation of...,\" and a third item. All three must follow the same grammatical pattern: possessive noun + noun + \"of the\" + item.</div><div class='explanation-step'><strong>A)</strong> \"Jonas Salk developed the\" introduces a full clause, which breaks the parallel structure of the noun phrase list. Eliminate A.</div><div class='explanation-step'><div class='explanation-step'><strong>B)</strong> \"The development of Jonas Salk's\" reverses the possessive structure and breaks parallel form. Eliminate B.</div><strong>C)</strong> \"Jonas Salk's development of the\" matches the pattern of the other two items. Keep C.</div><div class='explanation-step'><strong>D)</strong> \"When Jonas Salk developed the\" introduces a subordinate clause, breaking parallel structure. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
-    },
-    {
-      "id": "VerbalT2-2E-016",
-      "type": "mcq",
-      "level": 1,
-      "skill": {
-        "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
-      },
-      "stem": "Urban light pollution has made <span class='blank'>_______</span> certain constellations increasingly difficult for amateur astronomers living near cities.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
-      "choices": [
-        "observe",
-        "to observe",
-        "observed",
-        "observing"
-      ],
-      "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>This question tests <strong>Gerund vs Infinitive</strong> after \"make.\" The structure \"make [something] [adjective]\" requires a gerund (verb + -ing) as the object of \"made.\" The sentence structure is: \"has made [observing certain constellations] [increasingly difficult].\"</div><div class='explanation-step'><strong>A)</strong> \"Observe\" is a bare infinitive — not standard after \"made\" in this construction. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"To observe\" is an infinitive — while sometimes used after \"make,\" it creates awkward phrasing here: \"has made to observe certain constellations difficult.\" Eliminate B.</div><div class='explanation-step'><div class='explanation-step'><strong>C)</strong> \"Observed\" is past tense — makes no grammatical sense in this construction. Eliminate C.</div><strong>D)</strong> \"Observing\" is a gerund — creates a natural noun phrase: \"has made observing certain constellations increasingly difficult.\" Keep D.</div><br><br>The correct answer is <strong>D</strong>."
-    },
-    {
-      "id": "VerbalT2-2E-017",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
-      },
-      "stem": "Rosalind Franklin, <span class='blank'>_______</span> X-ray crystallography work was crucial to determining the structure of DNA, received little public recognition during her lifetime.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
-      "choices": [
-        "who's",
-        "which",
-        "that",
-        "whose"
-      ],
-      "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>This question tests <strong>Relative Pronouns</strong>. The blank introduces a relative clause modifying Rosalind Franklin — a person. The clause describes something belonging to her (her X-ray crystallography work), so a possessive relative pronoun is needed.</div><div class='explanation-step'><strong>A)</strong> \"Who's\" is a contraction meaning \"who is\" — reading it in: \"Rosalind Franklin, who is X-ray crystallography work...\" — makes no sense. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Which\" is used for things, not people. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"That\" introduces a restrictive clause but cannot be possessive. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Whose\" is the possessive relative pronoun for people — \"whose X-ray crystallography work\" correctly indicates the work belongs to Franklin. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
-    },
-    {
-      "id": "VerbalT2-2E-018",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
-      },
-      "stem": "The competitive exclusion principle <span class='blank'>_______</span> states that two species competing for the same limited resource cannot coexist indefinitely — is one of the foundational concepts in ecology.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
-      "choices": [
-        ", which",
-        "which",
-        ", that",
-        "that"
-      ],
-      "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>This question tests <strong>Restrictive vs Nonrestrictive Clauses</strong>. The clause \"states that two species competing for the same limited resource cannot coexist indefinitely\" adds extra information about the principle — it is nonrestrictive (the sentence would still identify the subject without it).</div><div class='explanation-step'>Nonrestrictive clauses use \"which\" (not \"that\") and require a comma before \"which.\"</div><div class='explanation-step'><strong>A)</strong> \", which\" correctly introduces a nonrestrictive clause with proper comma. Keep A.</div><div class='explanation-step'><strong>B)</strong> \"which\" without a comma would make the clause seem restrictive, but since the principle is already fully named, this information is additional, not defining. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \", that\" — \"that\" is used for restrictive clauses and should not follow a comma. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"that\" introduces a restrictive clause — but this clause provides additional information, not a defining restriction. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
-    },
-    {
-      "id": "VerbalT2-2E-019",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
-      },
-      "stem": "The ancient Romans developed a concrete formula containing volcanic ash <span class='blank'>_______</span> unlike modern Portland cement, which weakens and cracks within decades, has been shown to strengthen over time when exposed to seawater.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
-      "choices": [
-        "that,",
-        "which,",
-        "that",
-        "which"
-      ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>This question tests <strong>Restrictive vs Nonrestrictive Clauses</strong>. The clause that follows provides additional information about the concrete formula — it is not essential to identifying which formula is meant (it is already identified as the Roman formula). Nonrestrictive clauses use &ldquo;which&rdquo; and require a comma.</div><div class='explanation-step'><strong>A)</strong> &ldquo;That,&rdquo; — &ldquo;that&rdquo; introduces a restrictive clause and should not be followed by a comma. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Which,&rdquo; — &ldquo;which&rdquo; correctly introduces a nonrestrictive clause, and the comma correctly sets it off from the main clause. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;that&rdquo; without a comma introduces a restrictive clause — but this clause is nonrestrictive (the formula is already fully identified). Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;which&rdquo; without a comma — nonrestrictive clauses introduced by &ldquo;which&rdquo; require a preceding comma. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
-    },
-    {
-      "id": "VerbalT2-2E-020",
-      "type": "mcq",
-      "level": 1,
-      "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Transitions",
-        "skill": "Logical Transition"
-      },
-      "stem": "Tidal energy — generated by harnessing the movement of ocean tides — is a renewable power source with considerable theoretical potential, as tides are predictable and consistent in ways that wind and solar energy are not. <span class='blank'>_______</span> the high cost of underwater infrastructure and the limited number of suitable coastal locations have prevented tidal energy from being deployed at scale.<br><br>Which choice completes the text with the most logical transition?",
-      "choices": [
-        "Therefore,",
-        "Moreover,",
-        "Indeed,",
-        "However,"
-      ],
-      "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>For <em>Logical Transition</em> questions, determine the relationship between the ideas. The first sentence describes tidal energy's considerable potential. The second introduces barriers that have prevented its deployment — a complication or qualification of the first idea. The transition must signal contrast.</div><div class='explanation-step'><strong>A)</strong> \"Therefore\" signals that the second idea results from the first — the barriers are not caused by the potential. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Moreover\" signals addition — the second sentence is not adding to the positive case but complicating it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"Indeed\" signals confirmation — the second sentence does not confirm the first. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"However\" signals contrast — despite the potential (first sentence), barriers exist (second sentence). Keep D.</div><br><br>The correct answer is <strong>D</strong>."
-    },
-    {
-      "id": "VerbalT2-2E-021",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Transitions",
-        "skill": "Logical Transition"
-      },
-      "stem": "Research on food deserts — areas with limited access to affordable, nutritious food — has shown that residents of these communities have higher rates of diet-related diseases such as type 2 diabetes and cardiovascular disease. <span class='blank'>_______</span> the lack of grocery stores in food deserts is often accompanied by an abundance of fast food outlets, further limiting residents' dietary options.<br><br>Which choice completes the text with the most logical transition?",
-      "choices": [
-        "However,",
-        "That said,",
-        "Furthermore,",
-        "Nevertheless,"
-      ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>For <em>Logical Transition</em> questions at level 2, determine the precise relationship. The first sentence identifies that food deserts lead to higher disease rates. The second adds a compounding factor — not just fewer healthy options, but also more unhealthy ones. The transition must signal addition or elaboration.</div><div class='explanation-step'><strong>A)</strong> \"However\" signals contrast — the second sentence does not contradict the first but adds to it. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"That said\" signals a qualification or complication of the previous point — the second sentence compounds rather than qualifies. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"Furthermore\" signals addition of a related, compounding point — the second sentence adds another dimension of the same problem. Keep C.</div><div class='explanation-step'><strong>D)</strong> \"Nevertheless\" implies persistence despite an obstacle — there is no obstacle being overcome here. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
-    },
-    {
-      "id": "VerbalT2-2E-022",
-      "type": "mcq",
-      "level": 1,
-      "skill": {
         "domain": "Information and Ideas",
         "topic": "Central Ideas and Details",
         "skill": "Logical Completion"
@@ -466,7 +314,7 @@
       "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions, the blank must follow directly from the passage. The passage describes two things: (1) the assumption that species were fixed and unchanging, and (2) fossils of organisms with no living counterparts challenging this view. The blank must capture what this challenge implies.</div><div class='explanation-step'><strong>A)</strong> If fossils show organisms that no longer exist, the history of life involved species disappearing — directly following from the evidence described. Keep A.</div><div class='explanation-step'><strong>B)</strong> The age of the Earth is not mentioned — this introduces a new idea not supported by the passage. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> The passage presents fossils as challenging evidence, not as unreliable — this contradicts the passage. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The fossils suggest species disappeared, not that more species exist now — this reverses the implication. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
-      "id": "VerbalT2-2E-023",
+      "id": "VerbalT2-2E-015",
       "type": "mcq",
       "level": 1,
       "skill": {
@@ -485,7 +333,121 @@
       "explanation": "<div class='explanation-step'>For <em>Quantitative Evidence</em> questions, read the table carefully before looking at choices. The researcher concludes that more sleep is <em>consistently</em> associated with higher GPA and lower stress. To challenge this, find a data point that breaks the consistent pattern.</div><div class='explanation-step'><strong>A)</strong> Students sleeping less than 6 hours having the highest stress (74%) is consistent with the conclusion — more sleep, less stress. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Students sleeping more than 8 hours had a GPA of 3.3 — lower than the 3.4 for students sleeping 7–8 hours. This breaks the &ldquo;consistently associated&rdquo; pattern for GPA, directly challenging the conclusion. Keep B.</div><div class='explanation-step'><strong>C)</strong> Declining stress as sleep increases supports the conclusion. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Higher GPA with more sleep (6–7 vs less than 6) supports the conclusion. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
-      "id": "VerbalT2-2E-024",
+      "id": "VerbalT2-2E-016",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
+      },
+      "stem": "The deep-sea exploration team made a remarkable discovery when <span class='blank'>_______</span> submersible captured footage of hydrothermal vents teeming with previously undocumented species of tube worms and crustaceans.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "their",
+        "its",
+        "the team's",
+        "them"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>This question tests <strong>Pronoun-Antecedent Agreement</strong>. The pronoun in the blank must agree with its antecedent &ldquo;team.&rdquo; The submersible belongs to the team.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Their&rdquo; is plural and refers to the team — collective nouns like &ldquo;team&rdquo; can take &ldquo;their&rdquo; when referring to the members acting collectively. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Its&rdquo; is singular and could refer to the team as a unit, but &ldquo;its submersible&rdquo; sounds less natural than &ldquo;their submersible&rdquo; for a team of people. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;The team&rsquo;s&rdquo; is grammatically correct but redundant — the team is already established as the subject, and repeating the noun is unnecessarily wordy. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Them&rdquo; is an object pronoun — it cannot modify a noun. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-017",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
+      },
+      "stem": "The history of vaccination includes milestones such as Edward Jenner's development of the smallpox vaccine, Louis Pasteur's creation of the rabies vaccine, and <span class='blank'>_______</span> polio vaccine in the 1950s.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "Jonas Salk developed the",
+        "the development of Jonas Salk's",
+        "Jonas Salk's development of the",
+        "when Jonas Salk developed the"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>This question tests <strong>Parallel Structure</strong>. The sentence lists three items after \"such as\": \"Edward Jenner's development of...,\" \"Louis Pasteur's creation of...,\" and a third item. All three must follow the same grammatical pattern: possessive noun + noun + \"of the\" + item.</div><div class='explanation-step'><strong>A)</strong> \"Jonas Salk developed the\" introduces a full clause, which breaks the parallel structure of the noun phrase list. Eliminate A.</div><div class='explanation-step'><div class='explanation-step'><strong>B)</strong> \"The development of Jonas Salk's\" reverses the possessive structure and breaks parallel form. Eliminate B.</div><strong>C)</strong> \"Jonas Salk's development of the\" matches the pattern of the other two items. Keep C.</div><div class='explanation-step'><strong>D)</strong> \"When Jonas Salk developed the\" introduces a subordinate clause, breaking parallel structure. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-018",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
+      },
+      "stem": "Urban light pollution has made <span class='blank'>_______</span> certain constellations increasingly difficult for amateur astronomers living near cities.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "observe",
+        "to observe",
+        "observed",
+        "observing"
+      ],
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>This question tests <strong>Gerund vs Infinitive</strong> after \"make.\" The structure \"make [something] [adjective]\" requires a gerund (verb + -ing) as the object of \"made.\" The sentence structure is: \"has made [observing certain constellations] [increasingly difficult].\"</div><div class='explanation-step'><strong>A)</strong> \"Observe\" is a bare infinitive — not standard after \"made\" in this construction. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"To observe\" is an infinitive — while sometimes used after \"make,\" it creates awkward phrasing here: \"has made to observe certain constellations difficult.\" Eliminate B.</div><div class='explanation-step'><div class='explanation-step'><strong>C)</strong> \"Observed\" is past tense — makes no grammatical sense in this construction. Eliminate C.</div><strong>D)</strong> \"Observing\" is a gerund — creates a natural noun phrase: \"has made observing certain constellations increasingly difficult.\" Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-019",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Standard English Conventions"
+      },
+      "stem": "Rosalind Franklin, <span class='blank'>_______</span> X-ray crystallography work was crucial to determining the structure of DNA, received little public recognition during her lifetime.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "who's",
+        "which",
+        "that",
+        "whose"
+      ],
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>This question tests <strong>Relative Pronouns</strong>. The blank introduces a relative clause modifying Rosalind Franklin — a person. The clause describes something belonging to her (her X-ray crystallography work), so a possessive relative pronoun is needed.</div><div class='explanation-step'><strong>A)</strong> \"Who's\" is a contraction meaning \"who is\" — reading it in: \"Rosalind Franklin, who is X-ray crystallography work...\" — makes no sense. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Which\" is used for things, not people. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"That\" introduces a restrictive clause but cannot be possessive. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Whose\" is the possessive relative pronoun for people — \"whose X-ray crystallography work\" correctly indicates the work belongs to Franklin. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-020",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Appositive Punctuation"
+      },
+      "stem": "The paper was coauthored by Nadia Rahman, <span class='blank'>_______</span> marine biologist whose fieldwork in the Coral Triangle has transformed scientists' understanding of reef ecosystems in the region.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "a",
+        "the",
+        "a,",
+        "the,"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>The blank introduces an appositive noun phrase — \"marine biologist whose fieldwork...\" — that identifies who Nadia Rahman is. Because the phrase is <strong>restrictive</strong> (it defines her role rather than adding optional extra detail), it should not be set off by commas. The article \"a\" correctly introduces the appositive without a comma.</div><div class='explanation-step'><strong>A)</strong> \"a\" — no comma, correctly treats the phrase as restrictive. Keep A.</div><div class='explanation-step'><strong>C)</strong> \"a,\" — a comma here would incorrectly signal that the appositive is nonrestrictive, creating a mismatch (a nonrestrictive appositive requires commas on both sides). Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"the,\" — same comma problem as C, and \"the\" implies a specific, previously identified role. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-021",
+      "type": "mcq",
+      "level": 3,
+      "skill": {
+        "domain": "Standard English Conventions",
+        "topic": "Form, Structure, and Sense",
+        "skill": "Subject-Verb Agreement"
+      },
+      "stem": "The question of whether the long-term economic benefits generated by large-scale infrastructure projects in developing nations <span class='blank'>_______</span> the environmental and social costs imposed on local communities remains deeply contested among development economists.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "outweigh",
+        "outweighs",
+        "have outweighed",
+        "are outweighing"
+      ],
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>The subject of the verb is \"the question\" — a singular noun. However, a long prepositional phrase (\"of whether the long-term economic benefits... communities\") separates the subject from the verb. The verb must agree with \"the question,\" not with the nouns inside the prepositional phrase.</div><div class='explanation-step'>Wait — actually the embedded clause \"whether the benefits outweigh the costs\" is the content of the question. Within that clause, the subject is \"benefits\" (plural), requiring the plural verb \"outweigh.\"</div><div class='explanation-step'><strong>A)</strong> \"outweigh\" — plural, agrees with \"benefits.\" Keep A.</div><div class='explanation-step'><strong>B)</strong> \"outweighs\" — singular, would agree with a singular subject. Eliminate B.</div><br><br>The correct answer is <strong>A</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-022",
       "type": "mcq",
       "level": 2,
       "skill": {
@@ -502,6 +464,44 @@
       ],
       "answerIndex": 0,
       "explanation": "<div class='explanation-step'>This question tests <strong>Subject-Verb Agreement</strong> with a long intervening phrase. The subject is &ldquo;panel&rdquo; — a singular collective noun. Everything between &ldquo;panel&rdquo; and the blank is a prepositional/participial phrase modifying the subject. Remove the intervening phrase: &ldquo;The panel... concluded.&rdquo;</div><div class='explanation-step'><strong>A)</strong> &ldquo;Concluded&rdquo; is singular simple past — correctly agrees with the singular subject &ldquo;panel.&rdquo; Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Have concluded&rdquo; is plural present perfect — does not agree with the singular &ldquo;panel.&rdquo; Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Conclude&rdquo; is plural present — does not agree with &ldquo;panel&rdquo; and shifts to present tense without reason. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Were concluding&rdquo; is plural past progressive — &ldquo;were&rdquo; does not agree with singular &ldquo;panel.&rdquo; Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-023",
+      "type": "mcq",
+      "level": 1,
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Transitions",
+        "skill": "Logical Transition"
+      },
+      "stem": "Tidal energy — generated by harnessing the movement of ocean tides — is a renewable power source with considerable theoretical potential, as tides are predictable and consistent in ways that wind and solar energy are not. <span class='blank'>_______</span> the high cost of underwater infrastructure and the limited number of suitable coastal locations have prevented tidal energy from being deployed at scale.<br><br>Which choice completes the text with the most logical transition?",
+      "choices": [
+        "Therefore,",
+        "Moreover,",
+        "Indeed,",
+        "However,"
+      ],
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>For <em>Logical Transition</em> questions, determine the relationship between the ideas. The first sentence describes tidal energy's considerable potential. The second introduces barriers that have prevented its deployment — a complication or qualification of the first idea. The transition must signal contrast.</div><div class='explanation-step'><strong>A)</strong> \"Therefore\" signals that the second idea results from the first — the barriers are not caused by the potential. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Moreover\" signals addition — the second sentence is not adding to the positive case but complicating it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"Indeed\" signals confirmation — the second sentence does not confirm the first. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"However\" signals contrast — despite the potential (first sentence), barriers exist (second sentence). Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+    },
+    {
+      "id": "VerbalT2-2E-024",
+      "type": "mcq",
+      "level": 2,
+      "skill": {
+        "domain": "Expression of Ideas",
+        "topic": "Transitions",
+        "skill": "Logical Transition"
+      },
+      "stem": "Research on food deserts — areas with limited access to affordable, nutritious food — has shown that residents of these communities have higher rates of diet-related diseases such as type 2 diabetes and cardiovascular disease. <span class='blank'>_______</span> the lack of grocery stores in food deserts is often accompanied by an abundance of fast food outlets, further limiting residents' dietary options.<br><br>Which choice completes the text with the most logical transition?",
+      "choices": [
+        "However,",
+        "That said,",
+        "Furthermore,",
+        "Nevertheless,"
+      ],
+      "answerIndex": 2,
+      "explanation": "<div class='explanation-step'>For <em>Logical Transition</em> questions at level 2, determine the precise relationship. The first sentence identifies that food deserts lead to higher disease rates. The second adds a compounding factor — not just fewer healthy options, but also more unhealthy ones. The transition must signal addition or elaboration.</div><div class='explanation-step'><strong>A)</strong> \"However\" signals contrast — the second sentence does not contradict the first but adds to it. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"That said\" signals a qualification or complication of the previous point — the second sentence compounds rather than qualifies. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"Furthermore\" signals addition of a related, compounding point — the second sentence adds another dimension of the same problem. Keep C.</div><div class='explanation-step'><strong>D)</strong> \"Nevertheless\" implies persistence despite an obstacle — there is no obstacle being overcome here. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
     },
     {
       "id": "VerbalT2-2E-025",
