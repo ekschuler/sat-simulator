@@ -7,7 +7,7 @@
     {
       "id": "VerbalT2-2H-001",
       "type": "mcq",
-      "level": 2,
+      "level": 1,
       "skill": {
         "domain": "Craft and Structure",
         "topic": "Words in Context",
@@ -17,17 +17,17 @@
         "vocabulary",
         "sentence completion"
       ],
-      "stem": "The senator's economic proposal was praised in some quarters for its ambition, but economists who examined it closely found its central assumptions <span class='blank'>_______</span>: the projected growth figures depended on conditions that historical data suggested were unlikely to occur simultaneously.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+      "stem": "Dr. Maria Santos had a reputation for _______ in her field: she routinely challenged accepted findings, demanded rigorous evidence for every claim, and refused to endorse conclusions she considered premature.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
-        "innovative",
-        "untenable",
-        "preliminary",
-        "contentious"
+        "iconoclasm",
+        "pragmatism",
+        "deference",
+        "diplomacy"
       ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, the word &ldquo;but&rdquo; signals a direction change — despite being praised for ambition, the proposal had a flaw. The blank describes what economists found wrong with the central assumptions: the projected figures depended on conditions &ldquo;unlikely to occur simultaneously.&rdquo; The blank must mean something like impossible to sustain or defend.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Innovative&rdquo; is positive — inconsistent with the critical tone introduced by &ldquo;but.&rdquo; Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Untenable&rdquo; means impossible to defend or maintain — a strong fit for assumptions that depend on conditions unlikely to occur. However, check if a better answer exists.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Preliminary&rdquo; means early or not yet finalized — the economists are not saying the assumptions need more work, but that they are flawed. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Contentious&rdquo; means causing disagreement — while the proposal may be controversial, the passage says economists found the assumptions flawed based on historical data, not merely disputed. Eliminate D.</div><div class='explanation-step'>Returning to B: &ldquo;Untenable&rdquo; precisely captures assumptions that cannot be defended because they depend on historically unlikely conditions. Keep B.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank. Dr. Santos &ldquo;routinely challenged accepted findings&rdquo; and &ldquo;refused to endorse conclusions she considered premature.&rdquo; The blank describes this pattern of questioning and challenging established views.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Iconoclasm&rdquo; means the practice of attacking or rejecting established beliefs or institutions. A scientist who challenges accepted findings and refuses premature endorsements is an iconoclast. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Pragmatism&rdquo; means a practical, results-focused approach. This is unrelated to challenging accepted findings. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Deference&rdquo; means respectful submission to others&rsquo; views, the opposite of challenging them. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Diplomacy&rdquo; means skill in managing relations tactfully. This is unrelated to the intellectual challenge Dr. Santos presents. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
-    {
+{
       "id": "VerbalT2-2H-002",
       "type": "mcq",
       "level": 2,
@@ -40,7 +40,7 @@
         "vocabulary",
         "sentence completion"
       ],
-      "stem": "Once considered a <span class='blank'>_______</span> figure in behavioral economics, the researcher's reputation suffered considerably when a replication study revealed that the majority of her most celebrated findings could not be reproduced under controlled conditions.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+      "stem": "Once considered _______ in behavioral economics, the researcher's reputation suffered considerably when a replication study revealed that the majority of her most celebrated findings could not be reproduced under controlled conditions. Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
         "obscure",
         "polarizing",
@@ -63,15 +63,15 @@
         "vocabulary",
         "sentence completion"
       ],
-      "stem": "Critics who expected the philosopher's dense theoretical work to be inaccessible were surprised to find her prose style entirely <span class='blank'>_______</span> — her arguments, however abstract their subject matter, unfolded through a sequence of small, carefully verified steps that left no reader uncertain about where she had been or where she was going.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+      "stem": "Critics who expected the philosopher's dense theoretical work to be inaccessible were surprised to find her prose style entirely _______ — her arguments, however abstract their subject matter, unfolded through a sequence of small, carefully verified steps that left no reader uncertain about where she had been or where she was going. Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
         "turgid",
         "elliptical",
-        "pellucid",
+        "lucid",
         "abstruse"
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, there is no explicit direction signal — the reader must infer from the full passage what quality the blank describes. Critics expected the work to be inaccessible (&ldquo;dense theoretical work&rdquo;), but were surprised to find the prose &ldquo;entirely _______.&rdquo; The em dash then explains: arguments unfolded through verified steps that left no reader uncertain. The blank must mean something like completely clear and transparent — the opposite of what was expected.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Turgid&rdquo; means pompously difficult to understand — this is what critics expected, not what they found. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Elliptical&rdquo; means deliberately vague or indirect — the opposite of arguments that leave no reader uncertain. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Pellucid&rdquo; means translucently clear and easy to understand. Arguments that unfold through verified steps leaving no reader uncertain are pellucid. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Abstruse&rdquo; means difficult to understand — again, what critics expected, not what they found. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "explanation": "<div class='explanation-step'>The passage describes a prose style where even abstract arguments unfold through clear, small steps, leaving no reader confused. This points to a word meaning clear or easy to understand.</div><div class='explanation-step'><strong>A) turgid</strong> — means pompously inflated or obscure. Opposite of what the passage describes. Eliminate.</div><div class='explanation-step'><strong>B) elliptical</strong> — means deliberately obscure or omitting key information. Opposite. Eliminate.</div><div class='explanation-step'><strong>C) lucid</strong> — means expressed clearly; easy to understand. Matches perfectly. Keep.</div><div class='explanation-step'><strong>D) abstruse</strong> — means difficult to understand. Opposite. Eliminate.</div><br><br>The correct answer is <strong>C</strong>."
     },
     {
       "id": "VerbalT2-2H-004",
@@ -91,10 +91,10 @@
         "divisive",
         "incontrovertible",
         "unprecedented",
-        "ratified"
+        "inconsequential"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions at level 3, &ldquo;far from being&rdquo; signals that the blank describes what the treaty was NOT. The passage then shows it was &ldquo;bitterly disputed&rdquo; — signatories expressed reservations and nations refused to ratify. The blank must mean something like beyond all dispute or impossible to question.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Divisive&rdquo; means causing disagreement — if the treaty were &ldquo;far from divisive,&rdquo; that would mean it was harmonious, which contradicts the evidence of dispute. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Incontrovertible&rdquo; means impossible to dispute or deny. If the treaty was &ldquo;far from incontrovertible,&rdquo; it was very much open to dispute — consistent with the reservations and refusals to ratify described. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Unprecedented&rdquo; means never done before — unrelated to whether the treaty was disputed or agreed upon. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Ratified&rdquo; means officially approved — the passage says two nations refused to ratify, so &ldquo;far from ratified&rdquo; would be true, but this is too literal and doesn't capture the spirit of dispute. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "explanation": "<div class='explanation-step'>The historian argues the treaty was \"bitterly disputed\" — three signatories had private reservations and two nations delayed signing for years. This contradicts the idea that the treaty was settled or beyond question.</div><div class='explanation-step'><strong>A) divisive</strong> — means causing disagreement. But \"far from being divisive\" would mean it was NOT controversial, contradicting the historian's argument that it WAS bitterly disputed. Eliminate.</div><div class='explanation-step'><strong>B) incontrovertible</strong> — means not able to be denied or disputed. \"Far from being incontrovertible\" = it was very much in dispute. This fits the historian's argument perfectly. Keep.</div><div class='explanation-step'><strong>C) unprecedented</strong> — means never done before. Not relevant to whether the treaty was disputed. Eliminate.</div><div class='explanation-step'><strong>D) inconsequential</strong> — means unimportant. The treaty was clearly significant enough to be disputed; this doesn't fit the contrast. Eliminate.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-2H-005",
@@ -113,7 +113,7 @@
         "To explain Hardin's theory of the tragedy of the commons and introduce the scholarly challenge it has faced"
       ],
       "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>For <em>Main Purpose</em> questions, the correct answer must cover the full scope of the passage. Summarize: the passage explains Hardin's theory, then introduces Ostrom's challenge to it.</div><div class='explanation-step'><strong>D)</strong> The passage does not argue the theory should be rejected — it presents both Hardin's view and Ostrom's challenge evenhandedly. Eliminate A.</div><div class='explanation-step'><strong>A)</strong> Covers both main elements: Hardin's theory and the scholarly challenge it faced from Ostrom. Keep B.</div><div class='explanation-step'><strong>B)</strong> The passage mentions privatization and regulation as Hardin's proposed solutions, but does not compare their effectiveness. Eliminate C.</div><div class='explanation-step'><strong>C)</strong> Ostrom's Nobel is mentioned as context — the passage is not primarily about how she earned it. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Main Purpose</em> questions, the correct answer must cover the full scope of the passage. Summarize: the passage explains Hardin's theory, then introduces Ostrom's challenge to it.</div><div class='explanation-step'><strong>A)</strong> The passage does not argue the theory should be rejected — it presents both Hardin's view and Ostrom's challenge evenhandedly. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The passage mentions privatization and regulation as Hardin's proposed solutions, but does not compare their effectiveness. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Ostrom's Nobel is mentioned as context — the passage is not primarily about how she earned it. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Covers both main elements: Hardin's theory and the scholarly challenge it faced from Ostrom. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
     },
     {
       "id": "VerbalT2-2H-006",
@@ -132,7 +132,7 @@
         "average IQ scores in low-income countries will soon surpass those in high-income countries"
       ],
       "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions, the blank must follow directly from the passage's logic. The passage establishes that environmental factors drive IQ gains. It then says the effect is plateauing or reversing in high-income countries. The completion must explain what this plateau implies about those environmental factors.</div><div class='explanation-step'><strong>B)</strong> Test reliability is not addressed in the passage — introducing it here goes beyond what the evidence supports. Eliminate A.</div><div class='explanation-step'><strong>A)</strong> If environmental improvement drove earlier gains and the gains are now plateauing in countries that have experienced those improvements longest, it follows that those improvements may have reached their practical ceiling. Keep A.</div><div class='explanation-step'><strong>C)</strong> The plateau could be explained entirely by environmental factors reaching their limits — genetics need not be invoked. This also contradicts the passage's framing. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The passage does not address scores in low-income countries or make comparative predictions. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions, the blank must follow directly from the passage's logic. The passage establishes that environmental factors drive IQ gains. It then says the effect is plateauing or reversing in high-income countries. The completion must explain what this plateau implies about those environmental factors.</div><div class='explanation-step'><strong>A)</strong> If environmental improvement drove earlier gains and the gains are now plateauing in countries that have experienced those improvements longest, it follows that those improvements may have reached their practical ceiling. Keep A.</div><div class='explanation-step'><strong>B)</strong> Test reliability is not addressed in the passage — introducing it here goes beyond what the evidence supports. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> The plateau could be explained entirely by environmental factors reaching their limits — genetics need not be invoked. This also contradicts the passage's framing. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The passage does not address scores in low-income countries or make comparative predictions. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
       "id": "VerbalT2-2H-007",
@@ -514,7 +514,7 @@
         "Before the Great Oxidation Event, Earth's atmosphere contained virtually no free oxygen, making conditions inhospitable for most modern life forms."
       ],
       "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal requires both describing the event and identifying its most significant long-term consequence. The ozone layer's formation, which enabled complex life on land, is the most significant long-term consequence — the mass extinction, while dramatic, was an immediate effect.</div><div class='explanation-step'><strong>C)</strong> Describes the event (cyanobacteria, 2.4 billion years ago) but does not identify its most significant long-term consequence. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Identifies the mass extinction as a consequence — but this is an immediate effect, not the most significant long-term consequence for life on Earth. Eliminate B.</div><div class='explanation-step'><strong>A)</strong> Describes the event and identifies the ozone layer formation as the consequence that enabled complex life on land — the most significant long-term consequence. Keep A.</div><div class='explanation-step'><strong>D)</strong> Provides pre-event context only and does not describe the event itself or its consequences. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal requires both describing the event and identifying its most significant long-term consequence. The ozone layer's formation, which enabled complex life on land, is the most significant long-term consequence — the mass extinction, while dramatic, was an immediate effect.</div><div class='explanation-step'><strong>A)</strong> Describes the event and identifies the ozone layer formation as the consequence that enabled complex life on land — the most significant long-term consequence. Keep A.</div><div class='explanation-step'><strong>B)</strong> Describes the event (cyanobacteria, 2.4 billion years ago) but does not identify its most significant long-term consequence. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Identifies the mass extinction as a consequence — but this is an immediate effect, not the most significant long-term consequence for life on Earth. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Provides pre-event context only and does not describe the event itself or its consequences. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
       "id": "VerbalT2-2H-024",
@@ -549,7 +549,7 @@
         "By demonstrating that communities could effectively manage shared resources without privatization or government intervention, Ostrom challenged a foundational assumption of economic theory."
       ],
       "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is to explain what made Ostrom's work groundbreaking in economics specifically. The correct answer must identify what foundational assumption she challenged and why that was significant.</div><div class='explanation-step'><strong>A)</strong> Being the first woman to win the Nobel is historically notable but does not explain what made the economics research itself groundbreaking. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Describes her methodology and findings, but does not explain why they were groundbreaking — what assumption did she challenge? Eliminate B.</div><div class='explanation-step'><strong>D)</strong> Directly states the groundbreaking contribution: she challenged a foundational economic assumption (that shared resources inevitably lead to overexploitation) by demonstrating successful community management without state or market mechanisms. Keep D.</div><div class='explanation-step'><strong>C)</strong> Presents critics' limitations without explaining the groundbreaking nature of the original contribution. Eliminate D.</div><br><br>The correct answer is <strong>D</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is to explain what made Ostrom's work groundbreaking in economics specifically. The correct answer must identify what foundational assumption she challenged and why that was significant.</div><div class='explanation-step'><strong>A)</strong> Being the first woman to win the Nobel is historically notable but does not explain what made the economics research itself groundbreaking. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Describes her methodology and findings, but does not explain why they were groundbreaking — what assumption did she challenge? Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Presents what critics considered as limitations to her work. This evidence does not support the stated goal of explaining Ostrom's groundbreaking work. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Directly states the groundbreaking contribution: she challenged a foundational economic assumption (that shared resources inevitably lead to overexploitation) by demonstrating successful community management without state or market mechanisms. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
     },
     {
       "id": "VerbalT2-2H-025",

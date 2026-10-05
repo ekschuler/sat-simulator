@@ -7,7 +7,7 @@
     {
       "id": "VerbalT2-1-001",
       "type": "mcq",
-      "level": 1,
+      "level": 2,
       "skill": {
         "domain": "Craft and Structure",
         "topic": "Words in Context",
@@ -17,15 +17,15 @@
         "vocabulary",
         "sentence completion"
       ],
-      "stem": "Dr. Maria Santos had a reputation for _______ in her field: she routinely challenged accepted findings, demanded rigorous evidence for every claim, and refused to endorse conclusions she considered premature.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
+      "stem": "The senator's economic proposal was praised in some quarters for its ambition, but economists who examined it closely found its central assumptions <span class='blank'>_______</span>: the projected growth figures depended on conditions that historical data suggested were unlikely to occur simultaneously.<br><br>Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
-        "iconoclasm",
-        "pragmatism",
-        "deference",
-        "diplomacy"
+        "innovative",
+        "untenable",
+        "preliminary",
+        "contentious"
       ],
-      "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, use clues from the passage to determine what type of word fits in the blank. Dr. Santos &ldquo;routinely challenged accepted findings&rdquo; and &ldquo;refused to endorse conclusions she considered premature.&rdquo; The blank describes this pattern of questioning and challenging established views.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Iconoclasm&rdquo; means the practice of attacking or rejecting established beliefs or institutions. A scientist who challenges accepted findings and refuses premature endorsements is an iconoclast. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Pragmatism&rdquo; means a practical, results-focused approach. This is unrelated to challenging accepted findings. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Deference&rdquo; means respectful submission to others&rsquo; views, the opposite of challenging them. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Diplomacy&rdquo; means skill in managing relations tactfully. This is unrelated to the intellectual challenge Dr. Santos presents. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Vocabulary in Context</em> questions, the word &ldquo;but&rdquo; signals a direction change — despite being praised for ambition, the proposal had a flaw. The blank describes what economists found wrong with the central assumptions: the projected figures depended on conditions &ldquo;unlikely to occur simultaneously.&rdquo; The blank must mean something like impossible to sustain or defend.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Innovative&rdquo; is positive — inconsistent with the critical tone introduced by &ldquo;but.&rdquo; Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Untenable&rdquo; means impossible to defend or maintain — a strong fit for assumptions that depend on conditions unlikely to occur. However, check if a better answer exists.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Preliminary&rdquo; means early or not yet finalized — the economists are not saying the assumptions need more work, but that they are flawed. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Contentious&rdquo; means causing disagreement — while the proposal may be controversial, the passage says economists found the assumptions flawed based on historical data, not merely disputed. Eliminate D.</div><div class='explanation-step'>Returning to B: &ldquo;Untenable&rdquo; precisely captures assumptions that cannot be defended because they depend on historically unlikely conditions. Keep B.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
       "id": "VerbalT2-1-002",
@@ -115,46 +115,28 @@
       "answerIndex": 0,
       "explanation": "<div class='explanation-step'>For <em>Main Purpose</em> questions, the correct answer must reflect the full scope of the passage, and not just one part of it. Before looking at choices, summarize: the passage explains why cities are warmer (causes) and what might happen as this worsens (consequences).</div></div><div class='explanation-step'><strong>A)</strong> The passage does explain the causes (surfaces absorb heat, less vegetation) and the potential consequences (health risks, energy costs) of the urban heat island effect. Keep A.</div><div class='explanation-step'><strong>B)</strong> The passage describes the problem but does not suggest replacing all paved surfaces. This overstates the passage's argument. Eliminate B.<div class='explanation-step'><strong>C)</strong> The passage mentions the urban-rural temperature difference but does not compare multiple climates. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Evapotranspiration is one detail in the passage, not its main purpose. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
+    
     {
-      "id": "VerbalT2-1-006",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Information and Ideas",
-        "topic": "Central Ideas and Details",
-        "skill": "Logical Completion"
-      },
-      "stem": "When people encounter information that contradicts their existing beliefs, they tend to scrutinize it more carefully than information that confirms what they already think. This asymmetry, known as confirmation bias, means that two people reading the same article can walk away with opposite conclusions, each convinced that the evidence supports their prior view. Psychologists have documented this effect across a wide range of domains, from political beliefs to medical diagnoses. The persistence of confirmation bias even among trained experts suggests that _______.<br><br>Which choice most logically completes the text?",
-      "choices": [
-        "awareness of cognitive biases is sufficient to eliminate their influence on decision-making",
-        "the tendency to favor confirming evidence is deeply ingrained rather than a correctable error",
-        "political beliefs are more susceptible to confirmation bias than medical judgments",
-        "experts rely more heavily on evidence than non-experts when forming conclusions"
-      ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions, the correct answer must follow directly from the logic of the passage, especially the final sentence. The key phrase is \"even among trained experts\". This signals that expertise does not eliminate confirmation bias.</div><div class='explanation-step'><strong>A)</strong> If awareness were sufficient, experts (who are aware of biases) would not show the effect. This contradicts the passage. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> If even experts show confirmation bias, it is not simply a correctable error — it is a fundamental feature of how humans reason. Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage explicitly says the effect spans \"a wide range of domains\" without ranking them. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The passage shows experts are still affected by confirmation bias, not that they rely more heavily on evidence. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
-    },
+  "id": "VerbalT2-1-006",
+  "type": "mcq",
+  "level": 1,
+  "skill": {
+    "domain": "Information and Ideas",
+    "topic": "Command of Evidence",
+    "skill": "Quantitative Evidence"
+  },
+  "stem": "A marine biologist studying the effects of ocean acidification on shell-forming organisms collected the following data after exposing three species to water at different pH levels for 30 days:<br><br><table style='border-collapse:collapse;margin:12px auto;font-size:14px;'><thead><tr><th style='border:1px solid #ccc;padding:8px 16px;background:#f5f5f5;'>Species</th><th style='border:1px solid #ccc;padding:8px 16px;background:#f5f5f5;'>pH 8.1 (normal)</th><th style='border:1px solid #ccc;padding:8px 16px;background:#f5f5f5;'>pH 7.8 (acidified)</th><th style='border:1px solid #ccc;padding:8px 16px;background:#f5f5f5;'>Shell Mass Change</th></tr></thead><tbody><tr><td style='border:1px solid #ccc;padding:8px 16px;'>Pacific oyster</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>&minus;18%</td></tr><tr><td style='border:1px solid #ccc;padding:8px 16px;'>Purple sea urchin</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>&minus;6%</td></tr><tr><td style='border:1px solid #ccc;padding:8px 16px;'>Blue mussel</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>&minus;1%</td></tr></tbody></table><br>The biologist concluded that all three species are negatively affected by ocean acidification. Which choice best describes how the data in the table relates to this conclusion?",
+  "choices": [
+    "The data fully support the conclusion, since all three species show measurable shell mass loss under acidified conditions.",
+    "The data partially support the conclusion — while the Pacific oyster and purple sea urchin show clear negative effects, the blue mussel's shell loss of only 1% is too small to confirm a meaningful impact.",
+    "The data undermine the conclusion, because all three species survived exposure to acidified water.",
+    "The data are insufficient to support the conclusion, since the experiment only tested two pH levels."
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>For <em>Quantitative Evidence</em> questions, assess how well the data match the stated conclusion. The biologist concludes that <em>all three</em> species are negatively affected.</div><div class='explanation-step'>The Pacific oyster lost 18% of its shell mass — a substantial negative effect. The purple sea urchin lost 6% — a moderate negative effect. The blue mussel lost only 1%, which is so small it could fall within normal measurement variation, making it difficult to conclude definitively that the mussel was negatively affected.</div><div class='explanation-step'><strong>A)</strong> Overstates the data — calling the mussel's 1% loss a confirmed negative effect goes beyond what the data clearly show. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Correctly identifies that two species show clear negative effects while raising a legitimate question about whether the mussel's minimal shell loss supports the conclusion for all three species. Keep B.</div><div class='explanation-step'><strong>C)</strong> Survival and negative effects are not mutually exclusive — the oyster and urchin both survived yet still showed significant shell loss. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The number of pH levels tested is not relevant to whether the conclusion is supported by the data shown. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+},
     {
       "id": "VerbalT2-1-007",
-      "type": "mcq",
-      "level": 1,
-      "skill": {
-        "domain": "Information and Ideas",
-        "topic": "Command of Evidence",
-        "skill": "Quantitative Evidence"
-      },
-      "stem": "A marine biologist studying the effects of ocean acidification on shell-forming organisms collected the following data after exposing three species to water at different pH levels for 30 days:<br><br><table style='border-collapse:collapse;margin:12px auto;font-size:14px;'><thead><tr><th style='border:1px solid #ccc;padding:8px 16px;background:#f5f5f5;'>Species</th><th style='border:1px solid #ccc;padding:8px 16px;background:#f5f5f5;'>pH 8.1 (normal)</th><th style='border:1px solid #ccc;padding:8px 16px;background:#f5f5f5;'>pH 7.8 (acidified)</th><th style='border:1px solid #ccc;padding:8px 16px;background:#f5f5f5;'>Shell Mass Change</th></tr></thead><tbody><tr><td style='border:1px solid #ccc;padding:8px 16px;'>Pacific oyster</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>&minus;18%</td></tr><tr><td style='border:1px solid #ccc;padding:8px 16px;'>Purple sea urchin</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>&minus;6%</td></tr><tr><td style='border:1px solid #ccc;padding:8px 16px;'>Pteropod (sea snail)</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Dissolved</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>N/A</td></tr></tbody></table><br>The biologist concluded that all three species are negatively affected by ocean acidification. Which choice best describes how the data in the table relates to this conclusion?",
-      "choices": [
-        "The data fully support the conclusion, since all three species show measurable negative effects under acidified conditions.",
-        "The data partially support the conclusion — while the pteropod and Pacific oyster show clear negative effects, the purple sea urchin's shell loss of only 6% may not constitute a significant impact.",
-        "The data undermine the conclusion, because two of the three species survived exposure to acidified water.",
-        "The data are insufficient to support the conclusion, since the experiment only lasted 30 days."
-      ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Quantitative Evidence</em> questions, read the table carefully and assess how well the data match the conclusion. The biologist concludes that <em>all three</em> species are negatively affected.</div><div class='explanation-step'>The pteropod dissolved entirely — clearly negative. The Pacific oyster lost 18% of its shell mass — clearly negative. The purple sea urchin lost only 6% of shell mass and survived. Whether a 6% loss constitutes a &ldquo;significant negative effect&rdquo; is debatable, meaning the data only partially support the conclusion as stated.</div><div class='explanation-step'><strong>A)</strong> Claims all three show clear negative effects, but the purple sea urchin&rsquo;s 6% shell loss is ambiguous enough that calling it a definitive negative impact overstates what the data show. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Correctly identifies that the pteropod and oyster show clear negative effects, while raising a legitimate question about whether the sea urchin&rsquo;s modest shell loss confirms the conclusion for all three species. Keep B.</div><div class='explanation-step'><strong>C)</strong> Two species surviving does not undermine the conclusion. Survival and negative effects are not mutually exclusive, as the shell mass data shows. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The experiment duration is not addressed in the conclusion or the table. Introducing this as a limitation goes beyond the data provided. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
-    },
-    {
-      "id": "VerbalT2-1-008",
       "type": "mcq",
       "level": 2,
       "skill": {
@@ -173,7 +155,7 @@
       "explanation": "<div class='explanation-step'>For <em>Supporting a Claim</em> questions, identify the precise claim. Dr. Chen argues that bilingualism builds cognitive reserve, a buffer against neurological decline that delays dementia symptoms. The correct answer must provide evidence of this buffer effect.</div><div class='explanation-step'><strong>A)</strong> Greater brain activation shows bilingual brains work differently, but does not address whether this delays dementia symptoms. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This addresses when the benefit arises, not whether the benefit exists. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This would actually weaken the claim by suggesting the benefit is not permanent. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> If bilingual patients show fewer symptoms despite equivalent brain damage, this directly supports the idea that bilingualism provides a buffer — the brain tolerates more damage before symptoms appear. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
     },
     {
-      "id": "VerbalT2-1-009",
+      "id": "VerbalT2-1-008",
       "type": "mcq",
       "level": 2,
       "skill": {
@@ -192,7 +174,7 @@
       "explanation": "<div class='explanation-step'>For <em>Overall Structure</em> questions, identify what each part of the passage does. The first half describes the old attitude (dismissed, treated as noise). The second half describes the new attitude (studied seriously, found to produce real responses). The structure is a shift over time.</div><div class='explanation-step'><strong>A)</strong> The passage doesn't present a current consensus being challenged. Instead, it describes a complete shift in thinking. Eliminate A.</div><strong>B)</strong> The passage never compares placebos to conventional treatments in terms of effectiveness. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This answer accurately captures the shift in the passage from  dismissal (\"nuisance,\" \"controlled away\") to serious inquiry (\"worthy of investigation,\" measurable physiological responses). Keep C.</div><div class='explanation-step'><div class='explanation-step'><strong>D)</strong> The passage does not make this broad claim about all treatments. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
     },
     {
-      "id": "VerbalT2-1-010",
+      "id": "VerbalT2-1-009",
       "type": "mcq",
       "level": 2,
       "skill": {
@@ -202,16 +184,16 @@
       },
       "stem": "The Green Revolution of the mid-twentieth century dramatically increased agricultural yields through the development of high-yielding crop varieties, widespread irrigation, and the use of synthetic fertilizers and pesticides. These advances are credited with preventing widespread famine and feeding hundreds of millions of people. Critics, however, note that the Green Revolution also contributed to soil degradation, increased dependence on chemical inputs, and the displacement of traditional farming knowledge. Some argue that its benefits were distributed unequally, favoring large commercial farms over smallholders.<br><br>Which choice best states the main idea of the text?",
       "choices": [
-        "The Green Revolution successfully eliminated famine in the developing world.",
-        "While the Green Revolution dramatically increased food production, it also brought significant environmental and social costs.",
-        "The Green Revolution's reliance on synthetic chemicals has rendered modern agriculture unsustainable.",
-        "Critics of the Green Revolution are motivated primarily by a preference for traditional farming methods."
-      ],
+  "The Green Revolution successfully ended famine in the developing world by introducing high-yielding crops and modern irrigation techniques.",
+  "While the Green Revolution dramatically increased food production, it also brought significant environmental and social costs.",
+  "The Green Revolution's widespread use of synthetic chemicals has made modern agricultural systems largely unsustainable in the long term.",
+  "Smallholder farmers were the primary victims of the Green Revolution, which distributed its benefits almost exclusively to large commercial operations."
+],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Main Idea</em> questions, the correct answer must capture the full arc of the passage, and not just one detail. The passage presents both achievements and costs of the Green Revolution; it increased food production enormously but also created serious problems.</div><div class='explanation-step'><strong>A)</strong> The passage says famine was prevented, not eliminated. \"Eliminated\" makes this answer too strong. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This answer captures both the achievement (dramatically increased food production) and the costs (environmental and social). Keep B.</div><div class='explanation-step'><strong>C)</strong> This answer focuses on one criticism (chemicals) and overstates it. Eliminate C.<div class='explanation-step'><strong>D)</strong> This answer misrepresents critics' motivations. The critics raise environmental and equity concerns, not just a preference for tradition. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "explanation": "<div class='explanation-step'>For <em>Main Idea</em> questions, the correct answer must capture the full arc of the passage, not just one detail. The passage presents both achievements and costs of the Green Revolution.</div><div class='explanation-step'><strong>A)</strong> The passage says famine was prevented, not ended entirely. \"Successfully ended\" overstates the claim. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Captures both the achievement (dramatically increased food production) and the costs (environmental and social). Keep B.</div><div class='explanation-step'><strong>C)</strong> Focuses only on synthetic chemicals and overstates the conclusion — the passage does not say agriculture is \"largely unsustainable.\" Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Overstates what the passage says — it mentions that benefits favored large farms over smallholders, but does not say smallholders were the \"primary victims\" or that benefits went \"almost exclusively\" to large operations. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
-      "id": "VerbalT2-1-011",
+      "id": "VerbalT2-1-010",
       "type": "mcq",
       "level": 3,
       "skill": {
@@ -246,7 +228,7 @@
       "explanation": "<div class='explanation-step'>For <em>Function of a Sentence</em> questions, read the preceding sentences to understand what the underlined sentence does in relation to them. James argues that every small act of virtue or vice &ldquo;leaves its scar&rdquo;; character is shaped by small habits. The underlined sentence then illustrates this with Rip Van Winkle, who tells himself his derelictions don&rsquo;t count. But James insists &ldquo;it is being counted none the less.&rdquo;</div><div class='explanation-step'><strong>A)</strong> The Rip Van Winkle example concretely illustrates how moral lapses accumulate even when denied, directly supporting James&rsquo;s claim about habits leaving their mark. Keep A.</div><div class='explanation-step'><strong>B)</strong> The sentence does not introduce a counterargument; it reinforces James&rsquo;s claim with an example. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Heaven is mentioned but only in passing. The sentence is about psychological accumulation, not religious development. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The sentence is a specific illustrative example, not a summary of the broader argument. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
-      "id": "VerbalT2-1-012",
+      "id": "VerbalT2-1-011",
       "type": "mcq",
       "level": 3,
       "skill": {
@@ -256,63 +238,71 @@
       },
       "stem": "Conservation biologist Dr. Amara Diallo argues that rewilding programs — reintroducing apex predators to ecosystems from which they were eliminated — consistently produce measurable improvements in biodiversity across all species in the ecosystem. She points to the reintroduction of wolves to Yellowstone as evidence that a single apex predator can trigger cascading positive effects throughout an entire food web.<br><br>Which finding, if true, would most directly undermine Dr. Diallo's claim?",
       "choices": [
-        "Wolves reintroduced to Yellowstone have reduced elk populations, allowing vegetation to recover in several areas.",
-        "Rewilding programs are significantly more expensive per acre than habitat restoration programs.",
-        "Several rewilding programs in Europe have failed to produce significant biodiversity improvements despite successful predator reintroduction.",
-        "Dr. Diallo's research was conducted primarily in North American ecosystems, limiting its generalizability."
-      ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>For <em>Weakening a Claim</em> questions, identify the precise claim. Dr. Diallo claims rewilding programs <em>consistently</em> produce measurable biodiversity improvements. To undermine this, the correct answer must show that the pattern does not hold consistently.</div><div class='explanation-step'><strong>A)</strong> This answer actually supports Dr. Diallo's claim; wolves triggering vegetation recovery is exactly the kind of cascading positive effect she describes. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Cost is irrelevant to whether rewilding produces biodiversity improvements. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> If rewilding programs in Europe have failed to improve biodiversity despite successful predator reintroduction, this directly contradicts the claim that rewilding <em>consistently</em> produces improvements. Keep C.</div><div class='explanation-step'><strong>D)</strong> This raises a question about generalizability but does not show that the positive effects failed to occur — it just questions the scope. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  "In ecosystems where apex predators were reintroduced alongside active habitat restoration, nearly all monitored species showed measurable biodiversity gains.",
+  "Rewilding programs are significantly more expensive per acre than habitat restoration programs that achieve similar biodiversity outcomes.",
+  "Several rewilding programs in Europe have failed to produce significant biodiversity improvements despite successful predator reintroduction.",
+  "Studies of the Yellowstone reintroduction have found that the observed biodiversity gains were largely attributable to concurrent reductions in hunting pressure rather than to wolf reintroduction itself."
+],
+"answerIndex": 2,
+"explanation": "<div class='explanation-step'>Dr. Diallo claims rewilding programs <em>consistently</em> produce measurable biodiversity improvements, citing Yellowstone as evidence.</div><div class='explanation-step'><strong>A)</strong> This supports the claim — biodiversity gains across nearly all species is exactly what Dr. Diallo predicts. The phrase \"nearly all\" is not a meaningful qualifier against a claim about measurable improvements. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Cost comparisons are irrelevant to whether rewilding produces biodiversity improvements. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> If rewilding programs elsewhere have failed to produce biodiversity improvements despite successful reintroduction, this directly contradicts the claim that such programs <em>consistently</em> produce improvements. Keep C.</div><div class='explanation-step'><strong>D)</strong> This is tempting because it challenges the Yellowstone evidence Dr. Diallo relies on. However, it weakens only her supporting example, not her broader claim about rewilding programs generally. Even if Yellowstone's gains were due to reduced hunting, other rewilding evidence could still support her claim. C more directly contradicts the claim itself. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
     },
     {
+  "id": "VerbalT2-1-012",
+  "type": "mcq",
+  "level": 3,
+  "skill": {
+    "domain": "Information and Ideas",
+    "topic": "Command of Evidence",
+    "skill": "Textual Evidence"
+  },
+  "stem": "In his 1841 essay &ldquo;Self-Reliance,&rdquo; Ralph Waldo Emerson argues that most people abandon their own genuine convictions the moment they encounter social disapproval, writing <span class='blank'>_______</span>.<br><br>Which quotation from &ldquo;Self-Reliance&rdquo; most effectively illustrates the claim?",
+  "choices": [
+    "&ldquo;To be great is to be misunderstood.&rdquo;",
+    "&ldquo;A foolish consistency is the hobgoblin of little minds, adored by little statesmen and philosophers and divines.&rdquo;",
+    "&ldquo;What I must do is all that concerns me, not what the people think.&rdquo;",
+    "&ldquo;Trust thyself: every heart vibrates to that iron string.&rdquo;"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>For <em>Illustrating Claims with Quotations</em> questions, the correct quotation must directly illustrate the specific claim. The claim is that people abandon genuine convictions when they face social disapproval.</div><div class='explanation-step'><strong>A)</strong> About the relationship between greatness and being misunderstood — implies nonconformity but does not directly address abandoning convictions under social pressure. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Criticizes intellectual consistency as small-minded but does not directly address the pressure to abandon convictions when facing disapproval. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;What I must do is all that concerns me, not what the people think&rdquo; directly states that one&rsquo;s own convictions take priority over social opinion. Keep C.</div><div class='explanation-step'><strong>D)</strong> A call to self-reliance but does not specifically address the moment of social disapproval when convictions are abandoned. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+},
+{
       "id": "VerbalT2-1-013",
       "type": "mcq",
-      "level": 3,
+      "level": 2,
       "skill": {
         "domain": "Information and Ideas",
-        "topic": "Command of Evidence",
-        "skill": "Textual Evidence"
+        "topic": "Central Ideas and Details",
+        "skill": "Logical Completion"
       },
-      "stemSegments": [
-        {
-          "text": "In his 1841 essay &ldquo;Self-Reliance,&rdquo; Ralph Waldo Emerson argues that most people abandon their own genuine convictions the moment they encounter social disapproval, writing <span class='blank'>_______</span>.",
-          "align": "left",
-          "style": "passage"
-        },
-        {
-          "text": "Which quotation from \"Self-Reliance\" most effectively illustrates the claim?",
-          "align": "left",
-          "style": "question"
-        }
-      ],
+      "stem": "When people encounter information that contradicts their existing beliefs, they tend to scrutinize it more carefully than information that confirms what they already think. This asymmetry, known as confirmation bias, means that two people reading the same article can walk away with opposite conclusions, each convinced that the evidence supports their prior view. Psychologists have documented this effect across a wide range of domains, from political beliefs to medical diagnoses. The persistence of confirmation bias even among trained experts suggests that _______.<br><br>Which choice most logically completes the text?",
       "choices": [
-        "&ldquo;To be great is to be misunderstood.&rdquo;",
-        "&ldquo;A foolish consistency is the hobgoblin of little minds, adored by little statesmen and philosophers and divines.&rdquo;",
-        "&ldquo;What I must do is all that concerns me, not what the people think.&rdquo;",
-        "&ldquo;Trust thyself: every heart vibrates to that iron string.&rdquo;"
+        "awareness of cognitive biases is sufficient to eliminate their influence on decision-making",
+        "the tendency to favor confirming evidence is deeply ingrained rather than a correctable error",
+        "political beliefs are more susceptible to confirmation bias than medical judgments",
+        "experts rely more heavily on evidence than non-experts when forming conclusions"
       ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>For <em>Illustrating Claims with Quotations</em> questions, the correct quotation must directly illustrate the specific claim. The claim is that people abandon genuine convictions when they face social disapproval — the quotation must show someone prioritizing their own judgment over others&rsquo; opinions explicitly.</div><div class='explanation-step'><strong>A)</strong> This line is about the relationship between greatness and being misunderstood — it implies nonconformity but does not directly address abandoning convictions under social pressure. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> This criticizes intellectual consistency as small-minded but does not directly address the pressure to abandon convictions when facing disapproval. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;What I must do is all that concerns me, not what the people think&rdquo; directly states that one&rsquo;s own convictions take priority over social opinion — precisely illustrating the claim. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Trust thyself&rdquo; is a call to self-reliance but does not specifically address the moment of social disapproval when convictions are abandoned. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "answerIndex": 1,
+      "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions, the correct answer must follow directly from the logic of the passage, especially the final sentence. The key phrase is \"even among trained experts\". This signals that expertise does not eliminate confirmation bias.</div><div class='explanation-step'><strong>A)</strong> If awareness were sufficient, experts (who are aware of biases) would not show the effect. This contradicts the passage. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> If even experts show confirmation bias, it is not simply a correctable error — it is a fundamental feature of how humans reason. Keep B.</div><div class='explanation-step'><strong>C)</strong> The passage explicitly says the effect spans \"a wide range of domains\" without ranking them. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The passage shows experts are still affected by confirmation bias, not that they rely more heavily on evidence. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
-    {
-      "id": "VerbalT2-1-014",
-      "type": "mcq",
-      "level": 1,
-      "skill": {
-        "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
-      },
-      "stem": "Each of the migratory bird species documented in the study _______ a unique route between its summer and winter habitats, shaped by centuries of evolutionary adaptation.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
-      "choices": [
-        "have followed",
-        "are following",
-        "follows",
-        "follow"
-      ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>The answer choices are different verb forms, so this question tests <strong>Subject-Verb Agreement</strong>. Identify the subject, which is &ldquo;Each.&rdquo; The phrase &ldquo;of the migratory bird species documented in the study&rdquo; is a prepositional phrase modifying &ldquo;each&rdquo; (and interrupting the flow of the sentence connecting the subject and verb). &ldquo;Each&rdquo; is always singular, so the correct answer must contain a singular verb.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Have followed&rdquo; is plural present perfect. This is an incorrect tense, but also for the singular subject &ldquo;each.&rdquo; (have is plural, not singular). Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Are following&rdquo; is plural present progressive. This is also incorrect because \"are\" is plural. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Follows&rdquo; is third-person singular present tense. This is the correct tense and is singular. Keep C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Follow&rdquo; is plural, which is incorrect as it should be singular. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
-    },
+   {
+  "id": "VerbalT2-1-014",
+  "type": "mcq",
+  "level": 1,
+  "skill": {
+    "domain": "Standard English Conventions",
+    "topic": "Boundaries",
+    "skill": "Run-On Sentences"
+  },
+  "stem": "The monarch butterfly's annual migration spans thousands of miles, _______ no single butterfly completes the entire journey in one generation.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "however",
+    "however,",
+    "but",
+    "and"
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>The blank connects two independent clauses already joined by a comma. \"The monarch butterfly's annual migration spans thousands of miles\" and \"no single butterfly completes the entire journey in one generation\" are both complete sentences. A comma alone cannot join two independent clauses — a coordinating conjunction is needed.</div><div class='explanation-step'><strong>A)</strong> \"however\" is a conjunctive adverb, not a coordinating conjunction. A comma before \"however\" creates a comma splice. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"however,\" — same problem as A, plus the additional comma after \"however\" makes the construction worse. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"but\" is a coordinating conjunction. A comma followed by a coordinating conjunction correctly joins two independent clauses. Keep C.</div><div class='explanation-step'><strong>D)</strong> \"and\" is also a coordinating conjunction and grammatically correct, but the relationship between the two clauses is one of contrast, not addition — \"but\" is the more logical and precise choice. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+},
     {
       "id": "VerbalT2-1-015",
       "type": "mcq",
@@ -371,24 +361,24 @@
       "explanation": "<div class='explanation-step'>The answer choices are different pronouns, so this question tests <strong>Pronoun-Antecedent Agreement</strong>. The antecedent is \"committee\" — a collective noun that acts as a single unit. Collective nouns in American English take singular pronouns when the group acts as one.</div><div class='explanation-step'><strong>A)</strong> \"Their\" is plural — while sometimes used as a singular gender-neutral pronoun for individuals, it is not standard when referring to a collective noun acting as a unit. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"His or her\" is singular but refers to a person, not an organization or institution. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"Its\" is the singular neutral pronoun — correct for a collective noun like \"committee\" acting as a single unit. Keep C.</div><div class='explanation-step'><strong>D)</strong> \"Our\" is first person plural and has no logical antecedent in this sentence. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
     },
     {
-      "id": "VerbalT2-1-018",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
-      },
-      "stem": "After conducting extensive fieldwork in the Amazon basin for three years, the researchers, who had initially expected to find only a handful of undocumented species, _______ their biodiversity findings in a leading scientific journal.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
-      "choices": [
-        "their biodiversity findings were published",
-        "published",
-        "to publish",
-        "having published"
-      ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>A sentence beginning with a participial phrase tests <strong>Modifier Placement</strong>. The opening phrase &ldquo;After conducting extensive fieldwork in the Amazon basin for three years&rdquo; describes whoever did the conducting — only people can conduct fieldwork. The subject after the comma-enclosed interrupting clause must be the researchers.</div><div class='explanation-step'>The interrupting clause &ldquo;who had initially expected to find only a handful of undocumented species&rdquo; is set off by commas and modifies &ldquo;the researchers.&rdquo; After the interrupting clause, the verb must continue the main clause.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Their biodiversity findings were published&rdquo; — the subject &ldquo;their biodiversity findings&rdquo; cannot have conducted fieldwork. Dangling modifier. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;Published&rdquo; is the correct simple past verb for the subject &ldquo;the researchers&rdquo; — who conducted the fieldwork and then published their findings. Keep B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;To publish&rdquo; is an infinitive — it cannot serve as the main verb of the sentence. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;Having published&rdquo; is a participial phrase — it cannot serve as the main verb. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
-    },
+  "id": "VerbalT2-1-018",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Standard English Conventions",
+    "topic": "Form, Structure, and Sense",
+    "skill": "Modifier Placement"
+  },
+  "stem": "After conducting extensive fieldwork in the Amazon basin for three years, _______ their biodiversity findings in a leading scientific journal.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "the researchers published",
+    "the findings were published by the researchers as",
+    "a leading journal accepted",
+    "publication was given to the researchers for"
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>The opening participial phrase \"After conducting extensive fieldwork in the Amazon basin for three years\" must modify the subject that immediately follows the comma. Only people can conduct fieldwork, so the subject must be the researchers.</div><div class='explanation-step'><strong>A)</strong> \"the researchers published\" — the researchers correctly follow the modifier and serve as the subject who conducted the fieldwork. Keep A.</div><div class='explanation-step'><strong>B)</strong> \"the findings were published by the researchers\" — \"the findings\" cannot have conducted fieldwork. Dangling modifier. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"a leading journal accepted\" — the journal did not conduct the fieldwork. Dangling modifier. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"publication was given to the researchers\" — \"publication\" cannot have conducted fieldwork. Dangling modifier. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+},
     {
       "id": "VerbalT2-1-019",
       "type": "mcq",
@@ -428,24 +418,24 @@
       "explanation": "<div class='explanation-step'>For <em>Logical Transition</em> questions, determine the relationship between the two ideas. The first sentence describes the Amazon as a carbon absorber. The second says it has become a carbon emitter — this directly contradicts the first idea. The transition must signal contrast.</div><div class='explanation-step'><strong>A)</strong> \"Therefore\" signals causation — the second idea does not result from the first. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"However\" signals contrast. This correctly represents the relationship here. Keep B.</div><div class='explanation-step'><strong>C)</strong> \"Similarly\" signals parallel ideas. The two ideas are opposite, not parallel. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Indeed\" signals confirmation. The second sentence contradicts rather than confirms the first. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
-      "id": "VerbalT2-1-021",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Transitions",
-        "skill": "Logical Transition"
-      },
-      "stem": "Scientists have long assumed that individual neurons in the brain operate as simple on/off switches, either firing or remaining silent. <span class='blank'>_______</span> emerging research indicates that neurons may communicate through a far more complex range of electrical signals than previously understood.<br><br>Which choice completes the text with the most logical transition?",
-      "choices": [
-        "In contrast,",
-        "Furthermore,",
-        "Nevertheless,",
-        "That said,"
-      ],
-      "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>For <em>Logical Transition</em> questions at level 2, multiple choices may seem to signal contrast — the correct answer requires precision about the relationship. The first sentence states a long-held assumption. The second introduces new research that complicates it. This is not a direct contradiction but a nuanced qualification.</div><div class='explanation-step'><strong>A)</strong> \"In contrast\" implies direct opposition — as if the new research proves neurons do <em>not</em> fire or stay silent. But the research says they do more than that, not the opposite. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Furthermore\" implies the second idea adds to and supports the first. The new research complicates the assumption, not supports it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"Nevertheless\" implies the second idea holds true <em>despite</em> the first — as if something in the first sentence tries to prevent the conclusion of the second. That logic doesn't fit. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"That said\" signals acknowledgment of the prior point while introducing a complication or qualification. It says: \"the on/off assumption has been held — but here is something more complex.\" Keep D.</div><br><br>The correct answer is <strong>D</strong>."
-    },
+  "id": "VerbalT2-1-021",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Expression of Ideas",
+    "topic": "Transitions",
+    "skill": "Logical Transition"
+  },
+  "stem": "Honeybee colonies regulate their internal temperature with remarkable precision, maintaining the hive at approximately 35 degrees Celsius year-round regardless of external conditions. <span class='blank'>_______</span> even modest disruptions to this thermal regulation — such as those caused by certain pesticides — can trigger widespread colony collapse.<br><br>Which choice completes the text with the most logical transition?",
+  "choices": [
+    "Therefore,",
+    "However,",
+    "For example,",
+    "Similarly,"
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>The first sentence establishes that honeybee colonies depend on precise temperature regulation. The second explains what happens when that regulation is disrupted — colony collapse. The second idea is a consequence of the first, so the transition must signal cause and effect.</div><div class='explanation-step'><strong>A)</strong> \"Therefore\" signals that the second idea follows logically from the first. If colonies depend on precise thermal regulation, it follows that disrupting it causes collapse. Keep A.</div><div class='explanation-step'><strong>B)</strong> \"However\" signals contrast. The second sentence does not contradict the first — it builds on it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"For example\" signals that the second idea illustrates the first. Colony collapse is a consequence, not an example of precise temperature regulation. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Similarly\" signals parallel ideas. The two sentences are not parallel — one states a fact and the other states a consequence. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+},
     {
       "id": "VerbalT2-1-022",
       "type": "mcq",
@@ -484,38 +474,42 @@
     {
       "id": "VerbalT2-1-023",
       "type": "mcq",
-      "level": 1,
-      "skill": {
+          "skill": {
         "domain": "Expression of Ideas",
         "topic": "Rhetorical Synthesis",
         "skill": "Using Notes"
       },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["student research", "summarizing ideas"],
+
       "stemSegments": [
-        {
-          "text": "While researching a topic, a student has taken the following notes:",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "• A 2023 study found that urban trees reduce local temperatures by an average of 2&ndash;4&deg;C.\n• Trees provide shade that reduces cooling costs in nearby buildings.\n• Tree roots absorb stormwater, reducing flooding risk.\n• Urban trees improve air quality by filtering pollutants.\n• A single mature tree can absorb up to 48 pounds of CO₂ per year.",
-          "align": "left",
-          "style": "notes"
-        },
-        {
-          "text": "The student wants to emphasize the climate-related benefits of urban trees specifically. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
-          "align": "left",
-          "style": "question"
-        }
-      ],
-      "choices": [
-        "Urban trees improve air quality by filtering pollutants and can absorb up to 48 pounds of CO₂ per year.",
-        "Urban trees reduce flooding risk by absorbing stormwater through their root systems.",
-        "Urban trees provide multiple environmental benefits, including temperature reduction, stormwater absorption, and air quality improvement.",
-        "Urban trees reduce local temperatures by 2&ndash;4&deg;C, lower building cooling costs, and absorb significant amounts of CO₂, making them a valuable tool for urban climate adaptation."
-      ],
-      "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is key. The student wants to emphasize <em>climate-related</em> benefits specifically — not all environmental benefits.</div><div class='explanation-step'><strong>A)</strong> CO₂ absorption is climate-related, but air quality filtering is a general environmental benefit, not specifically a climate benefit. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Stormwater absorption addresses flooding, not climate specifically. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This answer is too broad, and it includes stormwater and air quality, which are not specifically climate benefits.</div><div class='explanation-step'><strong>D)</strong> Combines three specifically climate-related benefits (temperature reduction, cooling costs, CO₂ absorption) and frames them explicitly as climate adaptation tools. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+    {
+      "text": "While researching a topic, a student has taken the following notes:",
+      "align": "left",
+      "style": "default"
     },
+    {
+      "text": "• The New Deal, initiated by President Roosevelt in response to the Great Depression, aimed to restore economic security and stability for Americans.\n• Implemented in the 1930s, the New Deal introduced regulatory reforms and social welfare programs to stabilize the economy.\n• The major initiatives of the New Deal also sought to rebuild public trust in financial institutions and strengthen the nation’s banking system.\n• The Great Society, launched in the 1960s, sought to reduce poverty and address social inequalities across the United States.\n• Under President Johnson, the Great Society introduced programs to enhance education, protect civil rights, and expand access to healthcare.",
+      "align": "left",
+      "style": "notes"
+    },
+    {
+      "text": "The student wants to highlight how the New Deal and the Great Society focused on different social and economic goals. Which choice most effectively uses relevant information from the notes to show this difference?",
+      "align": "left",
+      "style": "question"
+    }
+  ],
+  "choices": [
+    "The New Deal, initiated by President Roosevelt in response to the Great Depression, aimed to restore economic security and stability for Americans, and the Great Society, launched in the 1960s, sought to reduce poverty and address social inequalities across the United States.",
+    "The major initiatives of the New Deal targeted unemployment, financial instability, and the erosion of public confidence in the banking system, and the Great Society introduced programs to enhance education, protect civil rights, and expand access to healthcare.",
+    "While the New Deal primarily addressed economic recovery, regulatory reforms, and banking stability, the Great Society focused on reducing poverty, expanding access to education, and promoting civil rights.",
+    "The New Deal was implemented in the 1930s, and the Great Society was launched in the 1960s."
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>For <em>Student Research</em> questions, focus on what the student wants to highlight or accomplish. In this case, the student wants to <em>contrast</em> the New Deal and the Great Society and their <em>different social and economic goals</em>. The correct answer must therefore mention both programs and make the contrast in their goals clear.  Looking at the list of bulleted notes, the following state those goals:<ul style='margin-top:8px; margin-bottom:8px; padding-left:20px; line-height:1.8;'><li>The New Deal, initiated by President Roosevelt in response to the Great Depression, aimed to restore economic security and stability for Americans.</li><li>The Great Society, launched in the 1960s, sought to reduce poverty and address social inequalities across the United States.</li></ul></div><div class='explanation-step'>The correct answer should paraphrase these stated goals and should indicate a contrast between them.</div><div class='explanation-step'><strong>A)</strong>This answer is accurate and mentions both programs with their goals. Keep A.</div><div class='explanation-step'><strong>B)</strong>This choice gives detailed examples of the programs rather than a broad contrast of goals, which makes it less aligned with the task. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>This choice uses the word &ldquo;while,&rdquo; which signals contrast and clearly distinguishes the focus of each program. It directly fulfills the prompt’s goal of contrasting their different aims. Keep C.</div><div class='explanation-step'><strong>D)</strong>This is purely chronological and doesn’t mention the programs’ goals. Eliminate D.</div><div class='explanation-step'>Now compare A and C: although A accurately describes both programs, it lists them side by side rather than contrasting them. The lack of a transition like &ldquo;while&rdquo; or &ldquo;whereas&rdquo; means it doesn’t fulfill the rhetorical goal, and makes C the <em>best</em> answer. Eliminate A and this means <strong>C</strong> is the correct answer.</div>"
+},
     {
       "id": "VerbalT2-1-024",
       "type": "mcq",
@@ -551,41 +545,41 @@
       "answerIndex": 0,
       "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is to present a <em>tension</em> between the two studies — meaning the correct answer must show how their findings pull in opposite directions.</div><div class='explanation-step'><strong>A)</strong> Directly names the tension: remote work improves satisfaction (Watanabe) but reduces advancement (Al-Rashid) — pulling in opposite directions. Keep A.</div><div class='explanation-step'><strong>B)</strong> Focuses on hybrid work, which is a point of agreement between the researchers, not a tension. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Describes the methodological differences, not the tension in findings. Eliminate C.</div><div class='explanation-step'><strong>D)</strong>This answer is too vague. It introduces the topic but does not present any tension. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
+{
+  "id": "VerbalT2-1-025",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Expression of Ideas",
+    "topic": "Rhetorical Synthesis",
+    "skill": "Using Notes"
+  },
+  "stemSegments": [
     {
-      "id": "VerbalT2-1-025",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Rhetorical Synthesis",
-        "skill": "Using Notes"
-      },
-      "stemSegments": [
-        {
-          "text": "While researching a topic, a student has taken the following notes:",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "• The passenger pigeon was once the most abundant bird in North America, with flocks numbering in the billions.\n• The last known passenger pigeon, named Martha, died in captivity at the Cincinnati Zoo in 1914.\n• Hunting and habitat destruction caused the species’ rapid decline in the late 1800s.\n• The extinction took less than 50 years from peak abundance to complete disappearance.\n• De-extinction scientists are now attempting to revive the passenger pigeon using genetic engineering.",
-          "align": "left",
-          "style": "notes"
-        },
-        {
-          "text": "The student wants to argue that the passenger pigeon’s extinction should complicate narratives of American industrial progress in the late nineteenth century. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
-          "align": "left",
-          "style": "question"
-        }
-      ],
-      "choices": [
-        "The passenger pigeon, once numbering in the billions, went from peak abundance to complete extinction in fewer than 50 years — a collapse driven by the same hunting and habitat destruction that characterized American industrial expansion.",
-        "The last passenger pigeon, Martha, died at the Cincinnati Zoo in 1914, marking the end of a species that had once numbered in the billions.",
-        "De-extinction scientists are now attempting to revive the passenger pigeon through genetic engineering, raising questions about humanity’s responsibility for species it has eliminated.",
-        "Hunting and habitat destruction in the late 1800s were responsible for the passenger pigeon’s decline, though the species had recovered from population pressures before."
-      ],
-      "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is to argue that the extinction should <em>complicate narratives of American industrial progress</em>. The correct answer must connect the extinction explicitly to the forces of industrial expansion, not just state that it happened.</div><div class='explanation-step'><strong>A)</strong> Directly links the extinction (&ldquo;collapse driven by hunting and habitat destruction&rdquo;) to the forces of industrial expansion, making the case that progress and extinction were connected. Keep A.</div><div class='explanation-step'><strong>B)</strong> States the fact of extinction and prior abundance but makes no connection to industrial progress or any argument about what the extinction should complicate. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Focuses on de-extinction efforts — a contemporary development that does not address industrial progress in the late nineteenth century. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Identifies the cause of decline but introduces a false claim (&ldquo;the species had recovered from population pressures before&rdquo;) not supported by the notes. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+      "text": "While researching a topic, a student has taken the following notes:",
+      "align": "left",
+      "style": "default"
     },
+    {
+      "text": "• The passenger pigeon was once the most abundant bird in North America, with flocks numbering in the billions.\n• The last known passenger pigeon, named Martha, died in captivity at the Cincinnati Zoo in 1914.\n• Hunting and habitat destruction caused the species' rapid decline in the late 1800s.\n• The extinction took less than 50 years from peak abundance to complete disappearance.\n• De-extinction scientists are now attempting to revive the passenger pigeon using genetic engineering.",
+      "align": "left",
+      "style": "notes"
+    },
+    {
+      "text": "The student wants to argue that the passenger pigeon's extinction should complicate narratives of American industrial progress in the late nineteenth century. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "align": "left",
+      "style": "question"
+    }
+  ],
+  "choices": [
+    "The passenger pigeon went from billions to extinction in under 50 years — a collapse driven by hunting and habitat destruction, the same forces that defined American industrial expansion.",
+    "The last passenger pigeon, Martha, died at the Cincinnati Zoo in 1914, just decades after the species had numbered in the billions across North America.",
+    "De-extinction scientists are now using genetic engineering in an attempt to revive the passenger pigeon, a species that vanished entirely in the early twentieth century.",
+    "Hunting and habitat destruction drove the passenger pigeon to extinction in fewer than 50 years, a decline that unfolded rapidly from the species' peak abundance."
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>The goal is to argue that the extinction should <em>complicate narratives of American industrial progress</em>. The correct answer must explicitly connect the extinction to the forces of industrial expansion.</div><div class='explanation-step'><strong>A)</strong> Links the extinction directly to \"the same forces that defined American industrial expansion\" — making the argument the student needs. Keep A.</div><div class='explanation-step'><strong>B)</strong> States facts about Martha and peak abundance but makes no connection to industrial progress. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Focuses on de-extinction efforts — a contemporary development irrelevant to the nineteenth-century argument. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Describes the cause and speed of decline but does not connect it to American industrial progress or any narrative about expansion. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+},
     {
       "id": "VerbalT2-1-026",
       "type": "mcq",
@@ -648,13 +642,13 @@
         }
       ],
       "choices": [
-        "Critics argue that structural factors like socioeconomic status shape outcomes independently of grit, but Duckworth acknowledges that grit is not the only factor in success.",
-        "While critics raise concerns about structural factors that grit research ignores, the 2022 meta-analysis directly challenges the empirical foundation of Duckworth’s claim by showing that grit’s predictive power is significantly weaker than her original studies indicated.",
-        "Dr. Duckworth’s research showed that grit predicted graduation at West Point more accurately than the academy’s own admissions composite, but this finding has not been replicated across other institutional contexts.",
-        "The 2022 meta-analysis of 88 studies represents the largest systematic review of grit research to date, making it the most comprehensive assessment of the theory’s validity."
-      ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal requires a precise comparison: explain why the meta-analysis poses a <em>more significant</em> challenge than the structural objection. The correct answer must show that the meta-analysis attacks the empirical core of the theory, while the structural objection is one Duckworth has already partially accommodated.</div><div class='explanation-step'><strong>A)</strong> Shows the structural objection and Duckworth&rsquo;s response, but does not explain how the meta-analysis poses a greater challenge. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Correctly contrasts the two challenges: critics raise structural concerns (which Duckworth can partially absorb by acknowledging grit is not the only factor), while the meta-analysis directly undermines the empirical claim that grit is a strong predictor — the foundation of the theory. Keep B.</div><div class='explanation-step'><strong>C)</strong> Raises a question about replication of the West Point finding but does not address the meta-analysis or compare its significance to the structural objection. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Notes the meta-analysis&rsquo;s scope but does not explain why it poses a greater challenge than the structural objection. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  "Critics raise structural concerns that grit research ignores, but Duckworth has already acknowledged that grit is not the only factor in success, partially absorbing that objection.",
+  "While critics question whether grit research accounts for structural factors, the 2022 meta-analysis directly weakens the empirical foundation of Duckworth's claim that grit is a strong predictor of achievement.",
+  "Duckworth's West Point finding showed grit outperforming the academy's admissions composite, but this result has not been consistently replicated across other institutional contexts.",
+  "The 2022 meta-analysis examined 88 studies and represents the most comprehensive review of grit research, revealing that its predictive power was overstated in Duckworth's original work."
+],
+"answerIndex": 1,
+"explanation": "<div class='explanation-step'>The goal requires a precise comparison: explain why the meta-analysis poses a <em>more significant</em> challenge than the structural objection. The correct answer must show that the meta-analysis attacks the empirical core of the theory, while the structural objection is one Duckworth has already partially absorbed.</div><div class='explanation-step'><strong>A)</strong> Describes the structural objection and Duckworth's response, but does not bring in the meta-analysis or compare the two challenges. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Contrasts both challenges: critics raise structural concerns (which Duckworth can absorb), while the meta-analysis directly undermines her core empirical claim. Keep B.</div><div class='explanation-step'><strong>C)</strong> Raises a replication concern about the West Point finding but does not compare the meta-analysis to the structural objection. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Notes the meta-analysis's scope and finding but does not explain why it poses a greater challenge than the structural objection. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     }
   ]
 }
