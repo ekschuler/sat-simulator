@@ -116,7 +116,7 @@
       "explanation": "<div class='explanation-step'>For <em>Main Purpose</em> questions, the correct answer must reflect the full scope of the passage, and not just one part of it. Before looking at choices, summarize: the passage explains why cities are warmer (causes) and what might happen as this worsens (consequences).</div></div><div class='explanation-step'><strong>A)</strong> The passage does explain the causes (surfaces absorb heat, less vegetation) and the potential consequences (health risks, energy costs) of the urban heat island effect. Keep A.</div><div class='explanation-step'><strong>B)</strong> The passage describes the problem but does not suggest replacing all paved surfaces. This overstates the passage's argument. Eliminate B.<div class='explanation-step'><strong>C)</strong> The passage mentions the urban-rural temperature difference but does not compare multiple climates. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Evapotranspiration is one detail in the passage, not its main purpose. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     
-    {
+  {
   "id": "VerbalT2-1-006",
   "type": "mcq",
   "level": 1,
@@ -125,15 +125,15 @@
     "topic": "Command of Evidence",
     "skill": "Quantitative Evidence"
   },
-  "stem": "A marine biologist studying the effects of ocean acidification on shell-forming organisms collected the following data after exposing three species to water at different pH levels for 30 days:<br><br><table style='border-collapse:collapse;margin:12px auto;font-size:14px;'><thead><tr><th style='border:1px solid #ccc;padding:8px 16px;background:#f5f5f5;'>Species</th><th style='border:1px solid #ccc;padding:8px 16px;background:#f5f5f5;'>pH 8.1 (normal)</th><th style='border:1px solid #ccc;padding:8px 16px;background:#f5f5f5;'>pH 7.8 (acidified)</th><th style='border:1px solid #ccc;padding:8px 16px;background:#f5f5f5;'>Shell Mass Change</th></tr></thead><tbody><tr><td style='border:1px solid #ccc;padding:8px 16px;'>Pacific oyster</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>&minus;18%</td></tr><tr><td style='border:1px solid #ccc;padding:8px 16px;'>Purple sea urchin</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>&minus;6%</td></tr><tr><td style='border:1px solid #ccc;padding:8px 16px;'>Blue mussel</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>&minus;1%</td></tr></tbody></table><br>The biologist concluded that all three species are negatively affected by ocean acidification. Which choice best describes how the data in the table relates to this conclusion?",
+  "stem": "A marine biologist studying the effects of ocean acidification on shell-forming organisms collected the following data after exposing three species to water at different pH levels for 30 days:<br><br><table style='border-collapse:collapse;margin:12px auto;font-size:14px;'><thead><tr><th style='border:1px solid #ccc;padding:8px 16px;background:#f5f5f5;'>Species</th><th style='border:1px solid #ccc;padding:8px 16px;background:#f5f5f5;'>pH 8.1 (normal)</th><th style='border:1px solid #ccc;padding:8px 16px;background:#f5f5f5;'>pH 7.8 (acidified)</th><th style='border:1px solid #ccc;padding:8px 16px;background:#f5f5f5;'>Shell Mass Change</th></tr></thead><tbody><tr><td style='border:1px solid #ccc;padding:8px 16px;'>Pacific oyster</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>&minus;18%</td></tr><tr><td style='border:1px solid #ccc;padding:8px 16px;'>Purple sea urchin</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>&minus;6%</td></tr><tr><td style='border:1px solid #ccc;padding:8px 16px;'>Blue mussel</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>Survived</td><td style='border:1px solid #ccc;padding:8px 16px;text-align:center;'>&minus;1%</td></tr></tbody></table><br>The biologist concluded that ocean acidification negatively affects shell-forming species. Which choice best describes data from the table that support this conclusion?",
   "choices": [
-    "The data fully support the conclusion, since all three species show measurable shell mass loss under acidified conditions.",
-    "The data partially support the conclusion — while the Pacific oyster and purple sea urchin show clear negative effects, the blue mussel's shell loss of only 1% is too small to confirm a meaningful impact.",
-    "The data undermine the conclusion, because all three species survived exposure to acidified water.",
-    "The data are insufficient to support the conclusion, since the experiment only tested two pH levels."
+    "All three species survived exposure to acidified water at pH 7.8, suggesting ocean acidification does not threaten the survival of shell-forming organisms.",
+    "The Pacific oyster and purple sea urchin lost 18% and 6% of their shell mass respectively under acidified conditions, while the blue mussel lost 1%.",
+    "The Pacific oyster experienced the greatest shell mass loss at 18%, while the blue mussel was unaffected at 0%.",
+    "The three species showed identical survival outcomes under both normal and acidified conditions."
   ],
   "answerIndex": 1,
-  "explanation": "<div class='explanation-step'>For <em>Quantitative Evidence</em> questions, assess how well the data match the stated conclusion. The biologist concludes that <em>all three</em> species are negatively affected.</div><div class='explanation-step'>The Pacific oyster lost 18% of its shell mass — a substantial negative effect. The purple sea urchin lost 6% — a moderate negative effect. The blue mussel lost only 1%, which is so small it could fall within normal measurement variation, making it difficult to conclude definitively that the mussel was negatively affected.</div><div class='explanation-step'><strong>A)</strong> Overstates the data — calling the mussel's 1% loss a confirmed negative effect goes beyond what the data clearly show. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Correctly identifies that two species show clear negative effects while raising a legitimate question about whether the mussel's minimal shell loss supports the conclusion for all three species. Keep B.</div><div class='explanation-step'><strong>C)</strong> Survival and negative effects are not mutually exclusive — the oyster and urchin both survived yet still showed significant shell loss. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The number of pH levels tested is not relevant to whether the conclusion is supported by the data shown. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+  "explanation": "<div class='explanation-step'>The conclusion is that ocean acidification negatively affects shell-forming species. The correct answer must accurately describe data from the table that support this claim.</div><div class='explanation-step'><strong>A)</strong> Focuses on survival rather than shell mass change — and draws a conclusion that contradicts the data by suggesting acidification is not harmful. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Accurately reports the shell mass losses for all three species under acidified conditions — data that directly support the claim of negative effects. Keep B.</div><div class='explanation-step'><strong>C)</strong> Misreads the table — the blue mussel lost 1%, not 0%. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Survival outcomes were identical, but shell mass changes were not — this misrepresents the table. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
 },
     {
       "id": "VerbalT2-1-007",
@@ -290,18 +290,18 @@
   "level": 1,
   "skill": {
     "domain": "Standard English Conventions",
-    "topic": "Boundaries",
-    "skill": "Run-On Sentences"
+    "topic": "Form, Structure, and Sense",
+    "skill": "Gerund vs Infinitive"
   },
-  "stem": "The monarch butterfly's annual migration spans thousands of miles, _______ no single butterfly completes the entire journey in one generation.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "stem": "The committee recommended _______ the proposed budget cuts until a full economic impact assessment had been completed.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
   "choices": [
-    "however",
-    "however,",
-    "but",
-    "and"
+    "to delay",
+    "delaying",
+    "delayed",
+    "having delayed"
   ],
-  "answerIndex": 2,
-  "explanation": "<div class='explanation-step'>The blank connects two independent clauses already joined by a comma. \"The monarch butterfly's annual migration spans thousands of miles\" and \"no single butterfly completes the entire journey in one generation\" are both complete sentences. A comma alone cannot join two independent clauses — a coordinating conjunction is needed.</div><div class='explanation-step'><strong>A)</strong> \"however\" is a conjunctive adverb, not a coordinating conjunction. A comma before \"however\" creates a comma splice. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"however,\" — same problem as A, plus the additional comma after \"however\" makes the construction worse. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"but\" is a coordinating conjunction. A comma followed by a coordinating conjunction correctly joins two independent clauses. Keep C.</div><div class='explanation-step'><strong>D)</strong> \"and\" is also a coordinating conjunction and grammatically correct, but the relationship between the two clauses is one of contrast, not addition — \"but\" is the more logical and precise choice. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>Certain verbs in English are followed by a gerund (verb + -ing) rather than an infinitive (to + verb). \"Recommend\" is one of these verbs — it requires a gerund.</div><div class='explanation-step'><strong>A)</strong> \"to delay\" is an infinitive. \"Recommend to delay\" is not standard English. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"delaying\" is a gerund. \"Recommend delaying\" is correct standard English. Keep B.</div><div class='explanation-step'><strong>C)</strong> \"delayed\" is a past participle — it cannot follow \"recommended\" as the object here. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"having delayed\" is a perfect gerund that implies the delay already happened, which contradicts the context. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
 },
     {
       "id": "VerbalT2-1-015",
@@ -342,25 +342,25 @@
       "explanation": "<div class='explanation-step'>The answer choices are different verb tenses, so this question tests <strong>Verb Tense</strong>. The phrase \"by the time the expedition reached the summit\" signals a sequence of two past events. One action (weather changing) must have been completed before another past action (reaching the summit).</div><div class='explanation-step'>When one past action is completed before another past action, the past perfect tense (had + past participle) is correct.</div><div class='explanation-step'><strong>A)</strong> \"Changes\" is simple present, and incorrect in a past-tense sentence. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Had changed\" is past perfect. This correctly indicates the weather changed before the expedition reached the summit. Keep B.</div><div class='explanation-step'><strong>C)</strong> \"Changed\" is simple past and does not show the weather changed before the summit was reached. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"Has changed\" is present perfect, which connects to the present, not a past event. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
-      "id": "VerbalT2-1-017",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
-      },
-      "stem": "The committee announced that <span class='blank'>_______</span> decision on the proposed merger would be delayed until further financial evidence was presented.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
-      "choices": [
-        "their",
-        "they're",
-        "its",
-        "our"
-      ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>The answer choices are different pronouns, so this question tests <strong>Pronoun-Antecedent Agreement</strong>. The antecedent is \"committee\" — a collective noun that acts as a single unit. Collective nouns in American English take singular pronouns when the group acts as one.</div><div class='explanation-step'><strong>A)</strong> \"Their\" is plural — while sometimes used as a singular gender-neutral pronoun for individuals, it is not standard when referring to a collective noun acting as a unit. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"His or her\" is singular but refers to a person, not an organization or institution. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"Its\" is the singular neutral pronoun — correct for a collective noun like \"committee\" acting as a single unit. Keep C.</div><div class='explanation-step'><strong>D)</strong> \"Our\" is first person plural and has no logical antecedent in this sentence. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
-    },
-    {
+  "id": "VerbalT2-1-017",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Standard English Conventions",
+    "topic": "Form, Structure, and Sense",
+    "skill": "Pronoun-Antecedent Agreement"
+  },
+  "stem": "When researchers compared the traditional microscopy technique with the newly developed laser-scanning method, they found that _______ resolution was nearly four times greater than any previously available imaging tool could achieve.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "their",
+    "its",
+    "the technique's",
+    "her"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>The pronoun must clearly and logically refer to its antecedent. The sentence is comparing two methods, and the superior resolution belongs to \"the newly developed laser-scanning method\" — a singular noun. The pronoun must be singular to refer to it unambiguously.</div><div class='explanation-step'><strong>A)</strong> \"their\" is plural — it could refer to both methods together, creating ambiguity rather than pointing clearly to the laser-scanning method. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"its\" is singular and correctly refers to \"the newly developed laser-scanning method.\" Keep B.</div><div class='explanation-step'><strong>C)</strong> \"the technique's\" unnecessarily repeats a noun and refers to the wrong method — the traditional technique, not the new one. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"her\" is a personal pronoun and cannot refer to a method or technique. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+},
+{
   "id": "VerbalT2-1-018",
   "type": "mcq",
   "level": 2,
@@ -372,12 +372,12 @@
   "stem": "After conducting extensive fieldwork in the Amazon basin for three years, _______ their biodiversity findings in a leading scientific journal.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
   "choices": [
     "the researchers published",
-    "the findings were published by the researchers as",
-    "a leading journal accepted",
-    "publication was given to the researchers for"
-  ],
-  "answerIndex": 0,
-  "explanation": "<div class='explanation-step'>The opening participial phrase \"After conducting extensive fieldwork in the Amazon basin for three years\" must modify the subject that immediately follows the comma. Only people can conduct fieldwork, so the subject must be the researchers.</div><div class='explanation-step'><strong>A)</strong> \"the researchers published\" — the researchers correctly follow the modifier and serve as the subject who conducted the fieldwork. Keep A.</div><div class='explanation-step'><strong>B)</strong> \"the findings were published by the researchers\" — \"the findings\" cannot have conducted fieldwork. Dangling modifier. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"a leading journal accepted\" — the journal did not conduct the fieldwork. Dangling modifier. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"publication was given to the researchers\" — \"publication\" cannot have conducted fieldwork. Dangling modifier. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+    "the biodiversity findings were published by the researchers in",
+    "a publication was submitted by the researchers to",
+    "the findings of the researchers were published in"
+],
+"answerIndex": 0,
+"explanation": "<div class='explanation-step'>The opening participial phrase \"After conducting extensive fieldwork in the Amazon basin for three years\" must modify the subject immediately following the comma. Only people can conduct fieldwork, so the subject must be the researchers.</div><div class='explanation-step'><strong>A)</strong> \"the researchers published\" — the researchers correctly serve as the subject who conducted the fieldwork. Keep A.</div><div class='explanation-step'><strong>B)</strong> \"the biodiversity findings were published by the researchers\" — grammatically smooth but \"the biodiversity findings\" cannot have conducted fieldwork. Dangling modifier. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"a publication was submitted by the researchers\" — also smooth but \"a publication\" cannot have conducted fieldwork. Dangling modifier. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"the findings of the researchers were published\" — natural-sounding but again the subject \"the findings\" cannot have conducted fieldwork. Dangling modifier. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
 },
     {
       "id": "VerbalT2-1-019",
@@ -502,13 +502,13 @@
     }
   ],
   "choices": [
-    "The New Deal, initiated by President Roosevelt in response to the Great Depression, aimed to restore economic security and stability for Americans, and the Great Society, launched in the 1960s, sought to reduce poverty and address social inequalities across the United States.",
-    "The major initiatives of the New Deal targeted unemployment, financial instability, and the erosion of public confidence in the banking system, and the Great Society introduced programs to enhance education, protect civil rights, and expand access to healthcare.",
+    "The New Deal and the Great Society both aimed to strengthen the economy and reduce poverty, though they did so through different presidential administrations and policy approaches.",
+    "The New Deal introduced programs to enhance education and protect civil rights, while the Great Society focused on restoring public trust in financial institutions and stabilizing the banking system.",
     "While the New Deal primarily addressed economic recovery, regulatory reforms, and banking stability, the Great Society focused on reducing poverty, expanding access to education, and promoting civil rights.",
     "The New Deal was implemented in the 1930s, and the Great Society was launched in the 1960s."
-  ],
-  "answerIndex": 2,
-  "explanation": "<div class='explanation-step'>For <em>Student Research</em> questions, focus on what the student wants to highlight or accomplish. In this case, the student wants to <em>contrast</em> the New Deal and the Great Society and their <em>different social and economic goals</em>. The correct answer must therefore mention both programs and make the contrast in their goals clear.  Looking at the list of bulleted notes, the following state those goals:<ul style='margin-top:8px; margin-bottom:8px; padding-left:20px; line-height:1.8;'><li>The New Deal, initiated by President Roosevelt in response to the Great Depression, aimed to restore economic security and stability for Americans.</li><li>The Great Society, launched in the 1960s, sought to reduce poverty and address social inequalities across the United States.</li></ul></div><div class='explanation-step'>The correct answer should paraphrase these stated goals and should indicate a contrast between them.</div><div class='explanation-step'><strong>A)</strong>This answer is accurate and mentions both programs with their goals. Keep A.</div><div class='explanation-step'><strong>B)</strong>This choice gives detailed examples of the programs rather than a broad contrast of goals, which makes it less aligned with the task. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>This choice uses the word &ldquo;while,&rdquo; which signals contrast and clearly distinguishes the focus of each program. It directly fulfills the prompt’s goal of contrasting their different aims. Keep C.</div><div class='explanation-step'><strong>D)</strong>This is purely chronological and doesn’t mention the programs’ goals. Eliminate D.</div><div class='explanation-step'>Now compare A and C: although A accurately describes both programs, it lists them side by side rather than contrasting them. The lack of a transition like &ldquo;while&rdquo; or &ldquo;whereas&rdquo; means it doesn’t fulfill the rhetorical goal, and makes C the <em>best</em> answer. Eliminate A and this means <strong>C</strong> is the correct answer.</div>"
+],
+"answerIndex": 2,
+"explanation": "<div class='explanation-step'>The student wants to contrast the New Deal and the Great Society's different social and economic goals. The correct answer must accurately describe what each program focused on and make the contrast between them clear.</div><div class='explanation-step'><strong>A)</strong> Inaccurately states that both programs shared the same goals — the New Deal focused on economic recovery and banking stability, not primarily poverty reduction. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Reverses the programs' goals — it was the Great Society, not the New Deal, that focused on education and civil rights, and the New Deal, not the Great Society, that addressed banking stability. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Accurately contrasts the two programs: the New Deal focused on economic recovery and banking stability while the Great Society focused on poverty reduction, education, and civil rights. Keep C.</div><div class='explanation-step'><strong>D)</strong> Mentions only when each program was launched — no goals are described at all. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
 },
     {
       "id": "VerbalT2-1-024",
@@ -566,10 +566,10 @@
       "style": "notes"
     },
     {
-      "text": "The student wants to argue that the passenger pigeon's extinction should complicate narratives of American industrial progress in the late nineteenth century. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
-      "align": "left",
-      "style": "question"
-    }
+  "text": "The student wants to emphasize that American industrial expansion in the late nineteenth century came at a significant environmental cost. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "align": "left",
+  "style": "question"
+}
   ],
   "choices": [
     "The passenger pigeon went from billions to extinction in under 50 years — a collapse driven by hunting and habitat destruction, the same forces that defined American industrial expansion.",
@@ -631,7 +631,7 @@
           "style": "default"
         },
         {
-          "text": "• Psychologist Dr. Angela Duckworth defines &ldquo;grit&rdquo; as the combination of passion and perseverance for long-term goals, which she argues predicts achievement better than talent or IQ alone.\n• Her research found that grit scores predicted graduation rates at West Point military academy more accurately than the academy&rsquo;s own composite admissions score.\n• Critics argue that grit research overlooks structural factors such as socioeconomic status, access to resources, and systemic discrimination that shape outcomes independently of individual persistence.\n• Duckworth acknowledges that grit is not the only factor in success but maintains that it is a meaningful and underappreciated one.\n• A 2022 meta-analysis of 88 studies found that grit&rsquo;s predictive power for academic achievement was significantly weaker than Duckworth&rsquo;s original studies suggested.",
+          "text": "• Psychologist Dr. Angela Duckworth defines \"grit\" as the combination of passion and perseverance for long-term goals, which she argues predicts achievement better than talent or IQ alone.\n• Her research found that grit scores predicted graduation rates at West Point military academy more accurately than the academy&rsquo;s own composite admissions score.\n• Critics argue that grit research overlooks structural factors such as socioeconomic status, access to resources, and systemic discrimination that shape outcomes independently of individual persistence.\n• Duckworth acknowledges that grit is not the only factor in success but maintains that it is a meaningful and underappreciated one.\n• A 2022 meta-analysis of 88 studies found that grit&rsquo;s predictive power for academic achievement was significantly weaker than Duckworth&rsquo;s original studies suggested.",
           "align": "left",
           "style": "notes"
         },

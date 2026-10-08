@@ -148,7 +148,7 @@
     "topic": "Systems of Equations",
     "skill": "Systems of Linear Equations in Context"
   },
-  "stem": "A recreation center offers swimming classes and dance classes. On Tuesday, \\(3\\) swimming classes and 1 dance class were held, with a total of \\(49 participants. On Wednesday, \\(1\\) swimming class and \\(2\\) dance classes were held, with a total of \\(38\\) participants. Each class of the same type had the same number of participants. How many participants attended each swimming class?",
+  "stem": "A recreation center offers swimming classes and dance classes. On Tuesday, \\(3\\) swimming classes and 1 dance class were held, with a total of \\(49\\) participants. On Wednesday, \\(1\\) swimming class and \\(2\\) dance classes were held, with a total of \\(38\\) participants. Each class of the same type had the same number of participants. How many participants attended each swimming class?",
   "choices": [
     "\\(10\\)",
     "\\(12\\)",

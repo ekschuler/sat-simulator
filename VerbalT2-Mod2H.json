@@ -115,27 +115,9 @@
       "answerIndex": 3,
       "explanation": "<div class='explanation-step'>For <em>Main Purpose</em> questions, the correct answer must cover the full scope of the passage. Summarize: the passage explains Hardin's theory, then introduces Ostrom's challenge to it.</div><div class='explanation-step'><strong>A)</strong> The passage does not argue the theory should be rejected — it presents both Hardin's view and Ostrom's challenge evenhandedly. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> The passage mentions privatization and regulation as Hardin's proposed solutions, but does not compare their effectiveness. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Ostrom's Nobel is mentioned as context — the passage is not primarily about how she earned it. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Covers both main elements: Hardin's theory and the scholarly challenge it faced from Ostrom. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
     },
+    
     {
       "id": "VerbalT2-2H-006",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Information and Ideas",
-        "topic": "Central Ideas and Details",
-        "skill": "Logical Completion"
-      },
-      "stem": "Since the early twentieth century, average IQ scores have risen substantially in many countries — a phenomenon psychologist James Flynn documented systematically in the 1980s and that now bears his name. The Flynn Effect suggests that environmental factors rather than genetics drive much of the variation in measured intelligence, since the genetic makeup of populations cannot change significantly within a few generations. Interestingly, the effect has begun to plateau or even reverse in some high-income countries in recent decades. This reversal suggests that _______.<br><br>Which choice most logically completes the text?",
-      "choices": [
-        "the environmental improvements that drove earlier score gains may have reached their practical limits in developed nations",
-        "intelligence tests are an unreliable measure of genuine cognitive ability",
-        "genetic factors play a greater role in intelligence than the Flynn Effect originally suggested",
-        "average IQ scores in low-income countries will soon surpass those in high-income countries"
-      ],
-      "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>For <em>Logical Completion</em> questions, the blank must follow directly from the passage's logic. The passage establishes that environmental factors drive IQ gains. It then says the effect is plateauing or reversing in high-income countries. The completion must explain what this plateau implies about those environmental factors.</div><div class='explanation-step'><strong>A)</strong> If environmental improvement drove earlier gains and the gains are now plateauing in countries that have experienced those improvements longest, it follows that those improvements may have reached their practical ceiling. Keep A.</div><div class='explanation-step'><strong>B)</strong> Test reliability is not addressed in the passage — introducing it here goes beyond what the evidence supports. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> The plateau could be explained entirely by environmental factors reaching their limits — genetics need not be invoked. This also contradicts the passage's framing. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The passage does not address scores in low-income countries or make comparative predictions. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
-    },
-    {
-      "id": "VerbalT2-2H-007",
       "type": "mcq",
       "level": 2,
       "skill": {
@@ -154,7 +136,7 @@
       "explanation": "<div class='explanation-step'>For <em>According to the Text</em> questions, the correct answer is directly stated in the passage. The passage says many synesthetes are unaware \"because they assume their perceptual experiences are universal\" — meaning they think everyone perceives the world as they do.</div><div class='explanation-step'><strong>A)</strong> The passage does not say the condition is too mild to notice — it says people don't recognize it because they assume it's normal. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Directly matches the passage: they assume their perceptual experiences are universal. Keep B.</div><div class='explanation-step'><strong>C)</strong> Diagnostic tests are not mentioned in the passage. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The number of sensory crossovers a person has is not discussed in the passage. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
-      "id": "VerbalT2-2H-008",
+      "id": "VerbalT2-2H-007",
       "type": "mcq",
       "level": 3,
       "skill": {
@@ -164,16 +146,16 @@
       },
       "stem": "When astronomers in the 1970s observed that galaxies were rotating in ways that violated Newtonian mechanics — their outer regions spinning faster than the visible matter within them could explain — they faced a choice: either the laws of physics were wrong, or there was matter they could not see. Most chose the latter explanation and proposed the existence of \"dark matter,\" an invisible substance that would account for the missing gravitational pull. Decades of searching have failed to directly detect dark matter particles, despite increasingly sensitive instruments. Some physicists now argue that this persistent failure should prompt reconsideration of the first option — that the laws of gravity themselves require modification at galactic scales.<br><br>Which choice best describes the overall structure of the text?",
       "choices": [
-        "It explains an astronomical anomaly, describes the dominant explanation that was adopted, and then introduces an emerging challenge to that explanation.",
-        "It presents competing theories about dark matter and evaluates the evidence supporting each one.",
-        "It argues that physicists should abandon dark matter theory in favor of modified gravity models.",
-        "It traces the history of astronomy from Newton's laws of motion to contemporary cosmology."
-      ],
+    "It presents an astronomical anomaly, describes the explanation scientists adopted, and introduces a recent challenge to that explanation.",
+    "It presents competing theories about dark matter and evaluates the evidence supporting each one.",
+    "It argues that physicists should abandon dark matter theory in favor of modified gravity models.",
+    "It traces the history of astronomy from Newton's laws of motion to contemporary cosmology."
+],
       "answerIndex": 0,
       "explanation": "<div class='explanation-step'>For <em>Overall Structure</em> questions, map what each part of the passage does. Part 1: galaxy rotation anomaly. Part 2: dominant explanation adopted (dark matter). Part 3: decades of failed detection. Part 4: emerging challenge (maybe gravity laws need revision).</div><div class='explanation-step'><strong>A)</strong> Precisely maps the three-part structure: anomaly → dominant explanation → challenge to that explanation. Keep A.</div><div class='explanation-step'><strong>B)</strong> The passage does not evaluate evidence for each theory — it presents the history and the current challenge. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> The passage presents both options evenhandedly — it does not advocate for abandoning dark matter. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The passage focuses on a specific modern problem, not a broad historical survey from Newton to the present. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
-      "id": "VerbalT2-2H-009",
+      "id": "VerbalT2-2H-008",
       "type": "mcq",
       "level": 2,
       "skill": {
@@ -192,7 +174,7 @@
       "explanation": "<div class='explanation-step'>For <em>Main Idea</em> questions, the correct answer must cover the full scope of the passage — not just one part. The passage presents both the promise (lotus leaf, termite mound examples) and the criticism (constraints don't always translate).</div><div class='explanation-step'><strong>A)</strong> The passage presents biomimicry as promising but does not say it has replaced conventional approaches. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Captures both the approach and the debate — demonstrated applications and recognized limitations. Keep B.</div><div class='explanation-step'><strong>C)</strong> A strong trap — the passage does mention constraints that don&rsquo;t translate, but also gives examples of successful applications. This overcorrects into a claim the passage doesn&rsquo;t make. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Narrows to one specific example and mischaracterizes the field&rsquo;s scope. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
-      "id": "VerbalT2-2H-010",
+      "id": "VerbalT2-2H-009",
       "type": "mcq",
       "level": 3,
       "skill": {
@@ -200,7 +182,7 @@
         "topic": "Command of Evidence",
         "skill": "Quantitative Evidence"
       },
-      "stem": "A researcher studying the relationship between urban green space and resident wellbeing collected data from four neighborhoods with varying amounts of parkland:<br><br><table style='border-collapse:collapse;margin:12px auto;font-size:14px;'><thead><tr><th style='border:1px solid #ccc;padding:8px 14px;background:#f5f5f5;'>Neighborhood</th><th style='border:1px solid #ccc;padding:8px 14px;background:#f5f5f5;'>Park Area (% of total)</th><th style='border:1px solid #ccc;padding:8px 14px;background:#f5f5f5;'>Avg. Self-Reported Wellbeing (1–10)</th><th style='border:1px solid #ccc;padding:8px 14px;background:#f5f5f5;'>Annual Income (median)</th></tr></thead><tbody><tr><td style='border:1px solid #ccc;padding:8px 14px;'>Ashford</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>4%</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>5.8</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>$38,000</td></tr><tr><td style='border:1px solid #ccc;padding:8px 14px;'>Briarwood</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>12%</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>6.4</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>$41,000</td></tr><tr><td style='border:1px solid #ccc;padding:8px 14px;'>Clarendon</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>21%</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>7.1</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>$44,000</td></tr><tr><td style='border:1px solid #ccc;padding:8px 14px;'>Dunmore</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>28%</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>7.3</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>$62,000</td></tr></tbody></table><br>The researcher concluded that greater access to green space directly causes higher wellbeing among urban residents. A critic argued that the data do not support a causal claim. Which choice best explains why the critic's objection is valid?",
+      "stem": "A researcher studying the relationship between urban green space and resident wellbeing collected data from four neighborhoods with varying amounts of parkland:<br><br><table style='border-collapse:collapse;margin:12px auto;font-size:14px;'><thead><tr><th style='border:1px solid #ccc;padding:8px 14px;background:#f5f5f5;'>Neighborhood</th><th style='border:1px solid #ccc;padding:8px 14px;background:#f5f5f5;'>Park Area (% of total)</th><th style='border:1px solid #ccc;padding:8px 14px;background:#f5f5f5;'>Avg. Self-Reported Wellbeing (1–10)</th><th style='border:1px solid #ccc;padding:8px 14px;background:#f5f5f5;'>Annual Income (median)</th></tr></thead><tbody><tr><td style='border:1px solid #ccc;padding:8px 14px;'>Ashford</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>4%</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>5.8</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>$38,000</td></tr><tr><td style='border:1px solid #ccc;padding:8px 14px;'>Briarwood</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>12%</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>6.4</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>$41,000</td></tr><tr><td style='border:1px solid #ccc;padding:8px 14px;'>Clarendon</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>21%</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>7.1</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>$44,000</td></tr><tr><td style='border:1px solid #ccc;padding:8px 14px;'>Dunmore</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>28%</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>7.3</td><td style='border:1px solid #ccc;padding:8px 14px;text-align:center;'>$62,000</td></tr></tbody></table><br>The researcher concluded that greater access to green space directly causes higher wellbeing among urban residents. A critic argued that a confounding variable in the data prevents this causal claim from being established. Which choice best explains the critic's objection?",
       "choices": [
         "The wellbeing scores across all four neighborhoods are relatively close, suggesting that green space has only a modest effect on resident wellbeing.",
         "The data show a correlation between park area and wellbeing, but median income also increases alongside park area, making it impossible to isolate green space as the cause of higher wellbeing.",
@@ -208,10 +190,10 @@
         "The sample of four neighborhoods is too small to draw any meaningful conclusions about the relationship between green space and wellbeing."
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>For <em>Quantitative Evidence</em> questions at level 3, the question requires understanding why a causal claim is not supported. The researcher claims green space <em>causes</em> higher wellbeing. To challenge a causal claim, you need a confounding variable — another factor that changes alongside the variable of interest and could explain the outcome.</div><div class='explanation-step'>Looking at the table: as park area increases (4% → 28%), both wellbeing (5.8 → 7.3) and median income ($38K → $62K) increase together. Income is a well-known predictor of wellbeing, so it is impossible to determine whether park area or income is driving the wellbeing difference.</div><div class='explanation-step'><strong>A)</strong> The scores range from 5.8 to 7.3 — a real difference, not a negligible one. This doesn&rsquo;t explain why causation can&rsquo;t be established. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Correctly identifies the confounding variable: income rises alongside park area, making it impossible to isolate green space as the cause of higher wellbeing. Keep B.</div><div class='explanation-step'><strong>C)</strong> Subjectivity of self-reporting is a general limitation of survey data, not specific to why this causal claim fails — the critic&rsquo;s objection is about the design, not the measurement instrument. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Sample size is a legitimate concern, but the critic&rsquo;s objection is specifically about causation vs correlation, not about sample size. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "explanation": "<div class='explanation-step'>A confounding variable is a factor that changes alongside the variable being studied and could independently explain the outcome, making it impossible to establish causation.</div><div class='explanation-step'>Looking at the table: as park area increases (4% → 28%), both wellbeing (5.8 → 7.3) and median income ($38K → $62K) increase together. Since income is a well-known predictor of wellbeing, it cannot be determined whether park area or income is driving the difference in wellbeing scores.</div><div class='explanation-step'><strong>A)</strong> The wellbeing scores range from 5.8 to 7.3 — a real difference. This does not identify a confounding variable. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Correctly identifies median income as a confounding variable — it rises alongside park area, making it impossible to isolate green space as the cause of higher wellbeing. Keep B.</div><div class='explanation-step'><strong>C)</strong> The subjectivity of self-reported scores is a measurement limitation, not a confounding variable. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Sample size is a concern about statistical power, not a confounding variable. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
-      "id": "VerbalT2-2H-011",
+      "id": "VerbalT2-2H-010",
       "type": "mcq",
       "level": 2,
       "skill": {
@@ -246,7 +228,7 @@
       "explanation": "<div class='explanation-step'>For <em>Function of a Sentence</em> questions, read the preceding sentences carefully. Emerson establishes that solitude is not simply being without other people — he is not solitary when he reads and writes alone. The underlined sentence then gives a positive example of what genuine solitude actually is: looking at the stars.</div><div class='explanation-step'><strong>A)</strong> The sentence does not contradict the claim — it extends it by providing a positive example of genuine solitude. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Precisely describes the function: after establishing that physical aloneness is not true solitude, Emerson offers stargazing as a concrete illustration of what genuine solitude looks like. Keep B.</div><div class='explanation-step'><strong>C)</strong> No scientific argument is introduced — the sentence is a poetic illustration, not a psychological claim. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The sentence is one illustrative example, not a summary of a broad argument about nature's superiority over all human activities. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
     {
-      "id": "VerbalT2-2H-012",
+      "id": "VerbalT2-2H-011",
       "type": "mcq",
       "level": 3,
       "skill": {
@@ -265,7 +247,7 @@
       "explanation": "<div class='explanation-step'>For <em>Weakening a Claim</em> questions at level 3, identify the most precise element of the claim to target. Dr. Torres claims the limitation applies &ldquo;universally across all adults regardless of age, <em>practice</em>, or self-reported ability.&rdquo;</div><div class='explanation-step'><strong>A)</strong> People overestimating their ability actually supports Torres — it suggests they have the limitation but lack self-awareness. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Increased error rates directly support Torres&rsquo;s claim. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Air traffic controllers with extensive training (practice) show no performance degradation — directly undermining the &ldquo;regardless of practice&rdquo; part of Torres&rsquo;s claim. Keep C.</div><div class='explanation-step'><strong>D)</strong> A strong trap — this discusses stress costs of perceived multitasking, which is adjacent to the topic but doesn&rsquo;t address whether true simultaneous processing is possible. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
     },
     {
-      "id": "VerbalT2-2H-013",
+      "id": "VerbalT2-2H-012",
       "type": "mcq",
       "level": 3,
       "skill": {
@@ -277,7 +259,7 @@
         {
           "text": "In <em>Democracy in America</em> (1835), Alexis de Tocqueville argues that democratic societies generate a subtle but powerful pressure toward intellectual conformity — not through overt coercion, but through the weight of majority opinion, writing <span class='blank'>_______</span>.",
           "align": "left",
-          "style": "passage"
+          "style": "default"
         },
         {
           "text": "Which quotation from <em>Democracy in America</em> most effectively illustrates the claim?",
@@ -294,25 +276,44 @@
       "answerIndex": 1,
       "explanation": "<div class='explanation-step'>For <em>Illustrating Claims with Quotations</em> questions, the correct quotation must directly illustrate the specific claim. The claim is that democratic societies create pressure toward intellectual conformity through the weight of majority opinion — not coercion, but social pressure suppressing independent thought.</div><div class='explanation-step'><strong>A)</strong> This is about aristocratic vs democratic social structures — it addresses class, not intellectual conformity or freedom of thought. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Directly states that America lacks independence of mind and freedom of discussion — precisely illustrating the claim that democratic majority opinion suppresses intellectual conformity. Keep B.</div><div class='explanation-step'><strong>C)</strong> This is about equality and freedom as political values, not about intellectual conformity or the suppression of independent thought. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> This is about the relationship between liberty, morality, and faith — unrelated to intellectual conformity. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },
+{
+  "id": "VerbalT2-2H-013",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Information and Ideas",
+    "topic": "Central Ideas and Details",
+    "skill": "Logical Completion"
+  },
+  "stem": "Coral reefs require water temperatures within a narrow range to survive — typically between 23 and 29 degrees Celsius. When ocean temperatures rise even slightly above this range for extended periods, corals expel the symbiotic algae that provide them with nutrients, a process known as bleaching. While bleached corals can recover if temperatures return to normal quickly, prolonged bleaching is almost always fatal. Scientists have observed that bleaching events, once rare, now occur with increasing frequency and affect larger portions of the world's reefs with each successive episode. This pattern suggests that _______.<br><br>Which choice most logically completes the text?",
+  "choices": [
+    "reef ecosystems are losing the capacity to recover between bleaching events as ocean temperatures remain elevated for longer periods",
+    "coral reefs will eventually adapt to warmer ocean temperatures through the development of heat-resistant symbiotic algae",
+    "bleaching events are caused primarily by local pollution rather than by broader changes in ocean temperature",
+    "scientists have overestimated the role of symbiotic algae in coral reef survival"
+  ],
+  "answerIndex": 0,
+  "explanation": "<div class='explanation-step'>The passage establishes that corals can recover from bleaching if temperatures normalize quickly, but prolonged bleaching is fatal. It then notes that bleaching events are becoming more frequent and widespread. The completion must follow logically from this pattern.</div><div class='explanation-step'><strong>A)</strong> If bleaching events are more frequent and larger, reefs have less time to recover between events — this follows directly from the passage's logic. Keep A.</div><div class='explanation-step'><strong>B)</strong> The passage makes no mention of adaptation or heat-resistant algae — this goes beyond what the evidence supports. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> The passage attributes bleaching to temperature rises, not local pollution — this contradicts the passage. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> The role of symbiotic algae is presented as established fact in the passage, not something scientists have overestimated. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+},
     {
-      "id": "VerbalT2-2H-014",
-      "type": "mcq",
-      "level": 1,
-      "skill": {
-        "domain": "Standard English Conventions",
-        "topic": "Form, Structure, and Sense",
-        "skill": "Standard English Conventions"
-      },
-      "stem": "The James Webb Space Telescope, launched in December 2021, represents a generational leap in astronomical observation <span class='blank'>_______</span> its infrared imaging capabilities allow scientists to peer through cosmic dust clouds that were previously opaque to earlier instruments.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
-      "choices": [
-        ",",
-        "and,",
-        "however,",
-        ";"
-      ],
-      "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>The answer choices are punctuation options, so this question tests <strong>Joining Independent Clauses</strong>. Check whether both parts can stand alone. &ldquo;The James Webb Space Telescope... represents a generational leap in astronomical observation&rdquo; is an independent clause. &ldquo;Its infrared imaging capabilities allow scientists to peer through cosmic dust clouds&rdquo; is also an independent clause.</div><div class='explanation-step'><strong>A)</strong> A comma alone between two independent clauses creates a comma splice — a grammatical error. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;And,&rdquo; with a comma after it is not standard — coordinating conjunctions do not take a following comma. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;However,&rdquo; signals contrast, but the second clause elaborates on why the telescope is a generational leap — it does not contrast with it. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> A semicolon correctly joins two related independent clauses. The second clause explains the first, making the semicolon appropriate. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
-    },
+  "id": "VerbalT2-2H-014",
+  "type": "mcq",
+  "level": 1,
+  "skill": {
+    "domain": "Standard English Conventions",
+    "topic": "Form, Structure, and Sense",
+    "skill": "Subject-Verb Agreement"
+  },
+  "stem": "The collection of ancient manuscripts discovered in the monastery's basement, many of which had not been examined by scholars in over three centuries, _______ now being catalogued by a team of conservators from three different universities.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "are",
+    "is",
+    "were",
+    "have been"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>The subject of the sentence is \"the collection\" — a singular noun. The long intervening phrase \"of ancient manuscripts discovered in the monastery's basement, many of which had not been examined by scholars in over three centuries\" separates the subject from the verb but does not change what the subject is.</div><div class='explanation-step'><strong>A)</strong> \"are\" is plural — it does not agree with the singular subject \"collection.\" Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"is\" is singular and correctly agrees with \"collection.\" Keep B.</div><div class='explanation-step'><strong>C)</strong> \"were\" is past tense plural — incorrect for a singular subject and the wrong tense given the context. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> \"have been\" is plural present perfect — does not agree with the singular subject \"collection.\" Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+},
     {
       "id": "VerbalT2-2H-015",
       "type": "mcq",
@@ -330,27 +331,31 @@
         "to reveal"
       ],
       "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>The answer choices are different verb forms, so this question tests <strong>Participial Phrases vs Clauses</strong>. The sentence already has a main verb: &ldquo;have transformed.&rdquo; What follows the comma must either be a new independent clause (with its own subject) or a participial phrase modifying the subject.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Revealing&rdquo; is a present participle — it creates a participial phrase that modifies the subject of the main clause (neuroimaging studies), indicating the result of their transformation of understanding. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;They revealed&rdquo; introduces a new subject (&ldquo;they&rdquo;) after a comma, creating a comma splice with the preceding independent clause. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Revealed&rdquo; is simple past — it creates a second verb without a conjunction, making the sentence a run-on. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;To reveal&rdquo; is an infinitive — while infinitives can follow certain verbs, here it creates an awkward construction that doesn&rsquo;t clearly connect to the main clause. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+      "explanation": "<div class='explanation-step'>The answer choices are different verb forms, so this question tests <strong>Participial Phrases vs Clauses</strong>. The sentence already has a main verb: &ldquo;have transformed.&rdquo; What follows the comma must either be a new independent clause (with its own subject) or a participial phrase modifying the subject.</div><div class='explanation-step'><strong>A)</strong> &ldquo;Revealing&rdquo; is a present participle — it creates a participial phrase that modifies the subject of the main clause (neuroimaging studies), indicating the result of their transformation of understanding. Keep A.</div><div class='explanation-step'><strong>B)</strong> &ldquo;They revealed&rdquo; introduces a new subject (&ldquo;they&rdquo;) after a comma, creating a comma splice with the preceding independent clause. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> &ldquo;Revealed&rdquo; is simple past — it creates a second verb without a conjunction, making the sentence a run-on. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> &ldquo;To reveal&rdquo; is an infinitive — while infinitives can follow certain verbs, here it creates an awkward construction that doesn&rsquo;t clearly conn ect to the main clause. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
       "id": "VerbalT2-2H-016",
       "type": "mcq",
-      "level": 2,
       "skill": {
-        "domain": "Standard English Conventions",
+                "domain": "Standard English Conventions",
         "topic": "Form, Structure, and Sense",
         "skill": "Standard English Conventions"
       },
-      "stem": "Since the publication of Elinor Ostrom's <em>Governing the Commons</em> in 1990, scholars <span class='blank'>_______</span> her framework to resource management challenges on every continent.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
-      "choices": [
-        "applied",
-        "apply",
-        "have applied",
-        "had applied"
-      ],
-      "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>This question tests <strong>Verb Tense</strong>. The word \"since\" signals that the action began at a specific point in the past and continues to the present — this requires the present perfect tense (have/has + past participle).</div><div class='explanation-step'><strong>A)</strong> \"Applied\" is simple past — implies the action is finished, but \"since 1990\" indicates it is ongoing. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Apply\" is simple present — does not convey that the application began in 1990 and has continued since. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"Have applied\" is present perfect — correctly shows an action that began in the past (1990) and continues to the present. Keep C.</div><div class='explanation-step'><strong>D)</strong> \"Had applied\" is past perfect — indicates an action completed before another past action, which does not fit the ongoing nature implied by \"since.\" Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
-    },
+
+      "level": 1,
+      "set": "Verbal Practice",
+      "tags": ["grammar", "verb tense", "noun-verb agreement"],
+
+      "stem": "<em>Hemostasis</em>, or blood clotting, is a multi-step process that a body initiates in response to an injury. The circulatory system responds by constricting blood vessels, forming platelets, and <span class='blank'>_______</span> through the formation of fibrin, the essence of the clot.<br><br>Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "has coagulated",
+    "coagulates",
+    "coagulating",
+    "coagulation"
+  ],
+  "answerIndex": 2,
+"explanation": "<div class='explanation-step'>For <em>Standard English Conventions</em> questions, use clues from the passage and the answer choices to determine which grammatical rule is being tested. Here, the answer choices offer different forms of the verb coagulate, and sentence containing the blank lists three circulatory system responses. These clues indicate that this question focuses on <strong>Parallelism</strong>.</div><div class='explanation-step'>With parallelism, items in a list must be share the same grammatical form. Here, the first two items are <em>constricting</em> and <em>forming</em>. The blank must match that form, so it must be coagulat<em>ing</em>.  This means the correct answer is <strong>C</strong>.</div>"
+},
     {
       "id": "VerbalT2-2H-017",
       "type": "mcq",
@@ -384,10 +389,10 @@
         "the novel's themes continue to resonate with readers today.",
         "readers continue to find the novel's themes resonant today.",
         "the novel continues to find new readers decades after its initial publication.",
-        "a celebrated film adaptation brought the novel's themes to new audiences."
+        "the novel's groundbreaking approach to narrative structure influenced an entire generation of writers."
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>A sentence beginning with a participial phrase tests <strong>Modifier Placement</strong>. The opening phrase \"Praised by critics for its innovative narrative structure and later adapted into a celebrated film\" modifies whatever noun immediately follows the comma. That noun must be what was praised by critics and adapted into a film.</div><div class='explanation-step'><strong>A)</strong> \"The novel's themes\" cannot be praised for narrative structure and adapted into a film — themes are not the whole novel. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Readers\" cannot be praised by critics for narrative structure or adapted into a film. Dangling modifier. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"The novel\" was praised by critics for its structure and adapted into a film — the novel is the correct subject. Keep C.</div><div class='explanation-step'><strong>D)</strong> \"A celebrated film adaptation\" cannot itself have been \"later adapted into a celebrated film\" — this creates a logical loop. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+      "explanation": "<div class='explanation-step'>A sentence beginning with a participial phrase tests <strong>Modifier Placement</strong>. The opening phrase \"Praised by critics for its innovative narrative structure and later adapted into a celebrated film\" modifies whatever noun immediately follows the comma. That noun must be what was praised by critics and adapted into a film.</div><div class='explanation-step'><strong>A)</strong> \"The novel's themes\" cannot be praised for narrative structure and adapted into a film — themes are not the whole novel. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> \"Readers\" cannot be praised by critics for narrative structure or adapted into a film. Dangling modifier. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> \"The novel\" was praised by critics for its structure and adapted into a film — the novel is the correct subject. Keep C.</div><div class='explanation-step'><strong>D)</strong> \"The novel's groundbreaking approach\" cannot have been praised by critics as a whole work and adapted into a film — only the novel itself could be. Dangling modifier. Eliminate D.</div>"
     },
     {
       "id": "VerbalT2-2H-019",
@@ -462,24 +467,24 @@
           "style": "default"
         },
         {
-          "text": "• Biomimicry designer Janine Benyus coined the term &ldquo;biomimicry&rdquo; in her 1997 book of the same name.\n• The word comes from the Greek <em>bios</em> (life) and <em>mimesis</em> (imitation).\n• Benyus argued that nature has already solved many of the design problems humans face.\n• Examples include Velcro (modeled on burrs), bullet trains (modeled on kingfisher beaks), and solar panels (modeled on photosynthesis).\n• The Biomimicry Institute, founded in 2006, connects designers with biologists to develop nature-inspired solutions.",
+          "text": "• In 1854, physician John Snow mapped cases of cholera in London&rsquo;s Soho neighborhood and traced the outbreak to a contaminated water pump on Broad Street.\n• Snow&rsquo;s map was one of the first uses of geographic data visualization to identify a disease source.\n• At the time, the dominant theory held that cholera spread through bad air (&ldquo;miasma&rdquo;), not contaminated water.\n• Snow&rsquo;s findings were initially rejected by medical authorities who favored the miasma theory.\n• Snow&rsquo;s work is now considered a founding moment of modern epidemiology.",
           "align": "left",
           "style": "notes"
         },
         {
-          "text": "The student wants to define biomimicry and give one concrete example for a general audience. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+          "text": "The student wants to introduce John Snow and explain why his work was significant. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
           "align": "left",
           "style": "question"
         }
       ],
       "choices": [
-        "Biomimicry designer Janine Benyus coined the term in 1997, combining the Greek words for life and imitation.",
-        "The Biomimicry Institute, founded in 2006, connects designers with biologists to develop nature-inspired solutions to human engineering problems.",
-        "Janine Benyus argued that nature has already solved many of the design challenges that humans continue to struggle with today.",
-        "Biomimicry — the practice of modeling human designs on solutions found in nature — has produced innovations like Velcro, which was inspired by the way burrs cling to fabric."
+        "John Snow traced a cholera outbreak to a contaminated water pump in London&rsquo;s Soho neighborhood in 1854, using geographic data visualization in a way that is now considered a founding moment of modern epidemiology.",
+        "John Snow&rsquo;s findings about cholera transmission were initially rejected by medical authorities who favored the miasma theory of disease.",
+        "In 1854, John Snow created a map of cholera cases in London, which was one of the first uses of geographic data visualization to identify a disease source.",
+        "John Snow believed that cholera spread through contaminated water rather than through bad air, contradicting the dominant miasma theory of his time."
       ],
-      "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal determines the correct answer. The student wants to both <em>define</em> biomimicry and give a <em>concrete example</em> for a general audience.</div><div class='explanation-step'><strong>D)</strong> Covers the term's etymology but does not define what biomimicry is or give an example. Eliminate A.</div><div class='explanation-step'><strong>A)</strong> Defines biomimicry (\"modeling human designs on solutions found in nature\") and gives a concrete example (Velcro inspired by burrs). Keep B.</div><div class='explanation-step'><strong>B)</strong> Describes the Institute but does not define biomimicry or give an example of a design. Eliminate C.</div><div class='explanation-step'><strong>C)</strong> States Benyus's argument without defining the term or providing a concrete example. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
+      "answerIndex": 0,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is to introduce Snow and explain his significance. The correct answer must identify who he was, what he did, and why it mattered.</div><div class='explanation-step'><strong>A)</strong> identifies Snow, describes what he did (traced outbreak to contaminated pump using geographic visualization), and explains significance (founding moment of epidemiology). All three elements needed for a correct answer are present. Keep A.</div><div class='explanation-step'><strong>B)</strong> describes the initial rejection. This is relevant context but doesn&rsquo;t explain why the work was significant. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> describes the map as an early data visualization but omits its significance to epidemiology. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> states Snow's belief about transmission but doesn&rsquo;t explain his method or lasting significance. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
       "id": "VerbalT2-2H-023",
@@ -508,49 +513,49 @@
         }
       ],
       "choices": [
-        "The Great Oxidation Event, triggered by oxygen-producing cyanobacteria 2.4 billion years ago, ultimately led to the formation of the ozone layer, which enabled complex life to survive on land.",
-        "Approximately 2.4 billion years ago, cyanobacteria began producing oxygen through photosynthesis, dramatically altering Earth's atmosphere.",
-        "The Great Oxidation Event caused a mass extinction of anaerobic organisms that could not survive in the newly oxygen-rich atmosphere.",
-        "Before the Great Oxidation Event, Earth's atmosphere contained virtually no free oxygen, making conditions inhospitable for most modern life forms."
-      ],
+    "The Great Oxidation Event, triggered by oxygen-producing cyanobacteria 2.4 billion years ago, ultimately led to the formation of the ozone layer, which enabled complex life to survive on land.",
+    "Approximately 2.4 billion years ago, cyanobacteria began releasing oxygen through photosynthesis, triggering a mass extinction of anaerobic organisms that could not survive in the newly oxygen-rich atmosphere.",
+    "The accumulation of atmospheric oxygen 2.4 billion years ago, produced by cyanobacteria, transformed Earth's atmosphere and caused the eventual disappearance of organisms unable to tolerate oxygen.",
+    "Before the Great Oxidation Event, Earth's atmosphere contained virtually no free oxygen; cyanobacteria changed this by producing oxygen as a byproduct of photosynthesis, fundamentally altering the planet's chemistry."
+],
       "answerIndex": 0,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal requires both describing the event and identifying its most significant long-term consequence. The ozone layer's formation, which enabled complex life on land, is the most significant long-term consequence — the mass extinction, while dramatic, was an immediate effect.</div><div class='explanation-step'><strong>A)</strong> Describes the event and identifies the ozone layer formation as the consequence that enabled complex life on land — the most significant long-term consequence. Keep A.</div><div class='explanation-step'><strong>B)</strong> Describes the event (cyanobacteria, 2.4 billion years ago) but does not identify its most significant long-term consequence. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Identifies the mass extinction as a consequence — but this is an immediate effect, not the most significant long-term consequence for life on Earth. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Provides pre-event context only and does not describe the event itself or its consequences. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
+      "explanation": "<div class='explanation-step'>The goal requires two things: describing the Great Oxidation Event and explaining its most significant <em>long-term</em> consequence for life on Earth. The ozone layer's formation — which enabled complex life to eventually survive on land — is the most significant long-term consequence. The mass extinction of anaerobic organisms, while dramatic, was an immediate effect rather than a lasting benefit to life.</div><div class='explanation-step'><strong>A)</strong> Describes the event (cyanobacteria, 2.4 billion years ago) and identifies the ozone layer as the long-term consequence that enabled complex life on land. Accomplishes both goals. Keep A.</div><div class='explanation-step'><strong>B)</strong> Describes the event accurately but identifies the mass extinction as the consequence — an immediate effect, not the most significant long-term consequence for life on Earth. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Also describes the event and mentions oxygen's effect on anaerobic organisms, but again focuses on the immediate extinction rather than the long-term consequence. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Describes the event and its atmospheric transformation but does not identify any long-term consequence for life on Earth. Eliminate D.</div><br><br>The correct answer is <strong>A</strong>."
     },
     {
-      "id": "VerbalT2-2H-024",
-      "type": "mcq",
-      "level": 2,
-      "skill": {
-        "domain": "Expression of Ideas",
-        "topic": "Rhetorical Synthesis",
-        "skill": "Using Notes"
-      },
-      "stemSegments": [
-        {
-          "text": "While researching a topic, a student has taken the following notes:",
-          "align": "left",
-          "style": "default"
-        },
-        {
-          "text": "• Philosopher Elinor Ostrom won the Nobel Prize in Economics in 2009 &mdash; the first woman to receive the award.\n• Her research challenged the assumption that shared resources always lead to overexploitation.\n• Ostrom studied communities that successfully managed shared resources &mdash; fisheries, forests, irrigation systems &mdash; without privatization or government control.\n• She identified eight design principles common to successful commons management, including clearly defined boundaries and conflict resolution mechanisms.\n• Critics argued that her findings applied only to small, close-knit communities and could not scale to global problems like climate change.",
-          "align": "left",
-          "style": "notes"
-        },
-        {
-          "text": "The student wants to explain why Ostrom&rsquo;s work was considered groundbreaking in economics. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
-          "align": "left",
-          "style": "question"
-        }
-      ],
-      "choices": [
-        "Elinor Ostrom was the first woman to win the Nobel Prize in Economics, receiving the award in 2009 for her research on resource management.",
-        "Ostrom studied fisheries, forests, and irrigation systems to identify eight design principles common to communities that successfully manage shared resources.",
-        "Critics argued that Ostrom's findings could not be scaled to address global collective action problems such as climate change.",
-        "By demonstrating that communities could effectively manage shared resources without privatization or government intervention, Ostrom challenged a foundational assumption of economic theory."
-      ],
-      "answerIndex": 3,
-      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is to explain what made Ostrom's work groundbreaking in economics specifically. The correct answer must identify what foundational assumption she challenged and why that was significant.</div><div class='explanation-step'><strong>A)</strong> Being the first woman to win the Nobel is historically notable but does not explain what made the economics research itself groundbreaking. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Describes her methodology and findings, but does not explain why they were groundbreaking — what assumption did she challenge? Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Presents what critics considered as limitations to her work. This evidence does not support the stated goal of explaining Ostrom's groundbreaking work. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Directly states the groundbreaking contribution: she challenged a foundational economic assumption (that shared resources inevitably lead to overexploitation) by demonstrating successful community management without state or market mechanisms. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
+  "id": "VerbalT2-2H-024",
+  "type": "mcq",
+  "level": 2,
+  "skill": {
+    "domain": "Expression of Ideas",
+    "topic": "Rhetorical Synthesis",
+    "skill": "Using Notes"
+  },
+  "stemSegments": [
+    {
+      "text": "While researching a topic, a student has taken the following notes:",
+      "align": "left",
+      "style": "default"
     },
+    {
+      "text": "• Polio paralyzed tens of thousands of Americans annually in the early twentieth century, with the 1952 epidemic being the worst in U.S. history — nearly 58,000 cases reported.\n• Jonas Salk developed the first effective polio vaccine, announced in 1955 after a nationwide trial involving 1.8 million children known as &ldquo;Polio Pioneers.&rdquo;\n• The Salk vaccine used inactivated (killed) poliovirus; Albert Sabin later developed an oral vaccine using weakened live virus, which became the global standard.\n• By 1979, polio was eliminated from the United States; global eradication efforts have reduced cases worldwide by more than 99% since 1988.\n• Some communities resisted vaccination campaigns, slowing eradication efforts in parts of Africa and Asia.",
+      "align": "left",
+      "style": "notes"
+    },
+    {
+      "text": "The student wants to convey both the scale of polio&rsquo;s impact and the magnitude of the achievement in controlling it. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "align": "left",
+      "style": "question"
+    }
+  ],
+  "choices": [
+    "Jonas Salk announced the first effective polio vaccine in 1955 following a trial involving 1.8 million children, one of the largest medical trials in history.",
+    "Albert Sabin&rsquo;s oral vaccine, which used weakened live virus rather than the killed virus in Salk&rsquo;s vaccine, eventually became the global standard for polio prevention.",
+    "A disease that paralyzed nearly 58,000 Americans in its worst single year has been reduced by more than 99% globally since 1988, representing one of the most dramatic public health achievements in modern history.",
+    "Despite the success of vaccination campaigns, resistance in parts of Africa and Asia has prevented the complete global eradication of polio."
+  ],
+  "answerIndex": 2,
+  "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal requires conveying both the scale of polio&rsquo;s impact AND the magnitude of the achievement in controlling it. The correct answer must include both elements.</div><div class='explanation-step'><strong>A)</strong> Describes the trial scale but focuses only on the achievement side — doesn&rsquo;t convey the scale of polio&rsquo;s impact as a disease. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Describes the difference between two vaccines — relevant context but addresses neither the disease&rsquo;s impact nor the magnitude of controlling it. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> Captures both: the scale of impact (58,000 cases in one year) and the magnitude of the achievement (99% reduction globally). Keep C.</div><div class='explanation-step'><strong>D)</strong> Focuses on remaining obstacles to eradication — acknowledges the limits of the achievement rather than its magnitude. Eliminate D.</div><br><br>The correct answer is <strong>C</strong>."
+},
     {
       "id": "VerbalT2-2H-025",
       "type": "mcq",
@@ -602,7 +607,7 @@
           "style": "default"
         },
         {
-          "text": "• Political theorist Dr. Amara Osei argues that the concept of &ldquo;wilderness&rdquo; in American environmentalism has historically excluded indigenous peoples from land they inhabited and managed for millennia.\n• The creation of national parks in the 19th century often involved the forced removal of Native American communities.\n• Dr. Osei argues that the idea of &ldquo;pristine wilderness&rdquo; untouched by humans is a myth &mdash; many landscapes considered wild were actively shaped by indigenous land management, including controlled burns.\n• Critics of Dr. Osei&rsquo;s position argue that acknowledging indigenous land management does not undermine the case for wilderness preservation.\n• Dr. Osei&rsquo;s supporters point out that her argument is not against conservation but for conservation models that include indigenous stewardship.",
+          "text": "• Political theorist Dr. Amara Osei argues that the concept of \"wilderness\" in American environmentalism has historically excluded indigenous peoples from land they inhabited and managed for millennia.\n• The creation of national parks in the 19th century often involved the forced removal of Native American communities.\n• Dr. Osei argues that the idea of \"pristine wilderness\" untouched by humans is a myth &mdash; many landscapes considered wild were actively shaped by indigenous land management, including controlled burns.\n• Critics of Dr. Osei&rsquo;s position argue that acknowledging indigenous land management does not undermine the case for wilderness preservation.\n• Dr. Osei&rsquo;s supporters point out that her argument is not against conservation but for conservation models that include indigenous stewardship.",
           "align": "left",
           "style": "notes"
         },
@@ -612,12 +617,12 @@
           "style": "question"
         }
       ],
-      "choices": [
-        "Dr. Osei challenges the myth of pristine wilderness by pointing out that many landscapes were actively shaped by indigenous land management practices such as controlled burns.",
-        "Critics contend that even if indigenous peoples did manage these landscapes, this does not mean that current conservation policies require fundamental revision — the case for preservation stands regardless.",
-        "The forced removal of Native American communities during the creation of national parks represents a historical injustice that Dr. Osei argues has shaped contemporary conservation policy.",
-        "Dr. Osei&rsquo;s supporters argue that her position is ultimately pro-conservation, advocating for models that incorporate indigenous stewardship rather than opposing preservation entirely."
-      ],
+"choices": [
+    "Dr. Osei challenges the myth of pristine wilderness by pointing out that many landscapes were actively shaped by indigenous land management practices such as controlled burns and deliberate cultivation.",
+    "Critics contend that even if indigenous peoples actively managed these landscapes for millennia, this historical fact does not require revising current conservation policy — the case for wilderness preservation stands independently.",
+    "The forced removal of Native American communities during the creation of 19th-century national parks represents a historical injustice that, Dr. Osei argues, continues to shape contemporary conservation frameworks.",
+    "Dr. Osei's supporters argue that her position is ultimately pro-conservation, advocating for models that incorporate indigenous stewardship practices rather than opposing wilderness preservation altogether."
+],
       "answerIndex": 1,
       "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions at level 3, the goal is to present the critics&rsquo; <em>most compelling objection</em>. The notes say critics argue that &ldquo;acknowledging indigenous land management does not undermine the case for wilderness preservation.&rdquo; The correct answer must articulate why this is a compelling objection — it concedes Dr. Osei&rsquo;s historical point while denying its policy implications.</div><div class='explanation-step'><strong>A)</strong> Presents Dr. Osei&rsquo;s own argument, not the critics&rsquo; objection. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Articulates the critics&rsquo; objection precisely: even granting Dr. Osei&rsquo;s historical claim, it doesn&rsquo;t follow that conservation policy needs revision. This is the most compelling objection because it concedes the premise while denying the conclusion. Keep B.</div><div class='explanation-step'><strong>C)</strong> Describes the historical injustice — part of Dr. Osei&rsquo;s argument, not the critics&rsquo; objection. Eliminate C.</div><div class='explanation-step'><strong>D)</strong> Presents the supporters&rsquo; characterization of Dr. Osei&rsquo;s position — not the critics&rsquo; objection. Eliminate D.</div><br><br>The correct answer is <strong>B</strong>."
     },

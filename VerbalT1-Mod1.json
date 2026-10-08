@@ -584,42 +584,39 @@
 {
       "id": "VerbalT1-1-023",
       "type": "mcq",
-          "skill": {
+      "level": 1,
+      "skill": {
         "domain": "Expression of Ideas",
         "topic": "Rhetorical Synthesis",
         "skill": "Using Notes"
       },
-
-      "level": 1,
-      "set": "Verbal Practice",
-      "tags": ["student research", "summarizing ideas"],
-
       "stemSegments": [
-    {
-      "text": "While researching a topic, a student has taken the following notes:",
-      "align": "left",
-      "style": "default"
+        {
+          "text": "While researching a topic, a student has taken the following notes:",
+          "align": "left",
+          "style": "default"
+        },
+        {
+          "text": "• A 2023 study found that urban trees reduce local temperatures by an average of 2&ndash;4&deg;C.\n• Trees provide shade that reduces cooling costs in nearby buildings.\n• Tree roots absorb stormwater, reducing flooding risk.\n• Urban trees improve air quality by filtering pollutants.\n• A single mature tree can absorb up to 48 pounds of CO₂ per year.",
+          "align": "left",
+          "style": "notes"
+        },
+        {
+          "text": "The student wants to emphasize the climate-related benefits of urban trees specifically. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+          "align": "left",
+          "style": "question"
+        }
+      ],
+      "choices": [
+        "Urban trees improve air quality by filtering pollutants and can absorb up to 48 pounds of CO₂ per year.",
+        "Urban trees reduce flooding risk by absorbing stormwater through their root systems.",
+        "Urban trees provide multiple environmental benefits, including temperature reduction, stormwater absorption, and air quality improvement.",
+        "Urban trees reduce local temperatures by 2&ndash;4&deg;C, lower building cooling costs, and absorb significant amounts of CO₂, making them a valuable tool for urban climate adaptation."
+      ],
+      "answerIndex": 3,
+      "explanation": "<div class='explanation-step'>For <em>Rhetorical Synthesis</em> questions, the goal is key. The student wants to emphasize <em>climate-related</em> benefits specifically — not all environmental benefits.</div><div class='explanation-step'><strong>A)</strong> CO₂ absorption is climate-related, but air quality filtering is a general environmental benefit, not specifically a climate benefit. Eliminate A.</div><div class='explanation-step'><strong>B)</strong> Stormwater absorption addresses flooding, not climate specifically. Eliminate B.</div><div class='explanation-step'><strong>C)</strong> This answer is too broad, and it includes stormwater and air quality, which are not specifically climate benefits.</div><div class='explanation-step'><strong>D)</strong> Combines three specifically climate-related benefits (temperature reduction, cooling costs, CO₂ absorption) and frames them explicitly as climate adaptation tools. Keep D.</div><br><br>The correct answer is <strong>D</strong>."
     },
-    {
-      "text": "• The New Deal, initiated by President Roosevelt in response to the Great Depression, aimed to restore economic security and stability for Americans.\n• Implemented in the 1930s, the New Deal introduced regulatory reforms and social welfare programs to stabilize the economy.\n• The major initiatives of the New Deal also sought to rebuild public trust in financial institutions and strengthen the nation’s banking system.\n• The Great Society, launched in the 1960s, sought to reduce poverty and address social inequalities across the United States.\n• Under President Johnson, the Great Society introduced programs to enhance education, protect civil rights, and expand access to healthcare.",
-      "align": "left",
-      "style": "notes"
-    },
-    {
-      "text": "The student wants to highlight how the New Deal and the Great Society focused on different social and economic goals. Which choice most effectively uses relevant information from the notes to show this difference?",
-      "align": "left",
-      "style": "question"
-    }
-  ],
-  "choices": [
-    "The New Deal, initiated by President Roosevelt in response to the Great Depression, aimed to restore economic security and stability for Americans, and the Great Society, launched in the 1960s, sought to reduce poverty and address social inequalities across the United States.",
-    "The major initiatives of the New Deal targeted unemployment, financial instability, and the erosion of public confidence in the banking system, and the Great Society introduced programs to enhance education, protect civil rights, and expand access to healthcare.",
-    "While the New Deal primarily addressed economic recovery, regulatory reforms, and banking stability, the Great Society focused on reducing poverty, expanding access to education, and promoting civil rights.",
-    "The New Deal was implemented in the 1930s, and the Great Society was launched in the 1960s."
-  ],
-  "answerIndex": 2,
-  "explanation": "<div class='explanation-step'>For <em>Student Research</em> questions, focus on what the student wants to highlight or accomplish. In this case, the student wants to <em>contrast</em> the New Deal and the Great Society and their <em>different social and economic goals</em>. The correct answer must therefore mention both programs and make the contrast in their goals clear.  Looking at the list of bulleted notes, the following state those goals:<ul style='margin-top:8px; margin-bottom:8px; padding-left:20px; line-height:1.8;'><li>The New Deal, initiated by President Roosevelt in response to the Great Depression, aimed to restore economic security and stability for Americans.</li><li>The Great Society, launched in the 1960s, sought to reduce poverty and address social inequalities across the United States.</li></ul></div><div class='explanation-step'>The correct answer should paraphrase these stated goals and should indicate a contrast between them.</div><div class='explanation-step'><strong>A)</strong>This answer is accurate and mentions both programs with their goals. Keep A.</div><div class='explanation-step'><strong>B)</strong>This choice gives detailed examples of the programs rather than a broad contrast of goals, which makes it less aligned with the task. Eliminate B.</div><div class='explanation-step'><strong>C)</strong>This choice uses the word &ldquo;while,&rdquo; which signals contrast and clearly distinguishes the focus of each program. It directly fulfills the prompt’s goal of contrasting their different aims. Keep C.</div><div class='explanation-step'><strong>D)</strong>This is purely chronological and doesn’t mention the programs’ goals. Eliminate D.</div><div class='explanation-step'>Now compare A and C: although A accurately describes both programs, it lists them side by side rather than contrasting them. The lack of a transition like &ldquo;while&rdquo; or &ldquo;whereas&rdquo; means it doesn’t fulfill the rhetorical goal, and makes C the <em>best</em> answer. Eliminate A and this means <strong>C</strong> is the correct answer.</div>"
-},
+
 {
       "id": "VerbalT1-1-024",
       "type": "mcq",
