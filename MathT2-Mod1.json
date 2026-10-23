@@ -97,7 +97,7 @@
         "\\(1{,}531\\)"
       ],
       "answerIndex": 2,
-      "explanation": "<div class='explanation-step'>This is a percent decrease of an unknown original value. Translate the information from words to an equation to solve. \\(851\\) is tickets sold after an \\(8\\)% decrease from the another amount of tickets sold, so the equation is \\(851=x-.08x) </div><div class='explanation-math'>$$\\begin{aligned} 851=.92x \\\\ x=\\frac{851}{.92) &= 925 \\end{aligned}$$</div>"
+      "explanation": "<div class='explanation-step'>This is a percent decrease of an unknown original value. Translate the information from words to an equation to solve. \\(851\\) is tickets sold after an \\(8\\)% decrease from the another amount of tickets sold, so the equation is \\(851=x-.08x\\) </div><div class='explanation-math'>$$\\begin{aligned} 851=.92x \\\\ x=\\frac{851}{.92) &= 925 \\end{aligned}$$</div>"
     },
     {
       "id": "MathT2-1-006",
@@ -196,7 +196,7 @@
     "\\(m = \\dfrac{20n}{3k}\\)"
   ],
   "answerIndex": 3,
-  "explanation": "<div class='explanation-step'>Cross-multiply to eliminate the fractions.</div><div class='explanation-math'>$$\\begin{aligned}3mk &= 20n \\\\ m &= \\frac{20n}{3k}\\end{aligned}$$</div>"
+  "explanation": "<div class='explanation-step'>Multiply both sides by \\(4n\\) to clear it away from the left.</div><div class='explanation-math'>$$\\begin{aligned}3mk &= 20n \\\\ 3m &= \\frac{20n}{k}\\end{aligned}$$</div><div class='explanation-step'>Divide both sides by \\(3\\) to isolate \\(m\\). <div class='explanation-math'>$$\\begin{aligned}3mk &= 20n \\\\ m &= \\frac{20n}{3k}\\end{aligned}$$</div>"
 },
     {
       "id": "MathT2-1-011",
@@ -215,7 +215,7 @@
         "\\(P(t) = 500 + 2t\\)"
       ],
       "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>Since the population doubles every 3 hours, the exponent must equal 1 when \\(t = 3\\). This means the exponent is \\(\\frac{t}{3}\\), giving \\(P(t) = 500 \\cdot 2^{t/3}\\).</div><div class='explanation-step'>Check: at \\(t = 0\\), \\(P = 500\\) ✓. At \\(t = 3\\), \\(P = 500 \\cdot 2^1 = 1000\\) ✓ (doubled). At \\(t = 6\\), \\(P = 500 \\cdot 2^2 = 2000\\) ✓ (doubled again).</div>"
+      "explanation": "<div class='explanation-step'>Since the population doubles every 3 hours, the exponent must equal 1 when \\(t = 3\\). This means the exponent is \\(\\frac{t}{3}\\), giving \\(P(t) = 500 \\cdot 2^{\\frac{t}{3}}\\).</div><div class='explanation-step'>Check: at \\(t = 0\\), \\(P = 500\\) ✓. At \\(t = 3\\), \\(P = 500 \\cdot 2^1 = 1000\\) ✓ (doubled). At \\(t = 6\\), \\(P = 500 \\cdot 2^2 = 2000\\) ✓ (doubled again).</div>"
     },
     {
   "id": "MathT2-1-012",
@@ -274,7 +274,7 @@
     "\\(2{,}880\\)"
   ],
   "answerIndex": 1,
-  "explanation": "<div class='explanation-step'>Convert meters per minute to kilometers per hour using the given conversion factor and the fact that there are 60 minutes in 1 hour.</div><div class='explanation-math'>$$480 \\frac{\\text{m}}{\\text{min}} \\times \\frac{60 \\text{ min}}{1 \\text{ hr}} \\times \\frac{1 \\text{ km}}{1{,}000 \\text{ m}} = 28.8 \\frac{\\text{km}}{\\text{hr}}$$</div>"
+  "explanation": "<div class='explanation-step'>Convert meters per minute to kilometers per hour using the given conversion factor and the fact that there are 60 minutes in 1 hour. Set up each conversion factor so the unwanted units cancel.</div><div class='explanation-math'>$$\\frac{480 \\cancel{\\text{ m}}}{1 \\cancel{\\text{ min}}} \\times \\frac{60 \\cancel{\\text{ min}}}{1 \\text{ hr}} \\times \\frac{1 \\text{ km}}{1{,}000 \\cancel{\\text{ m}}} = \\frac{28.8 \\text{ km}}{1 \\text{ hr}}$$</div>"
 },
     {
       "id": "MathT2-1-015",
@@ -323,15 +323,15 @@
     "topic": "Systems of Equations",
     "skill": "Systems of Linear Equations"
   },
-  "stem": "$$3x + 2y = 17$$$$-3x + 5y = 11$$The solution to the given system of equations is \\((x, y)\\). What is the value of \\(21y\\)?",
+  "stem": "$$5x + 2y = 17$$$$3x - 2y = 4$$The solution to the given system of equations is \\((x, y)\\). What is the value of \\(24x\\)?",
   "choices": [
+    "\\(21\\)",
+    "\\(42\\)",
     "\\(63\\)",
-    "\\(77\\)",
-    "\\(84\\)",
-    "\\(91\\)"
+    "\\(168\\)"
   ],
   "answerIndex": 2,
-  "explanation": "<div class='explanation-step'>Add the two equations directly to eliminate \\(x\\).</div><div class='explanation-math'>$$\\begin{aligned}3x + 2y &= 17 \\\\ + \\quad (-3x + 5y) &= 11 \\\\ \\hline 7y &= 28\\end{aligned}$$</div><div class='explanation-step'>The question asks for \\(21y\\), which is \\(3 \\times 7y\\).</div><div class='explanation-math'>$$21y = 3(7y) = 3(28) = 84$$</div>"
+  "explanation": "<div class='explanation-step'>Add the two equations to eliminate \\(y\\).</div><div class='explanation-math'>$$\\begin{aligned}5x + 2y &= 17 \\\\ + \\quad 3x - 2y &= 4 \\\\ \\hline 8x &= 21\\end{aligned}$$</div><div class='explanation-step'>The question asks for \\(24x\\), which is \\(3 \\times 8x\\). There is no need to solve for \\(x\\) itself, which is a fraction.</div><div class='explanation-math'>$$24x = 3(8x) = 3(21) = 63$$</div>"
 },
     {
       "id": "MathT2-1-018",
@@ -363,7 +363,7 @@
     "topic": "Inference",
     "skill": "Making Inferences from Sample Data"
   },
-  "stem": "<div class='stem-text'>A city surveyed 480 randomly selected residents about their preferred activity at the local park. The results are shown in the table below.</div><div class='stem-table-wrap'><table class='stem-table'><tr><th>Preferred Activity</th><th>Number of Residents</th></tr><tr><td>Walking or jogging</td><td>312</td></tr><tr><td>Team sports</td><td>168</td></tr><tr><td>Total</td><td>480</td></tr></table></div><div style='margin-top:12px;'>The city has 12,000 residents. Based on the survey results, how many more residents would be expected to prefer walking or jogging than team sports?</div>",
+  "stem": "<div class='stem-text'>A city surveyed 480 randomly selected residents about their preferred activity at the local park. The results are shown in the table below.</div><div class='stem-table-wrap'><table class='stem-table'><tr><th>Preferred Activity</th><th>Number of Residents</th></tr><tr><td style='text-align:left;'>Walking or jogging</td><td>312</td></tr><tr><td style='text-align:left;'>Team sports</td><td>168</td></tr><tr><td style='text-align:left;'>Total</td><td>480</td></tr></table></div><div style='margin-top:12px;'>The city has 12,000 residents. Based on the survey results, how many more residents would be expected to prefer walking or jogging than team sports?</div>",
   "choices": [
     "\\(1{,}600\\)",
     "\\(2{,}600\\)",
@@ -384,12 +384,12 @@
   },
   "stem": "In right triangle \\(ABC\\), angle \\(B\\) measures \\(90°\\) and angle \\(A\\) measures \\(30°\\). If the length of \\(AC\\) is \\(12\\), what is the area of triangle \\(ABC\\)?",
   "choices": [
-    "\\(12\\sqrt{3}\\)",
-    "\\(18\\sqrt{3}\\)",
-    "\\(24\\sqrt{3}\\)",
-    "\\(36\\sqrt{3}\\)"
-  ],
-  "answerIndex": 1,
+  "\\(18\\)",
+  "\\(18\\sqrt{3}\\)",
+  "\\(36\\)",
+  "\\(36\\sqrt{3}\\)"
+],
+"answerIndex": 1,
   "explanation": "<div class='explanation-step'>Since angle \\(B = 90°\\) and angle \\(A = 30°\\), angle \\(C = 60°\\). Side \\(AC\\) is the hypotenuse. In a \\(30°\\)-\\(60°\\)-\\(90°\\) triangle, the shorter leg is half the hypotenuse and the longer leg is \\(\\sqrt{3}\\) times the shorter leg.</div><div class='explanation-math'>$$BC = \\frac{12}{2} = 6 \\qquad AB = 6\\sqrt{3}$$</div><div class='explanation-step'>The legs \\(BC\\) and \\(AB\\) are the base and height of the triangle.</div><div class='explanation-math'>$$\\text{Area} = \\frac{1}{2} \\times 6 \\times 6\\sqrt{3} = 18\\sqrt{3}$$</div>"
 },
 {

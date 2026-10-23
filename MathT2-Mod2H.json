@@ -55,7 +55,7 @@
         "topic": "Probability",
         "skill": "Calculating Conditional Probability"
       },
-      "stem": "<div class='stem-text'>The table shows data for 120 employees at a company based on their work location and employment type.</div><div class='stem-table-wrap'><table class='stem-table'><tr><th></th><th>Full-time</th><th>Part-time</th><th>Total</th></tr><tr><td>Remote</td><td>35</td><td>25</td><td>60</td></tr><tr><td>In-office</td><td>40</td><td>20</td><td>60</td></tr><tr><td>Total</td><td>75</td><td>45</td><td>120</td></tr></table></div><div style='margin-top:12px;'>A full-time employee is selected at random. What is the probability that this employee works remotely?</div>",
+      "stem": "<div class='stem-text'>The table shows data for 120 employees at a company based on their work location and employment type.</div><div class='stem-table-wrap'><table class='stem-table'><tr><th></th><th>Full-time</th><th>Part-time</th><th>Total</th></tr><tr><td style='text-align:left;'>Remote</td><td>35</td><td>25</td><td>60</td></tr><tr><td style='text-align:left;'>In-office</td><td>40</td><td>20</td><td>60</td></tr><tr><td style='text-align:left;'>Total</td><td>75</td><td>45</td><td>120</td></tr></table></div><div style='margin-top:12px;'>A full-time employee is selected at random. What is the probability that this employee works remotely?</div>",
       "choices": [
         "\\(\\dfrac{35}{120}\\)",
         "\\(\\dfrac{35}{75}\\)",
@@ -65,25 +65,25 @@
       "answerIndex": 1,
       "explanation": "<div class='explanation-step'>Since the employee is known to be full-time, restrict to the 75 full-time employees. Of those, 35 work remotely.</div><div class='explanation-math'>$$P(\\text{remote} \\mid \\text{full-time}) = \\frac{35}{75}$$</div><div class='explanation-step'>The other choices use incorrect denominators: 120 (total employees), 60 (total remote), or represent the wrong probability entirely.</div>"
     },
-    {
-      "id": "MathT2-2H-004",
-      "type": "mcq",
-      "level": 3,
-      "skill": {
-        "domain": "Algebra",
-        "topic": "Equations and Inequalities",
-        "skill": "Modeling"
-      },
-      "stem": "A scientist needs to collect at least 500 water samples for a study. She has already collected 95 samples and can collect 45 additional samples each day. What is the minimum number of days she must continue collecting to meet her goal?",
-      "choices": [
-        "\\(8\\)",
-        "\\(9\\)",
-        "\\(10\\)",
-        "\\(11\\)"
-      ],
-      "answerIndex": 1,
-      "explanation": "<div class='explanation-step'>Let \\(d\\) = number of additional days. She needs at least 500 total.</div><div class='explanation-math'>$$95 + 45d \\geq 500 \\implies 45d \\geq 405 \\implies d \\geq 9$$</div><div class='explanation-step'>After 8 days: \\(95 + 45(8) = 455 < 500\\). After 9 days: \\(95 + 45(9) = 500 \\geq 500\\). The minimum is \\(9\\) days.</div>"
-    },
+{
+  "id": "MathT2-2H-004",
+  "type": "mcq",
+  "level": 3,
+  "skill": {
+    "domain": "Algebra",
+    "topic": "Equations and Inequalities",
+    "skill": "Modeling"
+  },
+  "stem": "A scientist needs to collect at least 500 water samples for a study. She has already collected 95 samples and can collect 48 additional samples each day. What is the minimum number of days she must continue collecting to meet her goal?",
+  "choices": [
+    "\\(8\\)",
+    "\\(9\\)",
+    "\\(10\\)",
+    "\\(11\\)"
+  ],
+  "answerIndex": 1,
+  "explanation": "<div class='explanation-step'>Let \\(d\\) = number of additional days. She needs at least 500 total.</div><div class='explanation-math'>$$95 + 48d \\geq 500 \\implies 48d \\geq 405 \\implies d \\geq 8.4375$$</div><div class='explanation-step'>She can only collect for a whole number of days, so \\(d\\) must be rounded up. After 8 days: \\(95 + 48(8) = 479 < 500\\), which is not enough. After 9 days: \\(95 + 48(9) = 527 \\geq 500\\). The minimum is \\(9\\) days.</div>"
+},
     {
       "id": "MathT2-2H-005",
       "type": "mcq",
